@@ -1,0 +1,53 @@
+{
+  "moderation": {
+    "actionNoun": {
+      "BAN": "Baneo",
+      "SOFTBAN": "Softban",
+      "KICK": "Expulsión",
+      "MUTE": "Silenciamiento",
+      "UNMUTE": "Fin del silenciamiento",
+      "WARN": "Advertencia",
+      "NOTE": "Anotación",
+      "PRUNE": "Limpieza de mensajes",
+      "UNBAN": "Desbaneo"
+    },
+    "actionVerb": {
+      "BAN": "baneado",
+      "SOFTBAN": "baneado temporalmente",
+      "KICK": "expulsado",
+      "MUTE": "silenciado",
+      "WARN": "advertido",
+      "UNBAN": "desbaneado",
+      "UNMUTE": "desilenciado"
+    },
+    "dm": {
+      "body": "Has sido **{action}** en el servidor **{guild}**.\n\n**Motivo:** {reason}\n**Caso:** {case}",
+      "duration": "\n**Duración:** {duration}",
+      "appeal": "\n\nPara apelar, entra en: {appealUrl}",
+      "noReason": "sin motivo especificado",
+      "guildFallback": "el servidor"
+    },
+    "modlog": {
+      "title": "Caso #{caseNumber} — {action}",
+      "member": "Miembro",
+      "appliedBy": "Aplicado por",
+      "reason": "Motivo",
+      "noReason": "_(sin motivo)_",
+      "duration": "Duración: {duration}"
+    },
+    "pruneReason": "{count, plural, =1 {# mensaje} other {# mensajes}} en <#{channelId}>",
+    "pruneReasonRegex": "{count, plural, =1 {# mensaje} other {# mensajes}} en <#{channelId}> (regex: {regex})",
+    "purgeReason": "{count, plural, =1 {# mensaje} other {# mensajes}} de <@{userId}> en todo el servidor",
+    "purgeReasonDays": "{count, plural, =1 {# mensaje} other {# mensajes}} de <@{userId}> en todo el servidor ({days, plural, =1 {último día} other {últimos # días}})"
+  },
+  "honeypot": {
+    "defaultWarning": "⚠️ **No envíes mensajes en este canal.** Cualquier mensaje aquí resulta en un **baneo automático**. Este es un canal trampa contra cuentas comprometidas/hackeadas que envían spam en todos los canales abiertos."
+  },
+  "appeal": {
+    "defaultQuestion": {
+      "reason": "¿Por qué crees que la sanción debería revisarse?",
+      "context": "¿Algún contexto adicional?"
+    },
+    "guildFallback": "Servidor"
+  }
+}

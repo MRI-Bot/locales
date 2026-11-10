@@ -1,0 +1,22 @@
+{
+  "loading": "Cargando...",
+  "loadError": "No se pudo cargar el formulario de apelación. Verifica el enlace.",
+  "errors": {
+    "invalidId": "Ingresa tu Discord User ID (17-20 dígitos).",
+    "required": "Responde: \"{question}\".",
+    "submit": "No se pudo enviar la apelación."
+  },
+  "done": {
+    "title": "Apelación enviada",
+    "bodyPrefix": "Tu apelación fue registrada y el staff de",
+    "bodySuffix": "la revisará. Guarda este código para darle seguimiento:"
+  },
+  "closedPrefix": "Las apelaciones están cerradas en",
+  "closedSuffix": "por el momento.",
+  "form": {
+    "title": "Apelar, {guild}",
+    "discordId": "Tu Discord User ID",
+    "discordIdPlaceholder": "ej.: 289124013375094794",
+    "submit": "Enviar apelación"
+  }
+}

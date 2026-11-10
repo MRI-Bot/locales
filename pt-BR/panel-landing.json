@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "title": "MRI BOT | Loja, tickets e gestão pro seu Discord",
+    "description": "MRI BOT junta loja com Pix, tickets, whitelist, moderação e integração com FiveM num bot só, configurado por um painel web. Comece grátis."
+  },
+  "nav": {
+    "label": "Seções",
+    "panel": "Painel",
+    "audience": "Pra quem é",
+    "howItWorks": "Como funciona",
+    "pricing": "Preços",
+    "openPanel": "Abrir painel",
+    "signIn": "Entrar"
+  },
+  "hero": {
+    "membersCount": "+{count} mil",
+    "headline": "membros em {servers} servidores já rodam com o MRI BOT.",
+    "lead": "Loja com Pix, tickets, whitelist, moderação e integração com FiveM num bot só. Você configura tudo num painel web, e o bot faz o trabalho no Discord.",
+    "start": "Começar grátis",
+    "seePanel": "Ver o painel",
+    "perks": {
+      "noCard": "Sem cartão de crédito",
+      "fast": "Pronto em poucos minutos",
+      "pix": "Pix direto na sua conta"
+    },
+    "shotAlt": "Visão geral do painel do MRI BOT com membros, tickets, pendências e atividade do servidor",
+    "shotNote": "Telas reais do painel, com dados de exemplo. Membros somados dos servidores com o bot, atualizados a cada hora."
+  },
+  "demo": {
+    "channel": "vendas",
+    "caption": "Exemplo de uma venda",
+    "bought": "Comprou {product} na loja, R$ 29,90 no Pix",
+    "product": "Cargo VIP",
+    "pixApproved": "Pix aprovado no Mercado Pago",
+    "delivered": "{role} entregue para {user}",
+    "recorded": "Venda registrada no painel. Ninguém da staff precisou acordar."
+  },
+  "trust": {
+    "label": "Garantias",
+    "fast": {
+      "title": "Entrega em segundos",
+      "body": "O cargo cai assim que o Pix é aprovado."
+    },
+    "money": {
+      "title": "Dinheiro na sua conta",
+      "body": "O Pix entra direto no seu Mercado Pago."
+    },
+    "support": {
+      "title": "Suporte em português",
+      "body": "Time brasileiro, atendimento no Discord."
+    },
+    "free": {
+      "title": "Plano grátis de verdade",
+      "body": "Sem mensalidade e sem cartão pra começar."
+    },
+    "processedBy": "Pagamentos processados pelo {logo}"
+  },
+  "audiences": {
+    "title": "Feito pra quem cuida de servidor.",
+    "lead": "Se você já perdeu noite fazendo à mão o que um bot devia fazer sozinho, o MRI BOT foi pensado pra você.",
+    "rp": {
+      "title": "Servidores de RP e jogos",
+      "body": "Venda VIP, acesso a canais e itens no jogo. O bot entrega quando o Pix cai, sem ninguém da staff acordado de madrugada."
+    },
+    "digital": {
+      "title": "Quem vende produto digital",
+      "body": "Mods, scripts, presets e PDFs saem do seu Google Drive direto pra DM de quem comprou."
+    },
+    "communities": {
+      "title": "Comunidades grandes",
+      "body": "Tickets, whitelist, moderação e enquetes num lugar só. A staff para de apagar incêndio e cuida do que importa."
+    }
+  },
+  "showcase": {
+    "finance": {
+      "label": "Financeiro",
+      "title": "Todo o dinheiro do servidor numa tela só",
+      "body": "Loja, assinaturas e pacotes pré-pagos somados. Você vê quanto recebeu, de onde veio e cada pagamento, sem abrir três lugares.",
+      "bullets": {
+        "periods": "Bruto, taxa e líquido por período",
+        "compare": "Comparação com o período anterior",
+        "export": "Planilha pronta pra exportar"
+      },
+      "alt": "Tela Financeiro com valor recebido, origem do dinheiro por loja, recorrente e pacotes, e gráfico por dia"
+    },
+    "store": {
+      "label": "Loja",
+      "title": "Loja com Pix e cartão",
+      "body": "Venda cargos, acesso a canais, arquivos do Drive e itens no jogo. O pagamento cai na sua conta do Mercado Pago, e a entrega acontece sozinha.",
+      "bullets": {
+        "coupons": "Cupons, carrinho e produtos em destaque",
+        "page": "Página da loja com o seu visual",
+        "delivery": "Entrega automática ou manual"
+      },
+      "alt": "Tela da loja no painel com produtos, preços, vendidos e estoque"
+    },
+    "tickets": {
+      "label": "Atendimento",
+      "title": "Atendimento que a staff consegue tocar",
+      "body": "Tickets com formulário, avaliação e histórico, e os números que mostram onde o atendimento trava.",
+      "bullets": {
+        "form": "Formulário e tipos de atendimento",
+        "rating": "Avaliação do atendimento por DM",
+        "times": "Tempo de resposta e horários de pico"
+      },
+      "alt": "Desempenho do atendimento com tempo médio até resolver, tickets abertos em 30 dias, atendentes e horário de pico"
+    },
+    "fivem": {
+      "label": "FiveM e MTA",
+      "title": "Integrado ao seu servidor de jogo",
+      "body": "O jogador vincula a conta do Discord, entra na fila pelo cargo e recebe no jogo o que comprou na loja.",
+      "bullets": {
+        "allowlist": "Allowlist e fila com prioridade por cargo",
+        "actions": "Ações no jogo depois da compra",
+        "kick": "Kick e banimento pelo painel"
+      },
+      "alt": "Tela do módulo FiveM com configuração, fila por cargo e config.lua"
+    }
+  },
+  "tour": {
+    "label": "Telas do painel"
+  },
+  "features": {
+    "title": "Tudo o que o servidor precisa, num painel só.",
+    "lead": "Cada módulo liga e desliga no painel. Comece pelo que você usa hoje e ative o resto quando fizer falta.",
+    "moreTitle": "E mais módulos no mesmo painel"
+  },
+  "more": {
+    "whitelist": {
+      "title": "Whitelist",
+      "body": "Inscrição com formulário, e aprovar já dá o cargo."
+    },
+    "moderation": {
+      "title": "Moderação",
+      "body": "Antispam, logs, boas-vindas e cargos automáticos."
+    },
+    "subscriptions": {
+      "title": "Assinaturas",
+      "body": "Planos mensais no Pix, com cargo que renova sozinho."
+    },
+    "polls": {
+      "title": "Enquetes e sorteios",
+      "body": "Votação por botão e sorteio com requisitos."
+    },
+    "messages": {
+      "title": "Mensagens",
+      "body": "Anúncios agendados e DM em massa por cargo."
+    },
+    "ai": {
+      "title": "Assistente com IA",
+      "body": "Responde as dúvidas dos membros nos canais escolhidos."
+    },
+    "community": {
+      "title": "Comunidade",
+      "body": "Sugestões, reporte de bugs e formulário pra staff."
+    },
+    "boost": {
+      "title": "Boost",
+      "body": "Recompensa automática pra quem impulsiona o servidor."
+    },
+    "identity": {
+      "title": "Bot com o seu nome",
+      "body": "Apelido e foto do bot do jeito do seu servidor."
+    }
+  },
+  "how": {
+    "title": "Do convite à primeira venda em minutos.",
+    "step": "Passo {number}",
+    "steps": {
+      "invite": {
+        "title": "Coloque o bot no servidor",
+        "body": "Entre com o Discord, escolha o servidor e adicione o bot. Não tem nada pra instalar."
+      },
+      "connect": {
+        "title": "Conecte o Mercado Pago",
+        "body": "A autorização é feita na sua conta do Mercado Pago, e a gente não acessa o seu saldo. O Google Drive é opcional, pra quem vende arquivo."
+      },
+      "products": {
+        "title": "Crie os produtos",
+        "body": "Escolha o que entregar (cargo, canal, arquivo ou item no jogo), defina preço e estoque. A loja vai pro ar com link próprio."
+      }
+    },
+    "cta": "Começar agora"
+  },
+  "pricing": {
+    "title": "Comece grátis e mude de plano quando precisar.",
+    "lead": "Sem período de teste e sem fidelidade. O plano grátis não expira.",
+    "forever": "pra sempre",
+    "perMonth": "/ mês",
+    "saleFee": "+ R$ 1 por venda (no máximo 10%)",
+    "free": {
+      "unlimitedBot": "Bot Discord ilimitado",
+      "ticketsPolls": "Tickets, enquetes e projetos",
+      "oneStore": "1 loja pública",
+      "storeMethods": "Loja com Pix, cartão e Drive"
+    },
+    "pro": {
+      "everythingInFree": "Tudo do Free",
+      "subscriptions": "Assinaturas recorrentes (Pix mensal)",
+      "roleRenewal": "Renovação automática de cargos",
+      "recurringBilling": "Cobrança recorrente pelo Mercado Pago"
+    },
+    "proMax": {
+      "everythingInPro": "Tudo do Pro",
+      "noSaleFee": "Taxa por venda: R$ 0",
+      "prioritySupport": "Suporte prioritário",
+      "whiteLabel": "White-label completo",
+      "unlimitedVolume": "Volume ilimitado"
+    },
+    "subscribe": "Assinar {plan}",
+    "featured": "Mais escolhido",
+    "mpFees": "O Mercado Pago cobra as próprias taxas (3,79% no Pix, cerca de 5% no cartão), pagas pelo vendedor em qualquer ferramenta."
+  },
+  "faq": {
+    "title": "Perguntas frequentes",
+    "payout": {
+      "q": "O dinheiro vai pra minha conta do Mercado Pago?",
+      "a": "Sim. Você conecta a sua conta do Mercado Pago no painel, e o pagamento cai direto nela, com a taxa da plataforma descontada na hora. A gente não tem acesso ao seu saldo."
+    },
+    "saleFee": {
+      "q": "Como funciona a taxa por venda?",
+      "a": "Nos planos Free e Pro, cobramos R$ 1 por venda confirmada, ou no máximo 10% do preço, o que for menor. No Pro Max a taxa é R$ 0. As taxas do Mercado Pago (cerca de 3,79% no Pix e 5% no cartão) são à parte e pagas pelo vendedor, como em qualquer ferramenta."
+    },
+    "chargeback": {
+      "q": "E se o comprador pedir estorno?",
+      "a": "Segue o processo normal do Mercado Pago: você recebe o aviso no painel, e o bot desfaz a entrega (tira o cargo ou o acesso). O dinheiro volta pelo próprio Mercado Pago."
+    },
+    "card": {
+      "q": "Preciso de cartão de crédito pra começar?",
+      "a": "Não. O plano Free já inclui a loja com Pix, cartão e Drive, é grátis pra sempre e não pede cartão. O Pro só faz sentido quando você quiser assinaturas mensais, como cargo VIP recorrente."
+    },
+    "fivem": {
+      "q": "Funciona com servidor de FiveM ou roleplay?",
+      "a": "Sim, é o uso mais comum. Além de vender VIP e acesso a canais, o módulo FiveM vincula a conta do jogador, controla allowlist e fila por cargo e executa ações no jogo depois da compra. Também tem integração com MTA."
+    },
+    "cancelPro": {
+      "q": "Se eu cancelar o Pro, perco vendas ou dados?",
+      "a": "Não. Loja, histórico e configuração continuam como estão, e você volta pro Free vendendo normalmente. Só as assinaturas recorrentes param de renovar. Você pode exportar seus dados quando quiser."
+    },
+    "openSource": {
+      "q": "O bot é open source?",
+      "a": "Não. Mas as novidades são decididas junto com a comunidade no nosso Discord."
+    }
+  },
+  "final": {
+    "title": "Coloque o seu servidor entre os {servers}.",
+    "lead": "Entre com o Discord e configure em poucos minutos. O plano grátis já inclui a loja.",
+    "signIn": "Entrar com Discord"
+  },
+  "footer": {
+    "tagline": "Loja, tickets, moderação e integração com jogos pra comunidades do Discord.",
+    "product": "Produto",
+    "features": "Recursos",
+    "help": "Ajuda",
+    "support": "Suporte no Discord",
+    "status": "Status",
+    "contact": "Contato",
+    "legal": "Legal",
+    "terms": "Termos de Uso",
+    "privacy": "Política de Privacidade",
+    "cookies": "Cookies",
+    "copyright": "© {year} MRI BOT. Feito no Brasil."
+  }
+}

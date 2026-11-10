@@ -1,0 +1,95 @@
+{
+  "calendar": {
+    "previousMonth": "Mes anterior",
+    "nextMonth": "Mes siguiente"
+  },
+  "dateTime": {
+    "dateAtTime": "{date} a las {time}",
+    "selectDate": "Selecciona la fecha",
+    "selectDateTime": "Selecciona fecha y hora",
+    "time": "Hora",
+    "clear": "Borrar",
+    "today": "Hoy",
+    "now": "Ahora"
+  },
+  "channelSelect": {
+    "placeholder": "Seleccionar canal",
+    "search": "Buscar canal...",
+    "empty": "No se encontró ningún canal.",
+    "categories": "Categorías",
+    "noCategory": "Sin categoría"
+  },
+  "roleSelect": {
+    "placeholder": "Seleccionar rol",
+    "search": "Buscar rol...",
+    "empty": "No se encontró ningún rol."
+  },
+  "memberSelect": {
+    "placeholder": "Añadir persona…",
+    "search": "Buscar miembro…",
+    "typeToSearch": "Escribe para buscar.",
+    "searching": "Buscando…",
+    "empty": "Ningún miembro.",
+    "max": "Máximo de {max} personas."
+  },
+  "colorPicker": {
+    "select": "Seleccionar color",
+    "defaultHint": "Color predeterminado (haz clic para elegir)",
+    "change": "Cambiar color",
+    "clear": "Borrar color"
+  },
+  "emoji": {
+    "insert": "Insertar emoji",
+    "search": "Buscar..."
+  },
+  "mention": {
+    "insert": "Insertar mención",
+    "tooltip": "Mencionar (rol / miembro)",
+    "search": "Buscar rol, canal o miembro…",
+    "members": "Miembros",
+    "roles": "Roles",
+    "noRoles": "Ningún rol.",
+    "channels": "Canales",
+    "noChannels": "Ningún canal."
+  },
+  "editor": {
+    "heading1": "Título grande (#)",
+    "heading2": "Título mediano (##)",
+    "heading3": "Título pequeño (###)",
+    "bold": "Negrita (Ctrl+B)",
+    "italic": "Cursiva (Ctrl+I)",
+    "underline": "Subrayado (Ctrl+U)",
+    "strike": "Tachado",
+    "code": "Código en línea",
+    "codeBlock": "Bloque de código",
+    "quote": "Cita",
+    "showFormatted": "Ver con formato",
+    "showMarkdown": "Ver markdown"
+  },
+  "upload": {
+    "button": "Subir archivo",
+    "done": "Imagen subida.",
+    "failed": "Error al subir.",
+    "urlPlaceholder": "https://... (o sube un archivo)"
+  },
+  "gallery": {
+    "label": "Galería (opcional, hasta {max})",
+    "hint": "Aparecen como carrusel debajo de la imagen principal en la tienda pública.",
+    "uploading": "Subiendo",
+    "add": "Añadir"
+  },
+  "numberInput": {
+    "increase": "Aumentar",
+    "decrease": "Disminuir"
+  },
+  "sectionNav": {
+    "more": "Más"
+  },
+  "toast": {
+    "detailsCopied": "Detalles del error copiados.",
+    "errorCode": "Código del error: {id}",
+    "genericError": "No se pudo completar. Inténtalo de nuevo.",
+    "copyDetails": "Copiar detalles",
+    "unexpected": "Error inesperado"
+  }
+}

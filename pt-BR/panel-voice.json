@@ -1,0 +1,69 @@
+{
+  "title": "Voz",
+  "description": "Canais de voz temporários (join-to-create) em {guild}.",
+  "navLabel": "Telas de Voz",
+  "tabs": {
+    "hubs": "Hubs",
+    "active": "Ativos",
+    "howItWorks": "Como funciona"
+  },
+  "howItWorks": {
+    "title": "Como funciona",
+    "hub": "Crie um {hub} apontando pra um canal de voz gatilho. Quem entrar nele ganha um canal temporário próprio e é movido pra lá.",
+    "hubWord": "hub",
+    "controls": "O canal é deletado automaticamente quando esvazia. O dono controla tudo pelo {panel} (botões) ou por {command}: travar, ocultar, limite, renomear, permitir, bloquear, transferir e assumir.",
+    "panelWord": "painel",
+    "placement": "O painel pode ficar no {chat} do canal ou num {channel} (configurável por hub).",
+    "chatWord": "chat integrado",
+    "channelWord": "canal Interface dedicado",
+    "preferences": "As preferências do membro (nome, limite, travado…) são {remembered} e restauradas no próximo canal que ele criar.",
+    "rememberedWord": "lembradas"
+  },
+  "active": {
+    "loadFailed": "Falha ao carregar canais ativos.",
+    "intro": "Canais temporários ativos agora neste servidor.",
+    "empty": "Nenhum canal temporário ativo no momento.",
+    "owner": "Dono",
+    "limit": "limite {limit}"
+  },
+  "hubs": {
+    "loadFailed": "Falha ao carregar hubs. O módulo Voz está ativo neste servidor?",
+    "removed": "Hub removido.",
+    "removeFailed": "Falha ao remover hub.",
+    "intro": "Canais \"join-to-create\": ao entrar neles, o membro ganha um canal de voz temporário.",
+    "new": "Novo hub",
+    "empty": "Nenhum hub ainda. Crie um apontando pra um canal de voz gatilho.",
+    "disabled": "(desativado)",
+    "limit": "limite {limit}",
+    "panel": "painel {mode}",
+    "edit": "Editar"
+  },
+  "dialog": {
+    "errorChannel": "Selecione o canal \"join-to-create\".",
+    "errorPanelChannel": "Selecione o canal Interface para o painel dedicado.",
+    "updated": "Hub atualizado.",
+    "created": "Hub criado.",
+    "saveFailed": "Falha ao salvar hub.",
+    "editTitle": "Editar hub",
+    "channel": "Canal \"join-to-create\" (voz)",
+    "channelPlaceholder": "Selecione um canal de voz",
+    "category": "Categoria dos canais criados (opcional)",
+    "categorySame": "Mesma do hub",
+    "categorySearch": "Buscar categoria...",
+    "nameTemplate": "Template do nome ('{user}', '{username}')",
+    "userLimit": "Limite padrão (vazio = ∞)",
+    "bitrate": "Bitrate padrão (kbps)",
+    "region": "Região (opcional, ex: brazil, us-east)",
+    "regionPlaceholder": "automática",
+    "locked": "Trancado por padrão",
+    "hidden": "Oculto por padrão",
+    "panelMode": "Painel de controle",
+    "panelIntegrated": "Chat integrado do canal",
+    "panelDedicated": "Canal \"Interface\" dedicado",
+    "panelNone": "Sem painel (só /voice)",
+    "panelChannel": "Canal Interface (texto)",
+    "panelChannelPlaceholder": "Selecione um canal de texto",
+    "enabled": "Hub ativo",
+    "saving": "Salvando…"
+  }
+}

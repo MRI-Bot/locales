@@ -1,0 +1,68 @@
+{
+  "defaultServerName": "Servidor principal",
+  "vars": {
+    "account": "Conta",
+    "amount": "Valor",
+    "item": "Item",
+    "quantity": "Quantidade",
+    "job": "Emprego",
+    "grade": "Nível",
+    "gang": "Gangue",
+    "model": "Modelo (spawn name)",
+    "plate": "Placa (opcional)",
+    "garage": "Garagem (opcional)",
+    "tier": "Tier"
+  },
+  "packs": {
+    "framework": {
+      "label": "Framework (QBCore, Qbox, ESX)",
+      "description": "Ações de dinheiro, item, emprego, gangue e revive. Exigem o resource mri-botcreator atualizado, que detecta o framework e traduz. Gangue não vale no ESX (o core não tem)."
+    },
+    "mriQbox": {
+      "label": "MRI Qbox (VIP)",
+      "description": "Concede e remove tier de VIP pelo comando do mri_Qbox. Só funciona em servidor que roda o mri_Qbox — em outro sistema de VIP, edite o comando da ação depois de importar."
+    }
+  },
+  "presets": {
+    "giveMoney": {
+      "label": "Dar dinheiro",
+      "description": "Deposita na conta escolhida do jogador."
+    },
+    "removeMoney": {
+      "label": "Tirar dinheiro",
+      "description": "Remove da conta escolhida do jogador."
+    },
+    "giveItem": {
+      "label": "Dar item",
+      "description": "Coloca um item no inventário do jogador."
+    },
+    "removeItem": {
+      "label": "Tirar item",
+      "description": "Remove um item do inventário do jogador."
+    },
+    "setJob": {
+      "label": "Definir emprego",
+      "description": "Troca o emprego e o nível do jogador."
+    },
+    "setGang": {
+      "label": "Definir gangue",
+      "description": "Troca a gangue e o nível do jogador (QBCore/Qbox)."
+    },
+    "revive": {
+      "label": "Reviver",
+      "description": "Revive o jogador onde ele estiver."
+    },
+    "giveVehicle": {
+      "label": "Dar veículo",
+      "description": "Coloca um veículo na garagem do jogador (QBCore/Qbox)."
+    },
+    "giveVip": {
+      "label": "Dar VIP",
+      "description": "Ativa um tier de VIP no jogador."
+    },
+    "removeVip": {
+      "label": "Tirar VIP",
+      "description": "Remove um tier de VIP do jogador. Par natural do \"Dar VIP\" no cargo→ação: entra quando o cargo é ganho, sai quando é perdido."
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "categories": {
+    "account": "Cuenta en el panel",
+    "linkedGuilds": "Servidores vinculados a tu panel",
+    "gamification": "Progreso de gamificación",
+    "votes": "Votos y participaciones en sorteos",
+    "tickets": "Tickets de soporte",
+    "applications": "Solicitudes (whitelist y staff)",
+    "purchases": "Compras y suscripciones",
+    "moderation": "Registros de moderación",
+    "gameLinks": "Vínculos de juego (FiveM / MTA)",
+    "anonymousMessages": "Mensajes anónimos enviados",
+    "accessLogs": "Registros de acceso (últimos 180 días)"
+  },
+  "export": {
+    "notice": "Los datos de los servidores que administras no están aquí: en ellos el responsable del tratamiento es el servidor y MRI Bot es el encargado del tratamiento."
+  }
+}

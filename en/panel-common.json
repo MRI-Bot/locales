@@ -1,0 +1,16 @@
+{
+  "actions": {
+    "retry": "Try again",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "remove": "Remove",
+    "close": "Close",
+    "confirm": "Confirm",
+    "back": "Back",
+    "refresh": "Refresh"
+  },
+  "status": {
+    "loading": "Loading..."
+  }
+}

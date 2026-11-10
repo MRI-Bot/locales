@@ -1,0 +1,70 @@
+{
+  "noGuild": "Use this command inside a server.",
+  "inactive": {
+    "title": "Polls module inactive",
+    "menu": "Enable the \"Polls\" module in the dashboard before creating polls in this server.",
+    "short": "Enable the \"Polls\" module in the dashboard."
+  },
+  "noPermission": {
+    "menu": "You don't have permission to open the polls menu.",
+    "create": "You don't have permission to create polls in this server.",
+    "close": "You don't have permission to close polls in this server."
+  },
+  "menu": {
+    "title": "🗳️ Polls Menu",
+    "description": "Use the buttons below to manage polls.\n\n• **Create poll** opens a form and posts the poll in this channel.\n• **Close poll** ends an active poll early.\n• Voting happens on the buttons of the poll message itself.",
+    "create": "Create poll",
+    "yesNo": "Quick Yes / No",
+    "close": "Close poll"
+  },
+  "modal": {
+    "createTitle": "Create poll",
+    "yesNoTitle": "Quick Yes/No",
+    "question": "Question",
+    "questionPlaceholder": "e.g. What's your favorite color?",
+    "yesNoQuestionPlaceholder": "e.g. Should the next event be PVP?",
+    "options": "Options (one per line, 2 to 25)",
+    "optionsPlaceholder": "Yes\nNo\nMaybe",
+    "duration": "Duration in minutes (optional)",
+    "durationPlaceholder": "Leave empty for no automatic close"
+  },
+  "create": {
+    "optionCount": "Provide between 2 and 25 options, one per line.",
+    "invalidDuration": "Invalid duration. Use minutes between 1 and 43200 (30 days).",
+    "invalidChannel": "Invalid channel to post the poll.",
+    "saveFailed": "Couldn't save the poll. Please try again.",
+    "postFailed": "Couldn't post the poll in the channel. Check the bot's permissions.",
+    "done": "Poll created",
+    "yesNoDone": "Yes/No poll created",
+    "endsIn": "Voting ends in **{count, plural, one {# minute} other {# minutes}}**.",
+    "noEnd": "The poll will stay open until it is closed manually.",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "close": {
+    "fetchFailed": "Couldn't fetch the active polls.",
+    "noneTitle": "No active polls",
+    "noneDescription": "There are no open polls to close in this server.",
+    "placeholder": "Choose the poll to close",
+    "title": "Close poll",
+    "description": "Select below which poll you want to close.",
+    "doneTitle": "Poll closed",
+    "doneDescription": "The poll was closed and the message updated."
+  },
+  "message": {
+    "options": "Options",
+    "resultsHidden": "🔒 *Results hidden until the poll closes.*",
+    "votes": "{count, plural, one {# vote} other {# votes}}",
+    "footerClosed": "{votes} • Closed",
+    "endsRelative": "⏰ Ends {time}",
+    "closed": "🔒 Closed",
+    "closedPlain": "Closed",
+    "upToChoices": "☑️ Up to {count} choices",
+    "multiChoice": "☑️ Multiple choice",
+    "singleChoice": "1️⃣ 1 choice allowed",
+    "anonymous": "🕶️ Anonymous vote",
+    "settings": "Settings",
+    "ends": "Ends",
+    "open": "Open"
+  }
+}

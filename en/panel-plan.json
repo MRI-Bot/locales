@@ -1,0 +1,90 @@
+{
+  "nudge": {
+    "activated": "Server activated on PRO!",
+    "activateError": "Could not activate.",
+    "isFree": "This server is on {plan}.",
+    "unlimited": "Your plan covers unlimited servers, activate here to unlock PRO features on this server.",
+    "freeSlots": "You have {slots}, activate here to unlock PRO features on this server.",
+    "slotsCount": "{count, plural, one {# free PRO slot} other {# free PRO slots}}",
+    "activate": "Activate PRO on this server"
+  },
+  "serverPlan": {
+    "title": "Server plan",
+    "description": "What {guild} has today. Subscription and payments live in your account.",
+    "loadError": "Could not load this server's plan.",
+    "activated": "Plan activated on this server.",
+    "activeBadge": "Active on this server",
+    "freeBadge": "Free",
+    "takeOver": "Take over coverage",
+    "activateHere": "Activate on this server",
+    "openAccount": "Open my account",
+    "describe": {
+      "coveredByMe": "Covered by your {plan} plan.",
+      "coveredByOtherTakeOver": "Covered by another subscriber whose plan is expired or lower than yours. You can take over.",
+      "coveredByOther": "Covered by another subscriber. Only that person can change the coverage.",
+      "isPro": "This server is on the {plan} plan.",
+      "canDesignate": "Your plan has a free slot. Activate here to unlock paid features on this server.",
+      "allUsed": "All slots in your plan are in use. Free one up in your account.",
+      "free": "This server is on the free plan. Subscribe to a plan in your account to unlock more features."
+    }
+  },
+  "slots": {
+    "title": "PRO servers",
+    "description": "Your {plan} plan covers {count, plural, one {# server} other {# servers}}. Choose which ones use PRO features; the rest run on Free.",
+    "inUse": "{used}/{max} in use",
+    "empty": "You don't own any server with the bot installed yet.",
+    "coveredByMe": "PRO (your slot)",
+    "coveredByOther": "PRO (by another subscriber)",
+    "takeOver": "Take over",
+    "takeOverHint": "The covering subscriber's subscription is expired or on a lower tier.",
+    "releasableAt": "Can be released on {date} (cooldown)",
+    "removePro": "Remove PRO",
+    "makePro": "Make PRO",
+    "noFreeSlots": "No free slots, remove PRO from another server.",
+    "madePro": "Server marked as PRO.",
+    "backToFree": "Server is back on Free.",
+    "updateError": "Could not update.",
+    "cooldown": "After marking a server as PRO, you must wait {count, plural, one {# day} other {# days}} before moving that slot to another one."
+  },
+  "lock": {
+    "defaultTitle": "PRO feature",
+    "tookOver": "Coverage taken over!",
+    "madePro": "Server marked as PRO!",
+    "takeOver": "Take over this server's coverage",
+    "makeProButton": "Make this server PRO",
+    "manageSlots": "Manage PRO servers",
+    "seePlans": "See plans",
+    "requires": "This feature requires the {plan} plan.",
+    "pro": {
+      "canTakeOver": "This server is on {plan}, take over coverage with your plan to unlock it.",
+      "coveredByMe": "This server is on {plan}, covered by you. Upgrade your plan to unlock it.",
+      "coveredByOther": "This server is on {plan}, covered by another subscriber. Ask them to upgrade, or cover the server with a higher plan.",
+      "other": "This server is on {plan}."
+    },
+    "free": {
+      "canDesignateUnlimited": "Your plan covers unlimited servers. Activate PRO on this server in 1 click.",
+      "canDesignate": "You have a free slot ({used}/{max}). Activate PRO on this server in 1 click.",
+      "canTakeOver": "The subscriber covering this server has an expired subscription, you can take over coverage.",
+      "coveredByOther": "This server is covered by another subscriber. Ask them to free the slot, or cover it with a higher plan.",
+      "allUsed": "You've already used all your PRO slots ({used}/{max}). Free up another server in \"My plan\" to cover this one.",
+      "paidPlan": "Your plan already covers your servers. If this one isn't covered, manage it in \"My plan\".",
+      "noPlan": "Upgrade to unlock PRO slots, or ask a linked subscriber to cover this server."
+    }
+  },
+  "discount": {
+    "label": "Promotional discount",
+    "description": "When on, the store shows the full price struck through, the discounted price and the percentage badge, and the discounted price is what gets charged.",
+    "kind": "Type",
+    "kindPercent": "Percentage",
+    "kindPromoPrice": "Promotional price",
+    "promoPrice": "Promotional price (R$)",
+    "percent": "Discount (%)",
+    "startsAt": "Starts at (optional)",
+    "endsAt": "Ends at (optional)",
+    "noDates": "Without dates, the promotion runs while it's on.",
+    "previewTitle": "How it looks in the store",
+    "belowFloor": "The final price would be {final}, below the minimum of {min}. Lower the discount or raise the price.",
+    "notCheaper": "The promotional price must be lower than the full price.",
+    "fillToPreview": "Fill in the discount to see the result."
+  }
+}

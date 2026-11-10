@@ -1,0 +1,102 @@
+{
+  "accordion": {
+    "unsaved": "Alterações não salvas",
+    "active": "Ativo",
+    "inactive": "Desativado",
+    "enable": "Ativar",
+    "disable": "Desativar"
+  },
+  "saveRow": {
+    "discard": "Descartar"
+  },
+  "multiPicker": {
+    "addChannel": "Adicionar canal...",
+    "addRole": "Adicionar cargo..."
+  },
+  "roleWarning": {
+    "fixed": "Tudo certo, o bot já consegue dar esse cargo.",
+    "title": "O bot não consegue dar {roles}",
+    "moveUp": "No Discord, abra Configurações do servidor > Cargos e arraste \"{botRole}\" para cima de {roles}.",
+    "grantManageRoles": "No Discord, abra Configurações do servidor > Cargos e ative a permissão Gerenciar Cargos em \"{botRole}\".",
+    "recheck": "Verificar de novo",
+    "howToFix": "Ver como resolver"
+  },
+  "preview": {
+    "title": "Preview no Discord"
+  },
+  "statusPanel": {
+    "embedContent": "Conteúdo do embed",
+    "placeholdersHint": "Use {placeholders}, o bot troca pelo valor ao vivo a cada atualização.",
+    "title": "Título",
+    "thumbnail": "Thumbnail (opcional)",
+    "description": "Descrição (opcional)",
+    "descriptionPlaceholder": "Utilize os botões abaixo para se conectar.",
+    "image": "Imagem (opcional)",
+    "imageHint": "Imagem grande, no rodapé do embed, abaixo dos campos. A thumbnail acima fica no canto superior direito.",
+    "fields": "Campos ({count}/{max})",
+    "fieldsHint": "Dois campos inline seguidos ficam lado a lado; sem inline, o campo ocupa a linha inteira.",
+    "addField": "Campo",
+    "noFields": "Sem campos, o embed fica só com título, descrição e o botão de entrar.",
+    "fieldNamePlaceholder": "Nome do campo (ex: Status)",
+    "inlineLabel": "Inline no campo {n}",
+    "moveUp": "Mover pra cima",
+    "moveDown": "Mover pra baixo",
+    "removeField": "Remover campo",
+    "preview": "Preview",
+    "saveToPreview": "Salve o painel pra ver o preview live.",
+    "noData": "Sem dados ainda."
+  },
+  "composer": {
+    "accentColor": "Cor da barra lateral",
+    "blocks": {
+      "text": "Texto",
+      "image": "Imagem",
+      "gallery": "Galeria",
+      "section": "Seção",
+      "separator": "Separador",
+      "field": "Campo"
+    },
+    "fieldHint": "Campo dinâmico, o bot preenche o valor.",
+    "inChannel": "em",
+    "empty": "Use a barra acima pra adicionar blocos.",
+    "help": "Clica num bloco pra editar, arrasta pela alça (⠿) pra reordenar.",
+    "helpFields": "Nos campos você muda só o rótulo, o valor o bot preenche ao publicar.",
+    "drag": "Arrastar",
+    "textPlaceholder": "Escreve aqui… (negrito, itálico, emojis e mais na barra acima)",
+    "noLabel": "(sem rótulo)",
+    "separator": {
+      "line": "Linha",
+      "spacing": "Espaço:",
+      "small": "pequeno",
+      "large": "grande"
+    },
+    "button": {
+      "changeEmoji": "Trocar emoji",
+      "counterHint": "Contador de participantes (preenchido pelo bot)",
+      "labelPlaceholder": "Entrar",
+      "color": "Cor:",
+      "position": "Posição:",
+      "inside": "dentro do card",
+      "outside": "fora do card",
+      "showCounter": "Mostrar contador"
+    },
+    "section": {
+      "textPlaceholder": "Texto… (markdown)",
+      "labelPlaceholder": "(rótulo)",
+      "empty": "Adiciona texto ou campo (máx 3) ao lado da imagem.",
+      "noAccessory": "Sem acessório",
+      "button": "Botão",
+      "defaultButtonLabel": "Abrir"
+    },
+    "image": {
+      "change": "Trocar imagem",
+      "changeShort": "Trocar",
+      "remove": "Remover imagem",
+      "upload": "Enviar imagem"
+    },
+    "gallery": {
+      "max": "Máximo {max} imagens na galeria.",
+      "add": "Adicionar imagens ({count}/{max})"
+    }
+  }
+}

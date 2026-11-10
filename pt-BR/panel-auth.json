@@ -1,0 +1,29 @@
+{
+  "login": {
+    "badge": "Painel para comunidades Discord",
+    "title": "Entre com Discord e configure cada servidor em um painel próprio.",
+    "description": "O acesso é liberado por servidor: se o bot está instalado e você tem permissão, o dashboard aparece pronto para configurar módulos, canais e automações.",
+    "validating": "Validando login...",
+    "signIn": "Entrar com Discord",
+    "footnote": "Você entra com sua conta do Discord. Nenhum servidor abre sem permissão de gerenciamento.",
+    "preview": {
+      "server": "Servidor",
+      "activeModules": "módulos ativos",
+      "permissions": "permissões",
+      "botInstalled": "Bot instalado",
+      "dashboardUnlocked": "Dashboard liberado para administradores."
+    }
+  },
+  "pending": {
+    "title": "Aguardando aprovação",
+    "introPrefix": "O",
+    "introSuffix": "ainda não foi liberado. Estamos em beta fechado e cada servidor é aprovado manualmente. Até lá o painel fica bloqueado e o bot não responde a comandos nesse servidor, ele continua lá, só pausado.",
+    "meaningLabel": "O que isso significa:",
+    "meaning": "o bot já está no servidor, mas o dashboard, comandos e webhooks ficam bloqueados até a liberação.",
+    "howLabel": "Como liberar:",
+    "howPrefix": "entre em contato com a equipe MRI pelo link abaixo, informando o ID do servidor (",
+    "howSuffix": ").",
+    "requestAccess": "Solicitar acesso",
+    "back": "Voltar pra lista de servidores"
+  }
+}

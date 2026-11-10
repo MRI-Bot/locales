@@ -1,0 +1,38 @@
+{
+  "checks": {
+    "blacklist": {
+      "label": "No estar en la lista negra",
+      "message": "No puedes participar en este sorteo."
+    },
+    "requiredRole": {
+      "label": "Tener el rol obligatorio",
+      "message": "Necesitas el rol obligatorio en este servidor."
+    },
+    "excludedRole": {
+      "label": "No tener el rol bloqueado",
+      "message": "Tienes un rol que te impide participar en este sorteo."
+    },
+    "minServerDays": {
+      "label": "Llevar al menos {days, plural, one {# día} other {# días}} en el servidor",
+      "message": "Necesitas llevar al menos {days, plural, one {# día} other {# días}} en el servidor."
+    },
+    "minAccountDays": {
+      "label": "Cuenta de Discord con al menos {days, plural, one {# día} other {# días}}",
+      "message": "Tu cuenta debe tener al menos {days, plural, one {# día} other {# días}}."
+    },
+    "requiredGuild": {
+      "label": "Ser miembro del servidor {guildName}",
+      "message": "Necesitas unirte al servidor {guildName}.",
+      "labelAny": "Estar en el Discord requerido",
+      "messageAny": "Necesitas estar en otro Discord específico."
+    }
+  },
+  "list": {
+    "requiredRole": "Tener un rol específico en el servidor",
+    "excludedRole": "No tener un rol específico en el servidor",
+    "minServerDays": "Llevar {days, plural, one {# día} other {# días}} en el servidor",
+    "minAccountDays": "Cuenta de Discord con {days}+ días",
+    "requiredGuild": "Ser miembro del servidor {guildName}",
+    "requiredGuildAny": "Estar en otro Discord"
+  }
+}

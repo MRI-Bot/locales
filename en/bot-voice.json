@@ -1,0 +1,76 @@
+{
+  "noTemp": "❌ You don't have a temporary voice channel. Join a \"join-to-create\" channel.",
+  "noActiveTemp": "❌ You don't have an active temporary channel.",
+  "notFound": "❌ Temporary channel not found.",
+  "ownerOnly": "❌ Only the channel owner can use this control.",
+  "unknownSubcommand": "❌ Unknown subcommand.",
+  "unknownAction": "❌ Unknown action.",
+  "locked": "🔒 Channel locked.",
+  "unlocked": "🔓 Channel unlocked.",
+  "hidden": "👁️ Channel hidden.",
+  "visible": "✅ Channel visible.",
+  "limitSet": "🔢 Limit: {limit}.",
+  "unlimited": "unlimited",
+  "renamed": "✏️ Channel renamed to **{name}**.",
+  "permitted": "✅ {user} allowed in the channel.",
+  "rejected": "⛔ {user} blocked and disconnected.",
+  "transferred": "🔁 Channel transferred to {user}.",
+  "cantPermitBot": "❌ You can't allow a bot.",
+  "cantTransferBot": "❌ You can't transfer the channel to a bot.",
+  "cantApplyToBot": "❌ This action can't be applied to a bot.",
+  "cantRejectSelf": "❌ You can't block yourself.",
+  "noUserSelected": "❌ No user selected.",
+  "panelReposted": "🎙️ Panel reposted in the channel.",
+  "claim": {
+    "joinTempFirst": "❌ Join a temporary channel to claim it.",
+    "joinChannelFirst": "❌ Join the channel to claim it.",
+    "ownerStillHere": "❌ The owner is still in the channel.",
+    "nowOwner": "👑 You are now the channel owner.",
+    "ownerLeft": "👑 The owner left the channel. Anyone inside can claim it with the **Claim** button or `{command}`."
+  },
+  "pick": {
+    "permit": "✅ Select who to **allow** in the channel:",
+    "reject": "⛔ Select who to **block** from the channel:",
+    "transfer": "🔁 Select who to **transfer** the channel to:",
+    "placeholder": "Choose a user"
+  },
+  "modal": {
+    "limitTitle": "User limit",
+    "limitLabel": "Limit (0 = unlimited, max 99)",
+    "renameTitle": "Rename channel",
+    "renameLabel": "New name"
+  },
+  "panel": {
+    "title": "🎙️ Voice channel panel",
+    "intro": "Control your temporary channel with the buttons below. Only the **owner** can use them (except **Claim**, available when the owner leaves).",
+    "dedicatedIntro": "Join a **join-to-create** channel to get your temporary channel, then use the buttons below to control it.",
+    "owner": "**Owner:** {user}",
+    "buttons": {
+      "lock": "Lock",
+      "hide": "Hide",
+      "limit": "Limit",
+      "rename": "Rename",
+      "claim": "Claim",
+      "permit": "Allow",
+      "reject": "Block",
+      "transfer": "Transfer"
+    },
+    "state": {
+      "locked": "🔒 Locked",
+      "open": "🔓 Open",
+      "hidden": "🙈 Hidden",
+      "visible": "👁️ Visible",
+      "limit": "Limit {limit}",
+      "noLimit": "No limit"
+    }
+  },
+  "audit": {
+    "overwrites": "Temporary channel update",
+    "rejected": "Blocked from temporary channel",
+    "created": "Temporary channel (hub {hub}) for {user}",
+    "ownerLeftBeforeMove": "Owner left before being moved",
+    "empty": "Empty temporary channel",
+    "reconcileEmpty": "Reconciliation: empty temporary channel on restart",
+    "sweepEmpty": "Sweep: empty temporary channel"
+  }
+}

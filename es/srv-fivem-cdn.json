@@ -1,0 +1,15 @@
+{
+  "verify": {
+    "off": "CDN apagado o sin dirección.",
+    "noResource": "El resource todavía no se identificó.",
+    "internalNetwork": "Esta dirección apunta a una red interna y no se acepta.",
+    "dnsNotFound": "No encontré esta dirección (DNS).",
+    "httpStatus": "El servidor respondió HTTP {status} al desafío. ¿El resource de MRI está actualizado?",
+    "mismatch": "El servidor respondió, pero el desafío no coincide. ¿La API key es de este servidor?",
+    "connectFailed": "No pude conectar a {host}:{port}. ¿El puerto está abierto a internet?"
+  },
+  "stats": {
+    "notConfigured": "CDN no configurado.",
+    "noData": "Sin datos."
+  }
+}

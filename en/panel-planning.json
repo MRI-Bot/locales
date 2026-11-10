@@ -1,0 +1,98 @@
+{
+  "header": {
+    "title": "Planning",
+    "description": "Model your business and projects with canvases (BMC, Lean, PM Canvas) and documents.",
+    "newDoc": "New document"
+  },
+  "nav": {
+    "label": "Plans",
+    "active": "Active",
+    "archived": "Archived"
+  },
+  "empty": {
+    "archived": "No archived documents",
+    "none": "No documents yet",
+    "hint": "Create your first canvas to model your business or a project.",
+    "create": "Create document"
+  },
+  "card": {
+    "progress": "{filled}/{total} blocks filled",
+    "restore": "Restore"
+  },
+  "unknownTemplate": "Unknown template for this document.",
+  "toasts": {
+    "created": "Document created!",
+    "archived": "Document archived.",
+    "restored": "Document restored.",
+    "deleted": "Document deleted."
+  },
+  "errors": {
+    "load": "Failed to load.",
+    "open": "Failed to open the document.",
+    "restore": "Failed to restore."
+  },
+  "fields": {
+    "title": "Title",
+    "descriptionOptional": "Description (optional)"
+  },
+  "addCard": "Add card",
+  "editor": {
+    "saveError": "Failed to save.",
+    "titleRequired": "The title can't be empty.",
+    "updated": "Document updated.",
+    "updateError": "Failed to update.",
+    "archive": "Archive",
+    "archiveConfirm": {
+      "title": "Archive document?",
+      "description": "\"{title}\" leaves the active list, but can be restored from the Archived tab."
+    },
+    "archiveError": "Failed to archive.",
+    "deleteConfirm": {
+      "title": "Delete document?",
+      "description": "\"{title}\" will be permanently removed. This can't be undone."
+    },
+    "deleteError": "Failed to delete.",
+    "titlePlaceholder": "Document title",
+    "editMeta": "Edit title and description",
+    "edit": "Edit",
+    "preview": "Preview",
+    "views": {
+      "list": "List",
+      "board": "Board",
+      "canvas": "Canvas"
+    },
+    "emptyDoc": "Empty document.",
+    "markdownPlaceholder": "Write in markdown…",
+    "saveStatus": {
+      "retry": "Try saving",
+      "saving": "Saving…",
+      "pending": "Pending",
+      "saved": "Saved"
+    }
+  },
+  "cardDialog": {
+    "new": "New card",
+    "edit": "Edit card",
+    "titlePlaceholder": "The sticky note's phrase",
+    "detail": "Details",
+    "noDetail": "No details.",
+    "detailPlaceholder": "Add details here (markdown supported)…",
+    "color": "Color",
+    "noColor": "No color",
+    "done": "Done"
+  },
+  "create": {
+    "typeRequired": "Pick a document type.",
+    "titleRequired": "Give the document a title.",
+    "error": "Failed to create the document.",
+    "template": "Template",
+    "titlePlaceholder": "E.g.: mri_botcreator business model",
+    "descriptionPlaceholder": "A short summary of what this document covers."
+  },
+  "board": {
+    "dropHere": "Drag cards here"
+  },
+  "canvas": {
+    "empty": "empty"
+  }
+}

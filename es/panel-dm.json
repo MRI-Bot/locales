@@ -1,0 +1,99 @@
+{
+  "header": {
+    "title": "DM masivo",
+    "description": "Envía un mensaje directo del bot a todos los miembros de un rol en {guild}. Úsalo con responsabilidad: el DM masivo es invasivo y Discord puede limitar los envíos excesivos."
+  },
+  "lock": {
+    "title": "DM masivo",
+    "description": "Enviar un DM del bot a todos los miembros de un rol, con informe de entrega."
+  },
+  "errors": {
+    "load": "Error al cargar.",
+    "chooseRole": "Elige el rol de destino.",
+    "writeMessage": "Escribe el mensaje.",
+    "send": "Error al iniciar el envío."
+  },
+  "confirm": {
+    "roleFallback": "rol",
+    "title": "¿Enviar DM masivo?",
+    "description": "El mensaje llega por DM a TODOS los miembros con el rol \"{role}\". Quien tenga los DM cerrados no lo recibe (es normal). No se puede deshacer.",
+    "button": "Enviar ahora"
+  },
+  "send": {
+    "started": "¡Envío iniciado! Sigue el progreso abajo."
+  },
+  "form": {
+    "role": "Rol de destino",
+    "rolePlaceholder": "Elegir rol…",
+    "roleHint": "El DM va a todos los miembros con este rol (los bots se ignoran).",
+    "message": "Mensaje",
+    "messagePlaceholder": "Ej.: ¡Hola! Tu VIP vence mañana. Renuévalo para no perder los beneficios 👇",
+    "lockedHint": "Función no incluida en el plan de este servidor.",
+    "needsBotHint": "Configura e invita a tu propio bot para habilitar el envío.",
+    "send": "Enviar DM masivo"
+  },
+  "campaigns": {
+    "title": "Envíos recientes",
+    "empty": "Aún no hay envíos. Elige un rol y envía tu primer DM masivo.",
+    "roleFallback": "Rol",
+    "target": "Destino",
+    "status": {
+      "done": "Completado",
+      "sending": "Enviando",
+      "queued": "En cola",
+      "cancelled": "Cancelado"
+    }
+  },
+  "status": {
+    "delivered": "Entregado",
+    "closed": "DM cerrado",
+    "failed": "Falló"
+  },
+  "customBot": {
+    "missing": {
+      "title": "El DM masivo requiere un bot propio",
+      "text": "El envío sale por tu bot, no por el bot de la plataforma, así los límites de envío y la responsabilidad por el volumen quedan en tu aplicación.",
+      "action": "Configurar en Identidad del bot"
+    },
+    "invalid": {
+      "title": "Discord rechazó el token de tu bot",
+      "text": "Probablemente fue regenerado. Mientras tanto, los envíos quedan en pausa. Pega un token nuevo para reanudar.",
+      "action": "Actualizar en Identidad del bot"
+    },
+    "absent": {
+      "title": "Tu bot no está en este servidor",
+      "text": "Sin él aquí, ningún mensaje directo puede salir; todos volverían como “DM cerrado”. Los envíos quedan en pausa hasta que lo invites.",
+      "action": "Invitar al bot"
+    }
+  },
+  "deliveries": {
+    "title": "Entregas individuales",
+    "optOut": "{count, plural, one {# miembro silenció los avisos de este servidor} other {# miembros silenciaron los avisos de este servidor}}",
+    "hint": "Avisos automáticos individuales (moderación, tienda, suscripción, ticket…). El DM masivo no aparece aquí; su resultado está en la tarjeta del envío. Los registros se borran después de 6 meses.",
+    "allOrigins": "Todos los orígenes",
+    "allResults": "Todos los resultados",
+    "empty": "Aún no hay entregas registradas.",
+    "emptyFiltered": "No hay entregas registradas con estos filtros.",
+    "customSenderTitle": "Enviado por tu propio bot",
+    "customSender": "tu bot",
+    "loadMore": "Cargar más"
+  },
+  "features": {
+    "adminPunishment": "Moderación: aviso de sanción",
+    "subscriptionCycle": "Suscripción: aviso de ciclo",
+    "automodNotice": "Automod: mensaje eliminado",
+    "boostThanks": "Boost: agradecimiento",
+    "communityAnonymous": "Anónimo: respuesta del equipo",
+    "communityBugReport": "Bug report: actualización",
+    "communityStaff": "Comunidad: mensaje del equipo",
+    "communitySuggestion": "Sugerencia: decisión",
+    "gamificationLevelUp": "Gamificación: subió de nivel",
+    "giveawayWinner": "Sorteo: aviso de victoria",
+    "marketplaceDigitalDelivery": "Tienda: entrega de archivo",
+    "marketplaceSaleLog": "Tienda: log de venta",
+    "ticketRating": "Ticket: solicitud de valoración",
+    "ticketLowRating": "Ticket: alerta de nota baja",
+    "whitelistApproved": "Whitelist: aprobada",
+    "whitelistRejected": "Whitelist: rechazada"
+  }
+}

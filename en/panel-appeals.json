@@ -1,0 +1,22 @@
+{
+  "loading": "Loading...",
+  "loadError": "Couldn't load the appeal form. Check the link.",
+  "errors": {
+    "invalidId": "Enter your Discord User ID (17-20 digits).",
+    "required": "Answer: \"{question}\".",
+    "submit": "Failed to send appeal."
+  },
+  "done": {
+    "title": "Appeal sent",
+    "bodyPrefix": "Your appeal was recorded and the staff of",
+    "bodySuffix": "will review it. Keep this code to follow up:"
+  },
+  "closedPrefix": "Appeals are closed in",
+  "closedSuffix": "right now.",
+  "form": {
+    "title": "Appeal, {guild}",
+    "discordId": "Your Discord User ID",
+    "discordIdPlaceholder": "e.g. 289124013375094794",
+    "submit": "Send appeal"
+  }
+}

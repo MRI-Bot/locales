@@ -1,0 +1,5 @@
+{
+  "failed": "I couldn't save that right now. Try again in a moment.",
+  "stopped": "🔕 Done. You won't receive this server's announcements anymore.\n-# Moderation notices, billing, purchase delivery and support ratings still come through — they respond to something you did, they aren't announcements.\n-# To undo: `{command}`.",
+  "resumed": "🔔 Done. You'll receive this server's announcements again."
+}

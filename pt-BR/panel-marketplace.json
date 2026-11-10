@@ -1,0 +1,37 @@
+{
+  "title": "Módulos",
+  "descriptionCount": "{active} de {total} ativos em {guild}. Ligue só o que o servidor usa.",
+  "description": "Ligue só o que o servidor usa.",
+  "useTemplate": "Usar um modelo",
+  "loading": "Carregando módulos...",
+  "saveError": "Não foi possível salvar o módulo.",
+  "searchPlaceholder": "Buscar módulo",
+  "tabs": {
+    "all": "Todos ({count})",
+    "active": "Ativos ({count})",
+    "inactive": "Desativados ({count})"
+  },
+  "empty": {
+    "title": "Nenhum módulo encontrado",
+    "withQuery": "Nada encontrado para \"{query}\" neste filtro.",
+    "noQuery": "Nenhum módulo neste filtro."
+  },
+  "comingSoon": {
+    "title": "Em breve",
+    "hint": "No roadmap",
+    "uninstall": "Desinstalar {module}",
+    "staleHint": "Ainda instalado de uma versão anterior, desinstalar"
+  },
+  "card": {
+    "new": "Novo",
+    "beta": "Beta",
+    "unavailableDescription": "Temporariamente indisponível. Tente novamente mais tarde.",
+    "earlyAccessDescription": "Em acesso antecipado. Aguarde a liberação pelo administrador.",
+    "open": "Abrir",
+    "saving": "Salvando",
+    "unavailable": "Indisponível",
+    "earlyAccess": "Antecipado",
+    "enable": "Ativar {module}",
+    "disable": "Desativar {module}"
+  }
+}

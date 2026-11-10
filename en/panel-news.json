@@ -1,0 +1,37 @@
+{
+  "title": "What's new",
+  "description": "Everything that landed in the bot: new modules, commands and features.",
+  "unread": "{count, plural, one {# unread.} other {# unread.}}",
+  "filter": {
+    "all": "All",
+    "unread": "Unread"
+  },
+  "markAllRead": "Mark all as read",
+  "markRead": "Mark as read",
+  "readMore": "Read more",
+  "collapse": "Collapse",
+  "empty": {
+    "caughtUp": "You're all caught up. 🎉",
+    "none": "No news published yet."
+  },
+  "kind": {
+    "MODULE": "New module",
+    "MODULE_LIFECYCLE": "Out of beta",
+    "FEATURE": "New feature",
+    "COMMAND": "New command",
+    "IMPROVEMENT": "Improvement",
+    "FIX": "Fix",
+    "ANNOUNCEMENT": "Announcement"
+  },
+  "badge": {
+    "new": "New",
+    "requiresPro": "Requires PRO",
+    "requiresModule": "Requires {module}"
+  },
+  "cta": {
+    "learnMore": "Learn more",
+    "viewPlans": "View plans",
+    "enableModule": "Enable module",
+    "open": "Open"
+  }
+}

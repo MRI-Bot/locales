@@ -1,0 +1,100 @@
+{
+  "errors": {
+    "save": "No se pudo guardar.",
+    "action": "No se pudo completar.",
+    "block": "No se pudo bloquear.",
+    "unblock": "No se pudo desbloquear."
+  },
+  "setup": {
+    "defaultTitle": "Foro {guild}",
+    "saved": "Ajustes guardados.",
+    "created": "Foro creado.",
+    "address": "Dirección",
+    "name": "Nombre del foro",
+    "description": "Descripción",
+    "descriptionPlaceholder": "Aparece en la parte superior del foro y en Google.",
+    "announce": "Avisar de temas nuevos en Discord",
+    "announceNone": "No avisar",
+    "announceHint": "El bot publica el título y el enlace de cada tema abierto en el sitio.",
+    "published": "Foro en línea",
+    "publishedHint": "Si está desactivado, el sitio responde que la página no existe. No se borra nada.",
+    "save": "Guardar ajustes",
+    "create": "Crear foro"
+  },
+  "categories": {
+    "title": "Categorías",
+    "hint": "Se convierten en filtros en la parte superior del foro. Quien abre un tema elige una.",
+    "deleteTitle": "¿Borrar la categoría {name}?",
+    "deleteDescription": "Sus temas siguen en el foro, sin categoría.",
+    "delete": "Borrar",
+    "deleteAria": "Borrar {name}",
+    "deleted": "Categoría borrada.",
+    "created": "Categoría creada.",
+    "placeholder": "Ej.: Dudas, Tutoriales, Scripts",
+    "add": "Añadir"
+  },
+  "topics": {
+    "blockTitle": "¿Bloquear a {name}?",
+    "blockDescription": "La persona ya no puede abrir temas ni responder en este foro. Lo que ya escribió sigue publicado.",
+    "blockConfirm": "Bloquear",
+    "blocked": "Autor bloqueado.",
+    "loading": "Cargando temas...",
+    "filterLabel": "Filtrar temas",
+    "filterAll": "Todos",
+    "filterHidden": "Ocultos",
+    "empty": "Ningún tema.",
+    "newest": "{count, plural, one {El # tema más reciente.} other {Los # temas más recientes.}}",
+    "colTopic": "Tema",
+    "colCategory": "Categoría",
+    "colReplies": "Respuestas",
+    "colState": "Estado",
+    "colOpened": "Abierto",
+    "state": {
+      "hidden": "Oculto",
+      "closed": "Cerrado",
+      "solved": "Resuelto",
+      "open": "Abierto"
+    },
+    "pinned": "Fijado",
+    "fromDiscord": " · desde Discord",
+    "noCategory": "Sin categoría",
+    "openInForum": "Abrir en el foro",
+    "unpinnedToast": "Tema desfijado.",
+    "pinnedToast": "Tema fijado.",
+    "unpin": "Desfijar",
+    "pin": "Fijar arriba",
+    "reopenedToast": "Tema reabierto.",
+    "closedToast": "Tema cerrado.",
+    "reopen": "Reabrir",
+    "close": "Cerrar a respuestas",
+    "shownToast": "Tema publicado de nuevo.",
+    "hiddenToast": "Tema oculto.",
+    "show": "Mostrar de nuevo",
+    "hide": "Ocultar del foro",
+    "blockAuthor": "Bloquear autor"
+  },
+  "blocks": {
+    "unblocked": "{name} puede escribir de nuevo.",
+    "empty": "Nadie bloqueado. Para bloquear, abre el tema de la persona en Temas.",
+    "colPerson": "Persona",
+    "colSince": "Desde",
+    "colActions": "Acciones",
+    "unblock": "Desbloquear"
+  },
+  "intro": {
+    "title": "Un foro público para tu comunidad",
+    "site": "Los miembros abren temas y responden en el sitio, entrando con Discord o Google. Todo aparece en Google, así que una duda respondida una vez ayuda a quien llegue después.",
+    "discord": "En Discord, quien escribió un mensaje puede llevarlo al foro: clic derecho en el mensaje, Apps, Publicar en el foro."
+  },
+  "summary": {
+    "offline": "fuera de línea",
+    "open": "Abrir el foro"
+  },
+  "tabs": {
+    "navLabel": "Foro",
+    "topics": "Temas",
+    "settings": "Ajustes",
+    "blocks": "Bloqueados",
+    "blocksCount": "Bloqueados ({count})"
+  }
+}

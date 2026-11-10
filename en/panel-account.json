@@ -1,0 +1,29 @@
+{
+  "page": {
+    "documentTitle": "My account | MRI BOT",
+    "logout": "Log out"
+  },
+  "currentPlan": {
+    "pastDueBadge": "Payment pending",
+    "currentBadge": "Current plan",
+    "cancel": "Cancel subscription",
+    "describe": {
+      "free": "You're on the free plan. Choose a plan below to unlock more features.",
+      "pastDue": "The last charge failed. Renew to keep your access.",
+      "lifetime": "Lifetime access.",
+      "complimentary": "Complimentary until {date}.",
+      "trial": "Free trial until {date}.",
+      "recurring": "Renews automatically on {date}, by card.",
+      "prepaid": "Paid until {date}, {count, plural, one {# day left} other {# days left}}. Doesn't renew automatically."
+    }
+  },
+  "billing": {
+    "title": "Payments",
+    "loadError": "Could not load your payments.",
+    "emptyTitle": "No payments yet",
+    "emptyDescription": "When you subscribe or buy a package, each payment shows up here.",
+    "card": "card",
+    "credit": "{amount} in credit",
+    "refunded": "Refunded"
+  }
+}

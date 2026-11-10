@@ -1,0 +1,95 @@
+{
+  "calendar": {
+    "previousMonth": "Previous month",
+    "nextMonth": "Next month"
+  },
+  "dateTime": {
+    "dateAtTime": "{date} at {time}",
+    "selectDate": "Select a date",
+    "selectDateTime": "Select date and time",
+    "time": "Time",
+    "clear": "Clear",
+    "today": "Today",
+    "now": "Now"
+  },
+  "channelSelect": {
+    "placeholder": "Select channel",
+    "search": "Search channel...",
+    "empty": "No channel found.",
+    "categories": "Categories",
+    "noCategory": "No category"
+  },
+  "roleSelect": {
+    "placeholder": "Select role",
+    "search": "Search role...",
+    "empty": "No role found."
+  },
+  "memberSelect": {
+    "placeholder": "Add person…",
+    "search": "Search member…",
+    "typeToSearch": "Type to search.",
+    "searching": "Searching…",
+    "empty": "No members.",
+    "max": "Up to {max} people."
+  },
+  "colorPicker": {
+    "select": "Select color",
+    "defaultHint": "Default color (click to choose)",
+    "change": "Change color",
+    "clear": "Clear color"
+  },
+  "emoji": {
+    "insert": "Insert emoji",
+    "search": "Search..."
+  },
+  "mention": {
+    "insert": "Insert mention",
+    "tooltip": "Mention (role / member)",
+    "search": "Search role, channel or member…",
+    "members": "Members",
+    "roles": "Roles",
+    "noRoles": "No roles.",
+    "channels": "Channels",
+    "noChannels": "No channels."
+  },
+  "editor": {
+    "heading1": "Large heading (#)",
+    "heading2": "Medium heading (##)",
+    "heading3": "Small heading (###)",
+    "bold": "Bold (Ctrl+B)",
+    "italic": "Italic (Ctrl+I)",
+    "underline": "Underline (Ctrl+U)",
+    "strike": "Strikethrough",
+    "code": "Inline code",
+    "codeBlock": "Code block",
+    "quote": "Quote",
+    "showFormatted": "Show formatted",
+    "showMarkdown": "Show markdown"
+  },
+  "upload": {
+    "button": "Upload",
+    "done": "Image uploaded.",
+    "failed": "Upload failed.",
+    "urlPlaceholder": "https://... (or upload a file)"
+  },
+  "gallery": {
+    "label": "Gallery (optional, up to {max})",
+    "hint": "Shown as a carousel below the main image in the public store.",
+    "uploading": "Uploading",
+    "add": "Add"
+  },
+  "numberInput": {
+    "increase": "Increase",
+    "decrease": "Decrease"
+  },
+  "sectionNav": {
+    "more": "More"
+  },
+  "toast": {
+    "detailsCopied": "Error details copied.",
+    "errorCode": "Error code: {id}",
+    "genericError": "Couldn't complete this. Try again.",
+    "copyDetails": "Copy details",
+    "unexpected": "Unexpected error"
+  }
+}

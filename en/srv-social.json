@@ -1,0 +1,14 @@
+{
+  "kind": {
+    "LIVE": "live",
+    "VIDEO": "video",
+    "SHORT": "short",
+    "POST": "post",
+    "REEL": "reel",
+    "other": "content"
+  },
+  "test": {
+    "liveTitle": "{login} is live",
+    "simulationTitle": "[SIMULATION] Alert test — {who} ({kind})"
+  }
+}

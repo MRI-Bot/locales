@@ -1,0 +1,75 @@
+{
+  "anon": {
+    "dmNotDelivered": "DM not delivered",
+    "staffPrefix": "**Staff →** {content}",
+    "memberPrefix": "**Anonymous →** {content}",
+    "notDeliveredDmClosed": "⚠️ _Not delivered: the member has DMs closed._",
+    "conversationClosed": "This conversation has already been closed.",
+    "messageRejected": "Message rejected by moderation.",
+    "closedDm": "Your anonymous conversation was closed by the staff. Thanks for reaching out.",
+    "unmaskDenied": "You don't have permission to see who wrote this. Moderating and unmasking are separate permissions — ask an administrator for `community.anon.audit`.",
+    "threadName": "Anonymous {number}",
+    "publicTitle": "**Anonymous {number}**",
+    "audit": {
+      "identityPanelOnly": "_identity only in the panel_",
+      "moderation": "**Moderation:** {flags}",
+      "title": "🕵️ **Audit — Anonymous {number}**",
+      "author": "**Author:** {author}"
+    },
+    "auditUnavailableNothingPublished": "Audit channel unavailable — nothing was published.",
+    "systemUnavailable": "Anonymous messages are unavailable right now. Let the server staff know.",
+    "staffThreadName": "Anonymous · {subject}",
+    "newMessage": "🕵️ **New anonymous message**"
+  },
+  "panels": {
+    "suggestion": {
+      "text": "## 💡 Suggestions\n\nGot an idea for the server? Click the button below, write your proposal and the community votes.",
+      "button": "Send suggestion"
+    },
+    "bug": {
+      "text": "## 🐛 Report a bug\n\nFound a problem on the server? Click the button below and describe what happened; the staff follows up on every report through triage.",
+      "button": "Report bug"
+    },
+    "staff": {
+      "text": "## 📋 Staff application\n\nWant to join the staff? Click the position below and fill in the form. The staff reviews it and gets back to you by DM."
+    },
+    "anon": {
+      "text": "## 🎭 Anonymous message\n\nChoose below how you want to talk.",
+      "confessionButton": "Anonymous message",
+      "staffButton": "Talk to the staff"
+    }
+  },
+  "referrals": {
+    "invitedBy": "Invited by",
+    "invite": "Invite",
+    "inviterTotal": "Inviter total",
+    "unidentified": "Not identified — {reason, select, no_baseline {the bot had just restarted} ambiguous {two people joined at the same time} no_permission {the bot has no permission to see invites} vanity_or_unknown {custom link or unknown source} fetch_failed {failed to check the invites} other {unknown source}}.",
+    "newMemberTitle": "➡️ New member",
+    "rejoined": "{member} came back to the server.\n-# A return does not count again for the inviter.",
+    "joined": "{member} joined the server.",
+    "milestoneTitle": "🏆 Milestone reached",
+    "milestoneReached": "{member} reached the milestone of **{count}** {count, plural, one {invite} other {invites}}!",
+    "inviteUses": "{count, plural, one {# join through this invite} other {# joins through this invite}}",
+    "validInvites": "{count, plural, one {# valid invite} other {# valid invites}}",
+    "inQuarantine": "{count} in quarantine",
+    "milestoneAuditReason": "Milestone of {count} referrals",
+    "board": {
+      "bonus": "_(+{bonus} bonus)_",
+      "referrals": "**{count}** {count, plural, one {referral} other {referrals}}",
+      "empty": "Nobody has referred anyone yet. Share your invite to show up here!",
+      "seasonSince": "season since {date}",
+      "title": "🏆 Referral ranking",
+      "topOf": "Top {size} of {total} participants",
+      "participants": "{count} {count, plural, one {participant} other {participants}}"
+    }
+  },
+  "suggestions": {
+    "threadName": "Suggestion #{number} · {title}",
+    "decisionDm": "Your suggestion **#{number} · {title}** was: **{status, select, PENDING {Reopened for voting} UNDER_REVIEW {Under review} APPROVED {Approved} REJECTED {Rejected} IMPLEMENTED {Implemented} DUPLICATE {Marked as duplicate} other {{status}}}**."
+  },
+  "staff": {
+    "autoRolePro": "Automatic role on approval is a Pro feature — give the role manually.",
+    "approvedAuditReason": "Application #{number} approved",
+    "roleNotApplied": "the bot couldn't apply the role"
+  }
+}

@@ -1,0 +1,1186 @@
+{
+  "adicionar_a_base_da_ia": {
+    "name": "Añadir a la base de la IA"
+  },
+  "publicar_no_forum": {
+    "name": "Publicar en el foro"
+  },
+  "responder_com_ia": {
+    "name": "Responder con IA"
+  },
+  "anonimo": {
+    "name": "anonimo",
+    "description": "Envía un mensaje anónimo.",
+    "options": {
+      "confessar": {
+        "name": "confesar",
+        "description": "Publica un mensaje anónimo en el canal público."
+      },
+      "equipe": {
+        "name": "equipo",
+        "description": "Habla con el equipo del servidor de forma anónima (solo el equipo lo ve)."
+      }
+    }
+  },
+  "assinatura": {
+    "name": "suscripcion",
+    "description": "Abre el menú de suscripciones (admin)."
+  },
+  "ban": {
+    "name": "ban",
+    "description": "Banea a un miembro del servidor (crea un caso en el panel + DM si está activado)",
+    "options": {
+      "target": {
+        "name": "usuario",
+        "description": "Usuario a banear"
+      },
+      "reason": {
+        "name": "motivo",
+        "description": "Motivo (aparece en el modlog + DM)"
+      },
+      "duration_min": {
+        "name": "duracion_min",
+        "description": "Duración en minutos (vacío = permanente)"
+      },
+      "delete_days": {
+        "name": "borrar_dias",
+        "description": "Borrar mensajes de los últimos N días (0-7)"
+      }
+    }
+  },
+  "board": {
+    "name": "tablero",
+    "description": "Lista los tableros de proyectos del servidor"
+  },
+  "cargo": {
+    "name": "rol",
+    "description": "Añade o quita un rol a un miembro.",
+    "options": {
+      "dar": {
+        "name": "dar",
+        "description": "Añade un rol a un miembro.",
+        "options": {
+          "membro": {
+            "name": "miembro",
+            "description": "Quién lo recibe."
+          },
+          "cargo": {
+            "name": "rol",
+            "description": "Qué rol."
+          }
+        }
+      },
+      "tirar": {
+        "name": "quitar",
+        "description": "Quita un rol a un miembro.",
+        "options": {
+          "membro": {
+            "name": "miembro",
+            "description": "A quién."
+          },
+          "cargo": {
+            "name": "rol",
+            "description": "Qué rol."
+          }
+        }
+      }
+    }
+  },
+  "convites": {
+    "name": "invitaciones",
+    "description": "Muestra cuántas personas trajiste al servidor.",
+    "options": {
+      "membro": {
+        "name": "miembro",
+        "description": "Ver las invitaciones de otro miembro"
+      }
+    }
+  },
+  "desvincular": {
+    "name": "desvincular",
+    "description": "Quita el vínculo Discord ↔ FiveM de un miembro (admin).",
+    "options": {
+      "user": {
+        "name": "usuario",
+        "description": "Miembro cuyo vínculo se quitará"
+      }
+    }
+  },
+  "dm": {
+    "name": "dm",
+    "description": "Elige si recibes los mensajes directos de este servidor.",
+    "options": {
+      "parar": {
+        "name": "detener",
+        "description": "Deja de recibir los comunicados de este servidor."
+      },
+      "voltar": {
+        "name": "reanudar",
+        "description": "Vuelve a recibir los comunicados de este servidor."
+      }
+    }
+  },
+  "fivem": {
+    "name": "fivem",
+    "description": "Administración del servidor de FiveM.",
+    "options": {
+      "kick": {
+        "name": "kick",
+        "description": "Expulsa a un jugador del servidor.",
+        "options": {
+          "id": {
+            "name": "id",
+            "description": "ID del jugador en el servidor (el número que aparece en la lista)."
+          },
+          "motivo": {
+            "name": "motivo",
+            "description": "Se muestra al jugador al ser expulsado."
+          },
+          "servidor": {
+            "name": "servidor",
+            "description": "Qué servidor de FiveM (solo si hay más de uno)."
+          }
+        }
+      },
+      "ban": {
+        "name": "ban",
+        "description": "Banea a un jugador del servidor de FiveM.",
+        "options": {
+          "membro": {
+            "name": "miembro",
+            "description": "Miembro de Discord a banear."
+          },
+          "horas": {
+            "name": "horas",
+            "description": "Duración en horas. 0 = permanente."
+          },
+          "motivo": {
+            "name": "motivo",
+            "description": "Se muestra al jugador cuando intente entrar."
+          },
+          "servidor": {
+            "name": "servidor",
+            "description": "Limita el ban a un servidor (por defecto: todos los del servidor de Discord)."
+          }
+        }
+      },
+      "unban": {
+        "name": "unban",
+        "description": "Quita el ban a un jugador.",
+        "options": {
+          "membro": {
+            "name": "miembro",
+            "description": "Miembro de Discord a desbanear."
+          }
+        }
+      },
+      "aviso": {
+        "name": "mensaje",
+        "description": "Envía un mensaje privado en el chat del juego.",
+        "options": {
+          "id": {
+            "name": "id",
+            "description": "ID del jugador en el servidor (el número que aparece en la lista)."
+          },
+          "mensagem": {
+            "name": "mensaje",
+            "description": "Texto que se muestra al jugador."
+          },
+          "servidor": {
+            "name": "servidor",
+            "description": "Qué servidor de FiveM (solo si hay más de uno)."
+          }
+        }
+      },
+      "anuncio": {
+        "name": "anuncio",
+        "description": "Envía un mensaje en el chat para todos.",
+        "options": {
+          "mensagem": {
+            "name": "mensaje",
+            "description": "Texto del anuncio."
+          },
+          "servidor": {
+            "name": "servidor",
+            "description": "Qué servidor de FiveM (solo si hay más de uno)."
+          }
+        }
+      },
+      "matar": {
+        "name": "matar",
+        "description": "Mata al personaje de un jugador.",
+        "options": {
+          "id": {
+            "name": "id",
+            "description": "ID del jugador en el servidor (el número que aparece en la lista)."
+          },
+          "servidor": {
+            "name": "servidor",
+            "description": "Qué servidor de FiveM (solo si hay más de uno)."
+          }
+        }
+      },
+      "teleportar": {
+        "name": "teletransportar",
+        "description": "Teletransporta a un jugador a un lugar o a unas coordenadas.",
+        "options": {
+          "id": {
+            "name": "id",
+            "description": "ID del jugador en el servidor (el número que aparece en la lista)."
+          },
+          "local": {
+            "name": "lugar",
+            "description": "Lugar predefinido. Se ignora si indicas X, Y y Z.",
+            "choices": {
+              "aeroporto": {
+                "name": "Aeropuerto"
+              },
+              "maze": {
+                "name": "Maze Bank (azotea)"
+              },
+              "pier": {
+                "name": "Muelle"
+              },
+              "base": {
+                "name": "Base militar"
+              },
+              "chiliad": {
+                "name": "Monte Chiliad"
+              }
+            }
+          },
+          "x": {
+            "name": "x",
+            "description": "Coordenada X."
+          },
+          "y": {
+            "name": "y",
+            "description": "Coordenada Y."
+          },
+          "z": {
+            "name": "z",
+            "description": "Coordenada Z."
+          },
+          "veiculo": {
+            "name": "vehiculo",
+            "description": "Llevar el vehículo también (solo si está conduciendo)."
+          },
+          "servidor": {
+            "name": "servidor",
+            "description": "Qué servidor de FiveM (solo si hay más de uno)."
+          }
+        }
+      },
+      "identificadores": {
+        "name": "identificadores",
+        "description": "Muestra los identificadores de un jugador (respuesta privada).",
+        "options": {
+          "id": {
+            "name": "id",
+            "description": "ID del jugador en el servidor (el número que aparece en la lista)."
+          },
+          "servidor": {
+            "name": "servidor",
+            "description": "Qué servidor de FiveM (solo si hay más de uno)."
+          }
+        }
+      },
+      "info": {
+        "name": "info",
+        "description": "Muestra los personajes de un miembro en el gamemode (aunque esté desconectado).",
+        "options": {
+          "membro": {
+            "name": "miembro",
+            "description": "Miembro de Discord."
+          },
+          "servidor": {
+            "name": "servidor",
+            "description": "Qué servidor de FiveM (solo si hay más de uno)."
+          }
+        }
+      },
+      "inspecionar": {
+        "name": "inspeccionar",
+        "description": "Estado del personaje conectado (dinero, trabajo, banda).",
+        "options": {
+          "id": {
+            "name": "id",
+            "description": "ID del jugador en el servidor (el número que aparece en la lista)."
+          },
+          "servidor": {
+            "name": "servidor",
+            "description": "Qué servidor de FiveM (solo si hay más de uno)."
+          }
+        }
+      },
+      "online": {
+        "name": "online",
+        "description": "Comprueba si un miembro está conectado al servidor ahora.",
+        "options": {
+          "membro": {
+            "name": "miembro",
+            "description": "Miembro de Discord."
+          },
+          "servidor": {
+            "name": "servidor",
+            "description": "Qué servidor de FiveM (solo si hay más de uno)."
+          }
+        }
+      },
+      "allowlist": {
+        "name": "allowlist",
+        "description": "Activa o desactiva el rol obligatorio para entrar al servidor.",
+        "options": {
+          "ligada": {
+            "name": "activada",
+            "description": "true = exige rol; false = cualquiera vinculado entra."
+          },
+          "servidor": {
+            "name": "servidor",
+            "description": "Qué servidor de FiveM (solo si hay más de uno)."
+          }
+        }
+      },
+      "pd": {
+        "name": "pd",
+        "description": "BORRA un personaje de un miembro. No se puede deshacer.",
+        "options": {
+          "membro": {
+            "name": "miembro",
+            "description": "Dueño del personaje."
+          },
+          "servidor": {
+            "name": "servidor",
+            "description": "Qué servidor de FiveM (solo si hay más de uno)."
+          }
+        }
+      },
+      "print": {
+        "name": "captura",
+        "description": "Captura la pantalla de un jugador (requiere screenshot-basic en el servidor).",
+        "options": {
+          "id": {
+            "name": "id",
+            "description": "ID del jugador en el servidor (el número que aparece en la lista)."
+          },
+          "servidor": {
+            "name": "servidor",
+            "description": "Qué servidor de FiveM (solo si hay más de uno)."
+          }
+        }
+      },
+      "jogadores": {
+        "name": "jugadores",
+        "description": "Lista quién está conectado, con ID y ping.",
+        "options": {
+          "servidor": {
+            "name": "servidor",
+            "description": "Qué servidor de FiveM (solo si hay más de uno)."
+          }
+        }
+      },
+      "status": {
+        "name": "estado",
+        "description": "Información del servidor (ocupación, uptime, onesync).",
+        "options": {
+          "servidor": {
+            "name": "servidor",
+            "description": "Qué servidor de FiveM (solo si hay más de uno)."
+          }
+        }
+      },
+      "kickall": {
+        "name": "kickall",
+        "description": "Expulsa a TODOS los jugadores del servidor.",
+        "options": {
+          "motivo": {
+            "name": "motivo",
+            "description": "Se muestra a todos."
+          },
+          "servidor": {
+            "name": "servidor",
+            "description": "Qué servidor de FiveM (solo si hay más de uno)."
+          }
+        }
+      },
+      "teleportar-todos": {
+        "name": "teletransportar-todos",
+        "description": "Teletransporta a TODOS los jugadores a un lugar.",
+        "options": {
+          "local": {
+            "name": "lugar",
+            "description": "Lugar predefinido. Se ignora si indicas X, Y y Z.",
+            "choices": {
+              "aeroporto": {
+                "name": "Aeropuerto"
+              },
+              "maze": {
+                "name": "Maze Bank (azotea)"
+              },
+              "pier": {
+                "name": "Muelle"
+              },
+              "base": {
+                "name": "Base militar"
+              },
+              "chiliad": {
+                "name": "Monte Chiliad"
+              }
+            }
+          },
+          "x": {
+            "name": "x",
+            "description": "Coordenada X."
+          },
+          "y": {
+            "name": "y",
+            "description": "Coordenada Y."
+          },
+          "z": {
+            "name": "z",
+            "description": "Coordenada Z."
+          },
+          "servidor": {
+            "name": "servidor",
+            "description": "Qué servidor de FiveM (solo si hay más de uno)."
+          }
+        }
+      },
+      "jogo": {
+        "name": "juego",
+        "description": "Acciones que dependen del gamemode (QBCore, Qbox, ESX).",
+        "options": {
+          "reviver": {
+            "name": "revivir",
+            "description": "Revive a un jugador.",
+            "options": {
+              "id": {
+                "name": "id",
+                "description": "ID del jugador en el servidor (el número que aparece en la lista)."
+              },
+              "servidor": {
+                "name": "servidor",
+                "description": "Qué servidor de FiveM (solo si hay más de uno)."
+              }
+            }
+          },
+          "reviver-todos": {
+            "name": "revivir-todos",
+            "description": "Revive a TODOS los jugadores conectados.",
+            "options": {
+              "servidor": {
+                "name": "servidor",
+                "description": "Qué servidor de FiveM (solo si hay más de uno)."
+              }
+            }
+          },
+          "cadeia": {
+            "name": "carcel",
+            "description": "Encarcela o libera a un jugador.",
+            "options": {
+              "id": {
+                "name": "id",
+                "description": "ID del jugador en el servidor (el número que aparece en la lista)."
+              },
+              "minutos": {
+                "name": "minutos",
+                "description": "Tiempo en minutos. 0 lo libera."
+              },
+              "servidor": {
+                "name": "servidor",
+                "description": "Qué servidor de FiveM (solo si hay más de uno)."
+              }
+            }
+          },
+          "logout": {
+            "name": "logout",
+            "description": "Envía al jugador a la selección de personaje.",
+            "options": {
+              "id": {
+                "name": "id",
+                "description": "ID del jugador en el servidor (el número que aparece en la lista)."
+              },
+              "servidor": {
+                "name": "servidor",
+                "description": "Qué servidor de FiveM (solo si hay más de uno)."
+              }
+            }
+          },
+          "roupas": {
+            "name": "ropa",
+            "description": "Abre el menú de ropa para el jugador.",
+            "options": {
+              "id": {
+                "name": "id",
+                "description": "ID del jugador en el servidor (el número que aparece en la lista)."
+              },
+              "servidor": {
+                "name": "servidor",
+                "description": "Qué servidor de FiveM (solo si hay más de uno)."
+              }
+            }
+          },
+          "veiculo": {
+            "name": "vehiculo",
+            "description": "Pone un vehículo en el garaje del jugador (QBCore/Qbox).",
+            "options": {
+              "id": {
+                "name": "id",
+                "description": "ID del jugador en el servidor (el número que aparece en la lista)."
+              },
+              "modelo": {
+                "name": "modelo",
+                "description": "Spawn name del vehículo, p. ej.: adder."
+              },
+              "placa": {
+                "name": "matricula",
+                "description": "Matrícula. En blanco = aleatoria."
+              },
+              "garagem": {
+                "name": "garaje",
+                "description": "Garaje donde aparece el vehículo. En blanco = el predeterminado del panel."
+              },
+              "servidor": {
+                "name": "servidor",
+                "description": "Qué servidor de FiveM (solo si hay más de uno)."
+              }
+            }
+          },
+          "permissao": {
+            "name": "permiso",
+            "description": "Define el grupo de permisos del jugador en el gamemode.",
+            "options": {
+              "id": {
+                "name": "id",
+                "description": "ID del jugador en el servidor (el número que aparece en la lista)."
+              },
+              "grupo": {
+                "name": "grupo",
+                "description": "P. ej.: admin, god, user."
+              },
+              "servidor": {
+                "name": "servidor",
+                "description": "Qué servidor de FiveM (solo si hay más de uno)."
+              }
+            }
+          },
+          "hora": {
+            "name": "hora",
+            "description": "Define la hora de la ciudad.",
+            "options": {
+              "hora": {
+                "name": "hora",
+                "description": "0 a 23."
+              },
+              "minuto": {
+                "name": "minuto",
+                "description": "0 a 59."
+              },
+              "servidor": {
+                "name": "servidor",
+                "description": "Qué servidor de FiveM (solo si hay más de uno)."
+              }
+            }
+          },
+          "clima": {
+            "name": "clima",
+            "description": "Define el clima de la ciudad.",
+            "options": {
+              "clima": {
+                "name": "clima",
+                "description": "Tipo de clima.",
+                "choices": {
+                  "EXTRASUNNY": {
+                    "name": "Muy soleado"
+                  },
+                  "CLEAR": {
+                    "name": "Despejado"
+                  },
+                  "CLOUDS": {
+                    "name": "Nublado"
+                  },
+                  "OVERCAST": {
+                    "name": "Cubierto"
+                  },
+                  "RAIN": {
+                    "name": "Lluvia"
+                  },
+                  "THUNDER": {
+                    "name": "Tormenta"
+                  },
+                  "CLEARING": {
+                    "name": "Despejando"
+                  },
+                  "FOGGY": {
+                    "name": "Niebla"
+                  },
+                  "SMOG": {
+                    "name": "Contaminación"
+                  },
+                  "SNOW": {
+                    "name": "Nieve"
+                  },
+                  "BLIZZARD": {
+                    "name": "Ventisca"
+                  },
+                  "XMAS": {
+                    "name": "Navidad"
+                  },
+                  "HALLOWEEN": {
+                    "name": "Halloween"
+                  }
+                }
+              },
+              "servidor": {
+                "name": "servidor",
+                "description": "Qué servidor de FiveM (solo si hay más de uno)."
+              }
+            }
+          }
+        }
+      },
+      "resource": {
+        "name": "resource",
+        "description": "Controla un resource del servidor.",
+        "options": {
+          "acao": {
+            "name": "accion",
+            "description": "Qué hacer.",
+            "choices": {
+              "list": {
+                "name": "listar"
+              },
+              "inspect": {
+                "name": "ver estado"
+              },
+              "start": {
+                "name": "iniciar"
+              },
+              "stop": {
+                "name": "detener"
+              },
+              "restart": {
+                "name": "reiniciar"
+              },
+              "refresh": {
+                "name": "actualizar lista"
+              }
+            }
+          },
+          "nome": {
+            "name": "nombre",
+            "description": "Nombre del resource (no se usa al listar)."
+          },
+          "servidor": {
+            "name": "servidor",
+            "description": "Qué servidor de FiveM (solo si hay más de uno)."
+          }
+        }
+      }
+    }
+  },
+  "fivem_acao": {
+    "name": "fivem-accion",
+    "description": "Ejecuta una acción en el servidor de FiveM sobre un miembro (admin).",
+    "options": {
+      "acao": {
+        "name": "accion",
+        "description": "Acción configurada en el panel"
+      },
+      "alvo": {
+        "name": "objetivo",
+        "description": "Miembro que recibirá la acción"
+      }
+    }
+  },
+  "giveaway": {
+    "name": "sorteo",
+    "description": "Abre el menú de sorteos (admin)."
+  },
+  "kick": {
+    "name": "kick",
+    "description": "Expulsa a un miembro del servidor (crea un caso + DM)",
+    "options": {
+      "target": {
+        "name": "usuario",
+        "description": "Usuario a expulsar"
+      },
+      "reason": {
+        "name": "motivo",
+        "description": "Motivo (aparece en el modlog + DM)"
+      }
+    }
+  },
+  "loja": {
+    "name": "tienda",
+    "description": "Abre el menú de la tienda (admin)."
+  },
+  "membercount": {
+    "name": "miembros",
+    "description": "Muestra la cantidad de miembros del servidor"
+  },
+  "mta_acao": {
+    "name": "mta-accion",
+    "description": "Ejecuta una acción en el servidor de MTA sobre un miembro (admin).",
+    "options": {
+      "acao": {
+        "name": "accion",
+        "description": "Acción configurada en el panel"
+      },
+      "alvo": {
+        "name": "objetivo",
+        "description": "Miembro que recibirá la acción"
+      }
+    }
+  },
+  "mta_desvincular": {
+    "name": "mta-desvincular",
+    "description": "Quita el vínculo Discord ↔ MTA de un miembro (admin).",
+    "options": {
+      "user": {
+        "name": "usuario",
+        "description": "Miembro cuyo vínculo se quitará"
+      }
+    }
+  },
+  "mta_vincular": {
+    "name": "mta-vincular",
+    "description": "Vincula tu cuenta de Discord a MTA con el código que aparece en el servidor.",
+    "options": {
+      "code": {
+        "name": "codigo",
+        "description": "Código de 4 caracteres que apareció al entrar en MTA"
+      }
+    }
+  },
+  "mute": {
+    "name": "mute",
+    "description": "Silencia a un miembro (timeout de Discord) — máx. 28 días",
+    "options": {
+      "target": {
+        "name": "usuario",
+        "description": "Usuario a silenciar"
+      },
+      "duration_min": {
+        "name": "duracion_min",
+        "description": "Duración en minutos (máx. 40320 = 28d)"
+      },
+      "reason": {
+        "name": "motivo",
+        "description": "Motivo (aparece en el modlog + DM)"
+      }
+    }
+  },
+  "nivel": {
+    "name": "nivel",
+    "description": "Muestra tu nivel, XP y posición en el ranking.",
+    "options": {
+      "membro": {
+        "name": "miembro",
+        "description": "Ver el nivel de otro miembro"
+      }
+    }
+  },
+  "note": {
+    "name": "nota",
+    "description": "Registra una nota interna sobre un miembro (sin DM, sin acción en Discord)",
+    "options": {
+      "target": {
+        "name": "usuario",
+        "description": "Usuario sobre el que es la nota"
+      },
+      "content": {
+        "name": "contenido",
+        "description": "Contenido de la nota (solo lo ve el staff)"
+      }
+    }
+  },
+  "ping": {
+    "name": "ping",
+    "description": "Muestra la latencia del bot."
+  },
+  "poll": {
+    "name": "encuesta",
+    "description": "Abre el menú de encuestas (admin)."
+  },
+  "prune": {
+    "name": "prune",
+    "description": "Borra los últimos N mensajes (hasta 500; incluso de >14d) — filtra por usuario/regex",
+    "options": {
+      "count": {
+        "name": "cantidad",
+        "description": "Cuántos mensajes borrar (1-500)"
+      },
+      "user": {
+        "name": "usuario",
+        "description": "Solo mensajes de este usuario (opcional)"
+      },
+      "regex": {
+        "name": "regex",
+        "description": "Solo mensajes que coincidan con este regex (sin distinguir mayúsculas)"
+      },
+      "dry_run": {
+        "name": "simular",
+        "description": "Vista previa sin borrar (lista lo que SE BORRARÍA)"
+      }
+    }
+  },
+  "purge": {
+    "name": "purge",
+    "description": "Busca y borra los mensajes de un usuario en todos los canales del servidor",
+    "options": {
+      "user": {
+        "name": "usuario",
+        "description": "Autor de los mensajes (acepta el ID de quien ya salió del servidor)"
+      },
+      "dias": {
+        "name": "dias",
+        "description": "Solo los de los últimos N días (vacío = todo el historial)"
+      },
+      "dry_run": {
+        "name": "simular",
+        "description": "Solo cuenta y muestra una muestra, sin borrar"
+      }
+    }
+  },
+  "ranking": {
+    "name": "ranking",
+    "description": "Muestra el ranking de XP del servidor."
+  },
+  "ranking_convites": {
+    "name": "ranking-invitaciones",
+    "description": "Ranking de quién trajo más miembros al servidor."
+  },
+  "reportar": {
+    "name": "reportar",
+    "description": "Reporta un bug al equipo del servidor.",
+    "options": {
+      "titulo": {
+        "name": "titulo",
+        "description": "Resumen del problema en una frase"
+      },
+      "categoria": {
+        "name": "categoria",
+        "description": "Categoría del bug"
+      }
+    }
+  },
+  "responder": {
+    "name": "responder",
+    "description": "Envía una respuesta predefinida en el ticket actual.",
+    "options": {
+      "resposta": {
+        "name": "respuesta",
+        "description": "Respuesta predefinida configurada en el panel"
+      }
+    }
+  },
+  "shards": {
+    "name": "shards",
+    "description": "Gestionar los shards del bot",
+    "options": {
+      "list": {
+        "name": "listar",
+        "description": "Lista todos los shards y su estado"
+      },
+      "stats": {
+        "name": "estadisticas",
+        "description": "Estadísticas detalladas por shard"
+      },
+      "info": {
+        "name": "info",
+        "description": "Información de un shard específico",
+        "options": {
+          "id": {
+            "name": "id",
+            "description": "ID del shard"
+          }
+        }
+      },
+      "restart": {
+        "name": "reiniciar",
+        "description": "Reinicia shards (requiere owner)",
+        "options": {
+          "id": {
+            "name": "id",
+            "description": "ID del shard (omitir = todos)"
+          }
+        }
+      }
+    }
+  },
+  "softban": {
+    "name": "softban",
+    "description": "Ban + unban inmediato (limpia mensajes sin ban permanente)",
+    "options": {
+      "target": {
+        "name": "usuario",
+        "description": "Usuario a hacer softban"
+      },
+      "reason": {
+        "name": "motivo",
+        "description": "Motivo"
+      },
+      "delete_days": {
+        "name": "borrar_dias",
+        "description": "Borrar mensajes de los últimos N días (0-7, por defecto 1)"
+      }
+    }
+  },
+  "sugerir": {
+    "name": "sugerir",
+    "description": "Envía una sugerencia al equipo del servidor.",
+    "options": {
+      "categoria": {
+        "name": "categoria",
+        "description": "Categoría de la sugerencia"
+      }
+    }
+  },
+  "tarefa": {
+    "name": "tarea",
+    "description": "Tareas de los tableros de proyectos",
+    "options": {
+      "criar": {
+        "name": "crear",
+        "description": "Crea una tarea en un tablero",
+        "options": {
+          "titulo": {
+            "name": "titulo",
+            "description": "Título de la tarea"
+          },
+          "board": {
+            "name": "tablero",
+            "description": "Nombre del tablero (por defecto: el primero)"
+          },
+          "descricao": {
+            "name": "descripcion",
+            "description": "Descripción (opcional)"
+          }
+        }
+      },
+      "minhas": {
+        "name": "mias",
+        "description": "Lista las tareas asignadas a ti"
+      }
+    }
+  },
+  "ticket": {
+    "name": "ticket",
+    "description": "Abre el menú de gestión de tickets (admin)"
+  },
+  "trial": {
+    "name": "prueba",
+    "description": "Período de prueba de la plataforma.",
+    "options": {
+      "resgatar": {
+        "name": "canjear",
+        "description": "Canjea un código de prueba enviado por el equipo.",
+        "options": {
+          "codigo": {
+            "name": "codigo",
+            "description": "El código recibido (TRIAL-XXXX-XXXX)."
+          }
+        }
+      }
+    }
+  },
+  "unban": {
+    "name": "unban",
+    "description": "Quita el ban a un usuario (por User ID — no está en el servidor)",
+    "options": {
+      "user_id": {
+        "name": "id_usuario",
+        "description": "User ID de Discord (snowflake) del baneado"
+      },
+      "reason": {
+        "name": "motivo",
+        "description": "Motivo del unban (opcional)"
+      }
+    }
+  },
+  "unmute": {
+    "name": "unmute",
+    "description": "Quita el timeout a un miembro",
+    "options": {
+      "target": {
+        "name": "usuario",
+        "description": "Usuario al que quitar el silencio"
+      },
+      "reason": {
+        "name": "motivo",
+        "description": "Motivo (opcional)"
+      }
+    }
+  },
+  "vincular": {
+    "name": "vincular",
+    "description": "Vincula tu cuenta de Discord a FiveM con el código que aparece en el servidor.",
+    "options": {
+      "code": {
+        "name": "codigo",
+        "description": "Código de 4 caracteres que apareció al entrar en FiveM"
+      }
+    }
+  },
+  "voice": {
+    "name": "voz",
+    "description": "Controla tu canal de voz temporal",
+    "options": {
+      "lock": {
+        "name": "bloquear",
+        "description": "Bloquea el canal (nadie nuevo entra)"
+      },
+      "unlock": {
+        "name": "desbloquear",
+        "description": "Desbloquea el canal"
+      },
+      "hide": {
+        "name": "ocultar",
+        "description": "Oculta el canal"
+      },
+      "unhide": {
+        "name": "mostrar",
+        "description": "Muestra el canal"
+      },
+      "limit": {
+        "name": "limite",
+        "description": "Define el límite de usuarios (0 = ilimitado)",
+        "options": {
+          "valor": {
+            "name": "valor",
+            "description": "Límite de 0 a 99"
+          }
+        }
+      },
+      "rename": {
+        "name": "renombrar",
+        "description": "Renombra el canal",
+        "options": {
+          "nome": {
+            "name": "nombre",
+            "description": "Nuevo nombre"
+          }
+        }
+      },
+      "claim": {
+        "name": "reclamar",
+        "description": "Toma el canal cuando el dueño se fue"
+      },
+      "permit": {
+        "name": "permitir",
+        "description": "Permite a un usuario en el canal (aunque esté bloqueado/oculto)",
+        "options": {
+          "usuario": {
+            "name": "usuario",
+            "description": "Usuario"
+          }
+        }
+      },
+      "reject": {
+        "name": "rechazar",
+        "description": "Bloquea y desconecta a un usuario del canal",
+        "options": {
+          "usuario": {
+            "name": "usuario",
+            "description": "Usuario"
+          }
+        }
+      },
+      "transfer": {
+        "name": "transferir",
+        "description": "Transfiere la propiedad del canal",
+        "options": {
+          "usuario": {
+            "name": "usuario",
+            "description": "Nuevo dueño"
+          }
+        }
+      },
+      "panel": {
+        "name": "panel",
+        "description": "Vuelve a publicar el panel de control en el canal"
+      }
+    }
+  },
+  "warn": {
+    "name": "warn",
+    "description": "Registra una advertencia al miembro (DM + caso, sin acción en Discord)",
+    "options": {
+      "target": {
+        "name": "usuario",
+        "description": "Usuario a advertir"
+      },
+      "reason": {
+        "name": "motivo",
+        "description": "Motivo (obligatorio — aparece en el DM)"
+      }
+    }
+  },
+  "whitelist": {
+    "name": "whitelist",
+    "description": "Gestiona el sistema de whitelist",
+    "options": {
+      "painel": {
+        "name": "panel",
+        "description": "Publica un panel permanente para inscribirse en la whitelist (admin)"
+      }
+    }
+  },
+  "xp_dar": {
+    "name": "xp-dar",
+    "description": "Da XP a un miembro (admin).",
+    "options": {
+      "membro": {
+        "name": "miembro",
+        "description": "Miembro que recibe el XP"
+      },
+      "quantidade": {
+        "name": "cantidad",
+        "description": "Cuánto XP dar"
+      }
+    }
+  },
+  "xp_definir": {
+    "name": "xp-establecer",
+    "description": "Define el XP absoluto de un miembro (admin).",
+    "options": {
+      "membro": {
+        "name": "miembro",
+        "description": "Miembro objetivo"
+      },
+      "quantidade": {
+        "name": "cantidad",
+        "description": "XP absoluto a definir"
+      }
+    }
+  },
+  "xp_remover": {
+    "name": "xp-quitar",
+    "description": "Quita XP a un miembro (admin).",
+    "options": {
+      "membro": {
+        "name": "miembro",
+        "description": "Miembro que pierde el XP"
+      },
+      "quantidade": {
+        "name": "cantidad",
+        "description": "Cuánto XP quitar"
+      }
+    }
+  },
+  "xp_resetar": {
+    "name": "xp-reiniciar",
+    "description": "Reinicia el XP de un miembro o de todo el servidor (admin).",
+    "options": {
+      "membro": {
+        "name": "miembro",
+        "description": "Miembro a reiniciar"
+      },
+      "todos": {
+        "name": "todos",
+        "description": "Reiniciar a TODOS los miembros del servidor (pide confirmación)"
+      }
+    }
+  }
+}

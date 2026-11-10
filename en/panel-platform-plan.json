@@ -1,0 +1,99 @@
+{
+  "header": {
+    "title": "My account",
+    "description": "Your plan belongs to your account and applies to the servers you choose."
+  },
+  "errors": {
+    "load": "Failed to load.",
+    "upgrade": "Couldn't start the upgrade."
+  },
+  "package": {
+    "lifetime": "Lifetime",
+    "months": "{count, plural, one {# month} other {# months}}"
+  },
+  "change": {
+    "extend": "The months are added to the end of the period you already have.",
+    "startWithCredit": "The new period starts when the Pix is approved. The time you didn't use is already discounted.",
+    "startNoCredit": "The new period starts when the Pix is approved and replaces the current one, with no discount.",
+    "cardCancelled": "The card subscription is cancelled at that moment."
+  },
+  "pix": {
+    "invalidEmail": "Enter a valid email (it goes on the Pix receipt).",
+    "generateFailed": "Failed to generate the Pix.",
+    "paid": "Payment confirmed, {plan} ({package}) activated!",
+    "notCompleted": "The payment wasn't completed. Generate a new Pix if you want to try again.",
+    "title": "Pay {plan} for {package} via Pix",
+    "subtitle": "In one payment, no recurrence and {emphasis}, from any bank app or PicPay.",
+    "subtitleEmphasis": "no Mercado Pago account needed",
+    "packagePrice": "Package price",
+    "currentCredit": "Current plan credit",
+    "youPay": "You pay",
+    "validUntil": "Valid until",
+    "emailLabel": "Your email (just for the receipt)",
+    "emailPlaceholder": "you@example.com",
+    "generate": "Generate Pix",
+    "qrAlt": "Pix QR code",
+    "waiting": "Waiting for payment…",
+    "scanHint": "Scan the QR or copy the code below. Confirmation is automatic within seconds of paying.",
+    "copied": "Pix code copied.",
+    "copyFailed": "Couldn't copy.",
+    "copy": "Copy"
+  },
+  "cancel": {
+    "title": "Cancel subscription?",
+    "descriptionPrepaid": "You lose the benefits now and the remaining time isn't refunded. To keep using it, you'll need to subscribe again.",
+    "description": "You lose the Pro benefits immediately. To keep using it, you'll need to subscribe again.",
+    "confirm": "Cancel plan",
+    "success": "Subscription cancelled.",
+    "failed": "Failed to cancel."
+  },
+  "pastDue": "Your last charge failed. Renew the subscription on your plan's card, with another card or via Pix (it becomes prepaid), within 3 days so you don't lose access.",
+  "pending": {
+    "processing": "Waiting for Mercado Pago to confirm the payment (up to 5 min). If you've already paid, reload in a few seconds.",
+    "started": "You started the upgrade to the {plan} plan but the payment hasn't been confirmed yet. Continue or cancel.",
+    "processingHint": "Wait for Mercado Pago to confirm before trying again",
+    "continue": "Continue checkout"
+  },
+  "grid": {
+    "changePlan": "Change plan",
+    "choosePlan": "Choose a plan",
+    "hideCompare": "Hide comparison",
+    "compare": "Compare plans"
+  },
+  "card": {
+    "current": "Current plan",
+    "free": "Free",
+    "month": "month",
+    "saleFee": "+ R$ 1 per sale (max 10%)",
+    "showLess": "Show less",
+    "showAll": "See all features",
+    "processingHint": "Wait for Mercado Pago to confirm",
+    "processing": "Processing…",
+    "renewCard": "Renew by card",
+    "subscribeCard": "Subscribe by card",
+    "orPayPix": "or pay once via {pix} (no Mercado Pago account):",
+    "payPix": "Pay once via {pix} (no Mercado Pago account):",
+    "creditApplied": "{amount} from the time you didn't use is already discounted.",
+    "youAreHere": "You're on this plan.",
+    "cancelToFree": "Cancel the paid plan to go back to Free."
+  },
+  "featureCopy": {
+    "subscriptions": "Recurring subscriptions (monthly billing)",
+    "whiteLabel": "Customize the bot (nick + avatar)",
+    "apiKey": "API Keys (external integration)",
+    "fivemWebhook": "FiveM integration via webhook"
+  },
+  "highlights": {
+    "unlimitedServers": "Unlimited servers",
+    "servers": "{count, plural, one {# Discord server} other {# Discord servers}}",
+    "marketplaceNoFee": "Marketplace with no per-sale fee",
+    "marketplace": "Marketplace (Pix + card + Drive)",
+    "advancedLogs": "Advanced Discord Admin logs"
+  },
+  "breakdown": {
+    "unlimited": "Unlimited"
+  },
+  "compare": {
+    "feature": "Feature"
+  }
+}

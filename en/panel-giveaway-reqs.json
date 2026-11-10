@@ -1,0 +1,38 @@
+{
+  "checks": {
+    "blacklist": {
+      "label": "Not be on the blacklist",
+      "message": "You can't enter this giveaway."
+    },
+    "requiredRole": {
+      "label": "Have the required role",
+      "message": "You need the required role in this server."
+    },
+    "excludedRole": {
+      "label": "Don't have the blocked role",
+      "message": "You have a role that prevents you from entering this giveaway."
+    },
+    "minServerDays": {
+      "label": "Be in the server for at least {days, plural, one {# day} other {# days}}",
+      "message": "You need to have been in the server for at least {days, plural, one {# day} other {# days}}."
+    },
+    "minAccountDays": {
+      "label": "Discord account at least {days, plural, one {# day} other {# days}} old",
+      "message": "Your account must be at least {days, plural, one {# day} other {# days}} old."
+    },
+    "requiredGuild": {
+      "label": "Be a member of the {guildName} server",
+      "message": "You need to join the {guildName} server.",
+      "labelAny": "Be in the required Discord",
+      "messageAny": "You need to be in another specific Discord."
+    }
+  },
+  "list": {
+    "requiredRole": "Have a specific role in the server",
+    "excludedRole": "Don't have a specific role in the server",
+    "minServerDays": "Be in the server for {days, plural, one {# day} other {# days}}",
+    "minAccountDays": "Discord account {days}+ days old",
+    "requiredGuild": "Be a member of the {guildName} server",
+    "requiredGuildAny": "Be in another Discord"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "updatedEvery": "Atualizado a cada {interval}",
+  "refresh": {
+    "seconds": "{seconds} segundos",
+    "minutes": "{count, plural, =1 {1 minuto} other {{count} minutos}}"
+  },
+  "connectHint": "Utilize os botões abaixo para se conectar na cidade.",
+  "line": {
+    "status": "**Status:** {value}",
+    "players": "**Jogadores:** {value}",
+    "map": "**Mapa:** {value}",
+    "mode": "**Modo:** {value}"
+  },
+  "updatedAt": "Atualizado {when}",
+  "joinButton": "Entrar no servidor",
+  "fallbackHostname": "Servidor FiveM ({id})"
+}

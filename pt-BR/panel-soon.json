@@ -1,0 +1,119 @@
+{
+  "factions": {
+    "title": "Facções & Corporações",
+    "description": "Gerencie polícias, médicos, mecânicos e facções ilegais.",
+    "newOrg": "Nova Organização",
+    "type": "Tipo: {type}",
+    "types": {
+      "legal": "Legal",
+      "illegal": "Ilegal",
+      "neutral": "Neutro"
+    },
+    "orgs": {
+      "militaryPolice": "Polícia Militar",
+      "hospital": "Hospital (EMS)",
+      "ballas": "Ballas",
+      "mechanic": "Mechanic",
+      "cartel": "Cartel de Sinaloa"
+    },
+    "activeMembers": "Membros Ativos",
+    "recruitment": "Status de Recrutamento",
+    "open": "Aberto",
+    "closed": "Fechado"
+  },
+  "clockIn": {
+    "title": "Bater Ponto",
+    "activeStaff": "Staff Ativa (Relógio)",
+    "moderator": "Moderador_{n}",
+    "history": "Histórico RP",
+    "officer": "Policial_{n}",
+    "yesterdayAt": "Ontem às {time}",
+    "weeklyReports": "Relatórios Semanais",
+    "hoursGoal": "Meta de Horas (Staff)",
+    "highlight": "Destaque da Semana",
+    "hoursWorked": "{count, plural, one {# hora trabalhada} other {# horas trabalhadas}}"
+  },
+  "vips": {
+    "title": "VIPs & Doações",
+    "description": "Sincronização de cargos Discord e benefícios In-Game.",
+    "addManual": "Adicionar VIP Manual",
+    "plans": "Gerenciamento de Planos/Pacotes",
+    "planNames": {
+      "diamond": "VIP Diamante",
+      "gold": "VIP Ouro",
+      "partner": "Sócio"
+    },
+    "days": "{count, plural, one {# Dia} other {# Dias}}",
+    "permanent": "Permanente",
+    "configureTebex": "Configurar na Tebex",
+    "recent": "VIPs Ativos Recentemente",
+    "expiresIn": "{count, plural, one {Expira em # dia} other {Expira em # dias}}",
+    "lifetime": "Vitalício"
+  },
+  "punishments": {
+    "title": "Punições & Moderação",
+    "description": "Gerencie bans, kicks e avisos in-game através do Discord.",
+    "apply": "Aplicar Punição",
+    "columns": {
+      "user": "Usuário/Passaporte",
+      "type": "Tipo",
+      "reason": "Motivo",
+      "staff": "Staff",
+      "action": "Ação"
+    },
+    "reasons": {
+      "hack": "Uso de hack/mod menu",
+      "vdm": "VDM na praça",
+      "antiRp": "Anti-RP constante"
+    },
+    "revoke": "Revogar Punição"
+  },
+  "economy": {
+    "title": "Painel Econômico",
+    "description": "Gerencie a economia do servidor em tempo real.",
+    "saveMultipliers": "Salvar Multiplicadores",
+    "stats": {
+      "circulating": "Total Circulando",
+      "fines": "Multas Aplicadas",
+      "rich": "Jogadores Ricos (1M+)"
+    },
+    "today": "{value} hoje",
+    "stable": "Estável",
+    "recentTransactions": "Transações Recentes",
+    "tx": {
+      "received": "{user} recebeu {amount} de {from}",
+      "paid": "{user} pagou {amount} para {from}",
+      "dealership": "Concessionária",
+      "policeSalary": "Salário Policial"
+    },
+    "minutesAgo": "Há {count} min",
+    "quickCommands": "Comandos Rápidos",
+    "userPlaceholder": "ID ou @usuário",
+    "amountPlaceholder": "Valor (R$)",
+    "addMoney": "Adicionar Dinheiro",
+    "removeMoney": "Remover Dinheiro",
+    "wipe": "Resetar Economia Global (WIPE)"
+  },
+  "logs": {
+    "title": "Logs do Servidor",
+    "description": "Acompanhe tudo o que acontece in-game pelo Discord.",
+    "filters": {
+      "kills": "Kills",
+      "chat": "Chat",
+      "connections": "Conexões"
+    },
+    "tags": {
+      "connection": "[CONEXÃO]",
+      "economy": "[ECONOMIA]"
+    },
+    "lines": {
+      "joined": "Jogador {player} (ID: 15) entrou no servidor.",
+      "chatCar": "Vendo carro na praça, chama lá.",
+      "kill": "{killer} matou {victim} usando {weapon}.",
+      "weapon": "Pistola .50",
+      "command": "{admin} usou o comando {command}.",
+      "transfer": "{from} transferiu R$ 1.000.000 para {to}.",
+      "chatPd": "Área da DP está fechada no momento."
+    }
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "roleNotFound": "Role {id} not found",
+  "prepaid": {
+    "title": "Prepaid packages and gifts",
+    "description": "One-time payment, no automatic renewal. Lets people gift the plan and use coupons, two things Mercado Pago's recurring billing doesn't allow. With no package, the plan stays recurring only.",
+    "duration": "Duration",
+    "lifetime": "Lifetime",
+    "monthsUnit": "{count, plural, one {month} other {months}}",
+    "months": "{count, plural, one {# month} other {# months}}",
+    "totalPrice": "Total price (R$)",
+    "remove": "Remove package",
+    "lifetimeHint": "Paid once and access never expires.",
+    "savingHint": "With the recurring subscription it would cost {price}, so this package gives {saving}.",
+    "saving": "{percent}% savings",
+    "equivalent": "Same as {price} on the recurring subscription.",
+    "active": "Active",
+    "otherDuration": "Other duration"
+  },
+  "actions": {
+    "types": {
+      "discordRole": "Discord role",
+      "discordChannel": "Discord channel access",
+      "mtaAction": "Action on the MTA server",
+      "fivemAction": "Action on the FiveM server"
+    },
+    "activate": {
+      "title": "When the subscription starts",
+      "hint": "Runs on the first approved charge and on every renewal. That's why a recurring in-game credit works on its own, and granting a role the person already has again does no harm."
+    },
+    "cancel": {
+      "title": "When it's canceled or expires",
+      "hint": "What gets taken back when the subscription ends. With no action here, the subscriber keeps what they received."
+    },
+    "max": "Up to {max} actions per plan.",
+    "none": "No actions.",
+    "add": "Add",
+    "remove": "Remove action",
+    "roleHierarchy": "⚠️ The bot's role must be above this role in the server hierarchy.",
+    "noGameActions": "No action set up in the {module} module (Actions tab).",
+    "selectAction": "Select action",
+    "placeholders": "Placeholders:"
+  },
+  "plan": {
+    "periods": {
+      "weekly": "Weekly",
+      "biweekly": "Biweekly",
+      "monthly": "Monthly",
+      "quarterly": "Quarterly",
+      "semestral": "Every 6 months",
+      "yearly": "Yearly",
+      "custom": "Custom"
+    },
+    "frequency": {
+      "months": "{count, plural, =1 {month} =12 {year} other {# months}}",
+      "days": "{count, plural, =1 {day} =7 {week} other {# days}}"
+    },
+    "preview": {
+      "title": "Store preview",
+      "namePlaceholder": "Plan name",
+      "subscribe": "Subscribe",
+      "hint": "This is how the plan shows up in the public store; it updates as you edit."
+    },
+    "rolesLoadFailed": "Couldn't load roles.",
+    "errors": {
+      "nameTooShort": "Name must be at least 2 characters.",
+      "minPrice": "Minimum price is R$ 1.00."
+    },
+    "updated": "Plan updated.",
+    "created": "Plan created.",
+    "saveFailed": "Couldn't save.",
+    "editTitle": "Edit plan",
+    "createTitle": "Create subscription plan",
+    "subtitle": "Set the name, price, billing period and the role the bot gives to active subscribers.",
+    "name": "Plan name",
+    "namePlaceholder": "E.g.: VIP Bronze",
+    "benefits": "Benefits (optional)",
+    "benefitsPlaceholder": "One benefit per line, e.g.:\nExclusive VIP role\nQueue priority\nEarly access to scripts",
+    "benefitsHint": "Write {emphasis}; in the store it becomes a list with ✓.",
+    "benefitsHintEmphasis": "one benefit per line",
+    "image": "Plan image (optional)",
+    "imageHint": "Becomes the plan's thumbnail in the public store, just like a product image.",
+    "galleryHint": "Shown as a carousel below the main image on the plan page.",
+    "price": "Price (R$)",
+    "period": "Billing period",
+    "every": "Every",
+    "unit": "Unit",
+    "units": {
+      "days": "Days",
+      "months": "Months"
+    },
+    "discount": {
+      "existingLead": "Only applies to people who subscribe from now on.",
+      "existingSubscribers": "{lead} Mercado Pago locks the amount in each person's subscription when they authorize the payment, so the {count} current subscribers keep paying what they already pay. When the promotion ends, whoever joined during it also stays on the promotional price until they cancel.",
+      "newOnly": "The discount applies to people who subscribe from now on. Mercado Pago locks the amount in each person's subscription, so changing the price later doesn't affect current subscribers."
+    },
+    "publicListed": "Show in the public store",
+    "publicListedHint": "When on, this plan appears at {url}. Off = only reachable by direct link (\"invite-only VIP\" model).",
+    "publicListedUrl": "shop.mriqbox.com.br/your-store",
+    "donation": "It's a donation",
+    "donationHint": "Checkout becomes a donation: the payer must confirm they understand it's a voluntary, non-refundable donation, and the accepted text is stored for each subscriber.",
+    "donationNotice": "Checkout notice (optional)",
+    "donationNoticeHint": "Say what the person gets as a thank-you and that there are no refunds. Empty uses the example text.",
+    "create": "Create plan"
+  },
+  "section": {
+    "title": "Subscriptions",
+    "lockDescription": "Charge members a monthly fee, with a role while the subscription is active.",
+    "disabledTitle": "Subscriptions turned off",
+    "disabledDescription": "Create plans with recurring billing. The bot gives the role to active subscribers and removes it when the subscription ends.",
+    "activate": "Turn on subscriptions"
+  },
+  "overview": {
+    "new": "New",
+    "cancelled": "Cancelled",
+    "loadFailed": "Failed to load the overview.",
+    "mrr": "Monthly recurring revenue",
+    "activeSubscribers": "Active subscribers",
+    "newLast30d": "New in 30 days",
+    "churnLast30d": "Cancelled in 30 days",
+    "pending": "Haven't paid yet",
+    "upcoming7d": "Charges in 7 days",
+    "trendTitle": "Cumulative joins and cancellations over 30 days",
+    "noTrend": "Nobody joined or left in the last 30 days.",
+    "perPlanLabel": "Revenue by plan",
+    "perPlan": "By plan",
+    "columns": {
+      "plan": "Plan",
+      "active": "Active",
+      "perMonth": "Per month",
+      "share": "Share of revenue"
+    }
+  },
+  "events": {
+    "types": {
+      "roleGranted": "Role given",
+      "roleGrantFailed": "Failed to give role",
+      "roleRevoked": "Role removed",
+      "roleRevokeFailed": "Failed to remove role",
+      "cancelledByOwner": "Cancelled by the owner",
+      "checkoutStarted": "Checkout started",
+      "mpReconcile": "MP reconciliation",
+      "mpPreapproval": "MP webhook (subscription)",
+      "mpRecurringCharge": "Recurring charge",
+      "notifyActivated": "Notification: activated",
+      "notifyRenewed": "Notification: renewed",
+      "notifyPaymentFailed": "Notification: payment failed",
+      "notifyCancelled": "Notification: cancelled",
+      "notifyExpired": "Notification: expired",
+      "notifyExpiring": "Notification: expiring",
+      "created": "Subscription created",
+      "paymentApproved": "Payment approved",
+      "paymentFailed": "Payment failed",
+      "other": "Other event"
+    },
+    "loadFailed": "Failed to load events.",
+    "loading": "Loading events...",
+    "filterLabel": "Filter events",
+    "filters": {
+      "all": "All",
+      "problems": "Need attention"
+    },
+    "failedRecent": "{count, plural, one {# failure} other {# failures}} in the last 24h",
+    "empty": "No events yet. Charges, roles given and removed, cancellations and notices sent show up here.",
+    "emptyProblems": "Nothing needs attention.",
+    "columns": {
+      "when": "When",
+      "event": "Event",
+      "plan": "Plan",
+      "subscriber": "Subscriber"
+    }
+  },
+  "planList": {
+    "breakdown": {
+      "pending": "{count} pending",
+      "pastDue": "{count} past due",
+      "cancelled": "{count} cancelled",
+      "expired": "{count} expired"
+    },
+    "loadFailed": "Failed to load plans.",
+    "deactivate": {
+      "title": "Deactivate the \"{name}\" plan?",
+      "description": "New subscribers won't be able to sign up, but those who already have the plan keep it until they cancel.",
+      "confirm": "Deactivate",
+      "done": "Plan deactivated.",
+      "failed": "Failed to deactivate."
+    },
+    "linkCopied": "Checkout link copied.",
+    "copyFailed": "Couldn't copy.",
+    "filterLabel": "Filter plans",
+    "filters": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "connectMpFirst": "Connect Mercado Pago first",
+    "new": "New plan",
+    "noInactive": "No inactive plans.",
+    "columns": {
+      "plan": "Plan",
+      "price": "Price",
+      "active": "Active",
+      "role": "Gives role",
+      "actions": "Actions"
+    },
+    "noBenefits": "No benefits described",
+    "noRole": "None",
+    "copyLink": "Copy link",
+    "editNamed": "Edit {name}",
+    "deactivateNamed": "Deactivate {name}",
+    "deactivatePlan": "Deactivate plan",
+    "empty": "No plans yet. Start by creating a plan (e.g. \"VIP Bronze R$10/month\").",
+    "createFirst": "Create first plan",
+    "frequency": {
+      "months": "{count, plural, =1 {month} =3 {quarter} =6 {6 months} =12 {year} other {# months}}",
+      "days": "{count, plural, =1 {day} =7 {week} =14 {2 weeks} =30 {month} other {# days}}"
+    }
+  },
+  "grant": {
+    "pickMember": "Pick the member.",
+    "pickPlan": "Pick the plan.",
+    "grantedLifetime": "Lifetime subscription granted, the plan's role and actions applied.",
+    "grantedUntil": "Subscription granted until {date}, the plan's role and actions applied.",
+    "failed": "Failed to grant the subscription.",
+    "title": "Add subscriber manually",
+    "description": "For people who paid outside the bot (direct Pix, complimentary). Activates right away with the plan's role and actions, with no Mercado Pago charge, and expires on its own at the end of the period.",
+    "member": "Member",
+    "memberPlaceholder": "Search member…",
+    "plan": "Plan",
+    "planPlaceholder": "Pick the plan",
+    "period": "Period",
+    "yearly": "12 months (yearly)",
+    "email": "Email",
+    "emailHint": "(optional, record only)",
+    "emailPlaceholder": "email@example.com",
+    "submit": "Grant subscription"
+  },
+  "subscribers": {
+    "filters": {
+      "all": "All",
+      "active": "Active",
+      "pending": "Pending",
+      "pastDue": "Past due",
+      "cancelled": "Cancelled",
+      "expired": "Expired"
+    },
+    "loadFailed": "Failed to load.",
+    "empty": "No subscribers yet.",
+    "addManually": "Add manually",
+    "searchPlaceholder": "Search name, plan, ID or email",
+    "filterLabel": "Filter subscriptions",
+    "add": "Add",
+    "pendingHint": "{status} = subscribed but hasn't paid the 1st charge yet. Doesn't count as a supporter or get the role until the payment is confirmed.",
+    "noMatch": "No subscriptions match these filters.",
+    "columns": {
+      "details": "Details",
+      "subscriber": "Subscriber",
+      "plan": "Plan",
+      "type": "Type",
+      "nextCharge": "Next charge or expiry",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "showMore": "Show more ({count})",
+    "status": {
+      "active": "Active",
+      "pastDue": "Payment failed",
+      "cancelled": "Cancelled",
+      "expired": "Expired",
+      "pending": "Pending"
+    },
+    "type": {
+      "prepaid": "Prepaid",
+      "recurring": "Recurring"
+    }
+  },
+  "paymentStatus": {
+    "approved": "Approved",
+    "refunded": "Refunded",
+    "rejected": "Rejected",
+    "inProcess": "Under review",
+    "cancelled": "Cancelled",
+    "pending": "Pending"
+  },
+  "details": {
+    "copied": "{label} copied.",
+    "copyFailed": "Couldn't copy.",
+    "copy": "Copy {label}",
+    "donationAccepted": "Accepted the donation terms on {date}",
+    "email": "Email",
+    "subscription": "Subscription",
+    "mpRecurrence": "MP recurrence",
+    "since": "Since {date}",
+    "coupon": "coupon {code} (-{discount})",
+    "mpTransaction": "MP transaction",
+    "giftFrom": "Gift from {name}",
+    "creditError": "Failed to release: {error}",
+    "paymentsLoadFailed": "Failed to load payments.",
+    "cancel": {
+      "silentTitle": "Cancel without notifying the member?",
+      "title": "Cancel subscription?",
+      "silentDescription": "Cancels the recurrence on Mercado Pago and removes the role, without sending the member a DM. Good for cleaning up a checkout left pending.",
+      "description": "Cancels the recurrence on Mercado Pago and removes the member's role. This does not refund earlier payments; use the \"Refund\" button on each charge if you need to reverse one.",
+      "silentConfirm": "Cancel without notice",
+      "confirm": "Cancel subscription",
+      "silentHint": "Cancels without sending the member a DM",
+      "done": "Subscription cancelled.",
+      "failed": "Failed to cancel."
+    },
+    "recheck": {
+      "failed": "Failed to recheck.",
+      "hint": "Checks Mercado Pago and activates the subscription if the payment has already been made.",
+      "action": "Recheck"
+    },
+    "refund": {
+      "title": "Refund {amount}?",
+      "description": "Mercado Pago will reverse this amount to the subscriber's card (up to 90 days after the payment). The subscription stays active; to cancel it too, use \"Cancel subscription\".",
+      "confirm": "Refund",
+      "done": "Refund requested.",
+      "failed": "Failed to refund."
+    },
+    "collapse": "Hide details",
+    "expand": "Show details",
+    "purchases": "Purchases",
+    "payments": "Charge history",
+    "noPayments": "No charges recorded yet. They show up when Mercado Pago bills the recurrence.",
+    "gameActions": "In-game actions",
+    "noGameActions": "No in-game actions triggered by this plan."
+  }
+}

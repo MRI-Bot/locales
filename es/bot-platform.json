@@ -1,0 +1,15 @@
+{
+  "trial": {
+    "guildOnly": "Usa este comando dentro del servidor donde quieres la prueba.",
+    "noPermissionTitle": "Sin permiso",
+    "noPermission": "Solo el dueño del servidor (o alguien con Administrador) puede canjear un código de prueba.",
+    "failedTitle": "No se pudo canjear",
+    "failed": "Inténtalo de nuevo en un momento. Si persiste, habla con el equipo.",
+    "granted": "Plan **{plan}** activado por **{days, plural, one {# día} other {# días}}**.",
+    "ends": "Termina {relative} ({full}).",
+    "guildCovered": "**{guild}** ya está cubierto: solo activa los módulos en el panel.",
+    "guildNotCovered": "⚠️ La prueba está activa en tu cuenta, pero **{guild}** no se pudo cubrir automáticamente (el servidor ya está en otra cuenta). Elige el servidor en el panel, en **Plan › Servidores Pro**.",
+    "afterEnd": "Cuando termine la prueba, los módulos de pago se desactivan: la configuración queda guardada.",
+    "successTitle": "Período de prueba activado 🎉"
+  }
+}

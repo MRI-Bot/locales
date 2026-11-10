@@ -1,0 +1,64 @@
+{
+  "header": {
+    "privacyPolicy": "Política de Privacidade"
+  },
+  "title": "Meus dados",
+  "intro": "Veja o que temos sobre você, baixe uma cópia ou peça a exclusão. Não é preciso ter conta no painel, entre com o mesmo Discord que você usa nos servidores.",
+  "signIn": {
+    "scopePrefix": "Pra ver seus dados, precisamos confirmar que é você. Usamos apenas a permissão",
+    "scopeSuffix": ", seu nome de usuário e nada mais.",
+    "button": "Entrar com Discord"
+  },
+  "errors": {
+    "request": "Falha na requisição ({status})",
+    "export": "Falha ao exportar.",
+    "schedule": "Falha ao agendar.",
+    "cancel": "Falha ao cancelar."
+  },
+  "summary": {
+    "title": "O que temos sobre você",
+    "empty": "Nenhum dado encontrado para este Discord."
+  },
+  "export": {
+    "button": "Baixar cópia (JSON)",
+    "fileName": "meus-dados-mri-bot-{date}.json"
+  },
+  "ownedGuilds": {
+    "title": "Servidores que você administra",
+    "bodyPrefix": "Os dados destes servidores",
+    "bodyNot": "não",
+    "bodySuffix": "serão apagados: neles o controlador é o servidor, e nós somos apenas operadores. Pra apagá-los, remova o bot do servidor, a exclusão acontece 30 dias depois."
+  },
+  "erase": {
+    "title": "Excluir meus dados",
+    "scheduledPrefix": "Exclusão agendada para",
+    "scheduledSuffix": ". Até lá, você pode cancelar.",
+    "cancel": "Cancelar exclusão",
+    "delayPrefix": "A exclusão roda",
+    "delayDays": "7 dias",
+    "delaySuffix": "depois do pedido. Essa espera existe pra proteger você: se alguém tomar sua conta e pedir exclusão, dá tempo de cancelar.",
+    "retained": "Compras, casos de moderação e apelações não são apagados, são anonimizados. A lei permite reter esses registros, e apagá-los abriria caminho pra fugir de banimento.",
+    "confirmWord": "excluir",
+    "typePrefix": "Digite",
+    "typeSuffix": "pra confirmar:",
+    "schedule": "Agendar exclusão"
+  },
+  "requests": {
+    "title": "Meus pedidos",
+    "export": "Exportação",
+    "erasure": "Exclusão"
+  },
+  "cancel": {
+    "noToken": "Link sem token. Confira se copiou o endereço inteiro.",
+    "failed": "Não foi possível cancelar.",
+    "unreachable": "Não foi possível falar com o servidor. Tente de novo.",
+    "okTitle": "Exclusão cancelada",
+    "okBody": "Seus dados continuam onde estavam. Nada foi apagado.",
+    "okWarning": "Se não foi você quem pediu a exclusão, alguém pode estar com acesso à sua conta do Discord. Troque a senha e ative a verificação em duas etapas.",
+    "goToPortal": "Ir para o portal de privacidade",
+    "invalidTitle": "Link inválido ou já usado",
+    "errorTitle": "Algo deu errado",
+    "portalHint": "Você também pode cancelar entrando no portal com o seu Discord.",
+    "openPortal": "Abrir o portal"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "status": {
+    "updatedEvery": "Actualizado cada {interval}",
+    "refresh": {
+      "seconds": "{seconds} segundos",
+      "minutes": "{count, plural, one {1 minuto} other {{count} minutos}}"
+    },
+    "connectHint": "Usa los botones de abajo para conectarte al servidor.",
+    "line": {
+      "status": "**Estado:** {value}",
+      "players": "**Jugadores:** {value}"
+    },
+    "updatedAt": "Actualizado {when}",
+    "joinButton": "Entrar al servidor",
+    "fallbackHostname": "Servidor MTA"
+  }
+}

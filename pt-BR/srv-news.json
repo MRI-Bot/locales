@@ -1,0 +1,8 @@
+{
+  "disabledReason": {
+    "no_guild": "O bot não está mais no servidor.",
+    "no_channel": "O canal configurado não existe mais.",
+    "forbidden": "O bot não tem permissão de enviar mensagens no canal.",
+    "error": "Falhas seguidas ao enviar o anúncio."
+  }
+}

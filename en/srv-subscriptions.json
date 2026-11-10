@@ -1,0 +1,19 @@
+{
+  "donation": {
+    "defaultNotice": "Voluntary donation. It is not the purchase of a product or service and is non-refundable, except for duplicate charges or fraud.",
+    "checkboxLabel": "I understand this is a voluntary, non-refundable donation."
+  },
+  "purchase": {
+    "lifetime": "lifetime",
+    "months": "{count} {count, plural, one {month} other {months}}",
+    "giftPrefix": "Gift: "
+  },
+  "recheck": {
+    "synced": "Status synced with Mercado Pago.",
+    "noMpPlan": "Plan has no Mercado Pago plan set up — nothing to recheck.",
+    "noActivePayment": "No active payment found on Mercado Pago yet.",
+    "allLinked": "All active Mercado Pago subscriptions are already linked — nothing orphaned for this subscriber.",
+    "ambiguous": "There are unlinked active payments, but it wasn't possible to safely tell which one belongs to this subscriber. Check manually.",
+    "activated": "Payment found on Mercado Pago — subscription activated. The role will be applied shortly."
+  }
+}

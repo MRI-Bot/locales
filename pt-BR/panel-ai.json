@@ -1,0 +1,312 @@
+{
+  "copy": {
+    "failed": "Não foi possível copiar. Selecione manualmente.",
+    "copied": "Copiado"
+  },
+  "access": {
+    "title": "Usar com IA",
+    "description": "Uma IA pode configurar este servidor por você: tickets, cargos, canais, mensagens e o resto. Ela só faz o que a chave permite, e tudo o que mudar aparece em Atividade das chaves.",
+    "keyLabel": "Chave que a IA vai usar",
+    "noKey": "Crie uma chave só com as permissões do que a IA vai mexer. Com ela criada, os botões abaixo já copiam com a chave.",
+    "connector": {
+      "title": "ChatGPT ou Claude (conector)",
+      "description": "Em Conectores, adicione um conector personalizado com este endereço. Quem tiver o endereço usa a chave: guarde como senha.",
+      "copy": "Copiar endereço"
+    },
+    "terminal": {
+      "title": "IA no terminal (Claude Code, Codex, Cursor)",
+      "description": "Copie as instruções e cole na conversa. A IA lê o guia da API e começa pelo que a chave pode fazer.",
+      "copy": "Copiar instruções"
+    },
+    "guide": "Ver o guia da API"
+  },
+  "common": {
+    "failed": "Não foi possível concluir.",
+    "add": "Adicionar"
+  },
+  "errorLog": {
+    "title": "Erros recentes",
+    "description": "O que o provedor respondeu quando falhou, dos últimos 14 dias. Não guarda a pergunta nem quem perguntou, e a chave é apagada do texto.",
+    "loadFailed": "Não consegui carregar os erros.",
+    "clear": "Limpar erros",
+    "clearTitle": "Limpar os erros?",
+    "clearDescription": "O histórico de erros deste servidor será apagado.",
+    "clearFailed": "Não consegui limpar.",
+    "empty": "Nenhum erro registrado. 🎉",
+    "showAll": "Ver todos ({count})",
+    "kinds": {
+      "quota": {
+        "label": "cota",
+        "hint": "A chave estourou o limite (429). A fila seguiu pro próximo."
+      },
+      "auth": {
+        "label": "chave recusada",
+        "hint": "A chave é inválida, venceu ou não tem acesso ao modelo."
+      },
+      "down": {
+        "label": "fora do ar",
+        "hint": "O provedor não respondeu a tempo ou deu erro 5xx."
+      },
+      "other": {
+        "label": "erro",
+        "hint": "Modelo inexistente, formato recusado ou outra resposta de erro."
+      },
+      "chain": {
+        "label": "fila inteira",
+        "hint": "Nenhum provedor respondeu, o membro ficou sem a IA."
+      },
+      "docs": {
+        "label": "fontes",
+        "hint": "O índice das fontes de documentação não carregou."
+      }
+    }
+  },
+  "modelPicker": {
+    "placeholder": "Escolha ou digite o modelo",
+    "search": "Buscar ou digitar o id...",
+    "emptyNoOptions": "Use \"Buscar modelos\" ou digite o id.",
+    "emptyNoMatch": "Nenhum modelo com esse nome.",
+    "typedGroup": "Escrito à mão",
+    "useTyped": "Usar “{id}”",
+    "count": "{count, plural, one {# modelo} other {# modelos}}",
+    "free": "grátis",
+    "fetch": "Buscar modelos",
+    "fetchHint": "Buscar os modelos que esta chave enxerga",
+    "fetchDisabledHint": "Preencha a API key (e a Base URL) primeiro",
+    "primary": "principal",
+    "fallback": "reserva {n}",
+    "remove": "Remover {model}"
+  },
+  "docsSources": {
+    "title": "Fontes de documentação",
+    "description": "URL de um índice JSON da sua documentação. Com uma fonte, a IA passa a buscar só os trechos relevantes (da fonte e da base acima) e cita os links na resposta.",
+    "count": "{count, plural, one {# fonte} other {# fontes}}",
+    "countOfMax": "{count} / {max} {count, plural, one {fonte} other {fontes}}",
+    "never": "nunca",
+    "added": "Fonte adicionada.",
+    "enabled": "Fonte ligada.",
+    "disabled": "Fonte desligada.",
+    "enable": "Ligar fonte",
+    "disable": "Desligar fonte",
+    "enabledHint": "Ligada, entra na busca",
+    "disabledHint": "Desligada, fica salva, mas fora da busca",
+    "refreshed": "Fonte atualizada.",
+    "refreshNow": "Atualizar agora",
+    "removed": "Fonte removida.",
+    "stats": "{chunks} trechos · {size} · atualizada em {when}",
+    "keepsLastCopy": "A IA segue usando a última cópia que funcionou.",
+    "planLimit": "Seu plano permite {count, plural, one {# fonte} other {# fontes}}. Faça upgrade pra adicionar mais.",
+    "namePlaceholder": "Nome (opcional)",
+    "add": "Adicionar",
+    "format": "Formato: {format}. O tamanho conta o JSON descomprimido. As fontes são atualizadas sozinhas a cada 12 h."
+  },
+  "kbEntries": {
+    "title": "Entradas adicionadas pelo Discord",
+    "description": "No Discord, clique direito numa mensagem → {apps} → {command}. Usar de novo na mesma mensagem (depois de editar, por exemplo) atualiza a entrada em vez de duplicar. As entradas entram junto com o texto acima e dividem o mesmo limite de caracteres; o liga/desliga do texto não desliga as entradas.",
+    "appsMenu": "Apps",
+    "count": "{count, plural, one {# entrada} other {# entradas}}",
+    "chars": "{count} caracteres",
+    "titlePlaceholder": "Pergunta ou assunto (opcional)",
+    "contentPlaceholder": "O que a IA deve saber",
+    "created": "Entrada criada.",
+    "saved": "Entrada salva.",
+    "deleted": "Entrada apagada.",
+    "untitled": "Sem título",
+    "edit": "Editar",
+    "delete": "Apagar",
+    "updatedAt": "Atualizada em {when}",
+    "sourceMessage": "mensagem de origem",
+    "new": "Nova entrada",
+    "commandName": "Adicionar à base da IA"
+  },
+  "chat": {
+    "title": "Testar {provider}",
+    "providerFallback": "provedor",
+    "description": "Conversa direto com o modelo, usando a chave e a URL do formulário (não precisa salvar). Não conta no uso nem nas estatísticas, mas a chamada é feita de verdade na sua chave.",
+    "prompt": "Prompt",
+    "modeAssistant": "Igual ao assistente",
+    "modeCustom": "Livre (prompt meu)",
+    "model": "Modelo",
+    "primary": "(principal)",
+    "fallback": "(reserva)",
+    "opencodeDefault": "padrão do OpenCode",
+    "modelId": "id do modelo",
+    "saved": "salvas",
+    "assistantHint": "Usa a base, as entradas, as fontes e as instruções {saved} deste servidor. Com fonte de documentação, cada mensagem busca os trechos como no Discord (sem a busca inteligente). Gatilhos e porteiro não rodam aqui.",
+    "systemPlaceholder": "Prompt de sistema (opcional). Ex.: Você é o suporte de um servidor de FiveM…",
+    "empty": "Mande uma pergunta como um membro mandaria.",
+    "tokens": "{count} tokens",
+    "escalated": "chamaria o staff",
+    "sources": "{count} trechos no prompt",
+    "thinking": "pensando…",
+    "inputPlaceholder": "Escreva e aperte Enter",
+    "send": "Enviar",
+    "clear": "Limpar conversa",
+    "remaining": "{count} mensagens de teste restantes nos próximos minutos.",
+    "failed": "Falhou.",
+    "sendFailed": "Não foi possível enviar."
+  },
+  "section": {
+    "loadError": "Falha ao carregar a config do Assistente IA.",
+    "saved": "Assistente IA salvo.",
+    "saveError": "Não foi possível salvar.",
+    "title": "Assistente IA",
+    "description": "Responde as dúvidas dos seus membros automaticamente nos canais que você escolher. Primeiro tenta {triggers} (grátis); se ligar a IA, ela cobre o resto pela base de conhecimento. Só escuta os canais da allowlist.",
+    "descriptionTriggers": "gatilhos por palavra"
+  },
+  "general": {
+    "enabled": {
+      "label": "Ativar Assistente IA",
+      "description": "Liga/desliga o módulo inteiro."
+    },
+    "channels": {
+      "label": "Canais que a IA escuta",
+      "placeholder": "Adicionar canal...",
+      "empty": "Nenhum canal, a IA não responde em lugar nenhum até você adicionar.",
+      "forumHint": "Em canal de fórum, a IA responde a mensagem que abre cada post e quem responder a ela."
+    },
+    "cooldown": "Cooldown por membro (segundos)",
+    "replyInThread": "Responder em thread"
+  },
+  "gate": {
+    "label": "Só responder quando parecer pergunta",
+    "description": "Sem isso o assistente responde tudo que cai no canal, inclusive “obrigado”, “vlw” e conversa solta, e cada uma dessas gasta token da sua chave. O filtro não exige interrogação: {half}, então ele olha intenção (“alguém sabe”, “como”, “onde”) e relato de problema (“deu erro”, “não funciona”).",
+    "descriptionHalf": "metade das perguntas reais não tem “?”",
+    "minChars": "Tamanho mínimo da mensagem",
+    "minCharsHint": "Contado sem saudação, menção nem link."
+  },
+  "triggers": {
+    "title": "Gatilhos por palavra (grátis)",
+    "description": "Quando a mensagem do membro contém uma das palavras, a IA responde na hora com o texto pronto. Zero custo, sem alucinação.",
+    "empty": "Nenhum gatilho ainda.",
+    "keywordsPlaceholder": "Palavras-chave (vírgula): vip, comprar vip, virar vip",
+    "match": {
+      "word": "Palavra inteira",
+      "contains": "Em qualquer lugar",
+      "starts": "No começo"
+    },
+    "containsWarning": "Em qualquer lugar casa pedaço de palavra: {part} dispara em {word}, {part2} em {word2}. Se não for isso que você quer, use {whole}.",
+    "responsePlaceholder": "Resposta pronta pra essas palavras (aceita markdown)."
+  },
+  "ai": {
+    "title": "IA por intenção",
+    "description": "Pro que os gatilhos não pegam: a IA entende a intenção e responde pela base de conhecimento. Sem match, escala pro staff."
+  },
+  "knowledge": {
+    "overOnSave": "A base de conhecimento passou do limite em {count} caracteres. Corte o excesso antes de salvar.",
+    "label": "Base de conhecimento",
+    "inUse": "Em uso",
+    "off": "Desligada (fica salva)",
+    "turnOff": "Desligar base de conhecimento",
+    "turnOn": "Ligar base de conhecimento",
+    "placeholder": "Regras, FAQ, como comprar, como funciona X... A IA responde SÓ com base nisso.",
+    "tokensHint": "Sem fonte de documentação, ela vai inteira pro modelo a cada pergunta, ~{tokens} tokens por resposta. Bases grandes consomem mais rápido a cota da sua chave.",
+    "sharedLimit": "O limite é {max} somando com as entradas abaixo, que já usam {used}.",
+    "over": "{count} caracteres acima do limite. Corte o excesso pra conseguir salvar, nada é descartado sozinho.",
+    "overShort": "Base de conhecimento acima do limite."
+  },
+  "instructions": {
+    "label": "Instruções do assistente",
+    "placeholder": "Contexto e tom. Ex.: Seu nome é Miria. Você ajuda quem usa a base MRI Qbox (FiveM com Qbox e Ox). Fale de forma simples, pra iniciantes.",
+    "hint": "Entram no prompt depois das regras fixas: servem pra contexto, nome e tom. Responder só pela base, citar as fontes e chamar o staff continuam valendo."
+  },
+  "smartSearch": {
+    "label": "Busca inteligente nas fontes",
+    "description": "Antes de procurar na documentação, a IA reescreve a pergunta em termos técnicos. Acha respostas que não usam as mesmas palavras da pergunta (ex.: \"como viro admin\" → \"setmaster\"), mas faz uma chamada a mais ao provedor por pergunta. Só tem efeito com fonte de documentação."
+  },
+  "images": {
+    "label": "Ler imagens anexadas (Pro)",
+    "description": "A IA olha os prints que o membro manda junto da pergunta (até 3 por mensagem), e também responde quem manda só a imagem. Cada imagem é reduzida e convertida pra WebP antes de ir ao provedor, mas ainda gasta algumas centenas de tokens. O modelo precisa ler imagem (Gemini, GPT-4o e similares); se não ler, a IA responde só pelo texto. Com fonte de documentação, a imagem também entra na busca, com uma chamada a mais.",
+    "lock": "A leitura de imagens faz parte do plano Pro."
+  },
+  "providers": {
+    "testOk": "Respondeu: \"{sample}\"",
+    "testNoReply": "O provedor não respondeu.",
+    "testError": "Não foi possível testar.",
+    "fetchError": "Não consegui buscar os modelos.",
+    "fetchOk": "{count} modelos encontrados.",
+    "label": "Provedores (ordem = fallback)",
+    "noneEnabled": "Nenhum provedor ligado, sem a IA de verdade, só os gatilhos respondem.",
+    "moveUp": "Subir na fila",
+    "moveUpHint": "Subir na fila (tentado antes)",
+    "moveDown": "Descer na fila",
+    "moveDownHint": "Descer na fila (tentado depois)",
+    "position": "Posição na fila",
+    "turnOff": "Desligar provedor",
+    "turnOn": "Ligar provedor",
+    "onHint": "Ligado, entra na fila",
+    "offHint": "Desligado, fica salvo, mas fora da fila",
+    "opencodeFree": "OpenCode (grátis)",
+    "namePlaceholder": "Nome (ex: Groq)",
+    "test": "Testar provedor",
+    "testHint": "Testar conexão (ping)",
+    "chat": "Conversar com o modelo",
+    "chatHint": "Conversar com o modelo (chat de teste)",
+    "remove": "Remover provedor",
+    "opencodePlaceholder": "Vazio = modelo padrão (Buscar modelos lista os grátis)",
+    "opencodeHint": "A mesma IA da Miria no instalador, sem chave. Só existe no servidor DEV da plataforma. Os modelos grátis do OpenCode mudam com frequência: se o escolhido sair do ar, ele troca sozinho por outro grátis. A cota pode ser recusada a qualquer momento, deixe um provedor com chave na fila como reserva.",
+    "baseUrlPlaceholder": "Base URL (ex: {url})",
+    "modelExample": "ex.: {model}",
+    "fallbackHint": "Se o principal falhar, tenta os de reserva em ordem, com a mesma chave."
+  },
+  "escalation": {
+    "staffRole": "Cargo de staff (escalar)",
+    "none": "Nenhum",
+    "message": "Mensagem ao escalar"
+  },
+  "statusReactions": {
+    "label": "Reações de status (👀 / ✅)",
+    "description": "Reage com 👀 na mensagem quando a IA começa a responder e troca por ✅ quando a resposta sai. Mostra que o bot viu, já que a resposta pode levar alguns segundos. Precisa da permissão de adicionar reações no canal."
+  },
+  "thinking": {
+    "label": "Mensagem de espera",
+    "description": "Responde na hora com um aviso e depois troca o aviso pela resposta, na mesma mensagem. Mais visível que a reação, que muita gente não percebe. Se a IA não responder, o aviso é apagado; se ela chamar o staff, o aviso some e a chamada sai como mensagem nova, pra o cargo ser notificado. Funciona junto ou no lugar das reações.",
+    "placeholder": "🔎 Consultando a base…",
+    "textLabel": "Texto da mensagem de espera"
+  },
+  "feedback": {
+    "label": "Pedir avaliação da resposta (👍 / 👎)",
+    "description": "Põe dois botões embaixo de cada resposta da IA. É a única forma de saber se ela está acertando, sem isso, o painel abaixo só mostra quanto você gastou, nunca se valeu a pena. Os botões não aparecem em resposta de gatilho nem quando ela chama o staff."
+  },
+  "fairUse": {
+    "label": "Uso justo por membro",
+    "description": "Quantas respostas da IA cada membro recebe por janela. Protege a cota da sua chave de quem despeja perguntas. Ao passar, o bot só reage com ⏳, sem contador na conversa. Gatilhos não contam. 0 = sem limite.",
+    "limit": "Respostas por membro",
+    "window": "Janela (horas)",
+    "bonusRoles": "Cargos com limite maior",
+    "addRole": "Adicionar cargo...",
+    "multiplier": "Multiplicador",
+    "bonusExample": "Ex.: apoiadores ou boosters recebem {bonus} respostas por janela em vez de {limit}.",
+    "removeRole": "Remover cargo"
+  },
+  "stats": {
+    "gateReasons": {
+      "ruido": "agradecimento / conversa",
+      "curto": "curta demais",
+      "semSinal": "sem cara de pergunta",
+      "vazio": "sem texto"
+    },
+    "title": "Como ele foi nos últimos {days} dias",
+    "description": "Só desta guild. Antes disso o módulo contava token no balde da plataforma, então não havia como saber quanto ESTE servidor gastou.",
+    "answers": "respostas da IA",
+    "noRatings": "ninguém avaliou ainda",
+    "approval": "aprovação ({up}👍 / {down}👎)",
+    "escalations": "vezes que chamou o staff",
+    "escalationsByFailure": "{count} por falha do provedor",
+    "tokens": "tokens da sua chave",
+    "quotaTodayTitle": "Cota estourada hoje:",
+    "quotaToday": "{title} {providers}. Enquanto a cota não volta, a cadeia pula esse provedor, e se ele for o único, toda pergunta vai pro staff. Adicione outro provedor como reserva ou troque a chave.",
+    "failuresTitle": "Falhas por provedor:",
+    "failures": {
+      "ok": "{label}: {count} ok",
+      "quota": "{count} cota",
+      "auth": "{count} chave recusada",
+      "down": "{count} fora do ar",
+      "other": "{count} outro erro"
+    },
+    "providerErrors": "{count, plural, one {{n} vez o provedor falhou} other {{n} vezes o provedor falhou}} e o assistente ficou calado. Confira a chave, o modelo e se a cota diária não estourou.",
+    "gateBlocked": "O porteiro barrou {n} mensagens antes de gastar token:",
+    "repeated": "Perguntas que mais repetiram. Cada uma dessas é candidata a virar um gatilho por palavra e sair de graça:",
+    "repeatedHint": "A pergunta em si não é guardada, só uma impressão digital dela."
+  }
+}

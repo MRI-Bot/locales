@@ -1,0 +1,22 @@
+{
+  "commandsNotHere": "Este bot solo entrega los mensajes directos del servidor. Usa los comandos con el bot principal.",
+  "notAvailable": "Esta acción aún no está disponible aquí. Habla con el equipo del servidor.",
+  "retryLater": "No pude completarlo ahora. Inténtalo de nuevo en unos instantes.",
+  "rating": {
+    "invalid": "Valoración no válida.",
+    "modalTitle": "Valoración {rating}⭐",
+    "labelRequired": "¿Qué podría haber sido mejor?",
+    "labelOptional": "Comentario (opcional)",
+    "placeholderRequired": "Cuéntanos qué podría haber sido mejor (obligatorio para una nota baja)",
+    "placeholderOptional": "Opcional: describe la atención en pocas palabras",
+    "thanks": "✅ ¡Gracias! Tu valoración de {rating}⭐ quedó registrada{withComment, select, yes { con tu comentario} other {}}."
+  },
+  "anon": {
+    "invalid": "Conversación no válida.",
+    "modalTitle": "Responder al equipo",
+    "label": "Tu respuesta",
+    "unknownUser": "No pude identificarte.",
+    "sendFailed": "No se pudo enviar.",
+    "sent": "✅ Enviada al equipo. Tu identidad sigue siendo anónima."
+  }
+}

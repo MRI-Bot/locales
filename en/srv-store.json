@@ -1,0 +1,21 @@
+{
+  "deliveryEmail": {
+    "subject": "Your download: {product}",
+    "thanks": "Thanks for your purchase! 🎉",
+    "ready": "Your product {product} is ready to download.",
+    "download": "Download {file}",
+    "fallback": "If the button doesn't work, copy and paste this link:"
+  },
+  "storefront": {
+    "navProducts": "Products",
+    "navPlans": "Plans",
+    "restoreBackupNote": "Automatic backup before restoring the version from {date}."
+  },
+  "checkout": {
+    "orderLine": "{count, plural, one {Order with {count} item} other {Order with {count} items}}"
+  },
+  "og": {
+    "storeTitle": "{name} — Store",
+    "storeDescription": "Official store — digital products delivered on Discord."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "guildOnly": "Usa este comando dentro de un servidor.",
+  "guildOnlyShort": "Úsalo dentro de un servidor.",
+  "textChannelOnly": "Úsalo en un canal de texto.",
+  "sub": {
+    "menu": {
+      "noPermission": "No tienes permiso para acceder al menú de suscripciones.",
+      "title": "⭐ Suscripciones",
+      "description": "Usa los botones de abajo para gestionar el módulo.\n\n• **Publicar panel** publica los planes activos con botones \"Suscribirse\".\n• Crea o edita planes en el panel web.",
+      "postHere": "Publicar panel aquí"
+    },
+    "panel": {
+      "noPermission": "No tienes permiso para publicar el panel en este servidor.",
+      "loadFailed": "No pude cargar los planes.",
+      "noPlansTitle": "Sin planes activos",
+      "noPlans": "Crea al menos un plan en el panel web antes de publicar.",
+      "title": "⭐ Suscripciones del servidor",
+      "footer": "Haz clic en un botón para suscribirte. Serás redirigido a Mercado Pago.",
+      "subscribe": "Suscribirse a {plan}",
+      "postFailed": "No pude publicar el panel. Revisa los permisos del bot.",
+      "postedTitle": "Panel publicado",
+      "posted": "El panel de suscripciones se publicó en este canal."
+    },
+    "checkout": {
+      "title": "💳 Checkout",
+      "description": "Haz clic en **Abrir checkout** para completar tu suscripción en Mercado Pago.\nTu ID de Discord ya estará completado.",
+      "open": "Abrir checkout"
+    },
+    "freq": {
+      "month": "mes",
+      "quarter": "trimestre",
+      "semester": "semestre",
+      "year": "año",
+      "months": "{count} meses",
+      "week": "semana",
+      "fortnight": "quincena",
+      "days": "{count} días"
+    }
+  },
+  "shop": {
+    "menu": {
+      "noPermission": "No tienes permiso para acceder al menú de la tienda.",
+      "title": "🛍️ Tienda",
+      "description": "Usa los botones de abajo para gestionar el módulo.\n\n• **Publicar tienda** publica un panel con el botón \"Ver productos\". La lista siempre se abre actualizada, así que no hace falta publicar de nuevo cuando cambie un producto.\n• Crea o edita productos en el panel web, en **Tienda**.",
+      "postHere": "Publicar tienda aquí",
+      "offTitle": "Tienda apagada",
+      "off": "Activa el módulo Tienda en el panel web para usar este comando."
+    },
+    "panel": {
+      "loadFailed": "No pude cargar los productos.",
+      "noProductsTitle": "Sin productos activos",
+      "noProducts": "Crea al menos un producto en el panel web antes de publicar.",
+      "title": "🛍️ Tienda del servidor",
+      "posted": "El panel de la tienda se publicó en este canal.",
+      "description": "Haz clic en **Ver productos** para ver el catálogo con los precios actuales y comprar.\nCuando se aprueba el pago, la entrega es automática.",
+      "browse": "Ver productos",
+      "openStore": "Abrir tienda"
+    },
+    "checkout": {
+      "title": "💳 Checkout listo",
+      "description": "Monto: **{amount}**\n\nHaz clic en **Abrir checkout** para terminar el pago.\nCuando se aprueba el pago, el artículo se entrega automáticamente.",
+      "failed": "Error al crear el checkout."
+    },
+    "browse": {
+      "closedTitle": "Tienda cerrada",
+      "closed": "La tienda de este servidor no está abierta ahora.",
+      "emptyTitle": "Tienda vacía",
+      "empty": "No hay productos a la venta ahora.",
+      "title": "🛍️ Productos",
+      "footer": "Página {page} de {pages} · {count} productos",
+      "pick": "Elige el producto para comprar",
+      "prev": "Anterior",
+      "next": "Siguiente",
+      "more": "_Los demás productos de esta página están en el menú de abajo._"
+    }
+  }
+}

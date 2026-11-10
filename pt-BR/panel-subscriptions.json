@@ -1,0 +1,328 @@
+{
+  "roleNotFound": "Cargo {id} não encontrado",
+  "prepaid": {
+    "title": "Pacotes pré-pagos e presente",
+    "description": "Pagamento único, sem renovação automática. Habilita presentear alguém e usar cupom, duas coisas que a mensalidade recorrente do Mercado Pago não permite. Sem nenhum pacote, o plano segue só recorrente.",
+    "duration": "Duração",
+    "lifetime": "Vitalício",
+    "monthsUnit": "{count, plural, one {mês} other {meses}}",
+    "months": "{count, plural, one {# mês} other {# meses}}",
+    "totalPrice": "Preço total (R$)",
+    "remove": "Remover pacote",
+    "lifetimeHint": "Paga uma vez e o acesso não vence.",
+    "savingHint": "Na assinatura recorrente sairia {price}, então este pacote dá {saving}.",
+    "saving": "{percent}% de economia",
+    "equivalent": "Equivale a {price} na assinatura recorrente.",
+    "active": "Ativo",
+    "otherDuration": "Outra duração"
+  },
+  "actions": {
+    "types": {
+      "discordRole": "Cargo Discord",
+      "discordChannel": "Acesso a canal Discord",
+      "mtaAction": "Ação no servidor MTA",
+      "fivemAction": "Ação no servidor FiveM"
+    },
+    "activate": {
+      "title": "Ao começar a assinatura",
+      "hint": "Dispara na primeira cobrança aprovada e também em cada renovação. Por isso um crédito in-game recorrente funciona sozinho, e conceder de novo um cargo que a pessoa já tem não faz mal."
+    },
+    "cancel": {
+      "title": "Ao cancelar ou expirar",
+      "hint": "O que é devolvido quando a assinatura acaba. Sem nenhuma ação aqui, o assinante fica com o que recebeu."
+    },
+    "max": "Máximo de {max} ações por plano.",
+    "none": "Nenhuma ação.",
+    "add": "Adicionar",
+    "remove": "Remover ação",
+    "roleHierarchy": "⚠️ O cargo do bot precisa estar acima desse cargo na hierarquia do servidor.",
+    "noGameActions": "Nenhuma ação configurada no módulo {module} (aba Ações).",
+    "selectAction": "Selecionar ação",
+    "placeholders": "Placeholders:"
+  },
+  "plan": {
+    "periods": {
+      "weekly": "Semanal",
+      "biweekly": "Quinzenal",
+      "monthly": "Mensal",
+      "quarterly": "Trimestral",
+      "semestral": "Semestral",
+      "yearly": "Anual",
+      "custom": "Customizado"
+    },
+    "frequency": {
+      "months": "{count, plural, =1 {mês} =12 {ano} other {# meses}}",
+      "days": "{count, plural, =1 {dia} =7 {semana} other {# dias}}"
+    },
+    "preview": {
+      "title": "Preview na loja",
+      "namePlaceholder": "Nome do plano",
+      "subscribe": "Assinar",
+      "hint": "É assim que o plano aparece na loja pública, atualiza enquanto você edita."
+    },
+    "rolesLoadFailed": "Falha ao carregar cargos.",
+    "errors": {
+      "nameTooShort": "Nome precisa ter pelo menos 2 caracteres.",
+      "minPrice": "Preço mínimo R$ 1,00."
+    },
+    "updated": "Plano atualizado.",
+    "created": "Plano criado.",
+    "saveFailed": "Falha ao salvar.",
+    "editTitle": "Editar plano",
+    "createTitle": "Criar plano de assinatura",
+    "subtitle": "Defina nome, preço, periodicidade e o cargo que o bot atribuirá aos assinantes ativos.",
+    "name": "Nome do plano",
+    "namePlaceholder": "Ex: VIP Bronze",
+    "benefits": "Benefícios (opcional)",
+    "benefitsPlaceholder": "Um benefício por linha, ex:\nCargo VIP exclusivo\nPrioridade na fila\nAcesso antecipado a scripts",
+    "benefitsHint": "Escreva {emphasis}, na loja vira uma lista com ✓.",
+    "benefitsHintEmphasis": "um benefício por linha",
+    "image": "Imagem do plano (opcional)",
+    "imageHint": "Vira o thumb do plano na loja pública, do mesmo jeito que a imagem do produto.",
+    "galleryHint": "Aparecem como carousel embaixo da imagem principal, na página do plano.",
+    "price": "Preço (R$)",
+    "period": "Periodicidade",
+    "every": "A cada",
+    "unit": "Unidade",
+    "units": {
+      "days": "Dias",
+      "months": "Meses"
+    },
+    "discount": {
+      "existingLead": "Vale só pra quem assinar a partir de agora.",
+      "existingSubscribers": "{lead} O Mercado Pago congela o valor na assinatura de cada pessoa quando ela autoriza o pagamento, então os {count} assinantes atuais continuam pagando o que já pagam. Quando a promoção acabar, quem entrar durante ela também segue no preço promocional até cancelar.",
+      "newOnly": "O desconto vale pra quem assinar a partir de agora. O Mercado Pago congela o valor na assinatura de cada pessoa, então mudar o preço depois não afeta quem já assina."
+    },
+    "publicListed": "Exibir na loja pública",
+    "publicListedHint": "Quando ativado, este plano aparece em {url}. Desativado = só acessível por link direto (modelo \"VIP por convite\").",
+    "publicListedUrl": "shop.mriqbox.com.br/sua-loja",
+    "donation": "É doação",
+    "donationHint": "O checkout vira doação: quem paga precisa marcar que entende que é doação voluntária e não reembolsável, e o texto aceito fica guardado em cada assinante.",
+    "donationNotice": "Aviso no checkout (opcional)",
+    "donationNoticeHint": "Diga o que a pessoa ganha como agradecimento e que não há reembolso. Vazio usa o texto de exemplo.",
+    "create": "Criar plano"
+  },
+  "section": {
+    "title": "Assinaturas",
+    "lockDescription": "Cobre mensalidade dos membros, com cargo enquanto a assinatura estiver ativa.",
+    "disabledTitle": "Assinaturas desativadas",
+    "disabledDescription": "Crie planos com cobrança recorrente. O bot dá o cargo aos assinantes ativos e tira quando a assinatura acaba.",
+    "activate": "Ativar assinaturas"
+  },
+  "overview": {
+    "new": "Novos",
+    "cancelled": "Cancelados",
+    "loadFailed": "Falha ao carregar a visão geral.",
+    "mrr": "Receita recorrente por mês",
+    "activeSubscribers": "Assinantes ativos",
+    "newLast30d": "Novos em 30 dias",
+    "churnLast30d": "Cancelados em 30 dias",
+    "pending": "Ainda não pagaram",
+    "upcoming7d": "Cobranças em 7 dias",
+    "trendTitle": "Entradas e saídas acumuladas em 30 dias",
+    "noTrend": "Ninguém entrou nem saiu nos últimos 30 dias.",
+    "perPlanLabel": "Receita por plano",
+    "perPlan": "Por plano",
+    "columns": {
+      "plan": "Plano",
+      "active": "Ativos",
+      "perMonth": "Por mês",
+      "share": "Parte da receita"
+    }
+  },
+  "events": {
+    "types": {
+      "roleGranted": "Cargo aplicado",
+      "roleGrantFailed": "Falha ao aplicar cargo",
+      "roleRevoked": "Cargo removido",
+      "roleRevokeFailed": "Falha ao remover cargo",
+      "cancelledByOwner": "Cancelada pelo dono",
+      "checkoutStarted": "Checkout iniciado",
+      "mpReconcile": "Reconciliação MP",
+      "mpPreapproval": "Webhook MP (assinatura)",
+      "mpRecurringCharge": "Cobrança recorrente",
+      "notifyActivated": "Notificação: ativada",
+      "notifyRenewed": "Notificação: renovada",
+      "notifyPaymentFailed": "Notificação: pagamento falhou",
+      "notifyCancelled": "Notificação: cancelada",
+      "notifyExpired": "Notificação: expirada",
+      "notifyExpiring": "Notificação: expirando",
+      "created": "Assinatura criada",
+      "paymentApproved": "Pagamento aprovado",
+      "paymentFailed": "Pagamento falhou",
+      "other": "Outro evento"
+    },
+    "loadFailed": "Falha ao carregar eventos.",
+    "loading": "Carregando eventos...",
+    "filterLabel": "Filtrar eventos",
+    "filters": {
+      "all": "Tudo",
+      "problems": "Precisam de atenção"
+    },
+    "failedRecent": "{count, plural, one {# falha} other {# falhas}} nas últimas 24h",
+    "empty": "Sem eventos ainda. Aparecem aqui cobranças, cargos dados e tirados, cancelamentos e avisos enviados.",
+    "emptyProblems": "Nada precisando de atenção.",
+    "columns": {
+      "when": "Quando",
+      "event": "Evento",
+      "plan": "Plano",
+      "subscriber": "Assinante"
+    }
+  },
+  "planList": {
+    "breakdown": {
+      "pending": "{count, plural, one {# pendente} other {# pendentes}}",
+      "pastDue": "{count} em atraso",
+      "cancelled": "{count, plural, one {# cancelada} other {# canceladas}}",
+      "expired": "{count, plural, one {# expirada} other {# expiradas}}"
+    },
+    "loadFailed": "Falha ao carregar planos.",
+    "deactivate": {
+      "title": "Desativar o plano \"{name}\"?",
+      "description": "Novos assinantes não vão conseguir contratar, mas quem já tem o plano continua até cancelar.",
+      "confirm": "Desativar",
+      "done": "Plano desativado.",
+      "failed": "Falha ao desativar."
+    },
+    "linkCopied": "Link de checkout copiado.",
+    "copyFailed": "Não consegui copiar.",
+    "filterLabel": "Filtrar planos",
+    "filters": {
+      "active": "Ativos",
+      "inactive": "Inativos"
+    },
+    "connectMpFirst": "Conecte o Mercado Pago primeiro",
+    "new": "Novo plano",
+    "noInactive": "Nenhum plano inativo.",
+    "columns": {
+      "plan": "Plano",
+      "price": "Preço",
+      "active": "Ativos",
+      "role": "Dá o cargo",
+      "actions": "Ações"
+    },
+    "noBenefits": "Sem benefícios descritos",
+    "noRole": "Nenhum",
+    "copyLink": "Copiar link",
+    "editNamed": "Editar {name}",
+    "deactivateNamed": "Desativar {name}",
+    "deactivatePlan": "Desativar plano",
+    "empty": "Nenhum plano criado ainda. Comece criando um plano (ex: \"VIP Bronze R$10/mês\").",
+    "createFirst": "Criar primeiro plano",
+    "frequency": {
+      "months": "{count, plural, =1 {mês} =3 {trimestre} =6 {semestre} =12 {ano} other {# meses}}",
+      "days": "{count, plural, =1 {dia} =7 {semana} =14 {quinzena} =30 {mês} other {# dias}}"
+    }
+  },
+  "grant": {
+    "pickMember": "Escolha o membro.",
+    "pickPlan": "Escolha o plano.",
+    "grantedLifetime": "Assinatura vitalícia concedida, cargo e ações do plano aplicados.",
+    "grantedUntil": "Assinatura concedida até {date}, cargo e ações do plano aplicados.",
+    "failed": "Falha ao conceder assinatura.",
+    "title": "Adicionar assinante manualmente",
+    "description": "Pra quem pagou por fora (Pix direto, cortesia). Ativa na hora com o cargo e as ações do plano, sem cobrança no Mercado Pago, e expira sozinha no fim do período.",
+    "member": "Membro",
+    "memberPlaceholder": "Buscar membro…",
+    "plan": "Plano",
+    "planPlaceholder": "Escolha o plano",
+    "period": "Período",
+    "yearly": "12 meses (anual)",
+    "email": "Email",
+    "emailHint": "(opcional, só registro)",
+    "emailPlaceholder": "email@exemplo.com",
+    "submit": "Conceder assinatura"
+  },
+  "subscribers": {
+    "filters": {
+      "all": "Todos",
+      "active": "Ativas",
+      "pending": "Pendentes",
+      "pastDue": "Em atraso",
+      "cancelled": "Canceladas",
+      "expired": "Expiradas"
+    },
+    "loadFailed": "Falha ao carregar.",
+    "empty": "Nenhum assinante ainda.",
+    "addManually": "Adicionar manualmente",
+    "searchPlaceholder": "Buscar nome, plano, ID ou e-mail",
+    "filterLabel": "Filtrar assinaturas",
+    "add": "Adicionar",
+    "pendingHint": "{status} = assinou mas ainda não pagou a 1ª cobrança. Não conta como apoiador nem recebe o cargo até o pagamento confirmar.",
+    "noMatch": "Nenhuma assinatura com esses filtros.",
+    "columns": {
+      "details": "Detalhes",
+      "subscriber": "Assinante",
+      "plan": "Plano",
+      "type": "Tipo",
+      "nextCharge": "Próxima cobrança ou validade",
+      "status": "Situação",
+      "actions": "Ações"
+    },
+    "showMore": "Mostrar mais ({count})",
+    "status": {
+      "active": "Ativa",
+      "pastDue": "Pagamento falhou",
+      "cancelled": "Cancelada",
+      "expired": "Expirada",
+      "pending": "Pendente"
+    },
+    "type": {
+      "prepaid": "Pré-pago",
+      "recurring": "Recorrente"
+    }
+  },
+  "paymentStatus": {
+    "approved": "Aprovado",
+    "refunded": "Reembolsado",
+    "rejected": "Rejeitado",
+    "inProcess": "Em análise",
+    "cancelled": "Cancelado",
+    "pending": "Pendente"
+  },
+  "details": {
+    "copied": "{label} copiado.",
+    "copyFailed": "Não deu pra copiar.",
+    "copy": "Copiar {label}",
+    "donationAccepted": "Aceitou os termos de doação em {date}",
+    "email": "Email",
+    "subscription": "Assinatura",
+    "mpRecurrence": "Recorrência MP",
+    "since": "Desde {date}",
+    "coupon": "cupom {code} (-{discount})",
+    "mpTransaction": "Transação MP",
+    "giftFrom": "Presente de {name}",
+    "creditError": "Falha ao liberar: {error}",
+    "paymentsLoadFailed": "Falha ao carregar pagamentos.",
+    "cancel": {
+      "silentTitle": "Cancelar sem avisar o membro?",
+      "title": "Cancelar assinatura?",
+      "silentDescription": "Cancela a recorrência no Mercado Pago e remove o cargo, sem mandar DM pro membro. Bom pra limpar checkout que ficou pendente.",
+      "description": "Cancela a recorrência no Mercado Pago e remove o cargo do membro. Esta ação não reembolsa pagamentos anteriores, use o botão \"Reembolsar\" em cada cobrança se precisar estornar.",
+      "silentConfirm": "Cancelar sem avisar",
+      "confirm": "Cancelar assinatura",
+      "silentHint": "Cancela sem mandar DM pro membro",
+      "done": "Assinatura cancelada.",
+      "failed": "Falha ao cancelar."
+    },
+    "recheck": {
+      "failed": "Falha ao reverificar.",
+      "hint": "Consulta o Mercado Pago e ativa a assinatura se o pagamento já foi feito.",
+      "action": "Reverificar"
+    },
+    "refund": {
+      "title": "Reembolsar {amount}?",
+      "description": "O Mercado Pago vai estornar esse valor pro cartão do assinante (até 90 dias após o pagamento). A assinatura continua ativa, se quiser cancelar também, use \"Cancelar assinatura\".",
+      "confirm": "Reembolsar",
+      "done": "Reembolso solicitado.",
+      "failed": "Falha ao reembolsar."
+    },
+    "collapse": "Recolher detalhes",
+    "expand": "Ver detalhes",
+    "purchases": "Compras",
+    "payments": "Histórico de cobranças",
+    "noPayments": "Sem cobranças registradas ainda. Elas aparecem quando o Mercado Pago cobrar a recorrência.",
+    "gameActions": "Ações no jogo",
+    "noGameActions": "Nenhuma ação no jogo disparada por este plano."
+  }
+}

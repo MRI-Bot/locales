@@ -1,0 +1,19 @@
+{
+  "donation": {
+    "defaultNotice": "Donación voluntaria. No es la compra de un producto o servicio y no es reembolsable, salvo cobro duplicado o fraude.",
+    "checkboxLabel": "Entiendo que es una donación voluntaria y no reembolsable."
+  },
+  "purchase": {
+    "lifetime": "vitalicio",
+    "months": "{count} {count, plural, one {mes} other {meses}}",
+    "giftPrefix": "Regalo: "
+  },
+  "recheck": {
+    "synced": "Estado sincronizado con Mercado Pago.",
+    "noMpPlan": "El plan no tiene plan de Mercado Pago configurado: nada que volver a verificar.",
+    "noActivePayment": "Todavía no se encontró ningún pago activo en Mercado Pago.",
+    "allLinked": "Todas las suscripciones activas de Mercado Pago ya están vinculadas: nada huérfano para este suscriptor.",
+    "ambiguous": "Hay pagos activos sin vincular, pero no se pudo identificar con seguridad cuál es de este suscriptor. Revisa manualmente.",
+    "activated": "Pago encontrado en Mercado Pago: suscripción activada. El rol se aplicará en instantes."
+  }
+}

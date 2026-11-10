@@ -1,0 +1,205 @@
+{
+  "tabs": {
+    "overview": "Overview",
+    "rewards": "Reward roles",
+    "multipliers": "Multipliers",
+    "noxp": "Exclusions",
+    "levelup": "Level-up message",
+    "ranking": "Leaderboard",
+    "tools": "Tools"
+  },
+  "header": {
+    "description": "XP, levels and reward roles in {guild}: members level up by interacting and get roles automatically."
+  },
+  "nav": {
+    "label": "Gamification screens"
+  },
+  "loadError": "Could not load the module.",
+  "loading": "Loading...",
+  "common": {
+    "saveError": "Couldn't save.",
+    "add": "Add",
+    "role": "Role",
+    "proForMore": "Pro for more than {max}"
+  },
+  "overview": {
+    "errors": {
+      "invalidXp": "Enter valid XP values.",
+      "minAboveMax": "Minimum XP can't be higher than the maximum.",
+      "invalidCooldown": "Enter a valid cooldown."
+    },
+    "saved": "Settings saved.",
+    "enabled": {
+      "label": "Module enabled",
+      "description": "When off, members stop earning XP (history is kept)."
+    },
+    "perMessage": {
+      "label": "XP per message",
+      "description": "Each message grants a random amount in this range (default 15 to 25, same as MEE6).",
+      "min": "Minimum",
+      "max": "Maximum"
+    },
+    "cooldown": {
+      "label": "Cooldown between messages (seconds)",
+      "description": "Anti-spam: messages within the cooldown don't count. Default 60s."
+    },
+    "voice": {
+      "label": "Voice XP",
+      "description": "Grants XP per minute in a call (not AFK, not muted, with other people).",
+      "perMinute": "XP per minute in a call"
+    },
+    "curve": {
+      "label": "XP curve",
+      "description": "Multiplies the cost of each level (1.0 = default curve). Above 1 makes leveling slower; below, faster.",
+      "factor": "Factor (0.5 to 3.0)"
+    }
+  },
+  "levelUp": {
+    "destinations": {
+      "CURRENT_CHANNEL": "Channel where they leveled up",
+      "FIXED_CHANNEL": "Fixed channel",
+      "DM": "Direct message (DM)",
+      "DISABLED": "Don't notify"
+    },
+    "errors": {
+      "channelRequired": "Choose the fixed channel for the level-up message."
+    },
+    "saved": "Level-up message saved.",
+    "destination": {
+      "label": "Where to notify",
+      "description": "Where the bot sends the message when a member levels up."
+    },
+    "fixedChannel": {
+      "label": "Fixed channel",
+      "placeholder": "Choose the channel"
+    },
+    "template": {
+      "label": "Message (optional)",
+      "placeholder": "🎉 '{user}' reached level '{level}'!",
+      "placeholders": "Placeholders:",
+      "emptyHint": "Empty = the bot uses a default message.",
+      "proEditor": "Block-based Embed editor (MessageDesign V2) comes with Pro."
+    }
+  },
+  "multipliers": {
+    "errors": {
+      "roleRequired": "Choose the role for each multiplier.",
+      "positive": "Each multiplier must be greater than zero.",
+      "duplicate": "A role is repeated, only one multiplier per role."
+    },
+    "saved": "Multipliers saved.",
+    "title": "Multiplier per role",
+    "description": "Members with the role earn multiplied XP. The {highest} applicable one always wins (2× and 3× roles = 3×, not 6×). XP blocks take precedence.",
+    "highestWord": "highest",
+    "unavailable": "Multipliers are coming soon. You can already build the list; saving is enabled once the feature arrives.",
+    "empty": "No multipliers yet.",
+    "multiplier": "Multiplier"
+  },
+  "noxp": {
+    "saved": "Blocks saved.",
+    "roles": {
+      "label": "Roles without XP",
+      "description": "Members with any of these roles don't earn XP.",
+      "placeholder": "Add role...",
+      "remove": "Remove role"
+    },
+    "channels": {
+      "label": "Channels without XP",
+      "description": "Messages in these channels don't earn XP (e.g. commands, spam, off-topic).",
+      "placeholder": "Add channel...",
+      "remove": "Remove channel"
+    },
+    "ignoreBots": {
+      "label": "Ignore bots",
+      "description": "Bots don't earn XP even if they send messages."
+    }
+  },
+  "ranking": {
+    "memberLoadError": "Couldn't load the member.",
+    "lookup": {
+      "label": "Look up a member",
+      "placeholder": "Search member…"
+    },
+    "level": "Level",
+    "rank": "Rank",
+    "xpToNext": "{xp} XP to the next one",
+    "noData": "No XP data for this member.",
+    "leaderboard": "Leaderboard",
+    "unavailable": "The web leaderboard is coming soon.",
+    "nothingYet": "Nothing to show for now.",
+    "empty": "Nobody has earned XP yet.",
+    "levelValue": "Level {level}",
+    "xpValue": "{xp} XP",
+    "previous": "Previous",
+    "page": "Page {page} of {total}",
+    "next": "Next"
+  },
+  "rewards": {
+    "modes": {
+      "STACK": "Stack",
+      "HIGHEST": "Replace"
+    },
+    "modeSaved": "Mode saved.",
+    "modeSaveError": "Couldn't save the mode.",
+    "errors": {
+      "invalidLevel": "Each reward needs a valid level (≥ 1).",
+      "roleRequired": "Choose the role for each reward.",
+      "duplicate": "Level {level} is repeated, only one role per level."
+    },
+    "saved": "Reward roles saved.",
+    "mode": {
+      "label": "Grant mode",
+      "description": "{stack}: keeps every role earned. {highest}: on level-up, removes the previous level's role."
+    },
+    "list": {
+      "label": "Roles per level",
+      "description": "The member gets the role on reaching the level."
+    },
+    "unavailable": "Reward roles are coming soon. You can already build the list; saving is enabled once the feature arrives.",
+    "empty": "No reward roles yet."
+  },
+  "tools": {
+    "ops": {
+      "add": "Give",
+      "set": "Set"
+    },
+    "errors": {
+      "memberRequired": "Choose the member.",
+      "invalidAmount": "Enter a valid amount."
+    },
+    "adjusted": "XP adjusted.",
+    "adjustError": "Couldn't adjust the XP.",
+    "resetError": "Couldn't reset.",
+    "memberPlaceholder": "Choose member…",
+    "adjust": {
+      "label": "Manual XP adjustment",
+      "description": "Gives, removes or sets a member's XP. It can trigger a level-up.",
+      "amount": "XP amount",
+      "apply": "Apply"
+    },
+    "reset": {
+      "label": "XP reset",
+      "description": "Clears XP. Doesn't touch settings, reward roles or multipliers."
+    },
+    "resetMember": {
+      "label": "Reset one member",
+      "button": "Reset member",
+      "confirmTitle": "Reset this member's XP?",
+      "confirmDescription": "Clears all of this member's XP and level. This can't be undone.",
+      "confirmLabel": "Reset",
+      "done": "Member's XP reset."
+    },
+    "resetGuild": {
+      "confirmTitle": "Reset XP for the ENTIRE server?",
+      "confirmDescription": "Clears XP and level for every member. Reward roles, multipliers and settings are kept. This action is irreversible.",
+      "continue": "Continue",
+      "secondTitle": "Are you absolutely sure?",
+      "secondDescription": "Final confirmation: all XP progress on the server will be erased.",
+      "secondConfirm": "Yes, reset everything",
+      "done": "Server XP reset.",
+      "text": "Reset XP for {all} members.",
+      "allWord": "all",
+      "button": "Reset server"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kind": {
+    "LIVE": "en directo",
+    "VIDEO": "vídeo",
+    "SHORT": "short",
+    "POST": "publicación",
+    "REEL": "reel",
+    "other": "contenido"
+  },
+  "test": {
+    "liveTitle": "{login} está en directo",
+    "simulationTitle": "[SIMULACIÓN] Prueba de alerta — {who} ({kind})"
+  }
+}

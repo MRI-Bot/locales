@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "title": "MRI BOT | Store, tickets and management for your Discord",
+    "description": "MRI BOT brings a store with Pix, tickets, whitelist, moderation and FiveM integration into a single bot, set up from a web panel. Start for free."
+  },
+  "nav": {
+    "label": "Sections",
+    "panel": "Panel",
+    "audience": "Who it's for",
+    "howItWorks": "How it works",
+    "pricing": "Pricing",
+    "openPanel": "Open panel",
+    "signIn": "Sign in"
+  },
+  "hero": {
+    "membersCount": "+{count}K",
+    "headline": "members across {servers} servers already run on MRI BOT.",
+    "lead": "Store with Pix, tickets, whitelist, moderation and FiveM integration in a single bot. You set everything up in a web panel, and the bot does the work on Discord.",
+    "start": "Start for free",
+    "seePanel": "See the panel",
+    "perks": {
+      "noCard": "No credit card",
+      "fast": "Ready in a few minutes",
+      "pix": "Pix straight to your account"
+    },
+    "shotAlt": "MRI BOT panel overview with members, tickets, pending items and server activity",
+    "shotNote": "Real panel screens with sample data. Members added up across servers with the bot, updated every hour."
+  },
+  "demo": {
+    "channel": "sales",
+    "caption": "Example of a sale",
+    "bought": "Bought {product} in the store, R$ 29.90 via Pix",
+    "product": "VIP Role",
+    "pixApproved": "Pix approved on Mercado Pago",
+    "delivered": "{role} delivered to {user}",
+    "recorded": "Sale recorded in the panel. Nobody on staff had to wake up."
+  },
+  "trust": {
+    "label": "Guarantees",
+    "fast": {
+      "title": "Delivery in seconds",
+      "body": "The role lands as soon as the Pix is approved."
+    },
+    "money": {
+      "title": "Money in your account",
+      "body": "The Pix goes straight into your Mercado Pago."
+    },
+    "support": {
+      "title": "Support in Portuguese",
+      "body": "Brazilian team, support on Discord."
+    },
+    "free": {
+      "title": "A truly free plan",
+      "body": "No monthly fee and no card to get started."
+    },
+    "processedBy": "Payments processed by {logo}"
+  },
+  "audiences": {
+    "title": "Made for people who run servers.",
+    "lead": "If you've ever lost a night doing by hand what a bot should do on its own, MRI BOT was built for you.",
+    "rp": {
+      "title": "RP and gaming servers",
+      "body": "Sell VIP, channel access and in-game items. The bot delivers when the Pix lands, with no one on staff awake in the middle of the night."
+    },
+    "digital": {
+      "title": "People who sell digital products",
+      "body": "Mods, scripts, presets and PDFs go from your Google Drive straight to the buyer's DMs."
+    },
+    "communities": {
+      "title": "Large communities",
+      "body": "Tickets, whitelist, moderation and polls in one place. Staff stop putting out fires and focus on what matters."
+    }
+  },
+  "showcase": {
+    "finance": {
+      "label": "Finance",
+      "title": "All of the server's money on one screen",
+      "body": "Store, subscriptions and prepaid packages added up. You see how much you received, where it came from and every payment, without opening three places.",
+      "bullets": {
+        "periods": "Gross, fees and net by period",
+        "compare": "Comparison with the previous period",
+        "export": "Spreadsheet ready to export"
+      },
+      "alt": "Finance screen with amount received, where the money came from (store, recurring and packages) and a daily chart"
+    },
+    "store": {
+      "label": "Store",
+      "title": "Store with Pix and card",
+      "body": "Sell roles, channel access, Drive files and in-game items. The payment lands in your Mercado Pago account, and delivery happens on its own.",
+      "bullets": {
+        "coupons": "Coupons, cart and featured products",
+        "page": "Store page with your own look",
+        "delivery": "Automatic or manual delivery"
+      },
+      "alt": "Store screen in the panel with products, prices, units sold and stock"
+    },
+    "tickets": {
+      "label": "Support",
+      "title": "Support your staff can actually keep up with",
+      "body": "Tickets with forms, ratings and history, plus the numbers that show where support gets stuck.",
+      "bullets": {
+        "form": "Forms and ticket types",
+        "rating": "Support rating via DM",
+        "times": "Response time and peak hours"
+      },
+      "alt": "Support performance with average time to resolve, tickets opened in 30 days, staff and peak hours"
+    },
+    "fivem": {
+      "label": "FiveM and MTA",
+      "title": "Integrated with your game server",
+      "body": "Players link their Discord account, join the queue by role and get in game what they bought in the store.",
+      "bullets": {
+        "allowlist": "Allowlist and queue with priority by role",
+        "actions": "In-game actions after purchase",
+        "kick": "Kick and ban from the panel"
+      },
+      "alt": "FiveM module screen with settings, queue by role and config.lua"
+    }
+  },
+  "tour": {
+    "label": "Panel screens"
+  },
+  "features": {
+    "title": "Everything your server needs, in one panel.",
+    "lead": "Every module turns on and off in the panel. Start with what you use today and turn on the rest when you need it.",
+    "moreTitle": "And more modules in the same panel"
+  },
+  "more": {
+    "whitelist": {
+      "title": "Whitelist",
+      "body": "Applications with a form, and approving gives the role right away."
+    },
+    "moderation": {
+      "title": "Moderation",
+      "body": "Anti-spam, logs, welcome messages and auto roles."
+    },
+    "subscriptions": {
+      "title": "Subscriptions",
+      "body": "Monthly plans via Pix, with a role that renews on its own."
+    },
+    "polls": {
+      "title": "Polls and giveaways",
+      "body": "Button voting and giveaways with requirements."
+    },
+    "messages": {
+      "title": "Messages",
+      "body": "Scheduled announcements and mass DMs by role."
+    },
+    "ai": {
+      "title": "AI assistant",
+      "body": "Answers members' questions in the channels you choose."
+    },
+    "community": {
+      "title": "Community",
+      "body": "Suggestions, bug reports and staff applications."
+    },
+    "boost": {
+      "title": "Boost",
+      "body": "Automatic rewards for people who boost the server."
+    },
+    "identity": {
+      "title": "Bot with your name",
+      "body": "The bot's nickname and picture, your server's way."
+    }
+  },
+  "how": {
+    "title": "From invite to first sale in minutes.",
+    "step": "Step {number}",
+    "steps": {
+      "invite": {
+        "title": "Add the bot to your server",
+        "body": "Sign in with Discord, pick the server and add the bot. There is nothing to install."
+      },
+      "connect": {
+        "title": "Connect Mercado Pago",
+        "body": "Authorization happens in your Mercado Pago account, and we don't access your balance. Google Drive is optional, for people who sell files."
+      },
+      "products": {
+        "title": "Create your products",
+        "body": "Choose what to deliver (role, channel, file or in-game item), set price and stock. The store goes live with its own link."
+      }
+    },
+    "cta": "Get started now"
+  },
+  "pricing": {
+    "title": "Start for free and change plans when you need to.",
+    "lead": "No trial period and no lock-in. The free plan doesn't expire.",
+    "forever": "forever",
+    "perMonth": "/ month",
+    "saleFee": "+ R$ 1 per sale (at most 10%)",
+    "free": {
+      "unlimitedBot": "Unlimited Discord bot",
+      "ticketsPolls": "Tickets, polls and projects",
+      "oneStore": "1 public store",
+      "storeMethods": "Store with Pix, card and Drive"
+    },
+    "pro": {
+      "everythingInFree": "Everything in Free",
+      "subscriptions": "Recurring subscriptions (monthly Pix)",
+      "roleRenewal": "Automatic role renewal",
+      "recurringBilling": "Recurring billing through Mercado Pago"
+    },
+    "proMax": {
+      "everythingInPro": "Everything in Pro",
+      "noSaleFee": "Fee per sale: R$ 0",
+      "prioritySupport": "Priority support",
+      "whiteLabel": "Full white-label",
+      "unlimitedVolume": "Unlimited volume"
+    },
+    "subscribe": "Subscribe to {plan}",
+    "featured": "Most popular",
+    "mpFees": "Mercado Pago charges its own fees (3.79% on Pix, about 5% on card), paid by the seller with any tool."
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "payout": {
+      "q": "Does the money go to my Mercado Pago account?",
+      "a": "Yes. You connect your Mercado Pago account in the panel, and the payment lands straight in it, with the platform fee deducted on the spot. We don't have access to your balance."
+    },
+    "saleFee": {
+      "q": "How does the per-sale fee work?",
+      "a": "On the Free and Pro plans, we charge R$ 1 per confirmed sale, or at most 10% of the price, whichever is lower. On Pro Max the fee is R$ 0. Mercado Pago's fees (about 3.79% on Pix and 5% on card) are separate and paid by the seller, as with any tool."
+    },
+    "chargeback": {
+      "q": "What if the buyer asks for a refund?",
+      "a": "It follows Mercado Pago's normal process: you get a notice in the panel, and the bot undoes the delivery (removes the role or the access). The money goes back through Mercado Pago itself."
+    },
+    "card": {
+      "q": "Do I need a credit card to get started?",
+      "a": "No. The Free plan already includes the store with Pix, card and Drive, is free forever and doesn't ask for a card. Pro only makes sense when you want monthly subscriptions, like a recurring VIP role."
+    },
+    "fivem": {
+      "q": "Does it work with FiveM or roleplay servers?",
+      "a": "Yes, it's the most common use. Besides selling VIP and channel access, the FiveM module links the player's account, manages allowlist and queue by role and runs in-game actions after the purchase. There's also an MTA integration."
+    },
+    "cancelPro": {
+      "q": "If I cancel Pro, do I lose sales or data?",
+      "a": "No. Store, history and settings stay as they are, and you go back to Free selling as usual. Only recurring subscriptions stop renewing. You can export your data whenever you want."
+    },
+    "openSource": {
+      "q": "Is the bot open source?",
+      "a": "No. But new features are decided together with the community on our Discord."
+    }
+  },
+  "final": {
+    "title": "Put your server among the {servers}.",
+    "lead": "Sign in with Discord and set it up in a few minutes. The free plan already includes the store.",
+    "signIn": "Sign in with Discord"
+  },
+  "footer": {
+    "tagline": "Store, tickets, moderation and game integration for Discord communities.",
+    "product": "Product",
+    "features": "Features",
+    "help": "Help",
+    "support": "Support on Discord",
+    "status": "Status",
+    "contact": "Contact",
+    "legal": "Legal",
+    "terms": "Terms of Use",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookies",
+    "copyright": "© {year} MRI BOT. Made in Brazil."
+  }
+}

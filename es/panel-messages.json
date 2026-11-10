@@ -1,0 +1,131 @@
+{
+  "header": {
+    "title": "Mensajes y anuncios",
+    "description": "Envía mensajes con el bot en {guild}, prográmalos, repítelos y edítalos después."
+  },
+  "tabs": {
+    "label": "Pantallas de Mensajes",
+    "compose": "Escribir",
+    "editing": "Editando",
+    "history": "Historial",
+    "templates": "Plantillas"
+  },
+  "recurrence": {
+    "hourly": "Cada hora",
+    "daily": "Diario",
+    "weekly": "Semanal",
+    "monthly": "Mensual (30d)",
+    "everyHours": "Cada {hours} h"
+  },
+  "status": {
+    "draft": "Borrador",
+    "scheduled": "Programada",
+    "sent": "Enviada",
+    "failed": "Falló",
+    "canceled": "Cancelada",
+    "recurring": "Recurrente"
+  },
+  "errors": {
+    "loadChannels": "Error al cargar los canales.",
+    "empty": "Escribe algo o añade un bloque antes de enviar.",
+    "channel": "Elige un canal.",
+    "scheduleDate": "Define la fecha de programación.",
+    "send": "Error al enviar.",
+    "edit": "Error al editar.",
+    "cancel": "Error al cancelar.",
+    "delete": "Error al borrar.",
+    "emptyTemplate": "Nada que guardar como plantilla.",
+    "saveTemplate": "Error al guardar la plantilla.",
+    "removeTemplate": "Error al quitar la plantilla."
+  },
+  "toast": {
+    "sent": "¡Mensaje enviado!",
+    "scheduled": "¡Mensaje programado!",
+    "recurring": "¡Recurrencia creada!",
+    "edited": "¡Mensaje editado!",
+    "duplicated": "Copiado al editor, ajústalo y envíalo.",
+    "canceled": "Cancelada.",
+    "deleted": "Borrada.",
+    "templateSaved": "¡Plantilla guardada!",
+    "templateLoaded": "Plantilla \"{name}\" cargada.",
+    "templateRemoved": "Plantilla quitada."
+  },
+  "delete": {
+    "title": "¿Borrar mensaje?",
+    "description": "Si ya se envió, también se quitará del canal de Discord.",
+    "confirm": "Borrar"
+  },
+  "editing": {
+    "sent": "Editando un mensaje ya enviado (se vuelve a renderizar en Discord).",
+    "recurring": "Editando la recurrencia, los próximos envíos usan lo que guardes.",
+    "scheduled": "Editando la programación, no se envía nada ahora; el envío usa lo que guardes.",
+    "cancel": "Cancelar edición"
+  },
+  "compose": {
+    "content": "Texto simple (opcional)",
+    "contentPlaceholder": "Texto del mensaje (o usa el diseño de abajo)...",
+    "design": "Diseño (Components V2)",
+    "channel": "Canal",
+    "channelPlaceholder": "Elegir canal",
+    "when": "Cuándo",
+    "modes": {
+      "now": "Enviar ahora",
+      "schedule": "Programar",
+      "recurring": "Recurrente"
+    },
+    "dateTime": "Fecha y hora",
+    "frequency": "Frecuencia",
+    "pingEveryone": "Hacer ping a @everyone",
+    "pingUsers": "Hacer ping a los usuarios mencionados",
+    "submit": {
+      "edit": "Guardar edición",
+      "now": "Enviar",
+      "recurring": "Crear recurrencia"
+    },
+    "saveTemplate": "Guardar como plantilla"
+  },
+  "designOnly": "Mensaje con diseño",
+  "history": {
+    "emptyTitle": "Aún no hay mensajes",
+    "emptyDescription": "Los mensajes enviados, programados y recurrentes aparecen aquí.",
+    "writeFirst": "Escribir el primero",
+    "filters": {
+      "label": "Filtrar mensajes",
+      "all": "Todos",
+      "sent": "Enviados",
+      "waiting": "Programados",
+      "failed": "Con error"
+    },
+    "search": "Buscar texto o canal",
+    "count": "{count, plural, one {# mensaje} other {# mensajes}}",
+    "noResults": "No se encontró ningún mensaje",
+    "noResultsHint": "Prueba otro término o cambia el filtro.",
+    "columns": {
+      "message": "Mensaje",
+      "channel": "Canal",
+      "status": "Estado",
+      "when": "Cuándo"
+    },
+    "noText": "Sin texto",
+    "channelRemoved": "Canal eliminado",
+    "failReason": "Motivo del error: {reason}",
+    "actions": {
+      "edit": "Editar",
+      "duplicate": "Duplicar",
+      "cancel": "Cancelar envío"
+    }
+  },
+  "templates": {
+    "namePrompt": "Nombre de la plantilla:",
+    "emptyTitle": "No hay plantillas guardadas",
+    "emptyDescription": "Guarda un texto que repites y vuelve a usarlo con un clic.",
+    "writeOne": "Escribir una plantilla",
+    "columns": {
+      "name": "Plantilla",
+      "content": "Contenido",
+      "actions": "Acciones"
+    },
+    "use": "Usar",
+    "delete": "Borrar plantilla"
+  }
+}

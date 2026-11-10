@@ -1,0 +1,696 @@
+{
+  "title": "Comunidad",
+  "description": "Sugerencias, bugs, referidos y mensajes anónimos en {guild}, cada sistema se activa y desactiva por su cuenta.",
+  "navLabel": "Pantallas de Comunidad",
+  "underConstruction": "En construcción, la configuración de este sistema llega pronto.",
+  "tabs": {
+    "suggestions": {
+      "label": "Sugerencias",
+      "hint": "Canal de ideas con votación 👍/👎 y revisión del equipo."
+    },
+    "bugs": {
+      "label": "Bugs",
+      "hint": "Formulario configurable, severidad, responsable y cola de revisión."
+    },
+    "referrals": {
+      "label": "Referidos",
+      "hint": "Quién trajo a quién, ranking y recompensas por metas de invitación."
+    },
+    "anonymous": {
+      "label": "Anónimo",
+      "hint": "Confesiones públicas y línea directa con el equipo, con auditoría."
+    },
+    "staff": {
+      "label": "Formulario Staff",
+      "hint": "Postulación al equipo, con cola de revisión y respuesta por privado."
+    }
+  },
+  "shell": {
+    "queue": "Cola",
+    "settings": "Configuración"
+  },
+  "fields": {
+    "title": "Preguntas del formulario",
+    "count": "{count} de {max}",
+    "pages": "{pages, plural, =1 {una pantalla} other {# pantallas en secuencia}}",
+    "proHint": "(Pro permite hasta 5, el tope de Discord)",
+    "add": "Añadir",
+    "empty": "Sin preguntas, nadie puede enviar. Añade al menos una.",
+    "pageOf": "Pantalla {page} de {pages}",
+    "moveUp": "Mover arriba",
+    "moveDown": "Mover abajo",
+    "labelPlaceholder": "Pregunta (ej.: ¿Por qué quieres unirte al equipo?)",
+    "hintPlaceholder": "Pista dentro del campo (opcional)",
+    "longText": "Texto largo",
+    "required": "Obligatorio",
+    "minLength": "Mínimo de caracteres",
+    "maxLength": "Máximo de caracteres",
+    "noMin": "Sin mínimo",
+    "upTo": "Hasta {ceiling}",
+    "rangeInvalid": "El mínimo quedó mayor que el máximo, nadie puede responder.",
+    "ceilingHint": "Discord acepta hasta {ceiling} caracteres en {type, select, long {texto largo} other {texto corto}}. El mínimo se exige al enviar.",
+    "remove": "Quitar pregunta",
+    "planLimitCount": "Límite del plan alcanzado: {max} preguntas.",
+    "planLimit": "Límite del plan alcanzado.",
+    "discordLimit": "Límite de Discord alcanzado: un modal acepta como máximo 5 campos."
+  },
+  "bugs": {
+    "state": {
+      "NEW": "🆕 Abierto",
+      "UNDER_REVIEW": "👀 En revisión",
+      "NEEDS_INFO": "❓ Falta info",
+      "CONFIRMED": "🐛 Confirmado",
+      "DUPLICATE": "🔁 Duplicado",
+      "FIXED": "✅ Corregido",
+      "NOT_A_BUG": "🚫 Descartado"
+    },
+    "severity": {
+      "LOW": "🟢 Baja",
+      "MEDIUM": "🔵 Media",
+      "HIGH": "🟠 Alta",
+      "CRITICAL": "🔴 Crítica"
+    },
+    "queue": {
+      "errors": {
+        "load": "No se pudo cargar la cola.",
+        "state": "No se pudo cambiar el estado.",
+        "repost": "No se pudo volver a publicar.",
+        "severity": "No se pudo cambiar la severidad."
+      },
+      "needsReason": "Este cambio requiere justificación, usa el menú ⚙️ Triaje en Discord.",
+      "stateUpdated": "Estado actualizado.",
+      "reposted": "Tarjeta publicada de nuevo en el canal.",
+      "severityUpdated": "Severidad actualizada.",
+      "loading": "Cargando cola...",
+      "all": "Todos",
+      "searchPlaceholder": "Buscar por título...",
+      "openSummary": "{count} abiertos · ordenados por severidad, el más antiguo primero, el orden en que realmente trabaja un triaje.",
+      "empty": "Ningún reporte con estos filtros.",
+      "reportedBy": "Reportado por {user} el {date}",
+      "openInDiscord": "Abrir en Discord",
+      "resolution": "Resolución",
+      "repostTitle": "Volver a publicar tarjeta",
+      "publish": "Publicar tarjeta",
+      "repostHint": "Borra el mensaje actual y publica otro en su lugar; el nuevo aparece al final del canal y el enlace antiguo deja de funcionar. El reporte y el triaje quedan intactos.",
+      "publishHint": "Este reporte no tiene tarjeta en el canal. Publicarla devuelve al equipo los botones de triaje dentro de Discord.",
+      "severity": "Severidad",
+      "state": "Estado",
+      "reasonHint": "Corregido, duplicado y “no es un bug” requieren justificación y se hacen desde el menú ⚙️ en Discord.",
+      "history": "Historial",
+      "timelineEntry": "{date} · {kind}"
+    },
+    "settings": {
+      "errors": {
+        "channel": "Elige el canal donde se publicarán los reportes.",
+        "noFields": "Añade al menos un campo al formulario.",
+        "fieldNoLabel": "El campo {index} no tiene pregunta."
+      },
+      "enabled": {
+        "label": "Reporte de bugs",
+        "description": "Formulario estructurado, severidad y cola de triaje."
+      },
+      "channels": {
+        "title": "Canales",
+        "description": "Dónde se publican los reportes.",
+        "label": "Canal de reportes",
+        "placeholder": "Canal de texto o foro",
+        "forumPro": "Este canal es un foro, pero el modo foro es Pro, así que los reportes se publicarán como mensajes normales, sin etiquetas. Nada se rompe.",
+        "save": "Guardar canales"
+      },
+      "panel": {
+        "title": "Panel de envío",
+        "description": "Mensaje fijo con el botón de reportar. Sin panel, los miembros usan /reportar.",
+        "channelPlaceholder": "Dónde va el botón de reportar",
+        "defaultContent": "## 🐛 Reportar bug\n\n¿Encontraste un problema en el servidor? Haz clic en el botón de abajo y describe lo que pasó; el equipo sigue cada reporte en el triaje."
+      },
+      "form": {
+        "description": "Las preguntas que el miembro responde al abrir un reporte."
+      },
+      "triage": {
+        "title": "Triaje",
+        "description": "Severidad predeterminada, quién hace el triaje, guardia para críticos y avisos.",
+        "defaultSeverity": "Severidad predeterminada",
+        "staffPlaceholder": "Quién puede hacer el triaje de los reportes",
+        "notifyRole": "Rol de guardia (severidad crítica)",
+        "notifyPlaceholder": "Mencionado una vez cuando el reporte es crítico",
+        "notifyHint": "Se menciona solo la primera vez: bajar la severidad y volver a subirla no notifica de nuevo.",
+        "threads": "Abrir un hilo de discusión en cada reporte",
+        "archive": "Archivar el hilo al cerrar el reporte",
+        "dm": "Avisar a quien reportó en cada cambio",
+        "dmState": "Al cambiar de estado",
+        "dmStatePlaceholder": "¡Hola '{membro}'! Tu reporte #'{numero}' · '{titulo}' ahora está: '{estado}'.'{nota}'",
+        "dmAssignee": "Al asignar responsable",
+        "dmAssigneePlaceholder": "¡Hola '{membro}'! Tu reporte #'{numero}' · '{titulo}' fue asignado a '{responsavel}'.",
+        "dmHint": "Aquí el aviso es automático, sin modal: un reporte cambia de estado varias veces en el camino, y escribir en cada paso haría que el equipo dejara de cambiar el estado, que es justamente lo que mantiene informado a quien reportó. Vacío usa el texto predeterminado. Placeholders: '{membro}', '{numero}', '{titulo}', '{estado}', '{responsavel}' y '{nota}'.",
+        "save": "Guardar triaje"
+      },
+      "antispam": {
+        "cooldown": "Intervalo entre reportes (min)",
+        "maxOpen": "Máx. abiertos por miembro"
+      }
+    }
+  },
+  "common": {
+    "loadError": "No se pudo cargar.",
+    "saveError": "No se pudo guardar.",
+    "sectionSaved": "{section}: guardado.",
+    "settingsSaved": "Configuración guardada.",
+    "panelPublished": "Panel publicado.",
+    "panelPublishError": "No se pudo publicar el panel.",
+    "published": "Publicado",
+    "panelChannel": "Canal del panel",
+    "customize": {
+      "label": "Personalizar el contenido",
+      "description": "Desactivado, el panel usa un texto predeterminado. El botón se añade automáticamente en ambos casos."
+    },
+    "publishPanel": "Publicar panel",
+    "republishPanel": "Volver a publicar panel",
+    "saveBeforePublish": "Guarda antes de publicar.",
+    "republishHint": "Ya publicado; volver a publicar borra el mensaje anterior.",
+    "savePanel": "Guardar panel",
+    "panel": "Panel",
+    "form": "Formulario",
+    "saveForm": "Guardar formulario",
+    "staffRoles": "Roles del equipo",
+    "antispam": {
+      "title": "Antispam",
+      "description": "Cero desactiva la regla. Se aplica en el servidor, no en el cliente.",
+      "minAccountAge": "Antigüedad mínima de la cuenta (días)",
+      "save": "Guardar antispam",
+      "cooldown": "Intervalo entre envíos (min)",
+      "maxOpen": "Máx. abiertos por miembro"
+    },
+    "saveAll": "Guardar todo",
+    "loadSettingsError": "No se pudo cargar la configuración.",
+    "channels": "Canales",
+    "saveChannels": "Guardar canales",
+    "submitPanel": "Panel de envío",
+    "panelChannelPlaceholder": "Dónde va el botón de enviar"
+  },
+  "suggestions": {
+    "settings": {
+      "threadModes": {
+        "NONE": {
+          "label": "Nunca",
+          "hint": "Sin hilo de discusión."
+        },
+        "ON_APPROVE": {
+          "label": "Al aprobar",
+          "hint": "La discusión ocurre solo en lo que se va a hacer."
+        },
+        "ON_POST": {
+          "label": "En cada sugerencia",
+          "hint": "Crea el hilo al enviar; en un servidor activo se vuelve una avalancha."
+        }
+      },
+      "errors": {
+        "channel": "Elige el canal donde se publicarán las sugerencias."
+      },
+      "enabled": {
+        "label": "Sistema de sugerencias",
+        "description": "Los miembros envían ideas, la comunidad vota y el equipo decide."
+      },
+      "channels": {
+        "description": "Dónde aparecen las tarjetas y, opcionalmente, dónde se republican las aprobadas.",
+        "post": "Canal de sugerencias",
+        "postPlaceholder": "Elige el canal donde aparecen las tarjetas",
+        "approved": "Canal de aprobadas",
+        "approvedPlaceholder": "Republicación automática al aprobar"
+      },
+      "panel": {
+        "description": "Mensaje fijo con el botón de enviar sugerencia. Sin panel, los miembros usan /sugerir.",
+        "defaultContent": "## 💡 Sugerencias\n\n¿Tienes una idea para el servidor? Haz clic en el botón de abajo, escribe la propuesta y la comunidad vota."
+      },
+      "voting": {
+        "title": "Votación",
+        "description": "Quién puede votar y qué pasa después de la decisión.",
+        "roles": "Roles que pueden votar",
+        "rolesPlaceholder": "Añadir rol (vacío = todos pueden votar)",
+        "afterDecision": "Seguir votando después de la decisión",
+        "afterDecisionHint": "Desactivado, la tarjeta congela el conteo final, que sigue visible.",
+        "save": "Guardar votación"
+      },
+      "moderation": {
+        "title": "Moderación",
+        "description": "Cola de aprobación, roles del equipo y aviso al autor.",
+        "requireApproval": "Aprobar antes de publicar",
+        "requireApprovalHint": "La sugerencia {strong} al enviarse: queda en la cola esperando que alguien la libere en el panel. Sin tarjeta en Discord, el menú ⚙️ Gestionar tampoco existe y todo el triaje pasa a hacerse en el panel. Desactivado, aparece en el canal y entra en votación al instante.",
+        "requireApprovalStrong": "no va al canal",
+        "staffPlaceholder": "Quién puede aprobar, rechazar y marcar como duplicada",
+        "dm": "Avisar al autor por DM en la decisión",
+        "dmApproved": "Mensaje al aprobar",
+        "dmApprovedPlaceholder": "¡Hola '{membro}'! Tu sugerencia #'{numero}' · '{titulo}' fue aprobada, gracias por ayudar a mejorar el servidor.",
+        "dmImplemented": "Mensaje al marcar como implementada",
+        "dmImplementedPlaceholder": "¡Hola '{membro}'! Tu sugerencia #'{numero}' · '{titulo}' fue implementada y ya está vigente.",
+        "dmHint": "Se abren precompletadas al decidir, en el panel y en el menú ⚙️ de Discord, y el equipo las edita antes de enviar. Vacío aquí usa el texto predeterminado; borrarlo al decidir no avisa a nadie. Placeholders: '{membro}', '{numero}', '{titulo}' y '{motivo}'. Rechazo y duplicada siguen con el aviso corto automático, que ya incluye el motivo.",
+        "save": "Guardar moderación"
+      },
+      "discussion": {
+        "title": "Discusión",
+        "description": "Cuándo abrir un hilo de discusión en la sugerencia.",
+        "save": "Guardar discusión"
+      },
+      "antispam": {
+        "description": "Cero desactiva la regla. Los límites se aplican en el servidor, no en el cliente."
+      }
+    },
+    "status": {
+      "PENDING": "💡 En votación",
+      "UNDER_REVIEW": "👀 En revisión",
+      "APPROVED": "✅ Aprobada",
+      "REJECTED": "❌ Rechazada",
+      "IMPLEMENTED": "🚀 Implementada",
+      "DUPLICATE": "🔁 Duplicada"
+    },
+    "decisions": {
+      "UNDER_REVIEW": "👀 Marcar en revisión",
+      "APPROVED": "✅ Aprobar",
+      "REJECTED": "❌ Rechazar",
+      "IMPLEMENTED": "🚀 Marcar implementada"
+    },
+    "queue": {
+      "published": "Publicada en el canal, la votación está abierta.",
+      "errors": {
+        "publish": "No se pudo publicar.",
+        "decide": "No se pudo registrar la decisión."
+      },
+      "reasonRequired": "Escribe el motivo; va al autor y a la tarjeta en Discord.",
+      "decided": "Decisión registrada.",
+      "all": "Todas",
+      "summary": "{count} esperando decisión · las más recientes primero.",
+      "empty": "Ninguna sugerencia con estos filtros.",
+      "sentBy": "Enviada por {author} el {date} · {up} a favor, {down} en contra",
+      "anonymous": "Anónimo",
+      "reasonRecorded": "Motivo registrado",
+      "notInChannel": "Aún no está en el canal",
+      "heldHint": "La cola de aprobación retuvo esta sugerencia. Publicarla abre la votación; sigue pendiente hasta que el equipo decida.",
+      "decidedUnpostedHint": "Esta sugerencia se decidió sin haber pasado nunca por el canal. Publicarla lleva la tarjeta con el estado actual y habilita el menú ⚙️ Gestionar en Discord.",
+      "release": "Liberar para votación",
+      "publish": "Publicar en el canal",
+      "repostHint": "Borra el mensaje actual y publica otro en su lugar. El nuevo aparece al {end}, el enlace antiguo deja de funcionar{hasThread, select, yes { y el {thread}, porque cuelga del mensaje que se borra} other {}}. Los votos ya registrados se conservan: viven en la base de datos, no en el mensaje.",
+      "repostEnd": "final del canal",
+      "repostThread": "hilo de discusión se va con él",
+      "reasonPlaceholder": "Motivo (obligatorio al rechazar), va al autor y a la tarjeta.",
+      "duplicateHint": "Marcar como duplicada requiere el número de la original; usa el menú ⚙️ Gestionar en Discord.",
+      "alreadyDecided": "Ya decidida. Reabrir una sugerencia cerrada se hace desde Discord."
+    }
+  },
+  "referrals": {
+    "state": {
+      "PENDING": "🕓 En cuarentena",
+      "ACTIVE": "✅ Calificada",
+      "LEFT": "🚪 Salió",
+      "REJOINED": "🔁 Reingreso",
+      "FRAUD": "🚫 Rechazada"
+    },
+    "reason": {
+      "no_permission": "El bot no tiene el permiso Gestionar servidor",
+      "fetch_failed": "Error al listar las invitaciones",
+      "no_baseline": "El bot acababa de reiniciarse",
+      "ambiguous": "Más de una invitación cambió al mismo tiempo",
+      "vanity_or_unknown": "Vanity URL, OAuth o invitación caducada"
+    },
+    "queue": {
+      "inviterRequired": "Indica el ID de Discord de quien invitó.",
+      "attributed": "Entrada atribuida.",
+      "errors": {
+        "attribute": "No se pudo atribuir.",
+        "review": "No se pudo revisar.",
+        "resend": "No se pudo reenviar."
+      },
+      "reviewed": "Entrada revisada.",
+      "resent": "Hito de {threshold} reenviado.",
+      "noPermission": {
+        "title": "El bot no tiene el permiso {permission}",
+        "permission": "Gestionar servidor",
+        "body": "Sin él, el bot no puede listar las invitaciones del servidor, así que ninguna entrada se atribuye a quien invitó y el contador queda en cero aunque entre gente por el enlace. Da el permiso al rol del bot y las próximas entradas empiezan a contar; las antiguas las atribuyes a mano aquí."
+      },
+      "unattributed": "Sin dueño",
+      "summary": "{count, plural, one {# entrada registrada} other {# entradas registradas}} · toda entrada se guarda, atribuida o no. El contador de quien invitó sube al instante; la recompensa, solo después de la cuarentena.",
+      "empty": "Ninguna entrada con estos filtros.",
+      "by": "por {inviter}",
+      "noAttribution": "Sin atribución",
+      "joinedAt": "Entró el {date}",
+      "accountAge": "{count, plural, one {cuenta con # día} other {cuenta con # días}}",
+      "invite": "invitación {code}",
+      "fraudSignal": "Señal de fraude (score {score})",
+      "noAttributionLong": "Entrada sin atribución.",
+      "attributeHint": "Atribúyela a mano si sabes quién invitó.",
+      "inviterPlaceholder": "ID de Discord de quien invitó",
+      "attribute": "Atribuir",
+      "approve": "Aprobar",
+      "reject": "Rechazar",
+      "grants": {
+        "title": "Hitos entregados",
+        "hint": "Una entrega fallida no se reintenta sola, el hito solo se concede una vez. Usa el reenvío; dar un rol que el miembro ya tiene es inofensivo.",
+        "empty": "Ningún hito entregado todavía.",
+        "failed": "falló: {message}",
+        "role": "rol ✓",
+        "channel": "canal ✓",
+        "resend": "Reenviar",
+        "errors": "{count, plural, one {# entrega} other {# entregas}} con error registrado."
+      }
+    },
+    "milestones": {
+      "rewardRequired": "Elige al menos una recompensa: rol, canal o acción in-game.",
+      "saved": "Hito guardado.",
+      "errors": {
+        "save": "No se pudo guardar el hito.",
+        "remove": "No se pudo quitar."
+      },
+      "removeTitle": "¿Quitar el hito de {count, plural, one {# invitación} other {# invitaciones}}?",
+      "removeDescription": "Quien ya recibió la recompensa la conserva; quitar el hito solo impide nuevas concesiones.",
+      "removed": "Hito quitado.",
+      "loading": "Cargando hitos...",
+      "title": "Hitos de recompensa",
+      "description": "Al alcanzar el número de invitaciones confirmadas, el miembro recibe la recompensa automáticamente, una sola vez por hito.",
+      "invites": "{count, plural, one {# invitación} other {# invitaciones}}",
+      "summary": {
+        "role": "rol {role}",
+        "channel": "acceso a canal",
+        "ingame": "in-game: {action}"
+      },
+      "limit": "Límite de {max} hitos del plan alcanzado.",
+      "new": "Nuevo hito",
+      "threshold": "Cada cuántas invitaciones",
+      "role": "Rol",
+      "optional": "Opcional",
+      "channel": "Acceso a canal",
+      "channelPlaceholder": "Opcional, desbloquea el canal para quien lo alcance",
+      "ingame": "Acción in-game",
+      "actionPlaceholder": "Nombre de la acción (ej.: give_car)",
+      "pendingLinkHint": "Si el miembro aún no vinculó la cuenta del juego, la entrega queda pendiente y ocurre en cuanto la vincule, dentro de 24 h.",
+      "announce": "Anunciar en el canal de anuncios de las invitaciones",
+      "add": "Añadir hito"
+    },
+    "settings": {
+      "reason": {
+        "no_baseline": "el bot acababa de reiniciarse",
+        "ambiguous": "dos personas entraron al mismo tiempo",
+        "no_permission": "el bot no tiene permiso para ver invitaciones",
+        "vanity_or_unknown": "enlace personalizado u origen desconocido",
+        "fetch_failed": "error al consultar las invitaciones"
+      },
+      "quarantine": {
+        "presets": {
+          "now": "Al instante",
+          "hour": "1 hora",
+          "day": "24 horas",
+          "week": "7 días"
+        },
+        "title": "Cuarentena",
+        "description": "Tiempo que el invitado debe quedarse en el servidor antes de que la invitación cuente. Es lo que impide el farm de entrar y salir.",
+        "minutes": "O en minutos",
+        "save": "Guardar cuarentena"
+      },
+      "leaderboard": {
+        "published": "Ranking publicado en el canal.",
+        "publishError": "No se pudo publicar el ranking.",
+        "channel": "Canal del ranking",
+        "placeholder": "Dónde va el tablero con el top 10",
+        "hint": "Un mensaje fijo con los diez que más invitaron. El bot lo edita solo cuando cambian los números, incluso cuando vence la cuarentena.",
+        "publish": "Publicar ranking",
+        "republish": "Volver a publicar ranking"
+      },
+      "tools": {
+        "recomputed": "Contadores recalculados para {count, plural, one {# invitador} other {# invitadores}}.",
+        "recomputeError": "No se pudo recalcular.",
+        "seasonTitle": "¿Iniciar una nueva temporada?",
+        "seasonDescription": "El ranking vuelve a cero para todos. El historial de entradas se conserva, no se borra nada.",
+        "seasonConfirm": "Iniciar temporada",
+        "seasonStarted": "Nueva temporada iniciada.",
+        "seasonError": "No se pudo iniciar la temporada.",
+        "title": "Herramientas",
+        "recompute": "Recalcular contadores",
+        "newSeason": "Iniciar nueva temporada",
+        "hint": "Recalcular reconstruye los números a partir de las entradas registradas, útil si algo parece fuera de lugar. Los ajustes manuales se conservan."
+      },
+      "enabled": {
+        "label": "Sistema de invitaciones",
+        "description": "Registra quién trajo a quién, con ranking y protección contra farm."
+      },
+      "protection": {
+        "title": "Protección contra farm",
+        "short": "Protección",
+        "description": "Antigüedad de la cuenta, tope diario, regreso de quien ya entró y rol de verificación.",
+        "minAgeHint": "Una cuenta más nueva que esto no cuenta como invitación.",
+        "maxDay": "Máx. por invitador por día",
+        "zeroOff": "Cero desactiva el límite.",
+        "ignoreRejoins": "Ignorar a quien ya entró antes",
+        "ignoreRejoinsHint": "Impide el farm de salir y volver. Quien regresa vuelve a contar para el invitador original.",
+        "verifiedRole": "Exigir rol de verificación",
+        "selectRole": "Seleccionar rol",
+        "verifiedRoleHint": "La invitación solo cuenta después de que el invitado recibe este rol. Mientras tanto queda pendiente, no rechazada, así que quien se verifica después sigue valiendo.",
+        "save": "Guardar protección"
+      },
+      "channels": {
+        "description": "Un solo canal para los anuncios del sistema: entrada de miembros e hitos alcanzados.",
+        "announce": "Canal de anuncios",
+        "announcePlaceholder": "Dónde anunciar entradas e hitos",
+        "announceHint": "Sin canal elegido no se anuncia nada, aunque el aviso esté activado.",
+        "announceJoins": "Avisar cada entrada",
+        "announceJoinsHint": "Por cada miembro que entra, el bot publica quién lo invitó, qué invitación se usó y cuántas personas ya entraron con ella. Las entradas sin invitación identificada también se publican, con el motivo, para que el staff las atribuya a mano."
+      },
+      "unattributed": {
+        "title": "Entradas sin invitador",
+        "hint": "No toda entrada se puede atribuir. El motivo queda registrado, no es un hueco silencioso.",
+        "unknown": "motivo desconocido"
+      }
+    }
+  },
+  "anonymous": {
+    "tabs": {
+      "queue": "Cola de revisión",
+      "history": "Historial",
+      "tools": "Herramientas"
+    },
+    "errors": {
+      "loadConfig": "No se pudo cargar la configuración.",
+      "save": "Error al guardar."
+    },
+    "saved": "Configuración guardada.",
+    "panic": {
+      "confirmTitle": "¿Parada de emergencia?",
+      "confirmDescription": "Desactiva el sistema y BORRA el mensaje del panel. Úsalo durante un raid; no se pierde nada y lo reactivas cuando quieras.",
+      "confirmLabel": "Desactivar todo",
+      "done": "Sistema desactivado y panel eliminado.",
+      "error": "Error al desactivar.",
+      "title": "Parada de emergencia",
+      "description": "Desactiva el sistema {strong}. Durante un raid, dejar el botón publicado mientras el servidor rechaza solo genera una cola de intentos y gente pensando que el bot se rompió. No se pierde nada.",
+      "descriptionStrong": "y borra el mensaje del panel",
+      "button": "Desactivar y quitar el panel"
+    },
+    "disclosure": {
+      "title": "Es seudonimato, no anonimato.",
+      "memberSees": "El miembro ve exactamente esto antes de escribir: “{disclosure}”",
+      "controller": "Eres el {controller} de estos datos (LGPD); MRI es el encargado. La identidad se borra automáticamente después de {days} días.",
+      "controllerWord": "responsable"
+    },
+    "enabled": {
+      "label": "Sistema activo",
+      "hint": "Desactivarlo aquí no borra nada, solo deja de aceptar mensajes nuevos."
+    },
+    "modes": {
+      "title": "Modos",
+      "description": "La confesión pública y la línea directa con el equipo se activan y desactivan por separado.",
+      "confessions": "Confesiones públicas",
+      "confessionsHint": "El mensaje se publica en un canal, sin el nombre de quien lo escribió.",
+      "confessionChannel": "Canal de confesiones",
+      "staffLine": "Línea directa con el equipo",
+      "staffLineHint": "Denuncia privada: abre un hilo que solo ve el equipo, y la respuesta va por DM.",
+      "staffInbox": "Canal donde se abren los hilos",
+      "save": "Guardar modos"
+    },
+    "selectChannel": "Seleccionar canal",
+    "panel": {
+      "description": "Mensaje fijo con un botón por modo activado. Sin panel, los miembros usan /anonimo.",
+      "noModes": "Ningún modo activado, el panel no tendría ningún botón. Activa las confesiones públicas o la línea del equipo en \"Modos\".",
+      "defaultContent": "## 🎭 Mensaje anónimo\n\nElige abajo cómo quieres hablar con el servidor.",
+      "customizeHint": "Desactivado, el panel usa un texto predeterminado que ya incluye el aviso de seudonimato. Los botones se añaden automáticamente.",
+      "disclosureKept": "El aviso “{disclosure}” sigue apareciendo en el formulario aunque no lo escribas aquí; es obligatorio y siempre está en el camino del miembro.",
+      "saveFirst": "Guarda antes de publicar; los botones salen de los modos ya guardados.",
+      "modesBlocked": "Guarda \"Modos\" antes: el panel se arma con los modos activados."
+    },
+    "audit": {
+      "title": "Auditoría y retención",
+      "short": "Auditoría",
+      "description": "Dónde queda el rastro y por cuánto tiempo se guarda la identidad.",
+      "channel": "Canal de auditoría (opcional)",
+      "none": "Ninguno",
+      "failClosed": "Si está configurado y el bot {not} publicar en él, el mensaje {notPublished}. Es a propósito: un post anónimo sin rastro no se puede deshacer.",
+      "failClosedNot": "no puede",
+      "failClosedNotPublished": "no se publica",
+      "includeIdentity": "Mostrar la identidad en el canal de auditoría",
+      "includeIdentityHint": "Desactivado, el canal solo avisa que hubo un mensaje; el nombre queda solo aquí en el panel, donde llega la retención.",
+      "retention": "Retener la identidad por (días), tu plan permite hasta {max}",
+      "retentionHint": "Pasado el plazo, el nombre y el texto original se borran y el mensaje queda sin autor. Mínimo de 30 días: por debajo, la prueba contra un abusador desaparece antes de que se investigue la denuncia.",
+      "save": "Guardar auditoría"
+    },
+    "review": {
+      "description": "Lo que espera la aprobación del equipo antes de publicarse.",
+      "modes": {
+        "OFF": "Nada",
+        "CONFESSIONS": "Solo confesiones",
+        "ALL": "Todo"
+      },
+      "hint": "Los mensajes retenidos aparecen en la pestaña {tab}, donde el equipo los aprueba o descarta uno a uno.",
+      "proHint": "Retener mensajes es una función Pro.",
+      "save": "Guardar cola",
+      "approved": "Publicado.",
+      "rejected": "Rechazado.",
+      "failed": "Error.",
+      "proTitle": "La cola de revisión es del plan Pro",
+      "proBody": "Retener cada mensaje para aprobación manual antes de publicar. Los controles automáticos de abuso (cuenta nueva, cooldown, enlaces, invitaciones, palabras bloqueadas) siguen funcionando en el plan gratuito.",
+      "empty": "Nada esperando revisión.",
+      "publish": "Publicar",
+      "reject": "Rechazar"
+    },
+    "abuse": {
+      "title": "Controles de abuso",
+      "short": "Antiabuso",
+      "description": "Todos incluidos en el plan gratuito; poner controles de seguridad detrás de un muro de pago no tiene sentido.",
+      "minGuildAge": "Tiempo mínimo en el servidor (días)",
+      "cooldown": "Intervalo entre mensajes (segundos)",
+      "maxPerDay": "Máximo por día",
+      "stripLinks": "Quitar enlaces",
+      "stripLinksHint": "Las invitaciones de servidor siempre se rechazan, sin importar esta opción.",
+      "save": "Guardar antiabuso"
+    },
+    "reload": "Recargar",
+    "history": {
+      "loadError": "No se pudo cargar el historial.",
+      "identityHidden": "La identidad de los autores no se muestra: o no tienes el permiso “Ver autor de mensaje anónimo”, o el plazo de retención ya pasó.",
+      "empty": "Ningún mensaje todavía."
+    }
+  },
+  "staff": {
+    "state": {
+      "SUBMITTED": "📥 Recibida",
+      "UNDER_REVIEW": "👀 En revisión",
+      "APPROVED": "✅ Aprobada",
+      "REJECTED": "❌ Rechazada",
+      "WITHDRAWN": "🚪 Desistió"
+    },
+    "stateName": {
+      "SUBMITTED": "Recibida",
+      "UNDER_REVIEW": "En revisión",
+      "APPROVED": "Aprobada",
+      "REJECTED": "Rechazada",
+      "WITHDRAWN": "Desistió"
+    },
+    "confirmDecision": {
+      "SUBMITTED": "Confirmar recibida",
+      "UNDER_REVIEW": "Confirmar en revisión",
+      "APPROVED": "Confirmar aprobación",
+      "REJECTED": "Confirmar rechazo",
+      "WITHDRAWN": "Confirmar desistió"
+    },
+    "errors": {
+      "focusGone": "Esta candidatura ya no está disponible; puede haberse borrado por la retención."
+    },
+    "postings": {
+      "errors": {
+        "title": "La vacante necesita un título.",
+        "blankQuestion": "La pregunta {index} está en blanco.",
+        "noQuestions": "Una vacante abierta sin preguntas no abre ningún formulario.",
+        "save": "No se pudo guardar la vacante."
+      },
+      "saved": "Vacante guardada.",
+      "removed": "Vacante eliminada.",
+      "title": "Vacantes",
+      "summary": "{count, plural, one {# abierta} other {# abiertas}}{hasMax, select, yes { de {max} en tu plan} other {}}. El panel muestra un botón por vacante abierta, y cada vacante tiene su propio formulario.",
+      "new": "Nueva vacante",
+      "limit": "Alcanzaste el límite de vacantes abiertas del plan. Cierra una para abrir otra.",
+      "titleLabel": "Título de la vacante",
+      "titlePlaceholder": "Moderador",
+      "titleHint": "Se convierte en la etiqueta del botón en el panel y en el título de las pantallas del formulario.",
+      "description": "Descripción (opcional)",
+      "planLimit": "Límite del plan alcanzado: {max} preguntas por vacante.",
+      "planHint": "Tu plan permite {max} preguntas por vacante; Pro permite hasta 15, respondidas en hasta 3 pantallas.",
+      "pagesHint": "Por encima de {limit} preguntas el candidato responde en pantallas sucesivas: cada una es un formulario de Discord y no se envía nada hasta la última. Un formulario largo deja candidaturas a medias; pregunta solo lo que el equipo va a leer.",
+      "open": "Vacante abierta",
+      "save": "Guardar vacante",
+      "empty": "Ninguna vacante creada.",
+      "badgeOpen": "abierta",
+      "badgeClosed": "cerrada",
+      "questions": "{count, plural, one {# pregunta} other {# preguntas}}",
+      "screens": "{count, plural, one {# pantalla} other {# pantallas}}",
+      "edit": "Editar"
+    },
+    "queue": {
+      "reposted": "Tarjeta publicada de nuevo en el canal del equipo.",
+      "dmFailed": "Decisión registrada, pero el DM no llegó: {error}",
+      "unknown": "desconocido",
+      "roleFailed": "Decisión registrada, pero el rol no se aplicó: {error}",
+      "decidedWithRole": "Decisión registrada y rol aplicado.",
+      "postingFallback": "la vacante",
+      "empty": "Ninguna candidatura con estos filtros.",
+      "postingRemoved": "vacante eliminada",
+      "dmError": "El DM no llegó: {error}",
+      "card": {
+        "title": "Tarjeta en el canal del equipo",
+        "repostHint": "Volver a publicar borra el mensaje actual y publica otro al final del canal. La candidatura y la decisión quedan intactas.",
+        "publishHint": "Esta candidatura no tiene tarjeta en el canal; publicarla devuelve al equipo los botones de decisión dentro de Discord."
+      },
+      "dmLabel": "Mensaje privado",
+      "dmProOnly": "(Pro para editar)",
+      "dmPlaceholder": "Vacío = no se avisa a nadie.",
+      "dmHint": "Viene lista con el texto predeterminado de {state}. Edítalo a gusto; borrarlo todo decide sin avisar a nadie.",
+      "noteLabel": "Motivo interno (no va al candidato)",
+      "rejectHint": "Rechazar no bloquea a la persona: pasado el intervalo entre candidaturas, puede volver a postularse a esta vacante.",
+      "alreadyDecided": "Ya decidida{notified, select, yes { · candidato avisado} other {}}.",
+      "internalNote": "Motivo interno: {note}"
+    },
+    "settings": {
+      "enabled": {
+        "label": "Candidatura para el equipo",
+        "description": "Formulario por vacante, cola de auditoría y respuesta por privado."
+      },
+      "panel": {
+        "title": "Panel de candidatura",
+        "description": "Mensaje fijo con un botón por vacante abierta.",
+        "channelPlaceholder": "Dónde van los botones de candidatura",
+        "defaultContent": "## 📋 Candidatura para el equipo\n\n¿Quieres formar parte del equipo? Haz clic en la vacante de abajo y responde el formulario. El equipo lo revisa y te responde por privado.",
+        "customizeHint": "Desactivado, el panel usa un texto predeterminado. Los botones de vacante se añaden automáticamente en ambos casos.",
+        "publishHint": "El panel sale de la configuración ya guardada, incluidas las vacantes abiertas ahora."
+      },
+      "review": {
+        "title": "Aviso y rol",
+        "description": "Dónde se avisa al equipo y qué recibe el candidato al ser aprobado.",
+        "channel": "Canal de aviso del equipo (opcional)",
+        "channelPlaceholder": "Recibe solo el resumen, nunca las respuestas",
+        "channelHint": "Las respuestas quedan solo en esta cola. Enviar el formulario entero a Discord convertiría un error de permisos del canal en una fuga de datos personales.",
+        "approvedRole": "Rol al aprobar (opcional)",
+        "approvedRoleFree": "En el plan actual el rol no se aplica solo; el equipo debe darlo a mano después de aprobar."
+      },
+      "eligibility": {
+        "title": "Quién puede postularse",
+        "cooldown": "Intervalo entre candidaturas (min)",
+        "cooldownHint": "También es el tiempo que alguien rechazado espera para intentar la misma vacante de nuevo, contado desde la decisión.",
+        "requiredRole": "Exigir un rol (opcional)",
+        "requiredRolePlaceholder": "Solo quien tiene este rol ve el formulario"
+      },
+      "feedback": {
+        "title": "Respuesta al candidato",
+        "description": "El texto que viene precompletado al decidir.",
+        "approval": "Al aprobar",
+        "approvalPlaceholder": "¡Hola '{membro}'! Fuiste aprobado para '{vaga}'. Escríbenos para coordinar los próximos pasos.",
+        "rejection": "Al rechazar",
+        "rejectionPlaceholder": "Hola '{membro}', gracias por postularte para '{vaga}'. Esta vez no seguimos con tu candidatura, pero mantente atento a las próximas vacantes.",
+        "review": "Al marcar en revisión",
+        "reviewPlaceholder": "¡Hola '{membro}'! Tu candidatura para '{vaga}' está en revisión, te respondemos pronto.",
+        "hint": "Cada texto se abre precompletado en el modal de decisión, en el panel y en los botones de la tarjeta en Discord. El equipo lo edita antes de enviar; dejarlo vacío decide sin avisar a nadie. Placeholders: '{membro}' y '{vaga}'. Quién decidió aparece en la tarjeta del equipo y {never} en el mensaje del candidato.",
+        "never": "nunca",
+        "save": "Guardar respuesta"
+      },
+      "retention": {
+        "title": "Retención",
+        "description": "Una candidatura es un dato personal y no desaparece sola.",
+        "days": "Guardar por (días)",
+        "hint": "La purga borra solo las candidaturas {decided}; una cola parada no es un dato vencido, es trabajo atrasado.",
+        "decided": "decididas",
+        "save": "Guardar retención"
+      }
+    }
+  }
+}

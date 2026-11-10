@@ -1,0 +1,160 @@
+{
+  "groups": {
+    "why": "Why?",
+    "what": "What?",
+    "who": "Who?",
+    "how": "How?",
+    "whenHowMuch": "When and how much?"
+  },
+  "bmc": {
+    "label": "Business Model Canvas",
+    "description": "Models the business in 9 blocks: how it creates, delivers and captures value.",
+    "blocks": {
+      "key_partners": {
+        "label": "Key partners",
+        "hint": "Who are your main partners and suppliers?"
+      },
+      "key_activities": {
+        "label": "Key activities",
+        "hint": "What does your value proposition require you to do?"
+      },
+      "key_resources": {
+        "label": "Key resources",
+        "hint": "What resources does your value proposition require? (physical, human, financial)"
+      },
+      "value_propositions": {
+        "label": "Value proposition",
+        "hint": "What value do you deliver? Which problem do you solve?"
+      },
+      "customer_relationships": {
+        "label": "Customer relationships",
+        "hint": "What kind of relationship does each segment expect? (self-service, personal, community)"
+      },
+      "channels": {
+        "label": "Channels",
+        "hint": "How do you reach customers and deliver value to them?"
+      },
+      "customer_segments": {
+        "label": "Customer segments",
+        "hint": "Who are you creating value for? Who are your most important customers?"
+      },
+      "cost_structure": {
+        "label": "Cost structure",
+        "hint": "What are the most important costs in the model?"
+      },
+      "revenue_streams": {
+        "label": "Revenue streams",
+        "hint": "What value are customers paying for? How do they pay?"
+      }
+    }
+  },
+  "lean": {
+    "label": "Lean Canvas",
+    "description": "BMC adapted for startups: focused on problem, solution and metrics.",
+    "blocks": {
+      "problem": {
+        "label": "Problem",
+        "hint": "Top 3 problems you solve. List existing alternatives."
+      },
+      "solution": {
+        "label": "Solution",
+        "hint": "The 3 main features that solve the problems."
+      },
+      "key_metrics": {
+        "label": "Key metrics",
+        "hint": "The numbers that tell how the business is doing."
+      },
+      "uvp": {
+        "label": "Unique value proposition",
+        "hint": "A clear message that says why you're different and worth attention."
+      },
+      "unfair_advantage": {
+        "label": "Unfair advantage",
+        "hint": "Something that can't easily be copied or bought."
+      },
+      "channels": {
+        "label": "Channels",
+        "hint": "Paths to customers."
+      },
+      "customer_segments": {
+        "label": "Customer segments",
+        "hint": "Target customers. Mark the early adopters."
+      },
+      "cost_structure": {
+        "label": "Cost structure",
+        "hint": "Acquisition, distribution, people and infrastructure costs."
+      },
+      "revenue_streams": {
+        "label": "Revenue streams",
+        "hint": "Revenue model, lifetime value, margin."
+      }
+    }
+  },
+  "pmCanvas": {
+    "label": "Project Model Canvas",
+    "description": "13 blocks to model a project: why, what, who, how, when and how much.",
+    "blocks": {
+      "objetivo_smart": {
+        "label": "SMART goal",
+        "hint": "Specific, Measurable, Achievable, Relevant and Time-bound."
+      },
+      "justificativas": {
+        "label": "Rationale",
+        "hint": "What motivated the project? Problems/opportunities that started it."
+      },
+      "beneficios": {
+        "label": "Benefits",
+        "hint": "The value the goal creates once it's reached."
+      },
+      "produto": {
+        "label": "Product",
+        "hint": "What will be delivered — description of the final product/service."
+      },
+      "requisitos": {
+        "label": "Requirements",
+        "hint": "Conditions and capabilities the product must meet."
+      },
+      "stakeholders": {
+        "label": "Stakeholders and external factors",
+        "hint": "People/areas affected by or affecting the project, and external factors."
+      },
+      "equipe": {
+        "label": "Team",
+        "hint": "Who carries out the project and their roles."
+      },
+      "premissas": {
+        "label": "Assumptions",
+        "hint": "Hypotheses taken as true for planning."
+      },
+      "grupo_entregas": {
+        "label": "Deliverables",
+        "hint": "Product components grouped into deliverables."
+      },
+      "restricoes": {
+        "label": "Constraints",
+        "hint": "Imposed limitations (scope, resources, rules)."
+      },
+      "linha_tempo": {
+        "label": "Timeline",
+        "hint": "Milestones and deadlines of the deliverables."
+      },
+      "riscos": {
+        "label": "Risks",
+        "hint": "Uncertain events that may impact the project, and responses."
+      },
+      "custos": {
+        "label": "Costs",
+        "hint": "Cost estimate of the deliverables and the project."
+      }
+    }
+  },
+  "wiki": {
+    "label": "Document (Wiki)",
+    "description": "Free-form markdown document for general project documentation.",
+    "blocks": {
+      "markdown": {
+        "label": "Content"
+      }
+    }
+  }
+}

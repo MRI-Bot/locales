@@ -1,0 +1,5 @@
+{
+  "failed": "Não consegui registrar isso agora. Tenta de novo em instantes.",
+  "stopped": "🔕 Pronto. Você não recebe mais os comunicados deste servidor.\n-# Avisos de moderação, cobrança, entrega de compra e avaliação de atendimento continuam chegando — são resposta a algo que você fez, não comunicado.\n-# Pra voltar atrás: `{command}`.",
+  "resumed": "🔔 Pronto. Você voltou a receber os comunicados deste servidor."
+}

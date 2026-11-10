@@ -1,0 +1,4 @@
+{
+  "keyPlaceholder": "<paste the key here>",
+  "instructions": "You are going to set up the Discord server \"{guild}\" on MRI BOT through the API.\n\n- API guide (read it before you start, with the same key header): {guide}\n- Base URL: {base}\n- Key: send it in the x-api-key header: {key}\n\nStart with GET /me to see the key permissions and the enabled modules.\nRead before you write, never guess a role or channel id (use /discord-setup/roles and /discord-setup/channels)\nand show me what you will create before creating several things. Do not repeat the key in your replies."
+}

@@ -1,0 +1,240 @@
+{
+  "modules": {
+    "platform": "Platform",
+    "discord_admin": "Discord Admin",
+    "tickets": "Tickets",
+    "fivem": "FiveM",
+    "store": "Store",
+    "projects": "Projects",
+    "planning": "Planning",
+    "polls": "Polls",
+    "giveaways": "Giveaways",
+    "subscriptions": "Subscriptions",
+    "messages": "Messages",
+    "direct_messages": "Mass DM",
+    "mta": "MTA",
+    "gamification": "Gamification",
+    "social_alerts": "Social alerts",
+    "community": "Community",
+    "media": "Media",
+    "ai_helper": "AI assistant"
+  },
+  "features": {
+    "whiteLabel": "White-label",
+    "apiKey": "API Keys",
+    "fivemWebhook": "FiveM integration",
+    "subscriptions": "Subscriptions",
+    "customCss": "Custom CSS in the store",
+    "customDomain": "Custom domain",
+    "directMessages": "Mass DM by role",
+    "adminLogsPro": "Content cache in logs",
+    "adminSelectorAdvanced": "Advanced reaction roles (button/dropdown)",
+    "adminLog_MESSAGE_DELETE": "Log: Message deleted",
+    "adminLog_MESSAGE_EDIT": "Log: Message edited",
+    "adminLog_MEMBER_JOIN": "Log: Member joined",
+    "adminLog_MEMBER_LEAVE": "Log: Member left",
+    "adminLog_MEMBER_BAN": "Log: Member banned",
+    "adminLog_MEMBER_UNBAN": "Log: Member unbanned",
+    "adminLog_MESSAGE_BULK_DELETE": "Log: Bulk delete",
+    "adminLog_MEMBER_ROLE_UPDATE": "Log: Member roles",
+    "adminLog_MEMBER_NICKNAME": "Log: Nickname changed",
+    "adminLog_VOICE_JOIN_LEAVE_MOVE": "Log: Voice channels",
+    "adminLog_CHANNEL_CREATE_UPDATE_DELETE": "Log: Channels",
+    "adminLog_ROLE_CREATE_UPDATE_DELETE": "Log: Roles",
+    "adminLog_INVITE_CREATE_USE": "Log: Invites",
+    "adminLog_AUTOMOD": "Log: AutoMod",
+    "ticketTranscripts": "Ticket transcripts",
+    "ticketAutoClose": "Auto-close on inactivity",
+    "ticketAnonymousReply": "Anonymous reply in tickets",
+    "storeFeaturedProducts": "Featured products",
+    "storeScheduledDrops": "Scheduled drops",
+    "storeStock": "Stock control",
+    "storeDigitalFiles": "Digital files",
+    "storeCoupons": "Discount coupons",
+    "storeCategories": "Product categories",
+    "storeAnalytics": "Store analytics",
+    "fivemCustomCard": "Custom link card",
+    "fivemAltAccounts": "Alternate accounts",
+    "fivemNickname": "Nickname while in game (FiveM)",
+    "fivemScreenshot": "Player screenshot",
+    "fivemCdn": "Resource CDN (FiveM)",
+    "fivemOutboundActions": "Server actions (FiveM)",
+    "mtaOutboundActions": "Server actions (MTA)",
+    "pollsScheduled": "Scheduled polls",
+    "pollsAnonymous": "Anonymous polls",
+    "pollsMultiSelect": "Multiple choice",
+    "pollsVoteWeights": "Vote weight by role",
+    "pollsRoleRestricted": "Role restriction",
+    "pollsMessageDesign": "Message design (polls)",
+    "giveawaysScheduled": "Scheduled giveaways",
+    "giveawaysMultipliers": "Entry multipliers",
+    "giveawaysRequirements": "Entry requirements",
+    "giveawaysReminders": "End reminder",
+    "giveawaysMessageDesign": "Message design (giveaways)",
+    "giveawaysShareLink": "Public results link",
+    "messagesScheduled": "Scheduled messages",
+    "messagesRecurring": "Recurring messages",
+    "messagesTemplates": "Message templates",
+    "gamificationVoiceXp": "Voice XP",
+    "gamificationCustomCard": "Custom rank card",
+    "gamificationCustomCurve": "Custom XP curve",
+    "gamificationLevelUpDesign": "Level-up with MessageDesign V2",
+    "socialPollProviders": "Polling providers (Kick/TikTok/Instagram)",
+    "socialMessageDesign": "Alert with MessageDesign V2",
+    "socialChannelRouting": "Routing by content type",
+    "socialOfflineEdit": "Edit/close alert when going offline",
+    "suggestionsApprovedChannel": "Separate channel for approved suggestions",
+    "suggestionsCategories": "Suggestion categories",
+    "bugReportsForum": "Bugs in a forum channel",
+    "bugReportsInGameContext": "In-game context in reports",
+    "referralsMilestoneOutbound": "In-game reward for referrals",
+    "referralsAntiFraudAdvanced": "Advanced referral anti-fraud",
+    "referralsLeaderboardPanel": "Invite leaderboard panel",
+    "anonymousReviewQueue": "Anonymous message review queue",
+    "staffFormCustomDm": "Custom message on the application decision",
+    "staffFormAutoRole": "Automatic role when approving an application",
+    "staffFormScheduling": "Opening scheduling",
+    "anonymousFivem": "In-game anonymous message",
+    "communityMessageDesign": "Community cards in MessageDesign V2",
+    "boostStorePerks": "Store perk for boosting",
+    "boostAnnounceDesign": "Boost announcement in MessageDesign V2",
+    "media": "Media (own CDN)",
+    "aiHelperImages": "AI assistant reads images"
+  },
+  "limits": {
+    "maxGuilds": {
+      "label": "Max. servers",
+      "unit": "{count, plural, one {server} other {servers}}"
+    },
+    "maxModulesPerGuild": {
+      "label": "Max. modules per server",
+      "unit": "{count, plural, one {module} other {modules}}"
+    },
+    "maxFivemStatusPanels": {
+      "label": "Max. FiveM status panels",
+      "unit": "{count, plural, one {panel} other {panels}}"
+    },
+    "maxTicketTypes": {
+      "label": "Max. ticket types",
+      "unit": "{count, plural, one {type} other {types}}"
+    },
+    "maxTicketPanels": {
+      "label": "Max. ticket panels",
+      "unit": "{count, plural, one {panel} other {panels}}"
+    },
+    "maxProjectBoards": {
+      "label": "Max. project boards",
+      "unit": "{count, plural, one {board} other {boards}}"
+    },
+    "maxPlanningDocs": {
+      "label": "Max. planning documents",
+      "unit": "{count, plural, one {document} other {documents}}"
+    },
+    "maxPolls": {
+      "label": "Max. active polls",
+      "unit": "{count, plural, one {poll} other {polls}}"
+    },
+    "maxGiveaways": {
+      "label": "Max. active giveaways",
+      "unit": "{count, plural, one {giveaway} other {giveaways}}"
+    },
+    "maxSubscriptionTiers": {
+      "label": "Max. subscription plans",
+      "unit": "{count, plural, one {plan} other {plans}}"
+    },
+    "maxScheduledMessages": {
+      "label": "Max. scheduled/recurring messages",
+      "unit": "{count, plural, one {message} other {messages}}"
+    },
+    "maxMessageTemplates": {
+      "label": "Max. message templates",
+      "unit": "{count, plural, one {template} other {templates}}"
+    },
+    "maxRoleRewards": {
+      "label": "Max. reward roles",
+      "unit": "{count, plural, one {role} other {roles}}"
+    },
+    "maxRoleMultipliers": {
+      "label": "Max. XP multipliers",
+      "unit": "{count, plural, one {multiplier} other {multipliers}}"
+    },
+    "maxSuggestionCategories": {
+      "label": "Max. suggestion categories",
+      "unit": "{count, plural, one {category} other {categories}}"
+    },
+    "maxBugFormFields": {
+      "label": "Max. fields in the bug form",
+      "unit": "{count, plural, one {field} other {fields}}"
+    },
+    "maxBugCategories": {
+      "label": "Max. bug categories",
+      "unit": "{count, plural, one {category} other {categories}}"
+    },
+    "maxReferralMilestones": {
+      "label": "Max. referral milestones",
+      "unit": "{count, plural, one {milestone} other {milestones}}"
+    },
+    "maxStaffPostings": {
+      "label": "Max. open positions",
+      "unit": "{count, plural, one {position} other {positions}}"
+    },
+    "maxStaffFormFields": {
+      "label": "Max. questions per position",
+      "unit": "{count, plural, one {question} other {questions}}"
+    },
+    "maxWhitelistFields": {
+      "label": "Max. whitelist questions",
+      "unit": "{count, plural, one {question} other {questions}}"
+    },
+    "maxAnonymousConversations": {
+      "label": "Max. open anonymous conversations",
+      "unit": "{count, plural, one {conversation} other {conversations}}"
+    },
+    "anonymousHistoryDays": {
+      "label": "Anonymous history retention (days)",
+      "unit": "{count, plural, one {day} other {days}}"
+    },
+    "maxSocialSubscriptions": {
+      "label": "Max. social follows",
+      "unit": "{count, plural, one {follow} other {follows}}"
+    },
+    "maxBoostRewards": {
+      "label": "Max. boost rewards",
+      "unit": "{count, plural, one {reward} other {rewards}}"
+    },
+    "aiHelperMaxDocsSources": {
+      "label": "Max. documentation sources",
+      "unit": "{count, plural, one {source} other {sources}}"
+    },
+    "aiHelperDocsKb": {
+      "label": "Total size of sources",
+      "unit": "KB"
+    },
+    "mediaStorageMb": {
+      "label": "Media storage",
+      "unit": "MB"
+    },
+    "mediaRetentionDays": {
+      "label": "Media retention",
+      "unit": "{count, plural, one {day} other {days}}"
+    },
+    "fivemCdnStorageMb": {
+      "label": "FiveM CDN storage",
+      "unit": "MB"
+    }
+  },
+  "planChange": {
+    "blocked": {
+      "lifetime": "You already have lifetime access.",
+      "downgradeCancelFirst": "To move to a lower plan, cancel your current subscription first.",
+      "availableAfterEnd": "Available when your current plan ends, on {date, date, ::ddMMyyyy}.",
+      "alreadyRenews": "Your subscription already renews automatically for this period.",
+      "creditCovers": "Your credit covers this package. Choose a longer period."
+    }
+  },
+  "billing": {
+    "cardSubscription": "Card subscription",
+    "packageLifetime": "{plan}, lifetime",
+    "package": "{plan}, {count, plural, one {# month} other {# months}}"
+  }
+}

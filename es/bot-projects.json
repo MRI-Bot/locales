@@ -1,0 +1,62 @@
+{
+  "guildOnly": "Usa este comando dentro de un servidor.",
+  "failed": "Error",
+  "board": {
+    "empty": {
+      "title": "Ningún board",
+      "text": "Crea un board en el panel web."
+    },
+    "title": "Boards de proyectos",
+    "line": "• **{name}** — {count, plural, one {# tarea} other {# tareas}}{mirror}"
+  },
+  "task": {
+    "noBoard": {
+      "title": "Ningún board",
+      "text": "Crea un board en el panel primero."
+    },
+    "boardNotFound": {
+      "title": "Board no encontrado",
+      "text": "No encontré el board \"{name}\"."
+    },
+    "created": {
+      "title": "Tarea creada",
+      "text": "**{title}** añadida a **{board}**."
+    },
+    "createFailed": "Error al crear",
+    "none": {
+      "title": "Sin tareas",
+      "text": "No tienes tareas asignadas en este servidor."
+    },
+    "due": " · vence {time}",
+    "mineTitle": "Tus tareas ({count})"
+  },
+  "thread": {
+    "manualPost": "⚠️ {user}, para abrir una tarea usa el botón **➕ Crear tarea** en la publicación fijada de este foro — no crees publicaciones directamente. Esta publicación se eliminará en breve."
+  },
+  "card": {
+    "noDescription": "_Sin descripción._",
+    "column": "Columna",
+    "assignees": "Responsables",
+    "due": "Plazo",
+    "status": "Estado: {status}",
+    "open": "Abrir",
+    "movePlaceholder": "Mover a columna…",
+    "join": "Participar",
+    "assigneesButton": "Responsables",
+    "edit": "Editar",
+    "openSite": "Abrir en el sitio",
+    "reopen": "Reabrir",
+    "complete": "Completar",
+    "delete": "Eliminar"
+  },
+  "panel": {
+    "title": "➕ Nueva tarea",
+    "description": "Haz clic en el botón de abajo para abrir una tarea en este board — directamente aquí, sin necesidad del sitio.",
+    "button": "Crear tarea",
+    "threadName": "➕ Crear nueva tarea"
+  },
+  "forum": {
+    "defaultTag": "columna"
+  },
+  "reminder": "⏰ Se acerca el plazo {time} — **{title}** {mentions}"
+}

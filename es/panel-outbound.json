@@ -1,0 +1,66 @@
+{
+  "history": {
+    "empty": "Aún no hay entregas.",
+    "retry": "Reenviar",
+    "retryScheduled": "Reenvío programado, se entregará cuando el jugador esté en línea.",
+    "retryError": "No se pudo reenviar.",
+    "noAttempts": "Sin intentos registrados.",
+    "sources": {
+      "panel": "Panel",
+      "discord": "Discord",
+      "store": "Tienda",
+      "subscription": "Suscripción",
+      "referral": "Referidos",
+      "boost": "Boost",
+      "system": "Sistema"
+    }
+  },
+  "deliveries": {
+    "title": "Historial de entregas",
+    "description": "Toda acción enviada al servidor, desde el panel, la tienda, la suscripción o Discord. Expande para ver los intentos y reenviar los que fallaron.",
+    "empty": "Aún no hay entregas registradas."
+  },
+  "notify": {
+    "toggle": "Avisar al jugador en el juego",
+    "silent": "Sin aviso, la entrega ocurre en silencio y el jugador lo descubre por el inventario.",
+    "titlePlaceholder": "Título (ej.: Compra entregada)",
+    "messagePlaceholder": "Mensaje (ej.: ¡recibiste '{amount}' coins!)",
+    "hint": "Usa {player} para el nombre de quien lo recibió.",
+    "hintWithVars": "Usa {player} para el nombre de quien lo recibió y {vars} para las variables de la acción.",
+    "channelsNote": "Un canal desactivado en la config del resource no aparece, aunque esté marcado aquí.",
+    "channels": {
+      "chat": {
+        "label": "Chat",
+        "hint": "Mensaje en el chat del juego"
+      },
+      "oxlib": {
+        "label": "ox_lib",
+        "hint": "Notificación lateral de ox_lib"
+      },
+      "nui": {
+        "label": "Caja MRI",
+        "hint": "Caja propia del resource"
+      },
+      "celebration": {
+        "label": "Celebración",
+        "hint": "Pantalla completa con globos"
+      }
+    }
+  },
+  "vars": {
+    "title": "Variables",
+    "add": "Variable",
+    "empty": "Sin variables, el payload es libre (JSON) al dispararse.",
+    "keyPlaceholder": "clave (ej.: amount)",
+    "required": "oblig.",
+    "remove": "Eliminar variable",
+    "labelPlaceholder": "etiqueta (opcional)",
+    "optionsPlaceholder": "opciones separadas por comas",
+    "min": "mín",
+    "max": "máx",
+    "default": "predeterminado"
+  },
+  "form": {
+    "textPlaceholder": "'{serial}' / texto"
+  }
+}

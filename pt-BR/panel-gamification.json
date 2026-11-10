@@ -1,0 +1,205 @@
+{
+  "tabs": {
+    "overview": "Visão geral",
+    "rewards": "Cargos de recompensa",
+    "multipliers": "Multiplicadores",
+    "noxp": "Bloqueios",
+    "levelup": "Mensagem de level-up",
+    "ranking": "Ranking",
+    "tools": "Ferramentas"
+  },
+  "header": {
+    "description": "XP, níveis e cargos de recompensa em {guild}, os membros sobem de nível interagindo e ganham cargos automaticamente."
+  },
+  "nav": {
+    "label": "Telas de Gamificação"
+  },
+  "loadError": "Não foi possível carregar o módulo.",
+  "loading": "Carregando...",
+  "common": {
+    "saveError": "Não foi possível salvar.",
+    "add": "Adicionar",
+    "role": "Cargo",
+    "proForMore": "Pro para mais de {max}"
+  },
+  "overview": {
+    "errors": {
+      "invalidXp": "Informe valores de XP válidos.",
+      "minAboveMax": "O XP mínimo não pode ser maior que o máximo.",
+      "invalidCooldown": "Informe um cooldown válido."
+    },
+    "saved": "Configuração salva.",
+    "enabled": {
+      "label": "Módulo ativo",
+      "description": "Quando desligado, os membros param de ganhar XP (o histórico é preservado)."
+    },
+    "perMessage": {
+      "label": "XP por mensagem",
+      "description": "Cada mensagem concede um valor aleatório nessa faixa (padrão 15 a 25, igual ao MEE6).",
+      "min": "Mínimo",
+      "max": "Máximo"
+    },
+    "cooldown": {
+      "label": "Cooldown entre mensagens (segundos)",
+      "description": "Anti-spam: mensagens dentro do cooldown não contam. Padrão 60s."
+    },
+    "voice": {
+      "label": "XP por voz",
+      "description": "Concede XP por minuto em call (não-AFK, não mudo, com outras pessoas).",
+      "perMinute": "XP por minuto em call"
+    },
+    "curve": {
+      "label": "Curva de XP",
+      "description": "Multiplica o custo de cada nível (1.0 = curva padrão). Acima de 1 deixa a subida mais lenta; abaixo, mais rápida.",
+      "factor": "Fator (0.5 a 3.0)"
+    }
+  },
+  "levelUp": {
+    "destinations": {
+      "CURRENT_CHANNEL": "Canal onde subiu",
+      "FIXED_CHANNEL": "Canal fixo",
+      "DM": "Privado (DM)",
+      "DISABLED": "Não notificar"
+    },
+    "errors": {
+      "channelRequired": "Escolha o canal fixo do aviso de level-up."
+    },
+    "saved": "Mensagem de level-up salva.",
+    "destination": {
+      "label": "Onde avisar",
+      "description": "Para onde o bot manda o aviso quando um membro sobe de nível."
+    },
+    "fixedChannel": {
+      "label": "Canal fixo",
+      "placeholder": "Escolha o canal"
+    },
+    "template": {
+      "label": "Mensagem (opcional)",
+      "placeholder": "🎉 '{user}' subiu para o nível '{level}'!",
+      "placeholders": "Placeholders:",
+      "emptyHint": "Vazio = o bot usa uma mensagem padrão.",
+      "proEditor": "Editor de embed com blocos (MessageDesign V2) chega no Pro."
+    }
+  },
+  "multipliers": {
+    "errors": {
+      "roleRequired": "Escolha o cargo de cada multiplicador.",
+      "positive": "Cada multiplicador precisa ser maior que zero.",
+      "duplicate": "Há um cargo repetido, só um multiplicador por cargo."
+    },
+    "saved": "Multiplicadores salvos.",
+    "title": "Multiplicador por cargo",
+    "description": "Quem tem o cargo ganha XP multiplicado. Vale sempre o {highest} aplicável (cargos 2× e 3× = 3×, não 6×). Bloqueio de XP tem precedência.",
+    "highestWord": "maior",
+    "unavailable": "Os multiplicadores ficam disponíveis em breve. Você já pode montar a lista; o salvamento é habilitado quando o recurso chega.",
+    "empty": "Nenhum multiplicador ainda.",
+    "multiplier": "Multiplicador"
+  },
+  "noxp": {
+    "saved": "Bloqueios salvos.",
+    "roles": {
+      "label": "Cargos sem XP",
+      "description": "Membros com qualquer um desses cargos não ganham XP.",
+      "placeholder": "Adicionar cargo...",
+      "remove": "Remover cargo"
+    },
+    "channels": {
+      "label": "Canais sem XP",
+      "description": "Mensagens nesses canais não contam XP (ex.: comandos, spam, off-topic).",
+      "placeholder": "Adicionar canal...",
+      "remove": "Remover canal"
+    },
+    "ignoreBots": {
+      "label": "Ignorar bots",
+      "description": "Bots não ganham XP mesmo que mandem mensagens."
+    }
+  },
+  "ranking": {
+    "memberLoadError": "Não foi possível carregar o membro.",
+    "lookup": {
+      "label": "Consultar um membro",
+      "placeholder": "Buscar membro…"
+    },
+    "level": "Nível",
+    "rank": "Rank",
+    "xpToNext": "Faltam {xp} XP p/ o próximo",
+    "noData": "Sem dados de XP para este membro.",
+    "leaderboard": "Leaderboard",
+    "unavailable": "O ranking web fica disponível em breve.",
+    "nothingYet": "Nada para mostrar por enquanto.",
+    "empty": "Ninguém ganhou XP ainda.",
+    "levelValue": "Nível {level}",
+    "xpValue": "{xp} XP",
+    "previous": "Anterior",
+    "page": "Página {page} de {total}",
+    "next": "Próxima"
+  },
+  "rewards": {
+    "modes": {
+      "STACK": "Empilhar",
+      "HIGHEST": "Trocar"
+    },
+    "modeSaved": "Modo salvo.",
+    "modeSaveError": "Não foi possível salvar o modo.",
+    "errors": {
+      "invalidLevel": "Cada recompensa precisa de um nível válido (≥ 1).",
+      "roleRequired": "Escolha o cargo de cada recompensa.",
+      "duplicate": "Nível {level} está repetido, só um cargo por nível."
+    },
+    "saved": "Cargos de recompensa salvos.",
+    "mode": {
+      "label": "Modo de concessão",
+      "description": "{stack}: mantém todos os cargos conquistados. {highest}: ao subir, remove o cargo do nível anterior."
+    },
+    "list": {
+      "label": "Cargos por nível",
+      "description": "O membro recebe o cargo ao atingir o nível."
+    },
+    "unavailable": "Os cargos de recompensa ficam disponíveis em breve. Você já pode montar a lista; o salvamento é habilitado quando o recurso chega.",
+    "empty": "Nenhum cargo de recompensa ainda."
+  },
+  "tools": {
+    "ops": {
+      "add": "Dar",
+      "set": "Definir"
+    },
+    "errors": {
+      "memberRequired": "Escolha o membro.",
+      "invalidAmount": "Informe uma quantidade válida."
+    },
+    "adjusted": "XP ajustado.",
+    "adjustError": "Não foi possível ajustar o XP.",
+    "resetError": "Não foi possível resetar.",
+    "memberPlaceholder": "Escolher membro…",
+    "adjust": {
+      "label": "Ajuste manual de XP",
+      "description": "Dá, remove ou define o XP de um membro. Pode disparar um level-up.",
+      "amount": "Quantidade de XP",
+      "apply": "Aplicar"
+    },
+    "reset": {
+      "label": "Reset de XP",
+      "description": "Zera o XP. Não toca em configurações, cargos de recompensa ou multiplicadores."
+    },
+    "resetMember": {
+      "label": "Resetar um membro",
+      "button": "Resetar membro",
+      "confirmTitle": "Resetar XP do membro?",
+      "confirmDescription": "Zera todo o XP e nível deste membro. Não dá pra desfazer.",
+      "confirmLabel": "Resetar",
+      "done": "XP do membro resetado."
+    },
+    "resetGuild": {
+      "confirmTitle": "Resetar o XP de TODO o servidor?",
+      "confirmDescription": "Zera o XP e o nível de todos os membros. Cargos de recompensa, multiplicadores e configurações são preservados. Esta ação é irreversível.",
+      "continue": "Continuar",
+      "secondTitle": "Tem certeza absoluta?",
+      "secondDescription": "Última confirmação: todo o progresso de XP do servidor será apagado.",
+      "secondConfirm": "Sim, resetar tudo",
+      "done": "XP do servidor resetado.",
+      "text": "Resetar o XP de {all} os membros.",
+      "allWord": "todos",
+      "button": "Resetar servidor"
+    }
+  }
+}

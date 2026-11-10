@@ -1,0 +1,70 @@
+{
+  "noGuild": "Use este comando dentro de um servidor.",
+  "inactive": {
+    "title": "Módulo Enquetes inativo",
+    "menu": "Ative o módulo \"Enquetes\" no painel antes de criar enquetes neste servidor.",
+    "short": "Ative o módulo \"Enquetes\" no painel."
+  },
+  "noPermission": {
+    "menu": "Você não tem permissão para acessar o menu de enquetes.",
+    "create": "Você não tem permissão para criar enquetes neste servidor.",
+    "close": "Você não tem permissão para encerrar enquetes neste servidor."
+  },
+  "menu": {
+    "title": "🗳️ Menu de Enquetes",
+    "description": "Use os botões abaixo pra gerenciar enquetes.\n\n• **Criar enquete** abre um formulário e posta a enquete neste canal.\n• **Encerrar enquete** fecha uma enquete ativa antes do tempo.\n• Os votos acontecem nos botões da própria mensagem da enquete.",
+    "create": "Criar enquete",
+    "yesNo": "Sim / Não rápida",
+    "close": "Encerrar enquete"
+  },
+  "modal": {
+    "createTitle": "Criar enquete",
+    "yesNoTitle": "Sim/Não rápida",
+    "question": "Pergunta",
+    "questionPlaceholder": "Ex: Qual a sua cor favorita?",
+    "yesNoQuestionPlaceholder": "Ex: Tópico do próximo evento será PVP?",
+    "options": "Opções (uma por linha, de 2 a 25)",
+    "optionsPlaceholder": "Sim\nNão\nTalvez",
+    "duration": "Duração em minutos (opcional)",
+    "durationPlaceholder": "Deixe vazio pra sem encerramento automático"
+  },
+  "create": {
+    "optionCount": "Forneça entre 2 e 25 opções, uma por linha.",
+    "invalidDuration": "Duração inválida. Use minutos entre 1 e 43200 (30 dias).",
+    "invalidChannel": "Canal inválido para postar a enquete.",
+    "saveFailed": "Não consegui salvar a enquete. Tente de novo.",
+    "postFailed": "Não consegui postar a enquete no canal. Verifique as permissões do bot.",
+    "done": "Enquete criada",
+    "yesNoDone": "Enquete Sim/Não criada",
+    "endsIn": "Os votos encerram em **{count, plural, one {# minuto} other {# minutos}}**.",
+    "noEnd": "A enquete ficará aberta até ser encerrada manualmente.",
+    "yes": "Sim",
+    "no": "Não"
+  },
+  "close": {
+    "fetchFailed": "Não consegui buscar as enquetes ativas.",
+    "noneTitle": "Nenhuma enquete ativa",
+    "noneDescription": "Não há enquetes abertas pra encerrar neste servidor.",
+    "placeholder": "Escolha a enquete pra encerrar",
+    "title": "Encerrar enquete",
+    "description": "Selecione abaixo qual enquete deseja encerrar.",
+    "doneTitle": "Enquete encerrada",
+    "doneDescription": "A enquete foi fechada e a mensagem atualizada."
+  },
+  "message": {
+    "options": "Opções",
+    "resultsHidden": "🔒 *Resultados ocultos até o encerramento.*",
+    "votes": "{count, plural, one {# voto} other {# votos}}",
+    "footerClosed": "{votes} • Encerrada",
+    "endsRelative": "⏰ Encerra {time}",
+    "closed": "🔒 Encerrada",
+    "closedPlain": "Encerrada",
+    "upToChoices": "☑️ Até {count} escolhas",
+    "multiChoice": "☑️ Múltipla escolha",
+    "singleChoice": "1️⃣ 1 escolha permitida",
+    "anonymous": "🕶️ Voto anônimo",
+    "settings": "Configurações",
+    "ends": "Encerra",
+    "open": "Abrir"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Suporte",
+  "open": "Falar com o suporte",
+  "openWithUnread": "{count, plural, one {Falar com o suporte, # mensagem nova} other {Falar com o suporte, # mensagens novas}}",
+  "unmute": "Ativar som",
+  "mute": "Silenciar",
+  "memberGate": {
+    "title": "Entre no nosso Discord pra falar com o suporte",
+    "description": "O atendimento acontece dentro do servidor. Entre e volta aqui pra abrir seu atendimento.",
+    "descriptionNamed": "O atendimento acontece dentro do servidor {guild}. Entre e volta aqui pra abrir seu atendimento.",
+    "join": "Entrar no Discord"
+  },
+  "empty": {
+    "title": "Manda sua dúvida 👋",
+    "description": "A gente responde por aqui."
+  },
+  "typing": "Digitando…",
+  "placeholder": "Escreva sua mensagem...",
+  "send": "Enviar",
+  "sendFailed": "Não foi possível enviar."
+}

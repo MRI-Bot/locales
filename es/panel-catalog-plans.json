@@ -1,0 +1,240 @@
+{
+  "modules": {
+    "platform": "Plataforma",
+    "discord_admin": "Discord Admin",
+    "tickets": "Tickets",
+    "fivem": "FiveM",
+    "store": "Tienda",
+    "projects": "Proyectos",
+    "planning": "Planificación",
+    "polls": "Encuestas",
+    "giveaways": "Sorteos",
+    "subscriptions": "Suscripciones",
+    "messages": "Mensajes",
+    "direct_messages": "MD masivo",
+    "mta": "MTA",
+    "gamification": "Gamificación",
+    "social_alerts": "Alertas sociales",
+    "community": "Comunidad",
+    "media": "Multimedia",
+    "ai_helper": "Asistente de IA"
+  },
+  "features": {
+    "whiteLabel": "Marca blanca",
+    "apiKey": "API Keys",
+    "fivemWebhook": "Integración FiveM",
+    "subscriptions": "Suscripciones",
+    "customCss": "CSS propio en la tienda",
+    "customDomain": "Dominio propio",
+    "directMessages": "MD masivo por rol",
+    "adminLogsPro": "Caché de contenido en los registros",
+    "adminSelectorAdvanced": "Reaction roles avanzados (botón/desplegable)",
+    "adminLog_MESSAGE_DELETE": "Registro: Mensaje borrado",
+    "adminLog_MESSAGE_EDIT": "Registro: Mensaje editado",
+    "adminLog_MEMBER_JOIN": "Registro: Miembro entró",
+    "adminLog_MEMBER_LEAVE": "Registro: Miembro salió",
+    "adminLog_MEMBER_BAN": "Registro: Miembro baneado",
+    "adminLog_MEMBER_UNBAN": "Registro: Miembro desbaneado",
+    "adminLog_MESSAGE_BULK_DELETE": "Registro: Borrado masivo",
+    "adminLog_MEMBER_ROLE_UPDATE": "Registro: Roles del miembro",
+    "adminLog_MEMBER_NICKNAME": "Registro: Apodo cambiado",
+    "adminLog_VOICE_JOIN_LEAVE_MOVE": "Registro: Canales de voz",
+    "adminLog_CHANNEL_CREATE_UPDATE_DELETE": "Registro: Canales",
+    "adminLog_ROLE_CREATE_UPDATE_DELETE": "Registro: Roles",
+    "adminLog_INVITE_CREATE_USE": "Registro: Invitaciones",
+    "adminLog_AUTOMOD": "Registro: AutoMod",
+    "ticketTranscripts": "Transcripciones de ticket",
+    "ticketAutoClose": "Cierre automático por inactividad",
+    "ticketAnonymousReply": "Respuesta anónima en el ticket",
+    "storeFeaturedProducts": "Productos destacados",
+    "storeScheduledDrops": "Lanzamientos programados",
+    "storeStock": "Control de stock",
+    "storeDigitalFiles": "Archivos digitales",
+    "storeCoupons": "Cupones de descuento",
+    "storeCategories": "Categorías de producto",
+    "storeAnalytics": "Analíticas de la tienda",
+    "fivemCustomCard": "Tarjeta de vínculo personalizada",
+    "fivemAltAccounts": "Cuentas alternativas",
+    "fivemNickname": "Apodo mientras está en el juego (FiveM)",
+    "fivemScreenshot": "Captura de pantalla del jugador",
+    "fivemCdn": "CDN de resources (FiveM)",
+    "fivemOutboundActions": "Acciones en el servidor (FiveM)",
+    "mtaOutboundActions": "Acciones en el servidor (MTA)",
+    "pollsScheduled": "Encuestas programadas",
+    "pollsAnonymous": "Encuestas anónimas",
+    "pollsMultiSelect": "Opción múltiple",
+    "pollsVoteWeights": "Peso de voto por rol",
+    "pollsRoleRestricted": "Restricción por rol",
+    "pollsMessageDesign": "Diseño de mensaje (encuestas)",
+    "giveawaysScheduled": "Sorteos programados",
+    "giveawaysMultipliers": "Multiplicadores de participación",
+    "giveawaysRequirements": "Requisitos de participación",
+    "giveawaysReminders": "Recordatorio de cierre",
+    "giveawaysMessageDesign": "Diseño de mensaje (sorteos)",
+    "giveawaysShareLink": "Enlace público de resultados",
+    "messagesScheduled": "Mensajes programados",
+    "messagesRecurring": "Mensajes recurrentes",
+    "messagesTemplates": "Plantillas de mensaje",
+    "gamificationVoiceXp": "XP por voz",
+    "gamificationCustomCard": "Tarjeta de rango personalizada",
+    "gamificationCustomCurve": "Curva de XP personalizada",
+    "gamificationLevelUpDesign": "Subida de nivel con MessageDesign V2",
+    "socialPollProviders": "Proveedores por sondeo (Kick/TikTok/Instagram)",
+    "socialMessageDesign": "Alerta con MessageDesign V2",
+    "socialChannelRouting": "Enrutamiento por tipo de contenido",
+    "socialOfflineEdit": "Editar/cerrar la alerta al quedar offline",
+    "suggestionsApprovedChannel": "Canal aparte para sugerencias aprobadas",
+    "suggestionsCategories": "Categorías de sugerencia",
+    "bugReportsForum": "Bugs en canal de foro",
+    "bugReportsInGameContext": "Contexto del juego en el reporte",
+    "referralsMilestoneOutbound": "Recompensa en el juego por invitación",
+    "referralsAntiFraudAdvanced": "Antifraude avanzado de invitaciones",
+    "referralsLeaderboardPanel": "Panel de ranking de invitaciones",
+    "anonymousReviewQueue": "Cola de revisión de mensajes anónimos",
+    "staffFormCustomDm": "Mensaje personalizado en la decisión de la candidatura",
+    "staffFormAutoRole": "Rol automático al aprobar la candidatura",
+    "staffFormScheduling": "Programación de vacante",
+    "anonymousFivem": "Mensaje anónimo en el juego",
+    "communityMessageDesign": "Tarjetas de Comunidad en MessageDesign V2",
+    "boostStorePerks": "Beneficio de tienda por boost",
+    "boostAnnounceDesign": "Anuncio de boost en MessageDesign V2",
+    "media": "Multimedia (CDN propio)",
+    "aiHelperImages": "El asistente de IA lee imágenes"
+  },
+  "limits": {
+    "maxGuilds": {
+      "label": "Máx. de servidores",
+      "unit": "{count, plural, one {servidor} other {servidores}}"
+    },
+    "maxModulesPerGuild": {
+      "label": "Máx. de módulos por servidor",
+      "unit": "{count, plural, one {módulo} other {módulos}}"
+    },
+    "maxFivemStatusPanels": {
+      "label": "Máx. de paneles de estado FiveM",
+      "unit": "{count, plural, one {panel} other {paneles}}"
+    },
+    "maxTicketTypes": {
+      "label": "Máx. de tipos de ticket",
+      "unit": "{count, plural, one {tipo} other {tipos}}"
+    },
+    "maxTicketPanels": {
+      "label": "Máx. de paneles de ticket",
+      "unit": "{count, plural, one {panel} other {paneles}}"
+    },
+    "maxProjectBoards": {
+      "label": "Máx. de tableros de proyecto",
+      "unit": "{count, plural, one {tablero} other {tableros}}"
+    },
+    "maxPlanningDocs": {
+      "label": "Máx. de documentos de planificación",
+      "unit": "{count, plural, one {documento} other {documentos}}"
+    },
+    "maxPolls": {
+      "label": "Máx. de encuestas activas",
+      "unit": "{count, plural, one {encuesta} other {encuestas}}"
+    },
+    "maxGiveaways": {
+      "label": "Máx. de sorteos activos",
+      "unit": "{count, plural, one {sorteo} other {sorteos}}"
+    },
+    "maxSubscriptionTiers": {
+      "label": "Máx. de planes de suscripción",
+      "unit": "{count, plural, one {plan} other {planes}}"
+    },
+    "maxScheduledMessages": {
+      "label": "Máx. de mensajes programados/recurrentes",
+      "unit": "{count, plural, one {mensaje} other {mensajes}}"
+    },
+    "maxMessageTemplates": {
+      "label": "Máx. de plantillas de mensaje",
+      "unit": "{count, plural, one {plantilla} other {plantillas}}"
+    },
+    "maxRoleRewards": {
+      "label": "Máx. de roles de recompensa",
+      "unit": "{count, plural, one {rol} other {roles}}"
+    },
+    "maxRoleMultipliers": {
+      "label": "Máx. de multiplicadores de XP",
+      "unit": "{count, plural, one {multiplicador} other {multiplicadores}}"
+    },
+    "maxSuggestionCategories": {
+      "label": "Máx. de categorías de sugerencia",
+      "unit": "{count, plural, one {categoría} other {categorías}}"
+    },
+    "maxBugFormFields": {
+      "label": "Máx. de campos en el formulario de bug",
+      "unit": "{count, plural, one {campo} other {campos}}"
+    },
+    "maxBugCategories": {
+      "label": "Máx. de categorías de bug",
+      "unit": "{count, plural, one {categoría} other {categorías}}"
+    },
+    "maxReferralMilestones": {
+      "label": "Máx. de metas de invitación",
+      "unit": "{count, plural, one {meta} other {metas}}"
+    },
+    "maxStaffPostings": {
+      "label": "Máx. de vacantes abiertas",
+      "unit": "{count, plural, one {vacante} other {vacantes}}"
+    },
+    "maxStaffFormFields": {
+      "label": "Máx. de preguntas por vacante",
+      "unit": "{count, plural, one {pregunta} other {preguntas}}"
+    },
+    "maxWhitelistFields": {
+      "label": "Máx. de preguntas en la whitelist",
+      "unit": "{count, plural, one {pregunta} other {preguntas}}"
+    },
+    "maxAnonymousConversations": {
+      "label": "Máx. de conversaciones anónimas abiertas",
+      "unit": "{count, plural, one {conversación} other {conversaciones}}"
+    },
+    "anonymousHistoryDays": {
+      "label": "Retención del historial anónimo (días)",
+      "unit": "{count, plural, one {día} other {días}}"
+    },
+    "maxSocialSubscriptions": {
+      "label": "Máx. de seguimientos sociales",
+      "unit": "{count, plural, one {seguimiento} other {seguimientos}}"
+    },
+    "maxBoostRewards": {
+      "label": "Máx. de recompensas por boost",
+      "unit": "{count, plural, one {recompensa} other {recompensas}}"
+    },
+    "aiHelperMaxDocsSources": {
+      "label": "Máx. de fuentes de documentación",
+      "unit": "{count, plural, one {fuente} other {fuentes}}"
+    },
+    "aiHelperDocsKb": {
+      "label": "Tamaño total de las fuentes",
+      "unit": "KB"
+    },
+    "mediaStorageMb": {
+      "label": "Almacenamiento multimedia",
+      "unit": "MB"
+    },
+    "mediaRetentionDays": {
+      "label": "Retención multimedia",
+      "unit": "{count, plural, one {día} other {días}}"
+    },
+    "fivemCdnStorageMb": {
+      "label": "Almacenamiento del CDN FiveM",
+      "unit": "MB"
+    }
+  },
+  "planChange": {
+    "blocked": {
+      "lifetime": "Ya tienes acceso vitalicio.",
+      "downgradeCancelFirst": "Para pasar a un plan inferior, cancela primero la suscripción actual.",
+      "availableAfterEnd": "Disponible cuando termine el plan actual, el {date, date, ::ddMMyyyy}.",
+      "alreadyRenews": "Tu suscripción ya se renueva sola en este período.",
+      "creditCovers": "Tu crédito cubre este paquete. Elige un período más largo."
+    }
+  },
+  "billing": {
+    "cardSubscription": "Suscripción con tarjeta",
+    "packageLifetime": "{plan}, vitalicio",
+    "package": "{plan}, {count, plural, one {# mes} other {# meses}}"
+  }
+}

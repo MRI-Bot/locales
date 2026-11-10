@@ -1,0 +1,68 @@
+{
+  "nextSteps": {
+    "store": "Conectar el cobro de la tienda",
+    "fivem": "Poner la dirección del servidor FiveM"
+  },
+  "undo": {
+    "action": "Deshacer",
+    "partial": "{removed, plural, one {Se eliminó # elemento.} other {Se eliminaron # elementos.}} {kept, plural, one {# se quedó porque ya está en uso.} other {# se quedaron porque ya están en uso.}}",
+    "failed": "No se pudo deshacer."
+  },
+  "done": {
+    "summary": "{created, plural, one {# elemento creado.} other {# elementos creados.}} Ahora pruébalo en Discord.",
+    "summaryReused": "{created, plural, one {# elemento creado} other {# elementos creados}} y {reused} reutilizados. Ahora pruébalo en Discord.",
+    "nextSteps": "Solo falta lo tuyo",
+    "problems": "Lo que no funcionó"
+  },
+  "dialog": {
+    "loadFailed": "No se pudo cargar la plantilla.",
+    "applyFailed": "No se pudo montar el servidor.",
+    "undoTitle": "¿Deshacer la plantilla?",
+    "undoDescription": "El bot borra los canales y roles que creó la plantilla, salvo los que ya tienen mensajes o miembros, y desactiva los módulos que la plantilla activó. Lo que ya existía en el servidor queda como estaba.",
+    "undoDone": "Listo, el servidor volvió a como estaba. {removed, plural, one {# elemento eliminado.} other {# elementos eliminados.}}",
+    "title": "Montar el servidor: {name}",
+    "loadingName": "cargando",
+    "description": "El bot crea los canales y roles de abajo y deja todo configurado. Nada de lo que ya existe en tu servidor se borra ni se cambia.",
+    "applying": "Montando el servidor. Tarda hasta un minuto, no cierres esta ventana.",
+    "loadingPreview": "Viendo lo que ya existe en tu servidor...",
+    "modulesHeading": "Lo que viene listo",
+    "alreadyConfigured": "Ya lo configuraste. Se queda como está.",
+    "include": "Incluir {module}",
+    "itemsHeading": "Cómo va a quedar Discord",
+    "undoApplied": "Deshacer la plantilla aplicada",
+    "apply": "Montar mi servidor",
+    "done": "Servidor montado",
+    "doneWithWarnings": "Servidor montado, con algunos avisos",
+    "testNow": "Pruébalo ahora",
+    "panelTicketsError": "Panel de tickets: {error}",
+    "panelWhitelistError": "Panel de whitelist: {error}",
+    "finish": "Terminar"
+  },
+  "structure": {
+    "reused": "ya existe, lo vamos a usar",
+    "roles": "Roles"
+  },
+  "quick": {
+    "applyFailed": "No se pudo configurar.",
+    "undoTitle": "¿Deshacer lo que montó el bot?",
+    "undoDescription": "El bot borra los canales y roles que creó aquí, salvo los que ya tienen mensajes o miembros, y limpia la configuración que no tocaste después.",
+    "undoDone": "Listo, deshecho. {removed, plural, one {# elemento eliminado.} other {# elementos eliminados.}}",
+    "appliedNote": "El bot montó lo básico de este módulo por ti.",
+    "title": "¿Quieres que el bot lo configure por ti?",
+    "description": "Nada de lo que ya existe en tu servidor se borra. Después puedes cambiarlo todo.",
+    "showItems": "Lo que se va a crear",
+    "applying": "Configurando...",
+    "apply": "Configúralo por mí",
+    "dismiss": "Prefiero empezar de cero",
+    "panelError": "Panel: {error}",
+    "done": "Configurado",
+    "doneWithWarnings": "Configurado, con algunos avisos",
+    "gotIt": "Entendido"
+  },
+  "picker": {
+    "title": "¿Qué tipo de servidor es el tuyo?",
+    "description": "Elige una plantilla y el bot monta los canales, los roles y los módulos por ti. Después puedes cambiarlo todo.",
+    "scratch": "Empezar de cero",
+    "scratchDescription": "Elegir los módulos uno por uno y configurar cada uno."
+  }
+}

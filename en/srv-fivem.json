@@ -1,0 +1,68 @@
+{
+  "defaultServerName": "Main server",
+  "vars": {
+    "account": "Account",
+    "amount": "Amount",
+    "item": "Item",
+    "quantity": "Quantity",
+    "job": "Job",
+    "grade": "Grade",
+    "gang": "Gang",
+    "model": "Model (spawn name)",
+    "plate": "Plate (optional)",
+    "garage": "Garage (optional)",
+    "tier": "Tier"
+  },
+  "packs": {
+    "framework": {
+      "label": "Framework (QBCore, Qbox, ESX)",
+      "description": "Money, item, job, gang and revive actions. They need an up-to-date mri-botcreator resource, which detects the framework and translates. Gang doesn't apply on ESX (the core has none)."
+    },
+    "mriQbox": {
+      "label": "MRI Qbox (VIP)",
+      "description": "Grants and removes a VIP tier through the mri_Qbox command. Only works on servers running mri_Qbox — with another VIP system, edit the action's command after importing."
+    }
+  },
+  "presets": {
+    "giveMoney": {
+      "label": "Give money",
+      "description": "Deposits into the player's chosen account."
+    },
+    "removeMoney": {
+      "label": "Take money",
+      "description": "Removes from the player's chosen account."
+    },
+    "giveItem": {
+      "label": "Give item",
+      "description": "Puts an item in the player's inventory."
+    },
+    "removeItem": {
+      "label": "Take item",
+      "description": "Removes an item from the player's inventory."
+    },
+    "setJob": {
+      "label": "Set job",
+      "description": "Changes the player's job and grade."
+    },
+    "setGang": {
+      "label": "Set gang",
+      "description": "Changes the player's gang and grade (QBCore/Qbox)."
+    },
+    "revive": {
+      "label": "Revive",
+      "description": "Revives the player where they are."
+    },
+    "giveVehicle": {
+      "label": "Give vehicle",
+      "description": "Puts a vehicle in the player's garage (QBCore/Qbox)."
+    },
+    "giveVip": {
+      "label": "Give VIP",
+      "description": "Activates a VIP tier on the player."
+    },
+    "removeVip": {
+      "label": "Take VIP",
+      "description": "Removes a VIP tier from the player. The natural pair of \"Give VIP\" in role→action: it's added when the role is gained and removed when it's lost."
+    }
+  }
+}

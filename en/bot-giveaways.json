@@ -1,0 +1,61 @@
+{
+  "menu": {
+    "noGuild": "Use this command inside a server.",
+    "noPermission": "You don't have permission to open the giveaways menu.",
+    "title": "🎁 Giveaways",
+    "description": "Create and manage giveaways from the web dashboard — a full form with every optional requirement.\n\n• **Entry modes**: button or reaction (chosen per giveaway)\n• **Requirements**: role, time in the server, account age, another server, blacklist\n• **Automatic ending** with a uniform draw\n• **Reroll** available after it ends",
+    "openPanel": "Open dashboard"
+  },
+  "requirements": {
+    "role": "• Required role: {role}",
+    "excludedRole": "• Must not have the role: {role}",
+    "minServerDays": "• Be in the server for at least {count, plural, one {# day} other {# days}}",
+    "minAccountDays": "• Discord account at least {count, plural, one {# day} other {# days}} old",
+    "guildNameUrl": "• Be in the server [**{name}**]({url})",
+    "guildName": "• Be in the server **{name}**",
+    "guildUrl": "• [Join this server]({url})",
+    "guildUnknown": "• Be in another Discord server (ask the admin)"
+  },
+  "message": {
+    "titleActive": "🎉 GIVEAWAY: {prize}",
+    "titleCancelled": "❌ GIVEAWAY CANCELLED: {prize}",
+    "titleEnded": "🎉 GIVEAWAY ENDED: {prize}",
+    "endsAt": "**Ends {relative}** ({full})",
+    "winnerCount": "**Winners:** {count}",
+    "entryCount": "**Entries:** {count}",
+    "requirements": "**Requirements:**",
+    "reactToEnter": "React with {emoji} to enter!",
+    "clickToEnter": "Click the button below to enter!",
+    "webLink": "🔗 [See details / enter on the web]({url})",
+    "cancelled": "This giveaway was cancelled by the admin.",
+    "noEligible": "**No eligible entries.**",
+    "winners": "**🏆 {count, plural, one {Winner} other {Winners}}:** {mentions}",
+    "rerolled": "*Rerolled {count, plural, one {# time} other {# times}}*",
+    "footerId": "Giveaway ID: {id}",
+    "open": "Open",
+    "enter": "Enter",
+    "details": "Details"
+  },
+  "entry": {
+    "blacklisted": "You can't enter this giveaway.",
+    "requiredRole": "You need the {role} role to enter.",
+    "excludedRole": "You can't enter while having the {role} role.",
+    "minServerDays": "You need to have been in this server for at least {count, plural, one {# day} other {# days}}.",
+    "minAccountDays": "Your Discord account must be at least {count, plural, one {# day} other {# days}} old.",
+    "botNotInGuild": "The bot needs to be in the required Discord server to validate — let an admin know.",
+    "joinGuild": "You need to join this Discord server to enter: {link}",
+    "otherGuild": "You need to be in another specific Discord server to enter (ask the admin).",
+    "reactionDenied": "❌ **You couldn't enter the \"{prize}\" giveaway.**\n\n{reason}",
+    "defaultReason": "Requirements not met."
+  },
+  "dm": {
+    "title": "🎉 You won a giveaway!",
+    "oneOfMany": "You are one of the **{total}** winners. Position: **{position}/{total}**.",
+    "single": "You were drawn!",
+    "server": "Server",
+    "prize": "Prize",
+    "howToClaim": "How to claim",
+    "howToClaimValue": "Talk to the server staff to receive your prize.",
+    "goTo": "Go to the giveaway"
+  }
+}

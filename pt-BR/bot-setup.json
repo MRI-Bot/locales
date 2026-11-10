@@ -1,0 +1,18 @@
+{
+  "apiKeyReason": "MRI BOT: chave de API",
+  "blueprintReason": "MRI BOT: modelo de servidor",
+  "nicknameSyncReason": "Sincronização de apelido pela atividade de jogo",
+  "autoCloseNote": "Encerrado automaticamente por inatividade.",
+  "automod": {
+    "inviteReason": "Convite de servidor não permitido",
+    "urlReason": "Link não permitido: {list}",
+    "attachmentReason": "Tipo de arquivo não permitido: {list}",
+    "aimodReason": "Mensagem fora das regras",
+    "redirect": "Use {channel}.",
+    "warnDefault": "{user}, {reason}.",
+    "dm": "Sua mensagem em **{guild}** foi removida: {reason}.",
+    "serverFallback": "servidor",
+    "honeypotReason": "Honeypot: mensagem em canal-armadilha (conta possivelmente comprometida)",
+    "purged": "{reason} (mensagens recentes apagadas)"
+  }
+}

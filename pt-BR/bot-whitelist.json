@@ -1,0 +1,150 @@
+{
+  "guildOnly": "Use este botão dentro de um servidor.",
+  "roleFix": "No Discord, abra Configurações do servidor > Cargos, deixe o cargo do bot acima do cargo de aprovado e confira a permissão Gerenciar Cargos.",
+  "moduleInactive": {
+    "title": "Módulo Whitelist inativo",
+    "body": "O módulo \"Whitelist\" precisa estar ativo nesta guild."
+  },
+  "command": {
+    "guildOnly": "Use este comando dentro de um servidor.",
+    "noPermission": "Você não tem permissão para postar o painel de whitelist.",
+    "moduleInactive": "Ative o módulo \"Whitelist\" no painel antes de postar o painel neste servidor.",
+    "textChannelOnly": "Use este comando em um canal de texto.",
+    "postFailed": "Não consegui postar o painel. Verifique permissões do bot.",
+    "notPostedTitle": "Painel não postado",
+    "postedTitle": "Painel publicado",
+    "postedBody": "O painel de whitelist foi postado neste canal."
+  },
+  "panelPost": {
+    "noFields": "O formulário da whitelist não tem perguntas. Adicione e salve as perguntas antes de postar o painel.",
+    "channelNotFound": "Canal não encontrado. Ele pode ter sido apagado ou o bot não consegue vê-lo.",
+    "notTextChannel": "O painel só pode ser postado em canal de texto ou de anúncios.",
+    "missingPermissions": "O MRI BOT não tem permissão para ver ou mandar mensagem nesse canal."
+  },
+  "panel": {
+    "title": "🎫 Whitelist",
+    "description": "Clique no botão pra se inscrever.",
+    "apply": "Aplicar",
+    "useCode": "Usar código"
+  },
+  "form": {
+    "modalTitle": "Aplicação de Whitelist",
+    "chooseRange": "Escolha de {min} a {max}.",
+    "required": "Obrigatório.",
+    "numbersOnly": "Somente números.",
+    "yes": "Sim",
+    "no": "Não",
+    "characterName": "Nome do personagem",
+    "releaseTitle": "Solicitar liberação",
+    "codeTitle": "Usar código de liberação",
+    "codeLabel": "Código"
+  },
+  "announce": {
+    "approved": "## ✅ Whitelist aprovada\n{user} foi aprovado.",
+    "rejected": "## ❌ Whitelist reprovada\n{user} não foi aprovado.",
+    "character": "**Personagem:** {name}",
+    "score": "**Nota:** {score}%",
+    "reason": "**Motivo:** {reason}"
+  },
+  "card": {
+    "headingPending": "## 🆕 Nova aplicação de whitelist",
+    "headingApproved": "## ✅ Aplicação aprovada",
+    "headingRejected": "## ❌ Aplicação recusada",
+    "requested": "{user} solicitou whitelist.",
+    "removedQuestion": "**{key}** _(pergunta removida)_",
+    "approve": "Aprovar",
+    "reject": "Rejeitar",
+    "approvedBy": "Aprovada por {user}",
+    "rejectedBy": "Recusada por {user}",
+    "reason": "**Motivo:** {reason}",
+    "footer": "-# App {id}"
+  },
+  "window": {
+    "title": "Inscrições fechadas",
+    "opensIn": "As inscrições abrem em {time}.",
+    "closed": "As inscrições deste servidor estão encerradas."
+  },
+  "block": {
+    "applyTitle": "Você não pode se inscrever agora",
+    "codeTitle": "Você não pode usar um código agora",
+    "approved": "Você já está aprovado nesta whitelist.",
+    "cooldown": "Você pode tentar de novo em {time}.",
+    "pending": "Você já tem uma aplicação pendente. Aguarde a análise da staff."
+  },
+  "time": {
+    "minutes": "{count, plural, one {# minuto} other {# minutos}}",
+    "hours": "{count, plural, one {# hora} other {# horas}}",
+    "days": "{count, plural, one {# dia} other {# dias}}",
+    "daysHours": "{days} e {hours}"
+  },
+  "remaining": {
+    "seconds": "{count} s",
+    "minutes": "{count} min"
+  },
+  "clock": {
+    "remaining": "⏳ Tempo restante: **{time}**.",
+    "expired": "⏳ **Seu tempo acabou** — vai ser preciso começar de novo."
+  },
+  "pageSaved": "✅ Parte **{page} de {total}** salva. Clique em continuar pra responder o resto — nada é enviado até a última parte.",
+  "continue": "Continuar ({page}/{total})",
+  "partsExpired": "As respostas das partes anteriores expiraram, então não dava pra enviar a aplicação pela metade. Clique em \"Aplicar\" no painel pra responder de novo.",
+  "timeUp": {
+    "title": "Seu tempo acabou",
+    "nextPage": "O prazo pra concluir a whitelist terminou. Clique em \"Aplicar\" no painel pra começar de novo.",
+    "submit": "O prazo pra concluir a whitelist terminou e a aplicação não foi enviada. Clique em \"Aplicar\" no painel pra começar de novo."
+  },
+  "formChanged": {
+    "title": "Formulário mudou",
+    "body": "As perguntas da whitelist foram alteradas enquanto você respondia. Clique em \"Aplicar\" no painel pra começar de novo."
+  },
+  "code": {
+    "disabled": "Este servidor não está aceitando códigos de liberação.",
+    "failedTitle": "Não consegui usar esse código.",
+    "roleNotEditable": "O bot não consegue dar o cargo da whitelist. Seu código não foi gasto. Avise um admin: o cargo do bot precisa estar acima do cargo de aprovado e ter a permissão Gerenciar Cargos.",
+    "successTitle": "Liberado!",
+    "successBody": "Seu código foi aceito e você já está na whitelist.",
+    "noRoleTitle": "Código aceito",
+    "noRoleBody": "Seu código foi aceito, mas não consegui te dar o cargo. Avise um admin."
+  },
+  "submit": {
+    "failedTitle": "Não consegui enviar sua aplicação.",
+    "retry": "Tente de novo em instantes.",
+    "savedTitle": "Aplicação registrada",
+    "savedBody": "Sua aplicação foi salva, mas não consegui postar a notificação para a staff. Avise um admin.",
+    "sentTitle": "Aplicação enviada",
+    "sentBody": "Sua aplicação foi enviada! Aguarde a análise da staff."
+  },
+  "auto": {
+    "score": "Sua nota: **{score}%**.",
+    "noRoleTitle": "Aprovado, mas sem o cargo",
+    "noRoleBody": "Você passou no teste, mas não consegui te dar o cargo. Avise um admin.",
+    "approvedTitle": "Aprovado!",
+    "approvedBody": "Você passou no teste e já está na whitelist.",
+    "failedTitle": "Não foi dessa vez",
+    "failedBody": "Você não atingiu a nota mínima."
+  },
+  "review": {
+    "noPermission": "Você precisa da permissão \"Gerenciar Cargos\" para revisar aplicações.",
+    "notFound": "Aplicação não encontrada.",
+    "alreadyReviewed": "Aplicação já revisada.",
+    "approveFailed": "Não consegui aprovar a aplicação."
+  },
+  "approve": {
+    "dmTitle": "🎉 Aplicação aprovada!",
+    "dmBody": "Sua aplicação de whitelist em **{guild}** foi aprovada.",
+    "doneTitle": "Aplicação aprovada",
+    "doneBody": "{user} foi aprovado.",
+    "noRoleTitle": "Aprovada, mas sem o cargo",
+    "noRoleBody": "{user} foi aprovado, mas não consegui dar o cargo. {fix}"
+  },
+  "reject": {
+    "modalTitle": "Rejeitar aplicação",
+    "label": "Motivo (opcional)",
+    "failed": "Não consegui rejeitar a aplicação.",
+    "dmTitle": "Aplicação rejeitada",
+    "dmBody": "Sua aplicação de whitelist em **{guild}** foi rejeitada.",
+    "dmBodyReason": "Sua aplicação de whitelist em **{guild}** foi rejeitada.\n\n**Motivo:** {reason}",
+    "doneTitle": "Aplicação rejeitada",
+    "doneBody": "{user} foi rejeitado."
+  }
+}

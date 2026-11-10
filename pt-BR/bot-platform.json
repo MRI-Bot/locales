@@ -1,0 +1,15 @@
+{
+  "trial": {
+    "guildOnly": "Use este comando dentro do servidor onde quer o teste.",
+    "noPermissionTitle": "Sem permissão",
+    "noPermission": "Só o dono do servidor (ou alguém com Administrador) pode resgatar um código de teste.",
+    "failedTitle": "Não deu pra resgatar",
+    "failed": "Tente de novo em instantes. Se persistir, fale com a equipe.",
+    "granted": "Plano **{plan}** liberado por **{days, plural, one {# dia} other {# dias}}**.",
+    "ends": "Termina {relative} ({full}).",
+    "guildCovered": "**{guild}** já está coberto — é só ativar os módulos no painel.",
+    "guildNotCovered": "⚠️ O teste está ativo na sua conta, mas **{guild}** não pôde ser coberto automaticamente (o servidor já está em outra conta). Escolha o servidor no painel, em **Plano › Servidores Pro**.",
+    "afterEnd": "Quando o teste acabar, os módulos pagos são desativados — a configuração fica salva.",
+    "successTitle": "Período de teste ativado 🎉"
+  }
+}

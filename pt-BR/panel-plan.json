@@ -1,0 +1,90 @@
+{
+  "nudge": {
+    "activated": "Servidor ativado no PRO!",
+    "activateError": "Não foi possível ativar.",
+    "isFree": "Este servidor está no {plan}.",
+    "unlimited": "Seu plano cobre servidores ilimitados, ative aqui pra liberar os recursos PRO neste servidor.",
+    "freeSlots": "Você tem {slots}, ative aqui pra liberar os recursos PRO neste servidor.",
+    "slotsCount": "{count, plural, one {# slot PRO livre} other {# slots PRO livres}}",
+    "activate": "Ativar PRO neste servidor"
+  },
+  "serverPlan": {
+    "title": "Plano do servidor",
+    "description": "O que {guild} tem hoje. Assinatura e pagamentos ficam na sua conta.",
+    "loadError": "Não foi possível carregar o plano deste servidor.",
+    "activated": "Plano ativado neste servidor.",
+    "activeBadge": "Ativo neste servidor",
+    "freeBadge": "Gratuito",
+    "takeOver": "Assumir a cobertura",
+    "activateHere": "Ativar neste servidor",
+    "openAccount": "Abrir minha conta",
+    "describe": {
+      "coveredByMe": "Coberto pelo seu plano {plan}.",
+      "coveredByOtherTakeOver": "Coberto por outro assinante, com plano vencido ou menor que o seu. Você pode assumir.",
+      "coveredByOther": "Coberto por outro assinante. Só essa pessoa pode mudar a cobertura.",
+      "isPro": "Este servidor usa o plano {plan}.",
+      "canDesignate": "Seu plano tem vaga livre. Ative aqui para liberar os recursos pagos neste servidor.",
+      "allUsed": "Todas as vagas do seu plano estão em uso. Libere uma na sua conta.",
+      "free": "Este servidor usa o plano gratuito. Assine um plano na sua conta para liberar mais recursos."
+    }
+  },
+  "slots": {
+    "title": "Servidores PRO",
+    "description": "Seu plano {plan} cobre {count, plural, one {# servidor} other {# servidores}}. Escolha quais usam os recursos PRO, os demais rodam no Free.",
+    "inUse": "{used}/{max} em uso",
+    "empty": "Você ainda não é dono de nenhum servidor com o bot instalado.",
+    "coveredByMe": "PRO (sua slot)",
+    "coveredByOther": "PRO (por outro assinante)",
+    "takeOver": "Assumir",
+    "takeOverHint": "A assinatura de quem cobre está vencida ou é de tier inferior.",
+    "releasableAt": "Liberável em {date} (cooldown)",
+    "removePro": "Remover PRO",
+    "makePro": "Tornar PRO",
+    "noFreeSlots": "Sem slots livres, remova o PRO de outro servidor.",
+    "madePro": "Servidor marcado como PRO.",
+    "backToFree": "Servidor voltou pro Free.",
+    "updateError": "Não foi possível atualizar.",
+    "cooldown": "Após marcar um servidor como PRO, é preciso aguardar {count, plural, one {# dia} other {# dias}} antes de mover essa slot pra outro."
+  },
+  "lock": {
+    "defaultTitle": "Recurso PRO",
+    "tookOver": "Cobertura assumida!",
+    "madePro": "Servidor marcado como PRO!",
+    "takeOver": "Assumir a cobertura deste servidor",
+    "makeProButton": "Tornar este servidor PRO",
+    "manageSlots": "Gerenciar servidores PRO",
+    "seePlans": "Ver planos",
+    "requires": "Este recurso exige o plano {plan}.",
+    "pro": {
+      "canTakeOver": "Este servidor está no {plan}, assuma a cobertura com o seu plano pra liberar.",
+      "coveredByMe": "Este servidor está no {plan}, coberto por você. Faça upgrade do seu plano pra liberar.",
+      "coveredByOther": "Este servidor está no {plan}, coberto por outro assinante. Peça a ele pra fazer upgrade, ou cubra o servidor com um plano superior.",
+      "other": "Este servidor está no {plan}."
+    },
+    "free": {
+      "canDesignateUnlimited": "Seu plano cobre servidores ilimitados. Ative o PRO neste servidor em 1 clique.",
+      "canDesignate": "Você tem slot livre ({used}/{max}). Ative o PRO neste servidor em 1 clique.",
+      "canTakeOver": "Quem cobre este servidor está com a assinatura vencida, você pode assumir a cobertura.",
+      "coveredByOther": "Este servidor está coberto por outro assinante. Peça a ele pra liberar a slot, ou cubra com um plano superior.",
+      "allUsed": "Você já usou todas as suas slots PRO ({used}/{max}). Libere outro servidor em \"Meu plano\" pra cobrir este.",
+      "paidPlan": "Seu plano já cobre seus servidores. Se este não está coberto, gerencie em \"Meu plano\".",
+      "noPlan": "Faça upgrade pra liberar slots PRO, ou peça a um assinante vinculado pra cobrir este servidor."
+    }
+  },
+  "discount": {
+    "label": "Desconto promocional",
+    "description": "Quando ligado, a loja mostra o preço cheio riscado, o valor com desconto e o selo de porcentagem, e é o valor com desconto que é cobrado.",
+    "kind": "Tipo",
+    "kindPercent": "Porcentagem",
+    "kindPromoPrice": "Preço promocional",
+    "promoPrice": "Preço promocional (R$)",
+    "percent": "Desconto (%)",
+    "startsAt": "Começa em (opcional)",
+    "endsAt": "Termina em (opcional)",
+    "noDates": "Sem datas, a promoção vale enquanto estiver ligada.",
+    "previewTitle": "Como fica na loja",
+    "belowFloor": "O preço final ficaria em {final}, abaixo do mínimo de {min}. Reduza o desconto ou aumente o preço.",
+    "notCheaper": "O valor promocional precisa ser menor que o preço cheio.",
+    "fillToPreview": "Preencha o desconto pra ver o resultado."
+  }
+}

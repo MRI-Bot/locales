@@ -1,0 +1,64 @@
+{
+  "header": {
+    "privacyPolicy": "Privacy Policy"
+  },
+  "title": "My data",
+  "intro": "See what we have about you, download a copy or request erasure. You don't need a dashboard account: sign in with the same Discord you use on the servers.",
+  "signIn": {
+    "scopePrefix": "To see your data, we need to confirm it's you. We only use the permission",
+    "scopeSuffix": ", your username and nothing else.",
+    "button": "Sign in with Discord"
+  },
+  "errors": {
+    "request": "Request failed ({status})",
+    "export": "Failed to export.",
+    "schedule": "Failed to schedule.",
+    "cancel": "Failed to cancel."
+  },
+  "summary": {
+    "title": "What we have about you",
+    "empty": "No data found for this Discord."
+  },
+  "export": {
+    "button": "Download copy (JSON)",
+    "fileName": "my-data-mri-bot-{date}.json"
+  },
+  "ownedGuilds": {
+    "title": "Servers you manage",
+    "bodyPrefix": "The data of these servers will",
+    "bodyNot": "not",
+    "bodySuffix": "be erased: for this data the server is the controller, and we are only processors. To erase it, remove the Bot from the server; erasure happens 30 days later."
+  },
+  "erase": {
+    "title": "Erase my data",
+    "scheduledPrefix": "Erasure scheduled for",
+    "scheduledSuffix": ". Until then, you can cancel.",
+    "cancel": "Cancel erasure",
+    "delayPrefix": "Erasure runs",
+    "delayDays": "7 days",
+    "delaySuffix": "after the request. This wait exists to protect you: if someone takes over your account and requests erasure, there's time to cancel.",
+    "retained": "Purchases, moderation cases and appeals are not erased, they are anonymized. The law allows these records to be retained, and erasing them would open a way to evade bans.",
+    "confirmWord": "erase",
+    "typePrefix": "Type",
+    "typeSuffix": "to confirm:",
+    "schedule": "Schedule erasure"
+  },
+  "requests": {
+    "title": "My requests",
+    "export": "Export",
+    "erasure": "Erasure"
+  },
+  "cancel": {
+    "noToken": "Link without a token. Check that you copied the full address.",
+    "failed": "Couldn't cancel.",
+    "unreachable": "Couldn't reach the server. Try again.",
+    "okTitle": "Erasure canceled",
+    "okBody": "Your data is still where it was. Nothing was erased.",
+    "okWarning": "If you weren't the one who requested erasure, someone may have access to your Discord account. Change your password and turn on two-factor authentication.",
+    "goToPortal": "Go to the privacy portal",
+    "invalidTitle": "Invalid or already used link",
+    "errorTitle": "Something went wrong",
+    "portalHint": "You can also cancel by signing in to the portal with your Discord.",
+    "openPortal": "Open the portal"
+  }
+}

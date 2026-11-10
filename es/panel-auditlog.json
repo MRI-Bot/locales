@@ -1,0 +1,82 @@
+{
+  "header": {
+    "title": "Registro de auditoría",
+    "description": "Todo lo que pasó en {guild}: sorteos, tickets, encuestas, proyectos y planificación."
+  },
+  "errors": {
+    "load": "No se pudo cargar el registro de auditoría."
+  },
+  "filters": {
+    "module": "Módulo",
+    "type": "Tipo",
+    "all": "Todos"
+  },
+  "modules": {
+    "giveaway": "Sorteos",
+    "ticket": "Tickets",
+    "poll": "Encuestas",
+    "project": "Proyectos",
+    "planning": "Planificación"
+  },
+  "types": {
+    "poll": {
+      "created": "creó una encuesta",
+      "scheduledStarted": "se activó una encuesta programada",
+      "edited": "editó una encuesta",
+      "closed": "cerró una encuesta",
+      "reposted": "volvió a publicar una encuesta",
+      "deleted": "eliminó una encuesta"
+    },
+    "giveaway": {
+      "created": "creó un sorteo",
+      "scheduledStarted": "se inició un sorteo programado",
+      "entry": "entró en un sorteo",
+      "entryRejected": "intentó entrar (rechazado)",
+      "ended": "el sorteo terminó",
+      "winnersDrawn": "ganadores sorteados",
+      "reroll": "hizo reroll del sorteo",
+      "cancelled": "canceló un sorteo",
+      "pageView": "visitó la página pública",
+      "partnerLinkClick": "hizo clic en la invitación del socio",
+      "partnerMembership": "entró al servidor del socio",
+      "partnerLeft": "salió del servidor del socio"
+    },
+    "ticket": {
+      "opened": "abrió un ticket",
+      "claimed": "asumió un ticket",
+      "unclaimed": "dejó un ticket",
+      "closed": "cerró un ticket",
+      "reopened": "reabrió un ticket",
+      "transferred": "transfirió un ticket",
+      "prioritized": "priorizó un ticket",
+      "rated": "calificó la atención",
+      "repliedAnonymously": "respondió un ticket de forma anónima",
+      "nudged": "llamó la atención en un ticket"
+    },
+    "project": {
+      "boardCreated": "creó un tablero",
+      "boardArchived": "archivó un tablero",
+      "cardCreated": "creó una tarjeta",
+      "cardMoved": "movió una tarjeta",
+      "cardCompleted": "completó una tarjeta",
+      "cardDeleted": "eliminó una tarjeta"
+    },
+    "planning": {
+      "created": "creó un documento",
+      "updated": "actualizó un documento",
+      "archived": "archivó un documento",
+      "deleted": "eliminó un documento"
+    }
+  },
+  "relative": {
+    "now": "ahora",
+    "minutes": "{count} min",
+    "hours": "{count} h",
+    "days": "{count} d",
+    "months": "{count} mes"
+  },
+  "empty": "Todavía no hay eventos. Crea una encuesta, un ticket o un sorteo para empezar a llenar el registro.",
+  "system": "Sistema",
+  "details": "detalles",
+  "loadMore": "Cargar más"
+}

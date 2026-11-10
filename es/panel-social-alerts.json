@@ -1,0 +1,87 @@
+{
+  "header": {
+    "description": "Avisa en el Discord de {guild} cuando un creador entra en directo o publica (YouTube, Twitch y más)."
+  },
+  "loadError": "No se pudo cargar el módulo.",
+  "loading": "Cargando...",
+  "list": {
+    "title": "Seguimientos",
+    "new": "Nuevo"
+  },
+  "empty": {
+    "title": "Todavía no sigues a nadie",
+    "body": "Añade un creador de YouTube o Twitch y el Bot avisará aquí cuando publique.",
+    "add": "Añadir creador"
+  },
+  "reloadError": "No se pudo recargar.",
+  "contentKinds": {
+    "LIVE": "En directo",
+    "VIDEO": "Vídeo",
+    "SHORT": "Short",
+    "POST": "Publicación",
+    "REEL": "Reel"
+  },
+  "card": {
+    "toggleError": "No se pudo cambiar.",
+    "testReal": "Alerta real enviada, ¡el creador está en directo/acaba de publicar algo!",
+    "testSimulated": "Simulación enviada (nada en directo/nuevo ahora). Revisa el formato en el canal.",
+    "testError": "No se pudo enviar la prueba.",
+    "removeConfirm": {
+      "title": "¿Quitar seguimiento?",
+      "description": "Dejar de avisar sobre {handle}. No borra las alertas ya publicadas."
+    },
+    "removed": "Seguimiento eliminado.",
+    "removeError": "No se pudo eliminar.",
+    "mentions": "Menciona:",
+    "roleCount": "{count, plural, one {# rol} other {# roles}}",
+    "edit": "Editar",
+    "test": "Probar"
+  },
+  "editor": {
+    "errors": {
+      "provider": "Elige una plataforma.",
+      "handle": "Indica el @handle del creador.",
+      "channel": "Elige el canal de destino.",
+      "contentKinds": "Marca al menos un tipo de contenido."
+    },
+    "updated": "Seguimiento actualizado.",
+    "created": "Seguimiento creado.",
+    "saveError": "No se pudo guardar.",
+    "editTitle": "Editar seguimiento",
+    "newTitle": "Nuevo seguimiento",
+    "subtitle": "El Bot avisa en este servidor cuando el creador publica el contenido elegido.",
+    "provider": {
+      "label": "1. Plataforma",
+      "hint": "YouTube y Twitch tienen detección oficial (push). Kick/TikTok/Instagram son Pro.",
+      "immutable": "La plataforma no cambia después de crearlo."
+    },
+    "handle": {
+      "label": "2. Creador (@handle)",
+      "placeholderYoutube": "@canal o URL del canal",
+      "placeholder": "@usuario",
+      "hint": "Pega el @handle o el enlace del creador. El Bot obtiene el ID de la plataforma al guardar."
+    },
+    "channel": {
+      "label": "3. Canal de destino",
+      "placeholder": "Elige el canal"
+    },
+    "contentKinds": {
+      "label": "Tipos de contenido",
+      "hint": "Solo estos tipos disparan una alerta."
+    },
+    "mentions": {
+      "label": "Menciones al avisar",
+      "addRole": "Añadir rol...",
+      "removeRole": "Quitar rol",
+      "everyone": "Mencionar a @everyone"
+    },
+    "template": {
+      "label": "4. Mensaje (opcional)",
+      "placeholder": "🔴 ¡'{author}' está '{kind}'!\n'{title}'\n'{url}'",
+      "placeholders": "Placeholders:",
+      "hint": "Vacío = el Bot usa un mensaje predeterminado. El editor de Embed (MessageDesign V2) llega en Pro."
+    },
+    "enabled": "Activo",
+    "create": "Crear"
+  }
+}

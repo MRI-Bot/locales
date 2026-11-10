@@ -1,0 +1,63 @@
+{
+  "disconnect": "Disconnect",
+  "disconnectFailed": "Failed to disconnect.",
+  "mp": {
+    "loadFailed": "Failed to load the Mercado Pago connection.",
+    "connectedToast": "Mercado Pago connected!",
+    "connectError": "Couldn't connect Mercado Pago: {error}",
+    "startFailed": "Couldn't start the connection with Mercado Pago.",
+    "disconnectTitle": "Disconnect Mercado Pago?",
+    "disconnectDescription": "You won't be able to receive new subscriptions or store sales until you reconnect. Active subscribers keep going as usual; ongoing recurring charges continue.",
+    "disconnected": "Mercado Pago disconnected.",
+    "loading": "Loading Mercado Pago connection…",
+    "connectedTitle": "Mercado Pago connected",
+    "manualBadge": "manual",
+    "connectedLine": "{account} · connected on {date}",
+    "accountId": "Account ID {id}",
+    "connectTitle": "Connect your Mercado Pago account",
+    "connectDescription": "Required to charge for Subscriptions and in the Store. Payments go straight to your Mercado Pago account; the platform only keeps a R$ 1 fee per sale (waived on Pro Max).",
+    "connect": "Connect Mercado Pago",
+    "manual": {
+      "pasteToken": "Paste the access_token.",
+      "connected": "Connected manually (dev mode).",
+      "failed": "Manual connect failed.",
+      "hide": "Hide",
+      "show": "Dev mode: connect manually without OAuth",
+      "tokenLabel": "Mercado Pago Access Token (seller test user)",
+      "submit": "Connect",
+      "hint": "Skips OAuth, useful when localhost has no HTTPS for the Mercado Pago callback."
+    }
+  },
+  "tebex": {
+    "connectedToast": "Tebex connected. The packages already show up in your store.",
+    "connectFailed": "Couldn't connect Tebex.",
+    "disconnectTitle": "Disconnect Tebex?",
+    "disconnectDescription": "The Tebex packages leave your store. Your account and your sales on Tebex stay there.",
+    "disconnected": "Tebex disconnected.",
+    "connected": "Tebex connected",
+    "connectedAs": "Tebex connected: {account}",
+    "connectedDescription": "Your store shows the Tebex packages. Payment, delivery and refunds happen on Tebex, with no platform fee.",
+    "title": "Sell through Tebex",
+    "description": "Optional. Shows the packages from your Tebex store here. Buyers pay on Tebex, no Discord needed.",
+    "publicToken": "Public Token",
+    "connect": "Connect Tebex",
+    "tokenHint": "Get it at {link}. Never paste the Private Key: it isn't needed.",
+    "tokenHintLink": "Developers, API Keys"
+  },
+  "stripe": {
+    "linkExpired": "The Stripe sign-up link expired. Continue the sign-up again.",
+    "startFailed": "Couldn't start the Stripe sign-up.",
+    "disconnectTitle": "Disconnect Stripe?",
+    "disconnectDescription": "The store stops accepting payments through Stripe. Your Stripe account still exists.",
+    "disconnected": "Stripe disconnected.",
+    "connected": "Stripe connected",
+    "pending": "Stripe sign-up pending",
+    "connectedDescription": "The store accepts cards through Stripe, including from outside Brazil.",
+    "pendingDescription": "The button only shows up in the store after Stripe approves your account.",
+    "continue": "Continue sign-up",
+    "title": "Accept cards through Stripe",
+    "description": "Optional. The money goes straight to your Stripe account; the platform only keeps a R$ 1 fee per sale (waived on Pro Max).",
+    "email": "Stripe account email",
+    "connect": "Connect Stripe"
+  }
+}

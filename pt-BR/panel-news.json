@@ -1,0 +1,37 @@
+{
+  "title": "Novidades",
+  "description": "Tudo que entrou no bot, módulos, comandos e recursos novos.",
+  "unread": "{count, plural, one {# sem ler.} other {# sem ler.}}",
+  "filter": {
+    "all": "Tudo",
+    "unread": "Não lidas"
+  },
+  "markAllRead": "Marcar tudo como lido",
+  "markRead": "Marcar como lido",
+  "readMore": "Ler mais",
+  "collapse": "Recolher",
+  "empty": {
+    "caughtUp": "Você está em dia. 🎉",
+    "none": "Nenhuma novidade publicada ainda."
+  },
+  "kind": {
+    "MODULE": "Novo módulo",
+    "MODULE_LIFECYCLE": "Saiu do beta",
+    "FEATURE": "Novo recurso",
+    "COMMAND": "Novo comando",
+    "IMPROVEMENT": "Melhoria",
+    "FIX": "Correção",
+    "ANNOUNCEMENT": "Anúncio"
+  },
+  "badge": {
+    "new": "Novo",
+    "requiresPro": "Requer PRO",
+    "requiresModule": "Requer {module}"
+  },
+  "cta": {
+    "learnMore": "Saiba mais",
+    "viewPlans": "Ver planos",
+    "enableModule": "Ativar módulo",
+    "open": "Abrir"
+  }
+}

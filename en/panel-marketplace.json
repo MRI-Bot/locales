@@ -1,0 +1,37 @@
+{
+  "title": "Modules",
+  "descriptionCount": "{active} of {total} active in {guild}. Turn on only what the server uses.",
+  "description": "Turn on only what the server uses.",
+  "useTemplate": "Use a template",
+  "loading": "Loading modules...",
+  "saveError": "Could not save the module.",
+  "searchPlaceholder": "Search modules",
+  "tabs": {
+    "all": "All ({count})",
+    "active": "Active ({count})",
+    "inactive": "Disabled ({count})"
+  },
+  "empty": {
+    "title": "No modules found",
+    "withQuery": "Nothing found for \"{query}\" in this filter.",
+    "noQuery": "No modules in this filter."
+  },
+  "comingSoon": {
+    "title": "Coming soon",
+    "hint": "On the roadmap",
+    "uninstall": "Uninstall {module}",
+    "staleHint": "Still installed from a previous version, uninstall"
+  },
+  "card": {
+    "new": "New",
+    "beta": "Beta",
+    "unavailableDescription": "Temporarily unavailable. Please try again later.",
+    "earlyAccessDescription": "In early access. Wait for the administrator to enable it.",
+    "open": "Open",
+    "saving": "Saving",
+    "unavailable": "Unavailable",
+    "earlyAccess": "Early access",
+    "enable": "Enable {module}",
+    "disable": "Disable {module}"
+  }
+}

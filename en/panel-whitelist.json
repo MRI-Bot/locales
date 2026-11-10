@@ -1,0 +1,98 @@
+{
+  "header": {
+    "title": "Whitelist",
+    "description": "Applications in {guild}."
+  },
+  "tabs": {
+    "label": "Whitelist screens",
+    "list": "Applications",
+    "settings": "Settings"
+  },
+  "filters": {
+    "label": "Filter applications",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "all": "All"
+  },
+  "answers": {
+    "yes": "Yes",
+    "no": "No"
+  },
+  "errors": {
+    "load": "Couldn't load the applications."
+  },
+  "approve": {
+    "action": "Approve",
+    "roleFailed": "Approved, but the bot couldn't give the role. In Discord, put the bot's role above the approved role.",
+    "success": "Application approved",
+    "failed": "Couldn't approve."
+  },
+  "reject": {
+    "action": "Reject",
+    "success": "Application rejected",
+    "failed": "Couldn't reject.",
+    "title": "Reject application",
+    "description": "You're rejecting the application from {name}. The note is optional and will be sent to the user.",
+    "noteLabel": "Note (optional)",
+    "notePlaceholder": "E.g.: Backstory too short, redo it with more detail.",
+    "noteCount": "{count}/{max} characters"
+  },
+  "revoke": {
+    "action": "Remove approval",
+    "confirmTitle": "Remove approval?",
+    "confirmDescription": "{name} can apply to the whitelist again, without waiting. If there's an approved role, the bot removes it from them.",
+    "thePerson": "The person",
+    "roleFailed": "Approval removed, but the bot couldn't remove the role. Remove it by hand in Discord.",
+    "success": "Approval removed. The person can apply again now.",
+    "failed": "Couldn't remove the approval.",
+    "hint": "Lets the person apply again and removes the approved role, if there is one."
+  },
+  "search": {
+    "placeholder": "Search by name or Discord ID"
+  },
+  "refreshList": "Refresh list",
+  "list": {
+    "count": "{count, plural, one {# application} other {# applications}}",
+    "capped": ". Showing only the 200 most recent, use search to find older ones",
+    "loading": "Loading applications..."
+  },
+  "nameOnly": {
+    "text": "With no questions set up, whoever clicks \"Apply\" only fills in their name and the request lands here for you to approve. To ask more, build the form in the {tab} tab."
+  },
+  "table": {
+    "member": "Member",
+    "status": "Status",
+    "source": "Source",
+    "sent": "Sent",
+    "decision": "Decision"
+  },
+  "empty": {
+    "search": "No applications match this search.",
+    "pending": "No pending applications right now.",
+    "approved": "No approved applications yet.",
+    "rejected": "No rejected applications.",
+    "all": "No applications found."
+  },
+  "source": {
+    "form": "Form",
+    "quiz": "Quiz",
+    "release": "Release",
+    "code": "Code"
+  },
+  "status": {
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected"
+  },
+  "row": {
+    "collapse": "Collapse answers",
+    "expand": "View answers",
+    "score": ", score {score}%",
+    "noResponses": "No answers recorded.",
+    "decidedBy": "Decided by",
+    "decidedAutomatically": "Decided automatically",
+    "decidedAt": "on {date}",
+    "noteSent": "Note sent:"
+  }
+}

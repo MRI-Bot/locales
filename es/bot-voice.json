@@ -1,0 +1,76 @@
+{
+  "noTemp": "❌ No tienes un canal de voz temporal. Entra en un canal \"join-to-create\".",
+  "noActiveTemp": "❌ No tienes un canal temporal activo.",
+  "notFound": "❌ Canal temporal no encontrado.",
+  "ownerOnly": "❌ Solo el dueño del canal puede usar este control.",
+  "unknownSubcommand": "❌ Subcomando desconocido.",
+  "unknownAction": "❌ Acción desconocida.",
+  "locked": "🔒 Canal bloqueado.",
+  "unlocked": "🔓 Canal desbloqueado.",
+  "hidden": "👁️ Canal oculto.",
+  "visible": "✅ Canal visible.",
+  "limitSet": "🔢 Límite: {limit}.",
+  "unlimited": "ilimitado",
+  "renamed": "✏️ Canal renombrado a **{name}**.",
+  "permitted": "✅ {user} permitido en el canal.",
+  "rejected": "⛔ {user} bloqueado y desconectado.",
+  "transferred": "🔁 Canal transferido a {user}.",
+  "cantPermitBot": "❌ No puedes permitir a un bot.",
+  "cantTransferBot": "❌ No puedes transferir el canal a un bot.",
+  "cantApplyToBot": "❌ No se puede aplicar esta acción a un bot.",
+  "cantRejectSelf": "❌ No puedes bloquearte a ti mismo.",
+  "noUserSelected": "❌ Ningún usuario seleccionado.",
+  "panelReposted": "🎙️ Panel publicado de nuevo en el canal.",
+  "claim": {
+    "joinTempFirst": "❌ Entra en un canal temporal para reclamarlo.",
+    "joinChannelFirst": "❌ Entra en el canal para reclamarlo.",
+    "ownerStillHere": "❌ El dueño sigue en el canal.",
+    "nowOwner": "👑 Ahora eres el dueño del canal.",
+    "ownerLeft": "👑 El dueño salió del canal. Quien esté dentro puede reclamarlo con el botón **Reclamar** o `{command}`."
+  },
+  "pick": {
+    "permit": "✅ Selecciona a quién **permitir** en el canal:",
+    "reject": "⛔ Selecciona a quién **bloquear** del canal:",
+    "transfer": "🔁 Selecciona a quién **transferir** el canal:",
+    "placeholder": "Elige un usuario"
+  },
+  "modal": {
+    "limitTitle": "Límite de usuarios",
+    "limitLabel": "Límite (0 = ilimitado, máx. 99)",
+    "renameTitle": "Renombrar canal",
+    "renameLabel": "Nuevo nombre"
+  },
+  "panel": {
+    "title": "🎙️ Panel del canal de voz",
+    "intro": "Controla tu canal temporal con los botones de abajo. Solo el **dueño** puede usarlos (excepto **Reclamar**, disponible cuando el dueño sale).",
+    "dedicatedIntro": "Entra en un canal **join-to-create** para obtener tu canal temporal y luego usa los botones de abajo para controlarlo.",
+    "owner": "**Dueño:** {user}",
+    "buttons": {
+      "lock": "Bloquear",
+      "hide": "Ocultar",
+      "limit": "Límite",
+      "rename": "Renombrar",
+      "claim": "Reclamar",
+      "permit": "Permitir",
+      "reject": "Vetar",
+      "transfer": "Transferir"
+    },
+    "state": {
+      "locked": "🔒 Bloqueado",
+      "open": "🔓 Abierto",
+      "hidden": "🙈 Oculto",
+      "visible": "👁️ Visible",
+      "limit": "Límite {limit}",
+      "noLimit": "Sin límite"
+    }
+  },
+  "audit": {
+    "overwrites": "Actualización del canal temporal",
+    "rejected": "Bloqueado del canal temporal",
+    "created": "Canal temporal (hub {hub}) para {user}",
+    "ownerLeftBeforeMove": "El dueño salió antes de ser movido",
+    "empty": "Canal temporal vacío",
+    "reconcileEmpty": "Reconciliación: canal temporal vacío al reiniciar",
+    "sweepEmpty": "Limpieza: canal temporal vacío"
+  }
+}

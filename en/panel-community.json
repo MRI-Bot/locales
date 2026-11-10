@@ -1,0 +1,696 @@
+{
+  "title": "Community",
+  "description": "Suggestions, bugs, referrals and anonymous messages in {guild}, each system turns on and off on its own.",
+  "navLabel": "Community screens",
+  "underConstruction": "Under construction, settings for this system are coming soon.",
+  "tabs": {
+    "suggestions": {
+      "label": "Suggestions",
+      "hint": "Ideas channel with 👍/👎 voting and staff triage."
+    },
+    "bugs": {
+      "label": "Bugs",
+      "hint": "Configurable form, severity, assignee and triage queue."
+    },
+    "referrals": {
+      "label": "Referrals",
+      "hint": "Who brought whom, leaderboard and rewards for invite milestones."
+    },
+    "anonymous": {
+      "label": "Anonymous",
+      "hint": "Public confessions and a direct line to the staff, with auditing."
+    },
+    "staff": {
+      "label": "Staff application",
+      "hint": "Applications to join the staff, with a review queue and a reply by DM."
+    }
+  },
+  "shell": {
+    "queue": "Queue",
+    "settings": "Settings"
+  },
+  "fields": {
+    "title": "Form questions",
+    "count": "{count} of {max}",
+    "pages": "{pages, plural, =1 {one screen} other {# screens in sequence}}",
+    "proHint": "(Pro unlocks up to 5, the Discord ceiling)",
+    "add": "Add",
+    "empty": "Without questions, nobody can submit. Add at least one.",
+    "pageOf": "Screen {page} of {pages}",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "labelPlaceholder": "Question (e.g. Why do you want to join the team?)",
+    "hintPlaceholder": "Hint inside the field (optional)",
+    "longText": "Long text",
+    "required": "Required",
+    "minLength": "Minimum characters",
+    "maxLength": "Maximum characters",
+    "noMin": "No minimum",
+    "upTo": "Up to {ceiling}",
+    "rangeInvalid": "The minimum is greater than the maximum, nobody can answer.",
+    "ceilingHint": "Discord accepts up to {ceiling} characters in {type, select, long {long text} other {short text}}. The minimum is enforced on submit.",
+    "remove": "Remove question",
+    "planLimitCount": "Plan limit reached: {max} questions.",
+    "planLimit": "Plan limit reached.",
+    "discordLimit": "Discord limit reached: a modal accepts at most 5 fields."
+  },
+  "bugs": {
+    "state": {
+      "NEW": "🆕 Open",
+      "UNDER_REVIEW": "👀 Under review",
+      "NEEDS_INFO": "❓ Needs info",
+      "CONFIRMED": "🐛 Confirmed",
+      "DUPLICATE": "🔁 Duplicate",
+      "FIXED": "✅ Fixed",
+      "NOT_A_BUG": "🚫 Dismissed"
+    },
+    "severity": {
+      "LOW": "🟢 Low",
+      "MEDIUM": "🔵 Medium",
+      "HIGH": "🟠 High",
+      "CRITICAL": "🔴 Critical"
+    },
+    "queue": {
+      "errors": {
+        "load": "Could not load the queue.",
+        "state": "Could not change the state.",
+        "repost": "Could not repost.",
+        "severity": "Could not change the severity."
+      },
+      "needsReason": "This change requires a reason, use the ⚙️ Triage menu in Discord.",
+      "stateUpdated": "State updated.",
+      "reposted": "Card reposted in the channel.",
+      "severityUpdated": "Severity updated.",
+      "loading": "Loading queue...",
+      "all": "All",
+      "searchPlaceholder": "Search by title...",
+      "openSummary": "{count} open · sorted by severity, oldest first, the order a triage actually works in.",
+      "empty": "No reports match these filters.",
+      "reportedBy": "Reported by {user} on {date}",
+      "openInDiscord": "Open in Discord",
+      "resolution": "Resolution",
+      "repostTitle": "Repost card",
+      "publish": "Publish card",
+      "repostHint": "Deletes the current message and publishes a new one in its place; the new one appears at the end of the channel and the old link stops working. The report and its triage stay intact.",
+      "publishHint": "This report has no card in the channel. Publishing gives the team back the triage buttons inside Discord.",
+      "severity": "Severity",
+      "state": "State",
+      "reasonHint": "Fixed, duplicate and “not a bug” require a reason and are set through the ⚙️ menu in Discord.",
+      "history": "History",
+      "timelineEntry": "{date} · {kind}"
+    },
+    "settings": {
+      "errors": {
+        "channel": "Choose the channel where reports will be posted.",
+        "noFields": "Add at least one field to the form.",
+        "fieldNoLabel": "Field {index} has no question."
+      },
+      "enabled": {
+        "label": "Bug reports",
+        "description": "Structured form, severity and triage queue."
+      },
+      "channels": {
+        "title": "Channels",
+        "description": "Where reports are posted.",
+        "label": "Reports channel",
+        "placeholder": "Text or forum channel",
+        "forumPro": "This channel is a forum, but forum mode is Pro, so reports will be posted as regular messages, without tags. Nothing breaks.",
+        "save": "Save channels"
+      },
+      "panel": {
+        "title": "Submission panel",
+        "description": "Pinned message with the report button. Without a panel, members use /reportar.",
+        "channelPlaceholder": "Where the report button goes",
+        "defaultContent": "## 🐛 Report a bug\n\nFound a problem on the server? Click the button below and describe what happened; the team follows every report through triage."
+      },
+      "form": {
+        "description": "The questions a member answers when opening a report."
+      },
+      "triage": {
+        "title": "Triage",
+        "description": "Default severity, who triages, on-call for critical and notifications.",
+        "defaultSeverity": "Default severity",
+        "staffPlaceholder": "Who can triage reports",
+        "notifyRole": "On-call role (critical severity)",
+        "notifyPlaceholder": "Pinged once when the report is critical",
+        "notifyHint": "Pinged only the first time: lowering the severity and raising it again does not notify again.",
+        "threads": "Open a discussion thread on each report",
+        "archive": "Archive the thread when the report is closed",
+        "dm": "Notify the reporter on every change",
+        "dmState": "On state change",
+        "dmStatePlaceholder": "Hi '{membro}'! Your report #'{numero}' · '{titulo}' is now: '{estado}'.'{nota}'",
+        "dmAssignee": "On assignment",
+        "dmAssigneePlaceholder": "Hi '{membro}'! Your report #'{numero}' · '{titulo}' was assigned to '{responsavel}'.",
+        "dmHint": "Here the notice is automatic, with no modal: a report changes state several times along the way, and writing at every step would make the team stop updating the state, which is exactly what keeps the reporter informed. Empty uses the default text. Placeholders: '{membro}', '{numero}', '{titulo}', '{estado}', '{responsavel}' and '{nota}'.",
+        "save": "Save triage"
+      },
+      "antispam": {
+        "cooldown": "Interval between reports (min)",
+        "maxOpen": "Max open per member"
+      }
+    }
+  },
+  "common": {
+    "loadError": "Could not load.",
+    "saveError": "Could not save.",
+    "sectionSaved": "{section} saved.",
+    "settingsSaved": "Settings saved.",
+    "panelPublished": "Panel published.",
+    "panelPublishError": "Could not publish the panel.",
+    "published": "Published",
+    "panelChannel": "Panel channel",
+    "customize": {
+      "label": "Customize the content",
+      "description": "When off, the panel uses a default text. The button is added automatically either way."
+    },
+    "publishPanel": "Publish panel",
+    "republishPanel": "Republish panel",
+    "saveBeforePublish": "Save before publishing.",
+    "republishHint": "Already published; republishing deletes the previous message.",
+    "savePanel": "Save panel",
+    "panel": "Panel",
+    "form": "Form",
+    "saveForm": "Save form",
+    "staffRoles": "Staff roles",
+    "antispam": {
+      "title": "Anti-spam",
+      "description": "Zero turns the rule off. Enforced on the server, not the client.",
+      "minAccountAge": "Minimum account age (days)",
+      "save": "Save anti-spam",
+      "cooldown": "Interval between submissions (min)",
+      "maxOpen": "Max open per member"
+    },
+    "saveAll": "Save all",
+    "loadSettingsError": "Could not load the settings.",
+    "channels": "Channels",
+    "saveChannels": "Save channels",
+    "submitPanel": "Submission panel",
+    "panelChannelPlaceholder": "Where the submit button goes"
+  },
+  "suggestions": {
+    "settings": {
+      "threadModes": {
+        "NONE": {
+          "label": "Never",
+          "hint": "No discussion thread."
+        },
+        "ON_APPROVE": {
+          "label": "On approval",
+          "hint": "Discussion happens only on what will be done."
+        },
+        "ON_POST": {
+          "label": "On every suggestion",
+          "hint": "Creates a thread on submission; on a busy server it becomes a flood."
+        }
+      },
+      "errors": {
+        "channel": "Choose the channel where suggestions will be posted."
+      },
+      "enabled": {
+        "label": "Suggestion system",
+        "description": "Members submit ideas, the community votes and the team decides."
+      },
+      "channels": {
+        "description": "Where cards appear and, optionally, where approved ones are reposted.",
+        "post": "Suggestions channel",
+        "postPlaceholder": "Choose the channel where cards appear",
+        "approved": "Approved channel",
+        "approvedPlaceholder": "Automatic repost on approval"
+      },
+      "panel": {
+        "description": "Pinned message with the submit suggestion button. Without a panel, members use /sugerir.",
+        "defaultContent": "## 💡 Suggestions\n\nGot an idea for the server? Click the button below, write your proposal and the community votes."
+      },
+      "voting": {
+        "title": "Voting",
+        "description": "Who can vote and what happens after the decision.",
+        "roles": "Roles that can vote",
+        "rolesPlaceholder": "Add role (empty = everyone can vote)",
+        "afterDecision": "Keep voting after a decision",
+        "afterDecisionHint": "When off, the card freezes the final count, which stays visible.",
+        "save": "Save voting"
+      },
+      "moderation": {
+        "title": "Moderation",
+        "description": "Approval queue, staff roles and author notification.",
+        "requireApproval": "Approve before publishing",
+        "requireApprovalHint": "The suggestion {strong} when submitted: it waits in the queue for someone to release it in the panel. With no card in Discord, the ⚙️ Manage menu does not exist either, so all triage happens in the panel. When off, it appears in the channel and goes to a vote right away.",
+        "requireApprovalStrong": "does not go to the channel",
+        "staffPlaceholder": "Who can approve, reject and mark as duplicate",
+        "dm": "Notify the author by DM on decision",
+        "dmApproved": "Message on approval",
+        "dmApprovedPlaceholder": "Hi '{membro}'! Your suggestion #'{numero}' · '{titulo}' was approved, thanks for helping improve the server.",
+        "dmImplemented": "Message when marked implemented",
+        "dmImplementedPlaceholder": "Hi '{membro}'! Your suggestion #'{numero}' · '{titulo}' was implemented and is already live.",
+        "dmHint": "They open prefilled when deciding, in the panel and in the Discord ⚙️ menu, and the team edits them before sending. Empty here uses the default text; clearing it at decision time notifies no one. Placeholders: '{membro}', '{numero}', '{titulo}' and '{motivo}'. Rejections and duplicates keep the short automatic notice, which already includes the reason.",
+        "save": "Save moderation"
+      },
+      "discussion": {
+        "title": "Discussion",
+        "description": "When to open a discussion thread on the suggestion.",
+        "save": "Save discussion"
+      },
+      "antispam": {
+        "description": "Zero turns the rule off. Limits are enforced on the server, not the client."
+      }
+    },
+    "status": {
+      "PENDING": "💡 Voting",
+      "UNDER_REVIEW": "👀 Under review",
+      "APPROVED": "✅ Approved",
+      "REJECTED": "❌ Rejected",
+      "IMPLEMENTED": "🚀 Implemented",
+      "DUPLICATE": "🔁 Duplicate"
+    },
+    "decisions": {
+      "UNDER_REVIEW": "👀 Mark under review",
+      "APPROVED": "✅ Approve",
+      "REJECTED": "❌ Reject",
+      "IMPLEMENTED": "🚀 Mark implemented"
+    },
+    "queue": {
+      "published": "Published in the channel, voting is open.",
+      "errors": {
+        "publish": "Could not publish.",
+        "decide": "Could not record the decision."
+      },
+      "reasonRequired": "Write the reason; it goes to the author and to the card in Discord.",
+      "decided": "Decision recorded.",
+      "all": "All",
+      "summary": "{count} awaiting a decision · newest first.",
+      "empty": "No suggestions match these filters.",
+      "sentBy": "Submitted by {author} on {date} · {up} for, {down} against",
+      "anonymous": "Anonymous",
+      "reasonRecorded": "Recorded reason",
+      "notInChannel": "Not in the channel yet",
+      "heldHint": "The approval queue held this suggestion. Publishing opens voting; it stays pending until the team decides.",
+      "decidedUnpostedHint": "This suggestion was decided without ever going to the channel. Publishing posts the card with its current state and enables the ⚙️ Manage menu in Discord.",
+      "release": "Release for voting",
+      "publish": "Publish in channel",
+      "repostHint": "Deletes the current message and publishes a new one in its place. The new one appears at the {end}, the old link stops working{hasThread, select, yes { and the {thread}, since it hangs off the message being deleted} other {}}. Votes already cast are kept: they live in the database, not in the message.",
+      "repostEnd": "end of the channel",
+      "repostThread": "discussion thread goes with it",
+      "reasonPlaceholder": "Reason (required when rejecting), goes to the author and the card.",
+      "duplicateHint": "Marking as duplicate requires the original’s number; use the ⚙️ Manage menu in Discord.",
+      "alreadyDecided": "Already decided. Reopening a closed suggestion is done in Discord."
+    }
+  },
+  "referrals": {
+    "state": {
+      "PENDING": "🕓 In quarantine",
+      "ACTIVE": "✅ Qualified",
+      "LEFT": "🚪 Left",
+      "REJOINED": "🔁 Rejoined",
+      "FRAUD": "🚫 Rejected"
+    },
+    "reason": {
+      "no_permission": "Bot lacks the Manage Server permission",
+      "fetch_failed": "Failed to list invites",
+      "no_baseline": "Bot had just restarted",
+      "ambiguous": "More than one invite changed at the same time",
+      "vanity_or_unknown": "Vanity URL, OAuth or expired invite"
+    },
+    "queue": {
+      "inviterRequired": "Enter the Discord ID of the inviter.",
+      "attributed": "Join attributed.",
+      "errors": {
+        "attribute": "Could not attribute.",
+        "review": "Could not review.",
+        "resend": "Could not resend."
+      },
+      "reviewed": "Join reviewed.",
+      "resent": "Milestone {threshold} resent.",
+      "noPermission": {
+        "title": "The bot is missing the {permission} permission",
+        "permission": "Manage Server",
+        "body": "Without it the bot cannot list the server invites, so no join is attributed to the inviter and the counter stays at zero even with people joining through the link. Give the permission to the bot role and new joins start counting; older ones you attribute by hand here."
+      },
+      "unattributed": "Unattributed",
+      "summary": "{count, plural, one {# join recorded} other {# joins recorded}} · every join is stored, attributed or not. The inviter’s counter goes up right away; the reward only after the quarantine.",
+      "empty": "No joins match these filters.",
+      "by": "by {inviter}",
+      "noAttribution": "Unattributed",
+      "joinedAt": "Joined on {date}",
+      "accountAge": "{count, plural, one {account # day old} other {account # days old}}",
+      "invite": "invite {code}",
+      "fraudSignal": "Fraud signal (score {score})",
+      "noAttributionLong": "Unattributed join.",
+      "attributeHint": "Attribute it by hand if you know who invited.",
+      "inviterPlaceholder": "Discord ID of the inviter",
+      "attribute": "Attribute",
+      "approve": "Approve",
+      "reject": "Reject",
+      "grants": {
+        "title": "Milestones delivered",
+        "hint": "A failed delivery is not retried automatically, since a milestone is granted only once. Use resend; giving a role the member already has is harmless.",
+        "empty": "No milestones delivered yet.",
+        "failed": "failed: {message}",
+        "role": "role ✓",
+        "channel": "channel ✓",
+        "resend": "Resend",
+        "errors": "{count, plural, one {# delivery} other {# deliveries}} with a recorded error."
+      }
+    },
+    "milestones": {
+      "rewardRequired": "Choose at least one reward: role, channel or in-game action.",
+      "saved": "Milestone saved.",
+      "errors": {
+        "save": "Could not save the milestone.",
+        "remove": "Could not remove."
+      },
+      "removeTitle": "Remove the {count, plural, one {# invite} other {# invites}} milestone?",
+      "removeDescription": "Whoever already got the reward keeps it; removing the milestone only stops new grants.",
+      "removed": "Milestone removed.",
+      "loading": "Loading milestones...",
+      "title": "Reward milestones",
+      "description": "When the number of confirmed invites is reached, the member gets the reward automatically, only once per milestone.",
+      "invites": "{count, plural, one {# invite} other {# invites}}",
+      "summary": {
+        "role": "role {role}",
+        "channel": "channel access",
+        "ingame": "in-game: {action}"
+      },
+      "limit": "Plan limit of {max} milestones reached.",
+      "new": "New milestone",
+      "threshold": "Every how many invites",
+      "role": "Role",
+      "optional": "Optional",
+      "channel": "Channel access",
+      "channelPlaceholder": "Optional, unlocks the channel for whoever reaches it",
+      "ingame": "In-game action",
+      "actionPlaceholder": "Action name (e.g. give_car)",
+      "pendingLinkHint": "If the member has not linked their game account yet, the delivery stays pending and happens as soon as they link it, within 24h.",
+      "announce": "Announce in the referrals announcement channel",
+      "add": "Add milestone"
+    },
+    "settings": {
+      "reason": {
+        "no_baseline": "the bot had just restarted",
+        "ambiguous": "two people joined at the same time",
+        "no_permission": "the bot has no permission to see invites",
+        "vanity_or_unknown": "custom link or unknown source",
+        "fetch_failed": "failed to fetch invites"
+      },
+      "quarantine": {
+        "presets": {
+          "now": "Immediately",
+          "hour": "1 hour",
+          "day": "24 hours",
+          "week": "7 days"
+        },
+        "title": "Quarantine",
+        "description": "How long the invited member must stay on the server before the invite counts. This is what stops join-and-leave farming.",
+        "minutes": "Or in minutes",
+        "save": "Save quarantine"
+      },
+      "leaderboard": {
+        "published": "Leaderboard published in the channel.",
+        "publishError": "Could not publish the leaderboard.",
+        "channel": "Leaderboard channel",
+        "placeholder": "Where the top 10 board goes",
+        "hint": "A pinned message with the top ten referrers. The bot edits it on its own when the numbers change, including when the quarantine ends.",
+        "publish": "Publish leaderboard",
+        "republish": "Republish leaderboard"
+      },
+      "tools": {
+        "recomputed": "Counters recalculated for {count, plural, one {# inviter} other {# inviters}}.",
+        "recomputeError": "Could not recalculate.",
+        "seasonTitle": "Start a new season?",
+        "seasonDescription": "The leaderboard goes back to zero for everyone. The join history is kept; nothing is deleted.",
+        "seasonConfirm": "Start season",
+        "seasonStarted": "New season started.",
+        "seasonError": "Could not start the season.",
+        "title": "Tools",
+        "recompute": "Recalculate counters",
+        "newSeason": "Start new season",
+        "hint": "Recalculating rebuilds the numbers from the recorded joins, useful if something looks off. Manual adjustments are kept."
+      },
+      "enabled": {
+        "label": "Referral system",
+        "description": "Tracks who brought whom, with a leaderboard and farm protection."
+      },
+      "protection": {
+        "title": "Farm protection",
+        "short": "Protection",
+        "description": "Account age, daily cap, returning members and verification role.",
+        "minAgeHint": "Accounts newer than this do not count as invites.",
+        "maxDay": "Max per inviter per day",
+        "zeroOff": "Zero turns the limit off.",
+        "ignoreRejoins": "Ignore members who joined before",
+        "ignoreRejoinsHint": "Stops leave-and-rejoin farming. Returning members count again for the original inviter.",
+        "verifiedRole": "Require verification role",
+        "selectRole": "Select role",
+        "verifiedRoleHint": "The referral only counts after the invited member gets this role. Until then it stays pending, not rejected, so anyone who verifies later still counts.",
+        "save": "Save protection"
+      },
+      "channels": {
+        "description": "A single channel for the system announcements: member joins and milestones reached.",
+        "announce": "Announcement channel",
+        "announcePlaceholder": "Where to announce joins and milestones",
+        "announceHint": "Without a channel nothing is announced, even with the notice turned on.",
+        "announceJoins": "Announce every join",
+        "announceJoinsHint": "For every member who joins, the bot posts who invited them, which invite was used and how many people have joined through it. Joins with no identified invite are posted too, with the reason, so staff can attribute them by hand."
+      },
+      "unattributed": {
+        "title": "Joins without an inviter",
+        "hint": "Not every join can be attributed. The reason is recorded; it is not a silent gap.",
+        "unknown": "unknown reason"
+      }
+    }
+  },
+  "anonymous": {
+    "tabs": {
+      "queue": "Review queue",
+      "history": "History",
+      "tools": "Tools"
+    },
+    "errors": {
+      "loadConfig": "Could not load the settings.",
+      "save": "Failed to save."
+    },
+    "saved": "Settings saved.",
+    "panic": {
+      "confirmTitle": "Emergency stop?",
+      "confirmDescription": "Turns the system off and DELETES the panel message. Use it during a raid; nothing is lost, and you can turn it back on whenever you want.",
+      "confirmLabel": "Turn everything off",
+      "done": "System turned off and panel removed.",
+      "error": "Failed to turn off.",
+      "title": "Emergency stop",
+      "description": "Turns the system off {strong}. During a raid, leaving the button up while the server refuses only creates a queue of attempts and people thinking the bot broke. Nothing is lost.",
+      "descriptionStrong": "and deletes the panel message",
+      "button": "Turn off and remove the panel"
+    },
+    "disclosure": {
+      "title": "It is pseudonymity, not anonymity.",
+      "memberSees": "The member sees exactly this before writing: “{disclosure}”",
+      "controller": "You are the {controller} of this data (LGPD); MRI is the processor. The identity is deleted automatically after {days} days.",
+      "controllerWord": "controller"
+    },
+    "enabled": {
+      "label": "System active",
+      "hint": "Turning it off here deletes nothing; it just stops accepting new messages."
+    },
+    "modes": {
+      "title": "Modes",
+      "description": "Public confessions and the direct line to staff turn on and off separately.",
+      "confessions": "Public confessions",
+      "confessionsHint": "The message is posted in a channel without the writer’s name.",
+      "confessionChannel": "Confessions channel",
+      "staffLine": "Direct line to staff",
+      "staffLineHint": "Private report: opens a thread only staff can see, and the reply goes by DM.",
+      "staffInbox": "Channel where threads are opened",
+      "save": "Save modes"
+    },
+    "selectChannel": "Select channel",
+    "panel": {
+      "description": "Pinned message with one button per enabled mode. Without a panel, members use /anonimo.",
+      "noModes": "No mode is on, so the panel would have no buttons. Turn on public confessions or the staff line in \"Modes\".",
+      "defaultContent": "## 🎭 Anonymous message\n\nChoose below how you want to talk to the server.",
+      "customizeHint": "When off, the panel uses a default text that already includes the pseudonymity notice. The buttons are added automatically.",
+      "disclosureKept": "The notice “{disclosure}” still shows in the form even if you do not write it here; it is mandatory and always in the member’s way.",
+      "saveFirst": "Save before publishing; the buttons come from the saved modes.",
+      "modesBlocked": "Save \"Modes\" first: the panel is built from the enabled modes."
+    },
+    "audit": {
+      "title": "Audit and retention",
+      "short": "Audit",
+      "description": "Where the trail is kept and for how long the identity is stored.",
+      "channel": "Audit channel (optional)",
+      "none": "None",
+      "failClosed": "If set and the bot {not} post in it, the message {notPublished}. This is on purpose: an anonymous post with no trail cannot be undone.",
+      "failClosedNot": "cannot",
+      "failClosedNotPublished": "is not published",
+      "includeIdentity": "Show the identity in the audit channel",
+      "includeIdentityHint": "When off, the channel only says there was a message; the name stays only here in the panel, where retention applies.",
+      "retention": "Keep identity for (days), your plan allows up to {max}",
+      "retentionHint": "After this period, the name and original text are deleted and the message stays without an author. Minimum of 30 days: below that, the evidence against an abuser disappears before the report is investigated.",
+      "save": "Save audit"
+    },
+    "review": {
+      "description": "What waits for staff approval before going live.",
+      "modes": {
+        "OFF": "Nothing",
+        "CONFESSIONS": "Confessions only",
+        "ALL": "Everything"
+      },
+      "hint": "Held messages show up in the {tab} tab, where staff approve or discard them one by one.",
+      "proHint": "Holding messages is a Pro feature.",
+      "save": "Save queue",
+      "approved": "Published.",
+      "rejected": "Rejected.",
+      "failed": "Failed.",
+      "proTitle": "The review queue is a Pro feature",
+      "proBody": "Hold every message for manual approval before publishing. The automatic abuse controls (new account, cooldown, links, invites, blocked words) keep working on the free plan.",
+      "empty": "Nothing waiting for review.",
+      "publish": "Publish",
+      "reject": "Reject"
+    },
+    "abuse": {
+      "title": "Abuse controls",
+      "short": "Anti-abuse",
+      "description": "All included in the free plan; safety controls behind a paywall make no sense.",
+      "minGuildAge": "Minimum time on the server (days)",
+      "cooldown": "Interval between messages (seconds)",
+      "maxPerDay": "Maximum per day",
+      "stripLinks": "Remove links",
+      "stripLinksHint": "Server invites are always refused, regardless of this option.",
+      "save": "Save anti-abuse"
+    },
+    "reload": "Reload",
+    "history": {
+      "loadError": "Could not load the history.",
+      "identityHidden": "Author identities are not shown: either you lack the “View anonymous message author” permission, or the retention period has passed.",
+      "empty": "No messages yet."
+    }
+  },
+  "staff": {
+    "state": {
+      "SUBMITTED": "📥 Received",
+      "UNDER_REVIEW": "👀 Under review",
+      "APPROVED": "✅ Approved",
+      "REJECTED": "❌ Rejected",
+      "WITHDRAWN": "🚪 Withdrew"
+    },
+    "stateName": {
+      "SUBMITTED": "Received",
+      "UNDER_REVIEW": "Under review",
+      "APPROVED": "Approved",
+      "REJECTED": "Rejected",
+      "WITHDRAWN": "Withdrew"
+    },
+    "confirmDecision": {
+      "SUBMITTED": "Confirm received",
+      "UNDER_REVIEW": "Confirm under review",
+      "APPROVED": "Confirm approval",
+      "REJECTED": "Confirm rejection",
+      "WITHDRAWN": "Confirm withdrawn"
+    },
+    "errors": {
+      "focusGone": "This application is no longer available; it may have been deleted by retention."
+    },
+    "postings": {
+      "errors": {
+        "title": "The position needs a title.",
+        "blankQuestion": "Question {index} is blank.",
+        "noQuestions": "An open position with no questions opens no form at all.",
+        "save": "Could not save the position."
+      },
+      "saved": "Position saved.",
+      "removed": "Position removed.",
+      "title": "Positions",
+      "summary": "{count, plural, one {# open} other {# open}}{hasMax, select, yes { of {max} on your plan} other {}}. The panel shows one button per open position, and each position has its own form.",
+      "new": "New position",
+      "limit": "You reached your plan’s limit of open positions. Close one to open another.",
+      "titleLabel": "Position title",
+      "titlePlaceholder": "Moderator",
+      "titleHint": "Becomes the button label on the panel and the title of the form screens.",
+      "description": "Description (optional)",
+      "planLimit": "Plan limit reached: {max} questions per position.",
+      "planHint": "Your plan allows {max} questions per position; Pro unlocks up to 15, answered in up to 3 screens.",
+      "pagesHint": "Above {limit} questions the applicant answers in successive screens: each one is a Discord form, and nothing is sent until the last. Long forms cause half-finished applications; ask only what the team will read.",
+      "open": "Position open",
+      "save": "Save position",
+      "empty": "No positions created.",
+      "badgeOpen": "open",
+      "badgeClosed": "closed",
+      "questions": "{count, plural, one {# question} other {# questions}}",
+      "screens": "{count, plural, one {# screen} other {# screens}}",
+      "edit": "Edit"
+    },
+    "queue": {
+      "reposted": "Card reposted in the staff channel.",
+      "dmFailed": "Decision recorded, but the DM was not delivered: {error}",
+      "unknown": "unknown",
+      "roleFailed": "Decision recorded, but the role was not applied: {error}",
+      "decidedWithRole": "Decision recorded and role applied.",
+      "postingFallback": "the position",
+      "empty": "No applications match these filters.",
+      "postingRemoved": "position removed",
+      "dmError": "The DM was not delivered: {error}",
+      "card": {
+        "title": "Card in the staff channel",
+        "repostHint": "Reposting deletes the current message and publishes a new one at the end of the channel. The application and decision stay intact.",
+        "publishHint": "This application has no card in the channel; publishing gives the team back the decision buttons inside Discord."
+      },
+      "dmLabel": "Private message",
+      "dmProOnly": "(Pro to edit)",
+      "dmPlaceholder": "Empty = nobody is notified.",
+      "dmHint": "Comes prefilled with the default text for {state}. Edit freely; clearing it all decides without notifying anyone.",
+      "noteLabel": "Internal reason (not sent to the applicant)",
+      "rejectHint": "Rejecting does not lock the person out: after the interval between applications, they can apply to this position again.",
+      "alreadyDecided": "Already decided{notified, select, yes { · applicant notified} other {}}.",
+      "internalNote": "Internal reason: {note}"
+    },
+    "settings": {
+      "enabled": {
+        "label": "Staff applications",
+        "description": "A form per position, review queue and private feedback."
+      },
+      "panel": {
+        "title": "Application panel",
+        "description": "Pinned message with one button per open position.",
+        "channelPlaceholder": "Where the application buttons go",
+        "defaultContent": "## 📋 Staff application\n\nWant to join the team? Click the position below and fill in the form. The team reviews it and gets back to you in private.",
+        "customizeHint": "When off, the panel uses a default text. The position buttons are added automatically either way.",
+        "publishHint": "The panel is built from the saved settings, including the positions open right now."
+      },
+      "review": {
+        "title": "Notice and role",
+        "description": "Where staff are notified and what the applicant gets when approved.",
+        "channel": "Staff notification channel (optional)",
+        "channelPlaceholder": "Gets only the summary, never the answers",
+        "channelHint": "Answers stay only in this queue. Sending the whole form to Discord would turn a channel permission mistake into a personal data leak.",
+        "approvedRole": "Role on approval (optional)",
+        "approvedRoleFree": "On the current plan the role is not applied automatically; staff must give it by hand after approving."
+      },
+      "eligibility": {
+        "title": "Who can apply",
+        "cooldown": "Interval between applications (min)",
+        "cooldownHint": "It is also how long a rejected person waits to try the same position again, counted from the decision.",
+        "requiredRole": "Require a role (optional)",
+        "requiredRolePlaceholder": "Only members with this role see the form"
+      },
+      "feedback": {
+        "title": "Applicant feedback",
+        "description": "The text that comes prefilled when deciding.",
+        "approval": "On approval",
+        "approvalPlaceholder": "Hi '{membro}'! You were approved for '{vaga}'. Reach out to us to arrange the next steps.",
+        "rejection": "On rejection",
+        "rejectionPlaceholder": "Hi '{membro}', thanks for applying for '{vaga}'. We are not moving forward with your application this time, but keep an eye out for future openings.",
+        "review": "On marking under review",
+        "reviewPlaceholder": "Hi '{membro}'! Your application for '{vaga}' is under review; we will get back to you soon.",
+        "hint": "Each text opens prefilled in the decision modal, in the panel and on the card buttons in Discord. Staff edit it before sending; leaving it empty decides without notifying anyone. Placeholders: '{membro}' and '{vaga}'. Who decided shows on the staff card and {never} in the applicant’s message.",
+        "never": "never",
+        "save": "Save feedback"
+      },
+      "retention": {
+        "title": "Retention",
+        "description": "Applications are personal data and do not disappear on their own.",
+        "days": "Keep for (days)",
+        "hint": "The purge deletes only {decided} applications; a stalled queue is not expired data, it is overdue work.",
+        "decided": "decided",
+        "save": "Save retention"
+      }
+    }
+  }
+}

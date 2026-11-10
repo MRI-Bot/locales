@@ -1,0 +1,131 @@
+{
+  "header": {
+    "title": "Messages & Announcements",
+    "description": "Send messages through the bot in {guild}, schedule, repeat and edit them later."
+  },
+  "tabs": {
+    "label": "Messages screens",
+    "compose": "Write",
+    "editing": "Editing",
+    "history": "History",
+    "templates": "Templates"
+  },
+  "recurrence": {
+    "hourly": "Every hour",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "monthly": "Monthly (30d)",
+    "everyHours": "Every {hours} h"
+  },
+  "status": {
+    "draft": "Draft",
+    "scheduled": "Scheduled",
+    "sent": "Sent",
+    "failed": "Failed",
+    "canceled": "Canceled",
+    "recurring": "Recurring"
+  },
+  "errors": {
+    "loadChannels": "Failed to load channels.",
+    "empty": "Write something or add a block before sending.",
+    "channel": "Choose a channel.",
+    "scheduleDate": "Set the schedule date.",
+    "send": "Failed to send.",
+    "edit": "Failed to edit.",
+    "cancel": "Failed to cancel.",
+    "delete": "Failed to delete.",
+    "emptyTemplate": "Nothing to save as a template.",
+    "saveTemplate": "Failed to save template.",
+    "removeTemplate": "Failed to remove template."
+  },
+  "toast": {
+    "sent": "Message sent!",
+    "scheduled": "Message scheduled!",
+    "recurring": "Recurrence created!",
+    "edited": "Message edited!",
+    "duplicated": "Copied to the composer, adjust and send.",
+    "canceled": "Canceled.",
+    "deleted": "Deleted.",
+    "templateSaved": "Template saved!",
+    "templateLoaded": "Template \"{name}\" loaded.",
+    "templateRemoved": "Template removed."
+  },
+  "delete": {
+    "title": "Delete message?",
+    "description": "If it was already sent, it will be removed from the Discord channel too.",
+    "confirm": "Delete"
+  },
+  "editing": {
+    "sent": "Editing a message that was already sent (re-renders on Discord).",
+    "recurring": "Editing a recurrence, the next sends use what you save.",
+    "scheduled": "Editing a schedule, nothing is sent now; the send uses what you save.",
+    "cancel": "Cancel editing"
+  },
+  "compose": {
+    "content": "Plain text (optional)",
+    "contentPlaceholder": "Message text (or use the design below)...",
+    "design": "Design (Components V2)",
+    "channel": "Channel",
+    "channelPlaceholder": "Choose channel",
+    "when": "When",
+    "modes": {
+      "now": "Send now",
+      "schedule": "Schedule",
+      "recurring": "Recurring"
+    },
+    "dateTime": "Date and time",
+    "frequency": "Frequency",
+    "pingEveryone": "Ping @everyone",
+    "pingUsers": "Ping mentioned users",
+    "submit": {
+      "edit": "Save changes",
+      "now": "Send",
+      "recurring": "Create recurrence"
+    },
+    "saveTemplate": "Save as template"
+  },
+  "designOnly": "Message with design",
+  "history": {
+    "emptyTitle": "No messages yet",
+    "emptyDescription": "Sent, scheduled and recurring messages show up here.",
+    "writeFirst": "Write the first one",
+    "filters": {
+      "label": "Filter messages",
+      "all": "All",
+      "sent": "Sent",
+      "waiting": "Scheduled",
+      "failed": "Failed"
+    },
+    "search": "Search text or channel",
+    "count": "{count, plural, one {# message} other {# messages}}",
+    "noResults": "No messages found",
+    "noResultsHint": "Try another term or change the filter.",
+    "columns": {
+      "message": "Message",
+      "channel": "Channel",
+      "status": "Status",
+      "when": "When"
+    },
+    "noText": "No text",
+    "channelRemoved": "Channel removed",
+    "failReason": "Failure reason: {reason}",
+    "actions": {
+      "edit": "Edit",
+      "duplicate": "Duplicate",
+      "cancel": "Cancel send"
+    }
+  },
+  "templates": {
+    "namePrompt": "Template name:",
+    "emptyTitle": "No saved templates",
+    "emptyDescription": "Keep a text you repeat and reuse it with one click.",
+    "writeOne": "Write a template",
+    "columns": {
+      "name": "Template",
+      "content": "Content",
+      "actions": "Actions"
+    },
+    "use": "Use",
+    "delete": "Delete template"
+  }
+}

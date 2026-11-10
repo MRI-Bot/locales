@@ -1,0 +1,240 @@
+{
+  "modules": {
+    "platform": "Plataforma",
+    "discord_admin": "Discord Admin",
+    "tickets": "Tickets",
+    "fivem": "FiveM",
+    "store": "Loja",
+    "projects": "Projetos",
+    "planning": "Planejamento",
+    "polls": "Enquetes",
+    "giveaways": "Sorteios",
+    "subscriptions": "Assinaturas",
+    "messages": "Mensagens",
+    "direct_messages": "DM em Massa",
+    "mta": "MTA",
+    "gamification": "Gamificação",
+    "social_alerts": "Alertas Sociais",
+    "community": "Comunidade",
+    "media": "Mídia",
+    "ai_helper": "Assistente IA"
+  },
+  "features": {
+    "whiteLabel": "White-label",
+    "apiKey": "API Keys",
+    "fivemWebhook": "Integração FiveM",
+    "subscriptions": "Assinaturas",
+    "customCss": "CSS próprio na loja",
+    "customDomain": "Domínio próprio",
+    "directMessages": "DM em massa por cargo",
+    "adminLogsPro": "Cache de conteúdo nos logs",
+    "adminSelectorAdvanced": "Reaction roles avançados (botão/dropdown)",
+    "adminLog_MESSAGE_DELETE": "Log: Mensagem deletada",
+    "adminLog_MESSAGE_EDIT": "Log: Mensagem editada",
+    "adminLog_MEMBER_JOIN": "Log: Membro entrou",
+    "adminLog_MEMBER_LEAVE": "Log: Membro saiu",
+    "adminLog_MEMBER_BAN": "Log: Membro banido",
+    "adminLog_MEMBER_UNBAN": "Log: Membro desbanido",
+    "adminLog_MESSAGE_BULK_DELETE": "Log: Bulk delete",
+    "adminLog_MEMBER_ROLE_UPDATE": "Log: Cargos do membro",
+    "adminLog_MEMBER_NICKNAME": "Log: Apelido alterado",
+    "adminLog_VOICE_JOIN_LEAVE_MOVE": "Log: Canais de voz",
+    "adminLog_CHANNEL_CREATE_UPDATE_DELETE": "Log: Canais",
+    "adminLog_ROLE_CREATE_UPDATE_DELETE": "Log: Cargos",
+    "adminLog_INVITE_CREATE_USE": "Log: Convites",
+    "adminLog_AUTOMOD": "Log: AutoMod",
+    "ticketTranscripts": "Transcripts de ticket",
+    "ticketAutoClose": "Auto-close por inatividade",
+    "ticketAnonymousReply": "Resposta anônima no ticket",
+    "storeFeaturedProducts": "Produtos em destaque",
+    "storeScheduledDrops": "Lançamentos agendados",
+    "storeStock": "Controle de estoque",
+    "storeDigitalFiles": "Arquivos digitais",
+    "storeCoupons": "Cupons de desconto",
+    "storeCategories": "Categorias de produto",
+    "storeAnalytics": "Analytics da loja",
+    "fivemCustomCard": "Card de vínculo customizado",
+    "fivemAltAccounts": "Contas alternativas",
+    "fivemNickname": "Apelido enquanto está no jogo (FiveM)",
+    "fivemScreenshot": "Print da tela do jogador",
+    "fivemCdn": "CDN de resources (FiveM)",
+    "fivemOutboundActions": "Ações no servidor (FiveM)",
+    "mtaOutboundActions": "Ações no servidor (MTA)",
+    "pollsScheduled": "Enquetes agendadas",
+    "pollsAnonymous": "Enquetes anônimas",
+    "pollsMultiSelect": "Múltipla escolha",
+    "pollsVoteWeights": "Peso de voto por cargo",
+    "pollsRoleRestricted": "Restrição por cargo",
+    "pollsMessageDesign": "Design de mensagem (enquetes)",
+    "giveawaysScheduled": "Sorteios agendados",
+    "giveawaysMultipliers": "Multiplicadores de entrada",
+    "giveawaysRequirements": "Requisitos de entrada",
+    "giveawaysReminders": "Lembrete de fim",
+    "giveawaysMessageDesign": "Design de mensagem (sorteios)",
+    "giveawaysShareLink": "Link público de resultado",
+    "messagesScheduled": "Mensagens agendadas",
+    "messagesRecurring": "Mensagens recorrentes",
+    "messagesTemplates": "Templates de mensagem",
+    "gamificationVoiceXp": "XP por voz",
+    "gamificationCustomCard": "Cartão de rank customizado",
+    "gamificationCustomCurve": "Curva de XP customizada",
+    "gamificationLevelUpDesign": "Level-up com MessageDesign V2",
+    "socialPollProviders": "Provedores por polling (Kick/TikTok/Instagram)",
+    "socialMessageDesign": "Alerta com MessageDesign V2",
+    "socialChannelRouting": "Roteamento por tipo de conteúdo",
+    "socialOfflineEdit": "Editar/encerrar alerta ao ficar offline",
+    "suggestionsApprovedChannel": "Canal separado de sugestões aprovadas",
+    "suggestionsCategories": "Categorias de sugestão",
+    "bugReportsForum": "Bugs em canal de fórum",
+    "bugReportsInGameContext": "Contexto in-game no report",
+    "referralsMilestoneOutbound": "Recompensa in-game por indicação",
+    "referralsAntiFraudAdvanced": "Anti-fraude avançado de indicações",
+    "referralsLeaderboardPanel": "Painel de ranking de convites",
+    "anonymousReviewQueue": "Fila de revisão de mensagens anônimas",
+    "staffFormCustomDm": "Mensagem personalizada na decisão da candidatura",
+    "staffFormAutoRole": "Cargo automático ao aprovar candidatura",
+    "staffFormScheduling": "Agendamento de vaga",
+    "anonymousFivem": "Mensagem anônima in-game",
+    "communityMessageDesign": "Cards da Comunidade em MessageDesign V2",
+    "boostStorePerks": "Perk de loja por boost",
+    "boostAnnounceDesign": "Anúncio de boost em MessageDesign V2",
+    "media": "Mídia (CDN próprio)",
+    "aiHelperImages": "Assistente IA lê imagens"
+  },
+  "limits": {
+    "maxGuilds": {
+      "label": "Máx. de servidores",
+      "unit": "{count, plural, one {servidor} other {servidores}}"
+    },
+    "maxModulesPerGuild": {
+      "label": "Máx. de módulos por servidor",
+      "unit": "{count, plural, one {módulo} other {módulos}}"
+    },
+    "maxFivemStatusPanels": {
+      "label": "Máx. de painéis de status FiveM",
+      "unit": "{count, plural, one {painel} other {painéis}}"
+    },
+    "maxTicketTypes": {
+      "label": "Máx. de tipos de ticket",
+      "unit": "{count, plural, one {tipo} other {tipos}}"
+    },
+    "maxTicketPanels": {
+      "label": "Máx. de painéis de ticket",
+      "unit": "{count, plural, one {painel} other {painéis}}"
+    },
+    "maxProjectBoards": {
+      "label": "Máx. de boards de projeto",
+      "unit": "{count, plural, one {board} other {boards}}"
+    },
+    "maxPlanningDocs": {
+      "label": "Máx. de documentos de planejamento",
+      "unit": "{count, plural, one {documento} other {documentos}}"
+    },
+    "maxPolls": {
+      "label": "Máx. de enquetes ativas",
+      "unit": "{count, plural, one {enquete} other {enquetes}}"
+    },
+    "maxGiveaways": {
+      "label": "Máx. de sorteios ativos",
+      "unit": "{count, plural, one {sorteio} other {sorteios}}"
+    },
+    "maxSubscriptionTiers": {
+      "label": "Máx. de planos de assinatura",
+      "unit": "{count, plural, one {plano} other {planos}}"
+    },
+    "maxScheduledMessages": {
+      "label": "Máx. de mensagens agendadas/recorrentes",
+      "unit": "{count, plural, one {mensagem} other {mensagens}}"
+    },
+    "maxMessageTemplates": {
+      "label": "Máx. de templates de mensagem",
+      "unit": "{count, plural, one {template} other {templates}}"
+    },
+    "maxRoleRewards": {
+      "label": "Máx. de cargos de recompensa",
+      "unit": "{count, plural, one {cargo} other {cargos}}"
+    },
+    "maxRoleMultipliers": {
+      "label": "Máx. de multiplicadores de XP",
+      "unit": "{count, plural, one {multiplicador} other {multiplicadores}}"
+    },
+    "maxSuggestionCategories": {
+      "label": "Máx. de categorias de sugestão",
+      "unit": "{count, plural, one {categoria} other {categorias}}"
+    },
+    "maxBugFormFields": {
+      "label": "Máx. de campos no formulário de bug",
+      "unit": "{count, plural, one {campo} other {campos}}"
+    },
+    "maxBugCategories": {
+      "label": "Máx. de categorias de bug",
+      "unit": "{count, plural, one {categoria} other {categorias}}"
+    },
+    "maxReferralMilestones": {
+      "label": "Máx. de marcos de indicação",
+      "unit": "{count, plural, one {marco} other {marcos}}"
+    },
+    "maxStaffPostings": {
+      "label": "Máx. de vagas abertas",
+      "unit": "{count, plural, one {vaga} other {vagas}}"
+    },
+    "maxStaffFormFields": {
+      "label": "Máx. de perguntas por vaga",
+      "unit": "{count, plural, one {pergunta} other {perguntas}}"
+    },
+    "maxWhitelistFields": {
+      "label": "Máx. de perguntas na whitelist",
+      "unit": "{count, plural, one {pergunta} other {perguntas}}"
+    },
+    "maxAnonymousConversations": {
+      "label": "Máx. de conversas anônimas abertas",
+      "unit": "{count, plural, one {conversa} other {conversas}}"
+    },
+    "anonymousHistoryDays": {
+      "label": "Retenção do histórico anônimo (dias)",
+      "unit": "{count, plural, one {dia} other {dias}}"
+    },
+    "maxSocialSubscriptions": {
+      "label": "Máx. de acompanhamentos sociais",
+      "unit": "{count, plural, one {acompanhamento} other {acompanhamentos}}"
+    },
+    "maxBoostRewards": {
+      "label": "Máx. de recompensas por boost",
+      "unit": "{count, plural, one {recompensa} other {recompensas}}"
+    },
+    "aiHelperMaxDocsSources": {
+      "label": "Máx. de fontes de documentação",
+      "unit": "{count, plural, one {fonte} other {fontes}}"
+    },
+    "aiHelperDocsKb": {
+      "label": "Tamanho total das fontes",
+      "unit": "KB"
+    },
+    "mediaStorageMb": {
+      "label": "Armazenamento de mídia",
+      "unit": "MB"
+    },
+    "mediaRetentionDays": {
+      "label": "Retenção de mídia",
+      "unit": "{count, plural, one {dia} other {dias}}"
+    },
+    "fivemCdnStorageMb": {
+      "label": "Armazenamento do CDN FiveM",
+      "unit": "MB"
+    }
+  },
+  "planChange": {
+    "blocked": {
+      "lifetime": "Você já tem acesso vitalício.",
+      "downgradeCancelFirst": "Para ir a um plano menor, cancele a assinatura atual primeiro.",
+      "availableAfterEnd": "Disponível quando o plano atual terminar, em {date, date, ::ddMMyyyy}.",
+      "alreadyRenews": "Sua assinatura já renova sozinha neste período.",
+      "creditCovers": "Seu crédito cobre este pacote. Escolha um período maior."
+    }
+  },
+  "billing": {
+    "cardSubscription": "Assinatura no cartão",
+    "packageLifetime": "{plan}, vitalício",
+    "package": "{plan}, {count, plural, =1 {# mês} other {# meses}}"
+  }
+}

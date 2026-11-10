@@ -1,0 +1,38 @@
+{
+  "inactive": "The AI Assistant is not active in this server.",
+  "kb": {
+    "noPermission": "You don't have permission to change the AI knowledge base.",
+    "titleLabel": "Question or topic (optional)",
+    "contentLabel": "What the AI should know",
+    "modalUpdate": "Update AI knowledge base entry",
+    "modalAdd": "Add to the AI knowledge base",
+    "saveFailed": "Couldn't save right now. Try again in a moment.",
+    "added": "✅ Added to the AI knowledge base ({used} of {max} characters used). You can edit it in the dashboard, under AI Assistant.",
+    "updated": "✅ Updated in the AI knowledge base ({used} of {max} characters used). You can edit it in the dashboard, under AI Assistant.",
+    "tooLong": "It didn't fit: the knowledge base already has {used} of {max} characters. Shorten the text or delete entries in the dashboard.",
+    "notFound": "This server isn't registered in the dashboard yet.",
+    "empty": "The content was empty — nothing was added."
+  },
+  "respond": {
+    "disabled": "The AI Assistant is turned off in this server. Turn it on under **AI Assistant** in the dashboard.",
+    "empty": "This message has no text (or image the AI can read) to answer.",
+    "noAnswer": "The AI didn't answer: the message doesn't look like a question, or the provider failed.",
+    "escalated": "The AI didn't find this in the knowledge base, so I didn't post anything. Worth answering by hand and, if it comes up often, adding it to the base.",
+    "failed": "Couldn't answer right now (backend down or no permission to send in the channel). Try again in a moment.",
+    "noPermission": "You don't have permission to ask the AI for an answer.",
+    "pickMember": "Pick a member's message, not a bot's.",
+    "answered": "✅ Answered."
+  },
+  "feedback": {
+    "already": "You already rated this answer. 🙂",
+    "up": "Thanks! This helps improve the answers. 👍",
+    "down": "Noted — I'll use this to improve. 👎",
+    "failed": "Couldn't record it right now. Try again in a moment.",
+    "helped": "Helped",
+    "notHelped": "Didn't help"
+  },
+  "thinking": "🔎 Checking the knowledge base…",
+  "threadName": "Help • {user}",
+  "sources": "Sources",
+  "sourceFallback": "source"
+}

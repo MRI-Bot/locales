@@ -1,0 +1,10 @@
+{
+  "panel": {
+    "defaultTitle": "🎫 Soporte",
+    "defaultDescriptionWithTypes": "¿Necesitas ayuda? Haz clic en el botón correspondiente para abrir un ticket.",
+    "defaultDescription": "¿Necesitas ayuda? Haz clic en el botón de abajo para abrir un ticket. Un miembro del equipo te responderá lo antes posible.",
+    "openButton": "Abrir ticket",
+    "selectPlaceholder": "Elige el motivo de tu ticket",
+    "accessoryButton": "Abrir"
+  }
+}

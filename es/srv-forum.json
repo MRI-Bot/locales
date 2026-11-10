@@ -1,0 +1,81 @@
+{
+  "when": {
+    "now": "ahora",
+    "minutes": "hace {n} min",
+    "hours": "hace {n} h",
+    "days": "hace {count} {count, plural, one {día} other {días}}"
+  },
+  "replies": "{count} {count, plural, one {respuesta} other {respuestas}}",
+  "requestFailed": "No funcionó. Inténtalo de nuevo.",
+  "forums": "Foros",
+  "logout": "Salir",
+  "login": "Entrar",
+  "loginDiscord": "Entrar con Discord",
+  "loginGoogle": "Entrar con Google",
+  "communityForum": "Foro de la comunidad {name}",
+  "madeWith": "Hecho con MRI BOT",
+  "privacy": "Privacidad",
+  "home": {
+    "empty": "Todavía no hay foros publicados.",
+    "description": "Foros de las comunidades que usan MRI BOT.",
+    "lead": "Comunidades que abrieron un foro público."
+  },
+  "tag": {
+    "pinned": "Fijado",
+    "solved": "Resuelto",
+    "closed": "Cerrado",
+    "answer": "Respuesta",
+    "fromDiscord": "Desde Discord"
+  },
+  "space": {
+    "categories": "Categorías",
+    "all": "Todo",
+    "previous": "Anteriores",
+    "next": "Siguientes",
+    "pageOf": "Página {page} de {pages}",
+    "noResults": "No se encontró nada con esa búsqueda.",
+    "noTopics": "Todavía no hay temas. ¿Por qué no abres el primero?",
+    "categoryLead": "Temas de {name}",
+    "description": "Foro de la comunidad {name}.",
+    "searchPlaceholder": "Buscar temas",
+    "search": "Buscar"
+  },
+  "topic": {
+    "unmarkAnswer": "Desmarcar respuesta",
+    "markAnswer": "Marcar como respuesta",
+    "deleteReplyConfirm": "¿Borrar tu respuesta?",
+    "delete": "Borrar",
+    "deleteTopicConfirm": "¿Borrar el tema y todas las respuestas?",
+    "deleteTopic": "Borrar tema",
+    "closed": "Este tema está cerrado a respuestas.",
+    "loginToReply": "Entra para responder.",
+    "yourReply": "Tu respuesta",
+    "replyHint": "Es público, aparece en Google y con el nombre con el que entras.",
+    "reply": "Responder",
+    "markedAnswer": "Respuesta marcada"
+  },
+  "newTopic": {
+    "title": "Nuevo tema",
+    "pageTitle": "Nuevo tema · {space}",
+    "description": "Abrir un tema en el foro {space}.",
+    "loginToOpen": "Entra para abrir un tema. Puedes usar tu cuenta de Discord o de Google.",
+    "titleLabel": "Título",
+    "titlePlaceholder": "Resume tu duda o asunto",
+    "category": "Categoría",
+    "noCategory": "Sin categoría",
+    "text": "Texto",
+    "textPlaceholder": "Cuenta qué pasó, qué ya intentaste y pega el error si lo hay.",
+    "hint": "Acepta **negrita**, *cursiva*, `código` y bloques con ```. El tema es público y aparece en Google.",
+    "publish": "Publicar"
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "description": "Esta página no existe o fue eliminada.",
+    "lead": "Puede que el tema se haya borrado o que la dirección esté mal.",
+    "back": "Volver"
+  },
+  "announce": {
+    "title": "Nuevo tema en el foro",
+    "description": "**{title}**\npor {author}\n\n[Abrir en el foro]({url})"
+  }
+}

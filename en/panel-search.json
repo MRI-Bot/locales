@@ -1,0 +1,303 @@
+{
+  "targets": {
+    "discord_admin": {
+      "overview": {
+        "label": "Moderation overview",
+        "keywords": "summary active punishments"
+      },
+      "moderation": {
+        "label": "Moderation cases",
+        "keywords": "ban kick mute timeout warn punishment purge clear messages"
+      },
+      "cases": {
+        "label": "History by member",
+        "keywords": "record dossier punishments of a user"
+      },
+      "appeals": {
+        "label": "Appeals",
+        "keywords": "appeal review punishment"
+      },
+      "automod": {
+        "label": "Automatic protection",
+        "keywords": "anti-invite invite links attachments honeypot ai moderation auto-moderation automod spam"
+      },
+      "logs": {
+        "label": "Server logs",
+        "keywords": "logs log channel deleted message joined left"
+      },
+      "welcome": {
+        "label": "Welcome",
+        "keywords": "leave goodbye welcome join message"
+      },
+      "autorole": {
+        "label": "Auto role",
+        "keywords": "autorole role on join"
+      },
+      "selectors": {
+        "label": "Role selectors",
+        "keywords": "reaction role button dropdown pick role"
+      },
+      "membercounter": {
+        "label": "Member counter",
+        "keywords": "channel counter"
+      },
+      "settings": {
+        "label": "Moderation settings",
+        "keywords": "modlog dm raid"
+      },
+      "health": {
+        "label": "Bot health",
+        "keywords": "permissions status diagnostics"
+      }
+    },
+    "forum": {
+      "topics": {
+        "label": "Forum topics",
+        "keywords": "forum moderate hide pin close topic public site"
+      },
+      "settings": {
+        "label": "Forum settings",
+        "keywords": "forum address url categories notice discord live"
+      },
+      "blocks": {
+        "label": "Forum blocked users",
+        "keywords": "forum block unblock author"
+      }
+    },
+    "tickets": {
+      "overview": {
+        "label": "Tickets overview",
+        "keywords": "performance average time ratings peak hours staff"
+      },
+      "queue": {
+        "label": "Support queue",
+        "keywords": "queue open tickets transfer close priority"
+      },
+      "settings": {
+        "label": "Ticket settings",
+        "keywords": "panel publish types form blacklist"
+      }
+    },
+    "store": {
+      "finance": {
+        "label": "Finance",
+        "keywords": "money billing revenue received export spreadsheet"
+      },
+      "products": {
+        "label": "Products",
+        "keywords": "create product stock"
+      },
+      "sales": {
+        "label": "Sales",
+        "keywords": "orders purchases refund chargeback"
+      },
+      "plans": {
+        "label": "Subscription plans",
+        "keywords": "subscriptions recurring packages"
+      },
+      "subscribers": {
+        "label": "Subscribers",
+        "keywords": "subscriptions cancel"
+      },
+      "coupons": {
+        "label": "Coupons",
+        "keywords": "discount"
+      },
+      "categories": {
+        "label": "Store categories"
+      },
+      "settings": {
+        "label": "Store settings",
+        "keywords": "mercado pago payment"
+      },
+      "reviews": {
+        "label": "Store reviews",
+        "keywords": "stars comment rating hide"
+      },
+      "customers": {
+        "label": "Store customers and visits",
+        "keywords": "buyers block ban returning visits conversion source"
+      },
+      "selling": {
+        "label": "Promotions, offers and cashback",
+        "keywords": "buy 3 pay 2 tiered upsell offer cashback credit abandoned cart reminder"
+      },
+      "affiliates": {
+        "label": "Store affiliates",
+        "keywords": "referral commission link ref payout pix"
+      },
+      "integrations": {
+        "label": "Store integrations",
+        "keywords": "pixel meta facebook tiktok google analytics gtm clarity crisp tawk webhook invoice nfe fivem announcement"
+      }
+    },
+    "whitelist": {
+      "list": {
+        "label": "Whitelist applications",
+        "keywords": "approve reject application"
+      },
+      "settings": {
+        "label": "Whitelist settings",
+        "keywords": "form questions approved role test code"
+      }
+    },
+    "messages": {
+      "compose": {
+        "label": "Write message",
+        "keywords": "announcement send schedule recurring notice"
+      },
+      "history": {
+        "label": "Message history",
+        "keywords": "announcements sent scheduled failed"
+      },
+      "templates": {
+        "label": "Message templates",
+        "keywords": "template"
+      }
+    },
+    "giveaways": {
+      "list": {
+        "label": "Giveaway list",
+        "keywords": "prize winners participants"
+      },
+      "overview": {
+        "label": "Giveaways overview",
+        "keywords": "best time entries"
+      }
+    },
+    "polls": {
+      "list": {
+        "label": "Poll list",
+        "keywords": "voting votes who voted close"
+      },
+      "overview": {
+        "label": "Polls overview",
+        "keywords": "most voted numbers"
+      }
+    },
+    "fivem": {
+      "dashboard": {
+        "label": "FiveM overview",
+        "keywords": "players online numbers"
+      },
+      "config": {
+        "label": "FiveM settings",
+        "keywords": "api key allowlist queue connect server"
+      },
+      "links": {
+        "label": "FiveM links",
+        "keywords": "link account license discord player"
+      },
+      "moderation": {
+        "label": "FiveM moderation",
+        "keywords": "ban kick player in game"
+      },
+      "cards": {
+        "label": "FiveM connection card",
+        "keywords": "cards adaptive card screen on connect"
+      },
+      "actions": {
+        "label": "FiveM actions",
+        "keywords": "in-game command automation"
+      },
+      "deliveries": {
+        "label": "FiveM deliveries",
+        "keywords": "deliver item purchase in game"
+      },
+      "statusPanel": {
+        "label": "FiveM status panel",
+        "keywords": "status panel online"
+      },
+      "cdn": {
+        "label": "FiveM CDN",
+        "keywords": "images files"
+      },
+      "activity": {
+        "label": "FiveM activity",
+        "keywords": "events"
+      },
+      "logs": {
+        "label": "FiveM logs",
+        "keywords": "console records"
+      }
+    },
+    "mta": {
+      "dashboard": {
+        "label": "MTA overview"
+      },
+      "config": {
+        "label": "MTA settings",
+        "keywords": "api key"
+      },
+      "messages": {
+        "label": "MTA messages"
+      },
+      "actions": {
+        "label": "MTA actions",
+        "keywords": "in-game command"
+      },
+      "deliveries": {
+        "label": "MTA deliveries",
+        "keywords": "deliver item purchase"
+      },
+      "statusPanel": {
+        "label": "MTA status panel",
+        "keywords": "status panel online"
+      }
+    },
+    "voice": {
+      "hubs": {
+        "label": "Temporary voice channels",
+        "keywords": "hubs create channel"
+      },
+      "active": {
+        "label": "Active voice channels"
+      }
+    },
+    "boost": {
+      "overview": {
+        "label": "Boost overview",
+        "keywords": "boost nitro"
+      },
+      "rewards": {
+        "label": "Boost rewards",
+        "keywords": "boost nitro role"
+      },
+      "boosters": {
+        "label": "Who boosts",
+        "keywords": "boosters boost nitro"
+      }
+    },
+    "gamification": {
+      "overview": {
+        "label": "XP and levels overview",
+        "keywords": "gamification"
+      },
+      "rewards": {
+        "label": "Level reward roles",
+        "keywords": "xp gamification"
+      },
+      "multipliers": {
+        "label": "XP multipliers",
+        "keywords": "gamification"
+      },
+      "noxp": {
+        "label": "XP blocks",
+        "keywords": "channel without xp gamification"
+      },
+      "levelup": {
+        "label": "Level-up message",
+        "keywords": "leveled up xp"
+      },
+      "ranking": {
+        "label": "XP ranking",
+        "keywords": "leaderboard top members"
+      }
+    }
+  },
+  "footer": {
+    "navigate": "navigate",
+    "select": "select",
+    "close": "close"
+  }
+}

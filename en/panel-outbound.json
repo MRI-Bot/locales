@@ -1,0 +1,66 @@
+{
+  "history": {
+    "empty": "No deliveries yet.",
+    "retry": "Resend",
+    "retryScheduled": "Resend scheduled, it will be delivered when the player is online.",
+    "retryError": "Could not resend.",
+    "noAttempts": "No attempts recorded.",
+    "sources": {
+      "panel": "Dashboard",
+      "discord": "Discord",
+      "store": "Store",
+      "subscription": "Subscription",
+      "referral": "Referrals",
+      "boost": "Boost",
+      "system": "System"
+    }
+  },
+  "deliveries": {
+    "title": "Delivery history",
+    "description": "Every action sent to the server, from the dashboard, store, subscription or Discord. Expand to see the attempts and resend the ones that failed.",
+    "empty": "No deliveries recorded yet."
+  },
+  "notify": {
+    "toggle": "Notify the player in game",
+    "silent": "Without a notice, the delivery happens silently and the player finds out from their inventory.",
+    "titlePlaceholder": "Title (e.g. Purchase delivered)",
+    "messagePlaceholder": "Message (e.g. you received '{amount}' coins!)",
+    "hint": "Use {player} for the name of who received it.",
+    "hintWithVars": "Use {player} for the name of who received it and {vars} for the action's variables.",
+    "channelsNote": "A channel turned off in the resource config doesn't show up, even if checked here.",
+    "channels": {
+      "chat": {
+        "label": "Chat",
+        "hint": "Message in the game chat"
+      },
+      "oxlib": {
+        "label": "ox_lib",
+        "hint": "ox_lib side notification"
+      },
+      "nui": {
+        "label": "MRI box",
+        "hint": "The resource's own box"
+      },
+      "celebration": {
+        "label": "Celebration",
+        "hint": "Full screen with balloons"
+      }
+    }
+  },
+  "vars": {
+    "title": "Variables",
+    "add": "Variable",
+    "empty": "Without variables, the payload is free-form (JSON) when triggered.",
+    "keyPlaceholder": "key (e.g. amount)",
+    "required": "req.",
+    "remove": "Remove variable",
+    "labelPlaceholder": "label (optional)",
+    "optionsPlaceholder": "comma-separated options",
+    "min": "min",
+    "max": "max",
+    "default": "default"
+  },
+  "form": {
+    "textPlaceholder": "'{serial}' / text"
+  }
+}

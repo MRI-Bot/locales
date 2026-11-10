@@ -1,0 +1,82 @@
+{
+  "header": {
+    "title": "Audit log",
+    "description": "Tudo o que aconteceu em {guild}: sorteios, tickets, enquetes, projetos e planejamento."
+  },
+  "errors": {
+    "load": "Falha ao carregar audit log."
+  },
+  "filters": {
+    "module": "Módulo",
+    "type": "Tipo",
+    "all": "Todos"
+  },
+  "modules": {
+    "giveaway": "Sorteios",
+    "ticket": "Tickets",
+    "poll": "Enquetes",
+    "project": "Projetos",
+    "planning": "Planejamento"
+  },
+  "types": {
+    "poll": {
+      "created": "criou uma enquete",
+      "scheduledStarted": "enquete agendada foi ativada",
+      "edited": "editou uma enquete",
+      "closed": "encerrou uma enquete",
+      "reposted": "repostou uma enquete",
+      "deleted": "removeu uma enquete"
+    },
+    "giveaway": {
+      "created": "criou um sorteio",
+      "scheduledStarted": "sorteio agendado foi iniciado",
+      "entry": "entrou num sorteio",
+      "entryRejected": "tentou entrar (rejeitado)",
+      "ended": "sorteio encerrou",
+      "winnersDrawn": "ganhadores sorteados",
+      "reroll": "fez reroll do sorteio",
+      "cancelled": "cancelou um sorteio",
+      "pageView": "visitou a página pública",
+      "partnerLinkClick": "clicou no convite do parceiro",
+      "partnerMembership": "entrou na guild do parceiro",
+      "partnerLeft": "saiu da guild do parceiro"
+    },
+    "ticket": {
+      "opened": "abriu um ticket",
+      "claimed": "assumiu um ticket",
+      "unclaimed": "deixou um ticket",
+      "closed": "fechou um ticket",
+      "reopened": "reabriu um ticket",
+      "transferred": "transferiu um ticket",
+      "prioritized": "priorizou um ticket",
+      "rated": "avaliou o atendimento",
+      "repliedAnonymously": "respondeu um ticket anonimamente",
+      "nudged": "chamou a atenção num ticket"
+    },
+    "project": {
+      "boardCreated": "criou um board",
+      "boardArchived": "arquivou um board",
+      "cardCreated": "criou um card",
+      "cardMoved": "moveu um card",
+      "cardCompleted": "completou um card",
+      "cardDeleted": "removeu um card"
+    },
+    "planning": {
+      "created": "criou um documento",
+      "updated": "atualizou um documento",
+      "archived": "arquivou um documento",
+      "deleted": "removeu um documento"
+    }
+  },
+  "relative": {
+    "now": "agora",
+    "minutes": "{count}min",
+    "hours": "{count}h",
+    "days": "{count}d",
+    "months": "{count}mês"
+  },
+  "empty": "Nenhum evento ainda. Crie uma enquete, ticket ou sorteio pra começar a popular o log.",
+  "system": "Sistema",
+  "details": "detalhes",
+  "loadMore": "Carregar mais"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Permissions",
+  "loading": "Loading catalog...",
+  "description": "Control who can use each bot command, per module. Override by role, user, Discord permission or channel. {admin} always passes. {blocked} beats {allowed}. No override = the command's default permission.",
+  "descriptionBlocked": "Blocked",
+  "descriptionAllowed": "allowed",
+  "overrideCount": "{count, plural, one {# override configured.} other {# overrides configured.}}",
+  "searchPlaceholder": "Search command or module...",
+  "filterAll": "All",
+  "noResults": "No command matches the search.",
+  "badge": {
+    "public": "Public",
+    "custom": "Custom",
+    "default": "Default: {permission}",
+    "noDefault": "No default restriction"
+  },
+  "editor": {
+    "publicHint": "Public command: any member can use it by default. Only set overrides below if you want to restrict it.",
+    "allowedRoles": "Allowed roles",
+    "deniedRoles": "Blocked roles (beat allowed)",
+    "users": "Specific users (snowflake)",
+    "userIdPlaceholder": "Discord user ID",
+    "allow": "Allow",
+    "deny": "Block",
+    "discordPermissions": "Accepted Discord permissions",
+    "channels": "Allowed channels (empty = any channel)",
+    "addRole": "+ Add role",
+    "reset": "Restore default",
+    "resetConfirmTitle": "Restore the default for /{command}?",
+    "resetConfirmLabel": "Restore",
+    "resetDone": "Default restored.",
+    "resetFailed": "Couldn't restore.",
+    "saved": "Permissions saved.",
+    "saveFailed": "Couldn't save.",
+    "invalidUserId": "User ID must be a snowflake (17-20 digits)."
+  }
+}

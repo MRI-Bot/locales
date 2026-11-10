@@ -1,0 +1,97 @@
+{
+  "header": {
+    "title": "Projects",
+    "description": "Kanban boards to organize your team's work, with an optional mirror in a Discord forum.",
+    "newBoard": "New board"
+  },
+  "empty": {
+    "title": "No boards yet",
+    "description": "Create your first board to start organizing your team's tasks.",
+    "create": "Create board"
+  },
+  "board": {
+    "deleteConfirm": "Delete board?",
+    "edit": "Edit board (name, columns, emojis)",
+    "delete": "Delete board",
+    "dropHere": "Drag cards here"
+  },
+  "toasts": {
+    "boardCreated": "Board created!",
+    "boardUpdated": "Board updated!",
+    "boardDeleted": "Board deleted.",
+    "cardCreated": "Card created.",
+    "cardUpdated": "Card updated.",
+    "cardRemoved": "Card removed."
+  },
+  "errors": {
+    "loadBoards": "Failed to load boards.",
+    "loadBoard": "Failed to load the board.",
+    "deleteBoard": "Failed to delete the board.",
+    "moveCard": "Failed to move the card."
+  },
+  "fields": {
+    "title": "Title",
+    "description": "Description"
+  },
+  "card": {
+    "new": "New card",
+    "edit": "Edit card",
+    "mirrored": "Mirrored on Discord"
+  },
+  "boardDialog": {
+    "defaultColumns": {
+      "todo": "To do",
+      "doing": "Doing",
+      "done": "Done"
+    },
+    "nameRequired": "Give the board a name.",
+    "columnsRequired": "The board needs at least one column.",
+    "createError": "Failed to create the board.",
+    "editTitle": "Edit board",
+    "name": "Name",
+    "namePlaceholder": "E.g.: Server development",
+    "optional": "Optional",
+    "columns": "Columns",
+    "columnsHint": "The emoji (including the server's custom ones) becomes the tag emoji in the Discord forum.",
+    "columnEmoji": "Column emoji",
+    "removeEmoji": "Remove emoji",
+    "columnName": "Column name",
+    "removeColumn": "Remove column",
+    "addColumn": "Add column",
+    "mirror": {
+      "label": "Mirror on Discord",
+      "description": "Creates a forum channel where each column becomes a tag and each card becomes a post."
+    }
+  },
+  "cardDialog": {
+    "fields": {
+      "title": "📋 Title",
+      "assignees": "👤 Assignees",
+      "dueAt": "⏰ Due date",
+      "column": "📍 Column",
+      "status": "Status"
+    },
+    "samples": {
+      "title": "(title)",
+      "description": "(description)",
+      "people": "{count, plural, one {# person} other {# people}}",
+      "nobody": "(nobody)",
+      "noDueAt": "(no due date)",
+      "column": "(column)",
+      "open": "open"
+    },
+    "titleRequired": "Give the card a title.",
+    "saveError": "Failed to save the card.",
+    "removeError": "Failed to remove.",
+    "titlePlaceholder": "E.g.: Fix the hospital spawn",
+    "descriptionPlaceholder": "Task details (optional)",
+    "column": "Column",
+    "dueAt": "Due date",
+    "labels": "Labels",
+    "assignees": "Assignees",
+    "post": {
+      "label": "Discord post",
+      "hint": "How the card shows up in the forum. Drag blocks, add images/gallery and use the dynamic fields (title, assignees, due date…) that the bot fills in. Without a mirror on the board, this is ignored."
+    }
+  }
+}

@@ -1,12 +1,10 @@
-# MRI Bot — traduções / translations / traducciones
+**Português** · [English](README.en.md) · [Español](README.es.md)
+
+# MRI Bot — traduções
 
 Este repositório guarda **só os textos** do [MRI Bot](https://bot.mriqbox.com.br): painel, mensagens
 do bot no Discord, nomes dos comandos de barra e os resources de FiveM/MTA. Não tem código do bot.
 Qualquer pessoa pode corrigir ou completar uma tradução abrindo um pull request.
-
-This repository holds **only the texts** of MRI Bot. No bot code lives here. Anyone can fix or
-complete a translation by opening a pull request. / Este repositorio contiene **solo los textos**
-de MRI Bot; cualquiera puede corregir o completar una traducción con un pull request.
 
 ## Como está organizado
 
@@ -18,8 +16,18 @@ languages.json   idiomas e os locales do Discord de cada um
 GLOSSARY.md      termos que não se traduzem e termos fixos
 ```
 
-Cada pasta tem um arquivo por parte do bot (`panel.json`, `bot.json`, `commands.json`,
-`tickets.json`, …). As chaves são as mesmas em todos os idiomas.
+Cada pasta tem um arquivo por área, com o mesmo nome nos três idiomas. O prefixo diz onde o texto aparece:
+
+| Prefixo | Onde aparece |
+|---|---|
+| `panel-*.json` | painel web (bot.mriqbox.com.br) e loja pública |
+| `api.json` | mensagens de erro (painel e bot) |
+| `bot-*.json` | o que o bot escreve no Discord |
+| `bot-commands.json` | nome e descrição dos comandos de barra (regra do Discord: minúsculas, sem espaço, até 32 caracteres) |
+| `srv-*.json` | mensagens que o servidor manda pro Discord, e-mails e arquivos gerados |
+| `pkg-*.json` | textos dos módulos (Discord Admin, Comunidade, tickets, sorteios, whitelist) |
+
+As chaves são as mesmas em todos os idiomas.
 
 ## Contribuir
 

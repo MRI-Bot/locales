@@ -1,0 +1,383 @@
+{
+  "tabs": {
+    "label": "Telas de Sorteios",
+    "list": "Sorteios",
+    "overview": "Visão geral"
+  },
+  "errors": {
+    "load": "Não foi possível carregar os sorteios.",
+    "deleteTemplate": "Não foi possível excluir o template."
+  },
+  "header": {
+    "title": "Sorteios",
+    "description": "Sorteios em {guild}."
+  },
+  "templates": {
+    "button": "Modelos ({count})",
+    "hint": "Criar a partir de um modelo salvo.",
+    "delete": "Excluir modelo"
+  },
+  "actions": {
+    "settings": "Configurações",
+    "create": "Criar sorteio",
+    "refreshList": "Atualizar lista"
+  },
+  "filters": {
+    "label": "Filtrar sorteios",
+    "all": "Todos",
+    "active": "Ativos",
+    "scheduled": "Agendados",
+    "ended": "Encerrados",
+    "cancelled": "Cancelados"
+  },
+  "list": {
+    "count": "{count, plural, one {# sorteio} other {# sorteios}}. Clique em um para ver os detalhes."
+  },
+  "table": {
+    "prize": "Prêmio",
+    "status": "Situação",
+    "entries": "Participantes",
+    "winners": "Ganhadores",
+    "deadline": "Prazo"
+  },
+  "overview": {
+    "emptyTitle": "Sem números ainda",
+    "emptyDescription": "As participações e os melhores horários aparecem aqui depois do primeiro sorteio.",
+    "entries": "Participações",
+    "totalEntries": "Participações no total",
+    "avgEntries": "Média por sorteio",
+    "winners": "Ganhadores",
+    "created": "Sorteios criados",
+    "activeNow": "Ativos agora",
+    "scheduled": "Agendados",
+    "bestHour": "Melhor horário para sortear",
+    "peak": "Mais gente entra por volta das {hour}, no seu fuso.",
+    "notEnough": "Ainda não há movimento suficiente.",
+    "chartHint": "Aparece depois de 10 participações, para o horário ter sentido.",
+    "topLabel": "Mais participação",
+    "topTitle": "Sorteios com mais participação"
+  },
+  "status": {
+    "active": "Ativo",
+    "scheduled": "Agendado",
+    "cancelled": "Cancelado",
+    "ended": "Encerrado"
+  },
+  "deadline": {
+    "endsIn": "Termina em {time}",
+    "startsIn": "Começa em {time}"
+  },
+  "remaining": {
+    "cancelled": "cancelado",
+    "ended": "encerrado",
+    "now": "agora",
+    "minutes": "{count}m",
+    "hours": "{count}h",
+    "days": "{count}d"
+  },
+  "empty": {
+    "active": "Nenhum sorteio ativo. Crie um agora!",
+    "scheduled": "Nenhum sorteio agendado.",
+    "ended": "Nenhum sorteio encerrado ainda.",
+    "cancelled": "Nenhum sorteio cancelado.",
+    "all": "Nenhum sorteio por aqui.",
+    "createFirst": "Criar o primeiro"
+  },
+  "units": {
+    "minutes": "Minutos",
+    "hours": "Horas",
+    "days": "Dias"
+  },
+  "settings": {
+    "loadError": "Falha ao carregar.",
+    "errors": {
+      "role": "Escolha o cargo do ping padrão.",
+      "duration": "Duração padrão inválida."
+    },
+    "saved": "Configurações salvas.",
+    "saveError": "Não foi possível salvar.",
+    "title": "Configurações de giveaway",
+    "description": "Defaults pré-preenchidos ao criar um novo sorteio.",
+    "channel": "Canal padrão",
+    "none": "Nenhum",
+    "mention": "Ping padrão",
+    "specificRole": "Cargo específico",
+    "rolePlaceholder": "Escolha o cargo",
+    "duration": "Duração padrão",
+    "emptyHint": "Vazio = sem default."
+  },
+  "report": {
+    "people": "Pessoas",
+    "notFound": "Relatório não encontrado.",
+    "unavailable": "Relatório indisponível.",
+    "header": "Relatório · {guild}",
+    "funnel": {
+      "title": "Funil",
+      "viewed": "Viram a página",
+      "clicked": "Clicaram no link",
+      "entered": "Participaram"
+    },
+    "kpi": {
+      "views": "Views",
+      "entries": "Participantes",
+      "winners": "Ganhadores",
+      "conversion": "Conversão"
+    },
+    "partner": {
+      "title": "Conversão de parceria",
+      "clicks": "Cliques no link",
+      "alreadyMembers": "Já eram membros",
+      "joined": "Entraram pelo sorteio",
+      "left": "Saíram depois"
+    },
+    "footer": "Dados agregados · gerado por MRI BOT"
+  },
+  "public": {
+    "notFound": "Giveaway não encontrado.",
+    "ended": "Encerrado",
+    "entered": "Você entrou no sorteio! 🎉",
+    "enterError": "Falha ao entrar.",
+    "loadError": "Não foi possível carregar o sorteio",
+    "giveawayIn": "Giveaway em",
+    "endsIn": "Encerra em",
+    "winners": "Ganhadores",
+    "entries": "Participantes",
+    "requirements": "Requisitos",
+    "open": "Abrir",
+    "giveawayEnded": "Giveaway encerrado",
+    "login": "Entrar com Discord pra participar",
+    "participating": "Você está participando · Boa sorte!",
+    "enter": "Entrar no sorteio",
+    "notMet": "Requisitos não atendidos"
+  },
+  "detail": {
+    "roleNotFound": "Cargo {id} não encontrado",
+    "errors": {
+      "loadEntries": "Falha ao carregar entries.",
+      "action": "Falha na operação.",
+      "share": "Falha ao gerar link.",
+      "revoke": "Falha ao revogar.",
+      "delete": "Falha ao excluir.",
+      "copy": "Não foi possível copiar."
+    },
+    "toast": {
+      "ended": "Sorteio encerrado.",
+      "cancelled": "Sorteio cancelado.",
+      "rerolled": "Reroll feito.",
+      "revoked": "Link revogado.",
+      "deleted": "Giveaway excluído.",
+      "linkCopied": "Link copiado."
+    },
+    "rerollCount": "{count}× reroll",
+    "actions": {
+      "edit": "Editar",
+      "reroll": "Reroll",
+      "viewPage": "Ver página",
+      "copyLink": "Copiar link",
+      "reuse": "Reutilizar",
+      "exportCsv": "Exportar CSV",
+      "label": "Ações:",
+      "endNow": "Encerrar agora"
+    },
+    "startsIn": "Inicia em",
+    "endsIn": "Encerra em",
+    "tabs": {
+      "analytics": "Analytics",
+      "activity": "Atividade"
+    },
+    "requirements": {
+      "hasRole": "Ter o cargo {role}",
+      "notRole": "Não ter o cargo {role}",
+      "serverDays": "Estar há {count} dia(s) no servidor",
+      "accountDays": "Conta Discord com {count}+ dias",
+      "guild": "Estar no servidor {guild}",
+      "partner": "parceiro",
+      "blacklist": "Blacklist: {count} usuário(s)",
+      "title": "Requisitos",
+      "none": "Nenhum requisito."
+    },
+    "fields": {
+      "channel": "Canal",
+      "start": "Início",
+      "created": "Criado",
+      "ends": "Encerra",
+      "entry": "Entrada",
+      "reaction": "Reação",
+      "button": "Botão",
+      "mention": "Ping ao postar"
+    },
+    "multipliers": "Multiplicadores",
+    "participants": {
+      "empty": "Ninguém entrou ainda.",
+      "altWarning": "⚠️ {count} participação(ões) de conta(s) criada(s) há menos de {days} dias, possível alt. Confira antes de sortear.",
+      "freshHint": "Conta criada há menos de {days} dias",
+      "fresh": "conta nova"
+    },
+    "activity": {
+      "created": "Sorteio criado",
+      "started": "Início (agendado)",
+      "scheduledStart": "Início agendado",
+      "entries": "{count} participante(s)",
+      "rerolled": "Rerollado {count}×",
+      "endedManually": "encerrado manualmente",
+      "winners": "{count} ganhador(es) sorteado(s)"
+    },
+    "analytics": {
+      "rejected": "Recusados",
+      "conversionHint": "participaram ÷ views",
+      "chartHint": "Gráfico aparece com mais volume.",
+      "partner": "Parceria",
+      "joined": "Entraram p/ nós",
+      "joinedHint": "não eram membros e entraram",
+      "left": "Saíram",
+      "leftHint": "entraram e saíram do parceiro (re-check no fim)"
+    },
+    "timeline": {
+      "cumulative": "Total acumulado",
+      "count": "Novos no período",
+      "empty": "Curva de entradas aparece com pelo menos 2 períodos com participação.",
+      "title": "Entradas no tempo",
+      "perHour": "por hora · pico {peak}",
+      "perDay": "por dia · pico {peak}"
+    },
+    "share": {
+      "title": "Relatório compartilhável",
+      "description": "Link público read-only pro parceiro, só números, sem participantes.",
+      "generate": "Gerar link",
+      "revoke": "Revogar",
+      "copy": "Copiar"
+    },
+    "remaining": {
+      "minutes": "{count}min",
+      "starting": "Iniciando...",
+      "ending": "Encerrando..."
+    }
+  },
+  "create": {
+    "defaults": {
+      "winnerText": "🎉 **Temos ganhador(es)!**",
+      "button": "Entrar"
+    },
+    "fields": {
+      "winners": "🏆 Ganhador(es)",
+      "prize": "🎁 Prêmio",
+      "endsAt": "⏰ Encerra",
+      "winnerCount": "🏆 Ganhadores",
+      "entryCount": "👥 Participantes",
+      "requirements": "Requisitos",
+      "prizeSample": "(prêmio)",
+      "noRequirements": "(sem requisitos)",
+      "winnerQty": "🏆 Qtd. ganhadores"
+    },
+    "errors": {
+      "loadChannels": "Falha ao carregar canais."
+    },
+    "preview": {
+      "role": "• Cargo obrigatório: @{role}",
+      "roleFallback": "cargo",
+      "serverDays": "• Estar no servidor há {count} dia(s)",
+      "accountDays": "• Conta Discord com {count} dia(s)",
+      "guild": "• Estar no servidor {guild}",
+      "otherDiscord": "(outro Discord)"
+    },
+    "validation": {
+      "prize": "Prêmio precisa ter pelo menos 2 caracteres.",
+      "channel": "Escolha o canal.",
+      "winners": "Ganhadores: 1 a 20.",
+      "duration": "Duração inválida.",
+      "durationMin": "Duração mínima: 1 minuto.",
+      "durationMax": "Duração máxima: 30 dias.",
+      "startRequired": "Defina a data/hora de início.",
+      "startInvalid": "Data de início inválida.",
+      "startFuture": "O início precisa ser no futuro.",
+      "startTooFar": "Início não pode ser a mais de 30 dias.",
+      "reminder": "Lembrete: minutos inválidos.",
+      "reminderTooLong": "O lembrete tem que ser menor que a duração.",
+      "requiredRole": "Selecione o cargo obrigatório.",
+      "excludedRole": "Selecione o cargo a bloquear.",
+      "sameRole": "O mesmo cargo não pode ser obrigatório e bloqueado.",
+      "multiplierRole": "Escolha o cargo de cada multiplicador.",
+      "multiplierDuplicate": "Cargo repetido nos multiplicadores.",
+      "multiplierRange": "Multiplicador deve ser inteiro entre 2 e 100.",
+      "serverDays": "Dias no servidor inválido.",
+      "accountDays": "Dias de conta inválido.",
+      "guildRequired": "Informe o link de invite ou Discord ID da guild requerida.",
+      "guildInvalid": "Discord ID da guild inválido.",
+      "mentionRole": "Escolha o cargo a ser pingado."
+    },
+    "template": {
+      "prizeRequired": "Preencha o prêmio antes de salvar o template.",
+      "nameRequired": "Dê um nome ao template.",
+      "saved": "Template salvo. Você pode reusar na hora de criar.",
+      "saveError": "Não foi possível salvar o template.",
+      "namePlaceholder": "Nome do template",
+      "saveAs": "Salvar como template"
+    },
+    "toast": {
+      "updated": "Sorteio atualizado. A mensagem no Discord vai refletir em segundos.",
+      "created": "Sorteio criado. Bot vai postar no canal."
+    },
+    "title": {
+      "edit": "Editar sorteio"
+    },
+    "subtitle": {
+      "edit": "As mudanças refletem na mensagem já publicada em segundos.",
+      "duplicate": "Baseado num sorteio existente, ajuste o que quiser e publique.",
+      "create": "O bot publica o anúncio. Encerramento e sorteio são automáticos."
+    },
+    "message": "Mensagem do sorteio",
+    "footerNote": "Giveaway ID: (gerado)",
+    "prizePlaceholder": "Ex: Nitro Gaming (1 mês)",
+    "prizeHint": "Nome do prêmio, aparece no campo Prêmio e no anúncio do ganhador.",
+    "channelPlaceholder": "Escolha o canal",
+    "channelLocked": "O canal não muda depois de postado.",
+    "duration": "Duração",
+    "schedule": {
+      "label": "Agendar início",
+      "on": "O bot posta nessa hora. A duração acima conta a partir do início.",
+      "off": "Desligado: posta na hora que você criar."
+    },
+    "reminder": {
+      "label": "Lembrete antes de encerrar",
+      "unit": "min antes do fim",
+      "on": "O bot avisa no canal pra dar um último gás nas entradas.",
+      "off": "Desligado: sem aviso antes de encerrar."
+    },
+    "requirements": {
+      "title": "Requisitos (opcionais)",
+      "role": "Cargo obrigatório",
+      "rolePlaceholder": "Escolha um cargo",
+      "excludedRole": "Não ter um cargo",
+      "excludedRolePlaceholder": "Cargo que impede participar",
+      "serverDays": "Tempo mínimo no servidor (dias)",
+      "accountDays": "Idade mínima da conta Discord (dias)",
+      "guild": "Estar em outro Discord",
+      "blacklist": "Blacklist (Discord IDs)",
+      "blacklistPlaceholder": "IDs separados por vírgula, espaço ou linha"
+    },
+    "multipliers": {
+      "title": "Multiplicadores de entrada (opcional)",
+      "hint": "Quem tem o cargo conta como N entradas no sorteio. Maior vence (não soma).",
+      "role": "Cargo",
+      "add": "Adicionar multiplicador"
+    },
+    "winnerMessage": {
+      "title": "Mensagem do ganhador",
+      "hint": "Personaliza o anúncio postado no canal quando o sorteio encerra. Desligado: usa a mensagem padrão do bot."
+    },
+    "saveChanges": "Salvar alterações",
+    "guildInput": {
+      "invalid": "Cole um link de invite (https://discord.gg/...) ou o Discord ID.",
+      "inviteInvalid": "Invite inválido.",
+      "placeholder": "Link de invite (https://discord.gg/...) ou Discord ID",
+      "checking": "Verificando invite...",
+      "directId": "Discord ID direto. Validação roda no momento da entrada.",
+      "hint": "Validado na página pública com o login do Discord, o bot não precisa estar nesse servidor."
+    },
+    "endsAtSampleBy": {
+      "minutes": "em {value, plural, one {# minuto} other {# minutos}}",
+      "hours": "em {value, plural, one {# hora} other {# horas}}",
+      "days": "em {value, plural, one {# dia} other {# dias}}"
+    }
+  }
+}

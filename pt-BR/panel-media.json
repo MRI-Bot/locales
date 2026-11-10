@@ -1,0 +1,89 @@
+{
+  "header": {
+    "title": "Mídia",
+    "description": "Print, áudio e vídeo que o seu servidor hospeda, com link direto.",
+    "upload": "Enviar arquivo"
+  },
+  "kinds": {
+    "image": "Imagem",
+    "audio": "Áudio",
+    "video": "Vídeo"
+  },
+  "errors": {
+    "load": "Não consegui carregar o acervo.",
+    "save": "Não consegui salvar.",
+    "upload": "Não consegui enviar o arquivo.",
+    "replace": "Não consegui substituir o arquivo.",
+    "copy": "Não consegui copiar. O link está no nome do arquivo.",
+    "rename": "Não consegui renomear.",
+    "keep": "Não consegui alterar.",
+    "delete": "Não consegui remover o arquivo."
+  },
+  "toasts": {
+    "uploaded": "Arquivo enviado.",
+    "replacedPurged": "Arquivo substituído. Quem já tinha aberto pode ver o antigo por alguns minutos.",
+    "replacedSlow": "Arquivo substituído. A versão nova pode levar até 1 dia para aparecer em todo lugar.",
+    "kept": "Arquivo mantido: não sai mais do ar pela retenção.",
+    "unkept": "Retenção de volta: sai do ar em {date}.",
+    "deleted": "Arquivo removido."
+  },
+  "replaceConfirm": {
+    "title": "Substituir este arquivo?",
+    "description": "O link continua o mesmo e passa a mostrar o arquivo novo onde já foi colado. O arquivo atual é sobrescrito e não dá pra recuperar.",
+    "confirm": "Substituir"
+  },
+  "deleteConfirm": {
+    "title": "Apagar este arquivo?",
+    "description": "O arquivo sai do ar imediatamente e o link para de funcionar em qualquer lugar onde tenha sido colado (embed do Discord, dossiê de moderação). Não dá pra desfazer.",
+    "confirm": "Apagar"
+  },
+  "notConfigured": {
+    "title": "Armazenamento ainda não configurado",
+    "body": "O módulo está ativo, mas as credenciais do armazenamento não foram definidas na plataforma, nenhum upload vai funcionar até lá. Se você é o responsável pela instalação, veja {doc}."
+  },
+  "usage": {
+    "title": "Armazenamento usado",
+    "ofQuota": "{used} de {quota}",
+    "unlimited": "{used} (sem limite)",
+    "files": "{count, plural, one {# arquivo} other {# arquivos}}",
+    "retention": "Arquivos são apagados automaticamente após {days, plural, one {# dia} other {# dias}}"
+  },
+  "optimization": {
+    "title": "Otimização",
+    "description": "Reduz o peso dos arquivos para caber mais dentro da sua cota.",
+    "disabledByPlatform": "Desativado pela plataforma.",
+    "webp": {
+      "label": "Converter imagens para WebP",
+      "description": "Corta cerca de 30% do peso sem perda visível. Acontece no envio."
+    },
+    "video": {
+      "label": "Comprimir vídeos",
+      "description": "Roda em segundo plano depois do envio. O link não muda."
+    }
+  },
+  "empty": {
+    "title": "Nenhum arquivo hospedado ainda",
+    "body": "Envie pelo botão acima ou pela sua integração, usando uma API Key com o escopo {scope} (crie em API Keys)."
+  },
+  "list": {
+    "search": "Buscar por nome ou rótulo",
+    "noMatch": "Nenhum arquivo com esse nome.",
+    "previewFile": "Visualizar arquivo",
+    "preview": "Visualizar",
+    "namePlaceholder": "Nome do arquivo (vazio tira o nome)",
+    "saveName": "Salvar nome",
+    "rename": "Renomear",
+    "renameHint": "Renomear (o link não muda)",
+    "uploadedAt": "Enviado em {date}",
+    "kept": "mantido, não sai do ar pela retenção",
+    "expiresAt": "sai do ar em {date}",
+    "copyLink": "Copiar link",
+    "unkeepHint": "Voltar a seguir a retenção do plano",
+    "keepHint": "Manter arquivo: não sai do ar pela retenção (pedido de exclusão LGPD ainda apaga)",
+    "unkeep": "Deixar de manter",
+    "keep": "Manter arquivo",
+    "replaceHint": "Substituir mantendo o link",
+    "replace": "Substituir arquivo",
+    "delete": "Apagar arquivo"
+  }
+}

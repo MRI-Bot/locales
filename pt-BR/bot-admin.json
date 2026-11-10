@@ -1,0 +1,181 @@
+{
+  "noPermission": "Sem permissão para {command} ({reason}).",
+  "reason": "Motivo",
+  "noReason": "_(sem motivo)_",
+  "common": {
+    "empty": "_(vazio)_",
+    "previewTitle": "Preview (dry-run)",
+    "confirmTitle": "Confirma?",
+    "delete": "Apagar",
+    "cancel": "Cancelar",
+    "cancelledTitle": "Cancelado",
+    "nothingDeletedBody": "Nenhuma mensagem foi apagada.",
+    "deletingTitle": "Apagando…",
+    "timeoutTitle": "Tempo esgotado",
+    "notDeleted": "⚠️ {count} não pôde(ram) ser apagada(s) — já removidas, fixadas ou sem permissão."
+  },
+  "kick": {
+    "done": "{user} expulso (case **#{case}**).",
+    "failed": "Falha ao expulsar: {error}"
+  },
+  "ban": {
+    "done": "{user} banido (case **#{case}**).",
+    "failed": "Falha ao banir: {error}",
+    "duration": "Duração",
+    "durationValue": "{minutes} min",
+    "deletedMessages": "Msgs deletadas",
+    "deletedDays": "{days} dia(s)"
+  },
+  "mute": {
+    "done": "{user} silenciado por **{minutes}min** (case **#{case}**).",
+    "failed": "Falha ao silenciar: {error}"
+  },
+  "note": {
+    "done": "Nota registrada pra {user} (case **#{case}**).",
+    "content": "Conteúdo",
+    "failed": "Falha ao registrar nota: {error}"
+  },
+  "ping": {
+    "title": "Pong",
+    "response": "Resposta",
+    "gateway": "Conexão com o Discord",
+    "measuring": "medindo…"
+  },
+  "softban": {
+    "done": "{user} softbanido (case **#{case}**, {days}d de msgs deletadas).",
+    "failed": "Falha no softban: {error}",
+    "unbanAuditReason": "{reason} (expulsão com mensagens apagadas)"
+  },
+  "unban": {
+    "invalidId": "User ID precisa ser snowflake Discord (17-20 dígitos).",
+    "done": "{user} desbanido (case **#{case}**).",
+    "notBanned": "{user} não está banido neste servidor — confira o User ID.",
+    "failed": "Falha ao desbanir: {error}"
+  },
+  "unmute": {
+    "done": "{user} destimutado (case **#{case}**).",
+    "failed": "Falha ao destimutar: {error}"
+  },
+  "warn": {
+    "done": "{user} avisado (case **#{case}**).",
+    "failed": "Falha ao avisar: {error}"
+  },
+  "cargo": {
+    "guildOnly": "Use dentro de um servidor.",
+    "noAccessTitle": "Sem permissão",
+    "noAccessBody": "Você não tem acesso a este comando. Quem pode usar é definido no painel, em **Permissões › Discord Admin**.",
+    "memberNotFound": "Membro não encontrado no servidor.",
+    "botTooLowTitle": "Não consigo mexer nesse cargo",
+    "botTooLowBody": "**{role}** está acima do meu cargo mais alto. Suba o meu na lista de cargos.",
+    "authorTooLowTitle": "Cargo acima do seu",
+    "authorTooLowBody": "**{role}** está no mesmo nível ou acima do seu cargo mais alto.",
+    "managedTitle": "Cargo gerenciado",
+    "managedBody": "**{role}** é controlado por uma integração e não pode ser dado ou tirado à mão.",
+    "noChangeTitle": "Nada mudou",
+    "alreadyHas": "**{member}** já tem o cargo **{role}**.",
+    "doesNotHave": "**{member}** não tem o cargo **{role}**.",
+    "auditReason": "{command} por {user}",
+    "addedTitle": "Cargo adicionado",
+    "removedTitle": "Cargo removido",
+    "addedBody": "**{role}** em **{member}**.",
+    "removedBody": "**{role}** de **{member}**.",
+    "failedTitle": "Não consegui alterar"
+  },
+  "membercount": {
+    "title": "Contagem — {guild}",
+    "total": "👥 Total",
+    "humans": "🙂 Humanos",
+    "bots": "🤖 Bots",
+    "boosts": "🚀 Boosts",
+    "tierField": "⭐ Nível de boost",
+    "tier0": "Nível 0 (sem impulso)",
+    "tier": "Nível {tier}"
+  },
+  "prune": {
+    "invalidRegex": "Regex inválido. Exemplo: `^!comando|spam`",
+    "botMissingPerms": "O bot não tem as permissões necessárias neste canal (Ver canal, Ver histórico de mensagens e Gerenciar mensagens). Ajuste as permissões do cargo dele aqui e tente de novo.",
+    "previewNoMatch": "_(nenhuma mensagem casaria com os filtros)_",
+    "previewOthers": "_+{count} outras_",
+    "previewBody": "{count} mensagem(ns) **seriam** deletada(s) — repete sem `dry_run` pra confirmar.",
+    "reasonErrors": "o Discord recusou a exclusão de {count} mensagem(ns) — costuma ser mensagem já apagada ou fixada, ou permissão insuficiente no canal.",
+    "reasonScan": "nada casou com os filtros nas {count} mensagens mais recentes — a varredura parou no limite antes de achar algo.",
+    "reasonNoMatch": "nenhuma mensagem casou com os filtros.",
+    "nothingDeleted": "Nada foi apagado: {reason}",
+    "deleted": "**{count}** mensagem(ns) deletada(s) deste canal.",
+    "oldDeleted": "({count} com mais de 14 dias, apagadas uma a uma)",
+    "stoppedTime": "⏱️ Parei pelo limite de tempo — rode de novo pra continuar.",
+    "stoppedScan": "🔎 Limite de varredura atingido — rode de novo pra ir mais fundo.",
+    "timeout": "⏱️ A limpeza demorou mais que o esperado e a resposta se perdeu. Parte das mensagens pode já ter sido apagada — rode {command} de novo pra continuar.",
+    "failed": "Falha no prune: {error}",
+    "confirmOnlyFrom": "• apenas de `{user}`",
+    "confirmOnlyMatching": "• apenas as que casam com `{regex}`",
+    "confirmBody": "Vou apagar até **{count}** mensagem(ns) deste canal.",
+    "confirmNoFilter": "• sem filtro — as mais recentes do canal",
+    "confirmNoUndo": "Isso **não tem desfazer**. Use `dry_run: true` se quiser ver antes.",
+    "deletingBody": "Isso pode levar alguns segundos."
+  },
+  "purge": {
+    "moreChannels": "_+{count} outros canais_",
+    "progress": "Mensagens de `{user}`: **{count}** apagada(s) até agora.\nCanais varridos: {done}/{total}.",
+    "skipped": "⚠️ {count} canal(is) pulado(s): o bot não consegue ler ou apagar ali (Ver canal, Ver histórico e Gerenciar mensagens).",
+    "archivedThreads": "_Threads arquivadas não entram na varredura._",
+    "nothingTitle": "Nada foi apagado",
+    "nothingBody": "Nenhuma mensagem de `{user}` foi encontrada nos canais que o bot alcança.",
+    "doneTitle": "Limpeza concluída",
+    "done": "**{count}** mensagem(ns) de `{user}` apagada(s).",
+    "doneWithCase": "**{count}** mensagem(ns) de `{user}` apagada(s) — caso #{case}.",
+    "alreadyDeleted": "{count} mensagem(ns) já tinham sido apagadas.",
+    "stepTimeout": "⏱️ Uma etapa demorou mais que o esperado e a resposta se perdeu.{done} Rode {command} de novo pra continuar.",
+    "failedStep": "Falha no purge: {error}.{done}",
+    "failed": "Falha no purge: {error}",
+    "partialScan": "_Varredura parcial: {done}/{total} canais em uma etapa — o total real é maior ou igual._",
+    "noneFound": "_(nenhuma mensagem encontrada)_",
+    "previewBody": "**{count}** mensagem(ns) de `{user}` **seriam** apagada(s).",
+    "confirmDays": "Vou apagar **todas** as mensagens de `{user}` em todos os canais que o bot alcança, dos últimos **{days}** dia(s).",
+    "confirmAll": "Vou apagar **todas** as mensagens de `{user}` em todos os canais que o bot alcança — **histórico inteiro**.",
+    "confirmNote": "Em servidor grande isso leva minutos. Isso **não tem desfazer**. Use `dry_run: true` se quiser ver antes.",
+    "scanning": "Varrendo os canais do servidor.",
+    "continue": "Continuar",
+    "pausedTitle": "Pausado",
+    "pausedBody": "**{count}** mensagem(ns) de `{user}` apagada(s) até agora ({done}/{total} canais). Clique em Continuar pra seguir de onde parou.",
+    "stoppedTitle": "Parado",
+    "stoppedBody": "**{count}** mensagem(ns) de `{user}` apagada(s). Rode {command} de novo pra terminar."
+  },
+  "shards": {
+    "status": {
+      "online": "✅ Online",
+      "connecting": "🔄 Conectando",
+      "reconnecting": "🔄 Reconectando",
+      "idle": "💤 Idle",
+      "nearly": "⚠️ Quase pronta",
+      "disconnected": "❌ Desconectada",
+      "waitingGuilds": "⏳ Aguardando guilds",
+      "identifying": "🔑 Identificando",
+      "resuming": "▶️ Resumindo"
+    },
+    "notAvailable": "N/A",
+    "listLine": "**Shard {id}** — {status} | {guilds} servidores | {ping}ms",
+    "listTitle": "Status das Shards",
+    "listFooter": "Total: {guilds} servidores | Ping médio: {ping}ms | {count} shard(s)",
+    "statsTitle": "Estatísticas das Shards",
+    "statsServers": "Servidores: **{count}**",
+    "statsUsers": "Usuários em cache: **{count}**",
+    "statsPing": "Ping: **{ping}ms**",
+    "statsUptime": "Uptime: **{uptime}**",
+    "statsFooter": "Total: {guilds} servidores | {users} usuários em cache",
+    "notFound": "Shard **{id}** não encontrada.",
+    "fieldStatus": "Status",
+    "fieldServers": "Servidores",
+    "fieldCachedUsers": "Usuários em cache",
+    "fieldPing": "Ping",
+    "fieldUptime": "Uptime",
+    "notSharded": "Bot não está rodando com sharding ativo.",
+    "restartingOne": "Reiniciando shard **{id}**...",
+    "restartingAll": "Reiniciando **todas** as shards..."
+  },
+  "selector": {
+    "added": "Adicionado: {roles}",
+    "removed": "Removido: {roles}",
+    "noChange": "Sem alteração."
+  }
+}

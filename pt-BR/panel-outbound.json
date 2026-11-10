@@ -1,0 +1,66 @@
+{
+  "history": {
+    "empty": "Nenhuma entrega ainda.",
+    "retry": "Reenviar",
+    "retryScheduled": "Reenvio agendado, será entregue quando o player estiver online.",
+    "retryError": "Não foi possível reenviar.",
+    "noAttempts": "Sem tentativas registradas.",
+    "sources": {
+      "panel": "Painel",
+      "discord": "Discord",
+      "store": "Loja",
+      "subscription": "Assinatura",
+      "referral": "Indicações",
+      "boost": "Boost",
+      "system": "Sistema"
+    }
+  },
+  "deliveries": {
+    "title": "Histórico de entregas",
+    "description": "Toda ação enviada ao servidor, pelo painel, loja, assinatura ou Discord. Expanda pra ver as tentativas e reenviar as que falharam.",
+    "empty": "Nenhuma entrega registrada ainda."
+  },
+  "notify": {
+    "toggle": "Avisar o jogador no jogo",
+    "silent": "Sem aviso, a entrega acontece em silêncio e o jogador descobre pelo inventário.",
+    "titlePlaceholder": "Título (ex.: Compra entregue)",
+    "messagePlaceholder": "Mensagem (ex.: você recebeu '{amount}' coins!)",
+    "hint": "Use {player} pro nome de quem recebeu.",
+    "hintWithVars": "Use {player} pro nome de quem recebeu e {vars} pras variáveis da ação.",
+    "channelsNote": "Canal desligado na config do resource não aparece, mesmo marcado aqui.",
+    "channels": {
+      "chat": {
+        "label": "Chat",
+        "hint": "Mensagem no chat do jogo"
+      },
+      "oxlib": {
+        "label": "ox_lib",
+        "hint": "Notificação lateral do ox_lib"
+      },
+      "nui": {
+        "label": "Caixa MRI",
+        "hint": "Caixa própria do resource"
+      },
+      "celebration": {
+        "label": "Comemoração",
+        "hint": "Tela cheia com balões"
+      }
+    }
+  },
+  "vars": {
+    "title": "Variáveis",
+    "add": "Variável",
+    "empty": "Sem variáveis, o payload é livre (JSON) no disparo.",
+    "keyPlaceholder": "chave (ex: amount)",
+    "required": "obrig.",
+    "remove": "Remover variável",
+    "labelPlaceholder": "rótulo (opcional)",
+    "optionsPlaceholder": "opções separadas por vírgula",
+    "min": "min",
+    "max": "max",
+    "default": "default"
+  },
+  "form": {
+    "textPlaceholder": "'{serial}' / texto"
+  }
+}

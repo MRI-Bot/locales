@@ -1,0 +1,98 @@
+{
+  "header": {
+    "title": "Planejamento",
+    "description": "Modele seu negócio e seus projetos com canvases (BMC, Lean, PM Canvas) e documentos.",
+    "newDoc": "Novo documento"
+  },
+  "nav": {
+    "label": "Planejamentos",
+    "active": "Ativos",
+    "archived": "Arquivados"
+  },
+  "empty": {
+    "archived": "Nenhum documento arquivado",
+    "none": "Nenhum documento ainda",
+    "hint": "Crie seu primeiro canvas pra modelar o negócio ou um projeto.",
+    "create": "Criar documento"
+  },
+  "card": {
+    "progress": "{filled}/{total} blocos preenchidos",
+    "restore": "Restaurar"
+  },
+  "unknownTemplate": "Modelo desconhecido para este documento.",
+  "toasts": {
+    "created": "Documento criado!",
+    "archived": "Documento arquivado.",
+    "restored": "Documento restaurado.",
+    "deleted": "Documento excluído."
+  },
+  "errors": {
+    "load": "Falha ao carregar.",
+    "open": "Falha ao abrir o documento.",
+    "restore": "Falha ao restaurar."
+  },
+  "fields": {
+    "title": "Título",
+    "descriptionOptional": "Descrição (opcional)"
+  },
+  "addCard": "Adicionar card",
+  "editor": {
+    "saveError": "Falha ao salvar.",
+    "titleRequired": "O título não pode ficar vazio.",
+    "updated": "Documento atualizado.",
+    "updateError": "Falha ao atualizar.",
+    "archive": "Arquivar",
+    "archiveConfirm": {
+      "title": "Arquivar documento?",
+      "description": "\"{title}\" sai da lista de ativos, mas pode ser restaurado na aba Arquivados."
+    },
+    "archiveError": "Falha ao arquivar.",
+    "deleteConfirm": {
+      "title": "Excluir documento?",
+      "description": "\"{title}\" será removido permanentemente. Essa ação não pode ser desfeita."
+    },
+    "deleteError": "Falha ao excluir.",
+    "titlePlaceholder": "Título do documento",
+    "editMeta": "Editar título e descrição",
+    "edit": "Editar",
+    "preview": "Visualizar",
+    "views": {
+      "list": "Lista",
+      "board": "Board",
+      "canvas": "Canvas"
+    },
+    "emptyDoc": "Documento vazio.",
+    "markdownPlaceholder": "Escreva em markdown…",
+    "saveStatus": {
+      "retry": "Tentar salvar",
+      "saving": "Salvando…",
+      "pending": "Pendente",
+      "saved": "Salvo"
+    }
+  },
+  "cardDialog": {
+    "new": "Novo card",
+    "edit": "Editar card",
+    "titlePlaceholder": "A frase do post-it",
+    "detail": "Detalhe",
+    "noDetail": "Sem detalhe.",
+    "detailPlaceholder": "Especifique aqui (markdown suportado)…",
+    "color": "Cor",
+    "noColor": "Sem cor",
+    "done": "Pronto"
+  },
+  "create": {
+    "typeRequired": "Escolhe um tipo de documento.",
+    "titleRequired": "Dá um título pro documento.",
+    "error": "Falha ao criar o documento.",
+    "template": "Modelo",
+    "titlePlaceholder": "Ex: Modelo de negócio do mri_botcreator",
+    "descriptionPlaceholder": "Um resumo curto do que este documento cobre."
+  },
+  "board": {
+    "dropHere": "Arraste cards pra cá"
+  },
+  "canvas": {
+    "empty": "vazio"
+  }
+}

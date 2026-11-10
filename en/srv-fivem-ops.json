@@ -1,0 +1,38 @@
+{
+  "log": {
+    "title": "🎮 FiveM operation",
+    "titleFailed": "🎮 FiveM operation failed",
+    "description": "`/{command}` run by **{actor}**.",
+    "result": "Result"
+  },
+  "defaultKickReason": "Removed by an administrator.",
+  "defaultRestartReason": "The server is restarting.",
+  "screenshot": {
+    "uploadFailed": "Couldn't upload the image: {error}",
+    "playerScreen": "{name}'s screen.",
+    "captured": "Screen captured."
+  },
+  "roleSyncActor": "Role sync",
+  "linkPanel": {
+    "text": "## 🎮 Link your FiveM account\n\nWhen you join the server without a link, a 4-letter code shows up on the connection screen. Click the button below, paste the code and you are done: then just reconnect.",
+    "button": "Link account"
+  },
+  "oauth": {
+    "invalidLink": "Invalid link (missing parameters).",
+    "notConfigured": "OAuth is not configured on the server.",
+    "cancelled": "Authorization cancelled on Discord. You can close this and use /link.",
+    "invalidReturn": "Invalid response from Discord.",
+    "sessionExpired": "Invalid or expired link session. Reconnect to FiveM and try again.",
+    "linkFailed": "Linking failed.",
+    "successTitle": "Account linked!",
+    "successHello": "Hi, {user} — your Discord account was linked to your license.",
+    "successBack": "Go back to FiveM: you'll get in automatically in a few seconds.",
+    "closeTab": "You can close this tab.",
+    "errorTitle": "Couldn't link",
+    "errorHint": "You can go back to FiveM and use the {command} command with the code shown on screen.",
+    "tokenExchangeFailed": "Failed to exchange the OAuth code with Discord.",
+    "noAccessToken": "Discord didn't return an access_token.",
+    "userFetchFailed": "Failed to fetch the user from Discord.",
+    "linkCommand": "link"
+  }
+}

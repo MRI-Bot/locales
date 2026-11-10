@@ -1,0 +1,10 @@
+{
+  "docs": {
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookie Policy"
+  },
+  "back": "Back to dashboard",
+  "review": "Review my cookie preferences",
+  "reviewHint": "The banner comes back so you can decide again."
+}

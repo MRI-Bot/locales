@@ -1,0 +1,253 @@
+{
+  "fallbackServer": "server",
+  "bug": {
+    "state": {
+      "NEW": "🆕 Open",
+      "UNDER_REVIEW": "👀 Under review",
+      "NEEDS_INFO": "❓ Needs info",
+      "CONFIRMED": "🐛 Confirmed",
+      "DUPLICATE": "🔁 Duplicate",
+      "FIXED": "✅ Fixed",
+      "NOT_A_BUG": "🚫 Dismissed"
+    },
+    "severity": {
+      "LOW": "🟢 Low",
+      "MEDIUM": "🔵 Medium",
+      "HIGH": "🟠 High",
+      "CRITICAL": "🔴 Critical"
+    },
+    "triage": {
+      "staffOnly": "Only the server staff can triage reports.",
+      "intro": "Report triage. Invalid transitions are rejected by the server.",
+      "statePlaceholder": "Change status",
+      "severityPlaceholder": "Change severity",
+      "assignPlaceholder": "Assign someone",
+      "applied": "Triage applied."
+    },
+    "note": {
+      "duplicateLabel": "Original report number",
+      "fixedLabel": "What was done?",
+      "duplicateInvalid": "Enter the original report number (e.g. 12)."
+    },
+    "error": {
+      "invalidTransitionWith": "Transition not allowed from the current status. Possible: {allowed}.",
+      "invalidTransition": "Transition not allowed from the current status.",
+      "resolutionNoteRequired": "Marking as fixed requires saying what was done.",
+      "noteRequired": "This change requires a justification.",
+      "duplicateRefRequired": "Enter the original report number.",
+      "duplicateSelf": "A report can't be a duplicate of itself.",
+      "duplicateNotFound": "No report with that number was found in this server.",
+      "triageFailed": "Couldn't apply the triage. Try again.",
+      "fieldRequired": "The **{label}** field must be filled in correctly.",
+      "someFieldRequired": "A required form field was not filled in.",
+      "channelNotConfigured": "The bug channel hasn't been set up yet. Let the server staff know.",
+      "createFailed": "Couldn't register your report right now. Try again in a moment."
+    },
+    "disabled": "Bug reporting is disabled in this server.",
+    "formNotConfigured": "The bug form hasn't been set up yet. Let the server staff know.",
+    "sessionExpired": "The form session expired. Run {command} again.",
+    "threadName": "Bug #{number} · {title}",
+    "postFailed": "Your report was registered, but I couldn't post it in the channel. Let the staff know.",
+    "reported": "Bug **#{number}** reported in {channel}. Thanks!",
+    "form": {
+      "title": "Report a bug",
+      "titleLabel": "Report title",
+      "titlePlaceholder": "Sum up the problem in one line"
+    }
+  },
+  "sug": {
+    "decision": {
+      "UNDER_REVIEW": "Mark as under review",
+      "APPROVED": "Approve",
+      "REJECTED": "Reject",
+      "IMPLEMENTED": "Mark as implemented",
+      "DUPLICATE": "Mark as duplicate",
+      "PENDING": "Reopen voting"
+    },
+    "modal": {
+      "rejectLabel": "Rejection reason",
+      "rejectPlaceholder": "The author sees this text on the card and in the DM.",
+      "duplicateLabel": "Original suggestion number",
+      "duplicatePlaceholder": "E.g. 12",
+      "dmLabel": "DM to the author",
+      "dmPlaceholder": "Empty = decide without notifying the author."
+    },
+    "manage": {
+      "staffOnly": "Only the server staff can manage suggestions.",
+      "placeholder": "What to do with this suggestion?",
+      "intro": "Choose the decision. Invalid transitions are rejected by the server."
+    },
+    "duplicateInvalid": "Enter the original suggestion number (e.g. 12).",
+    "decisionApplied": "{emoji} Decision applied. The card updates in a moment.",
+    "threadNameWithTitle": "Suggestion #{number} · {title}",
+    "threadName": "Suggestion #{number}",
+    "authorDm": "{emoji} Your suggestion **#{number} · {title}** in **{server}** was: **{label}**.",
+    "aServer": "a server",
+    "error": {
+      "invalidTransitionWith": "This transition isn't allowed from the current status. Possible: {allowed}.",
+      "invalidTransition": "This transition isn't allowed from the current status.",
+      "reasonRequired": "Rejecting requires a reason.",
+      "duplicateRefRequired": "Enter the original suggestion number.",
+      "duplicateSelf": "A suggestion can't be a duplicate of itself.",
+      "duplicateNotFound": "No suggestion with that number was found in this server.",
+      "decisionFailed": "Couldn't apply the decision. Try again.",
+      "invalidData": "Couldn't send: check the details and try again.",
+      "createFailed": "Couldn't send your suggestion right now. Try again in a moment."
+    },
+    "vote": {
+      "closed": "This suggestion has already been decided — voting is closed.",
+      "disabled": "Suggestion voting is disabled in this server.",
+      "failed": "Couldn't register your vote. Try again in a moment."
+    },
+    "form": {
+      "title": "Send suggestion",
+      "summaryLabel": "Suggestion summary",
+      "summaryPlaceholder": "In one sentence, what do you propose?",
+      "detailsLabel": "Details",
+      "detailsPlaceholder": "Explain the idea and why it would help the server."
+    },
+    "dedup": {
+      "sendAnyway": "Send anyway",
+      "view": "View #{number}",
+      "found": "I found a similar suggestion: **#{number} · {title}**.\nIf it's the same idea, vote on it instead of opening another."
+    },
+    "sentForReview": "Suggestion sent for staff review. You'll be notified when it's published.",
+    "postFailed": "Your suggestion was registered, but I couldn't post it in the configured channel. Let the staff know.",
+    "sentIn": "Suggestion **#{number}** sent in {channel}.",
+    "draftMissing": "I couldn't find the draft. Send the suggestion again from the panel.",
+    "registered": "Suggestion registered.",
+    "sent": "Suggestion **#{number}** sent."
+  },
+  "precheck": {
+    "disabled": "Suggestions are disabled in this server.",
+    "blocked": "You are blocked from sending suggestions.",
+    "roleRequired": "You don't have the role required to send suggestions.",
+    "accountAge": "Your Discord account is too new to send suggestions.",
+    "guildAge": "You joined the server recently. Try again later.",
+    "cooldown": "Wait {wait} before sending another suggestion.",
+    "dayLimit": "You've reached today's suggestion limit.",
+    "maxOpen": "You already have too many open suggestions. Wait for the staff to decide.",
+    "failed": "Couldn't send your suggestion right now.",
+    "seconds": "{n}s",
+    "minutes": "{n} min",
+    "hours": "{n}h"
+  },
+  "unknownCategory": "Unknown category.",
+  "anon": {
+    "modal": {
+      "confessionLabel": "Your message",
+      "staffLabel": "What do you want to tell the staff",
+      "defaultDisclosure": "The staff can see who sent it, in case of abuse.",
+      "confessionTitle": "Anonymous message",
+      "staffTitle": "Talk to the staff"
+    },
+    "staffRow": {
+      "reply": "Reply",
+      "close": "Close",
+      "unmask": "Reveal author"
+    },
+    "replyToStaff": "Reply to the staff",
+    "reply": {
+      "staffLabel": "Reply to the member",
+      "memberLabel": "Your reply",
+      "staffTitle": "Reply anonymously",
+      "staffSent": "✅ Reply sent to the member.",
+      "staffDmClosed": "⚠️ Saved, but the member has DMs closed — they didn't receive it.",
+      "staffFailed": "Couldn't reply right now.",
+      "memberSent": "✅ Sent to the staff. Your identity stays anonymous."
+    },
+    "sendFailed": "Couldn't send.",
+    "sendFailedNow": "Couldn't send right now.",
+    "closed": "✅ Conversation closed.",
+    "closeFailed": "Couldn't close it right now.",
+    "unmask": {
+      "denied": "Not allowed.",
+      "result": "🕵️ Author: {user} (`{id}`)\n_This access was logged in the server history under your name._",
+      "failed": "Couldn't look it up right now."
+    },
+    "unavailable": "Couldn't reach the server right now. Try again in a moment.",
+    "disabled": "Anonymous messages are disabled in this server.",
+    "confessionsDisabled": "Anonymous confessions are disabled in this server.",
+    "staffLineDisabled": "The direct line to the staff is disabled in this server.",
+    "confessionsInactive": "Anonymous confessions aren't active in this server.",
+    "staffLineInactive": "The anonymous line to the staff isn't active in this server.",
+    "cannotSendNow": "You can't send right now.",
+    "submit": {
+      "queued": "✅ Sent for staff review. It shows up as soon as it is approved.",
+      "confessionSent": "✅ Sent. It shows up in the channel in a moment.",
+      "staffSent": "✅ Sent to the staff. If they reply, you'll get it by direct message.",
+      "failed": "Couldn't send right now. Try again in a few moments."
+    }
+  },
+  "invites": {
+    "failed": "Couldn't look up the invites right now. Try again in a moment.",
+    "title": "{name}'s invites",
+    "qualified": "Confirmed",
+    "pending": "Pending",
+    "position": "Position",
+    "pendingFooter": "Pending invites are confirmed after the person stays in the server for a while.",
+    "none": "You haven't brought anyone yet. Share your invite link to get started!"
+  },
+  "inviteRanking": {
+    "failed": "Couldn't load the ranking right now. Try again in a moment.",
+    "empty": "Nobody has brought members yet. Be the first!",
+    "line": "{medal} {user} — {count, plural, one {**#** invite} other {**#** invites}}",
+    "title": "🏆 Invite ranking",
+    "footer": "{count, plural, one {# person} other {# people}} in the ranking"
+  },
+  "staff": {
+    "postingClosed": "This position is no longer open.",
+    "noForm": "This position doesn't have a form set up yet. Let the staff know.",
+    "draftExpired": "Your previous answers expired. Click the position on the panel to start over.",
+    "postingClosedNotSent": "This position is no longer open — your application was not sent.",
+    "formChanged": "This position's form changed while you were answering. Click the position on the panel to start over.",
+    "pageSaved": "✅ Part **{page} of {total}** saved. Click continue to answer the rest — nothing is sent until the last part.",
+    "continue": "Continue ({page}/{total})",
+    "partsExpired": "The answers from the previous parts expired, so a half-filled application couldn't be sent. Click the position on the panel to answer again.",
+    "submitted": "✅ Application **#{number}** sent for **{posting}**.\nThe staff will review it and get back to you here.",
+    "error": {
+      "cannotApply": "You can't apply to this position right now.",
+      "disabled": "Applications are closed in this server.",
+      "fieldRequired": "A required field was left unanswered.",
+      "submitFailed": "Couldn't send right now. Try again in a moment."
+    },
+    "precheck": {
+      "disabled": "Staff applications are closed in this server.",
+      "blocked": "You are blocked from applying in this server.",
+      "roleRequired": "You don't have the role required to apply.",
+      "accountAge": "Your Discord account is too new to apply.",
+      "cooldown": "Wait {wait} before applying again.",
+      "alreadyAppliedNumber": "You already sent application **#{number}** and it is still under review.",
+      "alreadyApplied": "You already have an application under review for this position.",
+      "alreadyApproved": "You were already approved for this position.",
+      "maxOpen": "You already have too many open applications. Wait for the staff to reply.",
+      "failed": "Couldn't open the form right now."
+    },
+    "decision": {
+      "UNDER_REVIEW": "Under review",
+      "APPROVED": "Approve",
+      "REJECTED": "Reject"
+    },
+    "decisionTitle": {
+      "UNDER_REVIEW": "Mark application under review",
+      "APPROVED": "Approve application",
+      "REJECTED": "Reject application"
+    },
+    "staffOnly": "Only the server staff can decide on applications.",
+    "modal": {
+      "dmLabel": "DM to the applicant",
+      "dmPlaceholder": "Empty = decide without notifying the applicant.",
+      "noteLabel": "Internal reason (not sent to the applicant)"
+    },
+    "decisionFailed": "Couldn't record the decision right now.",
+    "result": {
+      "marked": "✅ Application **#{number}** marked as **{state}**.",
+      "dmSent": "📨 The applicant was notified by DM.",
+      "dmFailed": "⚠️ The DM wasn't delivered: {error}",
+      "unknown": "unknown",
+      "nobodyNotified": "🔇 Nobody was notified — the message text was empty.",
+      "roleGranted": "🏷️ Role applied.",
+      "roleFailed": "⚠️ The role wasn't applied: {error}"
+    }
+  }
+}

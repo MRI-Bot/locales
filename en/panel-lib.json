@@ -1,0 +1,12 @@
+{
+  "storeSlug": {
+    "tooShort": "At least 3 characters.",
+    "hyphenEdges": "Can't start or end with a hyphen.",
+    "reserved": "\"{slug}\" is reserved by the platform."
+  },
+  "apiClient": {
+    "outage": "MRI BOT is updating. Try again in a few seconds.",
+    "requestFailed": "Request failed ({status})",
+    "badJson": "Invalid response from the server (malformed JSON)."
+  }
+}

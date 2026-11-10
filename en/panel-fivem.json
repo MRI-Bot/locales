@@ -1,0 +1,661 @@
+{
+  "tabs": {
+    "dashboard": "Overview",
+    "config": "Settings",
+    "links": "Links",
+    "cards": "Connection card",
+    "moderation": "Moderation",
+    "actions": "Actions",
+    "deliveries": "Deliveries",
+    "statusPanel": "Status panel",
+    "cdn": "CDN",
+    "activity": "Activity",
+    "logs": "Logs"
+  },
+  "nav": {
+    "label": "FiveM screens",
+    "groups": {
+      "players": "Players",
+      "automation": "Automation",
+      "server": "Server",
+      "records": "Records"
+    }
+  },
+  "header": {
+    "description": "Integration of the FiveM server with the Discord of {guild}."
+  },
+  "config": {
+    "loadError": "Could not load the settings.",
+    "ttlRange": "TTL must be between 1 and 60 minutes.",
+    "saved": "Settings saved",
+    "saveError": "Could not save.",
+    "title": "Module settings",
+    "subtitle": "Applies to all API keys on this server.",
+    "altAccounts": {
+      "label": "Allow alternate accounts",
+      "description": "When on, one Discord account can link several FiveM licenses on the server. Default is 1 Discord ↔ 1 license."
+    },
+    "ttl": {
+      "label": "Link code lifetime",
+      "minutes": "minutes",
+      "hint": "How long the player has between connecting to FiveM and running {command} on Discord. 1 to 60.",
+      "invalid": "Invalid value. Use 1 to 60."
+    },
+    "linkPanel": {
+      "label": "Link panel",
+      "description": "Posts a message with the {button} button: the player clicks it, pastes the code shown when joining FiveM and that's it, no need for {command}. Posting again replaces the previous panel.",
+      "channelPlaceholder": "Panel channel",
+      "publish": "Post panel",
+      "republish": "Repost panel",
+      "published": "Link panel posted",
+      "publishError": "Could not post the panel."
+    }
+  },
+  "preview": {
+    "tabs": {
+      "linking": "Linking",
+      "awaitingRole": "No role",
+      "queue": "Queue"
+    },
+    "note": "Preview of the FiveM connection screen. Data (code, position) are examples."
+  },
+  "customization": {
+    "colors": {
+      "serverDefault": "Default (from the server)",
+      "neutral": "Neutral",
+      "accent": "Blue (Accent)",
+      "good": "Green (Good)",
+      "warning": "Amber (Warning)",
+      "attention": "Red (Attention)"
+    },
+    "groups": {
+      "denials": "Denials & notices",
+      "denialsHint": "Placeholders: {reason} (denial reason), {minutes} (minutes left)."
+    },
+    "fields": {
+      "title": "Title",
+      "message": "Message",
+      "hint": "Tip",
+      "oneClickButton": "1-click button",
+      "webButton": "Web button",
+      "recheckButton": "Check button",
+      "discordButton": "Discord button",
+      "deniedDefault": "Access denied",
+      "deniedRoleRemoved": "Role removed while in queue",
+      "noRoleTimeout": "Timed out without role",
+      "linkTimeout": "Timed out while linking",
+      "serviceUnavailable": "Service unavailable"
+    },
+    "loadError": "Could not load the customization.",
+    "httpsRequired": "Image and invite URLs must be https.",
+    "saved": "Customization saved. Applies on the server in ~1 min.",
+    "title": "Card appearance",
+    "subtitle": "Images, color and texts of the linking, queue and role cards. Applies on the server in ~1 min, no restart needed.",
+    "logo": {
+      "label": "Logo",
+      "hint": "Square, ~200×200. PNG/JPG/WebP."
+    },
+    "banner": {
+      "label": "Banner",
+      "hint": "Wide, ~4:1 ratio (e.g. 600×150)."
+    },
+    "imageHttps": "The image URL must be https (use the upload if you don't have one).",
+    "color": {
+      "label": "Accent color",
+      "hint": "Color of the buttons and highlights on the cards."
+    },
+    "invite": {
+      "label": "Discord invite",
+      "placeholder": "https://discord.gg/your-server",
+      "hint": "\"Open Discord\" button on the cards. Empty = hides the button.",
+      "invalid": "Must be an https URL."
+    },
+    "messages": {
+      "title": "Card texts and messages",
+      "emptyDefault": "empty = default"
+    },
+    "undo": "Undo"
+  },
+  "statusPanel": {
+    "layouts": {
+      "default": {
+        "label": "Default",
+        "hint": "A section with status, capacity bar, map and game mode."
+      }
+    },
+    "renderModes": {
+      "embed": {
+        "label": "Classic embed",
+        "hint": "Name/value fields you configure, with inline (side by side). Same as txAdmin."
+      },
+      "components_v2": {
+        "hint": "Container with blocks and the layout editor. No inline, everything stacked."
+      }
+    },
+    "fields": {
+      "serverStatus": "Status",
+      "playerCount": "Players",
+      "maxPlayers": "Max capacity",
+      "hostname": "Server name",
+      "cfxConnect": "Connect",
+      "mapName": "Map",
+      "gameType": "Game mode",
+      "updatedAt": "Updated at"
+    },
+    "title": "Status Panel",
+    "intro": "Persistent Discord panel showing the FiveM server status in real time (online/offline, players, banner + Join button). The bot updates it automatically.",
+    "newPanel": "New panel",
+    "noKeys": "Add a server in \"Settings\" before creating panels. Its cfx ID is configured there.",
+    "empty": "No panels yet. Click \"New panel\" to create the first one.",
+    "channelLine": "Channel: {channel}",
+    "cardMeta": "{players} players · synced {time}",
+    "notPosted": "Not posted to Discord yet.",
+    "autoDisabled": "Auto-disabled, the bot lost access to the channel. Restore the permissions and re-enable it.",
+    "edit": "Edit",
+    "reposted": "Panel reposted.",
+    "published": "Panel published.",
+    "botNoReply": "The bot did not respond.",
+    "publishError": "Error publishing.",
+    "repost": "Repost",
+    "publish": "Publish",
+    "refreshSent": "Refresh sent.",
+    "noCfxId": "The selected API key has no cfxServerId configured.",
+    "testError": "Test failed.",
+    "selectKey": "Select an API key.",
+    "selectChannel": "Select a channel.",
+    "invalidColor": "Invalid color.",
+    "incompleteField": "Field {index}: fill in name and value (or remove the field).",
+    "created": "Panel created.",
+    "saved": "Panel saved.",
+    "saveError": "Failed to save.",
+    "deleteTitle": "Delete this panel?",
+    "deleteDescription": "The Discord message is removed too.",
+    "delete": "Delete",
+    "removed": "Panel removed.",
+    "removeError": "Failed to remove.",
+    "editPanel": "Edit panel",
+    "apiKeyLabel": "API key (FiveM server)",
+    "chooseKey": "Choose the key",
+    "noCfxIdSuffix": ", no cfxId",
+    "testing": "Testing...",
+    "test": "Test",
+    "channel": "Discord channel",
+    "accent": "Accent color",
+    "refresh": "Refresh (seconds)",
+    "refreshHint": "Between 30 and 600s. Default 60s.",
+    "banner": "Banner URL (top image)",
+    "joinLabel": "\"Join server\" button · URL override (optional)",
+    "format": "Message format",
+    "formatHint": "Side-by-side (inline) fields only exist in the classic embed; Components V2 stacks everything.",
+    "formatChanged": "Switching format republishes the message on save; Discord does not allow converting an already posted message. The old one is deleted and a new one is sent in the same channel.",
+    "layoutLabel": "Panel template",
+    "layoutHint": "Choose a ready-made template. It applies until you build your own layout in the editor below.",
+    "ownDesignWins": "This panel has its own layout built below, which overrides the template. Use \"Back to template\" to drop the editor.",
+    "ownLayout": "Custom layout (optional)",
+    "ownLayoutHint": "Build your own and use \"+ Field\" for live values; the bot fills them on every update.",
+    "backToModel": "Back to template",
+    "joinAlwaysAdded": "The \"Join server\" button is always added at the end; it belongs to the panel, not the layout.",
+    "enabledToggle": "Bot updating this panel",
+    "saving": "Saving..."
+  },
+  "keyCard": {
+    "status": {
+      "revoked": "Revoked",
+      "expired": "Expired",
+      "active": "Active"
+    },
+    "weightsInvalid": "Weights must be integers between 0 and 100.",
+    "cfxIdInvalidToast": "Invalid cfxServerId, expected 4-8 alphanumeric characters.",
+    "endpointInvalidToast": "Invalid serverEndpoint, expected \"ip:port\" or \"http://ip:port\".",
+    "downloadError": "Failed to generate the resource.",
+    "downloadFailed": "Could not download the resource.",
+    "disconnectTitle": "Disconnect this server?",
+    "disconnectDescription": "The installed server loses its connection to Discord immediately: linking, allowlist and queue stop. To reconnect, download the folder and install it again.",
+    "disconnect": "Disconnect",
+    "disconnected": "Server disconnected.",
+    "disconnectError": "Could not disconnect.",
+    "summary": {
+      "apiFailure": "API FAILURE",
+      "queue": "QUEUE"
+    },
+    "install": {
+      "title": "Install on the server",
+      "step1": "Download the folder and put {folder} in the server resources.",
+      "step2": "Add {command} to {file} and start the server.",
+      "hint": "It connects by itself on the first start and shows up here as connected. There is no key to copy. Each download is good for one installation: to switch machines, download again and the previous one is removed automatically.",
+      "download": "Download the folder"
+    },
+    "allowlist": {
+      "title": "Role allowlist",
+      "subtitle": "entry gate",
+      "members": "{count} members",
+      "toggleAria": "Turn the role allowlist on or off",
+      "offHint": "Allowlist off: any {linked} player gets in, with no role or Discord presence check.",
+      "offHintLinked": "linked",
+      "removeAria": "Remove {role}",
+      "addRole": "+ Add role",
+      "hint": "The player needs {atLeastOne} of these roles. Leave empty to allow any Discord member.",
+      "hintAtLeastOne": "at least one"
+    },
+    "on": "On",
+    "off": "Off",
+    "mode": {
+      "title": "API failure mode",
+      "permissive": "Permissive",
+      "strict": "Strict",
+      "defaultBadge": "DEFAULT",
+      "safeBadge": "SAFE",
+      "permissiveHint": "If the backend does not respond, the player {action}.",
+      "permissiveHintAction": "gets in without verification",
+      "strictHint": "An API failure {action}.",
+      "strictHintAction": "refuses the connection"
+    },
+    "queue": {
+      "title": "Weighted queue",
+      "subtitle": "priority when the server is full",
+      "toggleAria": "Turn the role priority queue on or off",
+      "offHint": "Queue off: everyone gets in with equal priority (order of arrival). The server manages slots natively.",
+      "weightAria": "Weight of {role}",
+      "removeWeightAria": "Remove weight of {role}",
+      "addRole": "+ Add weighted role",
+      "hint": "Effective weight = {sum} of the player's roles. Roles without weight count as 0 and get in last.",
+      "hintSum": "sum of the weights"
+    },
+    "server": {
+      "title": "FiveM server",
+      "subtitle": "identifies this server for the Status Panel",
+      "cfxHint": "Shortcode of the {url} page (4-8 chars).",
+      "optional": "(optional)",
+      "endpointHint": "When set, direct polling overrides CFX (fallback).",
+      "cfxInvalid": "cfxServerId must have 4-8 alphanumeric characters.",
+      "endpointInvalid": "serverEndpoint must be \"ip:port\" or a URL."
+    },
+    "saveConfig": "Save config",
+    "installState": {
+      "fivemServer": "FiveM server",
+      "connected": "Connected",
+      "seen": "Seen {time}",
+      "waiting": "Waiting",
+      "waitingLine": "Downloaded, waiting for the first server start",
+      "lastSeen": "Last seen {time}",
+      "notInstalled": "Not installed",
+      "notInstalledLine": "Download the folder and install it on the server"
+    }
+  },
+  "actions": {
+    "kinds": {
+      "event": "Event",
+      "export": "Export",
+      "command": "Command"
+    },
+    "imported": "{count, plural, one {# action imported.} other {# actions imported.}}",
+    "skipped": "Already existed: {keys}, nothing was overwritten.",
+    "importError": "Could not import.",
+    "saved": "Actions saved",
+    "invalidPayload": "Payload is not valid JSON.",
+    "missingTarget": "Enter the action and the target.",
+    "sent": "Command sent, track its progress in the Deliveries tab.",
+    "sendError": "Could not send.",
+    "noCommand": "no command",
+    "noEvent": "no event",
+    "mappingTitle": "Action mapping",
+    "mappingHint": "Each action points to an event (TriggerEvent), an export or a console command of your gamemode.",
+    "collapseAll": "Collapse all",
+    "expandAll": "Expand all",
+    "action": "Action",
+    "defaultGarage": "Default garage for vehicle delivery",
+    "defaultGaragePlaceholder": "Blank = the gamemode decides",
+    "garagesKnown": "Suggestions from the garages in use on your server. Each action can use another one through the \"garage\" variable.",
+    "garagesUnknown": "Once the updated resource runs, your server's garages show up here as suggestions.",
+    "lockTitle": "Server actions",
+    "lockDescription": "Give money, items, jobs and vehicles in game from the panel and from store sales.",
+    "emptyTitle": "No actions configured yet",
+    "emptyHint": "Start with the money, item, job, gang, revive and vehicle actions. They work with QBCore, Qbox and ESX, with the mri-botcreator resource updated on the server.",
+    "addPresets": "Add {count} ready-made actions",
+    "empty": "No actions configured.",
+    "notifiesAria": "Notifies the player in game",
+    "removeAria": "Remove {key}",
+    "keyPlaceholder": "action_key",
+    "commandHint": "Runs in the server console. Use {id} for the player's server ID, {license}, {discord} and the action variables.",
+    "save": "Save actions",
+    "presetsTitle": "Ready-made actions",
+    "presetsHint": "A starting point for the most common gamemodes. After importing, edit the event and variables as you like; the preset is not tied to anything.",
+    "presetExists": "An action with this key already exists.",
+    "noPresets": "No ready-made actions available.",
+    "sendTitle": "Send action",
+    "sendHint": "Triggers a gamemode action on the target player. PRO feature.",
+    "target": "Target",
+    "variables": "Variables",
+    "placeholders": "Placeholders available in values:",
+    "send": "Send"
+  },
+  "activity": {
+    "subtitle": "Chronological event feed: connect, link, queue, admit, deny, drop, error.",
+    "loading": "Loading events...",
+    "empty": "No events recorded yet. When a player connects, the flow events show up here.",
+    "weight": "weight {weight}",
+    "loadMore": "Load more",
+    "end": "end of history"
+  },
+  "cdn": {
+    "status": {
+      "off": "Off, players download directly from the server.",
+      "unverified": "Address not confirmed: {error}",
+      "verifying": "Waiting for the server to confirm the address (up to 1 minute with the server running).",
+      "active": "Active, players download through the CDN.",
+      "watchdogOff": "The CDN did not respond and the server went back to direct download. It turns back on by itself when the CDN returns.",
+      "missingAce": "Missing permissions in server.cfg (see below).",
+      "error": "The server reported an error.",
+      "pending": "On in the panel; waiting for the server to apply it (up to 1 minute)."
+    },
+    "intro1": "With the CDN on, players download the server resources from Cloudflare's edge instead of your server's link. The first player for each file fetches it from the server; the following ones get it from the cache.",
+    "intro2": "If the CDN goes down, the MRI resource notices within 30 s and hands the download back to the server by itself. MRI being down does not affect servers that already have the CDN applied.",
+    "unavailable": "The resource CDN is not available on the platform yet.",
+    "proLock": "The resource CDN is part of the Pro plan.",
+    "noServers": "No game servers registered. Add one in Settings.",
+    "savedOn": "Saved. The server applies it within 1 minute.",
+    "savedOff": "CDN off. The server goes back to direct download within 1 minute.",
+    "purgeTitle": "Clear this server's cache?",
+    "purgeDescription": "The next players will fetch the files from the server once again.",
+    "purge": "Clear cache",
+    "purged": "Cache cleared ({count, plural, one {# file} other {# files}}).",
+    "purgeError": "Could not clear.",
+    "inCache": "{size} cached",
+    "toggle": "Turn on the CDN for this server",
+    "host": "Public server address",
+    "hostPlaceholder": "myserver.com or 200.1.2.3",
+    "port": "Port",
+    "hostHint": "This is the address the internet uses to reach the FiveM port (the same one players use). Before turning it on, MRI checks that this address really is your server.",
+    "hostChanged": "Changing the address repeats this check.",
+    "aceTitle": "Permissions required in {file} (once)",
+    "copied": "Copied.",
+    "copy": "Copy",
+    "aceHint": "Without them the resource cannot turn the CDN on or off, and the panel shows \"missing permissions\".",
+    "stats": {
+      "loadError": "Could not load.",
+      "title": "Statistics",
+      "hours24": "24 h",
+      "days": "{count} days",
+      "unavailable": "Statistics unavailable: {reason}",
+      "hitRatio": "HIT rate",
+      "fromCache": "From cache",
+      "fromOrigin": "From server",
+      "files": "{count, plural, one {# file} other {# files}}",
+      "failures": "Failures",
+      "failuresHint": "{origin} origin · {store} write",
+      "firstByteHit": "Time to first byte (HIT)",
+      "firstByteMiss": "Time to first byte (MISS)",
+      "originTime": "Server response",
+      "onMiss": "on MISS",
+      "storeTime": "Cache write",
+      "afterDelivery": "after delivery",
+      "topResources": "Heaviest resources",
+      "downloads": "{count, plural, one {# download} other {# downloads}}"
+    }
+  },
+  "sidebar": {
+    "queue": {
+      "title": "Resolved queue",
+      "hint": "Top 10 members sorted by effective weight (sum of the weights of the roles each one has). Shows who would get in first if the server filled up now.",
+      "noKey": "No active API key to calculate with.",
+      "loading": "Reading Discord members...",
+      "error": "Bot offline or without permission to read members.",
+      "empty": "No members with a weighted role. Set weights on the roles below to see the ranking."
+    },
+    "preview": {
+      "empty": "Add a server to see the preview."
+    }
+  },
+  "servers": {
+    "loadError": "Could not load the servers.",
+    "added": "Server added. Now just download and install it.",
+    "addError": "Could not add the server.",
+    "title": "Servers",
+    "activeCount": "{count, plural, one {# active} other {# active}}",
+    "add": "Add server",
+    "addHint": "Each server has its own download and its own configuration. Use one for the live server and another for testing.",
+    "namePlaceholder": "Name, for example Test",
+    "addShort": "Add",
+    "emptyTitle": "Connect your FiveM server to Discord",
+    "emptyHint": "Add the server, download the folder and put it on your server. It connects by itself on the first start: there is no key to copy.",
+    "defaultName": "Main server"
+  },
+  "dashboard": {
+    "kpi": {
+      "latency": "AVERAGE LATENCY",
+      "latencyDelta": "{ms}ms vs yesterday",
+      "noHistory": "no history",
+      "uptime": "UPTIME 24H",
+      "uptimeFailures": "{count, plural, one {# check failed} other {# checks failed}}",
+      "connectionsToday": "CONNECTIONS TODAY",
+      "connectionsDelta": "{pct}% vs average",
+      "noAverage": "no average yet",
+      "queueNow": "IN QUEUE NOW",
+      "serverFull": "server full",
+      "capacityOk": "capacity ok"
+    },
+    "chart": {
+      "series": "Connections",
+      "title": "Connections in the last 24h",
+      "subtitle": "Attempts verified by the API, all keys combined.",
+      "live": "live",
+      "empty": "No connections in the last 24h",
+      "now": "now"
+    },
+    "keys": {
+      "title": "Status by key",
+      "subtitle": "Each connected FiveM server and its volume today.",
+      "empty": "No servers yet. Add one in Settings.",
+      "permissive": ", permissive",
+      "connections": "CONNECTIONS",
+      "denied": "DENIED",
+      "inQueue": "IN QUEUE",
+      "uptime": "UPTIME"
+    },
+    "queue": {
+      "title": "Live queue",
+      "subtitle": "Players waiting to join in the last 15 minutes, sorted by weight.",
+      "empty": "Nobody in the queue right now.",
+      "noLink": "not linked",
+      "noLicense": "no license",
+      "waiting": "waiting for {duration}"
+    },
+    "recent": {
+      "title": "Latest connections",
+      "subtitle": "Most recent verification events.",
+      "empty": "No connections recorded yet.",
+      "unknown": "unknown"
+    }
+  },
+  "links": {
+    "loadError": "Failed to load the links.",
+    "unlinkTitle": "Unlink player?",
+    "unlinkDescription": "Removes the link for {who} (license …{license}). They will have to link again to join the server.",
+    "unlink": "Unlink",
+    "removed": "Link removed.",
+    "unlinkError": "Could not unlink.",
+    "title": "Links ({count})",
+    "subtitle": "Linked Discord ↔ FiveM accounts. Unlinking forces the player to link again.",
+    "searchPlaceholder": "Search name, ID or license...",
+    "empty": "No linked players yet.",
+    "noResults": "No results for this search."
+  },
+  "logSession": {
+    "opened": "Session open for {minutes} min. The server starts sending on the next cycle (up to 1 min).",
+    "openError": "Could not open the session.",
+    "closed": "{count, plural, one {Session closed, # line deleted.} other {Session closed, # lines deleted.}}",
+    "closeError": "Could not close the session.",
+    "title": "Live diagnostics",
+    "remaining": "{minutes} min left",
+    "minutes": "{minutes} min",
+    "start": "Start",
+    "stop": "Stop and clear",
+    "hint": "Turns on server log forwarding for a limited time. The level here {strong}; it stays at its own level. Lines are deleted when you stop, and in any case after 24h.",
+    "hintStrong": "does not change the owner's console",
+    "loading": "loading…",
+    "waiting": "session open, waiting for the server to send (up to 1 min for the first batch)…",
+    "empty": "no lines. Start a session to see the server log here."
+  },
+  "logs": {
+    "subtitle": "Errors reported by the backend (5xx) and by Lua (via /error). The 50 most recent.",
+    "loading": "Loading logs...",
+    "empty": "No errors recorded. 🎉"
+  },
+  "moderation": {
+    "status": {
+      "done": "Executed",
+      "failed": "Refused",
+      "expired": "Server offline",
+      "pending": "Waiting",
+      "dispatched": "Running"
+    },
+    "opsLoadError": "Could not load the history.",
+    "bansLoadError": "Could not load the bans.",
+    "aceLoadError": "Could not load the server's groups.",
+    "staffSaved": "Staff chat channel saved.",
+    "staffSaveError": "Could not save the channel.",
+    "nickSaved": "Nickname settings saved.",
+    "nickSaveError": "Could not save. Check that the pattern is a valid regex.",
+    "aceInvalid": "\"{principal}\" is not a valid group. Use something like group.admin (no spaces or quotes).",
+    "aceSaved": "Groups saved.",
+    "aceSaveError": "Could not save the groups.",
+    "banRemoved": "Ban removed.",
+    "banRemoveError": "Could not remove the ban.",
+    "nick": {
+      "title": "Nickname while in game",
+      "intro": "Renames the member on Discord while they are connected. The evaluated text is {input}, and the pattern groups become {g1}, {g2}, the same format used in Discord Admin.",
+      "inputFormat": "<server id>|<in-game name>",
+      "enabled": "Enabled",
+      "pattern": "Pattern",
+      "format": "Format",
+      "resetOnLeave": "Restore the original nickname when leaving the server",
+      "limitation": "The bot cannot rename the server owner or anyone with a role above its own; it's a Discord limitation, and in those cases the nickname simply does not change.",
+      "save": "Save nickname"
+    },
+    "ace": {
+      "title": "Discord role → in-game permission",
+      "intro": "Whoever has the role gets the ACE group while online and loses it when leaving. Promoting someone on Discord takes effect on the server without editing {file}, and the change applies immediately, without the player reconnecting.",
+      "noServers": "No FiveM servers yet. Add one in Settings.",
+      "server": "Server",
+      "removeMapping": "Remove mapping",
+      "empty": "No roles mapped.",
+      "addRole": "Add role",
+      "save": "Save groups"
+    },
+    "staff": {
+      "label": "Staff chat channel",
+      "hint": "The conversation becomes the same on both sides: {command} in game shows up here, and what is written here shows up for the staff who are playing. Whoever has the {group} group can use it; map a role above to grant it.",
+      "disabled": "Disabled",
+      "save": "Save channel"
+    },
+    "bans": {
+      "title": "Active bans",
+      "empty": "No active bans. Use {command} on Discord.",
+      "player": "Player",
+      "reason": "Reason",
+      "until": "Until",
+      "permanent": "Permanent"
+    },
+    "by": "By",
+    "ops": {
+      "title": "Latest operations",
+      "empty": "No operations yet. Use {command} on Discord.",
+      "when": "When",
+      "operation": "Operation",
+      "result": "Result"
+    }
+  },
+  "resourceConfig": {
+    "fields": {
+      "strictMode": {
+        "label": "Strict mode",
+        "hint": "A backend outage refuses the connection instead of letting it through."
+      },
+      "linkPollSeconds": {
+        "label": "Link check interval",
+        "hint": "How often the server asks whether the player has linked."
+      },
+      "linkTimeoutMinutes": {
+        "label": "Link timeout",
+        "hint": "How long the player has to link before being disconnected."
+      },
+      "apiRetryAttempts": {
+        "label": "Retries on API failure"
+      },
+      "apiRetryDelayMs": {
+        "label": "Delay between retries (ms)"
+      },
+      "queueTickSeconds": {
+        "label": "Queue interval"
+      },
+      "noRoleKickAfterSec": {
+        "label": "Wait for role before disconnecting",
+        "hint": "How long a player without the role stays on the \"Awaiting role\" card."
+      },
+      "noRolePollSeconds": {
+        "label": "Recheck role every"
+      },
+      "cardHeartbeatSeconds": {
+        "label": "Card heartbeat",
+        "hint": "Redraws the card even without changes, so the screen does not revert to text."
+      },
+      "cardDeferImages": {
+        "label": "First card without image",
+        "hint": "The card paints immediately and the logo/banner come in on the next render. Turn it off only if the images are on a fast CDN."
+      },
+      "cardConfigRefreshSeconds": {
+        "label": "Fetch panel config every",
+        "hint": "Also sets how long a change on this screen takes to reach the server."
+      },
+      "commandPollSeconds": {
+        "label": "Command interval"
+      },
+      "opPollSeconds": {
+        "label": "Admin ops interval",
+        "hint": "This is the latency between staff pressing enter on Discord and the action happening."
+      },
+      "anonCommand": {
+        "label": "Anonymous message command",
+        "hint": "Without the slash. Renaming takes effect immediately; the old name points the player to the new one until the next restart."
+      },
+      "anonCooldownSeconds": {
+        "label": "Anonymous message cooldown"
+      },
+      "logLevel": {
+        "label": "Log level",
+        "hint": "Shows up in the server console. In production, \"info\"."
+      },
+      "debug": {
+        "label": "Debug (legacy)",
+        "hint": "Same as the \"debug\" level."
+      }
+    },
+    "groups": {
+      "connection": "Connection",
+      "queue": "Queue and role",
+      "cards": "Cards",
+      "commands": "Commands and ops",
+      "diagnostics": "Diagnostics",
+      "other": "Other"
+    },
+    "loadError": "Could not load the resource config.",
+    "saved": "Config sent, the server applies it on the next cycle (up to 1 min).",
+    "saveError": "Could not save.",
+    "restored": "Restored: the server goes back to using its own config.lua.",
+    "restoreError": "Could not restore.",
+    "loading": "loading resource config…",
+    "title": "Resource config",
+    "customized": "{count, plural, one {# customized} other {# customized}}",
+    "restore": "Restore defaults",
+    "hint": "Overrides the server's {file} and applies {noRestart}. Empty field = the server uses the value from its own file.",
+    "hintNoRestart": "without restarting the script",
+    "complexOnly": "Editable only through {file} for now.",
+    "usingFile": "using config.lua",
+    "usingFileRange": "using config.lua ({min} to {max})",
+    "on": "on",
+    "off": "off"
+  },
+  "placeholder": {
+    "soon": "Coming soon"
+  }
+}

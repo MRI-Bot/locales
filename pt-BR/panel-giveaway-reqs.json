@@ -1,0 +1,38 @@
+{
+  "checks": {
+    "blacklist": {
+      "label": "Não estar na blacklist",
+      "message": "Você não pode participar deste giveaway."
+    },
+    "requiredRole": {
+      "label": "Ter o cargo obrigatório",
+      "message": "Você precisa do cargo obrigatório neste servidor."
+    },
+    "excludedRole": {
+      "label": "Não ter o cargo bloqueado",
+      "message": "Você tem um cargo que impede de participar deste giveaway."
+    },
+    "minServerDays": {
+      "label": "Estar há pelo menos {days, plural, one {# dia} other {# dias}} no servidor",
+      "message": "Você precisa estar há pelo menos {days, plural, one {# dia} other {# dias}} no servidor."
+    },
+    "minAccountDays": {
+      "label": "Conta Discord com pelo menos {days, plural, one {# dia} other {# dias}}",
+      "message": "Sua conta precisa ter pelo menos {days, plural, one {# dia} other {# dias}}."
+    },
+    "requiredGuild": {
+      "label": "Ser membro do servidor {guildName}",
+      "message": "Você precisa entrar no servidor {guildName}.",
+      "labelAny": "Estar no Discord requisitado",
+      "messageAny": "Você precisa estar em outro Discord específico."
+    }
+  },
+  "list": {
+    "requiredRole": "Ter cargo específico no servidor",
+    "excludedRole": "Não ter um cargo específico no servidor",
+    "minServerDays": "Estar há {days, plural, one {# dia} other {# dias}} no servidor",
+    "minAccountDays": "Conta Discord com {days}+ dias",
+    "requiredGuild": "Ser membro do servidor {guildName}",
+    "requiredGuildAny": "Estar em outro Discord"
+  }
+}

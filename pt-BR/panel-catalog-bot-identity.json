@@ -1,0 +1,39 @@
+{
+  "tokenErrors": {
+    "TOKEN_EMPTY": {
+      "message": "Cole o token do bot."
+    },
+    "TOKEN_MALFORMED": {
+      "message": "Isso não parece um token de bot do Discord.",
+      "hint": "O token tem três partes separadas por ponto. Copie de Developer Portal → sua aplicação → Bot → Reset Token."
+    },
+    "TOKEN_INVALID": {
+      "message": "O Discord recusou este token.",
+      "hint": "Ele pode ter sido regenerado ou revogado. Gere um novo em Developer Portal → Bot → Reset Token e cole aqui."
+    },
+    "TOKEN_NOT_BOT": {
+      "message": "Este token não é de um bot.",
+      "hint": "Token de conta de usuário não serve — e usá-lo viola os termos do Discord. Crie uma aplicação e use o token da aba Bot."
+    },
+    "APP_NOT_DEDICATED": {
+      "message": "Esta aplicação já recebe interações em outro endereço.",
+      "hint": "O bot precisa ser dedicado a este painel. Use uma aplicação nova, ou limpe o campo \"Interactions Endpoint URL\" no Developer Portal antes de continuar."
+    },
+    "APP_IN_USE_ELSEWHERE": {
+      "message": "Este bot já está em muitos servidores.",
+      "hint": "Configurar o token aqui muda como a aplicação recebe interações, e isso afeta todos os servidores onde ela está. Use um bot dedicado."
+    },
+    "BOT_NOT_IN_GUILD": {
+      "message": "Seu bot ainda não está neste servidor.",
+      "hint": "Sem ele no servidor, nenhuma mensagem direta consegue sair. Use o botão de convite para adicioná-lo."
+    },
+    "DISCORD_UNREACHABLE": {
+      "message": "Não consegui falar com o Discord agora.",
+      "hint": "Isso costuma ser passageiro. Tente de novo em alguns instantes — nada foi salvo."
+    },
+    "ENCRYPTION_UNAVAILABLE": {
+      "message": "O servidor não está configurado para guardar segredos com segurança.",
+      "hint": "Isso é problema nosso, não seu. O token não foi salvo. Avise o suporte."
+    }
+  }
+}

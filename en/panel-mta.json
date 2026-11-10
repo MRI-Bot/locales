@@ -1,0 +1,240 @@
+{
+  "tabs": {
+    "dashboard": "Overview",
+    "config": "Settings",
+    "messages": "Messages",
+    "actions": "Actions",
+    "deliveries": "Deliveries",
+    "statusPanel": "Status panel"
+  },
+  "header": {
+    "description": "Integration of the MTA (Multi Theft Auto) server with the Discord of {guild}."
+  },
+  "nav": {
+    "label": "MTA screens"
+  },
+  "config": {
+    "loadError": "Could not load the settings.",
+    "ttlRange": "TTL must be between 1 and 60 minutes.",
+    "saved": "Settings saved",
+    "saveError": "Could not save.",
+    "title": "Module settings",
+    "subtitle": "Applies to all API keys on this server.",
+    "loading": "Loading...",
+    "altAccounts": {
+      "label": "Allow alternate accounts",
+      "description": "When on, one Discord account can link several MTA serials on the server. Default is 1 Discord ↔ 1 serial."
+    },
+    "ttl": {
+      "label": "Link code lifetime",
+      "minutes": "minutes",
+      "hint": "How long the player has between joining MTA and running {command} on Discord. 1 to 60.",
+      "invalid": "Invalid value. Use 1 to 60."
+    },
+    "save": "Save"
+  },
+  "configTab": {
+    "loadKeysError": "Could not load the MTA keys.",
+    "keysHeading": "API keys / Servers",
+    "activeCount": "{count, plural, one {# active} other {# active}}",
+    "newKey": "New key",
+    "emptyTitle": "No API key with the MTA scope",
+    "emptyDescription": "Create an API key with the {mta} scope enabled in the {apiKeys} section to set up the integration here.",
+    "apiKeysSection": "API keys"
+  },
+  "dashboard": {
+    "kpi": {
+      "connectionsToday": "Connections today",
+      "linked": "Links",
+      "denied24h": "Denials 24h",
+      "queue": "In queue"
+    },
+    "recentTitle": "Recent connections",
+    "recentEmpty": "No connections recorded yet. Events show up here as players join the MTA server.",
+    "serial": "serial {serial}",
+    "serialUnknown": "serial ?",
+    "weight": "weight {weight}"
+  },
+  "cards": {
+    "fields": {
+      "linking_text": "Link request",
+      "admitted": "Access granted",
+      "denied_default": "Access denied",
+      "no_role_waiting": "Waiting for role",
+      "no_role_timeout": "Role timeout",
+      "link_timeout": "Link timeout",
+      "queue_position": "Queue position",
+      "service_unavailable": "Service unavailable",
+      "no_serial": "No serial"
+    },
+    "placeholders": "Placeholders: {list}",
+    "placeholder": "Placeholder: {list}",
+    "loadError": "Could not load.",
+    "saved": "Messages saved, applied on the server within a few minutes.",
+    "title": "Server messages",
+    "description": "Texts shown in the MTA chat. Leave empty to use the default. The resource fetches them in real time (no re-download).",
+    "save": "Save messages"
+  },
+  "actions": {
+    "mappingsSaved": "Mappings saved",
+    "invalidPayload": "Payload is not valid JSON.",
+    "missingFields": "Enter the action and the target.",
+    "sent": "Command sent, follow the progress in the Deliveries tab.",
+    "sendError": "Could not send.",
+    "sendTitle": "Send action",
+    "sendDescription": "Fires an event/export of your gamemode on the target player. Pro feature.",
+    "action": "Action",
+    "target": "Target",
+    "variables": "Variables",
+    "placeholdersAvailable": "Placeholders available in the values:",
+    "send": "Send",
+    "mappingTitle": "Action mapping",
+    "mappingDescription": "Each action points to an event (triggerEvent) or export of your gamemode.",
+    "empty": "No actions configured.",
+    "kindEvent": "Event",
+    "kindExport": "Export",
+    "saveMappings": "Save mappings"
+  },
+  "keyCard": {
+    "pushSaved": "Push configured",
+    "downloadFailed": "Failed to generate the resource.",
+    "downloadError": "Could not download the resource.",
+    "status": {
+      "revoked": "Revoked",
+      "expired": "Expired",
+      "active": "Active"
+    },
+    "prefix": "Prefix: {prefix}",
+    "summary": {
+      "allowlist": "ALLOWLIST",
+      "apiFailure": "API FAILURE",
+      "queue": "QUEUE",
+      "on": "On",
+      "off": "Off"
+    },
+    "mode": {
+      "permissive": "Permissive",
+      "strict": "Strict"
+    },
+    "allowlist": {
+      "title": "Allowlist by role",
+      "tag": "entry gate",
+      "toggleAria": "Turn the role allowlist on or off",
+      "offHint": "Allowlist off, any {linked} player gets in, with no role or Discord membership check.",
+      "linked": "linked",
+      "removeRole": "Remove {role}",
+      "addRole": "+ Add role",
+      "hint": "The player needs {atLeastOne} of these roles. Leave empty to let any Discord member in.",
+      "atLeastOne": "at least one"
+    },
+    "on": "On",
+    "off": "Off",
+    "queue": {
+      "title": "Weighted queue",
+      "tag": "priority when the server is full",
+      "toggleAria": "Turn the role priority queue on or off",
+      "onHint": "Orders entry by role weight when the server fills up.",
+      "offHint": "Queue off, everyone enters with equal priority (arrival order). The server manages slots natively."
+    },
+    "apiFailure": {
+      "title": "API failure mode",
+      "badgeDefault": "DEFAULT",
+      "badgeSafe": "SAFE",
+      "permissiveDescription": "If the backend does not respond, the player {strong}.",
+      "permissiveStrong": "gets in without verification",
+      "strictDescription": "An API failure {strong}.",
+      "strictStrong": "refuses the connection"
+    },
+    "push": {
+      "title": "Real-time push (optional)",
+      "tag": "outbound actions delivered instantly over MTA HTTP; without it, polling is used",
+      "endpointPlaceholder": "host:httpport (e.g. 1.2.3.4:22005)",
+      "userPlaceholder": "ACL account",
+      "passwordSaved": "•••••• (saved)",
+      "password": "password",
+      "save": "Save push"
+    },
+    "saveConfig": "Save settings",
+    "download": "Download resource"
+  },
+  "statusPanel": {
+    "layouts": {
+      "default": {
+        "label": "Default",
+        "hint": "A section with status and a capacity bar, plus the connect address."
+      }
+    },
+    "renderModes": {
+      "embed": {
+        "label": "Classic embed",
+        "hint": "Name/value fields you configure, with inline (side by side)."
+      },
+      "components_v2": {
+        "hint": "Container with blocks and the layout editor. No inline, everything stacked."
+      }
+    },
+    "fields": {
+      "serverStatus": "Status",
+      "playerCount": "Players",
+      "maxPlayers": "Max capacity",
+      "hostname": "Server name",
+      "joinAddress": "Address",
+      "updatedAt": "Updated at"
+    },
+    "title": "Status Panel",
+    "intro": "Persistent Discord panel with the MTA server status (online/offline, players, banner + join button). The resource pushes the status; configure {config}.",
+    "newPanel": "New panel",
+    "noKeys": "Create an MTA API key in \"Settings\" before creating panels; it identifies which server the status comes from.",
+    "empty": "No panels yet. Click \"New panel\" to create the first one.",
+    "published": "Panel published/updated in the channel.",
+    "publishError": "Failed to publish.",
+    "fallbackTitle": "MTA panel",
+    "meta": "channel {channel} · {state} · {seconds}s",
+    "isPublished": "published",
+    "notPublished": "not published",
+    "active": "Active",
+    "paused": "Paused",
+    "publish": "Publish",
+    "edit": "Edit",
+    "selectKey": "Select an API key.",
+    "selectChannel": "Select a channel.",
+    "invalidColor": "Invalid color.",
+    "incompleteField": "Field {index}: fill in name and value (or remove the field).",
+    "created": "Panel created.",
+    "saved": "Panel saved.",
+    "saveError": "Failed to save.",
+    "deleteTitle": "Delete this panel?",
+    "deleteDescription": "The Discord message is removed too.",
+    "delete": "Delete",
+    "removed": "Panel removed.",
+    "removeError": "Failed to remove.",
+    "editPanel": "Edit panel",
+    "apiKeyLabel": "API key (MTA server)",
+    "chooseKey": "Choose the key",
+    "apiKeyHint": "The resource reports the status through it; the panel shows the status of that key’s server.",
+    "channel": "Discord channel",
+    "titleLabel": "Panel title (optional)",
+    "titlePlaceholder": "Empty uses the name the server reports",
+    "accent": "Accent color",
+    "refresh": "Refresh (seconds)",
+    "refreshHint": "Between 30 and 3600s. Default 60s.",
+    "banner": "Banner URL (top image)",
+    "joinLabel": "Connect address (optional)",
+    "joinPlaceholder": "mtasa://1.2.3.4:22003 or https://...",
+    "joinNone": "Without an address the panel shows no button or connect block.",
+    "joinButton": "Becomes a \"Join server\" button.",
+    "joinCode": "Discord only accepts http(s) in buttons, so {scheme} shows as a copyable code block instead of a button.",
+    "format": "Message format",
+    "formatHint": "Side-by-side (inline) fields only exist in the classic embed; Components V2 stacks everything.",
+    "formatChanged": "Switching format republishes the message on save; Discord does not allow converting an already posted message. The old one is deleted and a new one is sent in the same channel.",
+    "layoutLabel": "Panel template",
+    "layoutHint": "Choose a ready-made template. It applies until you build your own layout in the editor below.",
+    "ownDesignWins": "This panel has its own layout built below, which overrides the template. Use \"Back to template\" to drop the editor.",
+    "ownLayout": "Custom layout (optional)",
+    "ownLayoutHint": "Build your own and use \"+ Field\" for live values; the bot fills them on every update.",
+    "backToModel": "Back to template",
+    "joinAlwaysAdded": "The join button is always added at the end; it belongs to the panel, not the layout.",
+    "enabledToggle": "Bot updating this panel",
+    "saving": "Saving..."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "commandsNotHere": "This bot only delivers the server's direct messages. Use commands through the main bot.",
+  "notAvailable": "This action isn't available here yet. Talk to the server staff.",
+  "retryLater": "I couldn't finish that right now. Try again in a moment.",
+  "rating": {
+    "invalid": "Invalid rating.",
+    "modalTitle": "Rating {rating}⭐",
+    "labelRequired": "What could have been better?",
+    "labelOptional": "Comment (optional)",
+    "placeholderRequired": "Tell us what could have been better (required for a low rating)",
+    "placeholderOptional": "Optional: describe the support in a few words",
+    "thanks": "✅ Thanks! Your {rating}⭐ rating was recorded{withComment, select, yes { with your comment} other {}}."
+  },
+  "anon": {
+    "invalid": "Invalid conversation.",
+    "modalTitle": "Reply to the staff",
+    "label": "Your reply",
+    "unknownUser": "I couldn't identify you.",
+    "sendFailed": "Couldn't send it.",
+    "sent": "✅ Sent to the staff. Your identity stays anonymous."
+  }
+}

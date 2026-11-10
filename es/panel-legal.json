@@ -1,0 +1,10 @@
+{
+  "docs": {
+    "terms": "Términos de Servicio",
+    "privacy": "Política de Privacidad",
+    "cookies": "Política de Cookies"
+  },
+  "back": "Volver al panel",
+  "review": "Revisar mis preferencias de cookies",
+  "reviewHint": "El banner vuelve a aparecer para que decidas de nuevo."
+}

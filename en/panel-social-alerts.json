@@ -1,0 +1,87 @@
+{
+  "header": {
+    "description": "Posts on the Discord of {guild} when a creator goes live or publishes (YouTube, Twitch and more)."
+  },
+  "loadError": "Could not load the module.",
+  "loading": "Loading...",
+  "list": {
+    "title": "Followed creators",
+    "new": "New"
+  },
+  "empty": {
+    "title": "Not following anyone yet",
+    "body": "Add a YouTube or Twitch creator and the Bot will post here when they publish.",
+    "add": "Add creator"
+  },
+  "reloadError": "Failed to reload.",
+  "contentKinds": {
+    "LIVE": "Live",
+    "VIDEO": "Video",
+    "SHORT": "Short",
+    "POST": "Post",
+    "REEL": "Reel"
+  },
+  "card": {
+    "toggleError": "Couldn't change it.",
+    "testReal": "Real alert sent, the creator is live/just posted something!",
+    "testSimulated": "Simulation sent (nothing live/new right now). Check the format in the channel.",
+    "testError": "Couldn't send the test.",
+    "removeConfirm": {
+      "title": "Stop following?",
+      "description": "Stop alerting about {handle}. Alerts already posted aren't deleted."
+    },
+    "removed": "Creator removed.",
+    "removeError": "Couldn't remove it.",
+    "mentions": "Mentions:",
+    "roleCount": "{count, plural, one {# role} other {# roles}}",
+    "edit": "Edit",
+    "test": "Test"
+  },
+  "editor": {
+    "errors": {
+      "provider": "Pick a platform.",
+      "handle": "Enter the creator's @handle.",
+      "channel": "Pick the target channel.",
+      "contentKinds": "Check at least one content type."
+    },
+    "updated": "Creator updated.",
+    "created": "Creator added.",
+    "saveError": "Couldn't save.",
+    "editTitle": "Edit followed creator",
+    "newTitle": "Follow a creator",
+    "subtitle": "The Bot posts in this server when the creator publishes the chosen content.",
+    "provider": {
+      "label": "1. Platform",
+      "hint": "YouTube and Twitch have official detection (push). Kick/TikTok/Instagram are Pro.",
+      "immutable": "The platform can't change after creation."
+    },
+    "handle": {
+      "label": "2. Creator (@handle)",
+      "placeholderYoutube": "@channel or channel URL",
+      "placeholder": "@user",
+      "hint": "Paste the creator's @handle or link. The Bot resolves the platform ID when saving."
+    },
+    "channel": {
+      "label": "3. Target channel",
+      "placeholder": "Pick the channel"
+    },
+    "contentKinds": {
+      "label": "Content types",
+      "hint": "Only these types trigger an alert."
+    },
+    "mentions": {
+      "label": "Mentions on alert",
+      "addRole": "Add role...",
+      "removeRole": "Remove role",
+      "everyone": "Mention @everyone"
+    },
+    "template": {
+      "label": "4. Message (optional)",
+      "placeholder": "🔴 '{author}' is '{kind}'!\n'{title}'\n'{url}'",
+      "placeholders": "Placeholders:",
+      "hint": "Empty = the Bot uses a default message. The Embed editor (MessageDesign V2) is coming to Pro."
+    },
+    "enabled": "Active",
+    "create": "Create"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "retryIn": "{unit, select, minutes {{minutes, plural, =1 {# minute} other {# minutes}}} hours {{hours, plural, =1 {# hour} other {# hours}}} days {{days, plural, =1 {# day} other {# days}}} other {{days, plural, =1 {# day} other {# days}} and {hours, plural, =1 {# hour} other {# hours}}}}",
+  "yes": "Yes",
+  "no": "No"
+}

@@ -1,0 +1,21 @@
+{
+  "success": {
+    "existed": "This message is already on the forum: {url}",
+    "reply": "Your message was added as a reply on the forum: {url}",
+    "published": "Published on the forum: {url}"
+  },
+  "droppedFiles": "Images and files were not included.",
+  "notAuthor": "Only the author of the message can publish it on the forum. That way nobody takes someone else's text to the web.",
+  "unreachable": "Couldn't reach the forum right now. Try again in a moment.",
+  "publishFailed": "Couldn't publish right now. Try again in a moment.",
+  "modalTitle": "Publish on the forum",
+  "titleLabel": "Topic title",
+  "failure": {
+    "moduleOff": "The forum is not enabled in this server.",
+    "noSpace": "This server's forum hasn't been set up in the dashboard yet.",
+    "blocked": "You can't publish on this server's forum.",
+    "empty": "This message has no text to publish. Images and files don't go to the forum.",
+    "titleRequired": "The topic title is missing.",
+    "closed": "This topic is closed on the forum."
+  }
+}

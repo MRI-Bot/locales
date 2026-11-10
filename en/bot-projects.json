@@ -1,0 +1,62 @@
+{
+  "guildOnly": "Use this command inside a server.",
+  "failed": "Failed",
+  "board": {
+    "empty": {
+      "title": "No boards",
+      "text": "Create a board in the web dashboard."
+    },
+    "title": "Project boards",
+    "line": "• **{name}** — {count, plural, one {# task} other {# tasks}}{mirror}"
+  },
+  "task": {
+    "noBoard": {
+      "title": "No boards",
+      "text": "Create a board in the dashboard first."
+    },
+    "boardNotFound": {
+      "title": "Board not found",
+      "text": "Couldn't find the board \"{name}\"."
+    },
+    "created": {
+      "title": "Task created",
+      "text": "**{title}** added to **{board}**."
+    },
+    "createFailed": "Failed to create",
+    "none": {
+      "title": "No tasks",
+      "text": "You have no tasks assigned in this server."
+    },
+    "due": " · due {time}",
+    "mineTitle": "Your tasks ({count})"
+  },
+  "thread": {
+    "manualPost": "⚠️ {user}, to open a task use the **➕ Create task** button in this forum's pinned post — don't create posts directly. This post will be removed shortly."
+  },
+  "card": {
+    "noDescription": "_No description._",
+    "column": "Column",
+    "assignees": "Assignees",
+    "due": "Due",
+    "status": "Status: {status}",
+    "open": "Open",
+    "movePlaceholder": "Move to column…",
+    "join": "Join",
+    "assigneesButton": "Assignees",
+    "edit": "Edit",
+    "openSite": "Open on the website",
+    "reopen": "Reopen",
+    "complete": "Complete",
+    "delete": "Delete"
+  },
+  "panel": {
+    "title": "➕ New task",
+    "description": "Click the button below to open a task on this board — right here, no website needed.",
+    "button": "Create task",
+    "threadName": "➕ Create new task"
+  },
+  "forum": {
+    "defaultTag": "column"
+  },
+  "reminder": "⏰ Deadline approaching {time} — **{title}** {mentions}"
+}

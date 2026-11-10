@@ -1,0 +1,21 @@
+{
+  "deliveryEmail": {
+    "subject": "Tu descarga: {product}",
+    "thanks": "¡Gracias por tu compra! 🎉",
+    "ready": "Tu producto {product} está listo para descargar.",
+    "download": "Descargar {file}",
+    "fallback": "Si el botón no funciona, copia y pega este enlace:"
+  },
+  "storefront": {
+    "navProducts": "Productos",
+    "navPlans": "Planes",
+    "restoreBackupNote": "Copia automática antes de restaurar la versión del {date}."
+  },
+  "checkout": {
+    "orderLine": "{count, plural, one {Pedido con {count} artículo} other {Pedido con {count} artículos}}"
+  },
+  "og": {
+    "storeTitle": "{name} — Tienda",
+    "storeDescription": "Tienda oficial: productos digitales entregados en Discord."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "failed": "That didn't work.",
+  "modules": {
+    "tickets": "Tickets",
+    "whitelist": "Whitelist",
+    "store": "Store",
+    "fivem": "FiveM"
+  },
+  "roles": {
+    "staff": "Staff",
+    "support": "Support",
+    "citizen": "Citizen",
+    "approved": "Approved"
+  },
+  "categories": {
+    "info": "📌 INFORMATION",
+    "whitelist": "📝 WHITELIST",
+    "city": "🏙️ CITY",
+    "support": "🎫 SUPPORT",
+    "tickets": "🎫 TICKETS",
+    "staff": "🛡️ STAFF"
+  },
+  "channels": {
+    "rules": "📜│rules",
+    "rulesTopic": "City rules.",
+    "announcements": "📢│announcements",
+    "news": "🆕│news",
+    "whitelistPanel": "📝│apply-for-whitelist",
+    "chat": "💬│chat",
+    "media": "📸│photos-and-clips",
+    "voice": "🔊 Hangout",
+    "ticketPanel": "🎫│open-a-ticket",
+    "staffChat": "💬│staff-chat",
+    "whitelistReview": "📋│whitelist-review",
+    "ticketLog": "📁│ticket-history"
+  },
+  "ticketPanel": {
+    "name": "Support",
+    "title": "Support",
+    "description": "Pick a topic from the list below to open a ticket. Only you and the team can see the conversation.",
+    "selectPlaceholder": "Pick a topic"
+  },
+  "highlights": {
+    "rules": "Write the rules",
+    "whitelistPanel": "Try the whitelist",
+    "ticketPanel": "Open a test ticket"
+  },
+  "ticketTypes": {
+    "support": {
+      "label": "Support",
+      "descriptionCity": "Questions and help with the city",
+      "description": "Questions and help",
+      "question": "How can we help?",
+      "welcome": "Hi! Tell us in detail what you need. The team has been notified and will reply here."
+    },
+    "report": {
+      "label": "Report",
+      "descriptionCity": "Report a player or a staff member",
+      "description": "Report someone on the server",
+      "accused": "Who are you reporting?",
+      "accusedPlaceholderCity": "In-game name or ID",
+      "accusedPlaceholder": "Name or @ on Discord",
+      "what": "What happened?",
+      "proof": "Link to the video or screenshot",
+      "welcome": "We got your report. Don't delete the evidence: the team may ask for more details here."
+    },
+    "donations": {
+      "label": "Donations and VIP",
+      "description": "Questions about donations and perks",
+      "question": "What's your question?",
+      "welcome": "Hi! If this is about a donation you already made, send the receipt here."
+    },
+    "bug": {
+      "label": "Report a bug",
+      "description": "Something broken in the city",
+      "what": "What happened?",
+      "where": "Where and when?",
+      "welcome": "Thanks for letting us know! If you have a video or screenshot, send it here."
+    },
+    "other": {
+      "label": "Something else",
+      "description": "Partnerships, suggestions and everything else",
+      "question": "What do you want to talk about?",
+      "welcome": "Hi! The team has been notified and will reply here."
+    }
+  },
+  "whitelistFields": {
+    "characterName": "Character name",
+    "age": "Your age",
+    "story": "Tell us your character's story",
+    "experience": "Have you played roleplay before? Where?",
+    "rulesCity": "I have read and accept the city rules",
+    "name": "What should we call you?",
+    "reason": "Why do you want to join?",
+    "origin": "How did you hear about the server?",
+    "rules": "I have read and accept the rules"
+  },
+  "fivemRp": {
+    "name": "Roleplay city (FiveM)",
+    "description": "Rules and announcements, a whitelist to join the city, ticket support, a donation store and a link to the game server.",
+    "modules": {
+      "tickets": "Support, reports, donations and bugs, in a panel with a list.",
+      "whitelist": "Form to join the city. Approved members get the Citizen role and see the city channels.",
+      "store": "Donations and VIP page. You only need to connect payments.",
+      "fivem": "Connects the bot to the game server. You only need to add the server address."
+    }
+  },
+  "ticketsBasic": {
+    "name": "Ticket support",
+    "description": "A channel to open tickets, a private category for conversations, a history channel and three ready topics.",
+    "modules": {
+      "tickets": "Support, reports and other topics, in a panel with a list."
+    },
+    "todo": {
+      "supportRole": "Give the Support role to whoever will handle tickets."
+    }
+  },
+  "whitelistBasic": {
+    "name": "Ready-made whitelist",
+    "description": "A channel with the sign-up button, a private channel for reviews and a role for approved members.",
+    "modules": {
+      "whitelist": "Entry form. Approved members get the Approved role."
+    },
+    "todo": {
+      "hideChannels": "In the channels only approved members should see, remove @everyone's view and allow the Approved role.",
+      "reviewChannel": "The review channel starts visible to admins only. Allow the staff roles that review applications."
+    }
+  }
+}

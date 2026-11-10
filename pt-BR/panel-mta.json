@@ -1,0 +1,240 @@
+{
+  "tabs": {
+    "dashboard": "Visão geral",
+    "config": "Configurações",
+    "messages": "Mensagens",
+    "actions": "Ações",
+    "deliveries": "Entregas",
+    "statusPanel": "Painel de status"
+  },
+  "header": {
+    "description": "Integração do servidor MTA (Multi Theft Auto) com o Discord de {guild}."
+  },
+  "nav": {
+    "label": "Telas do MTA"
+  },
+  "config": {
+    "loadError": "Não foi possível carregar a config.",
+    "ttlRange": "TTL deve estar entre 1 e 60 minutos.",
+    "saved": "Configuração salva",
+    "saveError": "Não foi possível salvar.",
+    "title": "Configuração do módulo",
+    "subtitle": "Vale para todas as API Keys deste servidor.",
+    "loading": "Carregando...",
+    "altAccounts": {
+      "label": "Permitir contas alternativas",
+      "description": "Quando ligado, um mesmo Discord pode vincular vários seriais MTA no servidor. Padrão é 1 Discord ↔ 1 serial."
+    },
+    "ttl": {
+      "label": "Tempo do código de vínculo",
+      "minutes": "minutos",
+      "hint": "Quanto tempo o player tem entre entrar no MTA e rodar {command} no Discord. 1 a 60.",
+      "invalid": "Valor inválido. Use 1 a 60."
+    },
+    "save": "Salvar"
+  },
+  "configTab": {
+    "loadKeysError": "Não foi possível carregar as chaves MTA.",
+    "keysHeading": "API Keys / Servidores",
+    "activeCount": "{count, plural, one {# ativa} other {# ativas}}",
+    "newKey": "Nova key",
+    "emptyTitle": "Nenhuma API Key com escopo MTA",
+    "emptyDescription": "Crie uma API Key com o escopo {mta} habilitado na seção {apiKeys} para configurar a integração aqui.",
+    "apiKeysSection": "API Keys"
+  },
+  "dashboard": {
+    "kpi": {
+      "connectionsToday": "Conexões hoje",
+      "linked": "Vínculos",
+      "denied24h": "Negações 24h",
+      "queue": "Na fila"
+    },
+    "recentTitle": "Conexões recentes",
+    "recentEmpty": "Nenhuma conexão registrada ainda. Os eventos aparecem aqui conforme players entram no servidor MTA.",
+    "serial": "serial {serial}",
+    "serialUnknown": "serial ?",
+    "weight": "peso {weight}"
+  },
+  "cards": {
+    "fields": {
+      "linking_text": "Pedido de vínculo",
+      "admitted": "Acesso liberado",
+      "denied_default": "Acesso negado",
+      "no_role_waiting": "Aguardando cargo",
+      "no_role_timeout": "Timeout do cargo",
+      "link_timeout": "Timeout do vínculo",
+      "queue_position": "Posição na fila",
+      "service_unavailable": "Serviço indisponível",
+      "no_serial": "Sem serial"
+    },
+    "placeholders": "Placeholders: {list}",
+    "placeholder": "Placeholder: {list}",
+    "loadError": "Não foi possível carregar.",
+    "saved": "Mensagens salvas, aplicadas no servidor em até alguns minutos.",
+    "title": "Mensagens do servidor",
+    "description": "Textos mostrados no chat do MTA. Deixe vazio para usar o padrão. Buscadas em tempo real pelo resource (sem re-download).",
+    "save": "Salvar mensagens"
+  },
+  "actions": {
+    "mappingsSaved": "Mapeamentos salvos",
+    "invalidPayload": "Payload não é um JSON válido.",
+    "missingFields": "Informe a ação e o alvo.",
+    "sent": "Comando enviado, veja o progresso na aba Entregas.",
+    "sendError": "Não foi possível enviar.",
+    "sendTitle": "Enviar ação",
+    "sendDescription": "Dispara um evento/export do seu gamemode no player alvo. Recurso PRO.",
+    "action": "Ação",
+    "target": "Alvo",
+    "variables": "Variáveis",
+    "placeholdersAvailable": "Placeholders disponíveis nos valores:",
+    "send": "Enviar",
+    "mappingTitle": "Mapeamento de ações",
+    "mappingDescription": "Cada ação aponta para um evento (triggerEvent) ou export do seu gamemode.",
+    "empty": "Nenhuma ação configurada.",
+    "kindEvent": "Evento",
+    "kindExport": "Export",
+    "saveMappings": "Salvar mapeamentos"
+  },
+  "keyCard": {
+    "pushSaved": "Push configurado",
+    "downloadFailed": "Falha ao gerar o resource.",
+    "downloadError": "Não foi possível baixar o resource.",
+    "status": {
+      "revoked": "Revogada",
+      "expired": "Expirada",
+      "active": "Ativa"
+    },
+    "prefix": "Prefixo: {prefix}",
+    "summary": {
+      "allowlist": "ALLOWLIST",
+      "apiFailure": "FALHA API",
+      "queue": "FILA",
+      "on": "On",
+      "off": "Off"
+    },
+    "mode": {
+      "permissive": "Permissivo",
+      "strict": "Estrito"
+    },
+    "allowlist": {
+      "title": "Allowlist por cargo",
+      "tag": "gate de entrada",
+      "toggleAria": "Ligar ou desligar a allowlist por cargo",
+      "offHint": "Allowlist desligada, qualquer player {linked} entra, sem checagem de cargo nem presença no Discord.",
+      "linked": "vinculado",
+      "removeRole": "Remover {role}",
+      "addRole": "+ Adicionar cargo",
+      "hint": "O jogador precisa ter {atLeastOne} destes cargos. Deixe vazio para liberar qualquer membro do Discord.",
+      "atLeastOne": "pelo menos um"
+    },
+    "on": "Ligada",
+    "off": "Desligada",
+    "queue": {
+      "title": "Fila por peso",
+      "tag": "prioridade quando o servidor está cheio",
+      "toggleAria": "Ligar ou desligar a fila prioritária por cargo",
+      "onHint": "Ordena a entrada por peso de cargo quando o servidor enche.",
+      "offHint": "Fila desligada, todos entram com prioridade igual (ordem de chegada). O servidor gerencia as vagas nativamente."
+    },
+    "apiFailure": {
+      "title": "Modo em falha de API",
+      "badgeDefault": "PADRÃO",
+      "badgeSafe": "SEGURO",
+      "permissiveDescription": "Se o backend não responder, o jogador {strong}.",
+      "permissiveStrong": "entra sem verificação",
+      "strictDescription": "Falha de API {strong}.",
+      "strictStrong": "recusa a conexão"
+    },
+    "push": {
+      "title": "Push em tempo real (opcional)",
+      "tag": "ações outbound entregues na hora via HTTP do MTA, sem isso, usa polling",
+      "endpointPlaceholder": "host:httpport (ex: 1.2.3.4:22005)",
+      "userPlaceholder": "conta ACL",
+      "passwordSaved": "•••••• (salva)",
+      "password": "senha",
+      "save": "Salvar push"
+    },
+    "saveConfig": "Salvar config",
+    "download": "Baixar resource"
+  },
+  "statusPanel": {
+    "layouts": {
+      "default": {
+        "label": "Padrão",
+        "hint": "Uma seção com status e barra de lotação, mais o endereço de conexão."
+      }
+    },
+    "renderModes": {
+      "embed": {
+        "label": "Embed clássico",
+        "hint": "Campos nome/valor que você configura, com inline (lado a lado)."
+      },
+      "components_v2": {
+        "hint": "Container com blocos e o editor de layout. Sem inline, tudo empilhado."
+      }
+    },
+    "fields": {
+      "serverStatus": "Status",
+      "playerCount": "Jogadores",
+      "maxPlayers": "Lotação máxima",
+      "hostname": "Nome do servidor",
+      "joinAddress": "Endereço",
+      "updatedAt": "Atualizado em"
+    },
+    "title": "Status Panel",
+    "intro": "Painel persistente no Discord com o status do servidor MTA (online/offline, jogadores, banner + botão de entrar). O resource faz push do status, configure {config}.",
+    "newPanel": "Novo painel",
+    "noKeys": "Crie uma API Key MTA em \"Configurações\" antes de criar painéis, é ela que identifica de qual servidor vem o status.",
+    "empty": "Nenhum painel ainda. Clique em \"Novo painel\" pra criar o primeiro.",
+    "published": "Painel publicado/atualizado no canal.",
+    "publishError": "Falha ao publicar.",
+    "fallbackTitle": "Painel MTA",
+    "meta": "canal {channel} · {state} · {seconds}s",
+    "isPublished": "publicado",
+    "notPublished": "não publicado",
+    "active": "Ativo",
+    "paused": "Pausado",
+    "publish": "Publicar",
+    "edit": "Editar",
+    "selectKey": "Selecione uma API Key.",
+    "selectChannel": "Selecione um canal.",
+    "invalidColor": "Cor inválida.",
+    "incompleteField": "Campo {index}: preencha nome e valor (ou remova o campo).",
+    "created": "Painel criado.",
+    "saved": "Painel salvo.",
+    "saveError": "Falha ao salvar.",
+    "deleteTitle": "Apagar esse painel?",
+    "deleteDescription": "A mensagem no Discord também é removida.",
+    "delete": "Apagar",
+    "removed": "Painel removido.",
+    "removeError": "Falha ao remover.",
+    "editPanel": "Editar painel",
+    "apiKeyLabel": "API Key (servidor MTA)",
+    "chooseKey": "Escolha a key",
+    "apiKeyHint": "É por ela que o resource reporta o status, o painel mostra o do servidor dessa key.",
+    "channel": "Canal Discord",
+    "titleLabel": "Título do painel (opcional)",
+    "titlePlaceholder": "Vazio usa o nome que o servidor reporta",
+    "accent": "Cor de acento",
+    "refresh": "Refresh (segundos)",
+    "refreshHint": "Entre 30 e 3600s. Default 60s.",
+    "banner": "Banner URL (image top)",
+    "joinLabel": "Endereço de conexão (opcional)",
+    "joinPlaceholder": "mtasa://1.2.3.4:22003 ou https://...",
+    "joinNone": "Sem endereço o painel não mostra botão nem bloco de conexão.",
+    "joinButton": "Vira um botão \"Entrar no servidor\".",
+    "joinCode": "O Discord só aceita http(s) em botão, então {scheme} aparece como bloco de código copiável em vez de botão.",
+    "format": "Formato da mensagem",
+    "formatHint": "Campo lado a lado (inline) só existe no embed clássico, o Components V2 empilha tudo.",
+    "formatChanged": "Trocar de formato republica a mensagem ao salvar, o Discord não deixa converter uma mensagem já postada. A antiga é apagada e uma nova é enviada no mesmo canal.",
+    "layoutLabel": "Modelo do painel",
+    "layoutHint": "Escolha um modelo pronto. Ele vale enquanto você não montar um layout próprio no editor abaixo.",
+    "ownDesignWins": "Este painel tem layout próprio montado abaixo, ele vence o modelo. Use \"Voltar ao modelo\" pra soltar o editor.",
+    "ownLayout": "Layout próprio (opcional)",
+    "ownLayoutHint": "Monte o seu e use \"+ Campo\" pros valores ao vivo, o bot preenche a cada atualização.",
+    "backToModel": "Voltar ao modelo",
+    "joinAlwaysAdded": "O botão de entrar é sempre adicionado no fim, ele é do painel, não do layout.",
+    "enabledToggle": "Bot atualizando esse painel",
+    "saving": "Salvando..."
+  }
+}

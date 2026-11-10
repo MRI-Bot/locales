@@ -1,0 +1,29 @@
+{
+  "page": {
+    "documentTitle": "Mi cuenta | MRI BOT",
+    "logout": "Cerrar sesión"
+  },
+  "currentPlan": {
+    "pastDueBadge": "Pago pendiente",
+    "currentBadge": "Plan actual",
+    "cancel": "Cancelar suscripción",
+    "describe": {
+      "free": "Usas el plan gratuito. Elige un plan abajo para desbloquear más funciones.",
+      "pastDue": "El último cobro falló. Renueva para no perder el acceso.",
+      "lifetime": "Acceso de por vida.",
+      "complimentary": "Cortesía hasta el {date}.",
+      "trial": "Prueba gratis hasta el {date}.",
+      "recurring": "Se renueva automáticamente el {date}, con tarjeta.",
+      "prepaid": "Pagado hasta el {date}, {count, plural, one {queda # día} other {quedan # días}}. No se renueva automáticamente."
+    }
+  },
+  "billing": {
+    "title": "Pagos",
+    "loadError": "No se pudieron cargar tus pagos.",
+    "emptyTitle": "Aún no hay pagos",
+    "emptyDescription": "Cuando te suscribas o compres un paquete, cada pago aparecerá aquí.",
+    "card": "tarjeta",
+    "credit": "{amount} de crédito",
+    "refunded": "Reembolsado"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "when": {
+    "now": "agora",
+    "minutes": "há {n} min",
+    "hours": "há {n} h",
+    "days": "há {count} {count, plural, =1 {dia} other {dias}}"
+  },
+  "replies": "{count} {count, plural, =1 {resposta} other {respostas}}",
+  "requestFailed": "Não deu certo. Tente de novo.",
+  "forums": "Fóruns",
+  "logout": "Sair",
+  "login": "Entrar",
+  "loginDiscord": "Entrar com Discord",
+  "loginGoogle": "Entrar com Google",
+  "communityForum": "Fórum da comunidade {name}",
+  "madeWith": "Feito com MRI BOT",
+  "privacy": "Privacidade",
+  "home": {
+    "empty": "Nenhum fórum publicado ainda.",
+    "description": "Fóruns das comunidades que usam o MRI BOT.",
+    "lead": "Comunidades que abriram um fórum público."
+  },
+  "tag": {
+    "pinned": "Fixado",
+    "solved": "Resolvido",
+    "closed": "Fechado",
+    "answer": "Resposta",
+    "fromDiscord": "Do Discord"
+  },
+  "space": {
+    "categories": "Categorias",
+    "all": "Tudo",
+    "previous": "Anteriores",
+    "next": "Próximas",
+    "pageOf": "Página {page} de {pages}",
+    "noResults": "Nada encontrado com essa busca.",
+    "noTopics": "Nenhum tópico ainda. Que tal abrir o primeiro?",
+    "categoryLead": "Tópicos de {name}",
+    "description": "Fórum da comunidade {name}.",
+    "searchPlaceholder": "Buscar tópicos",
+    "search": "Buscar"
+  },
+  "topic": {
+    "unmarkAnswer": "Desmarcar resposta",
+    "markAnswer": "Marcar como resposta",
+    "deleteReplyConfirm": "Apagar sua resposta?",
+    "delete": "Apagar",
+    "deleteTopicConfirm": "Apagar o tópico e todas as respostas?",
+    "deleteTopic": "Apagar tópico",
+    "closed": "Este tópico está fechado para respostas.",
+    "loginToReply": "Entre para responder.",
+    "yourReply": "Sua resposta",
+    "replyHint": "Fica público, aparece no Google e no nome que você usa para entrar.",
+    "reply": "Responder",
+    "markedAnswer": "Resposta marcada"
+  },
+  "newTopic": {
+    "title": "Novo tópico",
+    "pageTitle": "Novo tópico · {space}",
+    "description": "Abrir um tópico no fórum {space}.",
+    "loginToOpen": "Entre para abrir um tópico. Você pode usar sua conta do Discord ou do Google.",
+    "titleLabel": "Título",
+    "titlePlaceholder": "Resuma sua dúvida ou assunto",
+    "category": "Categoria",
+    "noCategory": "Sem categoria",
+    "text": "Texto",
+    "textPlaceholder": "Conte o que aconteceu, o que você já tentou e cole o erro se tiver.",
+    "hint": "Aceita **negrito**, *itálico*, `código` e blocos com ```. O tópico é público e aparece no Google.",
+    "publish": "Publicar"
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "description": "Esta página não existe ou foi removida.",
+    "lead": "O tópico pode ter sido apagado ou o endereço está errado.",
+    "back": "Voltar"
+  },
+  "announce": {
+    "title": "Novo tópico no fórum",
+    "description": "**{title}**\npor {author}\n\n[Abrir no fórum]({url})"
+  }
+}
