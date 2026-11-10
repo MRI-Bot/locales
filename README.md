@@ -30,3 +30,7 @@ Leia o [CONTRIBUTING.md](CONTRIBUTING.md). Em resumo: edite o arquivo do seu idi
 
 As traduções aprovadas entram no próximo release do bot. Texto que ainda não foi traduzido aparece
 em português.
+
+## Licença
+
+[CC BY 4.0](LICENSE) — pode usar e adaptar, citando a fonte.

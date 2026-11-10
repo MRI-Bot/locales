@@ -50,6 +50,11 @@ node .github/scripts/validate.mjs .
 Ele aponta JSON quebrado, placeholder diferente do pt-BR, plural sem `other` e chave que não
 existe no pt-BR, e mostra quanto de cada idioma já está traduzido. O mesmo teste roda no PR.
 
+## Licença
+
+As traduções deste repositório são licenciadas sob [CC BY 4.0](LICENSE). Ao abrir um pull request,
+você concorda em licenciar a sua contribuição nos mesmos termos.
+
 ## Revisão
 
 Alguém da equipe revisa e faz o merge. Tradução aprovada entra no próximo release do bot.
