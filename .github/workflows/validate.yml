@@ -1,0 +1,43 @@
+name: Validate
+
+# Roda em todo PR, inclusive de fork: só usa o node e o validador que já está no
+# repo (.github/scripts/validate.mjs, gerado pelo pacote privado @mri-bot/i18n).
+# Sem secret, sem npm install.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Traduções
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # pt-BR/ é o texto fonte, sincronizado do código; .github/ e languages.json
+      # são da equipe. PR de fork que mexa neles reprova (docs do contrato §4.2).
+      - name: Arquivos protegidos
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name != github.repository
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+          HEAD: ${{ github.event.pull_request.head.sha }}
+        run: |
+          changed=$(git diff --name-only "$BASE" "$HEAD" | grep -E '^(pt-BR/|\.github/|languages\.json$)' || true)
+          if [ -n "$changed" ]; then
+            echo "::error::Este PR mexe em arquivos mantidos pela equipe (o pt-BR vem do código do bot):"
+            echo "$changed"
+            exit 1
+          fi
+
+      - name: Validar
+        run: node .github/scripts/validate.mjs . --summary "$GITHUB_STEP_SUMMARY"

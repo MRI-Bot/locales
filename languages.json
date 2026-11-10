@@ -1,0 +1,23 @@
+{
+  "source": "pt-BR",
+  "languages": [
+    {
+      "code": "pt-BR",
+      "name": "Português (Brasil)",
+      "discord": ["pt-BR"],
+      "status": "source"
+    },
+    {
+      "code": "en",
+      "name": "English",
+      "discord": ["en-US", "en-GB"],
+      "status": "beta"
+    },
+    {
+      "code": "es",
+      "name": "Español",
+      "discord": ["es-ES", "es-419"],
+      "status": "beta"
+    }
+  ]
+}
