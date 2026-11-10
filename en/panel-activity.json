@@ -1,0 +1,23 @@
+{
+  "ticketOpened": "Opened a ticket",
+  "ticketClaimed": "Claimed a ticket",
+  "ticketClosed": "Closed a ticket",
+  "ticketRated": "Rated a ticket",
+  "ticketRatedScore": "Rated a ticket {rating}",
+  "pollCreated": "Created a poll",
+  "pollClosed": "Poll ended",
+  "giveawayCreated": "Created a giveaway",
+  "giveawayCreatedPrize": "Created the giveaway \"{prize}\"",
+  "giveawayEnded": "Giveaway ended",
+  "messageSent": "Sent an announcement",
+  "messageScheduled": "Scheduled an announcement",
+  "taskCreated": "Task created",
+  "taskCompleted": "Task completed",
+  "levelUp": "Leveled up",
+  "levelUpTo": "Reached level {level}",
+  "joined": "Joined the server",
+  "joinedByInvite": "Joined through an invite",
+  "suggestionCreated": "New suggestion submitted",
+  "bugCreated": "New bug reported",
+  "alertPosted": "Live or content alert posted"
+}

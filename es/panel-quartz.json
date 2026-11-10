@@ -1,0 +1,62 @@
+{
+  "intro": {
+    "about": "Quartz es el anticheat de MRI. Bloquea en el servidor lo que es anormal (explosiones, spawns, armas entregadas, eventos falsificados) y castiga con calma, sumando pruebas. El código viene firmado desde nuestro servicio y se actualiza solo: en la carpeta de la ciudad queda solo un cargador.",
+    "license": "Una licencia por servidor de Discord. Durante la beta la licencia es de cortesía, sin cargo."
+  },
+  "notConfigured": "El servicio de Quartz aún no está activado en la plataforma.",
+  "noLicense": {
+    "title": "Este servidor aún no tiene licencia",
+    "description": "Activa la licencia de prueba de la beta, sin costo, para descargar Quartz e instalarlo en la ciudad. Dura 1 año y se puede renovar aquí.",
+    "activate": "Activar licencia"
+  },
+  "status": {
+    "revoked": "Licencia desactivada. La ciudad deja de recibir el anticheat.",
+    "expired": "Licencia vencida. La ciudad ejecuta la última versión guardada por hasta 7 días.",
+    "notConnected": "Ninguna ciudad conectada. Descarga la carpeta e instálala: se conecta sola en el primer inicio.",
+    "expiresSoon": "Activa, pero vence en {days, plural, one {# día} other {# días}}.",
+    "ok": "Conectada. La ciudad está recibiendo el anticheat.",
+    "stale": "(el servicio de Quartz no respondió ahora, datos del último registro)"
+  },
+  "facts": {
+    "connectedAt": "Conectada el",
+    "notYet": "Aún no",
+    "version": "Versión en la ciudad",
+    "neverStarted": "Aún no se ha iniciado",
+    "lastSeen": "Visto por última vez",
+    "never": "Nunca",
+    "expiresAt": "Vence el",
+    "kind": "Tipo",
+    "paid": "Pagada",
+    "courtesy": "Cortesía de la beta"
+  },
+  "actions": {
+    "download": "Descargar la carpeta",
+    "renew": "Renovar"
+  },
+  "install": {
+    "title": "Instalar en la ciudad",
+    "step1": "Descarga la carpeta y coloca {folder} en los resources.",
+    "step2": "Agrega {line} en {file} e inicia el servidor.",
+    "done": "Listo: la ciudad se conecta sola y aparece aquí como conectada. No hay clave que copiar. Cada descarga sirve para una instalación, y la carpeta copiada a otra ciudad no funciona.",
+    "inGame": "En el juego, {command} abre el panel. Empieza en modo Observar: solo registra, nadie es castigado."
+  },
+  "move": {
+    "title": "Cambiar de máquina",
+    "description": "Descarga la carpeta de nuevo e instálala en la máquina nueva. Se conecta y la antigua sale sola: la licencia vale para una ciudad a la vez.",
+    "disconnect": "Desconectar la ciudad"
+  },
+  "disconnectConfirm": {
+    "title": "¿Desconectar la ciudad?",
+    "description": "La ciudad conectada pierde el anticheat. Para conectarla de nuevo, descarga la carpeta e instálala otra vez.",
+    "confirm": "Desconectar"
+  },
+  "toasts": {
+    "created": "Licencia creada.",
+    "renewed": "Licencia renovada.",
+    "disconnected": "Ciudad desconectada."
+  },
+  "errors": {
+    "generic": "No se pudo completar.",
+    "download": "No se pudo descargar la carpeta."
+  }
+}

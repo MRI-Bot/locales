@@ -1,0 +1,212 @@
+{
+  "title": "Encuestas",
+  "description": "Encuestas en {guild}.",
+  "create": "Crear encuesta",
+  "navLabel": "Pantallas de Encuestas",
+  "loading": "Cargando encuestas...",
+  "tabs": {
+    "list": "Encuestas",
+    "overview": "Resumen"
+  },
+  "errors": {
+    "load": "No se pudieron cargar las encuestas."
+  },
+  "close": {
+    "confirmTitle": "¿Cerrar encuesta?",
+    "confirmDescription": "Se cerrarán los votos y el mensaje en Discord mostrará el resultado final.",
+    "confirmLabel": "Cerrar",
+    "success": "Encuesta cerrada.",
+    "failed": "No pude cerrar la encuesta."
+  },
+  "repost": {
+    "success": "¡Encuesta publicada en Discord!",
+    "uncertain": "Intenté volver a publicar, revisa si el bot está en línea.",
+    "failed": "No pude volver a publicar la encuesta."
+  },
+  "delete": {
+    "confirmTitle": "¿Eliminar encuesta?",
+    "confirmDescription": "La encuesta y el mensaje en Discord serán eliminados. No se puede deshacer.",
+    "success": "Encuesta eliminada.",
+    "failed": "No pude eliminar la encuesta."
+  },
+  "empty": {
+    "title": "Todavía no hay encuestas",
+    "description": "Crea una encuesta desde el panel o usa {command} en Discord.",
+    "createFirst": "Crear primera encuesta"
+  },
+  "tags": {
+    "multi": "Opción múltiple",
+    "multiUpTo": "Múltiple, hasta {count}",
+    "anonymous": "Anónima",
+    "hiddenResults": "Resultado oculto",
+    "roles": "{count, plural, one {# rol puede votar} other {# roles pueden votar}}"
+  },
+  "dashboard": {
+    "votes": "Votos",
+    "loadError": "No se pudieron cargar los números.",
+    "emptyTitle": "Aún no hay números",
+    "emptyDescription": "Los votos y las encuestas más votadas aparecen aquí cuando crees la primera.",
+    "totalVotes": "Votos en total",
+    "avgVotes": "Promedio por encuesta",
+    "activeNow": "Activas ahora",
+    "closed": "Cerradas",
+    "created30": "Creadas en 30 días",
+    "votes30": "Votos en 30 días",
+    "top": "Más votadas",
+    "poll": "Encuesta"
+  },
+  "table": {
+    "status": {
+      "closed": "Cerrada",
+      "scheduled": "Programada",
+      "active": "Activa"
+    },
+    "filters": {
+      "label": "Filtrar encuestas",
+      "all": "Todas",
+      "active": "Activas",
+      "scheduled": "Programadas",
+      "closed": "Cerradas"
+    },
+    "search": "Buscar pregunta u opción",
+    "refreshList": "Actualizar lista",
+    "count": "{count, plural, one {# encuesta} other {# encuestas}}",
+    "noResults": {
+      "title": "No se encontró ninguna encuesta",
+      "description": "Prueba otro término o cambia el filtro.",
+      "clear": "Limpiar filtros"
+    },
+    "columns": {
+      "question": "Pregunta",
+      "status": "Estado",
+      "leader": "Más votada",
+      "votes": "Votos",
+      "created": "Creada"
+    },
+    "noVotes": "Sin votos",
+    "openInDiscord": "Abrir en Discord",
+    "facts": {
+      "createdAt": "Creada el",
+      "publishesAt": "Se publica el",
+      "endedAt": "Cerró el",
+      "endsAt": "Cierra el"
+    },
+    "actions": {
+      "repost": "Publicar de nuevo",
+      "edit": "Editar",
+      "duplicate": "Duplicar",
+      "duplicateHint": "Crea una nueva encuesta usando esta como plantilla"
+    },
+    "voters": {
+      "loadError": "No pude cargar quién votó.",
+      "hide": "Ocultar quién votó",
+      "show": "Ver quién votó"
+    }
+  },
+  "form": {
+    "composer": {
+      "endsAt": "⏰ Cierra",
+      "sampleVotes": "60% · 3 votos",
+      "sampleOption": "Opción",
+      "question": "Pregunta",
+      "results": "Resultados",
+      "totalVotes": "Total de votos",
+      "sampleTotal": "5 votos",
+      "sampleEndsAt": "en 2 horas"
+    },
+    "questionPlaceholderPreview": "(pregunta)",
+    "errors": {
+      "channel": "Selecciona un canal.",
+      "question": "Escribe la pregunta.",
+      "minOptions": "Mínimo 2 opciones con texto.",
+      "duration": "Duración no válida.",
+      "scheduleFuture": "La fecha programada debe ser en el futuro.",
+      "save": "No se pudo guardar la encuesta."
+    },
+    "toast": {
+      "updated": "¡Encuesta actualizada!",
+      "scheduled": "¡Encuesta programada! Se publicará a la hora indicada.",
+      "posted": "¡Encuesta creada y publicada en Discord!",
+      "notPosted": "Encuesta creada, pero no pude publicarla en Discord. Verifica que el bot esté en línea y tenga acceso al canal."
+    },
+    "title": {
+      "edit": "Editar encuesta",
+      "duplicate": "Duplicar encuesta",
+      "create": "Nueva encuesta"
+    },
+    "inGuild": "en {guild}",
+    "createAndPost": "Crear y publicar",
+    "channel": "Canal",
+    "channelLocked": "(no se puede mover una encuesta ya publicada)",
+    "refreshChannels": "Actualizar lista de canales",
+    "channelPlaceholder": "Seleccionar canal",
+    "question": "Pregunta",
+    "questionPlaceholder": "¿Cuál es tu color favorito?",
+    "options": "Opciones ({count}/{max})",
+    "pickEmoji": "Elegir emoji",
+    "clearEmoji": "Quitar emoji",
+    "optionPlaceholder": "Opción {n}",
+    "addOption": "Añadir opción",
+    "editOptionsHint": "Editar el texto mantiene los votos. Quitar una opción borra sus votos.",
+    "mention": {
+      "label": "Ping al publicar",
+      "none": "Ninguno",
+      "role": "Rol específico",
+      "rolePlaceholder": "Elige el rol",
+      "editHint": "La mención queda visible en el mensaje, pero Discord solo notifica al enviarlo (editar la encuesta no vuelve a notificar)."
+    },
+    "duration": {
+      "editLabel": "Nuevo plazo a partir de ahora (opcional)",
+      "label": "Duración (opcional)",
+      "placeholder": "Sin límite",
+      "minutes": "minutos",
+      "emptyHint": "Vacío = quita el plazo."
+    },
+    "schedule": {
+      "label": "Programar publicación",
+      "description": "Publica automáticamente a la hora indicada."
+    },
+    "voting": {
+      "title": "Ajustes de votación",
+      "multiSelect": "Opción múltiple",
+      "multiSelectHint": "Permite votar por más de una opción.",
+      "maxChoices": "Máx. de opciones",
+      "maxChoicesPlaceholder": "sin límite",
+      "hideResults": "Ocultar resultados",
+      "hideResultsHint": "Oculta el conteo hasta que la encuesta cierre (evita el efecto arrastre).",
+      "anonymous": "Voto anónimo",
+      "anonymousHint": "No revela quién votó qué (desactiva la lista de votantes).",
+      "showLabel": "Mostrar el texto de la opción en los botones",
+      "showLabelHint": "Por defecto: botón solo con emoji (más limpio). Actívalo si las opciones no tienen emoji o si prefieres el texto visible.",
+      "compact": "Diseño compacto",
+      "compactHint": "Oculta la barra de color y el % en el mensaje; los votos aparecen directamente en los botones. El mensaje queda más limpio.",
+      "allowedRoles": "Roles que pueden votar (opcional)",
+      "allowedRolesPlaceholder": "Añadir rol (vacío = todos)",
+      "weights": "Peso del voto por rol (opcional)",
+      "weightsHint": "El voto toma el MAYOR peso entre los roles del votante. Ej.: VIP = 3 → su voto cuenta 3x.",
+      "weightsPlaceholder": "Añadir rol con peso",
+      "weight": "peso"
+    },
+    "preview": {
+      "label": "Vista previa",
+      "customize": "Personalizar mensaje",
+      "designHint": "Arrastra los bloques para armar el mensaje. El bot rellena los campos (pregunta/resultados) al publicar.",
+      "classicHint": "Embed clásico, activa \"Personalizar mensaje\" para un editor visual con imágenes y diseño."
+    },
+    "classic": {
+      "endsIn": "⏰ Cierra en {minutes} min",
+      "upTo": "☑️ Hasta {count} opciones",
+      "multi": "☑️ Opción múltiple",
+      "single": "1️⃣ 1 opción permitida",
+      "anonymous": "🕶️ Voto anónimo",
+      "options": "Opciones",
+      "hidden": "🔒 Resultados ocultos hasta el cierre.",
+      "settings": "Ajustes",
+      "resultHidden": "resultado oculto",
+      "votes": "{count, plural, one {# voto} other {# votos}}",
+      "footerCompact": "vista previa · los conteos aparecen en los botones con los votos reales",
+      "footerBar": "vista previa · los números son de ejemplo, la barra crece con los votos reales",
+      "footerEndsIn": " · cierra en {minutes} min"
+    }
+  }
+}

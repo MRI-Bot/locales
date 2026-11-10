@@ -13,10 +13,10 @@ Achou um erro no texto em português? Abra uma issue.
 Cada arquivo é um JSON com texto ou objetos aninhados. A chave é igual à do `pt-BR/` do mesmo arquivo:
 
 ```json
-// pt-BR/tickets.json
+// pt-BR/bot-tickets.json
 { "close": { "title": "Fechar ticket", "by": "Fechado por {user}" } }
 
-// en/tickets.json
+// en/bot-tickets.json
 { "close": { "title": "Close ticket", "by": "Closed by {user}" } }
 ```
 

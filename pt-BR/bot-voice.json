@@ -1,0 +1,76 @@
+{
+  "noTemp": "❌ Você não tem um canal de voz temporário. Entre num canal \"join-to-create\".",
+  "noActiveTemp": "❌ Você não tem um canal temporário ativo.",
+  "notFound": "❌ Canal temporário não encontrado.",
+  "ownerOnly": "❌ Apenas o dono do canal pode usar este controle.",
+  "unknownSubcommand": "❌ Subcomando desconhecido.",
+  "unknownAction": "❌ Ação desconhecida.",
+  "locked": "🔒 Canal trancado.",
+  "unlocked": "🔓 Canal destrancado.",
+  "hidden": "👁️ Canal oculto.",
+  "visible": "✅ Canal visível.",
+  "limitSet": "🔢 Limite: {limit}.",
+  "unlimited": "ilimitado",
+  "renamed": "✏️ Canal renomeado para **{name}**.",
+  "permitted": "✅ {user} permitido no canal.",
+  "rejected": "⛔ {user} bloqueado e desconectado.",
+  "transferred": "🔁 Canal transferido para {user}.",
+  "cantPermitBot": "❌ Não dá pra permitir um bot.",
+  "cantTransferBot": "❌ Não dá pra transferir o canal pra um bot.",
+  "cantApplyToBot": "❌ Não dá pra aplicar esta ação num bot.",
+  "cantRejectSelf": "❌ Você não pode bloquear a si mesmo.",
+  "noUserSelected": "❌ Nenhum usuário selecionado.",
+  "panelReposted": "🎙️ Painel re-postado no canal.",
+  "claim": {
+    "joinTempFirst": "❌ Entre num canal temporário para assumi-lo.",
+    "joinChannelFirst": "❌ Entre no canal para assumi-lo.",
+    "ownerStillHere": "❌ O dono ainda está no canal.",
+    "nowOwner": "👑 Agora você é o dono do canal.",
+    "ownerLeft": "👑 O dono saiu do canal. Quem está dentro pode assumir com o botão **Assumir** ou `{command}`."
+  },
+  "pick": {
+    "permit": "✅ Selecione quem **permitir** no canal:",
+    "reject": "⛔ Selecione quem **bloquear** do canal:",
+    "transfer": "🔁 Selecione pra quem **transferir** o canal:",
+    "placeholder": "Escolha um usuário"
+  },
+  "modal": {
+    "limitTitle": "Limite de usuários",
+    "limitLabel": "Limite (0 = ilimitado, máx 99)",
+    "renameTitle": "Renomear canal",
+    "renameLabel": "Novo nome"
+  },
+  "panel": {
+    "title": "🎙️ Painel do canal de voz",
+    "intro": "Controle seu canal temporário com os botões abaixo. Apenas o **dono** pode usar (exceto **Assumir**, disponível quando o dono sai).",
+    "dedicatedIntro": "Entre num canal **join-to-create** pra ganhar seu canal temporário, depois use os botões abaixo pra controlá-lo.",
+    "owner": "**Dono:** {user}",
+    "buttons": {
+      "lock": "Travar",
+      "hide": "Ocultar",
+      "limit": "Limite",
+      "rename": "Renomear",
+      "claim": "Assumir",
+      "permit": "Permitir",
+      "reject": "Bloquear",
+      "transfer": "Transferir"
+    },
+    "state": {
+      "locked": "🔒 Travado",
+      "open": "🔓 Aberto",
+      "hidden": "🙈 Oculto",
+      "visible": "👁️ Visível",
+      "limit": "Limite {limit}",
+      "noLimit": "Sem limite"
+    }
+  },
+  "audit": {
+    "overwrites": "Atualização do canal temporário",
+    "rejected": "Bloqueado do canal temporário",
+    "created": "Canal temporário (hub {hub}) para {user}",
+    "ownerLeftBeforeMove": "Dono saiu antes de ser movido",
+    "empty": "Canal temporário vazio",
+    "reconcileEmpty": "Reconciliação: canal temporário vazio no restart",
+    "sweepEmpty": "Sweep: canal temporário vazio"
+  }
+}

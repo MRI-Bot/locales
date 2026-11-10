@@ -1,0 +1,29 @@
+{
+  "page": {
+    "documentTitle": "Minha conta | MRI BOT",
+    "logout": "Sair"
+  },
+  "currentPlan": {
+    "pastDueBadge": "Pagamento pendente",
+    "currentBadge": "Plano atual",
+    "cancel": "Cancelar assinatura",
+    "describe": {
+      "free": "Você usa o plano gratuito. Escolha um plano abaixo para liberar mais recursos.",
+      "pastDue": "A última cobrança falhou. Renove para não perder o acesso.",
+      "lifetime": "Acesso vitalício.",
+      "complimentary": "Cortesia até {date}.",
+      "trial": "Teste grátis até {date}.",
+      "recurring": "Renova sozinho em {date}, no cartão.",
+      "prepaid": "Pago até {date}, {count, plural, one {falta # dia} other {faltam # dias}}. Não renova sozinho."
+    }
+  },
+  "billing": {
+    "title": "Pagamentos",
+    "loadError": "Não foi possível carregar seus pagamentos.",
+    "emptyTitle": "Nenhum pagamento ainda",
+    "emptyDescription": "Quando você assinar ou comprar um pacote, cada pagamento aparece aqui.",
+    "card": "cartão",
+    "credit": "{amount} de crédito",
+    "refunded": "Estornado"
+  }
+}

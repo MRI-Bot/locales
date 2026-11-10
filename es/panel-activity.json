@@ -1,0 +1,23 @@
+{
+  "ticketOpened": "Abrió un ticket",
+  "ticketClaimed": "Atendió un ticket",
+  "ticketClosed": "Cerró un ticket",
+  "ticketRated": "Calificó un ticket",
+  "ticketRatedScore": "Calificó un ticket con {rating}",
+  "pollCreated": "Creó una encuesta",
+  "pollClosed": "Encuesta cerrada",
+  "giveawayCreated": "Creó un sorteo",
+  "giveawayCreatedPrize": "Creó el sorteo \"{prize}\"",
+  "giveawayEnded": "Sorteo finalizado",
+  "messageSent": "Envió un anuncio",
+  "messageScheduled": "Programó un anuncio",
+  "taskCreated": "Tarea creada",
+  "taskCompleted": "Tarea completada",
+  "levelUp": "Subió de nivel",
+  "levelUpTo": "Subió al nivel {level}",
+  "joined": "Entró al servidor",
+  "joinedByInvite": "Entró por una invitación",
+  "suggestionCreated": "Nueva sugerencia enviada",
+  "bugCreated": "Nuevo bug reportado",
+  "alertPosted": "Alerta de live o contenido publicado"
+}

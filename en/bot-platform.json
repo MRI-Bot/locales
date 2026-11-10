@@ -1,0 +1,15 @@
+{
+  "trial": {
+    "guildOnly": "Use this command inside the server where you want the trial.",
+    "noPermissionTitle": "No permission",
+    "noPermission": "Only the server owner (or someone with Administrator) can redeem a trial code.",
+    "failedTitle": "Couldn't redeem",
+    "failed": "Try again in a moment. If it keeps happening, contact the team.",
+    "granted": "Plan **{plan}** unlocked for **{days, plural, one {# day} other {# days}}**.",
+    "ends": "Ends {relative} ({full}).",
+    "guildCovered": "**{guild}** is already covered — just turn on the modules on the dashboard.",
+    "guildNotCovered": "⚠️ The trial is active on your account, but **{guild}** couldn't be covered automatically (the server is already on another account). Pick the server on the dashboard, under **Plan › Pro Servers**.",
+    "afterEnd": "When the trial ends, paid modules are turned off — your settings stay saved.",
+    "successTitle": "Trial activated 🎉"
+  }
+}

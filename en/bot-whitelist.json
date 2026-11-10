@@ -1,0 +1,150 @@
+{
+  "guildOnly": "Use this button inside a server.",
+  "roleFix": "In Discord, open Server Settings > Roles, move the bot's role above the approved role and check the Manage Roles permission.",
+  "moduleInactive": {
+    "title": "Whitelist module inactive",
+    "body": "The \"Whitelist\" module must be active on this server."
+  },
+  "command": {
+    "guildOnly": "Use this command inside a server.",
+    "noPermission": "You don't have permission to post the whitelist panel.",
+    "moduleInactive": "Turn on the \"Whitelist\" module in the dashboard before posting the panel on this server.",
+    "textChannelOnly": "Use this command in a text channel.",
+    "postFailed": "Couldn't post the panel. Check the bot's permissions.",
+    "notPostedTitle": "Panel not posted",
+    "postedTitle": "Panel posted",
+    "postedBody": "The whitelist panel was posted in this channel."
+  },
+  "panelPost": {
+    "noFields": "The whitelist form has no questions. Add and save the questions before posting the panel.",
+    "channelNotFound": "Channel not found. It may have been deleted or the bot can't see it.",
+    "notTextChannel": "The panel can only be posted in a text or announcement channel.",
+    "missingPermissions": "MRI BOT doesn't have permission to view or send messages in that channel."
+  },
+  "panel": {
+    "title": "🎫 Whitelist",
+    "description": "Click the button to apply.",
+    "apply": "Apply",
+    "useCode": "Use code"
+  },
+  "form": {
+    "modalTitle": "Whitelist Application",
+    "chooseRange": "Choose from {min} to {max}.",
+    "required": "Required.",
+    "numbersOnly": "Numbers only.",
+    "yes": "Yes",
+    "no": "No",
+    "characterName": "Character name",
+    "releaseTitle": "Request access",
+    "codeTitle": "Use access code",
+    "codeLabel": "Code"
+  },
+  "announce": {
+    "approved": "## ✅ Whitelist approved\n{user} was approved.",
+    "rejected": "## ❌ Whitelist rejected\n{user} was not approved.",
+    "character": "**Character:** {name}",
+    "score": "**Score:** {score}%",
+    "reason": "**Reason:** {reason}"
+  },
+  "card": {
+    "headingPending": "## 🆕 New whitelist application",
+    "headingApproved": "## ✅ Application approved",
+    "headingRejected": "## ❌ Application rejected",
+    "requested": "{user} applied for the whitelist.",
+    "removedQuestion": "**{key}** _(question removed)_",
+    "approve": "Approve",
+    "reject": "Reject",
+    "approvedBy": "Approved by {user}",
+    "rejectedBy": "Rejected by {user}",
+    "reason": "**Reason:** {reason}",
+    "footer": "-# App {id}"
+  },
+  "window": {
+    "title": "Applications closed",
+    "opensIn": "Applications open in {time}.",
+    "closed": "Applications on this server are closed."
+  },
+  "block": {
+    "applyTitle": "You can't apply right now",
+    "codeTitle": "You can't use a code right now",
+    "approved": "You're already approved on this whitelist.",
+    "cooldown": "You can try again in {time}.",
+    "pending": "You already have a pending application. Wait for the staff review."
+  },
+  "time": {
+    "minutes": "{count, plural, one {# minute} other {# minutes}}",
+    "hours": "{count, plural, one {# hour} other {# hours}}",
+    "days": "{count, plural, one {# day} other {# days}}",
+    "daysHours": "{days} and {hours}"
+  },
+  "remaining": {
+    "seconds": "{count} s",
+    "minutes": "{count} min"
+  },
+  "clock": {
+    "remaining": "⏳ Time left: **{time}**.",
+    "expired": "⏳ **Your time is up** — you'll have to start over."
+  },
+  "pageSaved": "✅ Part **{page} of {total}** saved. Click continue to answer the rest — nothing is sent until the last part.",
+  "continue": "Continue ({page}/{total})",
+  "partsExpired": "The answers from the previous parts expired, so the application couldn't be sent half done. Click \"Apply\" on the panel to answer again.",
+  "timeUp": {
+    "title": "Your time is up",
+    "nextPage": "The time to finish the whitelist ran out. Click \"Apply\" on the panel to start over.",
+    "submit": "The time to finish the whitelist ran out and the application wasn't sent. Click \"Apply\" on the panel to start over."
+  },
+  "formChanged": {
+    "title": "The form changed",
+    "body": "The whitelist questions were changed while you were answering. Click \"Apply\" on the panel to start over."
+  },
+  "code": {
+    "disabled": "This server isn't accepting access codes.",
+    "failedTitle": "Couldn't use that code.",
+    "roleNotEditable": "The bot can't give the whitelist role. Your code wasn't used up. Tell an admin: the bot's role must be above the approved role and have the Manage Roles permission.",
+    "successTitle": "You're in!",
+    "successBody": "Your code was accepted and you're now on the whitelist.",
+    "noRoleTitle": "Code accepted",
+    "noRoleBody": "Your code was accepted, but I couldn't give you the role. Tell an admin."
+  },
+  "submit": {
+    "failedTitle": "Couldn't send your application.",
+    "retry": "Try again in a moment.",
+    "savedTitle": "Application saved",
+    "savedBody": "Your application was saved, but I couldn't post the notification for the staff. Tell an admin.",
+    "sentTitle": "Application sent",
+    "sentBody": "Your application was sent! Wait for the staff review."
+  },
+  "auto": {
+    "score": "Your score: **{score}%**.",
+    "noRoleTitle": "Approved, but without the role",
+    "noRoleBody": "You passed the test, but I couldn't give you the role. Tell an admin.",
+    "approvedTitle": "Approved!",
+    "approvedBody": "You passed the test and you're now on the whitelist.",
+    "failedTitle": "Not this time",
+    "failedBody": "You didn't reach the minimum score."
+  },
+  "review": {
+    "noPermission": "You need the \"Manage Roles\" permission to review applications.",
+    "notFound": "Application not found.",
+    "alreadyReviewed": "Application already reviewed.",
+    "approveFailed": "Couldn't approve the application."
+  },
+  "approve": {
+    "dmTitle": "🎉 Application approved!",
+    "dmBody": "Your whitelist application on **{guild}** was approved.",
+    "doneTitle": "Application approved",
+    "doneBody": "{user} was approved.",
+    "noRoleTitle": "Approved, but without the role",
+    "noRoleBody": "{user} was approved, but I couldn't give the role. {fix}"
+  },
+  "reject": {
+    "modalTitle": "Reject application",
+    "label": "Reason (optional)",
+    "failed": "Couldn't reject the application.",
+    "dmTitle": "Application rejected",
+    "dmBody": "Your whitelist application on **{guild}** was rejected.",
+    "dmBodyReason": "Your whitelist application on **{guild}** was rejected.\n\n**Reason:** {reason}",
+    "doneTitle": "Application rejected",
+    "doneBody": "{user} was rejected."
+  }
+}

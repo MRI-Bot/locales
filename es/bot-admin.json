@@ -1,0 +1,181 @@
+{
+  "noPermission": "Sin permiso para {command} ({reason}).",
+  "reason": "Motivo",
+  "noReason": "_(sin motivo)_",
+  "common": {
+    "empty": "_(vacío)_",
+    "previewTitle": "Vista previa (dry-run)",
+    "confirmTitle": "¿Confirmas?",
+    "delete": "Borrar",
+    "cancel": "Cancelar",
+    "cancelledTitle": "Cancelado",
+    "nothingDeletedBody": "No se borró ningún mensaje.",
+    "deletingTitle": "Borrando…",
+    "timeoutTitle": "Tiempo agotado",
+    "notDeleted": "⚠️ {count, plural, one {# mensaje no se pudo borrar} other {# mensajes no se pudieron borrar}} — ya eliminados, fijados o sin permiso."
+  },
+  "kick": {
+    "done": "{user} expulsado (case **#{case}**).",
+    "failed": "No se pudo expulsar: {error}"
+  },
+  "ban": {
+    "done": "{user} baneado (case **#{case}**).",
+    "failed": "No se pudo banear: {error}",
+    "duration": "Duración",
+    "durationValue": "{minutes} min",
+    "deletedMessages": "Mensajes borrados",
+    "deletedDays": "{days, plural, one {# día} other {# días}}"
+  },
+  "mute": {
+    "done": "{user} silenciado por **{minutes}min** (case **#{case}**).",
+    "failed": "No se pudo silenciar: {error}"
+  },
+  "note": {
+    "done": "Nota registrada para {user} (case **#{case}**).",
+    "content": "Contenido",
+    "failed": "No se pudo registrar la nota: {error}"
+  },
+  "ping": {
+    "title": "Pong",
+    "response": "Respuesta",
+    "gateway": "Conexión con Discord",
+    "measuring": "midiendo…"
+  },
+  "softban": {
+    "done": "{user} recibió Softban (case **#{case}**, {days}d de mensajes borrados).",
+    "failed": "Falló el Softban: {error}",
+    "unbanAuditReason": "{reason} (expulsión con mensajes borrados)"
+  },
+  "unban": {
+    "invalidId": "El User ID debe ser un snowflake de Discord (17-20 dígitos).",
+    "done": "{user} desbaneado (case **#{case}**).",
+    "notBanned": "{user} no está baneado en este servidor — revisa el User ID.",
+    "failed": "No se pudo desbanear: {error}"
+  },
+  "unmute": {
+    "done": "{user} ya no está silenciado (case **#{case}**).",
+    "failed": "No se pudo quitar el silencio: {error}"
+  },
+  "warn": {
+    "done": "{user} advertido (case **#{case}**).",
+    "failed": "No se pudo advertir: {error}"
+  },
+  "cargo": {
+    "guildOnly": "Úsalo dentro de un servidor.",
+    "noAccessTitle": "Sin permiso",
+    "noAccessBody": "No tienes acceso a este comando. Quién puede usarlo se define en el panel, en **Permisos › Discord Admin**.",
+    "memberNotFound": "Miembro no encontrado en el servidor.",
+    "botTooLowTitle": "No puedo gestionar ese rol",
+    "botTooLowBody": "**{role}** está por encima de mi rol más alto. Sube el mío en la lista de roles.",
+    "authorTooLowTitle": "Rol por encima del tuyo",
+    "authorTooLowBody": "**{role}** está al mismo nivel o por encima de tu rol más alto.",
+    "managedTitle": "Rol gestionado",
+    "managedBody": "**{role}** lo controla una integración y no se puede dar ni quitar a mano.",
+    "noChangeTitle": "Nada cambió",
+    "alreadyHas": "**{member}** ya tiene el rol **{role}**.",
+    "doesNotHave": "**{member}** no tiene el rol **{role}**.",
+    "auditReason": "{command} por {user}",
+    "addedTitle": "Rol añadido",
+    "removedTitle": "Rol quitado",
+    "addedBody": "**{role}** para **{member}**.",
+    "removedBody": "**{role}** quitado a **{member}**.",
+    "failedTitle": "No pude cambiarlo"
+  },
+  "membercount": {
+    "title": "Recuento — {guild}",
+    "total": "👥 Total",
+    "humans": "🙂 Humanos",
+    "bots": "🤖 Bots",
+    "boosts": "🚀 Boosts",
+    "tierField": "⭐ Nivel de Boost",
+    "tier0": "Nivel 0 (sin mejora)",
+    "tier": "Nivel {tier}"
+  },
+  "prune": {
+    "invalidRegex": "Regex inválida. Ejemplo: `^!comando|spam`",
+    "botMissingPerms": "El bot no tiene los permisos necesarios en este canal (Ver canal, Leer el historial de mensajes y Gestionar mensajes). Ajusta los permisos de su rol aquí e inténtalo de nuevo.",
+    "previewNoMatch": "_(ningún mensaje coincidiría con los filtros)_",
+    "previewOthers": "_+{count} más_",
+    "previewBody": "Se **borrarían** {count, plural, one {# mensaje} other {# mensajes}} — repite sin `dry_run` para confirmar.",
+    "reasonErrors": "Discord rechazó borrar {count, plural, one {# mensaje} other {# mensajes}} — suele ser un mensaje ya borrado o fijado, o falta de permiso en el canal.",
+    "reasonScan": "nada coincidió con los filtros en los {count} mensajes más recientes — el escaneo llegó al límite antes de encontrar algo.",
+    "reasonNoMatch": "ningún mensaje coincidió con los filtros.",
+    "nothingDeleted": "No se borró nada: {reason}",
+    "deleted": "**{count}** {count, plural, one {mensaje borrado} other {mensajes borrados}} de este canal.",
+    "oldDeleted": "({count} con más de 14 días, borrados uno a uno)",
+    "stoppedTime": "⏱️ Me detuve por el límite de tiempo — ejecútalo de nuevo para continuar.",
+    "stoppedScan": "🔎 Se alcanzó el límite de escaneo — ejecútalo de nuevo para ir más atrás.",
+    "timeout": "⏱️ La limpieza tardó más de lo esperado y se perdió la respuesta. Parte de los mensajes puede ya estar borrada — ejecuta {command} de nuevo para continuar.",
+    "failed": "Falló el prune: {error}",
+    "confirmOnlyFrom": "• solo de `{user}`",
+    "confirmOnlyMatching": "• solo los que coinciden con `{regex}`",
+    "confirmBody": "Voy a borrar hasta **{count}** {count, plural, one {mensaje} other {mensajes}} de este canal.",
+    "confirmNoFilter": "• sin filtro — los más recientes del canal",
+    "confirmNoUndo": "Esto **no se puede deshacer**. Usa `dry_run: true` si quieres verlo antes.",
+    "deletingBody": "Esto puede tardar unos segundos."
+  },
+  "purge": {
+    "moreChannels": "_+{count} canales más_",
+    "progress": "Mensajes de `{user}`: **{count}** borrados hasta ahora.\nCanales escaneados: {done}/{total}.",
+    "skipped": "⚠️ {count, plural, one {# canal omitido} other {# canales omitidos}}: el bot no puede leer ni borrar allí (Ver canal, Leer el historial de mensajes y Gestionar mensajes).",
+    "archivedThreads": "_Los hilos archivados no se escanean._",
+    "nothingTitle": "No se borró nada",
+    "nothingBody": "No se encontró ningún mensaje de `{user}` en los canales a los que llega el bot.",
+    "doneTitle": "Limpieza completada",
+    "done": "**{count}** {count, plural, one {mensaje} other {mensajes}} de `{user}` borrados.",
+    "doneWithCase": "**{count}** {count, plural, one {mensaje} other {mensajes}} de `{user}` borrados — case #{case}.",
+    "alreadyDeleted": "{count, plural, one {# mensaje ya se había borrado} other {# mensajes ya se habían borrado}}.",
+    "stepTimeout": "⏱️ Una etapa tardó más de lo esperado y se perdió la respuesta.{done} Ejecuta {command} de nuevo para continuar.",
+    "failedStep": "Falló el purge: {error}.{done}",
+    "failed": "Falló el purge: {error}",
+    "partialScan": "_Escaneo parcial: {done}/{total} canales en una etapa — el total real es mayor o igual._",
+    "noneFound": "_(no se encontró ningún mensaje)_",
+    "previewBody": "Se **borrarían** **{count}** {count, plural, one {mensaje} other {mensajes}} de `{user}`.",
+    "confirmDays": "Voy a borrar **todos** los mensajes de `{user}` en todos los canales a los que llega el bot, de los últimos **{days, plural, one {# día} other {# días}}**.",
+    "confirmAll": "Voy a borrar **todos** los mensajes de `{user}` en todos los canales a los que llega el bot — **todo el historial**.",
+    "confirmNote": "En un servidor grande esto tarda minutos. Esto **no se puede deshacer**. Usa `dry_run: true` si quieres verlo antes.",
+    "scanning": "Escaneando los canales del servidor.",
+    "continue": "Continuar",
+    "pausedTitle": "En pausa",
+    "pausedBody": "**{count}** {count, plural, one {mensaje} other {mensajes}} de `{user}` borrados hasta ahora ({done}/{total} canales). Haz clic en Continuar para seguir donde se detuvo.",
+    "stoppedTitle": "Detenido",
+    "stoppedBody": "**{count}** {count, plural, one {mensaje} other {mensajes}} de `{user}` borrados. Ejecuta {command} de nuevo para terminar."
+  },
+  "shards": {
+    "status": {
+      "online": "✅ En línea",
+      "connecting": "🔄 Conectando",
+      "reconnecting": "🔄 Reconectando",
+      "idle": "💤 Inactiva",
+      "nearly": "⚠️ Casi lista",
+      "disconnected": "❌ Desconectada",
+      "waitingGuilds": "⏳ Esperando guilds",
+      "identifying": "🔑 Identificando",
+      "resuming": "▶️ Reanudando"
+    },
+    "notAvailable": "N/D",
+    "listLine": "**Shard {id}** — {status} | {guilds} servidores | {ping}ms",
+    "listTitle": "Estado de las shards",
+    "listFooter": "Total: {guilds} servidores | Ping medio: {ping}ms | {count} shard(s)",
+    "statsTitle": "Estadísticas de las shards",
+    "statsServers": "Servidores: **{count}**",
+    "statsUsers": "Usuarios en caché: **{count}**",
+    "statsPing": "Ping: **{ping}ms**",
+    "statsUptime": "Uptime: **{uptime}**",
+    "statsFooter": "Total: {guilds} servidores | {users} usuarios en caché",
+    "notFound": "Shard **{id}** no encontrada.",
+    "fieldStatus": "Estado",
+    "fieldServers": "Servidores",
+    "fieldCachedUsers": "Usuarios en caché",
+    "fieldPing": "Ping",
+    "fieldUptime": "Uptime",
+    "notSharded": "El bot no se está ejecutando con sharding activo.",
+    "restartingOne": "Reiniciando la shard **{id}**...",
+    "restartingAll": "Reiniciando **todas** las shards..."
+  },
+  "selector": {
+    "added": "Añadido: {roles}",
+    "removed": "Quitado: {roles}",
+    "noChange": "Sin cambios."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "guildOnly": "Use este comando dentro de um servidor.",
+  "moduleInactive": "O módulo de Gamificação não está ativo neste servidor.",
+  "botsNoXp": "Bots não acumulam XP.",
+  "level": {
+    "fetchFailed": "Não consegui buscar o nível agora. Tente de novo em instantes.",
+    "title": "Nível {level}",
+    "rank": "Rank",
+    "totalXp": "XP total",
+    "progress": "Progresso",
+    "progressValue": "{bar} {pct}%\nFaltam **{xp} XP** pro nível {next}."
+  },
+  "ranking": {
+    "line": "{medal}{user} — Nível **{level}** · {xp} XP",
+    "title": "🏆 Ranking — {guild}",
+    "empty": "Ninguém pontuou ainda.",
+    "footer": "Página {page}/{pages} · {count, plural, one {# membro} other {# membros}}",
+    "fetchFailed": "Não consegui buscar o ranking agora. Tente de novo em instantes.",
+    "ownerOnly": "Só quem abriu o ranking pode paginar. Rode `{command}`.",
+    "pageFailed": "Falha ao carregar a página. Tente de novo."
+  },
+  "admin": {
+    "noPermissionTitle": "Sem permissão",
+    "noPermission": "Você não tem acesso a este comando. Quem pode usar é definido no painel, em **Permissões › Gamificação**.",
+    "adjust": {
+      "add": "XP adicionado para {user}.",
+      "remove": "XP removido para {user}.",
+      "set": "XP definido para {user}.",
+      "now": "Agora: **{xp} XP** · nível **{level}**",
+      "leveledUp": "— subiu para o **nível {level}**! 🎉",
+      "title": "XP ajustado",
+      "failed": "Não consegui ajustar o XP agora. Tente de novo em instantes."
+    },
+    "reset": {
+      "pickOne": "Escolha um **membro** ou marque **todos** pra resetar o servidor.",
+      "notBoth": "Escolha **um membro** OU **todos** — não os dois.",
+      "memberTitle": "XP resetado",
+      "memberDone": "O XP de {user} foi zerado.",
+      "nothingTitle": "Nada a resetar",
+      "nothing": "{user} não tinha XP.",
+      "failed": "Não consegui resetar agora. Tente de novo em instantes.",
+      "confirm": "Sim, resetar tudo",
+      "cancel": "Cancelar",
+      "askTitle": "Resetar o XP de TODO o servidor?",
+      "ask": "Zera o XP e o nível de **todos** os membros. Cargos de recompensa, multiplicadores e configurações são preservados. Ação irreversível.",
+      "cancelledTitle": "Reset cancelado",
+      "timeout": "Tempo esgotado — nada foi apagado.",
+      "cancelled": "Nenhum XP foi apagado.",
+      "runningTitle": "Resetando…",
+      "running": "Apagando o XP do servidor.",
+      "guildTitle": "Servidor resetado",
+      "guildDone": "{count, plural, one {# membro teve} other {# membros tiveram}} o XP zerado.",
+      "guildFailed": "Falha ao resetar o servidor. Tente de novo em instantes."
+    }
+  },
+  "auditRewardRole": "Cargo de recompensa (gamificação)",
+  "auditRewardRoleSwap": "Troca de cargo de recompensa (gamificação)",
+  "levelUpDefault": "GG {user}, você subiu para o **nível {level}**!"
+}

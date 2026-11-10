@@ -1,0 +1,18 @@
+{
+  "categories": {
+    "account": "Dashboard account",
+    "linkedGuilds": "Servers linked to your dashboard",
+    "gamification": "Gamification progress",
+    "votes": "Votes and giveaway entries",
+    "tickets": "Support tickets",
+    "applications": "Applications (whitelist and staff)",
+    "purchases": "Purchases and subscriptions",
+    "moderation": "Moderation records",
+    "gameLinks": "Game links (FiveM / MTA)",
+    "anonymousMessages": "Anonymous messages sent",
+    "accessLogs": "Access logs (last 180 days)"
+  },
+  "export": {
+    "notice": "Data from the servers you administer is not included here: for that data the server is the controller and MRI Bot is the processor."
+  }
+}

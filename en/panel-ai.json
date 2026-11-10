@@ -1,0 +1,312 @@
+{
+  "copy": {
+    "failed": "Could not copy. Select it manually.",
+    "copied": "Copied"
+  },
+  "access": {
+    "title": "Use with AI",
+    "description": "An AI can set up this server for you: tickets, roles, channels, messages and the rest. It only does what the key allows, and everything it changes shows up in Key activity.",
+    "keyLabel": "Key the AI will use",
+    "noKey": "Create a key with only the permissions for what the AI will touch. Once it exists, the buttons below copy with the key included.",
+    "connector": {
+      "title": "ChatGPT or Claude (connector)",
+      "description": "In Connectors, add a custom connector with this address. Anyone with the address can use the key: keep it like a password.",
+      "copy": "Copy address"
+    },
+    "terminal": {
+      "title": "AI in the terminal (Claude Code, Codex, Cursor)",
+      "description": "Copy the instructions and paste them into the chat. The AI reads the API guide and starts with what the key can do.",
+      "copy": "Copy instructions"
+    },
+    "guide": "View the API guide"
+  },
+  "common": {
+    "failed": "Couldn't complete this.",
+    "add": "Add"
+  },
+  "errorLog": {
+    "title": "Recent errors",
+    "description": "What the provider replied when it failed, over the last 14 days. The question and who asked are not stored, and the key is stripped from the text.",
+    "loadFailed": "Couldn't load the errors.",
+    "clear": "Clear errors",
+    "clearTitle": "Clear the errors?",
+    "clearDescription": "This server's error history will be deleted.",
+    "clearFailed": "Couldn't clear.",
+    "empty": "No errors logged. 🎉",
+    "showAll": "Show all ({count})",
+    "kinds": {
+      "quota": {
+        "label": "quota",
+        "hint": "The key hit its limit (429). The queue moved on to the next one."
+      },
+      "auth": {
+        "label": "key rejected",
+        "hint": "The key is invalid, expired or has no access to the model."
+      },
+      "down": {
+        "label": "down",
+        "hint": "The provider didn't reply in time or returned a 5xx error."
+      },
+      "other": {
+        "label": "error",
+        "hint": "Nonexistent model, rejected format or another error response."
+      },
+      "chain": {
+        "label": "whole queue",
+        "hint": "No provider replied; the member got no AI answer."
+      },
+      "docs": {
+        "label": "sources",
+        "hint": "The documentation sources index didn't load."
+      }
+    }
+  },
+  "modelPicker": {
+    "placeholder": "Pick or type the model",
+    "search": "Search or type the id...",
+    "emptyNoOptions": "Use \"Fetch models\" or type the id.",
+    "emptyNoMatch": "No model with that name.",
+    "typedGroup": "Typed by hand",
+    "useTyped": "Use “{id}”",
+    "count": "{count, plural, one {# model} other {# models}}",
+    "free": "free",
+    "fetch": "Fetch models",
+    "fetchHint": "Fetch the models this key can see",
+    "fetchDisabledHint": "Fill in the API key (and the Base URL) first",
+    "primary": "primary",
+    "fallback": "fallback {n}",
+    "remove": "Remove {model}"
+  },
+  "docsSources": {
+    "title": "Documentation sources",
+    "description": "URL of a JSON index of your documentation. With a source, the AI searches only the relevant excerpts (from the source and the knowledge base above) and cites the links in its answer.",
+    "count": "{count, plural, one {# source} other {# sources}}",
+    "countOfMax": "{count} / {max} {count, plural, one {source} other {sources}}",
+    "never": "never",
+    "added": "Source added.",
+    "enabled": "Source enabled.",
+    "disabled": "Source disabled.",
+    "enable": "Enable source",
+    "disable": "Disable source",
+    "enabledHint": "Enabled, included in search",
+    "disabledHint": "Disabled, kept saved but left out of search",
+    "refreshed": "Source updated.",
+    "refreshNow": "Update now",
+    "removed": "Source removed.",
+    "stats": "{chunks} excerpts · {size} · updated {when}",
+    "keepsLastCopy": "The AI keeps using the last copy that worked.",
+    "planLimit": "Your plan allows {count, plural, one {# source} other {# sources}}. Upgrade to add more.",
+    "namePlaceholder": "Name (optional)",
+    "add": "Add",
+    "format": "Format: {format}. The size counts the uncompressed JSON. Sources update on their own every 12 h."
+  },
+  "kbEntries": {
+    "title": "Entries added from Discord",
+    "description": "In Discord, right-click a message → {apps} → {command}. Using it again on the same message (after editing it, for example) updates the entry instead of duplicating it. Entries go in along with the text above and share the same character limit; turning the text off does not turn the entries off.",
+    "appsMenu": "Apps",
+    "count": "{count, plural, one {# entry} other {# entries}}",
+    "chars": "{count} characters",
+    "titlePlaceholder": "Question or topic (optional)",
+    "contentPlaceholder": "What the AI should know",
+    "created": "Entry created.",
+    "saved": "Entry saved.",
+    "deleted": "Entry deleted.",
+    "untitled": "Untitled",
+    "edit": "Edit",
+    "delete": "Delete",
+    "updatedAt": "Updated {when}",
+    "sourceMessage": "source message",
+    "new": "New entry",
+    "commandName": "Add to AI knowledge base"
+  },
+  "chat": {
+    "title": "Test {provider}",
+    "providerFallback": "provider",
+    "description": "Talk straight to the model, using the key and URL from the form (no need to save). It doesn't count toward usage or stats, but the call really runs on your key.",
+    "prompt": "Prompt",
+    "modeAssistant": "Same as the assistant",
+    "modeCustom": "Free (my own prompt)",
+    "model": "Model",
+    "primary": "(primary)",
+    "fallback": "(fallback)",
+    "opencodeDefault": "OpenCode default",
+    "modelId": "model id",
+    "saved": "saved",
+    "assistantHint": "Uses this server's {saved} knowledge base, entries, sources and instructions. With a documentation source, each message searches excerpts like on Discord (without smart search). Triggers and the gatekeeper don't run here.",
+    "systemPlaceholder": "System prompt (optional). E.g.: You are the support for a FiveM server…",
+    "empty": "Send a question the way a member would.",
+    "tokens": "{count} tokens",
+    "escalated": "would call staff",
+    "sources": "{count} excerpts in the prompt",
+    "thinking": "thinking…",
+    "inputPlaceholder": "Type and press Enter",
+    "send": "Send",
+    "clear": "Clear conversation",
+    "remaining": "{count} test messages left for the next few minutes.",
+    "failed": "Failed.",
+    "sendFailed": "Couldn't send."
+  },
+  "section": {
+    "loadError": "Couldn't load the AI assistant settings.",
+    "saved": "AI assistant saved.",
+    "saveError": "Couldn't save.",
+    "title": "AI assistant",
+    "description": "Answers your members' questions automatically in the channels you choose. It tries {triggers} first (free); if you turn on the AI, it covers the rest from the knowledge base. It only listens to allowlisted channels.",
+    "descriptionTriggers": "keyword triggers"
+  },
+  "general": {
+    "enabled": {
+      "label": "Enable AI assistant",
+      "description": "Turns the whole module on or off."
+    },
+    "channels": {
+      "label": "Channels the AI listens to",
+      "placeholder": "Add channel...",
+      "empty": "No channels, the AI won't answer anywhere until you add one.",
+      "forumHint": "In a forum channel, the AI answers the message that opens each post and whoever replies to it."
+    },
+    "cooldown": "Cooldown per member (seconds)",
+    "replyInThread": "Reply in a thread"
+  },
+  "gate": {
+    "label": "Only answer when it looks like a question",
+    "description": "Without this the assistant answers everything posted in the channel, including “thanks”, “ty” and small talk, and each of those spends tokens from your key. The filter doesn't require a question mark: {half}, so it looks for intent (“anyone know”, “how”, “where”) and problem reports (“got an error”, “not working”).",
+    "descriptionHalf": "half of real questions have no “?”",
+    "minChars": "Minimum message length",
+    "minCharsHint": "Counted without greetings, mentions or links."
+  },
+  "triggers": {
+    "title": "Keyword triggers (free)",
+    "description": "When a member's message contains one of the keywords, the AI instantly replies with the ready-made text. Zero cost, no hallucination.",
+    "empty": "No triggers yet.",
+    "keywordsPlaceholder": "Keywords (comma-separated): vip, buy vip, become vip",
+    "match": {
+      "word": "Whole word",
+      "contains": "Anywhere",
+      "starts": "At the start"
+    },
+    "containsWarning": "Anywhere matches part of a word: {part} fires on {word}, {part2} on {word2}. If that's not what you want, use {whole}.",
+    "responsePlaceholder": "Ready-made reply for these keywords (supports markdown)."
+  },
+  "ai": {
+    "title": "Intent-based AI",
+    "description": "For what triggers don't catch: the AI understands the intent and answers from the knowledge base. No match, it escalates to staff."
+  },
+  "knowledge": {
+    "overOnSave": "The knowledge base is over the limit by {count} characters. Trim the excess before saving.",
+    "label": "Knowledge base",
+    "inUse": "In use",
+    "off": "Off (stays saved)",
+    "turnOff": "Turn off knowledge base",
+    "turnOn": "Turn on knowledge base",
+    "placeholder": "Rules, FAQ, how to buy, how X works... The AI answers ONLY based on this.",
+    "tokensHint": "Without a documentation source, the whole text goes to the model on every question, ~{tokens} tokens per answer. Large bases burn through your key's quota faster.",
+    "sharedLimit": "The limit is {max} combined with the entries below, which already use {used}.",
+    "over": "{count} characters over the limit. Trim the excess to be able to save, nothing is discarded automatically.",
+    "overShort": "Knowledge base over the limit."
+  },
+  "instructions": {
+    "label": "Assistant instructions",
+    "placeholder": "Context and tone. E.g.: Your name is Miria. You help people using the MRI Qbox base (FiveM with Qbox and Ox). Speak simply, for beginners.",
+    "hint": "They go into the prompt after the fixed rules: use them for context, name and tone. Answering only from the base, citing sources and calling staff still apply."
+  },
+  "smartSearch": {
+    "label": "Smart search in sources",
+    "description": "Before searching the documentation, the AI rewrites the question in technical terms. It finds answers that don't use the same words as the question (e.g. \"how do I become admin\" → \"setmaster\"), but makes one extra call to the provider per question. Only takes effect with a documentation source."
+  },
+  "images": {
+    "label": "Read attached images (Pro)",
+    "description": "The AI looks at screenshots the member sends with the question (up to 3 per message), and also answers those who send only the image. Each image is downscaled and converted to WebP before going to the provider, but it still costs a few hundred tokens. The model must support images (Gemini, GPT-4o and similar); if it doesn't, the AI answers from the text only. With a documentation source, the image also goes into the search, with one extra call.",
+    "lock": "Image reading is part of the Pro plan."
+  },
+  "providers": {
+    "testOk": "Replied: \"{sample}\"",
+    "testNoReply": "The provider didn't respond.",
+    "testError": "Couldn't run the test.",
+    "fetchError": "Couldn't fetch the models.",
+    "fetchOk": "{count} models found.",
+    "label": "Providers (order = fallback)",
+    "noneEnabled": "No provider enabled, without the actual AI, only triggers answer.",
+    "moveUp": "Move up in the queue",
+    "moveUpHint": "Move up in the queue (tried earlier)",
+    "moveDown": "Move down in the queue",
+    "moveDownHint": "Move down in the queue (tried later)",
+    "position": "Position in the queue",
+    "turnOff": "Turn off provider",
+    "turnOn": "Turn on provider",
+    "onHint": "On, part of the queue",
+    "offHint": "Off, stays saved but out of the queue",
+    "opencodeFree": "OpenCode (free)",
+    "namePlaceholder": "Name (e.g. Groq)",
+    "test": "Test provider",
+    "testHint": "Test connection (ping)",
+    "chat": "Chat with the model",
+    "chatHint": "Chat with the model (test chat)",
+    "remove": "Remove provider",
+    "opencodePlaceholder": "Empty = default model (Fetch models lists the free ones)",
+    "opencodeHint": "The same AI Miria uses in the installer, no key. Only available on the platform's DEV server. OpenCode's free models change often: if the chosen one goes offline, it switches to another free one automatically. The quota can be refused at any time, keep a provider with a key in the queue as a backup.",
+    "baseUrlPlaceholder": "Base URL (e.g. {url})",
+    "modelExample": "e.g. {model}",
+    "fallbackHint": "If the primary fails, it tries the backups in order, with the same key."
+  },
+  "escalation": {
+    "staffRole": "Staff role (escalation)",
+    "none": "None",
+    "message": "Escalation message"
+  },
+  "statusReactions": {
+    "label": "Status reactions (👀 / ✅)",
+    "description": "Reacts with 👀 on the message when the AI starts answering and swaps it for ✅ when the answer is out. Shows the bot saw it, since the answer can take a few seconds. Needs the add reactions permission in the channel."
+  },
+  "thinking": {
+    "label": "Waiting message",
+    "description": "Replies right away with a notice and then swaps the notice for the answer, in the same message. More visible than the reaction, which many people miss. If the AI doesn't answer, the notice is deleted; if it calls staff, the notice disappears and the call goes out as a new message, so the role gets notified. Works alongside or instead of the reactions.",
+    "placeholder": "🔎 Checking the knowledge base…",
+    "textLabel": "Waiting message text"
+  },
+  "feedback": {
+    "label": "Ask for answer ratings (👍 / 👎)",
+    "description": "Adds two buttons below each AI answer. It's the only way to know whether it's getting things right; without it, the panel below only shows how much you spent, never whether it was worth it. The buttons don't appear on trigger replies or when it calls staff."
+  },
+  "fairUse": {
+    "label": "Fair use per member",
+    "description": "How many AI answers each member gets per window. Protects your key's quota from people who flood questions. Once over, the bot only reacts with ⏳, no counter in the conversation. Triggers don't count. 0 = no limit.",
+    "limit": "Answers per member",
+    "window": "Window (hours)",
+    "bonusRoles": "Roles with a higher limit",
+    "addRole": "Add role...",
+    "multiplier": "Multiplier",
+    "bonusExample": "E.g.: supporters or boosters get {bonus} answers per window instead of {limit}.",
+    "removeRole": "Remove role"
+  },
+  "stats": {
+    "gateReasons": {
+      "ruido": "thanks / small talk",
+      "curto": "too short",
+      "semSinal": "doesn't look like a question",
+      "vazio": "no text"
+    },
+    "title": "How it did in the last {days} days",
+    "description": "This server only. Before this, the module counted tokens in the platform's bucket, so there was no way to know how much THIS server spent.",
+    "answers": "AI answers",
+    "noRatings": "nobody has rated yet",
+    "approval": "approval ({up}👍 / {down}👎)",
+    "escalations": "times it called staff",
+    "escalationsByFailure": "{count} due to provider failure",
+    "tokens": "tokens from your key",
+    "quotaTodayTitle": "Quota exceeded today:",
+    "quotaToday": "{title} {providers}. Until the quota resets, the chain skips this provider, and if it's the only one, every question goes to staff. Add another provider as a backup or change the key.",
+    "failuresTitle": "Failures by provider:",
+    "failures": {
+      "ok": "{label}: {count} ok",
+      "quota": "{count} quota",
+      "auth": "{count} key refused",
+      "down": "{count} offline",
+      "other": "{count} other error"
+    },
+    "providerErrors": "{count, plural, one {{n} time the provider failed} other {{n} times the provider failed}} and the assistant stayed silent. Check the key, the model and whether the daily quota ran out.",
+    "gateBlocked": "The gatekeeper blocked {n} messages before spending tokens:",
+    "repeated": "Most repeated questions. Each one is a candidate to become a keyword trigger and be answered for free:",
+    "repeatedHint": "The question itself isn't stored, only a fingerprint of it."
+  }
+}

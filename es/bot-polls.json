@@ -1,0 +1,70 @@
+{
+  "noGuild": "Usa este comando dentro de un servidor.",
+  "inactive": {
+    "title": "Módulo Encuestas inactivo",
+    "menu": "Activa el módulo \"Encuestas\" en el panel antes de crear encuestas en este servidor.",
+    "short": "Activa el módulo \"Encuestas\" en el panel."
+  },
+  "noPermission": {
+    "menu": "No tienes permiso para abrir el menú de encuestas.",
+    "create": "No tienes permiso para crear encuestas en este servidor.",
+    "close": "No tienes permiso para cerrar encuestas en este servidor."
+  },
+  "menu": {
+    "title": "🗳️ Menú de Encuestas",
+    "description": "Usa los botones de abajo para gestionar encuestas.\n\n• **Crear encuesta** abre un formulario y publica la encuesta en este canal.\n• **Cerrar encuesta** cierra una encuesta activa antes de tiempo.\n• Los votos se hacen en los botones del propio mensaje de la encuesta.",
+    "create": "Crear encuesta",
+    "yesNo": "Sí / No rápida",
+    "close": "Cerrar encuesta"
+  },
+  "modal": {
+    "createTitle": "Crear encuesta",
+    "yesNoTitle": "Sí/No rápida",
+    "question": "Pregunta",
+    "questionPlaceholder": "Ej.: ¿Cuál es tu color favorito?",
+    "yesNoQuestionPlaceholder": "Ej.: ¿El próximo evento será PVP?",
+    "options": "Opciones (una por línea, de 2 a 25)",
+    "optionsPlaceholder": "Sí\nNo\nQuizás",
+    "duration": "Duración en minutos (opcional)",
+    "durationPlaceholder": "Déjalo vacío para no cerrar automáticamente"
+  },
+  "create": {
+    "optionCount": "Indica entre 2 y 25 opciones, una por línea.",
+    "invalidDuration": "Duración inválida. Usa minutos entre 1 y 43200 (30 días).",
+    "invalidChannel": "Canal inválido para publicar la encuesta.",
+    "saveFailed": "No pude guardar la encuesta. Inténtalo de nuevo.",
+    "postFailed": "No pude publicar la encuesta en el canal. Revisa los permisos del bot.",
+    "done": "Encuesta creada",
+    "yesNoDone": "Encuesta Sí/No creada",
+    "endsIn": "Las votaciones terminan en **{count, plural, one {# minuto} other {# minutos}}**.",
+    "noEnd": "La encuesta seguirá abierta hasta que se cierre manualmente.",
+    "yes": "Sí",
+    "no": "No"
+  },
+  "close": {
+    "fetchFailed": "No pude obtener las encuestas activas.",
+    "noneTitle": "Ninguna encuesta activa",
+    "noneDescription": "No hay encuestas abiertas para cerrar en este servidor.",
+    "placeholder": "Elige la encuesta que quieres cerrar",
+    "title": "Cerrar encuesta",
+    "description": "Selecciona abajo qué encuesta quieres cerrar.",
+    "doneTitle": "Encuesta cerrada",
+    "doneDescription": "La encuesta se cerró y el mensaje se actualizó."
+  },
+  "message": {
+    "options": "Opciones",
+    "resultsHidden": "🔒 *Resultados ocultos hasta el cierre.*",
+    "votes": "{count, plural, one {# voto} other {# votos}}",
+    "footerClosed": "{votes} • Cerrada",
+    "endsRelative": "⏰ Termina {time}",
+    "closed": "🔒 Cerrada",
+    "closedPlain": "Cerrada",
+    "upToChoices": "☑️ Hasta {count} opciones",
+    "multiChoice": "☑️ Opción múltiple",
+    "singleChoice": "1️⃣ 1 opción permitida",
+    "anonymous": "🕶️ Voto anónimo",
+    "settings": "Configuración",
+    "ends": "Termina",
+    "open": "Abrir"
+  }
+}

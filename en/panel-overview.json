@@ -1,0 +1,71 @@
+{
+  "subtitle": "What happened and what needs you today.",
+  "quick": {
+    "messages": "Send announcement",
+    "giveaways": "Create giveaway",
+    "store": "View store"
+  },
+  "openInDiscord": "Open in Discord",
+  "setup": {
+    "title": "Finish setting up",
+    "progress": "{done} of {total}",
+    "botInstalled": "Add the bot to the server",
+    "canManage": "Have permission to manage the server",
+    "module": "Turn on at least one module",
+    "configured": "Save the settings",
+    "done": "Done",
+    "pending": "Pending"
+  },
+  "loading": "Loading server numbers...",
+  "loadError": "Couldn't load the numbers right now.",
+  "metrics": {
+    "summary": "Server summary",
+    "members": "Members",
+    "memberFlow": "{joined} joined and {left} left in 7 days",
+    "inServer": "on the server",
+    "online": "Online now",
+    "onlinePercent": "{percent}% of members",
+    "noData": "No data right now",
+    "tickets": "Open tickets",
+    "ticketsNewToday": "{count, plural, one {# new today} other {# new today}}",
+    "ticketsNoneToday": "None new today",
+    "ticketsInactive": "Turn on Tickets to see support requests",
+    "activity": "Activity today",
+    "activityHint": "actions in modules"
+  },
+  "queue": {
+    "allClear": "All caught up.",
+    "allClearHint": "Nothing pending right now.",
+    "title": "Needs you",
+    "kinds": {
+      "unclaimedTickets": "{count, plural, one {ticket waiting for support} other {tickets waiting for support}}",
+      "failedDeliveries": "{count, plural, one {in-game delivery failed} other {in-game deliveries failed}}",
+      "pastDueSubs": "{count, plural, one {subscription with a late payment} other {subscriptions with late payments}}",
+      "endingGiveaways": "{count, plural, one {giveaway ending within 24h} other {giveaways ending within 24h}}",
+      "scheduledMessagesToday": "{count, plural, one {announcement scheduled for today} other {announcements scheduled for today}}",
+      "manualDeliveries": "{count, plural, one {sale waiting for manual delivery} other {sales waiting for manual delivery}}",
+      "blockedWhitelistRole": "whitelist role the bot can't assign: move the {botRole} role up in Server Settings > Roles",
+      "blockedSelectorRoles": "{count, plural, one {selector role} other {selector roles}} the bot can't assign: move the {botRole} role up in Server Settings > Roles",
+      "blockedAutoroleRoles": "{count, plural, one {auto role} other {auto roles}} the bot can't assign: move the {botRole} role up in Server Settings > Roles",
+      "blockedRewardRoles": "{count, plural, one {reward role} other {reward roles}} the bot can't assign: move the {botRole} role up in Server Settings > Roles"
+    }
+  },
+  "week": {
+    "title": "Activity this week",
+    "hint": "Tickets, polls, giveaways and other actions in modules.",
+    "empty": "No actions recorded in the last 7 days.",
+    "series": "Actions"
+  },
+  "topMembers": {
+    "title": "Most active members",
+    "member": "Member",
+    "level": "Level {level}",
+    "voiceHours": "{hours}h in voice",
+    "voiceMinutes": "{minutes}min in voice"
+  },
+  "recent": {
+    "title": "Recent activity",
+    "seeAll": "See all",
+    "empty": "Nothing here yet. What happens in your modules shows up in this list."
+  }
+}

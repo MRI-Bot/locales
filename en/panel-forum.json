@@ -1,0 +1,100 @@
+{
+  "errors": {
+    "save": "Couldn't save.",
+    "action": "Couldn't complete the action.",
+    "block": "Couldn't block.",
+    "unblock": "Couldn't unblock."
+  },
+  "setup": {
+    "defaultTitle": "{guild} Forum",
+    "saved": "Settings saved.",
+    "created": "Forum created.",
+    "address": "Address",
+    "name": "Forum name",
+    "description": "Description",
+    "descriptionPlaceholder": "Shown at the top of the forum and on Google.",
+    "announce": "Announce new topics on Discord",
+    "announceNone": "Don't announce",
+    "announceHint": "The bot posts the title and link of every topic opened on the site.",
+    "published": "Forum online",
+    "publishedHint": "When off, the site responds that the page doesn't exist. Nothing is deleted.",
+    "save": "Save settings",
+    "create": "Create forum"
+  },
+  "categories": {
+    "title": "Categories",
+    "hint": "They become filters at the top of the forum. Whoever opens a topic picks one.",
+    "deleteTitle": "Delete the {name} category?",
+    "deleteDescription": "Its topics stay in the forum, without a category.",
+    "delete": "Delete",
+    "deleteAria": "Delete {name}",
+    "deleted": "Category deleted.",
+    "created": "Category created.",
+    "placeholder": "E.g.: Questions, Tutorials, Scripts",
+    "add": "Add"
+  },
+  "topics": {
+    "blockTitle": "Block {name}?",
+    "blockDescription": "They can no longer open topics or reply in this forum. What they already wrote stays up.",
+    "blockConfirm": "Block",
+    "blocked": "Author blocked.",
+    "loading": "Loading topics...",
+    "filterLabel": "Filter topics",
+    "filterAll": "All",
+    "filterHidden": "Hidden",
+    "empty": "No topics.",
+    "newest": "{count, plural, one {The # newest topic.} other {The # newest topics.}}",
+    "colTopic": "Topic",
+    "colCategory": "Category",
+    "colReplies": "Replies",
+    "colState": "Status",
+    "colOpened": "Opened",
+    "state": {
+      "hidden": "Hidden",
+      "closed": "Closed",
+      "solved": "Solved",
+      "open": "Open"
+    },
+    "pinned": "Pinned",
+    "fromDiscord": " · from Discord",
+    "noCategory": "No category",
+    "openInForum": "Open in forum",
+    "unpinnedToast": "Topic unpinned.",
+    "pinnedToast": "Topic pinned.",
+    "unpin": "Unpin",
+    "pin": "Pin to top",
+    "reopenedToast": "Topic reopened.",
+    "closedToast": "Topic closed.",
+    "reopen": "Reopen",
+    "close": "Close to replies",
+    "shownToast": "Topic is back up.",
+    "hiddenToast": "Topic hidden.",
+    "show": "Show again",
+    "hide": "Hide from forum",
+    "blockAuthor": "Block author"
+  },
+  "blocks": {
+    "unblocked": "{name} can write again.",
+    "empty": "No one is blocked. To block someone, open their topic in Topics.",
+    "colPerson": "Person",
+    "colSince": "Since",
+    "colActions": "Actions",
+    "unblock": "Unblock"
+  },
+  "intro": {
+    "title": "A public forum for your community",
+    "site": "Members open topics and reply on the site, signing in with Discord or Google. Everything shows up on Google, so a question answered once helps whoever comes later.",
+    "discord": "On Discord, whoever wrote a message can take it to the forum: right-click the message, Apps, Post to forum."
+  },
+  "summary": {
+    "offline": "offline",
+    "open": "Open the forum"
+  },
+  "tabs": {
+    "navLabel": "Forum",
+    "topics": "Topics",
+    "settings": "Settings",
+    "blocks": "Blocked",
+    "blocksCount": "Blocked ({count})"
+  }
+}

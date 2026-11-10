@@ -1,0 +1,59 @@
+{
+  "guildOnly": "Use this command inside a server.",
+  "moduleInactive": "The Gamification module isn't active in this server.",
+  "botsNoXp": "Bots don't earn XP.",
+  "level": {
+    "fetchFailed": "Couldn't fetch the level right now. Try again in a moment.",
+    "title": "Level {level}",
+    "rank": "Rank",
+    "totalXp": "Total XP",
+    "progress": "Progress",
+    "progressValue": "{bar} {pct}%\n**{xp} XP** left to level {next}."
+  },
+  "ranking": {
+    "line": "{medal}{user} — Level **{level}** · {xp} XP",
+    "title": "🏆 Ranking — {guild}",
+    "empty": "Nobody has scored yet.",
+    "footer": "Page {page}/{pages} · {count, plural, one {# member} other {# members}}",
+    "fetchFailed": "Couldn't fetch the ranking right now. Try again in a moment.",
+    "ownerOnly": "Only whoever opened the ranking can change pages. Run `{command}`.",
+    "pageFailed": "Failed to load the page. Try again."
+  },
+  "admin": {
+    "noPermissionTitle": "No permission",
+    "noPermission": "You don't have access to this command. Who can use it is set on the dashboard, under **Permissions › Gamification**.",
+    "adjust": {
+      "add": "XP added to {user}.",
+      "remove": "XP removed from {user}.",
+      "set": "XP set for {user}.",
+      "now": "Now: **{xp} XP** · level **{level}**",
+      "leveledUp": "— leveled up to **level {level}**! 🎉",
+      "title": "XP adjusted",
+      "failed": "Couldn't adjust the XP right now. Try again in a moment."
+    },
+    "reset": {
+      "pickOne": "Pick a **member** or check **all** to reset the server.",
+      "notBoth": "Pick **one member** OR **all** — not both.",
+      "memberTitle": "XP reset",
+      "memberDone": "{user}'s XP was reset to zero.",
+      "nothingTitle": "Nothing to reset",
+      "nothing": "{user} had no XP.",
+      "failed": "Couldn't reset right now. Try again in a moment.",
+      "confirm": "Yes, reset everything",
+      "cancel": "Cancel",
+      "askTitle": "Reset the XP of the WHOLE server?",
+      "ask": "Resets the XP and level of **all** members. Reward roles, multipliers and settings are kept. This cannot be undone.",
+      "cancelledTitle": "Reset cancelled",
+      "timeout": "Time ran out — nothing was deleted.",
+      "cancelled": "No XP was deleted.",
+      "runningTitle": "Resetting…",
+      "running": "Deleting the server's XP.",
+      "guildTitle": "Server reset",
+      "guildDone": "{count, plural, one {# member had their} other {# members had their}} XP reset to zero.",
+      "guildFailed": "Failed to reset the server. Try again in a moment."
+    }
+  },
+  "auditRewardRole": "Reward role (gamification)",
+  "auditRewardRoleSwap": "Reward role swap (gamification)",
+  "levelUpDefault": "GG {user}, you reached **level {level}**!"
+}

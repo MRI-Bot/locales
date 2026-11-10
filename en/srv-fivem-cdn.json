@@ -1,0 +1,15 @@
+{
+  "verify": {
+    "off": "CDN is off or has no address.",
+    "noResource": "The resource has not identified itself yet.",
+    "internalNetwork": "This address points to an internal network and is not accepted.",
+    "dnsNotFound": "Couldn't find this address (DNS).",
+    "httpStatus": "The server answered HTTP {status} to the challenge. Is the MRI resource up to date?",
+    "mismatch": "The server answered, but the challenge doesn't match. Is the API key from this server?",
+    "connectFailed": "Couldn't connect to {host}:{port}. Is the port open to the internet?"
+  },
+  "stats": {
+    "notConfigured": "CDN not configured.",
+    "noData": "No data."
+  }
+}

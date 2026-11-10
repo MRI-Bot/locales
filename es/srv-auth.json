@@ -1,0 +1,9 @@
+{
+  "moduleBlocker": {
+    "guildNotFound": "Servidor no encontrado.",
+    "unavailable": "No disponible temporalmente.",
+    "earlyAccess": "En acceso anticipado: todavía no habilitado para este servidor.",
+    "needsPlan": "Requiere el plan {plan}.",
+    "needsPaidPlan": "Requiere un plan de pago."
+  }
+}

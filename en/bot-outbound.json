@@ -1,0 +1,17 @@
+{
+  "guildOnly": "Use this command inside a server.",
+  "unknownFailure": "Unknown failure.",
+  "noPermissionTitle": "No permission",
+  "noPermission": "You don't have access to this command. Who can use it is set in the dashboard, under **Permissions › {module}**.",
+  "notFoundTitle": "Action not found",
+  "notFound": "`{action}` isn't configured in the {module} module.",
+  "loadFailed": "Couldn't load the configured actions.",
+  "placeholder": {
+    "number": "number{range}",
+    "select": "options: {options}",
+    "text": "text — accepts '{serial}', '{discordId}', …"
+  },
+  "sentTitle": "Action sent",
+  "sent": "`{action}` was queued for {user} — delivered when the player is online.",
+  "sendFailedTitle": "Couldn't send the action"
+}

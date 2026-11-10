@@ -1,0 +1,38 @@
+{
+  "inactive": "O Assistente IA não está ativo neste servidor.",
+  "kb": {
+    "noPermission": "Você não tem permissão pra mexer na base da IA.",
+    "titleLabel": "Pergunta ou assunto (opcional)",
+    "contentLabel": "O que a IA deve saber",
+    "modalUpdate": "Atualizar entrada da base da IA",
+    "modalAdd": "Adicionar à base da IA",
+    "saveFailed": "Não consegui salvar agora. Tenta de novo em instantes.",
+    "added": "✅ Adicionado à base da IA ({used} de {max} caracteres usados). Dá pra editar no painel, em Assistente IA.",
+    "updated": "✅ Atualizado na base da IA ({used} de {max} caracteres usados). Dá pra editar no painel, em Assistente IA.",
+    "tooLong": "Não coube: a base já tem {used} de {max} caracteres. Enxugue o texto ou apague entradas no painel.",
+    "notFound": "Este servidor não está registrado no painel ainda.",
+    "empty": "O conteúdo veio vazio — nada foi adicionado."
+  },
+  "respond": {
+    "disabled": "O Assistente IA está desligado neste servidor. Ligue em **Assistente IA** no painel.",
+    "empty": "Essa mensagem não tem texto (nem imagem que a IA possa ler) pra responder.",
+    "noAnswer": "A IA não respondeu: a mensagem não parece uma dúvida, ou o provedor falhou.",
+    "escalated": "A IA não achou isso na base de conhecimento, então não postei nada. Vale responder na mão e, se for frequente, colocar na base.",
+    "failed": "Não consegui responder agora (backend fora ou sem permissão de enviar no canal). Tenta de novo em instantes.",
+    "noPermission": "Você não tem permissão pra pedir resposta da IA.",
+    "pickMember": "Escolha a mensagem de um membro, não a de um bot.",
+    "answered": "✅ Respondido."
+  },
+  "feedback": {
+    "already": "Você já avaliou esta resposta. 🙂",
+    "up": "Valeu! Isso ajuda a melhorar as respostas. 👍",
+    "down": "Anotado — vou usar isso pra melhorar. 👎",
+    "failed": "Não consegui registrar agora. Tenta de novo em instantes.",
+    "helped": "Ajudou",
+    "notHelped": "Não ajudou"
+  },
+  "thinking": "🔎 Consultando a base…",
+  "threadName": "Ajuda • {user}",
+  "sources": "Fontes",
+  "sourceFallback": "fonte"
+}

@@ -1,0 +1,194 @@
+{
+  "section": {
+    "title": "Tickets",
+    "description": "Support requests in {guild}.",
+    "tabs": {
+      "overview": "Overview",
+      "queue": "Requests",
+      "settings": "Settings"
+    }
+  },
+  "thread": {
+    "formAnswers": "📋 Form answers",
+    "empty": "No transcript captured.",
+    "deleteMessage": "Delete message"
+  },
+  "dialog": {
+    "fallbackTitle": "Ticket conversation",
+    "status": {
+      "open": "Open",
+      "closed": "Closed"
+    },
+    "createdBy": "Created by",
+    "closedAt": "Closed on {date}",
+    "live": "live",
+    "loading": "Loading ticket...",
+    "loadingConversation": "Loading conversation...",
+    "loadError": "Couldn't load the ticket.",
+    "linkCopied": "Transcript link copied",
+    "copyError": "Couldn't copy the link.",
+    "deleteConfirm": {
+      "title": "Delete message?",
+      "description": "The message will be removed from the ticket channel on Discord.",
+      "confirm": "Delete"
+    },
+    "messageDeleted": "Message deleted",
+    "deleteError": "Couldn't delete the message.",
+    "replyError": "Couldn't send the reply.",
+    "replyPlaceholderAnonymous": "Reply as \"{name}\" (your name doesn't show on Discord)...",
+    "replyPlaceholder": "Reply as yourself (shows on Discord with your name)...",
+    "anonymous": {
+      "label": "Reply anonymously",
+      "hint": "The message is sent as \"{name}\", without your name or avatar. In this mode the ticket isn't claimed, since the claim would show in the channel and give away who replied.",
+      "upsell": "Available on the Pro Max plan: reply without revealing which staff member answered."
+    },
+    "shortcut": "Ctrl+Enter to send · {length}/{max}",
+    "reply": "Reply",
+    "copied": "Copied",
+    "copyPublicLink": "Copy public link",
+    "autoRefresh": "refreshes every {seconds}s",
+    "close": "Close"
+  },
+  "queue": {
+    "priority": {
+      "high": "High",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "agoNow": "now",
+    "ago": "{duration} ago",
+    "loadError": "Couldn't load the tickets.",
+    "closed": "Ticket closed",
+    "reopened": "Ticket reopened",
+    "closeError": "Couldn't close the ticket.",
+    "reopenError": "Couldn't reopen the ticket.",
+    "priorityError": "Couldn't change the priority.",
+    "transferred": "Ticket transferred",
+    "transferError": "Couldn't transfer the ticket.",
+    "loading": "Loading tickets...",
+    "empty": {
+      "title": "No tickets here yet",
+      "description": "Post the support panel in a Discord channel. Members open tickets with its buttons, and each one shows up in this list.",
+      "publish": "Post panel"
+    },
+    "filter": {
+      "label": "Filter tickets",
+      "open": "Open",
+      "unclaimed": "Unclaimed",
+      "closed": "Closed",
+      "all": "All"
+    },
+    "searchPlaceholder": "Search subject, number or person",
+    "refresh": "Refresh list",
+    "count": "{count, plural, one {# ticket} other {# tickets}}",
+    "oldestWaiting": ". The oldest unclaimed one opened {ago}",
+    "limited": ". Showing only the {limit} most recent",
+    "noResults": {
+      "title": "No tickets found",
+      "description": "Try another term or clear the search."
+    },
+    "noClosed": "No closed tickets",
+    "allClear": {
+      "title": "All caught up",
+      "description": "No tickets waiting for support right now."
+    },
+    "clearSearch": "Clear search",
+    "viewClosed": "View closed",
+    "columns": {
+      "number": "No.",
+      "subject": "Subject",
+      "member": "Member",
+      "agent": "Agent",
+      "priority": "Priority",
+      "status": "Status",
+      "opened": "Opened",
+      "conversation": "Conversation"
+    },
+    "transfer": {
+      "title": "Transfer ticket",
+      "description": "Search by name for who will take over. They need the staff role configured on the server.",
+      "placeholder": "Choose person",
+      "submit": "Transfer"
+    },
+    "state": {
+      "closed": "Closed",
+      "handling": "In progress",
+      "waiting": "Waiting"
+    },
+    "viewConversation": "View conversation",
+    "openInDiscord": "Open in Discord",
+    "details": {
+      "formAnswers": "Form answers",
+      "openedAt": "Opened at",
+      "claimedAt": "Claimed at",
+      "closedAt": "Closed at",
+      "closedBy": "Closed by",
+      "rating": "Member rating",
+      "ratingValue": "{rating} of 5"
+    },
+    "actions": {
+      "reopen": "Reopen",
+      "close": "Close"
+    },
+    "prioritySelect": {
+      "high": "High priority",
+      "medium": "Medium priority",
+      "low": "Low priority",
+      "none": "No priority"
+    }
+  },
+  "performance": {
+    "chart": {
+      "opened": "Tickets opened",
+      "tickets": "Tickets"
+    },
+    "loadError": "Couldn't load the numbers.",
+    "emptyDescription": "Post the support panel in a Discord channel. Response time, peak hours and ratings show up here once the first tickets arrive.",
+    "avgResolution": "Average time to resolve",
+    "summary": {
+      "untilClaim": "Until someone claims it",
+      "openNow": "Open now",
+      "unclaimed": "Unclaimed",
+      "closed": "Closed",
+      "avgRating": "Average rating"
+    },
+    "allTime": "Counting every ticket on the server, since the start.",
+    "opened30d": "Tickets opened in 30 days",
+    "chartHint": "The line adds up tickets day by day. The steeper it is, the busier it got.",
+    "peak": {
+      "title": "Peak hours",
+      "text": "The busiest time is around {hour}, in your time zone.",
+      "notEnough": "Not enough activity yet."
+    },
+    "agents": {
+      "title": "Top agents",
+      "empty": "Nobody has claimed a ticket yet.",
+      "handled": "Handled",
+      "avgTime": "Average time",
+      "leftMember": "Member who left",
+      "hint": "Average time for those who have closed 2 or more tickets, from claim to close."
+    },
+    "share": "Share",
+    "types": {
+      "title": "By type",
+      "type": "Type",
+      "none": "No type"
+    },
+    "ratings": {
+      "label": "Ratings",
+      "title": "Member ratings",
+      "empty": "No member has rated a ticket yet.",
+      "rating": "Rating",
+      "count": "Ratings",
+      "stars": "stars"
+    }
+  },
+  "transcriptPage": {
+    "notFound": "Transcript not found.",
+    "unavailable": "Transcript unavailable.",
+    "header": "Transcript · {guild}",
+    "type": "Type: {type}",
+    "openedAt": "Opened on {date}",
+    "footer": "Transcript generated by MRI BOT"
+  }
+}

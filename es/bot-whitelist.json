@@ -1,0 +1,150 @@
+{
+  "guildOnly": "Usa este botón dentro de un servidor.",
+  "roleFix": "En Discord, abre Ajustes del servidor > Roles, deja el rol del bot por encima del rol de aprobado y revisa el permiso Gestionar roles.",
+  "moduleInactive": {
+    "title": "Módulo Whitelist inactivo",
+    "body": "El módulo \"Whitelist\" debe estar activo en este servidor."
+  },
+  "command": {
+    "guildOnly": "Usa este comando dentro de un servidor.",
+    "noPermission": "No tienes permiso para publicar el panel de whitelist.",
+    "moduleInactive": "Activa el módulo \"Whitelist\" en el panel antes de publicar el panel en este servidor.",
+    "textChannelOnly": "Usa este comando en un canal de texto.",
+    "postFailed": "No pude publicar el panel. Revisa los permisos del bot.",
+    "notPostedTitle": "Panel no publicado",
+    "postedTitle": "Panel publicado",
+    "postedBody": "El panel de whitelist se publicó en este canal."
+  },
+  "panelPost": {
+    "noFields": "El formulario de la whitelist no tiene preguntas. Añade y guarda las preguntas antes de publicar el panel.",
+    "channelNotFound": "Canal no encontrado. Puede haber sido eliminado o el bot no puede verlo.",
+    "notTextChannel": "El panel solo se puede publicar en un canal de texto o de anuncios.",
+    "missingPermissions": "MRI BOT no tiene permiso para ver o enviar mensajes en ese canal."
+  },
+  "panel": {
+    "title": "🎫 Whitelist",
+    "description": "Haz clic en el botón para inscribirte.",
+    "apply": "Aplicar",
+    "useCode": "Usar código"
+  },
+  "form": {
+    "modalTitle": "Solicitud de Whitelist",
+    "chooseRange": "Elige de {min} a {max}.",
+    "required": "Obligatorio.",
+    "numbersOnly": "Solo números.",
+    "yes": "Sí",
+    "no": "No",
+    "characterName": "Nombre del personaje",
+    "releaseTitle": "Solicitar acceso",
+    "codeTitle": "Usar código de acceso",
+    "codeLabel": "Código"
+  },
+  "announce": {
+    "approved": "## ✅ Whitelist aprobada\n{user} fue aprobado.",
+    "rejected": "## ❌ Whitelist rechazada\n{user} no fue aprobado.",
+    "character": "**Personaje:** {name}",
+    "score": "**Nota:** {score}%",
+    "reason": "**Motivo:** {reason}"
+  },
+  "card": {
+    "headingPending": "## 🆕 Nueva solicitud de whitelist",
+    "headingApproved": "## ✅ Solicitud aprobada",
+    "headingRejected": "## ❌ Solicitud rechazada",
+    "requested": "{user} solicitó la whitelist.",
+    "removedQuestion": "**{key}** _(pregunta eliminada)_",
+    "approve": "Aprobar",
+    "reject": "Rechazar",
+    "approvedBy": "Aprobada por {user}",
+    "rejectedBy": "Rechazada por {user}",
+    "reason": "**Motivo:** {reason}",
+    "footer": "-# App {id}"
+  },
+  "window": {
+    "title": "Inscripciones cerradas",
+    "opensIn": "Las inscripciones abren en {time}.",
+    "closed": "Las inscripciones de este servidor están cerradas."
+  },
+  "block": {
+    "applyTitle": "No puedes inscribirte ahora",
+    "codeTitle": "No puedes usar un código ahora",
+    "approved": "Ya estás aprobado en esta whitelist.",
+    "cooldown": "Puedes intentarlo de nuevo en {time}.",
+    "pending": "Ya tienes una solicitud pendiente. Espera la revisión del staff."
+  },
+  "time": {
+    "minutes": "{count, plural, one {# minuto} other {# minutos}}",
+    "hours": "{count, plural, one {# hora} other {# horas}}",
+    "days": "{count, plural, one {# día} other {# días}}",
+    "daysHours": "{days} y {hours}"
+  },
+  "remaining": {
+    "seconds": "{count} s",
+    "minutes": "{count} min"
+  },
+  "clock": {
+    "remaining": "⏳ Tiempo restante: **{time}**.",
+    "expired": "⏳ **Se te acabó el tiempo** — tendrás que empezar de nuevo."
+  },
+  "pageSaved": "✅ Parte **{page} de {total}** guardada. Haz clic en continuar para responder el resto — no se envía nada hasta la última parte.",
+  "continue": "Continuar ({page}/{total})",
+  "partsExpired": "Las respuestas de las partes anteriores expiraron, así que no se podía enviar la solicitud a medias. Haz clic en \"Aplicar\" en el panel para responder de nuevo.",
+  "timeUp": {
+    "title": "Se te acabó el tiempo",
+    "nextPage": "El plazo para completar la whitelist terminó. Haz clic en \"Aplicar\" en el panel para empezar de nuevo.",
+    "submit": "El plazo para completar la whitelist terminó y la solicitud no se envió. Haz clic en \"Aplicar\" en el panel para empezar de nuevo."
+  },
+  "formChanged": {
+    "title": "El formulario cambió",
+    "body": "Las preguntas de la whitelist cambiaron mientras respondías. Haz clic en \"Aplicar\" en el panel para empezar de nuevo."
+  },
+  "code": {
+    "disabled": "Este servidor no está aceptando códigos de acceso.",
+    "failedTitle": "No pude usar ese código.",
+    "roleNotEditable": "El bot no puede dar el rol de la whitelist. Tu código no se gastó. Avisa a un admin: el rol del bot debe estar por encima del rol de aprobado y tener el permiso Gestionar roles.",
+    "successTitle": "¡Acceso liberado!",
+    "successBody": "Tu código fue aceptado y ya estás en la whitelist.",
+    "noRoleTitle": "Código aceptado",
+    "noRoleBody": "Tu código fue aceptado, pero no pude darte el rol. Avisa a un admin."
+  },
+  "submit": {
+    "failedTitle": "No pude enviar tu solicitud.",
+    "retry": "Inténtalo de nuevo en unos instantes.",
+    "savedTitle": "Solicitud registrada",
+    "savedBody": "Tu solicitud se guardó, pero no pude publicar la notificación para el staff. Avisa a un admin.",
+    "sentTitle": "Solicitud enviada",
+    "sentBody": "¡Tu solicitud fue enviada! Espera la revisión del staff."
+  },
+  "auto": {
+    "score": "Tu nota: **{score}%**.",
+    "noRoleTitle": "Aprobado, pero sin el rol",
+    "noRoleBody": "Pasaste la prueba, pero no pude darte el rol. Avisa a un admin.",
+    "approvedTitle": "¡Aprobado!",
+    "approvedBody": "Pasaste la prueba y ya estás en la whitelist.",
+    "failedTitle": "No fue esta vez",
+    "failedBody": "No alcanzaste la nota mínima."
+  },
+  "review": {
+    "noPermission": "Necesitas el permiso \"Gestionar roles\" para revisar solicitudes.",
+    "notFound": "Solicitud no encontrada.",
+    "alreadyReviewed": "Solicitud ya revisada.",
+    "approveFailed": "No pude aprobar la solicitud."
+  },
+  "approve": {
+    "dmTitle": "🎉 ¡Solicitud aprobada!",
+    "dmBody": "Tu solicitud de whitelist en **{guild}** fue aprobada.",
+    "doneTitle": "Solicitud aprobada",
+    "doneBody": "{user} fue aprobado.",
+    "noRoleTitle": "Aprobada, pero sin el rol",
+    "noRoleBody": "{user} fue aprobado, pero no pude darle el rol. {fix}"
+  },
+  "reject": {
+    "modalTitle": "Rechazar solicitud",
+    "label": "Motivo (opcional)",
+    "failed": "No pude rechazar la solicitud.",
+    "dmTitle": "Solicitud rechazada",
+    "dmBody": "Tu solicitud de whitelist en **{guild}** fue rechazada.",
+    "dmBodyReason": "Tu solicitud de whitelist en **{guild}** fue rechazada.\n\n**Motivo:** {reason}",
+    "doneTitle": "Solicitud rechazada",
+    "doneBody": "{user} fue rechazado."
+  }
+}

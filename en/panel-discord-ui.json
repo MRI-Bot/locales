@@ -1,0 +1,102 @@
+{
+  "accordion": {
+    "unsaved": "Unsaved changes",
+    "active": "Active",
+    "inactive": "Disabled",
+    "enable": "Enable",
+    "disable": "Disable"
+  },
+  "saveRow": {
+    "discard": "Discard"
+  },
+  "multiPicker": {
+    "addChannel": "Add channel...",
+    "addRole": "Add role..."
+  },
+  "roleWarning": {
+    "fixed": "All set, the bot can now give this role.",
+    "title": "The bot can't give {roles}",
+    "moveUp": "In Discord, open Server Settings > Roles and drag \"{botRole}\" above {roles}.",
+    "grantManageRoles": "In Discord, open Server Settings > Roles and turn on the Manage Roles permission for \"{botRole}\".",
+    "recheck": "Check again",
+    "howToFix": "See how to fix it"
+  },
+  "preview": {
+    "title": "Discord preview"
+  },
+  "statusPanel": {
+    "embedContent": "Embed content",
+    "placeholdersHint": "Use {placeholders}; the bot swaps them for the live value on every update.",
+    "title": "Title",
+    "thumbnail": "Thumbnail (optional)",
+    "description": "Description (optional)",
+    "descriptionPlaceholder": "Use the buttons below to connect.",
+    "image": "Image (optional)",
+    "imageHint": "Large image at the bottom of the Embed, below the fields. The thumbnail above sits in the top-right corner.",
+    "fields": "Fields ({count}/{max})",
+    "fieldsHint": "Two inline fields in a row sit side by side; without inline, the field takes the whole row.",
+    "addField": "Field",
+    "noFields": "With no fields, the Embed has only the title, the description and the join button.",
+    "fieldNamePlaceholder": "Field name (e.g. Status)",
+    "inlineLabel": "Inline on field {n}",
+    "moveUp": "Move up",
+    "moveDown": "Move down",
+    "removeField": "Remove field",
+    "preview": "Preview",
+    "saveToPreview": "Save the panel to see the live preview.",
+    "noData": "No data yet."
+  },
+  "composer": {
+    "accentColor": "Side bar color",
+    "blocks": {
+      "text": "Text",
+      "image": "Image",
+      "gallery": "Gallery",
+      "section": "Section",
+      "separator": "Separator",
+      "field": "Field"
+    },
+    "fieldHint": "Dynamic field; the bot fills in the value.",
+    "inChannel": "in",
+    "empty": "Use the bar above to add blocks.",
+    "help": "Click a block to edit it, drag it by the handle (⠿) to reorder.",
+    "helpFields": "In fields you only change the label; the bot fills in the value when posting.",
+    "drag": "Drag",
+    "textPlaceholder": "Write here… (bold, italic, emojis and more in the bar above)",
+    "noLabel": "(no label)",
+    "separator": {
+      "line": "Line",
+      "spacing": "Spacing:",
+      "small": "small",
+      "large": "large"
+    },
+    "button": {
+      "changeEmoji": "Change emoji",
+      "counterHint": "Participant counter (filled in by the bot)",
+      "labelPlaceholder": "Join",
+      "color": "Color:",
+      "position": "Position:",
+      "inside": "inside the card",
+      "outside": "outside the card",
+      "showCounter": "Show counter"
+    },
+    "section": {
+      "textPlaceholder": "Text… (markdown)",
+      "labelPlaceholder": "(label)",
+      "empty": "Add text or a field (max 3) next to the image.",
+      "noAccessory": "No accessory",
+      "button": "Button",
+      "defaultButtonLabel": "Open"
+    },
+    "image": {
+      "change": "Change image",
+      "changeShort": "Change",
+      "remove": "Remove image",
+      "upload": "Upload image"
+    },
+    "gallery": {
+      "max": "Up to {max} images in the gallery.",
+      "add": "Add images ({count}/{max})"
+    }
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "title": "MRI BOT | Tienda, tickets y gestión para tu Discord",
+    "description": "MRI BOT reúne tienda con Pix, tickets, whitelist, moderación e integración con FiveM en un solo bot, configurado desde un panel web. Empieza gratis."
+  },
+  "nav": {
+    "label": "Secciones",
+    "panel": "Panel",
+    "audience": "Para quién es",
+    "howItWorks": "Cómo funciona",
+    "pricing": "Precios",
+    "openPanel": "Abrir panel",
+    "signIn": "Entrar"
+  },
+  "hero": {
+    "membersCount": "+{count} mil",
+    "headline": "miembros en {servers} servidores ya funcionan con MRI BOT.",
+    "lead": "Tienda con Pix, tickets, whitelist, moderación e integración con FiveM en un solo bot. Configuras todo en un panel web y el bot hace el trabajo en Discord.",
+    "start": "Empezar gratis",
+    "seePanel": "Ver el panel",
+    "perks": {
+      "noCard": "Sin tarjeta de crédito",
+      "fast": "Listo en pocos minutos",
+      "pix": "Pix directo a tu cuenta"
+    },
+    "shotAlt": "Resumen del panel de MRI BOT con miembros, tickets, pendientes y actividad del servidor",
+    "shotNote": "Pantallas reales del panel, con datos de ejemplo. Miembros sumados de los servidores con el bot, actualizados cada hora."
+  },
+  "demo": {
+    "channel": "ventas",
+    "caption": "Ejemplo de una venta",
+    "bought": "Compró {product} en la tienda, R$ 29,90 por Pix",
+    "product": "Rol VIP",
+    "pixApproved": "Pix aprobado en Mercado Pago",
+    "delivered": "{role} entregado a {user}",
+    "recorded": "Venta registrada en el panel. Nadie del staff tuvo que despertarse."
+  },
+  "trust": {
+    "label": "Garantías",
+    "fast": {
+      "title": "Entrega en segundos",
+      "body": "El rol llega en cuanto se aprueba el Pix."
+    },
+    "money": {
+      "title": "Dinero en tu cuenta",
+      "body": "El Pix entra directo en tu Mercado Pago."
+    },
+    "support": {
+      "title": "Soporte en portugués",
+      "body": "Equipo brasileño, atención en Discord."
+    },
+    "free": {
+      "title": "Plan gratis de verdad",
+      "body": "Sin mensualidad y sin tarjeta para empezar."
+    },
+    "processedBy": "Pagos procesados por {logo}"
+  },
+  "audiences": {
+    "title": "Hecho para quien cuida de un servidor.",
+    "lead": "Si alguna vez perdiste una noche haciendo a mano lo que un bot debería hacer solo, MRI BOT fue pensado para ti.",
+    "rp": {
+      "title": "Servidores de RP y juegos",
+      "body": "Vende VIP, acceso a canales e ítems en el juego. El bot entrega cuando llega el Pix, sin nadie del staff despierto de madrugada."
+    },
+    "digital": {
+      "title": "Quien vende productos digitales",
+      "body": "Mods, scripts, presets y PDFs salen de tu Google Drive directo al DM de quien compró."
+    },
+    "communities": {
+      "title": "Comunidades grandes",
+      "body": "Tickets, whitelist, moderación y encuestas en un solo lugar. El staff deja de apagar incendios y se ocupa de lo que importa."
+    }
+  },
+  "showcase": {
+    "finance": {
+      "label": "Finanzas",
+      "title": "Todo el dinero del servidor en una sola pantalla",
+      "body": "Tienda, suscripciones y paquetes prepagos sumados. Ves cuánto recibiste, de dónde vino y cada pago, sin abrir tres lugares.",
+      "bullets": {
+        "periods": "Bruto, comisión y neto por período",
+        "compare": "Comparación con el período anterior",
+        "export": "Planilla lista para exportar"
+      },
+      "alt": "Pantalla de Finanzas con monto recibido, origen del dinero por tienda, recurrente y paquetes, y gráfico por día"
+    },
+    "store": {
+      "label": "Tienda",
+      "title": "Tienda con Pix y tarjeta",
+      "body": "Vende roles, acceso a canales, archivos de Drive e ítems en el juego. El pago llega a tu cuenta de Mercado Pago y la entrega ocurre sola.",
+      "bullets": {
+        "coupons": "Cupones, carrito y productos destacados",
+        "page": "Página de la tienda con tu estilo",
+        "delivery": "Entrega automática o manual"
+      },
+      "alt": "Pantalla de la tienda en el panel con productos, precios, vendidos y stock"
+    },
+    "tickets": {
+      "label": "Atención",
+      "title": "Atención que el staff puede llevar",
+      "body": "Tickets con formulario, valoración e historial, y los números que muestran dónde se traba la atención.",
+      "bullets": {
+        "form": "Formulario y tipos de atención",
+        "rating": "Valoración de la atención por DM",
+        "times": "Tiempo de respuesta y horas pico"
+      },
+      "alt": "Rendimiento de la atención con tiempo medio hasta resolver, tickets abiertos en 30 días, agentes y hora pico"
+    },
+    "fivem": {
+      "label": "FiveM y MTA",
+      "title": "Integrado a tu servidor de juego",
+      "body": "El jugador vincula su cuenta de Discord, entra en la cola por rol y recibe en el juego lo que compró en la tienda.",
+      "bullets": {
+        "allowlist": "Allowlist y cola con prioridad por rol",
+        "actions": "Acciones en el juego después de la compra",
+        "kick": "Kick y baneo desde el panel"
+      },
+      "alt": "Pantalla del módulo FiveM con configuración, cola por rol y config.lua"
+    }
+  },
+  "tour": {
+    "label": "Pantallas del panel"
+  },
+  "features": {
+    "title": "Todo lo que el servidor necesita, en un solo panel.",
+    "lead": "Cada módulo se activa y desactiva en el panel. Empieza por lo que usas hoy y activa el resto cuando lo necesites.",
+    "moreTitle": "Y más módulos en el mismo panel"
+  },
+  "more": {
+    "whitelist": {
+      "title": "Whitelist",
+      "body": "Solicitud con formulario, y aprobar ya da el rol."
+    },
+    "moderation": {
+      "title": "Moderación",
+      "body": "Antispam, logs, bienvenida y roles automáticos."
+    },
+    "subscriptions": {
+      "title": "Suscripciones",
+      "body": "Planes mensuales por Pix, con un rol que se renueva solo."
+    },
+    "polls": {
+      "title": "Encuestas y sorteos",
+      "body": "Votación con botones y sorteos con requisitos."
+    },
+    "messages": {
+      "title": "Mensajes",
+      "body": "Anuncios programados y DM masivos por rol."
+    },
+    "ai": {
+      "title": "Asistente con IA",
+      "body": "Responde las dudas de los miembros en los canales elegidos."
+    },
+    "community": {
+      "title": "Comunidad",
+      "body": "Sugerencias, reporte de bugs y formulario para el staff."
+    },
+    "boost": {
+      "title": "Boost",
+      "body": "Recompensa automática para quien mejora el servidor."
+    },
+    "identity": {
+      "title": "Bot con tu nombre",
+      "body": "Apodo y foto del bot al estilo de tu servidor."
+    }
+  },
+  "how": {
+    "title": "De la invitación a la primera venta en minutos.",
+    "step": "Paso {number}",
+    "steps": {
+      "invite": {
+        "title": "Agrega el bot a tu servidor",
+        "body": "Entra con Discord, elige el servidor y agrega el bot. No hay nada que instalar."
+      },
+      "connect": {
+        "title": "Conecta Mercado Pago",
+        "body": "La autorización se hace en tu cuenta de Mercado Pago y no accedemos a tu saldo. Google Drive es opcional, para quien vende archivos."
+      },
+      "products": {
+        "title": "Crea los productos",
+        "body": "Elige qué entregar (rol, canal, archivo o ítem en el juego), define precio y stock. La tienda sale en línea con su propio enlace."
+      }
+    },
+    "cta": "Empezar ahora"
+  },
+  "pricing": {
+    "title": "Empieza gratis y cambia de plan cuando lo necesites.",
+    "lead": "Sin período de prueba y sin permanencia. El plan gratis no vence.",
+    "forever": "para siempre",
+    "perMonth": "/ mes",
+    "saleFee": "+ R$ 1 por venta (como máximo 10%)",
+    "free": {
+      "unlimitedBot": "Bot de Discord ilimitado",
+      "ticketsPolls": "Tickets, encuestas y proyectos",
+      "oneStore": "1 tienda pública",
+      "storeMethods": "Tienda con Pix, tarjeta y Drive"
+    },
+    "pro": {
+      "everythingInFree": "Todo lo de Free",
+      "subscriptions": "Suscripciones recurrentes (Pix mensual)",
+      "roleRenewal": "Renovación automática de roles",
+      "recurringBilling": "Cobro recurrente por Mercado Pago"
+    },
+    "proMax": {
+      "everythingInPro": "Todo lo de Pro",
+      "noSaleFee": "Comisión por venta: R$ 0",
+      "prioritySupport": "Soporte prioritario",
+      "whiteLabel": "White-label completo",
+      "unlimitedVolume": "Volumen ilimitado"
+    },
+    "subscribe": "Suscribirse a {plan}",
+    "featured": "Más elegido",
+    "mpFees": "Mercado Pago cobra sus propias comisiones (3,79% en Pix, cerca de 5% con tarjeta), pagadas por el vendedor en cualquier herramienta."
+  },
+  "faq": {
+    "title": "Preguntas frecuentes",
+    "payout": {
+      "q": "¿El dinero va a mi cuenta de Mercado Pago?",
+      "a": "Sí. Conectas tu cuenta de Mercado Pago en el panel y el pago llega directo a ella, con la comisión de la plataforma descontada al momento. No tenemos acceso a tu saldo."
+    },
+    "saleFee": {
+      "q": "¿Cómo funciona la comisión por venta?",
+      "a": "En los planes Free y Pro cobramos R$ 1 por venta confirmada, o como máximo el 10% del precio, lo que sea menor. En Pro Max la comisión es R$ 0. Las comisiones de Mercado Pago (cerca de 3,79% en Pix y 5% con tarjeta) van aparte y las paga el vendedor, como en cualquier herramienta."
+    },
+    "chargeback": {
+      "q": "¿Y si el comprador pide un reembolso?",
+      "a": "Sigue el proceso normal de Mercado Pago: recibes el aviso en el panel y el bot deshace la entrega (quita el rol o el acceso). El dinero se devuelve por el propio Mercado Pago."
+    },
+    "card": {
+      "q": "¿Necesito tarjeta de crédito para empezar?",
+      "a": "No. El plan Free ya incluye la tienda con Pix, tarjeta y Drive, es gratis para siempre y no pide tarjeta. Pro solo tiene sentido cuando quieras suscripciones mensuales, como un rol VIP recurrente."
+    },
+    "fivem": {
+      "q": "¿Funciona con servidores de FiveM o roleplay?",
+      "a": "Sí, es el uso más común. Además de vender VIP y acceso a canales, el módulo FiveM vincula la cuenta del jugador, controla allowlist y cola por rol y ejecuta acciones en el juego después de la compra. También hay integración con MTA."
+    },
+    "cancelPro": {
+      "q": "Si cancelo Pro, ¿pierdo ventas o datos?",
+      "a": "No. Tienda, historial y configuración siguen como están, y vuelves a Free vendiendo con normalidad. Solo las suscripciones recurrentes dejan de renovarse. Puedes exportar tus datos cuando quieras."
+    },
+    "openSource": {
+      "q": "¿El bot es open source?",
+      "a": "No. Pero las novedades se deciden junto con la comunidad en nuestro Discord."
+    }
+  },
+  "final": {
+    "title": "Pon tu servidor entre los {servers}.",
+    "lead": "Entra con Discord y configúralo en pocos minutos. El plan gratis ya incluye la tienda.",
+    "signIn": "Entrar con Discord"
+  },
+  "footer": {
+    "tagline": "Tienda, tickets, moderación e integración con juegos para comunidades de Discord.",
+    "product": "Producto",
+    "features": "Funciones",
+    "help": "Ayuda",
+    "support": "Soporte en Discord",
+    "status": "Estado",
+    "contact": "Contacto",
+    "legal": "Legal",
+    "terms": "Términos de uso",
+    "privacy": "Política de privacidad",
+    "cookies": "Cookies",
+    "copyright": "© {year} MRI BOT. Hecho en Brasil."
+  }
+}

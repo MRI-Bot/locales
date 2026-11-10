@@ -1,0 +1,82 @@
+{
+  "header": {
+    "title": "Audit log",
+    "description": "Everything that happened in {guild}: giveaways, tickets, polls, projects and planning."
+  },
+  "errors": {
+    "load": "Failed to load the audit log."
+  },
+  "filters": {
+    "module": "Module",
+    "type": "Type",
+    "all": "All"
+  },
+  "modules": {
+    "giveaway": "Giveaways",
+    "ticket": "Tickets",
+    "poll": "Polls",
+    "project": "Projects",
+    "planning": "Planning"
+  },
+  "types": {
+    "poll": {
+      "created": "created a poll",
+      "scheduledStarted": "scheduled poll was activated",
+      "edited": "edited a poll",
+      "closed": "closed a poll",
+      "reposted": "reposted a poll",
+      "deleted": "removed a poll"
+    },
+    "giveaway": {
+      "created": "created a giveaway",
+      "scheduledStarted": "scheduled giveaway started",
+      "entry": "entered a giveaway",
+      "entryRejected": "tried to enter (rejected)",
+      "ended": "giveaway ended",
+      "winnersDrawn": "winners drawn",
+      "reroll": "rerolled the giveaway",
+      "cancelled": "cancelled a giveaway",
+      "pageView": "visited the public page",
+      "partnerLinkClick": "clicked the partner invite",
+      "partnerMembership": "joined the partner server",
+      "partnerLeft": "left the partner server"
+    },
+    "ticket": {
+      "opened": "opened a ticket",
+      "claimed": "claimed a ticket",
+      "unclaimed": "unclaimed a ticket",
+      "closed": "closed a ticket",
+      "reopened": "reopened a ticket",
+      "transferred": "transferred a ticket",
+      "prioritized": "prioritized a ticket",
+      "rated": "rated the support",
+      "repliedAnonymously": "replied to a ticket anonymously",
+      "nudged": "nudged a ticket"
+    },
+    "project": {
+      "boardCreated": "created a board",
+      "boardArchived": "archived a board",
+      "cardCreated": "created a card",
+      "cardMoved": "moved a card",
+      "cardCompleted": "completed a card",
+      "cardDeleted": "removed a card"
+    },
+    "planning": {
+      "created": "created a document",
+      "updated": "updated a document",
+      "archived": "archived a document",
+      "deleted": "removed a document"
+    }
+  },
+  "relative": {
+    "now": "now",
+    "minutes": "{count}m",
+    "hours": "{count}h",
+    "days": "{count}d",
+    "months": "{count}mo"
+  },
+  "empty": "No events yet. Create a poll, ticket or giveaway to start filling the log.",
+  "system": "System",
+  "details": "details",
+  "loadMore": "Load more"
+}

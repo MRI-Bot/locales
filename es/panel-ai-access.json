@@ -1,0 +1,4 @@
+{
+  "keyPlaceholder": "<pega la clave aquí>",
+  "instructions": "Vas a configurar el servidor de Discord \"{guild}\" en MRI BOT a través de la API.\n\n- Guía de la API (léela antes de empezar, con el mismo header de la clave): {guide}\n- Dirección: {base}\n- Clave: envíala en el header x-api-key: {key}\n\nEmpieza con GET /me para ver los permisos de la clave y los módulos activados.\nLee antes de escribir, nunca adivines el id de un rol o canal (usa /discord-setup/roles y /discord-setup/channels)\ny muéstrame lo que vas a crear antes de crear varias cosas. No repitas la clave en las respuestas."
+}

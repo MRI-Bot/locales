@@ -1,0 +1,12 @@
+{
+  "storeSlug": {
+    "tooShort": "Mínimo de 3 caracteres.",
+    "hyphenEdges": "No puede empezar ni terminar con guion.",
+    "reserved": "\"{slug}\" está reservado por la plataforma."
+  },
+  "apiClient": {
+    "outage": "MRI BOT se está actualizando. Inténtalo de nuevo en unos segundos.",
+    "requestFailed": "Error en la solicitud ({status})",
+    "badJson": "Respuesta inválida del servidor (JSON mal formado)."
+  }
+}

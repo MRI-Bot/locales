@@ -1,0 +1,18 @@
+{
+  "apiKeyReason": "MRI BOT: API key",
+  "blueprintReason": "MRI BOT: server template",
+  "nicknameSyncReason": "Nickname sync from game activity",
+  "autoCloseNote": "Closed automatically due to inactivity.",
+  "automod": {
+    "inviteReason": "Server invites are not allowed",
+    "urlReason": "Link not allowed: {list}",
+    "attachmentReason": "File type not allowed: {list}",
+    "aimodReason": "Message breaks the rules",
+    "redirect": "Use {channel}.",
+    "warnDefault": "{user}, {reason}.",
+    "dm": "Your message in **{guild}** was removed: {reason}.",
+    "serverFallback": "the server",
+    "honeypotReason": "Honeypot: message in a trap channel (account possibly compromised)",
+    "purged": "{reason} (recent messages deleted)"
+  }
+}

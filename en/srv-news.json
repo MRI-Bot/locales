@@ -1,0 +1,8 @@
+{
+  "disabledReason": {
+    "no_guild": "The bot is no longer in the server.",
+    "no_channel": "The configured channel no longer exists.",
+    "forbidden": "The bot doesn't have permission to send messages in the channel.",
+    "error": "Repeated failures sending the announcement."
+  }
+}

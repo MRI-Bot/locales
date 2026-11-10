@@ -1,0 +1,24 @@
+{
+  "kind": {
+    "live": "live stream",
+    "video": "video",
+    "short": "short",
+    "post": "post",
+    "reel": "reel",
+    "other": "content"
+  },
+  "defaultAuthor": "Creator",
+  "defaultBody": "**{author}** posted a new {kind}!",
+  "defaultBodyLive": "**{author}** started a new {kind}!",
+  "defaultBodyPost": "**{author}** posted a new {kind}!",
+  "liveField": "Live",
+  "watching": "{viewers} watching",
+  "ended": {
+    "withDuration": "{author} was live for **{duration}**.",
+    "noDuration": "{author} ended the stream.",
+    "v2": "⚫ **Ended** — {text}",
+    "title": "⚫ Stream ended",
+    "content": "⚫ {author} ended the stream."
+  },
+  "liveTitle": "{name} is live"
+}

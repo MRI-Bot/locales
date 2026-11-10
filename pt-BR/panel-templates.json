@@ -1,0 +1,68 @@
+{
+  "nextSteps": {
+    "store": "Conectar o recebimento da loja",
+    "fivem": "Colocar o endereço do servidor FiveM"
+  },
+  "undo": {
+    "action": "Desfazer",
+    "partial": "Removidos {removed} itens. {kept} ficaram porque já estão em uso.",
+    "failed": "Não deu pra desfazer."
+  },
+  "done": {
+    "summary": "{created} itens criados. Agora teste no Discord.",
+    "summaryReused": "{created} itens criados e {reused} reaproveitados. Agora teste no Discord.",
+    "nextSteps": "Falta só você",
+    "problems": "O que não deu certo"
+  },
+  "dialog": {
+    "loadFailed": "Não deu pra carregar o modelo.",
+    "applyFailed": "Não deu pra montar o servidor.",
+    "undoTitle": "Desfazer o modelo?",
+    "undoDescription": "O bot apaga os canais e cargos que o modelo criou, menos os que já têm mensagens ou membros, e desliga os módulos que o modelo ligou. O que já existia no servidor antes fica como estava.",
+    "undoDone": "Pronto, o servidor voltou a como estava. {removed} itens removidos.",
+    "title": "Montar o servidor: {name}",
+    "loadingName": "carregando",
+    "description": "O bot cria os canais e cargos abaixo e deixa tudo configurado. Nada que já existe no seu servidor é apagado ou mudado.",
+    "applying": "Montando o servidor. Leva até um minuto, não feche esta janela.",
+    "loadingPreview": "Vendo o que já existe no seu servidor...",
+    "modulesHeading": "O que vem pronto",
+    "alreadyConfigured": "Você já configurou. Fica como está.",
+    "include": "Incluir {module}",
+    "itemsHeading": "Como o Discord vai ficar",
+    "undoApplied": "Desfazer o modelo aplicado",
+    "apply": "Montar meu servidor",
+    "done": "Servidor montado",
+    "doneWithWarnings": "Servidor montado, com alguns avisos",
+    "testNow": "Teste agora",
+    "panelTicketsError": "Painel de tickets: {error}",
+    "panelWhitelistError": "Painel de whitelist: {error}",
+    "finish": "Concluir"
+  },
+  "structure": {
+    "reused": "já existe, vamos usar",
+    "roles": "Cargos"
+  },
+  "quick": {
+    "applyFailed": "Não deu pra configurar.",
+    "undoTitle": "Desfazer o que o bot montou?",
+    "undoDescription": "O bot apaga os canais e cargos que criou aqui, menos os que já têm mensagens ou membros, e limpa as configurações que você não mexeu depois.",
+    "undoDone": "Pronto, desfeito. {removed} itens removidos.",
+    "appliedNote": "O bot montou o básico deste módulo pra você.",
+    "title": "Quer que o bot configure pra você?",
+    "description": "Nada que já existe no seu servidor é apagado. Depois dá pra mudar tudo.",
+    "showItems": "O que vai ser criado",
+    "applying": "Configurando...",
+    "apply": "Configurar pra mim",
+    "dismiss": "Prefiro fazer do zero",
+    "panelError": "Painel: {error}",
+    "done": "Configurado",
+    "doneWithWarnings": "Configurado, com alguns avisos",
+    "gotIt": "Entendi"
+  },
+  "picker": {
+    "title": "Que tipo de servidor é o seu?",
+    "description": "Escolha um modelo e o bot monta os canais, os cargos e os módulos pra você. Depois dá pra mudar tudo.",
+    "scratch": "Começar do zero",
+    "scratchDescription": "Escolher os módulos um por um e configurar cada um."
+  }
+}

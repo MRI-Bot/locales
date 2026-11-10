@@ -1,0 +1,62 @@
+{
+  "intro": {
+    "about": "Quartz is MRI's anticheat. It blocks anything abnormal on the server (explosions, spawns, given weapons, forged events) and punishes carefully, adding up evidence. The code comes signed from our service and updates itself: only a loader sits in the city's folder.",
+    "license": "One license per Discord server. During the beta the license is complimentary, free of charge."
+  },
+  "notConfigured": "The Quartz service is not enabled on the platform yet.",
+  "noLicense": {
+    "title": "This server has no license yet",
+    "description": "Activate the free beta trial license to download Quartz and install it in your city. It lasts 1 year and can be renewed here.",
+    "activate": "Activate license"
+  },
+  "status": {
+    "revoked": "License turned off. The city stops receiving the anticheat.",
+    "expired": "License expired. The city runs the last stored version for up to 7 days.",
+    "notConnected": "No city connected. Download the folder and install it: it connects by itself on the first start.",
+    "expiresSoon": "Active, but expires in {days, plural, one {# day} other {# days}}.",
+    "ok": "Connected. The city is receiving the anticheat.",
+    "stale": "(the Quartz service didn't respond just now, data from the last record)"
+  },
+  "facts": {
+    "connectedAt": "Connected on",
+    "notYet": "Not yet",
+    "version": "Version in the city",
+    "neverStarted": "Hasn't started yet",
+    "lastSeen": "Last seen",
+    "never": "Never",
+    "expiresAt": "Expires on",
+    "kind": "Type",
+    "paid": "Paid",
+    "courtesy": "Beta courtesy"
+  },
+  "actions": {
+    "download": "Download the folder",
+    "renew": "Renew"
+  },
+  "install": {
+    "title": "Install in the city",
+    "step1": "Download the folder and put {folder} in your resources.",
+    "step2": "Add {line} to {file} and start the server.",
+    "done": "Done: the city connects by itself and shows up here as connected. There is no key to copy. Each download works for one installation, and the folder copied to another city won't work.",
+    "inGame": "In game, {command} opens the panel. It starts in Observe mode: it only records, nobody is punished."
+  },
+  "move": {
+    "title": "Change machines",
+    "description": "Download the folder again and install it on the new machine. It connects and the old one drops off by itself: the license covers one city at a time.",
+    "disconnect": "Disconnect the city"
+  },
+  "disconnectConfirm": {
+    "title": "Disconnect the city?",
+    "description": "The connected city loses the anticheat. To connect again, download the folder and install it again.",
+    "confirm": "Disconnect"
+  },
+  "toasts": {
+    "created": "License created.",
+    "renewed": "License renewed.",
+    "disconnected": "City disconnected."
+  },
+  "errors": {
+    "generic": "Could not complete.",
+    "download": "Could not download the folder."
+  }
+}

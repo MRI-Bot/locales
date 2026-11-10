@@ -1,0 +1,6 @@
+{
+  "defaults": {
+    "assistantName": "Assistant",
+    "escalationMessage": "I couldn't find that here — the staff will help you shortly! 👋"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "header": {
+    "title": "Media",
+    "description": "Screenshots, audio and video your server hosts, with a direct link.",
+    "upload": "Upload file"
+  },
+  "kinds": {
+    "image": "Image",
+    "audio": "Audio",
+    "video": "Video"
+  },
+  "errors": {
+    "load": "Couldn't load the library.",
+    "save": "Couldn't save.",
+    "upload": "Couldn't upload the file.",
+    "replace": "Couldn't replace the file.",
+    "copy": "Couldn't copy. The link is on the file name.",
+    "rename": "Couldn't rename.",
+    "keep": "Couldn't change it.",
+    "delete": "Couldn't remove the file."
+  },
+  "toasts": {
+    "uploaded": "File uploaded.",
+    "replacedPurged": "File replaced. Anyone who already opened it may see the old one for a few minutes.",
+    "replacedSlow": "File replaced. The new version may take up to 1 day to show up everywhere.",
+    "kept": "File kept: retention will no longer take it down.",
+    "unkept": "Retention is back: it goes offline on {date}.",
+    "deleted": "File removed."
+  },
+  "replaceConfirm": {
+    "title": "Replace this file?",
+    "description": "The link stays the same and starts showing the new file wherever it was pasted. The current file is overwritten and can't be recovered.",
+    "confirm": "Replace"
+  },
+  "deleteConfirm": {
+    "title": "Delete this file?",
+    "description": "The file goes offline immediately and the link stops working wherever it was pasted (Discord Embed, moderation record). This can't be undone.",
+    "confirm": "Delete"
+  },
+  "notConfigured": {
+    "title": "Storage not configured yet",
+    "body": "The module is active, but the storage credentials haven't been set on the platform, so no upload will work until then. If you're responsible for the installation, see {doc}."
+  },
+  "usage": {
+    "title": "Storage used",
+    "ofQuota": "{used} of {quota}",
+    "unlimited": "{used} (no limit)",
+    "files": "{count, plural, one {# file} other {# files}}",
+    "retention": "Files are deleted automatically after {days, plural, one {# day} other {# days}}"
+  },
+  "optimization": {
+    "title": "Optimization",
+    "description": "Reduces file size so more fits within your quota.",
+    "disabledByPlatform": "Disabled by the platform.",
+    "webp": {
+      "label": "Convert images to WebP",
+      "description": "Cuts about 30% of the size with no visible loss. Happens on upload."
+    },
+    "video": {
+      "label": "Compress videos",
+      "description": "Runs in the background after upload. The link doesn't change."
+    }
+  },
+  "empty": {
+    "title": "No files hosted yet",
+    "body": "Upload with the button above or through your integration, using an API Key with the {scope} scope (create one in API Keys)."
+  },
+  "list": {
+    "search": "Search by name or label",
+    "noMatch": "No file with that name.",
+    "previewFile": "Preview file",
+    "preview": "Preview",
+    "namePlaceholder": "File name (empty removes the name)",
+    "saveName": "Save name",
+    "rename": "Rename",
+    "renameHint": "Rename (the link doesn't change)",
+    "uploadedAt": "Uploaded on {date}",
+    "kept": "kept, retention won't take it down",
+    "expiresAt": "goes offline on {date}",
+    "copyLink": "Copy link",
+    "unkeepHint": "Follow the plan's retention again",
+    "keepHint": "Keep file: retention won't take it down (an LGPD deletion request still deletes it)",
+    "unkeep": "Stop keeping",
+    "keep": "Keep file",
+    "replaceHint": "Replace keeping the link",
+    "replace": "Replace file",
+    "delete": "Delete file"
+  }
+}

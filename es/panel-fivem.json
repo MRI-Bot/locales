@@ -1,0 +1,661 @@
+{
+  "tabs": {
+    "dashboard": "Resumen",
+    "config": "Configuración",
+    "links": "Vínculos",
+    "cards": "Tarjeta de conexión",
+    "moderation": "Moderación",
+    "actions": "Acciones",
+    "deliveries": "Entregas",
+    "statusPanel": "Panel de estado",
+    "cdn": "CDN",
+    "activity": "Actividad",
+    "logs": "Logs"
+  },
+  "nav": {
+    "label": "Pantallas de FiveM",
+    "groups": {
+      "players": "Jugadores",
+      "automation": "Automatización",
+      "server": "Servidor",
+      "records": "Registros"
+    }
+  },
+  "header": {
+    "description": "Integración del servidor FiveM con el Discord de {guild}."
+  },
+  "config": {
+    "loadError": "No se pudo cargar la configuración.",
+    "ttlRange": "El TTL debe estar entre 1 y 60 minutos.",
+    "saved": "Configuración guardada",
+    "saveError": "No se pudo guardar.",
+    "title": "Configuración del módulo",
+    "subtitle": "Se aplica a todas las API keys de este servidor.",
+    "altAccounts": {
+      "label": "Permitir cuentas alternativas",
+      "description": "Si está activado, una misma cuenta de Discord puede vincular varias licenses de FiveM en el servidor. Por defecto es 1 Discord ↔ 1 license."
+    },
+    "ttl": {
+      "label": "Duración del código de vinculación",
+      "minutes": "minutos",
+      "hint": "Cuánto tiempo tiene el jugador entre conectarse a FiveM y ejecutar {command} en Discord. De 1 a 60.",
+      "invalid": "Valor no válido. Usa de 1 a 60."
+    },
+    "linkPanel": {
+      "label": "Panel de vinculación",
+      "description": "Publica un mensaje con el botón {button}: el jugador hace clic, pega el código que aparece al entrar a FiveM y listo, sin necesidad de {command}. Publicar de nuevo reemplaza el panel anterior.",
+      "channelPlaceholder": "Canal del panel",
+      "publish": "Publicar panel",
+      "republish": "Volver a publicar el panel",
+      "published": "Panel de vinculación publicado",
+      "publishError": "No se pudo publicar el panel."
+    }
+  },
+  "preview": {
+    "tabs": {
+      "linking": "Vinculación",
+      "awaitingRole": "Sin rol",
+      "queue": "Cola"
+    },
+    "note": "Vista previa de la pantalla de conexión de FiveM. Los datos (código, posición) son de ejemplo."
+  },
+  "customization": {
+    "colors": {
+      "serverDefault": "Predeterminado (del servidor)",
+      "neutral": "Neutro",
+      "accent": "Azul (Accent)",
+      "good": "Verde (Good)",
+      "warning": "Ámbar (Warning)",
+      "attention": "Rojo (Attention)"
+    },
+    "groups": {
+      "denials": "Rechazos y avisos",
+      "denialsHint": "Placeholders: {reason} (motivo del rechazo), {minutes} (minutos restantes)."
+    },
+    "fields": {
+      "title": "Título",
+      "message": "Mensaje",
+      "hint": "Consejo",
+      "oneClickButton": "Botón de 1 clic",
+      "webButton": "Botón web",
+      "recheckButton": "Botón verificar",
+      "discordButton": "Botón Discord",
+      "deniedDefault": "Acceso denegado",
+      "deniedRoleRemoved": "Rol quitado durante la fila",
+      "noRoleTimeout": "Tiempo agotado sin rol",
+      "linkTimeout": "Tiempo agotado al vincular",
+      "serviceUnavailable": "Servicio no disponible"
+    },
+    "loadError": "No se pudo cargar la personalización.",
+    "httpsRequired": "Las URL de imagen e invitación deben ser https.",
+    "saved": "Personalización guardada. Se aplica en el servidor en ~1 min.",
+    "title": "Apariencia de las tarjetas",
+    "subtitle": "Imágenes, color y textos de las tarjetas de vinculación, fila y rol. Se aplica en el servidor en ~1 min, sin reiniciar.",
+    "logo": {
+      "label": "Logo",
+      "hint": "Cuadrado, ~200×200. PNG/JPG/WebP."
+    },
+    "banner": {
+      "label": "Banner",
+      "hint": "Ancho, proporción ~4:1 (ej.: 600×150)."
+    },
+    "imageHttps": "La URL de la imagen debe ser https (usa la subida si no tienes una).",
+    "color": {
+      "label": "Color de realce",
+      "hint": "Color de los botones y realces en las tarjetas."
+    },
+    "invite": {
+      "label": "Invitación de Discord",
+      "placeholder": "https://discord.gg/tu-servidor",
+      "hint": "Botón \"Abrir Discord\" en las tarjetas. Vacío = oculta el botón.",
+      "invalid": "Debe ser una URL https."
+    },
+    "messages": {
+      "title": "Textos de las tarjetas y mensajes",
+      "emptyDefault": "vacío = predeterminado"
+    },
+    "undo": "Deshacer"
+  },
+  "statusPanel": {
+    "layouts": {
+      "default": {
+        "label": "Predeterminado",
+        "hint": "Una sección con estado, barra de ocupación, mapa y modo de juego."
+      }
+    },
+    "renderModes": {
+      "embed": {
+        "label": "Embed clásico",
+        "hint": "Campos nombre/valor que configuras, con inline (lado a lado). Igual que txAdmin."
+      },
+      "components_v2": {
+        "hint": "Contenedor con bloques y el editor de diseño. Sin inline, todo apilado."
+      }
+    },
+    "fields": {
+      "serverStatus": "Estado",
+      "playerCount": "Jugadores",
+      "maxPlayers": "Capacidad máxima",
+      "hostname": "Nombre del servidor",
+      "cfxConnect": "Connect",
+      "mapName": "Mapa",
+      "gameType": "Modo de juego",
+      "updatedAt": "Actualizado el"
+    },
+    "title": "Panel de estado",
+    "intro": "Panel persistente en Discord que muestra el estado del servidor FiveM en tiempo real (online/offline, jugadores, banner + botón Entrar). El bot lo actualiza automáticamente.",
+    "newPanel": "Nuevo panel",
+    "noKeys": "Agrega un servidor en \"Configuración\" antes de crear paneles. Su cfx ID se configura allí.",
+    "empty": "Aún no hay paneles. Haz clic en \"Nuevo panel\" para crear el primero.",
+    "channelLine": "Canal: {channel}",
+    "cardMeta": "{players} jugadores · sincronizado {time}",
+    "notPosted": "Aún no se publicó en Discord.",
+    "autoDisabled": "Desactivado automáticamente: el bot perdió acceso al canal. Restaura los permisos y vuelve a activarlo.",
+    "edit": "Editar",
+    "reposted": "Panel republicado.",
+    "published": "Panel publicado.",
+    "botNoReply": "El bot no respondió.",
+    "publishError": "Error al publicar.",
+    "repost": "Republicar",
+    "publish": "Publicar",
+    "refreshSent": "Actualización enviada.",
+    "noCfxId": "La clave de API seleccionada no tiene cfxServerId configurado.",
+    "testError": "La prueba falló.",
+    "selectKey": "Selecciona una clave de API.",
+    "selectChannel": "Selecciona un canal.",
+    "invalidColor": "Color no válido.",
+    "incompleteField": "Campo {index}: completa nombre y valor (o quita el campo).",
+    "created": "Panel creado.",
+    "saved": "Panel guardado.",
+    "saveError": "No se pudo guardar.",
+    "deleteTitle": "¿Eliminar este panel?",
+    "deleteDescription": "El mensaje en Discord también se elimina.",
+    "delete": "Eliminar",
+    "removed": "Panel eliminado.",
+    "removeError": "No se pudo eliminar.",
+    "editPanel": "Editar panel",
+    "apiKeyLabel": "Clave de API (servidor FiveM)",
+    "chooseKey": "Elige la clave",
+    "noCfxIdSuffix": ", sin cfxId",
+    "testing": "Probando...",
+    "test": "Probar",
+    "channel": "Canal de Discord",
+    "accent": "Color de acento",
+    "refresh": "Actualización (segundos)",
+    "refreshHint": "Entre 30 y 600 s. Predeterminado 60 s.",
+    "banner": "URL del banner (imagen superior)",
+    "joinLabel": "Botón \"Entrar al servidor\" · URL personalizada (opcional)",
+    "format": "Formato del mensaje",
+    "formatHint": "Los campos lado a lado (inline) solo existen en el embed clásico; Components V2 lo apila todo.",
+    "formatChanged": "Cambiar de formato republica el mensaje al guardar; Discord no permite convertir un mensaje ya publicado. El anterior se elimina y se envía uno nuevo en el mismo canal.",
+    "layoutLabel": "Plantilla del panel",
+    "layoutHint": "Elige una plantilla lista. Se aplica mientras no armes un diseño propio en el editor de abajo.",
+    "ownDesignWins": "Este panel tiene un diseño propio armado abajo, que prevalece sobre la plantilla. Usa \"Volver a la plantilla\" para soltar el editor.",
+    "ownLayout": "Diseño propio (opcional)",
+    "ownLayoutHint": "Arma el tuyo y usa \"+ Campo\" para los valores en vivo; el bot los completa en cada actualización.",
+    "backToModel": "Volver a la plantilla",
+    "joinAlwaysAdded": "El botón \"Entrar al servidor\" siempre se añade al final; es del panel, no del diseño.",
+    "enabledToggle": "Bot actualizando este panel",
+    "saving": "Guardando..."
+  },
+  "keyCard": {
+    "status": {
+      "revoked": "Revocada",
+      "expired": "Vencida",
+      "active": "Activa"
+    },
+    "weightsInvalid": "Los pesos deben ser enteros entre 0 y 100.",
+    "cfxIdInvalidToast": "cfxServerId no válido, se esperan 4-8 caracteres alfanuméricos.",
+    "endpointInvalidToast": "serverEndpoint no válido, se espera \"ip:port\" o \"http://ip:port\".",
+    "downloadError": "No se pudo generar el resource.",
+    "downloadFailed": "No se pudo descargar el resource.",
+    "disconnectTitle": "¿Desconectar este servidor?",
+    "disconnectDescription": "El servidor instalado pierde la conexión con Discord de inmediato: vinculación, allowlist y cola se detienen. Para volver a conectarlo, descarga la carpeta e instálala de nuevo.",
+    "disconnect": "Desconectar",
+    "disconnected": "Servidor desconectado.",
+    "disconnectError": "No se pudo desconectar.",
+    "summary": {
+      "apiFailure": "FALLO DE API",
+      "queue": "COLA"
+    },
+    "install": {
+      "title": "Instalar en el servidor",
+      "step1": "Descarga la carpeta y coloca {folder} en los resources del servidor.",
+      "step2": "Agrega {command} en {file} e inicia el servidor.",
+      "hint": "Se conecta solo en el primer inicio y aparece aquí como conectado. No hay clave que copiar. Cada descarga sirve para una instalación: para cambiar de máquina, descarga de nuevo y la anterior se quita sola.",
+      "download": "Descargar la carpeta"
+    },
+    "allowlist": {
+      "title": "Allowlist por rol",
+      "subtitle": "control de entrada",
+      "members": "{count} miembros",
+      "toggleAria": "Activar o desactivar la allowlist por rol",
+      "offHint": "Allowlist desactivada: cualquier jugador {linked} entra, sin comprobar rol ni presencia en Discord.",
+      "offHintLinked": "vinculado",
+      "removeAria": "Quitar {role}",
+      "addRole": "+ Agregar rol",
+      "hint": "El jugador necesita tener {atLeastOne} de estos roles. Déjalo vacío para permitir a cualquier miembro de Discord.",
+      "hintAtLeastOne": "al menos uno"
+    },
+    "on": "Activada",
+    "off": "Desactivada",
+    "mode": {
+      "title": "Modo ante fallo de API",
+      "permissive": "Permisivo",
+      "strict": "Estricto",
+      "defaultBadge": "PREDETERMINADO",
+      "safeBadge": "SEGURO",
+      "permissiveHint": "Si el backend no responde, el jugador {action}.",
+      "permissiveHintAction": "entra sin verificación",
+      "strictHint": "Un fallo de API {action}.",
+      "strictHintAction": "rechaza la conexión"
+    },
+    "queue": {
+      "title": "Cola por peso",
+      "subtitle": "prioridad cuando el servidor está lleno",
+      "toggleAria": "Activar o desactivar la cola prioritaria por rol",
+      "offHint": "Cola desactivada: todos entran con la misma prioridad (orden de llegada). El servidor gestiona los cupos de forma nativa.",
+      "weightAria": "Peso de {role}",
+      "removeWeightAria": "Quitar peso de {role}",
+      "addRole": "+ Agregar rol con peso",
+      "hint": "Peso efectivo = {sum} de los roles del jugador. Los roles sin peso valen 0 y entran al final.",
+      "hintSum": "suma de los pesos"
+    },
+    "server": {
+      "title": "Servidor FiveM",
+      "subtitle": "identifica este servidor para el Panel de estado",
+      "cfxHint": "Código corto de la página {url} (4-8 caracteres).",
+      "optional": "(opcional)",
+      "endpointHint": "Si se define, el sondeo directo reemplaza a CFX (respaldo).",
+      "cfxInvalid": "cfxServerId debe tener 4-8 caracteres alfanuméricos.",
+      "endpointInvalid": "serverEndpoint debe ser \"ip:port\" o una URL."
+    },
+    "saveConfig": "Guardar configuración",
+    "installState": {
+      "fivemServer": "Servidor FiveM",
+      "connected": "Conectado",
+      "seen": "Visto {time}",
+      "waiting": "Esperando",
+      "waitingLine": "Descargado, esperando el primer inicio del servidor",
+      "lastSeen": "Visto por última vez {time}",
+      "notInstalled": "No instalado",
+      "notInstalledLine": "Descarga la carpeta e instálala en el servidor"
+    }
+  },
+  "actions": {
+    "kinds": {
+      "event": "Evento",
+      "export": "Export",
+      "command": "Comando"
+    },
+    "imported": "{count, plural, one {# acción importada.} other {# acciones importadas.}}",
+    "skipped": "Ya existía: {keys}, no se sobrescribió nada.",
+    "importError": "No se pudo importar.",
+    "saved": "Acciones guardadas",
+    "invalidPayload": "El payload no es un JSON válido.",
+    "missingTarget": "Indica la acción y el objetivo.",
+    "sent": "Comando enviado, mira el progreso en la pestaña Entregas.",
+    "sendError": "No se pudo enviar.",
+    "noCommand": "sin comando",
+    "noEvent": "sin evento",
+    "mappingTitle": "Mapeo de acciones",
+    "mappingHint": "Cada acción apunta a un evento (TriggerEvent), un export o un comando de consola de tu gamemode.",
+    "collapseAll": "Contraer todas",
+    "expandAll": "Expandir todas",
+    "action": "Acción",
+    "defaultGarage": "Garaje predeterminado de la entrega de vehículos",
+    "defaultGaragePlaceholder": "En blanco = decide el gamemode",
+    "garagesKnown": "Sugerencias de los garajes en uso en tu servidor. Cada acción puede usar otro con la variable \"garage\".",
+    "garagesUnknown": "En cuanto se ejecute el resource actualizado, los garajes de tu servidor aparecerán aquí como sugerencia.",
+    "lockTitle": "Acciones en el servidor",
+    "lockDescription": "Da dinero, ítems, empleos y vehículos en el juego desde el panel y las ventas de la tienda.",
+    "emptyTitle": "Aún no hay acciones configuradas",
+    "emptyHint": "Empieza con las acciones de dinero, ítem, empleo, pandilla, revive y vehículo. Funcionan con QBCore, Qbox y ESX, con el resource mri-botcreator actualizado en el servidor.",
+    "addPresets": "Agregar {count} acciones listas",
+    "empty": "No hay acciones configuradas.",
+    "notifiesAria": "Avisa al jugador en el juego",
+    "removeAria": "Quitar {key}",
+    "keyPlaceholder": "clave_de_accion",
+    "commandHint": "Se ejecuta en la consola del servidor. Usa {id} para el ID del jugador en el servidor, {license}, {discord} y las variables de la acción.",
+    "save": "Guardar acciones",
+    "presetsTitle": "Acciones listas",
+    "presetsHint": "Punto de partida para los gamemodes más comunes. Después de importar, editas el evento y las variables como quieras; el preset no queda atado a nada.",
+    "presetExists": "Ya existe una acción con esta clave.",
+    "noPresets": "No hay acciones listas disponibles.",
+    "sendTitle": "Enviar acción",
+    "sendHint": "Ejecuta una acción de tu gamemode en el jugador objetivo. Función PRO.",
+    "target": "Objetivo",
+    "variables": "Variables",
+    "placeholders": "Placeholders disponibles en los valores:",
+    "send": "Enviar"
+  },
+  "activity": {
+    "subtitle": "Feed cronológico de eventos: connect, link, queue, admit, deny, drop, error.",
+    "loading": "Cargando eventos...",
+    "empty": "Aún no hay eventos registrados. Cuando un jugador se conecte, los eventos del flujo aparecerán aquí.",
+    "weight": "peso {weight}",
+    "loadMore": "Cargar más",
+    "end": "fin del historial"
+  },
+  "cdn": {
+    "status": {
+      "off": "Desactivado, los jugadores descargan directamente del servidor.",
+      "unverified": "Dirección no confirmada: {error}",
+      "verifying": "Esperando que el servidor confirme la dirección (hasta 1 minuto con el servidor encendido).",
+      "active": "Activo, los jugadores descargan por el CDN.",
+      "watchdogOff": "El CDN no respondió y el servidor volvió a la descarga directa. Se reactiva solo cuando el CDN vuelva.",
+      "missingAce": "Faltan permisos en server.cfg (ver abajo).",
+      "error": "El servidor reportó un error.",
+      "pending": "Activado en el panel; esperando que el servidor lo aplique (hasta 1 minuto)."
+    },
+    "intro1": "Con el CDN activado, los jugadores descargan los resources del servidor desde el borde de Cloudflare en lugar del enlace de tu servidor. El primer jugador de cada archivo lo busca en el servidor; los siguientes lo reciben de la caché.",
+    "intro2": "Si el CDN cae, el resource de MRI lo detecta en hasta 30 s y devuelve la descarga al servidor solo. MRI caído no afecta a quien ya tiene el CDN aplicado.",
+    "unavailable": "El CDN de resources aún no está disponible en la plataforma.",
+    "proLock": "El CDN de resources forma parte del plan Pro.",
+    "noServers": "No hay servidores de juego registrados. Agrega uno en Configuración.",
+    "savedOn": "Guardado. El servidor lo aplica en hasta 1 minuto.",
+    "savedOff": "CDN desactivado. El servidor vuelve a la descarga directa en hasta 1 minuto.",
+    "purgeTitle": "¿Limpiar la caché de este servidor?",
+    "purgeDescription": "Los próximos jugadores volverán a buscar los archivos en el servidor una vez.",
+    "purge": "Limpiar caché",
+    "purged": "Caché limpiada ({count, plural, one {# archivo} other {# archivos}}).",
+    "purgeError": "No se pudo limpiar.",
+    "inCache": "{size} en caché",
+    "toggle": "Activar el CDN en este servidor",
+    "host": "Dirección pública del servidor",
+    "hostPlaceholder": "miservidor.com o 200.1.2.3",
+    "port": "Puerto",
+    "hostHint": "Es la dirección por la que internet llega al puerto de FiveM (el mismo que usan los jugadores). Antes de activarlo, MRI comprueba que esa dirección sea realmente tu servidor.",
+    "hostChanged": "Cambiar la dirección repite esta comprobación.",
+    "aceTitle": "Permisos necesarios en {file} (una vez)",
+    "copied": "Copiado.",
+    "copy": "Copiar",
+    "aceHint": "Sin ellos el resource no puede activar ni desactivar el CDN, y el panel muestra \"faltan permisos\".",
+    "stats": {
+      "loadError": "No se pudo cargar.",
+      "title": "Estadísticas",
+      "hours24": "24 h",
+      "days": "{count} días",
+      "unavailable": "Estadísticas no disponibles: {reason}",
+      "hitRatio": "Tasa de HIT",
+      "fromCache": "Desde la caché",
+      "fromOrigin": "Desde el servidor",
+      "files": "{count, plural, one {# archivo} other {# archivos}}",
+      "failures": "Fallos",
+      "failuresHint": "{origin} origen · {store} escritura",
+      "firstByteHit": "Inicio de la entrega (HIT)",
+      "firstByteMiss": "Inicio de la entrega (MISS)",
+      "originTime": "Respuesta del servidor",
+      "onMiss": "en MISS",
+      "storeTime": "Escritura en caché",
+      "afterDelivery": "después de entregar",
+      "topResources": "Resources más pesados",
+      "downloads": "{count, plural, one {# descarga} other {# descargas}}"
+    }
+  },
+  "sidebar": {
+    "queue": {
+      "title": "Cola resuelta",
+      "hint": "Top 10 miembros ordenados por peso efectivo (suma de los pesos de los roles de cada uno). Muestra quién entraría primero si el servidor se llenara ahora.",
+      "noKey": "No hay clave de API activa para calcular.",
+      "loading": "Leyendo miembros de Discord...",
+      "error": "Bot desconectado o sin permiso para leer miembros.",
+      "empty": "Ningún miembro con rol con peso. Configura pesos en los roles de abajo para ver el ranking."
+    },
+    "preview": {
+      "empty": "Agrega un servidor para ver la vista previa."
+    }
+  },
+  "servers": {
+    "loadError": "No se pudieron cargar los servidores.",
+    "added": "Servidor agregado. Ahora solo descárgalo e instálalo.",
+    "addError": "No se pudo agregar el servidor.",
+    "title": "Servidores",
+    "activeCount": "{count, plural, one {# activo} other {# activos}}",
+    "add": "Agregar servidor",
+    "addHint": "Cada servidor tiene su propia descarga y su propia configuración. Usa uno para el servidor principal y otro para pruebas.",
+    "namePlaceholder": "Nombre, por ejemplo Prueba",
+    "addShort": "Agregar",
+    "emptyTitle": "Conecta tu servidor FiveM a Discord",
+    "emptyHint": "Agrega el servidor, descarga la carpeta y colócala en tu servidor. Se conecta sola en el primer inicio: no hay clave que copiar.",
+    "defaultName": "Servidor principal"
+  },
+  "dashboard": {
+    "kpi": {
+      "latency": "LATENCIA MEDIA",
+      "latencyDelta": "{ms}ms vs ayer",
+      "noHistory": "sin historial",
+      "uptime": "UPTIME 24H",
+      "uptimeFailures": "{count, plural, one {# verificación falló} other {# verificaciones fallaron}}",
+      "connectionsToday": "CONEXIONES HOY",
+      "connectionsDelta": "{pct}% vs promedio",
+      "noAverage": "sin promedio aún",
+      "queueNow": "EN COLA AHORA",
+      "serverFull": "servidor lleno",
+      "capacityOk": "capacidad ok"
+    },
+    "chart": {
+      "series": "Conexiones",
+      "title": "Conexiones en las últimas 24 h",
+      "subtitle": "Intentos verificados por la API, todas las claves sumadas.",
+      "live": "en vivo",
+      "empty": "Sin conexiones en las últimas 24 h",
+      "now": "ahora"
+    },
+    "keys": {
+      "title": "Estado por clave",
+      "subtitle": "Cada servidor FiveM conectado y su volumen hoy.",
+      "empty": "Aún no hay servidores. Agrega uno en Configuración.",
+      "permissive": ", permisivo",
+      "connections": "CONEXIONES",
+      "denied": "DENEGADAS",
+      "inQueue": "EN COLA",
+      "uptime": "UPTIME"
+    },
+    "queue": {
+      "title": "Cola en vivo",
+      "subtitle": "Jugadores esperando entrar en los últimos 15 minutos, ordenados por peso.",
+      "empty": "No hay nadie en la cola ahora.",
+      "noLink": "sin vínculo",
+      "noLicense": "sin license",
+      "waiting": "esperando hace {duration}"
+    },
+    "recent": {
+      "title": "Últimas conexiones",
+      "subtitle": "Eventos de verificación más recientes.",
+      "empty": "Aún no hay conexiones registradas.",
+      "unknown": "desconocido"
+    }
+  },
+  "links": {
+    "loadError": "No se pudieron cargar los vínculos.",
+    "unlinkTitle": "¿Desvincular jugador?",
+    "unlinkDescription": "Quita el vínculo de {who} (license …{license}). Tendrá que vincularse de nuevo para entrar al servidor.",
+    "unlink": "Desvincular",
+    "removed": "Vínculo eliminado.",
+    "unlinkError": "No se pudo desvincular.",
+    "title": "Vínculos ({count})",
+    "subtitle": "Cuentas Discord ↔ FiveM vinculadas. Desvincular obliga al jugador a vincularse de nuevo.",
+    "searchPlaceholder": "Buscar nombre, ID o license...",
+    "empty": "Aún no hay jugadores vinculados.",
+    "noResults": "No hay resultados para esta búsqueda."
+  },
+  "logSession": {
+    "opened": "Sesión abierta por {minutes} min. El servidor empieza a enviar en el próximo ciclo (hasta 1 min).",
+    "openError": "No se pudo abrir la sesión.",
+    "closed": "{count, plural, one {Sesión cerrada, # línea eliminada.} other {Sesión cerrada, # líneas eliminadas.}}",
+    "closeError": "No se pudo cerrar la sesión.",
+    "title": "Diagnóstico en vivo",
+    "remaining": "{minutes} min restantes",
+    "minutes": "{minutes} min",
+    "start": "Iniciar",
+    "stop": "Cerrar y limpiar",
+    "hint": "Activa el envío de logs del servidor por tiempo limitado. El nivel de aquí {strong}; sigue en su propio nivel. Las líneas se eliminan al cerrar y, en cualquier caso, en 24 h.",
+    "hintStrong": "no cambia la consola del dueño",
+    "loading": "cargando…",
+    "waiting": "sesión abierta, esperando que el servidor envíe (hasta 1 min para el primer lote)…",
+    "empty": "ninguna línea. Inicia una sesión para ver el log del servidor aquí."
+  },
+  "logs": {
+    "subtitle": "Errores reportados por el backend (5xx) y por Lua (vía /error). Los 50 más recientes.",
+    "loading": "Cargando logs...",
+    "empty": "Sin errores registrados. 🎉"
+  },
+  "moderation": {
+    "status": {
+      "done": "Ejecutada",
+      "failed": "Rechazada",
+      "expired": "Servidor caído",
+      "pending": "Esperando",
+      "dispatched": "En ejecución"
+    },
+    "opsLoadError": "No se pudo cargar el historial.",
+    "bansLoadError": "No se pudieron cargar los bans.",
+    "aceLoadError": "No se pudieron cargar los grupos del servidor.",
+    "staffSaved": "Canal del chat del equipo guardado.",
+    "staffSaveError": "No se pudo guardar el canal.",
+    "nickSaved": "Configuración de apodo guardada.",
+    "nickSaveError": "No se pudo guardar. Comprueba que el patrón sea una regex válida.",
+    "aceInvalid": "\"{principal}\" no es un grupo válido. Usa algo como group.admin (sin espacios ni comillas).",
+    "aceSaved": "Grupos guardados.",
+    "aceSaveError": "No se pudieron guardar los grupos.",
+    "banRemoved": "Ban eliminado.",
+    "banRemoveError": "No se pudo eliminar el ban.",
+    "nick": {
+      "title": "Apodo mientras está en el juego",
+      "intro": "Renombra al miembro en Discord mientras está conectado. El texto evaluado es {input}, y los grupos del patrón se convierten en {g1}, {g2}, el mismo formato usado en Discord Admin.",
+      "inputFormat": "<id en el servidor>|<nombre en el juego>",
+      "enabled": "Activado",
+      "pattern": "Patrón",
+      "format": "Formato",
+      "resetOnLeave": "Restaurar el apodo original al salir del servidor",
+      "limitation": "El bot no puede renombrar al dueño del servidor ni a quien tenga un rol por encima del suyo; es una limitación de Discord, y en esos casos el apodo simplemente no cambia.",
+      "save": "Guardar apodo"
+    },
+    "ace": {
+      "title": "Rol de Discord → permiso en el juego",
+      "intro": "Quien tiene el rol recibe el grupo ACE mientras está en línea y lo pierde al salir. Promover a alguien en Discord pasa a valer en el servidor sin editar {file}, y el cambio se aplica al instante, sin que el jugador se reconecte.",
+      "noServers": "Aún no hay servidores FiveM. Agrega uno en Configuración.",
+      "server": "Servidor",
+      "removeMapping": "Quitar mapeo",
+      "empty": "Ningún rol mapeado.",
+      "addRole": "Agregar rol",
+      "save": "Guardar grupos"
+    },
+    "staff": {
+      "label": "Canal del chat del equipo",
+      "hint": "La conversación es la misma en ambos lados: {command} en el juego aparece aquí, y lo que se escriba aquí aparece para el equipo que está jugando. Puede usarlo quien tenga el grupo {group}; mapea un rol arriba para concederlo.",
+      "disabled": "Desactivado",
+      "save": "Guardar canal"
+    },
+    "bans": {
+      "title": "Bans activos",
+      "empty": "No hay bans activos. Usa {command} en Discord.",
+      "player": "Jugador",
+      "reason": "Motivo",
+      "until": "Hasta",
+      "permanent": "Permanente"
+    },
+    "by": "Por",
+    "ops": {
+      "title": "Últimas operaciones",
+      "empty": "Aún no hay operaciones. Usa {command} en Discord.",
+      "when": "Cuándo",
+      "operation": "Operación",
+      "result": "Resultado"
+    }
+  },
+  "resourceConfig": {
+    "fields": {
+      "strictMode": {
+        "label": "Modo estricto",
+        "hint": "Con el backend caído se rechaza la conexión en lugar de permitirla."
+      },
+      "linkPollSeconds": {
+        "label": "Intervalo de comprobación del vínculo",
+        "hint": "Cada cuánto el servidor pregunta si el jugador se vinculó."
+      },
+      "linkTimeoutMinutes": {
+        "label": "Tiempo límite del vínculo",
+        "hint": "Cuánto tiempo tiene el jugador para vincularse antes de ser desconectado."
+      },
+      "apiRetryAttempts": {
+        "label": "Reintentos ante fallo de API"
+      },
+      "apiRetryDelayMs": {
+        "label": "Espera entre reintentos (ms)"
+      },
+      "queueTickSeconds": {
+        "label": "Intervalo de la cola"
+      },
+      "noRoleKickAfterSec": {
+        "label": "Espera por rol antes de desconectar",
+        "hint": "Tiempo que el jugador sin rol permanece en la tarjeta \"Esperando rol\"."
+      },
+      "noRolePollSeconds": {
+        "label": "Volver a comprobar el rol cada"
+      },
+      "cardHeartbeatSeconds": {
+        "label": "Heartbeat de la tarjeta",
+        "hint": "Redibuja la tarjeta aunque no haya cambios, para que la pantalla no vuelva a texto."
+      },
+      "cardDeferImages": {
+        "label": "Primera tarjeta sin imagen",
+        "hint": "La tarjeta se pinta al instante y el logo/banner entran en el siguiente render. Desactívalo solo si las imágenes están en un CDN rápido."
+      },
+      "cardConfigRefreshSeconds": {
+        "label": "Buscar la configuración del panel cada",
+        "hint": "También define cuánto tarda un cambio de esta pantalla en llegar al servidor."
+      },
+      "commandPollSeconds": {
+        "label": "Intervalo de los comandos"
+      },
+      "opPollSeconds": {
+        "label": "Intervalo de las ops de admin",
+        "hint": "Es la latencia entre que el staff pulsa enter en Discord y la acción ocurre."
+      },
+      "anonCommand": {
+        "label": "Comando del mensaje anónimo",
+        "hint": "Sin la barra. Renombrar vale al instante; el nombre antiguo orienta al jugador hasta el próximo reinicio."
+      },
+      "anonCooldownSeconds": {
+        "label": "Cooldown del mensaje anónimo"
+      },
+      "logLevel": {
+        "label": "Nivel de log",
+        "hint": "Aparece en la consola del servidor. En producción, \"info\"."
+      },
+      "debug": {
+        "label": "Debug (heredado)",
+        "hint": "Equivale al nivel \"debug\"."
+      }
+    },
+    "groups": {
+      "connection": "Conexión",
+      "queue": "Cola y rol",
+      "cards": "Tarjetas",
+      "commands": "Comandos y ops",
+      "diagnostics": "Diagnóstico",
+      "other": "Otros"
+    },
+    "loadError": "No se pudo cargar la configuración del resource.",
+    "saved": "Configuración enviada, el servidor la aplica en el próximo ciclo (hasta 1 min).",
+    "saveError": "No se pudo guardar.",
+    "restored": "Restaurado: el servidor vuelve a usar su propio config.lua.",
+    "restoreError": "No se pudo restaurar.",
+    "loading": "cargando configuración del resource…",
+    "title": "Configuración del resource",
+    "customized": "{count, plural, one {# personalizada} other {# personalizadas}}",
+    "restore": "Restaurar predeterminados",
+    "hint": "Prevalece sobre el {file} del servidor y se aplica {noRestart}. Campo vacío = el servidor usa el valor de su propio archivo.",
+    "hintNoRestart": "sin reiniciar el script",
+    "complexOnly": "Editable solo desde {file} por ahora.",
+    "usingFile": "usando config.lua",
+    "usingFileRange": "usando config.lua ({min} a {max})",
+    "on": "activado",
+    "off": "desactivado"
+  },
+  "placeholder": {
+    "soon": "Próximamente"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "title": "Enquetes",
+  "description": "Enquetes em {guild}.",
+  "create": "Criar enquete",
+  "navLabel": "Telas de Enquetes",
+  "loading": "Carregando enquetes...",
+  "tabs": {
+    "list": "Enquetes",
+    "overview": "Visão geral"
+  },
+  "errors": {
+    "load": "Não foi possível carregar as enquetes."
+  },
+  "close": {
+    "confirmTitle": "Encerrar enquete?",
+    "confirmDescription": "Os votos serão fechados e a mensagem no Discord mostrará o resultado final.",
+    "confirmLabel": "Encerrar",
+    "success": "Enquete encerrada.",
+    "failed": "Não consegui encerrar a enquete."
+  },
+  "repost": {
+    "success": "Enquete postada no Discord!",
+    "uncertain": "Tentei repostar, confira se o bot está online.",
+    "failed": "Não consegui repostar a enquete."
+  },
+  "delete": {
+    "confirmTitle": "Excluir enquete?",
+    "confirmDescription": "A enquete e a mensagem no Discord serão removidas. Não dá pra desfazer.",
+    "success": "Enquete excluída.",
+    "failed": "Não consegui excluir a enquete."
+  },
+  "empty": {
+    "title": "Nenhuma enquete por aqui ainda",
+    "description": "Crie uma enquete pelo painel ou use {command} no Discord.",
+    "createFirst": "Criar primeira enquete"
+  },
+  "tags": {
+    "multi": "Múltipla escolha",
+    "multiUpTo": "Múltipla, até {count}",
+    "anonymous": "Anônima",
+    "hiddenResults": "Resultado oculto",
+    "roles": "{count, plural, one {# cargo pode votar} other {# cargos podem votar}}"
+  },
+  "dashboard": {
+    "votes": "Votos",
+    "loadError": "Não foi possível carregar os números.",
+    "emptyTitle": "Sem números ainda",
+    "emptyDescription": "Os votos e as enquetes mais votadas aparecem aqui quando você criar a primeira.",
+    "totalVotes": "Votos no total",
+    "avgVotes": "Média por enquete",
+    "activeNow": "Ativas agora",
+    "closed": "Encerradas",
+    "created30": "Criadas em 30 dias",
+    "votes30": "Votos em 30 dias",
+    "top": "Mais votadas",
+    "poll": "Enquete"
+  },
+  "table": {
+    "status": {
+      "closed": "Encerrada",
+      "scheduled": "Agendada",
+      "active": "Ativa"
+    },
+    "filters": {
+      "label": "Filtrar enquetes",
+      "all": "Todas",
+      "active": "Ativas",
+      "scheduled": "Agendadas",
+      "closed": "Encerradas"
+    },
+    "search": "Buscar pergunta ou opção",
+    "refreshList": "Atualizar lista",
+    "count": "{count, plural, one {# enquete} other {# enquetes}}",
+    "noResults": {
+      "title": "Nenhuma enquete encontrada",
+      "description": "Tente outro termo ou troque o filtro.",
+      "clear": "Limpar filtros"
+    },
+    "columns": {
+      "question": "Pergunta",
+      "status": "Situação",
+      "leader": "Mais votada",
+      "votes": "Votos",
+      "created": "Criada"
+    },
+    "noVotes": "Sem votos",
+    "openInDiscord": "Abrir no Discord",
+    "facts": {
+      "createdAt": "Criada em",
+      "publishesAt": "Publica em",
+      "endedAt": "Encerrou em",
+      "endsAt": "Encerra em"
+    },
+    "actions": {
+      "repost": "Publicar de novo",
+      "edit": "Editar",
+      "duplicate": "Duplicar",
+      "duplicateHint": "Cria uma nova enquete usando esta como modelo"
+    },
+    "voters": {
+      "loadError": "Não consegui carregar quem votou.",
+      "hide": "Ocultar quem votou",
+      "show": "Ver quem votou"
+    }
+  },
+  "form": {
+    "composer": {
+      "endsAt": "⏰ Encerra",
+      "sampleVotes": "60% · 3 votos",
+      "sampleOption": "Opção",
+      "question": "Pergunta",
+      "results": "Resultados",
+      "totalVotes": "Total de votos",
+      "sampleTotal": "5 votos",
+      "sampleEndsAt": "em 2 horas"
+    },
+    "questionPlaceholderPreview": "(pergunta)",
+    "errors": {
+      "channel": "Selecione um canal.",
+      "question": "Informe a pergunta.",
+      "minOptions": "Mínimo de 2 opções com texto.",
+      "duration": "Duração inválida.",
+      "scheduleFuture": "A data de agendamento precisa ser no futuro.",
+      "save": "Não foi possível salvar a enquete."
+    },
+    "toast": {
+      "updated": "Enquete atualizada!",
+      "scheduled": "Enquete agendada! Vai ser postada no horário marcado.",
+      "posted": "Enquete criada e postada no Discord!",
+      "notPosted": "Enquete criada, mas não consegui postar no Discord. Verifique se o bot está online e tem acesso ao canal."
+    },
+    "title": {
+      "edit": "Editar enquete",
+      "duplicate": "Duplicar enquete",
+      "create": "Nova enquete"
+    },
+    "inGuild": "em {guild}",
+    "createAndPost": "Criar e postar",
+    "channel": "Canal",
+    "channelLocked": "(não dá pra mover uma enquete já postada)",
+    "refreshChannels": "Atualizar lista de canais",
+    "channelPlaceholder": "Selecionar canal",
+    "question": "Pergunta",
+    "questionPlaceholder": "Qual a sua cor favorita?",
+    "options": "Opções ({count}/{max})",
+    "pickEmoji": "Escolher emoji",
+    "clearEmoji": "Limpar emoji",
+    "optionPlaceholder": "Opção {n}",
+    "addOption": "Adicionar opção",
+    "editOptionsHint": "Editar o texto mantém os votos. Remover uma opção apaga os votos dela.",
+    "mention": {
+      "label": "Ping ao postar",
+      "none": "Nenhum",
+      "role": "Cargo específico",
+      "rolePlaceholder": "Escolha o cargo",
+      "editHint": "A mention fica visível na mensagem, mas o Discord só pinga no envio (editar a enquete não re-notifica)."
+    },
+    "duration": {
+      "editLabel": "Novo prazo a partir de agora (opcional)",
+      "label": "Duração (opcional)",
+      "placeholder": "Sem limite",
+      "minutes": "minutos",
+      "emptyHint": "Vazio = remove o prazo."
+    },
+    "schedule": {
+      "label": "Agendar postagem",
+      "description": "Posta automaticamente no horário marcado."
+    },
+    "voting": {
+      "title": "Configurações de votação",
+      "multiSelect": "Múltipla escolha",
+      "multiSelectHint": "Permite votar em mais de uma opção.",
+      "maxChoices": "Máx. de escolhas",
+      "maxChoicesPlaceholder": "sem limite",
+      "hideResults": "Esconder resultados",
+      "hideResultsHint": "Esconde a contagem até a enquete encerrar (evita efeito manada).",
+      "anonymous": "Voto anônimo",
+      "anonymousHint": "Não revela quem votou em quê (desativa a lista de votantes).",
+      "showLabel": "Mostrar texto da opção nos botões",
+      "showLabelHint": "Padrão: botão só com emoji (mais limpo). Ative se as opções não tiverem emoji ou se preferir o texto visível.",
+      "compact": "Layout compacto",
+      "compactHint": "Esconde a barra colorida e o % na mensagem; os votos aparecem direto nos botões. Mensagem fica mais limpa.",
+      "allowedRoles": "Cargos que podem votar (opcional)",
+      "allowedRolesPlaceholder": "Adicionar cargo (vazio = todos)",
+      "weights": "Peso de voto por cargo (opcional)",
+      "weightsHint": "O voto pega o MAIOR peso entre os cargos do votante. Ex: VIP = 3 → o voto dele conta 3x.",
+      "weightsPlaceholder": "Adicionar cargo com peso",
+      "weight": "peso"
+    },
+    "preview": {
+      "label": "Pré-visualização",
+      "customize": "Personalizar mensagem",
+      "designHint": "Arraste os blocos pra montar a mensagem. Os campos (pergunta/resultados) o bot preenche ao publicar.",
+      "classicHint": "Embed clássico, ligue \"Personalizar mensagem\" pra um editor visual com imagens e layout."
+    },
+    "classic": {
+      "endsIn": "⏰ Encerra em {minutes} min",
+      "upTo": "☑️ Até {count} escolhas",
+      "multi": "☑️ Múltipla escolha",
+      "single": "1️⃣ 1 escolha permitida",
+      "anonymous": "🕶️ Voto anônimo",
+      "options": "Opções",
+      "hidden": "🔒 Resultados ocultos até o encerramento.",
+      "settings": "Configurações",
+      "resultHidden": "resultado oculto",
+      "votes": "{count, plural, one {# voto} other {# votos}}",
+      "footerCompact": "prévia · contagens aparecem nos botões com os votos reais",
+      "footerBar": "prévia · números são exemplo, a barra cresce com os votos reais",
+      "footerEndsIn": " · encerra em {minutes} min"
+    }
+  }
+}

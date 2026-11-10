@@ -1,0 +1,71 @@
+{
+  "subtitle": "Lo que pasó y lo que necesita de ti hoy.",
+  "quick": {
+    "messages": "Enviar anuncio",
+    "giveaways": "Crear sorteo",
+    "store": "Ver tienda"
+  },
+  "openInDiscord": "Abrir en Discord",
+  "setup": {
+    "title": "Termina de configurar",
+    "progress": "{done} de {total}",
+    "botInstalled": "Agregar el bot al servidor",
+    "canManage": "Tener permiso para administrar el servidor",
+    "module": "Activar al menos un módulo",
+    "configured": "Guardar la configuración",
+    "done": "Hecho",
+    "pending": "Pendiente"
+  },
+  "loading": "Cargando los números del servidor...",
+  "loadError": "No se pudieron cargar los números ahora.",
+  "metrics": {
+    "summary": "Resumen del servidor",
+    "members": "Miembros",
+    "memberFlow": "{joined} entraron y {left} salieron en 7 días",
+    "inServer": "en el servidor",
+    "online": "En línea ahora",
+    "onlinePercent": "{percent}% de los miembros",
+    "noData": "Sin datos por ahora",
+    "tickets": "Tickets abiertos",
+    "ticketsNewToday": "{count, plural, one {# nuevo hoy} other {# nuevos hoy}}",
+    "ticketsNoneToday": "Ninguno nuevo hoy",
+    "ticketsInactive": "Activa Tickets para ver las atenciones",
+    "activity": "Actividad hoy",
+    "activityHint": "acciones en los módulos"
+  },
+  "queue": {
+    "allClear": "Todo al día.",
+    "allClearHint": "Nada pendiente por ahora.",
+    "title": "Necesita de ti",
+    "kinds": {
+      "unclaimedTickets": "{count, plural, one {ticket esperando atención} other {tickets esperando atención}}",
+      "failedDeliveries": "{count, plural, one {entrega en el juego falló} other {entregas en el juego fallaron}}",
+      "pastDueSubs": "{count, plural, one {suscripción con pago atrasado} other {suscripciones con pago atrasado}}",
+      "endingGiveaways": "{count, plural, one {sorteo que termina en 24 h} other {sorteos que terminan en 24 h}}",
+      "scheduledMessagesToday": "{count, plural, one {anuncio programado para hoy} other {anuncios programados para hoy}}",
+      "manualDeliveries": "{count, plural, one {venta esperando entrega manual} other {ventas esperando entrega manual}}",
+      "blockedWhitelistRole": "rol de la whitelist que el bot no puede asignar: sube el rol {botRole} en Ajustes del servidor > Roles",
+      "blockedSelectorRoles": "{count, plural, one {rol de selector} other {roles de selectores}} que el bot no puede asignar: sube el rol {botRole} en Ajustes del servidor > Roles",
+      "blockedAutoroleRoles": "{count, plural, one {rol automático} other {roles automáticos}} que el bot no puede asignar: sube el rol {botRole} en Ajustes del servidor > Roles",
+      "blockedRewardRoles": "{count, plural, one {rol de recompensa} other {roles de recompensa}} que el bot no puede asignar: sube el rol {botRole} en Ajustes del servidor > Roles"
+    }
+  },
+  "week": {
+    "title": "Actividad de la semana",
+    "hint": "Tickets, encuestas, sorteos y otras acciones en los módulos.",
+    "empty": "No se registraron acciones en los últimos 7 días.",
+    "series": "Acciones"
+  },
+  "topMembers": {
+    "title": "Miembros más activos",
+    "member": "Miembro",
+    "level": "Nivel {level}",
+    "voiceHours": "{hours} h de voz",
+    "voiceMinutes": "{minutes} min de voz"
+  },
+  "recent": {
+    "title": "Actividad reciente",
+    "seeAll": "Ver todo",
+    "empty": "Nada por aquí todavía. Lo que pase en los módulos aparece en esta lista."
+  }
+}

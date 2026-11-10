@@ -18,8 +18,18 @@ languages.json   idiomas e os locales do Discord de cada um
 GLOSSARY.md      termos que não se traduzem e termos fixos
 ```
 
-Cada pasta tem um arquivo por parte do bot (`panel.json`, `bot.json`, `commands.json`,
-`tickets.json`, …). As chaves são as mesmas em todos os idiomas.
+Cada pasta tem um arquivo por área, com o mesmo nome nos três idiomas. O prefixo diz onde o texto aparece:
+
+| Prefixo | Onde aparece |
+|---|---|
+| `panel-*.json` | painel web (bot.mriqbox.com.br) e loja pública |
+| `api.json` | mensagens de erro (painel e bot) |
+| `bot-*.json` | o que o bot escreve no Discord |
+| `bot-commands.json` | nome e descrição dos comandos de barra (regra do Discord: minúsculas, sem espaço, até 32 caracteres) |
+| `srv-*.json` | mensagens que o servidor manda pro Discord, e-mails e arquivos gerados |
+| `pkg-*.json` | textos dos módulos (Discord Admin, Comunidade, tickets, sorteios, whitelist) |
+
+As chaves são as mesmas em todos os idiomas.
 
 ## Contribuir
 

@@ -1,0 +1,100 @@
+{
+  "anon": {
+    "disclosure": "Your message is anonymous to other members. The server team can see who sent it, only in case of abuse."
+  },
+  "suggestions": {
+    "status": {
+      "PENDING": "Voting",
+      "UNDER_REVIEW": "Under review",
+      "APPROVED": "Approved",
+      "REJECTED": "Rejected",
+      "IMPLEMENTED": "Implemented",
+      "DUPLICATE": "Duplicate"
+    },
+    "field": {
+      "status": "Status",
+      "author": "Author",
+      "votes": "Votes",
+      "rejectReason": "Rejection reason",
+      "teamNote": "Team note",
+      "duplicates": "Duplicates"
+    },
+    "anonymousAuthor": "*Anonymous*",
+    "votesValue": "👍 {up} · 👎 {down} · balance {score}",
+    "manage": "Manage",
+    "viewOriginal": "View original {number}",
+    "category": "Category: {category}",
+    "dm": {
+      "approved": "Hi '{membro}'! Your suggestion **#'{numero}' · '{titulo}'** was **approved** — thanks for helping improve the server. We will let you know as soon as it is live.",
+      "implemented": "Hi '{membro}'! Your suggestion **#'{numero}' · '{titulo}'** was **implemented** and is already live. Thanks for the idea!"
+    }
+  },
+  "bugs": {
+    "severity": {
+      "LOW": "Low",
+      "MEDIUM": "Medium",
+      "HIGH": "High",
+      "CRITICAL": "Critical"
+    },
+    "state": {
+      "NEW": "Open",
+      "UNDER_REVIEW": "Under review",
+      "NEEDS_INFO": "Needs info",
+      "CONFIRMED": "Confirmed",
+      "DUPLICATE": "Duplicate",
+      "FIXED": "Fixed",
+      "NOT_A_BUG": "Dismissed"
+    },
+    "field": {
+      "state": "State",
+      "severity": "Severity",
+      "assignee": "Assignee",
+      "resolution": "Resolution",
+      "duplicateOf": "Duplicate of",
+      "gameContext": "In-game context"
+    },
+    "triage": "Triage",
+    "reportedBy": "Reported by <@{userId}>",
+    "category": "Category: {category}",
+    "theTeam": "the team",
+    "dm": {
+      "state": "Hi '{membro}'! Your report **#'{numero}' · '{titulo}'** is now: **'{estado}'**.'{nota}'",
+      "assignee": "Hi '{membro}'! Your report **#'{numero}' · '{titulo}'** was assigned to '{responsavel}' — from now on they are taking care of it.",
+      "unassigned": "Hi '{membro}'! Your report **#'{numero}' · '{titulo}'** went back to the team queue, with no assignee for now."
+    },
+    "form": {
+      "descricao": {
+        "label": "What happened?",
+        "placeholder": "Describe the problem you found"
+      },
+      "reproducao": {
+        "label": "How to reproduce?",
+        "placeholder": "1) I went to... 2) I clicked... 3) It happened..."
+      },
+      "esperado": {
+        "label": "What should have happened?",
+        "placeholder": "The behavior you expected"
+      }
+    }
+  },
+  "staff": {
+    "state": {
+      "SUBMITTED": "Received",
+      "UNDER_REVIEW": "Under review",
+      "APPROVED": "Approved",
+      "REJECTED": "Rejected",
+      "WITHDRAWN": "Withdrew"
+    },
+    "applied": "{applicant} applied for **{posting}**.",
+    "readFull": "Read full answers",
+    "openPanel": "Open in dashboard",
+    "title": "📋 Application #{number}",
+    "footerCut": "Answers cut by the Discord limit — the dashboard has the full text.",
+    "footerDecide": "Deciding here notifies the applicant by DM.",
+    "dm": {
+      "UNDER_REVIEW": "Hi '{membro}'! Your application for **'{vaga}'** is under review. We will get back to you here as soon as we have an answer.",
+      "APPROVED": "Hi '{membro}'! Good news: you were approved for **'{vaga}'**. Welcome to the team — reach out to us to arrange the next steps.",
+      "REJECTED": "Hi '{membro}', thank you for applying for **'{vaga}'**. This time we did not move forward with your application, but the door is not closed: keep an eye out for the next openings."
+    }
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "guildOnly": "Use this button inside a server.",
+  "invalidChannel": "Invalid channel.",
+  "notATicket": "This channel isn't a ticket.",
+  "wrongTicket": "Invalid ticket for this channel.",
+  "alreadyClosed": "Ticket already closed.",
+  "ticketNotFound": "Couldn't find this channel's ticket.",
+  "invalidUser": "Invalid user.",
+  "invalidType": "Invalid ticket type. Try again.",
+  "cancel": "Cancel",
+  "blacklisted": "You're blocked from opening tickets.",
+  "blacklistedReason": "You're blocked from opening tickets: {reason}",
+  "formAnswers": "📋 Form answers",
+  "outOfHours": "⏰ Outside support hours",
+  "transcriptSaved": "📄 Transcript saved: {url}",
+  "moduleInactive": {
+    "title": "Tickets module inactive",
+    "body": "The \"Tickets\" module must be active on this server."
+  },
+  "priority": {
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low",
+    "none": "None",
+    "staffOnly": "Only staff can set the priority.",
+    "placeholder": "Choose the priority",
+    "failed": "Couldn't change the priority. Try again.",
+    "updatedTitle": "Priority updated",
+    "updatedBody": "Priority set to **{label}**."
+  },
+  "panel": {
+    "title": "🎫 Ticket opened",
+    "footer": "ID: {id}",
+    "type": "Type",
+    "openedBy": "Opened by",
+    "claimedBy": "Claimed by",
+    "priority": "Priority"
+  },
+  "buttons": {
+    "claim": "🙋 Claim",
+    "claimed": "🙋 Claimed",
+    "add": "👥 Add",
+    "remove": "👥 Remove",
+    "rename": "✏️ Rename",
+    "close": "🔒 Close",
+    "priority": "⚡ Priority",
+    "transfer": "🔄 Transfer",
+    "nudge": "👋 Get attention",
+    "reopen": "🔓 Reopen",
+    "deleteChannel": "🗑️ Delete channel"
+  },
+  "audit": {
+    "registerFailed": "Failed to register the ticket in the backend",
+    "closed": "Ticket {id} closed",
+    "reopened": "Ticket {id} reopened",
+    "deletedByStaff": "Ticket deleted by staff"
+  },
+  "command": {
+    "guildOnly": "Use this command inside a server.",
+    "textChannelOnly": "Use this command in a text channel.",
+    "menuNoPermission": "You don't have permission to open the tickets menu.",
+    "menuTitle": "🎫 Tickets Menu",
+    "menuIntro": "Use the buttons below to manage the module.",
+    "menuPostMany": "• **Post panel**: you have {count, plural, one {# panel} other {# panels}} set up. Choose which one to post in this channel.",
+    "menuPostOne": "• **Post panel** posts the opening panel in this channel.",
+    "menuOpenTickets": "• Open tickets have their own buttons for **Claim**, **Add**, **Close**, etc.",
+    "menuSettings": "• Settings and ticket types are managed in the web dashboard.",
+    "postHere": "Post panel here",
+    "postNoPermission": "You don't have permission to post the panel on this server.",
+    "postFailed": "Couldn't post the panel. Check the bot's permissions.",
+    "postedTitle": "Panel posted",
+    "postedBody": "The tickets panel was posted in this channel."
+  },
+  "canned": {
+    "ticketChannelOnly": "Use this inside the ticket channel.",
+    "staffOnly": "Only staff can use canned responses.",
+    "notFound": "Canned response not found.",
+    "sent": "Response sent"
+  },
+  "open": {
+    "modalTitle": "Open ticket",
+    "subjectLabel": "What is your ticket about?",
+    "subjectPlaceholder": "E.g.: I couldn't join the FiveM server",
+    "cannotTitle": "Couldn't open the ticket",
+    "cannotDefault": "You can't open a ticket right now.",
+    "failed": "Couldn't open the ticket. Check the bot's permissions and try again.",
+    "successTitle": "Ticket opened",
+    "successBody": "See it in {channel}."
+  },
+  "close": {
+    "confirmButton": "Close",
+    "confirmTitle": "Confirm closing",
+    "confirmBody": "Are you sure you want to close this ticket?",
+    "forbidden": "Only the ticket creator or members with the Manage Channels permission can close it.",
+    "invalidChannel": "Invalid channel to close the ticket.",
+    "failed": "Couldn't close the ticket on the server. Try again.",
+    "doneTitle": "Ticket closed"
+  },
+  "closed": {
+    "title": "🔒 Ticket closed",
+    "by": "Closed by {user}",
+    "byAndClaimed": "Closed by {user}\nClaimed by {claimer}",
+    "generic": "This ticket has been closed."
+  },
+  "cancelled": {
+    "title": "Cancelled",
+    "body": "You cancelled the closing."
+  },
+  "reopen": {
+    "forbidden": "Only members with the Manage Channels permission can reopen tickets.",
+    "failed": "Couldn't reopen the ticket on the server. Try again.",
+    "title": "🔓 Ticket reopened",
+    "by": "Reopened by {user}"
+  },
+  "deleteChannel": {
+    "forbidden": "Only members with the Manage Channels permission can delete it.",
+    "confirm": "Delete channel",
+    "title": "Delete the ticket channel?",
+    "body": "I'll delete this channel from Discord. **The history (transcript) stays saved** and is still available at the URL above. This can't be undone.",
+    "noPermission": "No permission to delete the channel.",
+    "deletingTitle": "Deleting…",
+    "deletingBody": "The channel will be removed in a few seconds."
+  },
+  "transfer": {
+    "staffOnly": "Only staff can transfer tickets.",
+    "placeholder": "Transfer the ticket to…",
+    "memberNotFound": "Couldn't find that user on the server.",
+    "notStaffTitle": "Target isn't staff",
+    "notStaffBody": "You can only transfer the ticket to someone with the staff role or the Manage Channels permission.",
+    "failed": "Couldn't transfer the ticket. Try again.",
+    "doneTitle": "Ticket transferred",
+    "doneBody": "Ticket transferred to {user}.",
+    "announced": "🔄 {actor} transferred this ticket to {user}."
+  },
+  "claim": {
+    "staffOnly": "Only staff can claim tickets.",
+    "already": "You already claimed this ticket.",
+    "failed": "Couldn't claim this ticket. Try again.",
+    "claimedBy": "🙋 {user} claimed this ticket.",
+    "announced": "🙋 {user} took over this ticket."
+  },
+  "nudge": {
+    "dmTitle": "👋 Someone is calling you",
+    "dmBody": "{user} is calling for your attention in ticket **{ticket}** on **{guild}**.\n\n[Go to the ticket]({url})",
+    "forbidden": "Only the ticket creator and the team can call for attention here.",
+    "failed": "Couldn't send the nudge right now. Try again.",
+    "channelPing": "👋 {target}, {actor} is calling you in this ticket.",
+    "channelTitle": "Nudge sent in the channel",
+    "channelBody": "Couldn't DM {user} (DMs closed), so I mentioned them here instead.",
+    "sentTitle": "Nudge sent",
+    "sentBody": "I notified {user} by DM.",
+    "sentBodyCooldown": "I notified {user} by DM. Next nudge from this side in {minutes} min.",
+    "deny": {
+      "cooldown": "Someone already called for attention in this ticket a moment ago. Try again in {wait}.",
+      "disabledMember": "This server turned off nudges from the ticket creator.",
+      "disabledStaff": "This server turned off nudges from the team.",
+      "noTargetMember": "Nobody has taken this ticket yet — there's no one to call.",
+      "noTargetStaff": "Couldn't find anyone to call in this ticket.",
+      "self": "You're the one who would receive the nudge.",
+      "default": "Couldn't send the nudge right now."
+    }
+  },
+  "wait": {
+    "minutes": "{count} min",
+    "seconds": "{count} s"
+  },
+  "addUser": {
+    "forbidden": "Only the ticket creator or staff can add users.",
+    "placeholder": "Choose who to add",
+    "failed": "Couldn't add the user to the channel.",
+    "doneTitle": "User added",
+    "doneBody": "{user} now has access to this ticket.",
+    "announced": "➕ {user} was added by {actor}."
+  },
+  "removeUser": {
+    "staffOnly": "Only staff can remove users from the ticket.",
+    "placeholder": "Choose who to remove",
+    "opener": "You can't remove the ticket creator.",
+    "doneTitle": "User removed",
+    "doneBody": "{user} no longer has access to this ticket.",
+    "announced": "➖ {user} was removed by {actor}."
+  },
+  "rename": {
+    "staffOnly": "Only staff can rename the ticket.",
+    "modalTitle": "Rename ticket",
+    "label": "New channel name",
+    "placeholder": "e.g.: ticket-priority-rafael",
+    "invalid": "Invalid name after sanitizing.",
+    "failed": "Couldn't rename the channel. Check permissions.",
+    "doneTitle": "Channel renamed",
+    "doneBody": "New name: `{name}`.",
+    "announced": "✏️ Channel renamed by {user} to `{name}`."
+  },
+  "rating": {
+    "title": "⭐ How was your support?",
+    "attendedBy": "Handled by {user}",
+    "body": "Your ticket **{ticket}** ({subject}){type} was closed. Your feedback helps the team improve — choose from 1 to 5 stars:",
+    "lastStaffMessages": "💬 Before closing, the team said:",
+    "fullHistory": "📄 View full history",
+    "invalid": "Invalid rating.",
+    "failed": "Couldn't record your rating. Try again.",
+    "placeholderRequired": "Tell us what could have been better (required for a low rating)",
+    "placeholderOptional": "Optional: describe the support in a few words",
+    "labelLow": "What could have been better?",
+    "labelOptional": "Comment (optional)",
+    "modalTitle": "Rating {rating}⭐",
+    "thanksTitle": "Thanks for the feedback!",
+    "thanksBody": "Your {rating}⭐ rating was recorded.",
+    "thanksBodyComment": "Your {rating}⭐ rating was recorded with your comment.",
+    "thanksShort": "Thanks!"
+  },
+  "log": {
+    "title": "📄 Ticket #{number} closed",
+    "openedBy": "Opened by",
+    "attendedBy": "Handled by",
+    "nobodyClaimed": "Nobody took it",
+    "closedBy": "Closed by",
+    "autoClose": "Automatic close",
+    "type": "Type",
+    "noType": "No type",
+    "duration": "Duration",
+    "noRecord": "No record",
+    "history": "View history"
+  },
+  "duration": {
+    "minutes": "{minutes} min",
+    "hoursMinutes": "{hours} h {minutes} min",
+    "days": "{days} days"
+  }
+}

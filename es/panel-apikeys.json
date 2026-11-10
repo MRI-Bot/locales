@@ -1,0 +1,375 @@
+{
+  "activity": {
+    "areas": {
+      "discordSetup": "Montar el Discord",
+      "discordAdmin": "Discord Admin",
+      "community": "Comunidad",
+      "tickets": "Tickets",
+      "giveaways": "Sorteos",
+      "polls": "Encuestas",
+      "messages": "Mensajes",
+      "gamification": "Gamificación",
+      "social": "Alertas de redes",
+      "boost": "Boost",
+      "whitelist": "Whitelist",
+      "aiHelper": "Asistente IA",
+      "planning": "Planificación",
+      "voice": "Voz",
+      "store": "Tienda",
+      "subscriptionPlans": "Suscripciones",
+      "projects": "Proyectos",
+      "media": "Multimedia"
+    },
+    "verbs": {
+      "post": "Creó o ejecutó",
+      "put": "Modificó",
+      "delete": "Eliminó"
+    },
+    "verbIn": "{verb} en",
+    "outcome": {
+      "success": "Hecho",
+      "denied": "Denegado",
+      "error": "Error"
+    },
+    "loadError": "No se pudo cargar la actividad.",
+    "title": "Actividad de las claves",
+    "description": "Lo que cada clave cambió en el servidor en los últimos 6 meses. El tráfico del servidor de juego (FiveM, MTA) no se incluye.",
+    "filter": "Filtrar por clave",
+    "allKeys": "Todas las claves",
+    "empty": "Todavía no hay cambios hechos por una clave.",
+    "deletedKey": "Clave eliminada",
+    "loading": "Cargando...",
+    "loadMore": "Cargar más"
+  },
+  "header": {
+    "title": "Claves de API",
+    "description": "Claves de {guild}. Usa claves para servidores FiveM, integraciones y para que una IA configure este servidor."
+  },
+  "supportAccess": "Acceso para soporte",
+  "createNew": "Crear nueva clave",
+  "loadError": "No se pudieron cargar las claves.",
+  "loadingKeys": "Cargando claves...",
+  "empty": "Aún no hay claves creadas. Haz clic en \"Crear nueva clave\" para empezar.",
+  "supportDefaultName": "Soporte MRI",
+  "errors": {
+    "nameLength": "El nombre debe tener entre 2 y 50 caracteres.",
+    "noScope": "Selecciona al menos un alcance para la clave.",
+    "create": "No se pudo crear la clave.",
+    "copyManual": "No se pudo copiar. Selecciónala manualmente.",
+    "revoke": "No se pudo revocar.",
+    "saveScopes": "No se pudieron guardar los permisos.",
+    "delete": "No se pudo eliminar.",
+    "reveal": "No se pudo revelar la clave.",
+    "copy": "No se pudo copiar."
+  },
+  "toast": {
+    "revoked": "Clave revocada",
+    "scopesSaved": "Permisos guardados",
+    "deleted": "Clave eliminada"
+  },
+  "created": {
+    "title": "Clave creada correctamente",
+    "saveNow": "⚠️ Guarda esta clave ahora.",
+    "revealLater": "Puedes revelarla de nuevo más tarde con el botón \"Revelar\" en la tarjeta de la clave.",
+    "prefixName": "Prefijo: {prefix} · Nombre: {name}",
+    "aiHint": "¿La vas a usar con IA? Cópiala ya con esta clave: la dirección del conector (ChatGPT o Claude) o las instrucciones (IA en la terminal).",
+    "connectorUrl": "Dirección del conector",
+    "aiInstructions": "Instrucciones para la IA"
+  },
+  "copied": "Copiado",
+  "copy": "Copiar",
+  "create": {
+    "title": "Crear nueva clave de API",
+    "supportDescription": "Viene con 7 días y los permisos de configuración de los módulos activados, sin ventas, suscriptores ni publicar la tienda. Revisa, crea y envía la clave al equipo. Revócala cuando termine la atención.",
+    "description": "Dale un nombre descriptivo para identificar dónde se usará la clave.",
+    "name": "Nombre",
+    "namePlaceholder": "Servidor FiveM principal",
+    "nameHint": "Entre 2 y 50 caracteres.",
+    "expiry": "Validez",
+    "submit": "Crear"
+  },
+  "expiry": {
+    "none": "Sin caducidad",
+    "days": "{count, plural, one {# día} other {# días}}"
+  },
+  "editScopes": {
+    "title": "Permisos de la clave",
+    "description": "Lo que la clave {name} puede hacer. Se aplica en el próximo uso de la clave, sin cambiarla."
+  },
+  "deleteDialog": {
+    "title": "¿Eliminar clave?",
+    "description": "¿Eliminar la clave {name}? Las aplicaciones que usan esta clave dejan de funcionar de inmediato. Esta acción no se puede deshacer."
+  },
+  "picker": {
+    "label": "Alcances de acceso",
+    "count": "({selected} de {total})",
+    "selectAll": "Seleccionar todo",
+    "clear": "Limpiar",
+    "groupOff": "Desmarcar grupo",
+    "groupOn": "Marcar grupo"
+  },
+  "status": {
+    "revoked": "Revocada",
+    "expired": "Caducada",
+    "expiresIn": "{count, plural, one {Caduca en # día} other {Caduca en # días}}",
+    "active": "Activa"
+  },
+  "card": {
+    "prefix": "Prefijo: {prefix}",
+    "createdBy": "Creada el {date} por {user}",
+    "lastUsed": "Último uso: {date}",
+    "neverUsed": "Nunca usada",
+    "expiresAt": "Caduca el {date}",
+    "hide": "Ocultar",
+    "reveal": "Revelar",
+    "permissions": "Permisos",
+    "revoke": "Revocar",
+    "delete": "Eliminar"
+  },
+  "scopes": {
+    "fivem": {
+      "label": "FiveM",
+      "description": "Permite verificar roles en el servidor FiveM"
+    },
+    "fivem_config_read": {
+      "label": "FiveM: ver configuración",
+      "description": "Permite leer la configuración del módulo. No le des este permiso a la clave que va en el server.cfg."
+    },
+    "fivem_config_write": {
+      "label": "FiveM: cambiar configuración",
+      "description": "Permite cambiar vínculo, entrada, apodo, acciones por rol, permisos ACE y paneles de estado. Puede dar poder de admin en el juego. No se lo des a la clave que va en el server.cfg."
+    },
+    "mta": {
+      "label": "MTA",
+      "description": "Permite vincular y verificar roles en el servidor MTA"
+    },
+    "mta_config_read": {
+      "label": "MTA: ver configuración",
+      "description": "Permite leer la configuración del módulo. La contraseña del servidor nunca se muestra. No se lo des a la clave del servidor de juego."
+    },
+    "mta_config_write": {
+      "label": "MTA: cambiar configuración",
+      "description": "Permite cambiar vínculo, entrada y paneles de estado. La dirección y la contraseña del servidor quedan solo en el panel. No se lo des a la clave del servidor de juego."
+    },
+    "media_write": {
+      "label": "Multimedia: subir",
+      "description": "Permite subir y eliminar archivos. Es el alcance del resource del servidor de juego."
+    },
+    "media_read": {
+      "label": "Multimedia: listar",
+      "description": "Permite listar el acervo y ver el consumo. No le des esto a la clave del servidor de juego."
+    },
+    "projects": {
+      "label": "Proyectos",
+      "description": "Habilita la API de tableros y tareas: leer, crear, editar, mover y eliminar."
+    },
+    "storefront_read": {
+      "label": "Tienda: leer",
+      "description": "Permite leer la tienda, el borrador, el historial de versiones y qué medios de pago están activos."
+    },
+    "storefront_write": {
+      "label": "Tienda: editar borrador",
+      "description": "Permite editar y descartar el borrador. Nada se publica sin publicar."
+    },
+    "storefront_publish": {
+      "label": "Tienda: publicar",
+      "description": "Permite publicar el borrador, restaurar versiones antiguas y modificar la página visible. El cambio se publica al instante."
+    },
+    "storefront_settings": {
+      "label": "Tienda: ajustes",
+      "description": "Permite cambiar la dirección de la tienda, activarla o desactivarla, el canal de ventas y el dominio propio. Se aplica al instante."
+    },
+    "products_read": {
+      "label": "Productos: leer",
+      "description": "Permite leer productos y categorías. De la entrega solo aparece el tipo (rol, archivo, comando), sin los detalles."
+    },
+    "products_write": {
+      "label": "Productos: editar",
+      "description": "Permite crear, editar, reordenar y archivar productos y categorías. Se aplica al instante; la entrega solo se puede copiar de otro producto y se edita en el panel."
+    },
+    "coupons_read": {
+      "label": "Cupones: leer",
+      "description": "Permite leer los cupones de descuento."
+    },
+    "coupons_write": {
+      "label": "Cupones: editar",
+      "description": "Permite crear, editar y eliminar cupones de descuento. Se aplica al instante."
+    },
+    "sales_read": {
+      "label": "Ventas: leer",
+      "description": "Permite leer las ventas de la tienda, con comprador y transacción. El reembolso y la reentrega quedan solo en el panel."
+    },
+    "plans_read": {
+      "label": "Planes: leer",
+      "description": "Permite leer los planes de suscripción tal como aparecen en la tienda (sin las acciones del plan)."
+    },
+    "plans_write": {
+      "label": "Planes: editar",
+      "description": "Permite cambiar nombre, beneficios, imágenes, orden, visibilidad, precio, descuento, paquetes y donación de los planes. Se aplica al instante; las acciones del plan (rol, comando) quedan solo en el panel."
+    },
+    "subscribers_read": {
+      "label": "Suscriptores: leer",
+      "description": "Permite leer los suscriptores, con email, cobros y compras. Cancelar y reembolsar quedan solo en el panel."
+    },
+    "selectors_read": {
+      "label": "Selector de roles: leer",
+      "description": "Permite leer los paneles de roles y las opciones de cada uno."
+    },
+    "selectors_write": {
+      "label": "Selector de roles: editar",
+      "description": "Permite crear, editar, eliminar, publicar y quitar del canal los paneles de roles. Se aplica al instante. El panel puede ofrecer cualquier rol por debajo del bot, incluso uno de administrador."
+    },
+    "admin_read": {
+      "label": "Discord Admin: leer",
+      "description": "Permite leer bienvenida, roles automáticos, logs de canal, apodo sincronizado y ajustes de moderación."
+    },
+    "admin_write": {
+      "label": "Discord Admin: editar",
+      "description": "Permite cambiar bienvenida, roles automáticos, logs de canal, apodo sincronizado y ajustes de moderación. El rol automático puede ser cualquiera por debajo del bot, incluso de administrador. Banear, expulsar, silenciar y el modo raid quedan solo en el panel."
+    },
+    "member_counter_read": {
+      "label": "Contador de miembros: leer",
+      "description": "Permite leer la configuración y los números del contador de miembros."
+    },
+    "member_counter_write": {
+      "label": "Contador de miembros: editar",
+      "description": "Permite cambiar el contador y publicar su mensaje en el canal."
+    },
+    "community_read": {
+      "label": "Comunidad: leer",
+      "description": "Permite leer la configuración de sugerencias, bugs, mensaje anónimo y formulario de staff, y las vacantes del formulario."
+    },
+    "community_write": {
+      "label": "Comunidad: editar",
+      "description": "Permite cambiar la configuración de sugerencias, bugs, mensaje anónimo y formulario de staff, crear y eliminar vacantes y publicar los paneles. Se aplica al instante; decidir sugerencias, clasificar bugs y leer postulaciones quedan solo en el panel."
+    },
+    "referrals_read": {
+      "label": "Referidos: leer",
+      "description": "Permite leer los ajustes y los hitos de los referidos. Quién invitó a quién queda solo en el panel."
+    },
+    "referrals_write": {
+      "label": "Referidos: editar",
+      "description": "Permite cambiar los ajustes y los hitos. Asignar invitaciones, recalcular y reiniciar la temporada quedan solo en el panel."
+    },
+    "tickets_read": {
+      "label": "Tickets: leer",
+      "description": "Permite leer la configuración de tickets (tipos, paneles, horario, respuestas rápidas) y los números."
+    },
+    "tickets_write": {
+      "label": "Tickets: editar",
+      "description": "Permite cambiar la configuración de tickets y publicar el panel. Se aplica al instante; las conversaciones, cerrar tickets y la lista de bloqueados quedan solo en el panel."
+    },
+    "giveaways_read": {
+      "label": "Sorteos: leer",
+      "description": "Permite leer los sorteos, los ajustes, las plantillas y los números de cada sorteo."
+    },
+    "giveaways_write": {
+      "label": "Sorteos: editar",
+      "description": "Permite crear, editar, finalizar, cancelar y volver a sortear, y cambiar ajustes y plantillas. Se aplica al instante; quién participó y eliminar definitivamente quedan solo en el panel."
+    },
+    "polls_read": {
+      "label": "Encuestas: leer",
+      "description": "Permite leer las encuestas y los resultados."
+    },
+    "polls_write": {
+      "label": "Encuestas: editar",
+      "description": "Permite crear, editar, finalizar y volver a publicar encuestas. Se aplica al instante; quién votó y eliminar definitivamente quedan solo en el panel."
+    },
+    "messages_read": {
+      "label": "Mensajes: leer",
+      "description": "Permite leer los mensajes del bot (enviados, programados, recurrentes y borradores) y las plantillas."
+    },
+    "messages_write": {
+      "label": "Mensajes: editar",
+      "description": "Permite enviar, programar, editar y cancelar mensajes del bot y modificar las plantillas. Se aplica al instante; eliminar mensajes queda solo en el panel."
+    },
+    "gamification_read": {
+      "label": "Gamificación: leer",
+      "description": "Permite leer los ajustes de XP, los roles por nivel y los multiplicadores."
+    },
+    "gamification_write": {
+      "label": "Gamificación: editar",
+      "description": "Permite cambiar los ajustes de XP, los roles por nivel y los multiplicadores. Modificar el XP de un miembro y reiniciar el XP quedan solo en el panel."
+    },
+    "social_read": {
+      "label": "Alertas de redes: leer",
+      "description": "Permite leer qué creadores se anuncian y en qué canal."
+    },
+    "social_write": {
+      "label": "Alertas de redes: editar",
+      "description": "Permite añadir, cambiar y quitar creadores y enviar una alerta de prueba al canal."
+    },
+    "boost_read": {
+      "label": "Boost: leer",
+      "description": "Permite leer los ajustes del boost y las recompensas."
+    },
+    "boost_write": {
+      "label": "Boost: editar",
+      "description": "Permite cambiar los ajustes del boost. Las recompensas tienen su propio permiso."
+    },
+    "boost_rewards_write": {
+      "label": "Boost: recompensas",
+      "description": "Permite crear, cambiar y quitar recompensas. Quitar una recompensa retira lo que otorgó, en el juego y en la tienda. Aplicarla a quienes ya hacían boost queda solo en el panel."
+    },
+    "whitelist_read": {
+      "label": "Whitelist: leer",
+      "description": "Permite leer el formulario de la whitelist, las respuestas correctas y los ajustes."
+    },
+    "whitelist_write": {
+      "label": "Whitelist: editar",
+      "description": "Permite cambiar el formulario, las respuestas correctas, los canales y el rol de aprobado, que puede ser cualquiera por debajo del bot, incluso de administrador. Se aplica al instante; ver solicitudes, aprobar y rechazar quedan solo en el panel. Los códigos de acceso tienen su propio permiso."
+    },
+    "whitelist_codes_read": {
+      "label": "Whitelist: ver códigos",
+      "description": "Permite leer los códigos de acceso. Quién canjeó cada uno queda solo en el panel."
+    },
+    "whitelist_codes_write": {
+      "label": "Whitelist: crear códigos",
+      "description": "Permite crear, desactivar y eliminar códigos de acceso. Quien tiene un código se salta el formulario."
+    },
+    "ai_helper_read": {
+      "label": "Asistente IA: leer",
+      "description": "Permite leer las fuentes de documentación, la base de conocimiento y los números de acierto."
+    },
+    "ai_helper_write": {
+      "label": "Asistente IA: editar",
+      "description": "Permite añadir, actualizar y quitar fuentes de documentación y modificar la base de conocimiento. Los ajustes y los proveedores tienen su propio permiso."
+    },
+    "ai_helper_config_read": {
+      "label": "Asistente IA: ver ajustes y errores",
+      "description": "Permite leer los ajustes, los proveedores y los errores recientes. La clave de cada proveedor nunca se muestra."
+    },
+    "ai_helper_config_write": {
+      "label": "Asistente IA: cambiar ajustes",
+      "description": "Permite cambiar los ajustes, probar proveedores y cambiar su orden y modelo. Añadir proveedor, la clave y la URL quedan solo en el panel."
+    },
+    "planning_read": {
+      "label": "Planificación: leer",
+      "description": "Permite leer los documentos de planificación y las plantillas."
+    },
+    "planning_write": {
+      "label": "Planificación: editar",
+      "description": "Permite crear, editar, archivar y desarchivar documentos. Eliminar definitivamente queda solo en el panel."
+    },
+    "voice_read": {
+      "label": "Voz: leer",
+      "description": "Permite leer los canales de \"entra para crear\" y sus ajustes."
+    },
+    "voice_write": {
+      "label": "Voz: editar",
+      "description": "Permite crear, cambiar y quitar canales de \"entra para crear\"."
+    },
+    "modules_write": {
+      "label": "Módulos: activar y desactivar",
+      "description": "Permite activar y desactivar módulos del servidor, con los mismos límites del plan. Desactivar quita el módulo al instante."
+    },
+    "discord_read": {
+      "label": "Discord: ver roles y canales",
+      "description": "Permite listar los roles, los canales y los permisos que la clave puede otorgar."
+    },
+    "discord_setup": {
+      "label": "Discord: montar el servidor",
+      "description": "Permite crear y editar roles y canales y cambiar permisos de canal mediante MRI BOT, incluidos los de @everyone, lo que afecta a todo el servidor, y abrir canales privados. Eliminar, banear y dar poder de administración quedan solo contigo en Discord."
+    }
+  }
+}

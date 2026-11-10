@@ -1,0 +1,21 @@
+{
+  "guildPending": "⏳ This server is still waiting for approval from the MRI team to use the bot.",
+  "denied": {
+    "owner": "This command is restricted to the bot owner.",
+    "admin": "This command is restricted to the platform team.",
+    "guildAdmin": "You don't have permission to use this command on this server."
+  },
+  "roleGate": {
+    "title": "Role required",
+    "poll": {
+      "fallback": "This poll is only for members with a specific server role.",
+      "singular": "This poll is only for members with the {role} role.\nGet the role to take part in the next decisions!",
+      "plural": "This poll is only for members with one of these roles: {roles}.\nGet one of them to take part in the next decisions!"
+    },
+    "suggestion": {
+      "fallback": "Voting on suggestions is only for members with a specific server role.",
+      "singular": "Voting on suggestions is only for members with the {role} role.\nGet the role to help decide the server's future!",
+      "plural": "Voting on suggestions is only for members with one of these roles: {roles}.\nGet one of them to help decide the server's future!"
+    }
+  }
+}

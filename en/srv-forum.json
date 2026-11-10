@@ -1,0 +1,81 @@
+{
+  "when": {
+    "now": "now",
+    "minutes": "{n} min ago",
+    "hours": "{n} h ago",
+    "days": "{count} {count, plural, one {day} other {days}} ago"
+  },
+  "replies": "{count} {count, plural, one {reply} other {replies}}",
+  "requestFailed": "That didn't work. Try again.",
+  "forums": "Forums",
+  "logout": "Log out",
+  "login": "Log in",
+  "loginDiscord": "Log in with Discord",
+  "loginGoogle": "Log in with Google",
+  "communityForum": "{name} community forum",
+  "madeWith": "Made with MRI BOT",
+  "privacy": "Privacy",
+  "home": {
+    "empty": "No forums published yet.",
+    "description": "Forums of the communities that use MRI BOT.",
+    "lead": "Communities that opened a public forum."
+  },
+  "tag": {
+    "pinned": "Pinned",
+    "solved": "Solved",
+    "closed": "Closed",
+    "answer": "Answer",
+    "fromDiscord": "From Discord"
+  },
+  "space": {
+    "categories": "Categories",
+    "all": "All",
+    "previous": "Previous",
+    "next": "Next",
+    "pageOf": "Page {page} of {pages}",
+    "noResults": "Nothing found for this search.",
+    "noTopics": "No topics yet. How about opening the first one?",
+    "categoryLead": "Topics in {name}",
+    "description": "{name} community forum.",
+    "searchPlaceholder": "Search topics",
+    "search": "Search"
+  },
+  "topic": {
+    "unmarkAnswer": "Unmark answer",
+    "markAnswer": "Mark as answer",
+    "deleteReplyConfirm": "Delete your reply?",
+    "delete": "Delete",
+    "deleteTopicConfirm": "Delete the topic and all replies?",
+    "deleteTopic": "Delete topic",
+    "closed": "This topic is closed to replies.",
+    "loginToReply": "Log in to reply.",
+    "yourReply": "Your reply",
+    "replyHint": "It is public, shows up on Google and under the name you log in with.",
+    "reply": "Reply",
+    "markedAnswer": "Marked answer"
+  },
+  "newTopic": {
+    "title": "New topic",
+    "pageTitle": "New topic · {space}",
+    "description": "Open a topic in the {space} forum.",
+    "loginToOpen": "Log in to open a topic. You can use your Discord or Google account.",
+    "titleLabel": "Title",
+    "titlePlaceholder": "Summarize your question or subject",
+    "category": "Category",
+    "noCategory": "No category",
+    "text": "Text",
+    "textPlaceholder": "Tell us what happened, what you've already tried, and paste the error if there is one.",
+    "hint": "Supports **bold**, *italic*, `code` and blocks with ```. The topic is public and shows up on Google.",
+    "publish": "Publish"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "This page doesn't exist or was removed.",
+    "lead": "The topic may have been deleted or the address is wrong.",
+    "back": "Back"
+  },
+  "announce": {
+    "title": "New forum topic",
+    "description": "**{title}**\nby {author}\n\n[Open in the forum]({url})"
+  }
+}

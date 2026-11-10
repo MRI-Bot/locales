@@ -1,0 +1,58 @@
+{
+  "names": {
+    "tickets": "Tickets",
+    "polls": "Polls",
+    "messages": "Messages",
+    "direct_messages": "Mass DM",
+    "whitelist": "Whitelist",
+    "subscriptions": "Subscriptions",
+    "store": "Store",
+    "giveaways": "Giveaways",
+    "projects": "Projects",
+    "planning": "Planning",
+    "economy": "Economy",
+    "punishments": "Punishments",
+    "vips": "VIPs & Donations",
+    "logs": "In-game logs",
+    "factions": "Factions",
+    "clockin": "Clock in",
+    "fivem": "FiveM",
+    "mta": "MTA",
+    "quartz": "Anticheat",
+    "forum": "Forum",
+    "discord_admin": "Discord Admin",
+    "voice": "Voice",
+    "social_alerts": "Social alerts",
+    "gamification": "Gamification",
+    "ai_helper": "AI assistant",
+    "community": "Community",
+    "boost": "Boost",
+    "media": "Media",
+    "stripe_checkout": "Stripe in the store",
+    "buyer_google_login": "Google login in the store",
+    "tebex_store": "Tebex in the store",
+    "bot_settings": "Bot settings"
+  },
+  "categories": {
+    "comercio": {
+      "label": "Commerce",
+      "hint": "Sales and billing"
+    },
+    "comunidade": {
+      "label": "Community",
+      "hint": "Engagement and support"
+    },
+    "gestao": {
+      "label": "Management",
+      "hint": "Team organization"
+    },
+    "integracoes": {
+      "label": "Integrations",
+      "hint": "Games and external services"
+    },
+    "outros": {
+      "label": "Other",
+      "hint": "No category set"
+    }
+  }
+}

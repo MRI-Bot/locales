@@ -1,0 +1,95 @@
+{
+  "calendar": {
+    "previousMonth": "Mês anterior",
+    "nextMonth": "Próximo mês"
+  },
+  "dateTime": {
+    "dateAtTime": "{date} às {time}",
+    "selectDate": "Selecione a data",
+    "selectDateTime": "Selecione data e hora",
+    "time": "Horário",
+    "clear": "Limpar",
+    "today": "Hoje",
+    "now": "Agora"
+  },
+  "channelSelect": {
+    "placeholder": "Selecionar canal",
+    "search": "Buscar canal...",
+    "empty": "Nenhum canal encontrado.",
+    "categories": "Categorias",
+    "noCategory": "Sem categoria"
+  },
+  "roleSelect": {
+    "placeholder": "Selecionar cargo",
+    "search": "Buscar cargo...",
+    "empty": "Nenhum cargo encontrado."
+  },
+  "memberSelect": {
+    "placeholder": "Adicionar pessoa…",
+    "search": "Buscar membro…",
+    "typeToSearch": "Digite pra buscar.",
+    "searching": "Buscando…",
+    "empty": "Nenhum membro.",
+    "max": "Máximo de {max} pessoas."
+  },
+  "colorPicker": {
+    "select": "Selecionar cor",
+    "defaultHint": "Cor padrão (clique pra escolher)",
+    "change": "Trocar cor",
+    "clear": "Limpar cor"
+  },
+  "emoji": {
+    "insert": "Inserir emoji",
+    "search": "Buscar..."
+  },
+  "mention": {
+    "insert": "Inserir menção",
+    "tooltip": "Mencionar (cargo / membro)",
+    "search": "Buscar cargo, canal ou membro…",
+    "members": "Membros",
+    "roles": "Cargos",
+    "noRoles": "Nenhum cargo.",
+    "channels": "Canais",
+    "noChannels": "Nenhum canal."
+  },
+  "editor": {
+    "heading1": "Título grande (#)",
+    "heading2": "Título médio (##)",
+    "heading3": "Título menor (###)",
+    "bold": "Negrito (Ctrl+B)",
+    "italic": "Itálico (Ctrl+I)",
+    "underline": "Sublinhado (Ctrl+U)",
+    "strike": "Riscado",
+    "code": "Código inline",
+    "codeBlock": "Bloco de código",
+    "quote": "Citação",
+    "showFormatted": "Ver formatado",
+    "showMarkdown": "Ver markdown"
+  },
+  "upload": {
+    "button": "Fazer upload",
+    "done": "Imagem carregada.",
+    "failed": "Falha no upload.",
+    "urlPlaceholder": "https://... (ou faça upload)"
+  },
+  "gallery": {
+    "label": "Galeria (opcional, até {max})",
+    "hint": "Aparecem como carousel embaixo da imagem principal na loja pública.",
+    "uploading": "Subindo",
+    "add": "Adicionar"
+  },
+  "numberInput": {
+    "increase": "Aumentar",
+    "decrease": "Diminuir"
+  },
+  "sectionNav": {
+    "more": "Mais"
+  },
+  "toast": {
+    "detailsCopied": "Detalhes do erro copiados.",
+    "errorCode": "Código do erro: {id}",
+    "genericError": "Não foi possível concluir. Tente de novo.",
+    "copyDetails": "Copiar detalhes",
+    "unexpected": "Erro inesperado"
+  }
+}

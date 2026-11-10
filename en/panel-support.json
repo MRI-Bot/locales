@@ -1,0 +1,21 @@
+{
+  "title": "Support",
+  "open": "Talk to support",
+  "openWithUnread": "{count, plural, one {Talk to support, # new message} other {Talk to support, # new messages}}",
+  "unmute": "Turn sound on",
+  "mute": "Mute",
+  "memberGate": {
+    "title": "Join our Discord to talk to support",
+    "description": "Support happens inside the server. Join, then come back here to open your request.",
+    "descriptionNamed": "Support happens inside the {guild} server. Join, then come back here to open your request.",
+    "join": "Join Discord"
+  },
+  "empty": {
+    "title": "Send us your question 👋",
+    "description": "We'll reply right here."
+  },
+  "typing": "Typing…",
+  "placeholder": "Write your message...",
+  "send": "Send",
+  "sendFailed": "Couldn't send."
+}

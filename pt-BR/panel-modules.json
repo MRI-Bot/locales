@@ -1,0 +1,58 @@
+{
+  "names": {
+    "tickets": "Tickets",
+    "polls": "Enquetes",
+    "messages": "Mensagens",
+    "direct_messages": "DM em Massa",
+    "whitelist": "Whitelist",
+    "subscriptions": "Assinaturas",
+    "store": "Loja",
+    "giveaways": "Sorteios",
+    "projects": "Projetos",
+    "planning": "Planejamento",
+    "economy": "Economia",
+    "punishments": "Punições",
+    "vips": "VIPs & Doações",
+    "logs": "Logs In-Game",
+    "factions": "Facções",
+    "clockin": "Bater Ponto",
+    "fivem": "FiveM",
+    "mta": "MTA",
+    "quartz": "Anticheat",
+    "forum": "Fórum",
+    "discord_admin": "Discord Admin",
+    "voice": "Voz",
+    "social_alerts": "Alertas Sociais",
+    "gamification": "Gamificação",
+    "ai_helper": "Assistente IA",
+    "community": "Comunidade",
+    "boost": "Boost",
+    "media": "Mídia",
+    "stripe_checkout": "Stripe na loja",
+    "buyer_google_login": "Login Google na loja",
+    "tebex_store": "Tebex na loja",
+    "bot_settings": "Configurações do bot"
+  },
+  "categories": {
+    "comercio": {
+      "label": "Comércio",
+      "hint": "Venda e cobrança"
+    },
+    "comunidade": {
+      "label": "Comunidade",
+      "hint": "Engajamento e atendimento"
+    },
+    "gestao": {
+      "label": "Gestão",
+      "hint": "Organização da equipe"
+    },
+    "integracoes": {
+      "label": "Integrações",
+      "hint": "Jogos e serviços externos"
+    },
+    "outros": {
+      "label": "Outros",
+      "hint": "Sem categoria definida"
+    }
+  }
+}

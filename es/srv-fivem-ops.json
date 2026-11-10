@@ -1,0 +1,38 @@
+{
+  "log": {
+    "title": "🎮 Operación en FiveM",
+    "titleFailed": "🎮 Falló la operación en FiveM",
+    "description": "`/{command}` ejecutado por **{actor}**.",
+    "result": "Resultado"
+  },
+  "defaultKickReason": "Expulsado por un administrador.",
+  "defaultRestartReason": "El servidor se está reiniciando.",
+  "screenshot": {
+    "uploadFailed": "No pude subir la imagen: {error}",
+    "playerScreen": "Pantalla de {name}.",
+    "captured": "Pantalla capturada."
+  },
+  "roleSyncActor": "Sincronización de rol",
+  "linkPanel": {
+    "text": "## 🎮 Vincular cuenta de FiveM\n\nAl entrar al servidor sin vincular, aparece un código de 4 letras en la pantalla de conexión. Haz clic en el botón de abajo, pega el código y listo: luego solo reconéctate.",
+    "button": "Vincular cuenta"
+  },
+  "oauth": {
+    "invalidLink": "Enlace no válido (faltan parámetros).",
+    "notConfigured": "OAuth no está configurado en el servidor.",
+    "cancelled": "Autorización cancelada en Discord. Puedes cerrar y usar /vincular.",
+    "invalidReturn": "Respuesta no válida de Discord.",
+    "sessionExpired": "Sesión de vinculación no válida o caducada. Reconéctate en FiveM e inténtalo de nuevo.",
+    "linkFailed": "No se pudo vincular.",
+    "successTitle": "¡Cuenta vinculada!",
+    "successHello": "Hola, {user}: tu cuenta de Discord quedó vinculada a tu license.",
+    "successBack": "Vuelve a FiveM: entrarás automáticamente en unos segundos.",
+    "closeTab": "Puedes cerrar esta pestaña.",
+    "errorTitle": "No pude vincular",
+    "errorHint": "Puedes volver a FiveM y usar el comando {command} con el código que aparece en pantalla.",
+    "tokenExchangeFailed": "Falló el intercambio del código OAuth con Discord.",
+    "noAccessToken": "Discord no devolvió access_token.",
+    "userFetchFailed": "No se pudo obtener el usuario de Discord.",
+    "linkCommand": "vincular"
+  }
+}

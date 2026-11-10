@@ -1,0 +1,75 @@
+{
+  "anon": {
+    "dmNotDelivered": "DM não entregue",
+    "staffPrefix": "**Equipe →** {content}",
+    "memberPrefix": "**Anônimo →** {content}",
+    "notDeliveredDmClosed": "⚠️ _Não entregue: o membro está com a DM fechada._",
+    "conversationClosed": "Este atendimento já foi encerrado.",
+    "messageRejected": "Mensagem recusada pela moderação.",
+    "closedDm": "Seu atendimento anônimo foi encerrado pela equipe. Obrigado pelo contato.",
+    "unmaskDenied": "Você não tem permissão para ver quem escreveu. Moderar e desmascarar são permissões separadas — peça `community.anon.audit` a um administrador.",
+    "threadName": "Anônimo {number}",
+    "publicTitle": "**Anônimo {number}**",
+    "audit": {
+      "identityPanelOnly": "_identidade só no painel_",
+      "moderation": "**Moderação:** {flags}",
+      "title": "🕵️ **Auditoria — Anônimo {number}**",
+      "author": "**Autor:** {author}"
+    },
+    "auditUnavailableNothingPublished": "Canal de auditoria indisponível — nada foi publicado.",
+    "systemUnavailable": "O sistema de mensagem anônima está indisponível no momento. Avise a equipe do servidor.",
+    "staffThreadName": "Anônimo · {subject}",
+    "newMessage": "🕵️ **Nova mensagem anônima**"
+  },
+  "panels": {
+    "suggestion": {
+      "text": "## 💡 Sugestões\n\nTem uma ideia pro servidor? Clica no botão abaixo, escreve a proposta e a comunidade vota.",
+      "button": "Enviar sugestão"
+    },
+    "bug": {
+      "text": "## 🐛 Reportar bug\n\nEncontrou um problema no servidor? Clica no botão abaixo e descreve o que aconteceu, a equipe acompanha cada report pela triagem.",
+      "button": "Reportar bug"
+    },
+    "staff": {
+      "text": "## 📋 Candidatura para a equipe\n\nQuer fazer parte da equipe? Clica na vaga abaixo e responde o formulário. A equipe analisa e te retorna no privado."
+    },
+    "anon": {
+      "text": "## 🎭 Mensagem anônima\n\nEscolha abaixo como quer falar.",
+      "confessionButton": "Mensagem anônima",
+      "staffButton": "Falar com a equipe"
+    }
+  },
+  "referrals": {
+    "invitedBy": "Convidado por",
+    "invite": "Convite",
+    "inviterTotal": "Total do convidador",
+    "unidentified": "Não identificado — {reason, select, no_baseline {o bot tinha acabado de reiniciar} ambiguous {duas pessoas entraram ao mesmo tempo} no_permission {o bot não tem permissão de ver convites} vanity_or_unknown {link personalizado ou origem desconhecida} fetch_failed {falha ao consultar os convites} other {origem desconhecida}}.",
+    "newMemberTitle": "➡️ Novo membro",
+    "rejoined": "{member} voltou pro servidor.\n-# Retorno não conta de novo pro convidador.",
+    "joined": "{member} entrou no servidor.",
+    "milestoneTitle": "🏆 Marco alcançado",
+    "milestoneReached": "{member} alcançou o marco de **{count}** {count, plural, =1 {convite} other {convites}}!",
+    "inviteUses": "{count, plural, =1 {{count} entrada por este convite} other {{count} entradas por este convite}}",
+    "validInvites": "{count, plural, =1 {{count} convite válido} other {{count} convites válidos}}",
+    "inQuarantine": "{count} em quarentena",
+    "milestoneAuditReason": "Marco de {count} indicações",
+    "board": {
+      "bonus": "_(+{bonus} bônus)_",
+      "referrals": "**{count}** {count, plural, =1 {indicação} other {indicações}}",
+      "empty": "Ninguém indicou ninguém ainda. Compartilhe seu convite pra aparecer aqui!",
+      "seasonSince": "temporada desde {date}",
+      "title": "🏆 Ranking de indicações",
+      "topOf": "Top {size} de {total} participantes",
+      "participants": "{count} {count, plural, =1 {participante} other {participantes}}"
+    }
+  },
+  "suggestions": {
+    "threadName": "Sugestão #{number} · {title}",
+    "decisionDm": "Sua sugestão **#{number} · {title}** foi: **{status, select, PENDING {Reaberta para votação} UNDER_REVIEW {Em análise} APPROVED {Aprovada} REJECTED {Recusada} IMPLEMENTED {Implementada} DUPLICATE {Marcada como duplicada} other {{status}}}**."
+  },
+  "staff": {
+    "autoRolePro": "Cargo automático ao aprovar é um recurso Pro — dê o cargo manualmente.",
+    "approvedAuditReason": "Candidatura #{number} aprovada",
+    "roleNotApplied": "o bot não conseguiu aplicar o cargo"
+  }
+}

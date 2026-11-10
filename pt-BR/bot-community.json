@@ -1,0 +1,253 @@
+{
+  "fallbackServer": "servidor",
+  "bug": {
+    "state": {
+      "NEW": "🆕 Aberto",
+      "UNDER_REVIEW": "👀 Em análise",
+      "NEEDS_INFO": "❓ Falta informação",
+      "CONFIRMED": "🐛 Confirmado",
+      "DUPLICATE": "🔁 Duplicado",
+      "FIXED": "✅ Corrigido",
+      "NOT_A_BUG": "🚫 Descartado"
+    },
+    "severity": {
+      "LOW": "🟢 Baixa",
+      "MEDIUM": "🔵 Média",
+      "HIGH": "🟠 Alta",
+      "CRITICAL": "🔴 Crítica"
+    },
+    "triage": {
+      "staffOnly": "Só a equipe do servidor pode triar reports.",
+      "intro": "Triagem do report. Transição inválida é recusada pelo servidor.",
+      "statePlaceholder": "Mudar estado",
+      "severityPlaceholder": "Mudar severidade",
+      "assignPlaceholder": "Atribuir responsável",
+      "applied": "Triagem aplicada."
+    },
+    "note": {
+      "duplicateLabel": "Número do report original",
+      "fixedLabel": "O que foi feito?",
+      "duplicateInvalid": "Informe o número do report original (ex.: 12)."
+    },
+    "error": {
+      "invalidTransitionWith": "Transição não permitida a partir do estado atual. Possíveis: {allowed}.",
+      "invalidTransition": "Transição não permitida a partir do estado atual.",
+      "resolutionNoteRequired": "Marcar como corrigido exige dizer o que foi feito.",
+      "noteRequired": "Esta mudança exige uma justificativa.",
+      "duplicateRefRequired": "Informe o número do report original.",
+      "duplicateSelf": "Um report não pode ser duplicado dele mesmo.",
+      "duplicateNotFound": "Não encontrei um report com esse número neste servidor.",
+      "triageFailed": "Não foi possível aplicar a triagem. Tente de novo.",
+      "fieldRequired": "O campo **{label}** precisa ser preenchido corretamente.",
+      "someFieldRequired": "Um campo obrigatório do formulário não foi preenchido.",
+      "channelNotConfigured": "O canal de bugs ainda não foi configurado. Avise a equipe do servidor.",
+      "createFailed": "Não foi possível registrar seu report agora. Tente de novo em instantes."
+    },
+    "disabled": "O sistema de reporte de bugs está desativado neste servidor.",
+    "formNotConfigured": "O formulário de bugs ainda não foi configurado. Avise a equipe do servidor.",
+    "sessionExpired": "A sessão do formulário expirou. Rode {command} de novo.",
+    "threadName": "Bug #{number} · {title}",
+    "postFailed": "Seu report foi registrado, mas não consegui postar no canal. Avise a equipe.",
+    "reported": "Bug **#{number}** reportado em {channel}. Obrigado!",
+    "form": {
+      "title": "Reportar bug",
+      "titleLabel": "Título do report",
+      "titlePlaceholder": "Resuma o problema em uma linha"
+    }
+  },
+  "sug": {
+    "decision": {
+      "UNDER_REVIEW": "Marcar em análise",
+      "APPROVED": "Aprovar",
+      "REJECTED": "Recusar",
+      "IMPLEMENTED": "Marcar como implementada",
+      "DUPLICATE": "Marcar como duplicada",
+      "PENDING": "Reabrir votação"
+    },
+    "modal": {
+      "rejectLabel": "Motivo da recusa",
+      "rejectPlaceholder": "O autor vê este texto no card e na DM.",
+      "duplicateLabel": "Número da sugestão original",
+      "duplicatePlaceholder": "Ex.: 12",
+      "dmLabel": "Mensagem no privado do autor",
+      "dmPlaceholder": "Vazio = decide sem avisar o autor."
+    },
+    "manage": {
+      "staffOnly": "Só a equipe do servidor pode gerenciar sugestões.",
+      "placeholder": "O que fazer com esta sugestão?",
+      "intro": "Escolha a decisão. Transição inválida é recusada pelo servidor."
+    },
+    "duplicateInvalid": "Informe o número da sugestão original (ex.: 12).",
+    "decisionApplied": "{emoji} Decisão aplicada. O card atualiza em instantes.",
+    "threadNameWithTitle": "Sugestão #{number} · {title}",
+    "threadName": "Sugestão #{number}",
+    "authorDm": "{emoji} Sua sugestão **#{number} · {title}** em **{server}** foi: **{label}**.",
+    "aServer": "um servidor",
+    "error": {
+      "invalidTransitionWith": "Essa transição não é permitida a partir do estado atual. Possíveis: {allowed}.",
+      "invalidTransition": "Essa transição não é permitida a partir do estado atual.",
+      "reasonRequired": "Recusar exige um motivo.",
+      "duplicateRefRequired": "Informe o número da sugestão original.",
+      "duplicateSelf": "Uma sugestão não pode ser duplicada dela mesma.",
+      "duplicateNotFound": "Não encontrei uma sugestão com esse número neste servidor.",
+      "decisionFailed": "Não foi possível aplicar a decisão. Tente de novo.",
+      "invalidData": "Não foi possível enviar: verifique os dados e tente de novo.",
+      "createFailed": "Não foi possível enviar sua sugestão agora. Tente novamente em instantes."
+    },
+    "vote": {
+      "closed": "Esta sugestão já foi decidida — a votação está encerrada.",
+      "disabled": "A votação de sugestões está desativada neste servidor.",
+      "failed": "Não foi possível registrar seu voto. Tente de novo em instantes."
+    },
+    "form": {
+      "title": "Enviar sugestão",
+      "summaryLabel": "Resumo da sugestão",
+      "summaryPlaceholder": "Em uma frase, o que você propõe?",
+      "detailsLabel": "Detalhes",
+      "detailsPlaceholder": "Explique a ideia e por que ela ajudaria o servidor."
+    },
+    "dedup": {
+      "sendAnyway": "Enviar mesmo assim",
+      "view": "Ver #{number}",
+      "found": "Encontrei uma sugestão parecida: **#{number} · {title}**.\nSe for a mesma ideia, vale votar nela em vez de abrir outra."
+    },
+    "sentForReview": "Sugestão enviada para análise da equipe. Você recebe um aviso quando ela for publicada.",
+    "postFailed": "Sua sugestão foi registrada, mas não consegui postar no canal configurado. Avise a equipe.",
+    "sentIn": "Sugestão **#{number}** enviada em {channel}.",
+    "draftMissing": "Não encontrei o rascunho. Envie a sugestão de novo pelo painel.",
+    "registered": "Sugestão registrada.",
+    "sent": "Sugestão **#{number}** enviada."
+  },
+  "precheck": {
+    "disabled": "O sistema de sugestões está desativado neste servidor.",
+    "blocked": "Você está impedido de enviar sugestões.",
+    "roleRequired": "Você não tem o cargo necessário para enviar sugestões.",
+    "accountAge": "Sua conta do Discord é recente demais para enviar sugestões.",
+    "guildAge": "Você entrou no servidor há pouco tempo. Tente novamente mais tarde.",
+    "cooldown": "Aguarde {wait} para enviar outra sugestão.",
+    "dayLimit": "Você já atingiu o limite de sugestões de hoje.",
+    "maxOpen": "Você já tem sugestões demais em aberto. Aguarde a equipe decidir.",
+    "failed": "Não foi possível enviar sua sugestão agora.",
+    "seconds": "{n}s",
+    "minutes": "{n} min",
+    "hours": "{n}h"
+  },
+  "unknownCategory": "Categoria desconhecida.",
+  "anon": {
+    "modal": {
+      "confessionLabel": "Sua mensagem",
+      "staffLabel": "O que você quer contar à equipe",
+      "defaultDisclosure": "A equipe consegue ver quem enviou, em caso de abuso.",
+      "confessionTitle": "Mensagem anônima",
+      "staffTitle": "Falar com a equipe"
+    },
+    "staffRow": {
+      "reply": "Responder",
+      "close": "Encerrar",
+      "unmask": "Ver autor"
+    },
+    "replyToStaff": "Responder à equipe",
+    "reply": {
+      "staffLabel": "Resposta ao membro",
+      "memberLabel": "Sua resposta",
+      "staffTitle": "Responder anonimamente",
+      "staffSent": "✅ Resposta enviada ao membro.",
+      "staffDmClosed": "⚠️ Registrada, mas o membro está com a DM fechada — ele não recebeu.",
+      "staffFailed": "Não foi possível responder agora.",
+      "memberSent": "✅ Enviada à equipe. Sua identidade segue anônima."
+    },
+    "sendFailed": "Não foi possível enviar.",
+    "sendFailedNow": "Não foi possível enviar agora.",
+    "closed": "✅ Atendimento encerrado.",
+    "closeFailed": "Não foi possível encerrar agora.",
+    "unmask": {
+      "denied": "Não permitido.",
+      "result": "🕵️ Autor: {user} (`{id}`)\n_Este acesso ficou registrado no histórico do servidor com o seu nome._",
+      "failed": "Não foi possível consultar agora."
+    },
+    "unavailable": "Não consegui falar com o servidor agora. Tente de novo em instantes.",
+    "disabled": "O sistema de mensagem anônima está desativado neste servidor.",
+    "confessionsDisabled": "As confissões anônimas estão desativadas neste servidor.",
+    "staffLineDisabled": "A linha direta com a equipe está desativada neste servidor.",
+    "confessionsInactive": "As confissões anônimas não estão ativas neste servidor.",
+    "staffLineInactive": "A linha anônima com a equipe não está ativa neste servidor.",
+    "cannotSendNow": "Você não pode enviar agora.",
+    "submit": {
+      "queued": "✅ Enviada para revisão da equipe. Ela aparece assim que for aprovada.",
+      "confessionSent": "✅ Enviada. Ela aparece no canal em instantes.",
+      "staffSent": "✅ Enviada para a equipe. Se responderem, você recebe por mensagem direta.",
+      "failed": "Não foi possível enviar agora. Tente de novo em alguns instantes."
+    }
+  },
+  "invites": {
+    "failed": "Não consegui consultar os convites agora. Tente de novo em instantes.",
+    "title": "Convites de {name}",
+    "qualified": "Confirmados",
+    "pending": "Aguardando",
+    "position": "Posição",
+    "pendingFooter": "Convites aguardando confirmam depois que a pessoa fica um tempo no servidor.",
+    "none": "Você ainda não trouxe ninguém. Compartilhe seu link de convite para começar!"
+  },
+  "inviteRanking": {
+    "failed": "Não consegui carregar o ranking agora. Tente de novo em instantes.",
+    "empty": "Ninguém trouxe membros ainda. Seja o primeiro!",
+    "line": "{medal} {user} — {count, plural, one {**#** convite} other {**#** convites}}",
+    "title": "🏆 Ranking de convites",
+    "footer": "{count, plural, one {# pessoa} other {# pessoas}} no ranking"
+  },
+  "staff": {
+    "postingClosed": "Esta vaga não está mais aberta.",
+    "noForm": "Esta vaga ainda não tem formulário configurado. Avise a equipe.",
+    "draftExpired": "As respostas anteriores expiraram. Clique na vaga no painel pra começar de novo.",
+    "postingClosedNotSent": "Esta vaga não está mais aberta — sua candidatura não foi enviada.",
+    "formChanged": "O formulário desta vaga mudou enquanto você respondia. Clique na vaga no painel pra recomeçar.",
+    "pageSaved": "✅ Parte **{page} de {total}** salva. Clique em continuar pra responder o resto — nada é enviado até a última parte.",
+    "continue": "Continuar ({page}/{total})",
+    "partsExpired": "As respostas das partes anteriores expiraram, então não dava pra enviar a candidatura pela metade. Clique na vaga no painel pra responder de novo.",
+    "submitted": "✅ Candidatura **#{number}** enviada para **{posting}**.\nA equipe analisa e te retorna por aqui.",
+    "error": {
+      "cannotApply": "Você não pode se candidatar a esta vaga agora.",
+      "disabled": "As candidaturas estão fechadas neste servidor.",
+      "fieldRequired": "Faltou responder um campo obrigatório.",
+      "submitFailed": "Não foi possível enviar agora. Tente de novo em instantes."
+    },
+    "precheck": {
+      "disabled": "As candidaturas para a equipe estão fechadas neste servidor.",
+      "blocked": "Você está impedido de se candidatar neste servidor.",
+      "roleRequired": "Você não tem o cargo necessário para se candidatar.",
+      "accountAge": "Sua conta do Discord é recente demais para se candidatar.",
+      "cooldown": "Aguarde {wait} para se candidatar de novo.",
+      "alreadyAppliedNumber": "Você já enviou a candidatura **#{number}** e ela ainda está em análise.",
+      "alreadyApplied": "Você já tem uma candidatura em análise para esta vaga.",
+      "alreadyApproved": "Você já foi aprovado nesta vaga.",
+      "maxOpen": "Você já tem candidaturas demais em aberto. Aguarde a equipe responder.",
+      "failed": "Não foi possível abrir o formulário agora."
+    },
+    "decision": {
+      "UNDER_REVIEW": "Em análise",
+      "APPROVED": "Aprovar",
+      "REJECTED": "Recusar"
+    },
+    "decisionTitle": {
+      "UNDER_REVIEW": "Em análise candidatura",
+      "APPROVED": "Aprovar candidatura",
+      "REJECTED": "Recusar candidatura"
+    },
+    "staffOnly": "Só a equipe do servidor pode decidir candidaturas.",
+    "modal": {
+      "dmLabel": "Mensagem no privado do candidato",
+      "dmPlaceholder": "Vazio = decide sem avisar o candidato.",
+      "noteLabel": "Motivo interno (não vai pro candidato)"
+    },
+    "decisionFailed": "Não foi possível registrar a decisão agora.",
+    "result": {
+      "marked": "✅ Candidatura **#{number}** marcada como **{state}**.",
+      "dmSent": "📨 O candidato foi avisado no privado.",
+      "dmFailed": "⚠️ A DM não chegou: {error}",
+      "unknown": "desconhecido",
+      "nobodyNotified": "🔇 Ninguém foi avisado — o texto da mensagem ficou vazio.",
+      "roleGranted": "🏷️ Cargo aplicado.",
+      "roleFailed": "⚠️ O cargo não foi aplicado: {error}"
+    }
+  }
+}

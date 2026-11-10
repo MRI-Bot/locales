@@ -1,0 +1,1677 @@
+{
+  "nav": {
+    "label": "Store screens",
+    "finance": "Finance",
+    "products": "Products",
+    "sales": "Sales",
+    "plans": "Plans",
+    "subscribers": "Subscribers",
+    "events": "Events",
+    "coupons": "Coupons",
+    "categories": "Categories",
+    "settings": "Settings",
+    "catalog": "Catalog",
+    "reviews": "Reviews",
+    "orders": "Orders",
+    "customers": "Customers and visits",
+    "marketing": "Marketing",
+    "selling": "Promotions, offers and cashback",
+    "affiliates": "Affiliates",
+    "subscriptions": "Subscriptions",
+    "integrations": "Integrations"
+  },
+  "header": {
+    "title": "Store",
+    "description": "Products, subscriptions and money of {guild}.",
+    "visit": "Visit store",
+    "editVisual": "Edit store design"
+  },
+  "inactive": {
+    "title": "Store disabled",
+    "description": "Sell roles, access and files with a one-time payment. Your subscriptions keep working without the Store.",
+    "action": "Enable store"
+  },
+  "loadError": "Failed to load.",
+  "saving": "Saving",
+  "actionsColumn": "Actions",
+  "products": {
+    "reorderError": "Failed to reorder.",
+    "archive": {
+      "title": "Archive \"{name}\"?",
+      "description": "The product becomes unavailable for new sales. Previous sales stay preserved in the history.",
+      "confirm": "Archive"
+    },
+    "archived": "Product archived.",
+    "archiveError": "Failed to archive.",
+    "search": "Search product",
+    "filterLabel": "Filter products",
+    "filters": {
+      "active": "On sale",
+      "featured": "Featured",
+      "archived": "Archived"
+    },
+    "new": "New product",
+    "noMatch": "No products match these filters.",
+    "summary": "{count, plural, one {# product} other {# products}} · {sold, plural, other {# sold}}",
+    "dragHint": " · Drag by the handle to set the order in the store",
+    "columns": {
+      "order": "Order",
+      "product": "Product",
+      "delivery": "Delivery",
+      "price": "Price",
+      "sold": "Sold",
+      "stock": "Stock"
+    },
+    "noDescription": "No description",
+    "manual": "Manual",
+    "expiresIn": "Expires in {duration}",
+    "duration": {
+      "months": "{value, plural, one {# month} other {# months}}",
+      "year": "1 year",
+      "days": "{value, plural, one {# day} other {# days}}"
+    },
+    "unlimited": "Unlimited",
+    "soldOut": "Sold out",
+    "archiveTitle": "Archive product",
+    "archiveAria": "Archive {name}",
+    "empty": "No products created yet. Start by creating one (e.g. \"VIP Bronze\" · Discord role for R$ 10).",
+    "createFirst": "Create first product"
+  },
+  "productTypes": {
+    "discord_role": "Discord role",
+    "discord_channel": "Discord channel",
+    "digital_file": "Digital file",
+    "music_file": "Music file",
+    "mta_action": "MTA action",
+    "fivem_action": "FiveM action",
+    "custom": "Custom"
+  },
+  "sales": {
+    "filters": {
+      "all": "All",
+      "approved": "Approved",
+      "pending": "Pending",
+      "refunded": "Refunded",
+      "rejected": "Rejected",
+      "cancelled": "Cancelled"
+    },
+    "refund": {
+      "title": "Refund sale?",
+      "description": "The {amount} goes back to the buyer via Mercado Pago. The delivered role/channel will be revoked automatically.",
+      "confirm": "Refund"
+    },
+    "refunded": "Sale refunded.",
+    "refundError": "Failed to refund.",
+    "markedDelivered": "Delivery completed. The buyer was notified.",
+    "markError": "Could not mark as delivered.",
+    "retryDone": "Delivery completed.",
+    "stillFailing": "Still failing: {error}",
+    "retryFired": "New attempt triggered.",
+    "retryError": "Failed to retry.",
+    "search": "Search product, Discord ID or email",
+    "filterLabel": "Filter sales",
+    "waiting": "{count, plural, one {# sale awaiting} other {# sales awaiting}} manual delivery",
+    "failed": "{count} with a delivery error",
+    "empty": "No sales found with these filters.",
+    "count": "{count, plural, one {# sale} other {# sales}}",
+    "capped": " (showing the 200 most recent)",
+    "columns": {
+      "date": "Date",
+      "buyer": "Buyer",
+      "amount": "Amount",
+      "fee": "MRI fee",
+      "status": "Status"
+    },
+    "giftFor": "Gift for",
+    "inGameDelivery": "In-game delivery",
+    "awaitingDelivery": "Awaiting delivery",
+    "markDelivered": "Mark as delivered",
+    "noDelivery": "No delivery recorded yet (the payment may not have been approved).",
+    "status": {
+      "delivered": "Delivered",
+      "approvedNoDelivery": "Approved · not delivered",
+      "pending": "Pending",
+      "rejected": "Rejected",
+      "cancelled": "Cancelled",
+      "refunded": "Refunded"
+    },
+    "invoice": {
+      "processing": "Invoice at the city hall",
+      "issued": "Invoice issued",
+      "failed": "Invoice rejected",
+      "cancelled": "Invoice cancelled"
+    },
+    "retryAt": "The bot tries again by itself at {date}.",
+    "retriesOver": "The automatic retries are over. Fix the problem and use Try again.",
+    "orderChat": "Order chat and notes"
+  },
+  "thumbnail": {
+    "open": "Open the store",
+    "title": "Store thumbnail"
+  },
+  "appearance": {
+    "themes": {
+      "emerald": {
+        "label": "Emerald",
+        "mood": "Clean and modern"
+      },
+      "arena": {
+        "label": "Arena",
+        "mood": "Bold, gamer look"
+      },
+      "cyber": {
+        "label": "Cyber",
+        "mood": "Techy"
+      },
+      "royal": {
+        "label": "Royal",
+        "mood": "Elegant and exclusive"
+      },
+      "forest": {
+        "label": "Forest",
+        "mood": "Light and friendly"
+      },
+      "ocean": {
+        "label": "Ocean",
+        "mood": "Calm and trustworthy"
+      },
+      "daylight": {
+        "label": "Daylight",
+        "mood": "Light, big store look"
+      },
+      "sunset": {
+        "label": "Sunset",
+        "mood": "Light and warm"
+      }
+    },
+    "palettes": {
+      "midnight": "Midnight",
+      "obsidian": "Obsidian",
+      "graphite": "Graphite",
+      "plum": "Plum",
+      "forest": "Forest",
+      "ocean": "Ocean",
+      "custom": "Your color",
+      "light": "Light"
+    },
+    "radius": {
+      "squared": "Square",
+      "rounded": "Rounded",
+      "pill": "Very round"
+    },
+    "fonts": {
+      "system": "System"
+    },
+    "themesLabel": "Themes",
+    "themeChoice": "{label} theme: {mood}",
+    "sampleTitle": "Your store",
+    "paletteLabel": "Background color",
+    "paletteChoice": "{label} background",
+    "radiusLabel": "Corners",
+    "radiusChoice": "{label} corners",
+    "fontChoice": "{name} font",
+    "bodyFontLabel": "Body font",
+    "headingFontLabel": "Heading font",
+    "sameAsBody": "Same as body"
+  },
+  "categories": {
+    "loadError": "Failed to load categories.",
+    "remove": {
+      "title": "Delete \"{name}\"?",
+      "withProducts": "{count, plural, one {# product uses this category and will become} other {# products use this category and will become}} \"uncategorized\". The category itself will be removed.",
+      "description": "The category will be removed. This cannot be undone."
+    },
+    "removed": "Category deleted.",
+    "intro": "Categories become sections in the store. Each product goes in one category or none.",
+    "new": "New category",
+    "empty": "No categories yet. Create one to organize products into sections in the store.",
+    "createFirst": "Create first category",
+    "columns": {
+      "category": "Category",
+      "address": "Address",
+      "products": "Products"
+    },
+    "form": {
+      "nameTooShort": "Name too short.",
+      "updated": "Category updated.",
+      "created": "Category created.",
+      "editTitle": "Edit category",
+      "name": "Name",
+      "namePlaceholder": "Roles",
+      "slugPlaceholder": "roles",
+      "slugHint": "Used in the public store filter. Lowercase letters, numbers and hyphens.",
+      "parent": "Parent category (optional)",
+      "parentNone": "None (top-level category)",
+      "hasChildren": "This category already has subcategories, so it cannot become a subcategory.",
+      "isChild": "Becomes a subcategory and shows up inside its parent in the store.",
+      "isTop": "Leave empty for a top-level category (it can have subcategories).",
+      "icon": "Icon (emoji)",
+      "order": "Order"
+    }
+  },
+  "activateError": "Could not activate.",
+  "finance": {
+    "periods": {
+      "d7": "7 days",
+      "d30": "30 days",
+      "d90": "90 days",
+      "m12": "12 months"
+    },
+    "store": "Store",
+    "subscriptions": "Subscriptions",
+    "loadError": "Failed to load finances.",
+    "period": "Period",
+    "loading": "Loading finances...",
+    "export": "Export spreadsheet",
+    "empty": {
+      "title": "No money came in during this period",
+      "description": "Store sales, subscription charges and prepaid packages show up here together as soon as the payment is approved."
+    },
+    "received": "You received",
+    "delta": "{delta}% revenue vs. the previous period",
+    "gross": "Gross revenue",
+    "fee": "MRI fee",
+    "refundedOut": "Refunded (not counted)",
+    "approvedCount": "Approved payments",
+    "gatewayFees": "Mercado Pago and Stripe take their own fees before the money reaches your account, and those are not included here.",
+    "sources": "Where the money came from",
+    "recurring": "Recurring",
+    "prepaidPackages": "Prepaid packages",
+    "chartNote": "Subscriptions in the chart add up recurring and prepaid packages.",
+    "topProducts": "Best-selling products",
+    "topProductsEmpty": "No store sales in this period.",
+    "topPlans": "Top-earning plans",
+    "topPlansEmpty": "No subscription payments in this period.",
+    "topCoupons": "Most used coupons",
+    "topCouponsEmpty": "No coupons used in this period.",
+    "payments": "Payments",
+    "filterSource": "Filter by source",
+    "filters": {
+      "all": "All",
+      "packages": "Packages"
+    },
+    "search": "Search item or buyer",
+    "searchAria": "Search payments",
+    "noMatch": "No payments match these filters.",
+    "columns": {
+      "date": "Date",
+      "source": "Source",
+      "item": "Item",
+      "buyer": "Buyer",
+      "gross": "Gross",
+      "net": "Net"
+    },
+    "noDiscord": "No Discord",
+    "showMore": "Show more ({count})",
+    "truncated": "The list shows the 2,000 most recent payments. The totals above include all of them.",
+    "paymentCount": "{count, plural, one {# payment} other {# payments}}",
+    "discountSuffix": " off",
+    "sourceLabels": {
+      "store": "Store",
+      "recurring": "Recurring subscription",
+      "package": "Prepaid package"
+    },
+    "csv": {
+      "fileName": "finances-{days}-days.csv",
+      "refunded": "Refunded",
+      "approved": "Approved",
+      "date": "Date",
+      "source": "Source",
+      "description": "Description",
+      "buyer": "Buyer",
+      "status": "Status",
+      "gross": "Gross (R$)",
+      "fee": "MRI fee (R$)",
+      "net": "Net (R$)"
+    }
+  },
+  "coupons": {
+    "scope": {
+      "products": "Store only",
+      "subscriptions": "Subscriptions only",
+      "both": "Store and Subscriptions"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "expired": "Expired",
+      "soldOut": "Used up"
+    },
+    "targets": {
+      "categories": "{count, plural, one {# category} other {# categories}}",
+      "products": "{count, plural, one {# product} other {# products}}",
+      "plans": "{count, plural, one {# plan} other {# plans}}",
+      "only": ", only on {list}",
+      "label": "Where the coupon applies",
+      "clear": "Clear ({total})",
+      "none": "Nothing selected: the coupon applies to everything. Select items to restrict it; in a mixed cart, the discount only applies to what is selected.",
+      "restricted": "Restricted. Items outside this list stay at full price.",
+      "categoriesLabel": "Categories",
+      "categoriesHint": "Selecting a category also covers its subcategories.",
+      "productsLabel": "Products",
+      "plansLabel": "Subscription plans",
+      "plansHint": "Applies to the plan's prepaid packages (the recurring monthly fee doesn't accept coupons).",
+      "nothing": "Nothing to restrict in this scope yet."
+    },
+    "loadError": "Failed to load coupons.",
+    "remove": {
+      "title": "Delete coupon \"{code}\"?",
+      "description": "Sales that used this coupon keep the discount applied. This cannot be undone."
+    },
+    "removed": "Coupon deleted.",
+    "filterLabel": "Filter coupons",
+    "filters": {
+      "live": "Active",
+      "ended": "Ended"
+    },
+    "new": "New coupon",
+    "empty": "No coupons yet. Use coupons for promotions or member rewards, with a percentage or fixed discount.",
+    "createFirst": "Create first coupon",
+    "noLive": "No active coupons right now.",
+    "noEnded": "No ended coupons.",
+    "columns": {
+      "code": "Code",
+      "discount": "Discount",
+      "appliesTo": "Applies to",
+      "uses": "Uses",
+      "validity": "Expires",
+      "status": "Status"
+    },
+    "copy": "Copy code",
+    "copied": "Code copied.",
+    "copyError": "Could not copy.",
+    "usesOf": " of {max}",
+    "noExpiry": "No expiry",
+    "form": {
+      "invalidCode": "Invalid code. Use 3-32 chars (A-Z, 0-9, _ or -).",
+      "percentRange": "Percentage must be 1-100.",
+      "invalidDiscount": "Invalid discount.",
+      "percentMax": "Maximum percentage is 100.",
+      "updated": "Coupon updated.",
+      "created": "Coupon created.",
+      "editTitle": "Edit coupon",
+      "codeLocked": "The code cannot be changed after it is created.",
+      "kind": "Type",
+      "kindPercent": "Percentage (%)",
+      "kindFixed": "Fixed amount (R$)",
+      "percent": "Percentage",
+      "fixed": "Discount R$",
+      "maxUses": "Max. uses (optional)",
+      "expiresAt": "Expires on (optional)",
+      "scope": "Where it applies",
+      "scopeProducts": "Store only (products)",
+      "scopeHint": "On Subscriptions the coupon applies to prepaid packages (buying months in advance or as a gift); the recurring monthly fee stays at the plan price.",
+      "minPurchase": "Minimum purchase R$ (optional)",
+      "active": "Active"
+    }
+  },
+  "shared": {
+    "delete": "Delete",
+    "deleteError": "Failed to delete.",
+    "loading": "Loading...",
+    "saveError": "Failed to save.",
+    "editAria": "Edit {name}",
+    "removeAria": "Delete {name}"
+  },
+  "domain": {
+    "loadError": "Failed to load status.",
+    "enterDomain": "Enter the domain.",
+    "added": "Domain added. Set up DNS following the instructions below.",
+    "addError": "Failed to add.",
+    "remove": {
+      "title": "Remove custom domain?",
+      "description": "The store will only respond at shop.mriqbox.com.br/<slug> again. You can turn it back on later."
+    },
+    "removed": "Domain removed.",
+    "removeError": "Failed to remove.",
+    "copied": "Copied.",
+    "copyError": "Couldn't copy.",
+    "locked": {
+      "title": "Custom domain, a Pro Max feature",
+      "description": "Use your own domain (e.g. {example}) for the store, with automatic SSL. Available on the Pro Max plan.",
+      "plans": "See plans"
+    },
+    "title": "Custom domain",
+    "description": "Point one of your subdomains to the store (e.g. {example}).",
+    "refresh": "Refresh status",
+    "add": "Add",
+    "hint": "Use a subdomain (recommended). It cannot be {domain}.",
+    "active": "Active",
+    "pending": "Waiting for DNS / SSL",
+    "cfStatus": "CF status:",
+    "dnsTitle": "Set up in your domain's DNS",
+    "ownership": "Ownership verification",
+    "sslValidation": "SSL validation",
+    "propagation": "After adding them, propagation takes a few minutes. Use the {button} button to check.",
+    "ready": "✅ All set! Your store is available at {url}",
+    "copy": "Copy"
+  },
+  "drive": {
+    "loadError": "Failed to load Drive status.",
+    "connectedToast": "Google Drive connected!",
+    "cancelled": "Authorization cancelled.",
+    "connectError": "Failed to connect Drive.",
+    "urlError": "Failed to create the authorization URL.",
+    "disconnect": {
+      "title": "Disconnect Google Drive?",
+      "description": "digital_file products will no longer be delivered and you can't create new ones. The files in your Drive stay untouched.",
+      "confirm": "Disconnect"
+    },
+    "disconnected": "Drive disconnected.",
+    "disconnectError": "Failed to disconnect.",
+    "checking": "Checking Drive…",
+    "title": "Google Drive, deliver digital files",
+    "description": "Connect your account to create \"digital file\" products (mods, scripts, PDFs, etc). The files stay in YOUR Drive. Each sale sends a download link to the buyer's DM.",
+    "error": "Error: {error}",
+    "connect": "Connect Drive",
+    "connectedTitle": "Google Drive connected",
+    "connectedHint": "You can now create \"digital file\" products.",
+    "lastError": "Last error: {error}"
+  },
+  "actions": {
+    "types": {
+      "discord_role": "Discord role",
+      "discord_channel": "Discord channel access",
+      "digital_file": "Digital file (Google Drive)",
+      "music_file": "Music file (WAV + preview)",
+      "mta_action": "Action on the MTA server",
+      "fivem_action": "Action on the FiveM server",
+      "custom": "Manual delivery (done by the staff)",
+      "license_key": "Key or account (stock of lines)",
+      "discord_message": "Message in a Discord channel",
+      "discord_dm": "DM to the buyer",
+      "http_webhook": "Call an address (your system)"
+    },
+    "title": "Action {n}",
+    "remove": "Remove action",
+    "delivers": "What it delivers",
+    "trigger": "When it runs",
+    "onPurchase": "On purchase",
+    "onExpire": "On expiry",
+    "notRevocable": "This kind of delivery can't be undone, so it can only run on purchase.",
+    "max": "Up to {max} actions.",
+    "custom": {
+      "instructions": "Instructions for the buyer",
+      "placeholder": "E.g.: open a ticket with the receipt and share your server ID.",
+      "hint": "The buyer gets this by DM and on the purchase screen. The sale stays as \"Awaiting delivery\" in Sales until the staff marks it as delivered."
+    },
+    "role": {
+      "label": "Role to grant",
+      "placeholder": "Select role",
+      "hierarchy": "⚠️ The Bot's role must be above this role in the server hierarchy for delivery to work."
+    },
+    "channel": {
+      "label": "Channel to grant access to",
+      "placeholder": "Select channel",
+      "hint": "The Bot adds a permission override for the buyer (View Channel + Send Messages). Works on text and voice channels and categories."
+    },
+    "file": {
+      "label": "Digital file",
+      "replace": "Replace",
+      "tooBig": "File too large (max 100MB).",
+      "uploaded": "File uploaded to Drive!",
+      "uploadError": "Failed to upload file.",
+      "uploading": "Uploading to Drive…",
+      "pick": "Click to select, up to 100MB",
+      "hint": "The file stays in your Google Drive (not on the platform). Each sale sends a direct download link to the buyer's DM."
+    },
+    "game": {
+      "label": "Action on the {game} server",
+      "none": "No actions set up. Set up the action mapping in the {game} module (Actions tab) before selling this product.",
+      "placeholder": "Select action",
+      "hint": "Runs on the buyer when the sale is approved. If they haven't linked their {game} account yet, it stays pending and is delivered when they link/join.",
+      "values": "Values delivered in game",
+      "noVars": "The action {action} has no variables set up, so there are no fields to fill in (e.g. how many coins, which car model). Open the {tab} tab in {game}, edit this action and add variables. The fields show up here automatically.",
+      "tab": "Actions",
+      "placeholders": "Placeholders available in the values:"
+    },
+    "choices": {
+      "discord_role": {
+        "label": "Discord role",
+        "hint": "Gives a role in the server"
+      },
+      "fivem_action": {
+        "label": "FiveM item",
+        "hint": "VIP, car, money or item in game"
+      },
+      "mta_action": {
+        "label": "MTA item",
+        "hint": "Delivered inside the MTA server"
+      },
+      "license_key": {
+        "label": "Key or account",
+        "hint": "One line of your list per sale"
+      },
+      "digital_file": {
+        "label": "File",
+        "hint": "From your Google Drive, to download"
+      },
+      "music_file": {
+        "label": "Music",
+        "hint": "WAV with a preview to listen first"
+      },
+      "discord_channel": {
+        "label": "Channel access",
+        "hint": "Unlocks a private channel"
+      },
+      "discord_dm": {
+        "label": "DM to the buyer",
+        "hint": "Private message with your text"
+      },
+      "discord_message": {
+        "label": "Message in a channel",
+        "hint": "E.g.: \"someone bought VIP\""
+      },
+      "http_webhook": {
+        "label": "Your system",
+        "hint": "Notifies an address of yours to deliver"
+      },
+      "custom": {
+        "label": "Manual delivery",
+        "hint": "The team delivers and marks it done"
+      }
+    },
+    "pickFirst": "Choose what the buyer gets",
+    "pickAnother": "Add another delivery",
+    "addAnother": "Deliver one more thing in the same purchase",
+    "licenseKey": {
+      "hint": "Each purchase takes one key from the product list (one per unit). The buyer sees it on the purchase screen, by DM and by email. Save the product and add the keys in {stock}; the product stock then follows the list and sells out by itself."
+    },
+    "message": {
+      "channel": "Channel",
+      "channelPlaceholder": "Select channel",
+      "label": "Message",
+      "channelExample": "{buyer} just got {product}! 🎉",
+      "dmExample": "Thanks for buying {product}! Your access: ...",
+      "placeholders": "Use {buyer} (buyer mention), {product}, {quantity} and {choice}."
+    },
+    "webhook": {
+      "url": "https address",
+      "urlPlaceholder": "https://your-system.com/mri/delivery",
+      "secret": "Signing secret (optional)",
+      "secretPlaceholder": "A long password only your system knows",
+      "hint": "On purchase, MRI BOT sends a POST with the sale (product, quantity, buyer and choices). With a secret, the {header} header is included. If the address does not answer 2xx, delivery retries by itself."
+    }
+  },
+  "productForm": {
+    "notFound": "Product not found.",
+    "nameRequired": "Name is required.",
+    "needAction": "Add at least one delivery action.",
+    "needPurchaseAction": "At least one action must run on purchase.",
+    "incompleteAction": "Finish setting up the \"{type}\" action.",
+    "updated": "Product updated.",
+    "created": "Product created.",
+    "loading": "Loading product…",
+    "editTitle": "Edit product",
+    "sections": {
+      "product": "Product",
+      "price": "Price",
+      "receives": "What the buyer gets"
+    },
+    "name": "Name",
+    "namePlaceholder": "Gold VIP",
+    "descriptionPlaceholder": "What the buyer gets, for how long and how to use it.\nE.g.: Gold VIP role, exclusive car and extra salary for 30 days.",
+    "price": "Price (R$)",
+    "priceHint": "From R$ 5.00, or 0 for free.",
+    "stockHint": "Empty = unlimited",
+    "deliveryHint": "Everything you add here arrives together, in the same purchase, as soon as the payment is approved.",
+    "expiry": "Purchase validity",
+    "expiryNone": "Permanent (doesn't expire)",
+    "expiryMonths": "Expires in months",
+    "expiryDays": "Expires in days",
+    "mainImage": "Main photo",
+    "mainImageHint": "Product cover in the store. Up to 800 KB.",
+    "noCategory": "No category",
+    "featuredHint": "Shows up in a \"Featured\" strip at the top of the store.",
+    "priceFreeOrMin": "The price is free (0) or from R$ 5.00.",
+    "freeNeedsLimit": "A free product needs a per-person limit.",
+    "choiceIncomplete": "Each choice needs a name and at least 2 options.",
+    "saveFailed": "Could not save.",
+    "checklist": {
+      "price": "Price",
+      "freeLimit": "Free with a per-person limit",
+      "minPrice": "Price from R$ 5.00"
+    },
+    "newTitle": "New product",
+    "intro": "Fill in the product, the price and what the buyer gets. The rest is optional and lives in More options.",
+    "descriptionLabel": "Description",
+    "stockLabel": "Stock",
+    "noLimit": "No limit",
+    "stockFromKeys": "Follows the key list.",
+    "freeLimit": "Free product: how many times can each person get it?",
+    "keysStock": "Key stock",
+    "keysAfterCreate": "Create the product, then paste the keys here.",
+    "moreOptions": "More options",
+    "expiryTitle": "Expiry",
+    "expiresInDays": "Expires in {count} day(s)",
+    "expiresInMonths": "Expires in {count} month(s)",
+    "permanent": "Permanent",
+    "amount": "Amount",
+    "expiryExplain": "When it expires, deliveries marked \"On expiry\" run (e.g.: remove the role). It does not charge by itself: buying again before it expires adds to the time left. For monthly billing, use Subscriptions.",
+    "foreverExplain": "The purchase lasts forever. Pick a period for a 30-day VIP, for example.",
+    "rulesTitle": "Purchase rules",
+    "perPerson": "{count} per person",
+    "onePerPurchase": "1 per purchase",
+    "limitLabel": "Limit per person",
+    "limitHint": "How many units each person can take, adding up all purchases.",
+    "lockLabel": "One unit per purchase",
+    "lockHint": "The buyer cannot change the quantity in the cart.",
+    "choicesTitle": "Buyer choices",
+    "choicesCount": "{count} list(s)",
+    "none": "None",
+    "variantTitle": "Variation of another product",
+    "variantOf": "Option \"{option}\" of {parent}",
+    "unnamed": "unnamed",
+    "otherProduct": "another product",
+    "standalone": "Standalone product",
+    "variantHint": "E.g.: create \"VIP\" and then \"VIP 30 days\" and \"VIP 90 days\" as its variations. The store shows a single card and the buyer picks the option.",
+    "variantLabel": "Option name",
+    "variantPlaceholder": "30 days",
+    "categoryTitle": "Category and featured",
+    "featuredOn": "Featured",
+    "categoryLabel": "Category",
+    "featuredLabel": "Featured",
+    "releaseTitle": "Scheduled release",
+    "soonUntil": "Coming soon until {date}",
+    "availableNow": "Available now",
+    "releaseHint": "Until the date, the product shows as \"Coming soon\" and cannot be bought.",
+    "previewTitle": "How it looks in the store",
+    "noPhoto": "No photo",
+    "soon": "Coming soon",
+    "namePreview": "Product name",
+    "setPrice": "Set the price",
+    "free": "Free",
+    "validDays": "Valid for {count} day(s)",
+    "validMonths": "Valid for {count} month(s)",
+    "getFree": "Get it free",
+    "buy": "Buy",
+    "toSave": "To save",
+    "createProduct": "Create product"
+  },
+  "music": {
+    "notWav": "Upload a .wav file.",
+    "tooBig": "File too large (max 200MB).",
+    "uploadError": "Failed to upload the WAV.",
+    "waitUpload": "Wait for the WAV upload to finish.",
+    "previewSaved": "Preview saved!",
+    "previewError": "Failed to create the preview.",
+    "label": "Music file",
+    "delivered": "WAV delivered",
+    "previewRange": "Preview ({start} → {end}, {seconds}s)",
+    "replace": "Replace file / preview",
+    "labelWav": "Music file (WAV)",
+    "pick": "Select the {file} (delivered to the buyer in original quality)",
+    "uploading": "Uploading WAV to Drive… {progress}%",
+    "onDrive": "✓ WAV on Drive",
+    "decoding": "Decoding…",
+    "dragHint": "Drag/resize the preview clip ({min} to {max}s). Selected: {selection}",
+    "listen": "Play clip",
+    "useClip": "Use this clip",
+    "ready": "✓ Preview ready ({seconds}s). You can save the product."
+  },
+  "editor": {
+    "draftSaveError": "Failed to save draft.",
+    "outsideChange": "The draft was changed outside this editor. I loaded the current version; redo your last change if needed.",
+    "outsideRefresh": "The draft changed outside this editor. The screen was refreshed.",
+    "previewLink": {
+      "copied": "Preview link copied. Valid until {date}.",
+      "error": "Failed to create the preview link.",
+      "copy": "Copy preview link",
+      "label": "Preview link"
+    },
+    "published": "Published.",
+    "publishError": "Failed to publish.",
+    "discard": {
+      "title": "Discard draft?",
+      "description": "Unpublished changes will be lost. The preview goes back to the current state of the store.",
+      "confirm": "Discard",
+      "done": "Draft discarded.",
+      "error": "Failed to discard.",
+      "label": "Discard draft"
+    },
+    "versions": {
+      "loadError": "Failed to load history.",
+      "restoreTitle": "Restore this version?",
+      "restoreDescription": "The store will go back to how it was on that date. A backup of the current version is created automatically.",
+      "restore": "Restore",
+      "restored": "Version restored.",
+      "restoreError": "Failed to restore.",
+      "title": "Version history",
+      "description": "Each publish becomes a snapshot. Restoring takes the store back to how it was on that date.",
+      "empty": "No archived versions yet. Publish a change to start the history.",
+      "by": "by {user}"
+    },
+    "loading": "Loading editor…",
+    "removeBlock": {
+      "title": "Delete this block?",
+      "description": "The page is saved right away, so this cannot be undone.",
+      "confirm": "Delete",
+      "done": "Block deleted."
+    },
+    "undo": "Undo",
+    "status": {
+      "saving": "Saving…",
+      "draft": "Draft saved, not published yet",
+      "published": "Published"
+    },
+    "title": "Store editor",
+    "undoHint": "Undo (Ctrl+Z)",
+    "redo": "Redo",
+    "redoHint": "Redo (Ctrl+Y)",
+    "desktop": "View as on a computer",
+    "mobile": "View as on a phone",
+    "history": "History",
+    "viewLive": "View published store",
+    "viewStore": "View store",
+    "publish": {
+      "button": "Publish",
+      "title": "Publish changes",
+      "description": "The draft goes to the public store. A copy of the previous version is archived in the history, so you can go back later.",
+      "note": "Note (optional)",
+      "notePlaceholder": "E.g.: Black Friday promo",
+      "noteHint": "Shows up in the history so you remember what this version was.",
+      "now": "Publish now"
+    },
+    "saved": "Saved.",
+    "previewTitle": "Store preview",
+    "image": {
+      "title": "Change image",
+      "description": "The change shows up on the page right away.",
+      "done": "Done",
+      "background": "Background image",
+      "wideHint": "Wide, up to 1MB.",
+      "label": "Image"
+    },
+    "store": {
+      "logo": "Logo",
+      "logoHint": "Square, up to 256KB.",
+      "identity": "Identity",
+      "name": "Store name",
+      "namePlaceholder": "My Server",
+      "description": "Description",
+      "descriptionPlaceholder": "Official store of server X",
+      "banner": "Banner",
+      "bannerHint": "Wide, up to 1MB.",
+      "favicon": "Favicon",
+      "faviconHint": "Browser tab icon. Square (PNG/SVG), up to 256KB.",
+      "metaTitle": "Tab title",
+      "metaTitleHint": "Text shown in the browser tab and in search results. Empty = uses “Store name, Store”.",
+      "metaTitlePlaceholder": "Server X Store, Skins, VIP and more"
+    },
+    "tabs": {
+      "page": {
+        "label": "Sections",
+        "title": "Page sections"
+      },
+      "appearance": {
+        "label": "Look",
+        "title": "Store look"
+      },
+      "store": {
+        "label": "Store",
+        "title": "Store details"
+      },
+      "pages": {
+        "label": "Pages",
+        "title": "Extra pages"
+      },
+      "legal": {
+        "label": "Legal",
+        "title": "Terms and policies"
+      }
+    },
+    "areas": "Editor areas",
+    "closePanel": "Close panel",
+    "classic": {
+      "heroTitle": "Cover texts",
+      "heroHint": "The store cover's title, subtitle and button. You pick the cover style in the Cover block, on the Sections tab.",
+      "title": "Title",
+      "titlePlaceholder": "Welcome to the official store",
+      "subtitle": "Subtitle",
+      "subtitlePlaceholder": "VIP roles, rare items and more",
+      "ctaLabel": "Button text",
+      "ctaPlaceholder": "Join",
+      "ctaUrl": "Button URL",
+      "sectionsTitle": "Section texts",
+      "sectionsHint": "Customize the titles of the sections shown in your store. Empty = uses the default.",
+      "productsLabel": "Products section title (default \"Produtos\")",
+      "subscriptionsLabel": "Subscriptions section title (default \"Planos VIP\")"
+    },
+    "look": {
+      "theme": "Theme",
+      "themeHint": "Your blocks and texts stay as they are.",
+      "colors": "Colors",
+      "accent": "Main color",
+      "accentHint": "Buttons, prices and highlights.",
+      "secondary": "Secondary color",
+      "secondaryHint": "Badges and less prominent buttons.",
+      "background": "Store background",
+      "customBg": "Your background color",
+      "customBgHint": "Use a dark shade so the text stays readable.",
+      "cornersFonts": "Corners and fonts",
+      "layoutHint": "The layout of each part of the store is on the {tab} tab.",
+      "homeTab": "Sections"
+    },
+    "css": {
+      "title": "Custom CSS",
+      "hint": "Applies to every page of the store, on top of the theme. Each section has {attr} and, if you give it a name in \"Section style\", the class {className}. No @import; url() only with https.",
+      "locked": "Custom CSS is a Pro Max plan feature."
+    },
+    "announcement": {
+      "title": "Announcement bar",
+      "hint": "A fixed bar at the top of the store for quick notices (promo, free shipping, new drop). Empty = hidden.",
+      "text": "Announcement text",
+      "placeholder": "🚀 New drop available!",
+      "markdown": "Accepts **bold**, *italic*, `code` and [link](https://…). A link in the text replaces the link of the whole bar (you cannot have both).",
+      "url": "URL (optional)",
+      "bg": "Background color (optional, uses the main color)",
+      "textColor": "Text color (optional, picked for readability)"
+    },
+    "social": {
+      "title": "Social media",
+      "website": "Website",
+      "whatsappHint": "Shows up as a floating button in the corner of the store."
+    },
+    "installments": {
+      "title": "Installments on the price",
+      "show": "Show installments under the price",
+      "off": "Don't show",
+      "upTo": "Up to {n}x",
+      "interestFree": "Interest-free",
+      "interestFreeHint": "Turn on only if your Mercado Pago is set up for interest-free installments. When off, only the number of installments shows.",
+      "mpOnly": "Only applies with Mercado Pago enabled in the store, since it handles card installments."
+    },
+    "url": {
+      "title": "URL and visibility",
+      "public": "Public URL",
+      "copied": "URL copied.",
+      "active": "Store active",
+      "activeHint": "When off, the public URL returns 404."
+    },
+    "sales": {
+      "title": "Sales notification",
+      "hint": "Channel where the Bot posts each approved sale. Empty = uses the Bot's logs or a DM to the owner.",
+      "placeholder": "No channel, uses the Bot's logs or DM"
+    },
+    "legal": {
+      "title": "Legal pages",
+      "hint": "Raw Markdown (bold, lists, links). Each page becomes public at {path} and shows up in the footer. Mercado Pago and Brazilian law require a visible Refund Policy to sell.",
+      "terms": "Terms of Use",
+      "refund": "Refund Policy",
+      "privacy": "Privacy Policy",
+      "cookies": "Cookie Policy",
+      "placeholder": "Markdown for the {doc}…",
+      "fill": "Fill with the default Brazilian template"
+    },
+    "variants": {
+      "classic": "Classic",
+      "banner": "Banner",
+      "gradient": "Gradient",
+      "image": "With image",
+      "video": "With video",
+      "split": "Split",
+      "music": "With music",
+      "with_logo": "With logo",
+      "minimal": "Minimal",
+      "grid": "Grid",
+      "list": "List",
+      "thumbnail": "Thumbnails",
+      "masonry": "Masonry",
+      "cards": "Cards",
+      "table": "Table",
+      "carousel": "Carousel",
+      "text_only": "Text only",
+      "text_image": "Text and image",
+      "testimonials": "Testimonials",
+      "accordion": "Accordion",
+      "card": "Card",
+      "discord": "Discord",
+      "default": "Default",
+      "rich": "Full",
+      "row": "Row",
+      "mosaic": "Mosaic",
+      "logos": "Logos",
+      "sidebar": "Side menu",
+      "bar": "Bar",
+      "podium": "Podium"
+    },
+    "blocks": {
+      "hero": {
+        "label": "Cover",
+        "description": "Top of the store: title, logo and button"
+      },
+      "announcement": {
+        "label": "Announcement",
+        "description": "Fixed bar at the top"
+      },
+      "navbar": {
+        "label": "Menu",
+        "description": "Links and a button"
+      },
+      "catalog": {
+        "label": "Catalog",
+        "description": "Products with filters and search"
+      },
+      "featured": {
+        "label": "Featured",
+        "description": "Products marked as featured"
+      },
+      "plans": {
+        "label": "VIP plans",
+        "description": "Subscription plans, in the same layouts as the catalog"
+      },
+      "about": {
+        "label": "About",
+        "description": "About text"
+      },
+      "faq": {
+        "label": "Questions",
+        "description": "Frequently asked questions"
+      },
+      "cta": {
+        "label": "Call to action",
+        "description": "Invitation to join or buy"
+      },
+      "footer": {
+        "label": "Footer",
+        "description": "Legal links and social media"
+      },
+      "richtext": {
+        "label": "Text",
+        "description": "Free text, with bold, links and lists"
+      },
+      "columns": {
+        "label": "Columns",
+        "description": "1 to 4 columns of content"
+      },
+      "stats": {
+        "label": "Numbers",
+        "description": "Online players and other numbers"
+      },
+      "video": {
+        "label": "Video",
+        "description": "YouTube or Vimeo trailer"
+      },
+      "gallery": {
+        "label": "Gallery",
+        "description": "Server screenshots or partner logos"
+      },
+      "cards": {
+        "label": "Cards",
+        "description": "Photo cards: jobs, factions, cities"
+      },
+      "steps": {
+        "label": "Step by step",
+        "description": "How to start playing"
+      },
+      "reviews": {
+        "label": "Reviews",
+        "description": "What buyers thought"
+      },
+      "shop": {
+        "label": "Store with side menu",
+        "description": "Categories, featured item and Discord next to the products"
+      },
+      "goal": {
+        "label": "Monthly goal",
+        "description": "Bar showing how much is left to the sales goal"
+      },
+      "top_buyers": {
+        "label": "Top buyers",
+        "description": "Monthly ranking with the Discord name"
+      }
+    },
+    "summary": {
+      "customImage": "custom image",
+      "customGradient": "custom gradient",
+      "imageSet": "image set",
+      "heroVideoSet": "video set",
+      "music": "featured beat + player",
+      "globalAnnouncement": "uses the global announcement",
+      "links": "{count, plural, one {# link} other {# links}}",
+      "noLinks": "no links",
+      "button": "Button: {label}",
+      "columns": "{count, plural, one {# column} other {# columns}}",
+      "testimonials": "{count, plural, one {# testimonial} other {# testimonials}}",
+      "questions": "{count, plural, one {# question} other {# questions}}",
+      "empty": "empty",
+      "live": "live",
+      "numbers": "{count, plural, one {# number} other {# numbers}}",
+      "videoSet": "video set",
+      "noVideo": "no video",
+      "logos": "{count, plural, one {# logo} other {# logos}}",
+      "images": "{count, plural, one {# image} other {# images}}",
+      "cards": "{count, plural, one {# card} other {# cards}}",
+      "steps": "{count, plural, one {# step} other {# steps}}",
+      "reviews": "buyer reviews",
+      "shop": "categories on the side",
+      "goal": "goal of R$ {amount}",
+      "goalEmpty": "no goal amount",
+      "topBuyers": "top {count}"
+    },
+    "picker": {
+      "top": "Top",
+      "sell": "Sell",
+      "server": "Server",
+      "content": "Content",
+      "description": "Pick a section for the page.",
+      "community": "Community"
+    },
+    "addBlock": "Add block",
+    "field": {
+      "enable": "Enable"
+    },
+    "items": {
+      "defaultNoun": "item",
+      "remove": "Remove {noun}",
+      "add": "Add {noun}"
+    },
+    "groups": {
+      "content": "Content",
+      "media": "Image and colors",
+      "links": "Buttons and links"
+    },
+    "style": {
+      "title": "Section style",
+      "bg": "Background",
+      "bgDefault": "Default",
+      "bgTint": "Highlight (tint)",
+      "bgTransparent": "Transparent",
+      "bgColor": "Color",
+      "space": "Spacing",
+      "normal": "Normal",
+      "spacious": "Wide",
+      "xl": "Extra wide",
+      "bgImage": "Background image (https)",
+      "overlay": "Darken",
+      "width": "Width",
+      "narrow": "Narrow",
+      "align": "Text alignment",
+      "alignInherit": "From block",
+      "alignLeft": "Left",
+      "alignCenter": "Center",
+      "alignRight": "Right",
+      "textColor": "Text color",
+      "cssName": "Name (for custom CSS)",
+      "cssNamePlaceholder": "plans",
+      "anchor": "Section address (for the menu)",
+      "anchorPlaceholder": "gallery",
+      "anchorHint": "In the menu, use the link #{anchor}",
+      "visibility": "Visibility",
+      "always": "Always visible",
+      "hideMobile": "Hide on mobile",
+      "hideDesktop": "Hide on desktop"
+    },
+    "models": {
+      "title": "Change model",
+      "description": "Hover to see it on the page. You can undo it.",
+      "classic": "Go back to the old model, without blocks",
+      "useTitle": "Use the {name} layout?",
+      "useDescription": "Replaces this page's current blocks.",
+      "replace": "Replace",
+      "applied": "{name} layout applied.",
+      "classicTitle": "Go back to the store's old model?",
+      "classicUndo": "The store stops using blocks and goes back to the old model. You can undo with Ctrl+Z.",
+      "classicPage": "The page loses its current blocks.",
+      "classicConfirm": "Go back to the old model",
+      "blank": "Start from scratch (empty)",
+      "undo": "Undo",
+      "readyStores": "Ready store, with colors and fonts",
+      "structureOnly": "Structure only, keeping your colors"
+    },
+    "list": {
+      "moveUp": "Move up",
+      "moveDown": "Move down"
+    },
+    "columns": {
+      "item": "Column {n}",
+      "imageUrl": "Image URL (optional)",
+      "text": "Text (accepts markdown)",
+      "ctaLabel": "Button (text)",
+      "ctaUrl": "Button (URL)",
+      "add": "Add column"
+    },
+    "navbar": {
+      "label": "Label",
+      "href": "/products or https://…",
+      "external": "Open in a new tab",
+      "add": "Add link"
+    },
+    "faq": {
+      "question": "Question…",
+      "answer": "Answer…",
+      "add": "Add question"
+    },
+    "testimonials": {
+      "quote": "Testimonial…",
+      "author": "Author",
+      "role": "Role (optional)",
+      "add": "Add testimonial"
+    },
+    "blocksTitle": "Page blocks",
+    "allSections": "All sections",
+    "blockSettings": "Block settings",
+    "dragToReorder": "Drag to reorder",
+    "soon": "coming soon",
+    "hide": "Hide",
+    "show": "Show",
+    "duplicateBlock": "Duplicate block",
+    "removeBlockLabel": "Remove block",
+    "configure": "Configure",
+    "variant": "Style",
+    "noOptions": "No options for this style.",
+    "pages": {
+      "loadError": "Failed to load pages.",
+      "titleRequired": "Title is required.",
+      "invalidSlug": "Invalid slug. Use 2-40 chars (a-z, 0-9, hyphens).",
+      "created": "Page \"{title}\" created.",
+      "createError": "Failed to create page.",
+      "removeTitle": "Delete page \"{title}\"?",
+      "removeDescription": "The page {path} will disappear and its blocks will be lost. This cannot be undone.",
+      "removed": "Page deleted.",
+      "removeError": "Failed to delete page.",
+      "visibilityError": "Failed to change visibility.",
+      "blocksError": "Failed to save blocks.",
+      "editing": "Editing: {title}",
+      "url": "URL: {path}",
+      "backToList": "Back to list",
+      "title": "Custom pages",
+      "hint": "Create extra pages like {examples} using the page builder. Available at {path}.",
+      "empty": "No pages created yet. Create one below.",
+      "blockCount": "{count, plural, one {# block} other {# blocks}}",
+      "hide": "Hide page",
+      "show": "Show page",
+      "editBlocks": "Edit blocks",
+      "remove": "Delete page",
+      "new": "New page",
+      "followStore": "Match the store",
+      "followStoreSub": "navbar + footer",
+      "blank": "Blank",
+      "blankSub": "start from scratch",
+      "titlePlaceholder": "About us",
+      "slugPlaceholder": "about",
+      "create": "Create page"
+    },
+    "slug": {
+      "confirmTitle": "Change the store's slug?",
+      "confirmDescription": "The public URL becomes {url}. Old links with {old} stop working.",
+      "confirm": "Change",
+      "label": "Slug",
+      "placeholder": "my-store",
+      "willBe": "It will become {url}.",
+      "hint": "3 to 32 chars, lowercase letters, numbers and hyphens. Changing it changes the public URL and breaks old links."
+    },
+    "blocksEmptyTemplates": "Pick a model to start. It already comes with colors, how-to-buy text and questions: just make it yours.",
+    "productPage": "Product page"
+  },
+  "payments": {
+    "notCharging": "The store cannot charge yet: connect Mercado Pago, Stripe or Tebex.",
+    "connect": "Connect payment",
+    "title": "Payment methods",
+    "description": "Money from sales and subscriptions goes straight to the account you connect."
+  },
+  "templates": {
+    "hub": {
+      "label": "Hub",
+      "description": "Categories, featured item and Discord on the side, monthly goal and supporter ranking."
+    },
+    "daylight": {
+      "label": "Daylight",
+      "description": "Light theme, big store look: featured items, product grid and reviews."
+    },
+    "community": {
+      "label": "Community",
+      "description": "Side menu with the Discord, monthly goal and ranking, in green."
+    },
+    "sunrise": {
+      "label": "Sunrise",
+      "description": "Light and warm theme for digital products."
+    },
+    "city": {
+      "label": "City",
+      "description": "FiveM server: VIP, cars and items, with how to receive them in game."
+    },
+    "showcase": {
+      "label": "Showcase",
+      "description": "Digital products right at the top, clean and direct."
+    },
+    "pulse": {
+      "label": "Pulse",
+      "description": "Drops in a carousel and a catalog with wide images."
+    },
+    "crown": {
+      "label": "Crown",
+      "description": "Plans and subscriptions up front, with how to cancel."
+    },
+    "breeze": {
+      "label": "Breeze",
+      "description": "Featured items, products and plans, no ready text."
+    },
+    "grove": {
+      "label": "Grove",
+      "description": "About, product list, plans table and questions."
+    }
+  },
+  "productPage": {
+    "icons": {
+      "delivery": "Delivery",
+      "shield": "Security",
+      "support": "Support",
+      "star": "Quality",
+      "clock": "Speed",
+      "gift": "Gift",
+      "card": "Payment",
+      "refresh": "Exchange"
+    },
+    "suggested": {
+      "delivery": {
+        "title": "Instant delivery",
+        "text": "Get it as soon as the payment is approved."
+      },
+      "secure": {
+        "title": "Secure purchase",
+        "text": "Payment processed by Mercado Pago."
+      },
+      "support": {
+        "title": "Support on Discord",
+        "text": "Talk to the team if you need to."
+      }
+    },
+    "intro": "Guarantees shown below the buy button. With none, the page shows delivery and secure payment.",
+    "icon": "Icon",
+    "remove": "Remove guarantee",
+    "perkTitle": "Title",
+    "perkText": "Text",
+    "perkTextPlaceholder": "Get it as soon as the payment is approved. (optional)",
+    "add": "Add guarantee",
+    "useSuggested": "Use the 3 suggested",
+    "showReviews": "Show reviews",
+    "showReviewsHint": "Ratings and comments from people who bought the product.",
+    "showSimilar": "Show similar products",
+    "showSimilarHint": "Other products of the same category at the end of the page.",
+    "videoHint": "To show a video, paste the YouTube link on a line of the product description."
+  },
+  "selling": {
+    "buyXPayY": "Buy {buy}, pay {pay}",
+    "tierValue": "{percent}% from {amount}",
+    "tierQuantity": "{percent}% from {count} unit(s)",
+    "wholeStore": "Whole store",
+    "andMore": " and {count} more",
+    "loadFailed": "Could not load.",
+    "saveFailed": "Could not save.",
+    "deleteFailed": "Could not delete.",
+    "cashbackOn": "{percent}% cashback on.",
+    "cashbackOff": "Cashback off.",
+    "deleteConfirm": "Delete \"{name}\"?",
+    "deleteOfferConfirm": "Delete the offer for \"{name}\"?",
+    "loading": "Loading...",
+    "promotionsTitle": "Automatic promotions",
+    "promotionsHint": "They apply by themselves in the cart, no coupon. If two fit, the buyer gets the bigger one.",
+    "newPromotion": "New promotion",
+    "promotionsEmpty": "No promotions. E.g.: buy 3, pay 2; or 10% from 2 units and 20% from 4.",
+    "cols": {
+      "promotion": "Promotion",
+      "rule": "Rule",
+      "scope": "Applies to",
+      "status": "Status",
+      "actions": "Actions",
+      "offered": "Offered product",
+      "where": "Where it shows",
+      "when": "When",
+      "offerPrice": "Offer price"
+    },
+    "off": "Off",
+    "ended": "Ended",
+    "active": "Active",
+    "editNamed": "Edit {name}",
+    "deleteNamed": "Delete {name}",
+    "offersTitle": "Offers (upsell)",
+    "offersHint": "Suggest another product in the cart or right after the purchase, with a special price if you want.",
+    "newOffer": "New offer",
+    "offersEmpty": "No offers. E.g.: whoever takes the VIP sees the coin pack for R$ 10 less.",
+    "inCart": "In the cart",
+    "afterPurchase": "After the purchase",
+    "anyProduct": "Any product",
+    "withProducts": "With {names}",
+    "normalPrice": "Regular price",
+    "editOffer": "Edit offer",
+    "deleteOffer": "Delete offer",
+    "cashbackHint": "Part of each approved purchase comes back as credit for the next purchase in your store. The buyer uses the credit by signing in to the store. A refund or cancellation removes the credit earned.",
+    "percentage": "Percentage",
+    "cashbackRange": "0 = off. Up to 50%.",
+    "promotionSaved": "Promotion saved.",
+    "editPromotion": "Edit promotion",
+    "nameLabel": "Name (shown in the store)",
+    "namePlaceholder": "VIP week",
+    "type": "Type",
+    "typeBuyPay": "Buy X, pay Y",
+    "typeProgressive": "The more you take, the bigger the discount",
+    "buy": "Buy",
+    "pay": "Pay",
+    "freeCheapest": "The free units are always the cheapest ones.",
+    "tierCounts": "The tier counts",
+    "byQuantity": "By number of units",
+    "byValue": "By order value",
+    "fromValue": "From (R$)",
+    "fromUnits": "From (units)",
+    "discount": "Discount (%)",
+    "removeTier": "Remove tier",
+    "tier": "Tier",
+    "category": "Category",
+    "noCategory": "None in particular",
+    "productsLabel": "Products (with nothing checked and no category, it applies to the whole store)",
+    "endsAt": "Ends at (optional)",
+    "enabled": "On",
+    "offerSaved": "Offer saved.",
+    "whereCheckout": "In the cart, before paying",
+    "wherePostSale": "Right after the approved purchase",
+    "triggersLabel": "Shown to whoever takes (with nothing checked, any product)",
+    "priceLabel": "Offer price (R$, optional)",
+    "priceCap": "Regular price: {price}. The offer cannot go above it.",
+    "headline": "Headline (optional)",
+    "headlinePlaceholder": "Take it too and save"
+  },
+  "affiliatesTab": {
+    "programSaved": "Program saved.",
+    "payoutPaid": "Payout marked as paid.",
+    "payoutRejected": "Payout rejected: the amount goes back to the balance.",
+    "programTitle": "Affiliate program",
+    "programHint": "Each affiliate has their own link. Purchases through it (or with their coupon) earn a commission. You pay the payouts by Pix and mark them as paid here.",
+    "programOn": "Program on",
+    "defaultPercent": "Default commission (%)",
+    "cookieDays": "Link lasts (days)",
+    "minPayout": "Minimum payout (R$)",
+    "openSignup": "Open signup",
+    "openSignupHint": "Any signed-in buyer can become an affiliate through the store, with the default commission.",
+    "saveProgram": "Save program",
+    "payoutsWaiting": "Payouts waiting for you ({count})",
+    "paid": "I paid it",
+    "reject": "Reject",
+    "title": "Affiliates",
+    "newAffiliate": "New affiliate",
+    "empty": "No affiliates. Add someone or open signup to buyers.",
+    "cols": {
+      "affiliate": "Affiliate",
+      "link": "Link",
+      "commission": "Commission",
+      "orders": "Orders",
+      "sold": "Sold",
+      "toPay": "To pay"
+    },
+    "paused": "Paused",
+    "linkCopied": "Link copied.",
+    "saved": "Affiliate saved.",
+    "editAffiliate": "Edit affiliate",
+    "name": "Name",
+    "code": "Link code",
+    "commission": "Commission (%)",
+    "discordId": "Discord ID (optional)",
+    "email": "Email (optional)",
+    "pixKey": "Pix key (optional)",
+    "coupon": "Affiliate coupon",
+    "none": "None",
+    "linkHint": "The Discord or email links the affiliate to their store account (to see the balance and request payouts) and blocks commission on their own purchase.",
+    "active": "Active"
+  },
+  "reviewsTab": {
+    "stars": "{value} of 5 stars",
+    "loadFailed": "Could not load reviews.",
+    "hiddenToast": "Comment hidden from the store.",
+    "shownToast": "Comment is back in the store.",
+    "empty": "No reviews yet. Whoever receives a purchase can rate the product in the store purchases area.",
+    "search": "Search product, comment or person",
+    "filterLabel": "Filter reviews",
+    "filterAll": "All",
+    "filterLow": "1 and 2 stars",
+    "filterHidden": "Hidden comment",
+    "summary": "Average {average} of 5 across {count, plural, one {# review} other {# reviews}}. Hiding removes only the text from the store: the stars still count in the average.",
+    "emptyFilter": "No reviews in this filter.",
+    "cols": {
+      "product": "Product",
+      "rating": "Rating",
+      "comment": "Comment",
+      "who": "Reviewed by",
+      "date": "Date"
+    },
+    "noComment": "No comment",
+    "hiddenBadge": "Hidden from the store",
+    "show": "Show",
+    "hide": "Hide"
+  },
+  "customersTab": {
+    "loadFailed": "Could not load customers.",
+    "banTitle": "Block {name}?",
+    "banDescription": "This person can no longer buy or take free products in this store. What was already delivered stays.",
+    "ban": "Block",
+    "banned": "Buyer blocked.",
+    "banFailed": "Could not block.",
+    "unbanned": "Block removed.",
+    "unbanFailed": "Could not unblock.",
+    "customers": "customers",
+    "returning": "{count} bought more than once",
+    "newLast30": "{count} new in the last 30 days",
+    "returningLast30": "{count} came back in the last 30 days",
+    "search": "Search by name, Discord ID or email",
+    "filterLabel": "Filter customers",
+    "filterAll": "All",
+    "filterReturning": "Returning",
+    "filterBanned": "Blocked",
+    "empty": "Nobody bought yet. The list builds itself with each approved purchase.",
+    "emptyFilter": "Nobody in this filter.",
+    "cols": {
+      "customer": "Customer",
+      "orders": "Orders",
+      "total": "Total spent",
+      "last": "Last purchase"
+    },
+    "bannedBadge": "Blocked",
+    "bansHint": "People here cannot buy in this store. You can block someone who has not bought yet.",
+    "banPlaceholder": "Discord ID or email",
+    "banAria": "Discord ID or email to block",
+    "unban": "Unblock"
+  },
+  "integrations": {
+    "events": {
+      "approved": "Sale approved",
+      "refunded": "Sale refunded",
+      "cancelled": "Sale cancelled"
+    },
+    "createFailed": "Could not create.",
+    "testFailed": "The test failed: {error}",
+    "testOk": "The address answered {status}.",
+    "testError": "Test failed.",
+    "deleteConfirm": "Delete this webhook?",
+    "title": "Sale webhooks",
+    "hint": "MRI BOT notifies your system on each sale with a signed POST. Check the {header} header: HMAC-SHA256 of {payload} with the secret.",
+    "secretOnce": "Save the secret now: it will not show again.",
+    "copied": "Copied.",
+    "copy": "Copy",
+    "saved": "I saved it",
+    "empty": "No webhooks. Add your system https address below.",
+    "failed": "Failed: {error}",
+    "enabled": "On",
+    "test": "Test",
+    "rotate": "Change secret",
+    "newHook": "New webhook",
+    "urlPlaceholder": "https://your-system.com/mri/sales",
+    "add": "Add"
+  },
+  "tracking": {
+    "saved": "Integrations saved. They apply in the store on the next visit.",
+    "title": "Pixels, analytics and chat",
+    "hint": "Paste the code of each service. The store adds the script by itself and notifies the pixels when a purchase is approved. Empty turns it off.",
+    "save": "Save integrations",
+    "fields": {
+      "metaPixelId": {
+        "label": "Meta Pixel (Facebook and Instagram)",
+        "hint": "Only the digits of the pixel ID."
+      },
+      "tiktokPixelId": {
+        "label": "TikTok Pixel",
+        "hint": "The pixel code in Events Manager."
+      },
+      "ga4Id": {
+        "label": "Google Analytics 4",
+        "hint": "Measurement ID of the web stream."
+      },
+      "gtmId": {
+        "label": "Google Tag Manager",
+        "hint": "Container ID."
+      },
+      "googleAdsId": {
+        "label": "Google Ads",
+        "hint": "Marks purchases as conversions."
+      },
+      "clarityId": {
+        "label": "Microsoft Clarity",
+        "hint": "Project ID: records how people use the store."
+      },
+      "crispWebsiteId": {
+        "label": "Crisp chat",
+        "hint": "Website ID in the Crisp settings."
+      },
+      "tawkPropertyId": {
+        "label": "Tawk.to chat (property)",
+        "hint": "From the widget link: embed.tawk.to/PROPERTY/WIDGET."
+      },
+      "tawkWidgetId": {
+        "label": "Tawk.to chat (widget)",
+        "hint": "The second part of the same link."
+      }
+    }
+  },
+  "traffic": {
+    "change": "{change}% vs previous period",
+    "title": "Store visits",
+    "period": "Period",
+    "days": "{count} days",
+    "visits": "visits",
+    "orders": "approved orders",
+    "noVisits": "no visits",
+    "conversion": "of the visits became orders",
+    "before": "(before: {percent}%)",
+    "perDay": "Visits per day",
+    "direct": "Direct (typed or saved link)",
+    "other": "Other sites",
+    "hint": "Counts one visit per person per session. Links with {utm} show up with that name."
+  },
+  "invoice": {
+    "on": "Invoices on.",
+    "saved": "Settings saved.",
+    "title": "Invoice (Brazilian NFS-e)",
+    "hint": "Issues the service invoice through your NFe.io account on each approved order, in your company name, and cancels it on refund. The invoice goes out with the buyer email; if your city requires a CPF, it may be rejected and the reason shows on the order.",
+    "apiKey": "NFe.io API key",
+    "apiKeySaved": "Saved. Paste another to replace it.",
+    "apiKeyPlaceholder": "Paste the key (Account > Access keys)",
+    "companyId": "Company ID on NFe.io",
+    "cityCode": "City service code",
+    "cityCodePlaceholder": "E.g.: 0107",
+    "federalCode": "LC 116 item (optional)",
+    "federalCodePlaceholder": "E.g.: 1.07",
+    "description": "Description (before the product name)",
+    "descriptionPlaceholder": "Digital content use license",
+    "codesHint": "The codes come from your accountant. The key never comes back to the screen after it is saved.",
+    "enabled": "Issue invoices on approved orders",
+    "save": "Save invoice settings"
+  },
+  "fivemStore": {
+    "announceOn": "Purchases will be announced on the server.",
+    "announceOff": "Announcement off.",
+    "title": "Store inside FiveM",
+    "hint": "With the FiveM module installed, the player types {command} on the server, picks the product and pays by scanning the QR with their phone. Delivery is the same as the web store. Products with buyer choices stay in the web store only.",
+    "announce": "Announce purchases on the server",
+    "announceHint": "Everyone on the server sees \"Someone bought VIP\". It works as social proof."
+  },
+  "directory": {
+    "categories": {
+      "fivem": "FiveM",
+      "minecraft": "Minecraft",
+      "mta": "MTA",
+      "redm": "RedM",
+      "discord": "Discord community",
+      "digital": "Digital products",
+      "other": "Other"
+    },
+    "listed": "The store shows in the store list.",
+    "unlisted": "The store left the store list.",
+    "title": "Store list",
+    "hint": "Shows the store on the public page with every MRI BOT store, with search and categories. Nobody sees how much you sell: the order follows recent activity.",
+    "seeList": "See the list",
+    "show": "Show in the store list",
+    "category": "Category",
+    "noCategory": "No category"
+  },
+  "setupGuide": {
+    "payTitle": "Connect a payment method",
+    "payText": "Mercado Pago (Pix, card and boleto), Stripe or Tebex. The money goes straight to your account.",
+    "connect": "Connect",
+    "productTitle": "Create the first product",
+    "productText": "Name, price, photo and what the buyer gets: role, file, key, in-game item.",
+    "pageTitle": "Build the store page",
+    "pageText": "Pick a store model (digital products, FiveM or subscriptions), change the text and publish.",
+    "openEditor": "Open the editor",
+    "saleTitle": "Share it and make the first sale",
+    "saleText": "Send the link on your Discord or use /loja in a channel to post the buy button.",
+    "linkCopied": "Store link copied.",
+    "copyLink": "Copy link",
+    "title": "Get your store ready to sell",
+    "progress": "{done} of {total} steps done. Each step ticks itself when it is ready.",
+    "hide": "Hide the guide"
+  },
+  "orderDialog": {
+    "noMessages": "No messages yet.",
+    "sendFailed": "Could not send.",
+    "noteSaved": "Note saved.",
+    "chat": "Chat with the buyer",
+    "replyPlaceholder": "Reply (the buyer gets it by DM and sees it on the order page)",
+    "messageAria": "Message to the buyer",
+    "send": "Send",
+    "note": "Team note (the buyer does not see it)",
+    "tags": "Tags (separate with commas)",
+    "tagsPlaceholder": "vip, refund requested",
+    "saveNote": "Save note"
+  },
+  "productKeys": {
+    "loadFailed": "Could not load the keys.",
+    "addedSkipped": "{added} key(s) added, {skipped} duplicate(s) ignored.",
+    "added": "{added} key(s) added.",
+    "addFailed": "Could not add.",
+    "removeTitle": "Delete the unsold keys?",
+    "removeDescription": "Keys already delivered stay on the sale. The product is sold out until you paste others.",
+    "available": "available",
+    "delivered": "{count} delivered",
+    "placeholder": "One key, account or text per line\nXXXX-YYYY-ZZZZ\nuser:password",
+    "newKeys": "New keys",
+    "addCount": "Add {count} key(s)",
+    "add": "Add keys",
+    "removeUnsold": "Delete unsold",
+    "hideUsed": "Hide delivered",
+    "showUsed": "See last delivered",
+    "hint": "Duplicates are ignored. The next sale takes the oldest key on the list."
+  },
+  "choices": {
+    "intro": "The buyer picks one option from each list before paying (e.g.: which VIP car). Use {code} in the FiveM or MTA action fields to send the choice to the game.",
+    "name": "Choice name",
+    "namePlaceholder": "VIP car",
+    "remove": "Remove {name}",
+    "choice": "choice",
+    "options": "Options (one per line)",
+    "optionsHint": "Before the {eq} is what the buyer sees; after it is the value sent to the game. Key: {code}",
+    "add": "Add choice"
+  },
+  "abandonedCart": {
+    "saved": "Reminder saved.",
+    "title": "Abandoned cart",
+    "hint": "Whoever created the payment and did not pay gets a reminder with the link back: a Discord DM and an email (through the Gmail connected in Settings). Whoever bought later does not get it.",
+    "enabled": "Send reminder",
+    "wait": "Wait before reminding",
+    "waitAria": "Wait time",
+    "oneHour": "1 hour",
+    "minutes": "{count} min",
+    "waitHint": "A short wait catches the Pix while it is still valid; a long one does not bother people who were just slow.",
+    "message": "Message (optional)",
+    "messagePlaceholder": "Your order is waiting for payment. Want to finish the purchase?",
+    "save": "Save reminder",
+    "stats": "Last 30 days: {sent} reminder(s), {recovered} bought within 48 h."
+  }
+}

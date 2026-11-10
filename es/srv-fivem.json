@@ -1,0 +1,68 @@
+{
+  "defaultServerName": "Servidor principal",
+  "vars": {
+    "account": "Cuenta",
+    "amount": "Monto",
+    "item": "Ítem",
+    "quantity": "Cantidad",
+    "job": "Empleo",
+    "grade": "Nivel",
+    "gang": "Pandilla",
+    "model": "Modelo (spawn name)",
+    "plate": "Placa (opcional)",
+    "garage": "Garaje (opcional)",
+    "tier": "Tier"
+  },
+  "packs": {
+    "framework": {
+      "label": "Framework (QBCore, Qbox, ESX)",
+      "description": "Acciones de dinero, ítem, empleo, pandilla y revivir. Requieren el resource mri-botcreator actualizado, que detecta el framework y traduce. Pandilla no aplica en ESX (el core no la tiene)."
+    },
+    "mriQbox": {
+      "label": "MRI Qbox (VIP)",
+      "description": "Otorga y quita un tier de VIP con el comando de mri_Qbox. Solo funciona en servidores que usan mri_Qbox — con otro sistema de VIP, edita el comando de la acción después de importar."
+    }
+  },
+  "presets": {
+    "giveMoney": {
+      "label": "Dar dinero",
+      "description": "Deposita en la cuenta elegida del jugador."
+    },
+    "removeMoney": {
+      "label": "Quitar dinero",
+      "description": "Retira de la cuenta elegida del jugador."
+    },
+    "giveItem": {
+      "label": "Dar ítem",
+      "description": "Pone un ítem en el inventario del jugador."
+    },
+    "removeItem": {
+      "label": "Quitar ítem",
+      "description": "Quita un ítem del inventario del jugador."
+    },
+    "setJob": {
+      "label": "Definir empleo",
+      "description": "Cambia el empleo y el nivel del jugador."
+    },
+    "setGang": {
+      "label": "Definir pandilla",
+      "description": "Cambia la pandilla y el nivel del jugador (QBCore/Qbox)."
+    },
+    "revive": {
+      "label": "Revivir",
+      "description": "Revive al jugador donde esté."
+    },
+    "giveVehicle": {
+      "label": "Dar vehículo",
+      "description": "Pone un vehículo en el garaje del jugador (QBCore/Qbox)."
+    },
+    "giveVip": {
+      "label": "Dar VIP",
+      "description": "Activa un tier de VIP en el jugador."
+    },
+    "removeVip": {
+      "label": "Quitar VIP",
+      "description": "Quita un tier de VIP del jugador. Par natural de \"Dar VIP\" en rol→acción: entra cuando se gana el rol y sale cuando se pierde."
+    }
+  }
+}

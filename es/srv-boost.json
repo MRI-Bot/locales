@@ -1,0 +1,5 @@
+{
+  "defaultAnnounce": "🚀 ¡Gracias por el boost, '{member}'! El servidor te lo agradece.",
+  "roleAuditReason": "Boost del servidor",
+  "couponDm": "🎟️ ¡Gracias por el boost! Tu cupón de descuento: **{code}**"
+}

@@ -1,0 +1,53 @@
+{
+  "moderation": {
+    "actionNoun": {
+      "BAN": "Ban",
+      "SOFTBAN": "Softban",
+      "KICK": "Kick",
+      "MUTE": "Mute",
+      "UNMUTE": "Unmute",
+      "WARN": "Warning",
+      "NOTE": "Note",
+      "PRUNE": "Message cleanup",
+      "UNBAN": "Unban"
+    },
+    "actionVerb": {
+      "BAN": "banned",
+      "SOFTBAN": "softbanned",
+      "KICK": "kicked",
+      "MUTE": "muted",
+      "WARN": "warned",
+      "UNBAN": "unbanned",
+      "UNMUTE": "unmuted"
+    },
+    "dm": {
+      "body": "You were **{action}** on the server **{guild}**.\n\n**Reason:** {reason}\n**Case:** {case}",
+      "duration": "\n**Duration:** {duration}",
+      "appeal": "\n\nTo appeal, go to: {appealUrl}",
+      "noReason": "no reason given",
+      "guildFallback": "the server"
+    },
+    "modlog": {
+      "title": "Case #{caseNumber} — {action}",
+      "member": "Member",
+      "appliedBy": "Applied by",
+      "reason": "Reason",
+      "noReason": "_(no reason)_",
+      "duration": "Duration: {duration}"
+    },
+    "pruneReason": "{count, plural, =1 {# message} other {# messages}} in <#{channelId}>",
+    "pruneReasonRegex": "{count, plural, =1 {# message} other {# messages}} in <#{channelId}> (regex: {regex})",
+    "purgeReason": "{count, plural, =1 {# message} other {# messages}} from <@{userId}> across the whole server",
+    "purgeReasonDays": "{count, plural, =1 {# message} other {# messages}} from <@{userId}> across the whole server (last {days, plural, =1 {day} other {# days}})"
+  },
+  "honeypot": {
+    "defaultWarning": "⚠️ **Do not send messages in this channel.** Any message here results in an **automatic ban**. This is a trap channel against compromised/hacked accounts that spam every open channel."
+  },
+  "appeal": {
+    "defaultQuestion": {
+      "reason": "Why do you think the punishment should be reviewed?",
+      "context": "Any additional context?"
+    },
+    "guildFallback": "Server"
+  }
+}

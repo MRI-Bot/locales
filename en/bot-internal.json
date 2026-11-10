@@ -1,0 +1,119 @@
+{
+  "permissions": {
+    "viewChannel": "View Channel",
+    "readMessageHistory": "Read Message History",
+    "manageMessages": "Manage Messages"
+  },
+  "render": {
+    "openButton": "Open"
+  },
+  "selector": {
+    "placeholder": "Choose..."
+  },
+  "memberCounter": {
+    "members": "👥 **{count}** {n, plural, one {member} other {members}}",
+    "humans": "🙂 **{count}** {n, plural, one {human} other {humans}}",
+    "bots": "🤖 **{count}** {n, plural, one {bot} other {bots}}",
+    "boosts": "🚀 **{count}** {n, plural, one {boost} other {boosts}}",
+    "tier": "⭐ Level {tier}",
+    "updated": "-# Updated {time}"
+  },
+  "subscription": {
+    "planFallback": "your subscription",
+    "guildLabel": " in **{guild}**",
+    "periodLifetime": "Access is **lifetime** — it never expires.",
+    "periodMonths": "{count, plural, one {**# month**} other {**# months**}}",
+    "periodMonthsUntil": "That's {months} of access, valid until {date}.",
+    "periodUntil": "Access is valid until {date}.",
+    "nextDonation": "Next donation: {date}.",
+    "nextCharge": "Next charge: {date}.",
+    "cancelDonation": "Cancel recurring donation",
+    "cancelSubscription": "Cancel subscription",
+    "payNow": "Pay now",
+    "donationThanksTitle": "💚 Thanks for your donation: {plan}",
+    "activatedDonationBody": "Your recurring donation to **{plan}**{guild} has been confirmed. Thanks for your support!",
+    "activatedTitle": "✅ Subscription active: {plan}",
+    "activatedBody": "All set! Your **{plan}** subscription{guild} is now active.",
+    "renewedDonationTitle": "💚 Donation received: {plan}",
+    "renewedDonationBody": "Your recurring donation to **{plan}**{guild} has been renewed{price}. Thank you!",
+    "renewedTitle": "🔁 Renewal: {plan}",
+    "renewedBody": "Your **{plan}** subscription{guild} has been renewed{price}.",
+    "paymentFailedTitle": "⚠️ Payment not approved: {plan}",
+    "paymentFailedBody": "The charge for your **{plan}** subscription{guild} was not approved, so the role was removed.\n\nTo get it back, just pay through the link below, by Pix or card. The role comes back on its own as soon as the payment is approved.",
+    "paymentFailedDonationBody": "The charge for your recurring donation **{plan}**{guild} was not approved, so the role was removed.\n\nTo get it back, just pay through the link below, by Pix or card. The role comes back on its own as soon as the payment is approved.",
+    "cancelledTitle": "❌ Subscription cancelled: {plan}",
+    "cancelledBody": "Your **{plan}** subscription{guild} has been cancelled.",
+    "expiredTitle": "⏳ Subscription expired: {plan}",
+    "expiredBody": "Your **{plan}** subscription{guild} expired due to non-payment.",
+    "expiringTitle": "🔔 Renewing soon: {plan}",
+    "expiringBody": "Your **{plan}** subscription{guild} renews on {date}{price}.",
+    "soon": "soon",
+    "prepaidTitle": "✅ Access granted: {plan}",
+    "prepaidDonationBody": "Your donation to **{plan}**{guild} has been confirmed. Thanks for your support! {period}",
+    "prepaidBody": "Your purchase of **{plan}**{guild} has been confirmed. {period}",
+    "giftTitle": "🎁 You got: {plan}",
+    "giftFrom": " from {user}",
+    "giftBody": "You received **{plan}**{guild} as a gift{from}! {period}",
+    "updateTitle": "📬 Subscription update",
+    "updateBody": "Status: {type}"
+  },
+  "giveaway": {
+    "winners": "🎉 Congratulations {winners}! You won **{prize}**!",
+    "noParticipants": "😔 Giveaway **{prize}** ended with no eligible participants.",
+    "reminder": "⏰ About {time} left in the **{prize}** giveaway! There's still time to enter.{link}"
+  },
+  "tickets": {
+    "supportName": "Support"
+  },
+  "support": {
+    "memberFallback": "member",
+    "channelName": "support-{name}",
+    "escalateDefault": "A support conversation needs attention."
+  },
+  "lowRating": {
+    "title": "⚠️ Low rating: {rating}⭐",
+    "body": "Ticket **{tag}** ({subject}) was rated by the buyer {user}.",
+    "noSubject": "no subject",
+    "comment": "Buyer's comment"
+  },
+  "anon": {
+    "threadName": "Anonymous",
+    "dmFooter": "Reply from the team · your identity stays anonymous"
+  },
+  "marketplace": {
+    "saleTitle": "💰 Sale confirmed",
+    "product": "Product",
+    "buyer": "Buyer",
+    "amount": "Amount",
+    "fee": "MRI fee",
+    "coupon": "Coupon",
+    "deliveredTitle": "📦 Your purchase was delivered",
+    "approvedTitle": "🕓 Purchase approved",
+    "deliveredBody": "The team has finished delivering **{product}**.",
+    "approvedBody": "We received the payment for **{product}**. Delivery is handled by the team.",
+    "fileTitle": "📦 Your product has arrived",
+    "fileBody": "Thanks for purchasing **{product}**!",
+    "file": "File",
+    "size": "Size",
+    "fileFooter": "Save the file to your device — the link may be revoked if the store disables the product.",
+    "download": "⬇️ Download file"
+  },
+  "privacy": {
+    "erasureTitle": "🗑️ Deletion of your data scheduled",
+    "erasureBody": "We received a request to delete your data from MRI Bot. The deletion runs on **{when}**.\n\n**Wasn't you?** Cancel through the link below and change your Discord password — someone may have access to your account.",
+    "cancelLink": "Cancel the deletion"
+  },
+  "audit": {
+    "fivemNickname": "MRI FiveM — presence on the server",
+    "ticketDeleted": "Ticket deleted by staff",
+    "subscriptionActive": "Subscription active",
+    "referralReward": "Referral reward",
+    "whitelistRevoked": "Whitelist: approval removed by staff",
+    "whitelistApproved": "Whitelist approved",
+    "boostGranted": "Server Boost",
+    "boostEnded": "Boost ended",
+    "subscriptionEnded": "Subscription cancelled/expired",
+    "saleRefunded": "Sale refunded",
+    "botIdentity": "Per-server bot identity from the dashboard"
+  }
+}

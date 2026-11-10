@@ -1,0 +1,63 @@
+{
+  "disconnect": "Desconectar",
+  "disconnectFailed": "No se pudo desconectar.",
+  "mp": {
+    "loadFailed": "No se pudo cargar la conexión con Mercado Pago.",
+    "connectedToast": "¡Mercado Pago conectado!",
+    "connectError": "No se pudo conectar Mercado Pago: {error}",
+    "startFailed": "No se pudo iniciar la conexión con Mercado Pago.",
+    "disconnectTitle": "¿Desconectar Mercado Pago?",
+    "disconnectDescription": "No podrás recibir nuevas suscripciones ni ventas de la tienda hasta que vuelvas a conectar. Los suscriptores activos siguen con normalidad; los cobros recurrentes en curso continúan.",
+    "disconnected": "Mercado Pago desconectado.",
+    "loading": "Cargando conexión con Mercado Pago…",
+    "connectedTitle": "Mercado Pago conectado",
+    "manualBadge": "manual",
+    "connectedLine": "{account} · conectado el {date}",
+    "accountId": "ID de cuenta {id}",
+    "connectTitle": "Conecta tu cuenta de Mercado Pago",
+    "connectDescription": "Necesario para cobrar en Suscripciones y en la Tienda. Los cobros van directo a tu cuenta de Mercado Pago; la plataforma solo se queda con una tarifa de R$ 1 por venta (exento en Pro Max).",
+    "connect": "Conectar Mercado Pago",
+    "manual": {
+      "pasteToken": "Pega el access_token.",
+      "connected": "Conectado manualmente (modo dev).",
+      "failed": "Falló la conexión manual.",
+      "hide": "Ocultar",
+      "show": "Modo dev: conectar manualmente sin OAuth",
+      "tokenLabel": "Access Token de Mercado Pago (usuario de prueba vendedor)",
+      "submit": "Conectar",
+      "hint": "Omite OAuth; útil cuando localhost no tiene HTTPS para el callback de Mercado Pago."
+    }
+  },
+  "tebex": {
+    "connectedToast": "Tebex conectada. Los paquetes ya aparecen en tu tienda.",
+    "connectFailed": "No se pudo conectar Tebex.",
+    "disconnectTitle": "¿Desconectar Tebex?",
+    "disconnectDescription": "Los paquetes de Tebex salen de tu tienda. Tu cuenta y tus ventas en Tebex siguen allí.",
+    "disconnected": "Tebex desconectada.",
+    "connected": "Tebex conectada",
+    "connectedAs": "Tebex conectada: {account}",
+    "connectedDescription": "Tu tienda muestra los paquetes de Tebex. El pago, la entrega y el reembolso ocurren en Tebex, sin tarifa de la plataforma.",
+    "title": "Vende con Tebex",
+    "description": "Opcional. Muestra aquí los paquetes de tu tienda Tebex. El comprador paga en Tebex, sin necesidad de Discord.",
+    "publicToken": "Public Token",
+    "connect": "Conectar Tebex",
+    "tokenHint": "Obtenlo en {link}. Nunca pegues la Private Key: no es necesaria.",
+    "tokenHintLink": "Developers, API Keys"
+  },
+  "stripe": {
+    "linkExpired": "El enlace de registro de Stripe expiró. Continúa el registro de nuevo.",
+    "startFailed": "No se pudo iniciar el registro en Stripe.",
+    "disconnectTitle": "¿Desconectar Stripe?",
+    "disconnectDescription": "La tienda deja de aceptar pagos con Stripe. Tu cuenta de Stripe sigue existiendo.",
+    "disconnected": "Stripe desconectada.",
+    "connected": "Stripe conectada",
+    "pending": "Registro en Stripe pendiente",
+    "connectedDescription": "La tienda acepta tarjetas con Stripe, incluso desde fuera de Brasil.",
+    "pendingDescription": "El botón solo aparece en la tienda después de que Stripe apruebe tu cuenta.",
+    "continue": "Continuar registro",
+    "title": "Acepta tarjetas con Stripe",
+    "description": "Opcional. El dinero va directo a tu cuenta de Stripe; la plataforma solo se queda con una tarifa de R$ 1 por venta (exento en Pro Max).",
+    "email": "Correo de la cuenta de Stripe",
+    "connect": "Conectar Stripe"
+  }
+}

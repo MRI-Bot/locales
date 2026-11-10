@@ -1,0 +1,37 @@
+{
+  "title": "Permisos",
+  "loading": "Cargando catálogo...",
+  "description": "Controla quién puede usar cada comando del bot, por módulo. Override por rol, usuario, permiso de Discord o canal. {admin} siempre pasa. {blocked} gana sobre {allowed}. Sin override = permiso predeterminado del comando.",
+  "descriptionBlocked": "Bloqueado",
+  "descriptionAllowed": "permitido",
+  "overrideCount": "{count, plural, one {# override configurado.} other {# overrides configurados.}}",
+  "searchPlaceholder": "Buscar comando o módulo...",
+  "filterAll": "Todos",
+  "noResults": "Ningún comando coincide con la búsqueda.",
+  "badge": {
+    "public": "Público",
+    "custom": "Custom",
+    "default": "Predeterminado: {permission}",
+    "noDefault": "Sin restricción predeterminada"
+  },
+  "editor": {
+    "publicHint": "Comando público: cualquier miembro puede usarlo por defecto. Configura overrides abajo solo si quieres restringirlo.",
+    "allowedRoles": "Roles permitidos",
+    "deniedRoles": "Roles bloqueados (ganan sobre permitidos)",
+    "users": "Usuarios específicos (snowflake)",
+    "userIdPlaceholder": "User ID de Discord",
+    "allow": "Permitir",
+    "deny": "Bloquear",
+    "discordPermissions": "Permisos de Discord aceptados",
+    "channels": "Canales permitidos (vacío = cualquier canal)",
+    "addRole": "+ Añadir rol",
+    "reset": "Restaurar predeterminado",
+    "resetConfirmTitle": "¿Restaurar el predeterminado de /{command}?",
+    "resetConfirmLabel": "Restaurar",
+    "resetDone": "Predeterminado restaurado.",
+    "resetFailed": "No se pudo restaurar.",
+    "saved": "Permisos guardados.",
+    "saveFailed": "No se pudo guardar.",
+    "invalidUserId": "El User ID debe ser un snowflake (17-20 dígitos)."
+  }
+}

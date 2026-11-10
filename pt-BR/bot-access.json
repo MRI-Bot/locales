@@ -1,0 +1,21 @@
+{
+  "guildPending": "⏳ Este servidor ainda está aguardando aprovação da equipe MRI para usar o bot.",
+  "denied": {
+    "owner": "Este comando é restrito ao dono do bot.",
+    "admin": "Este comando é restrito à equipe da plataforma.",
+    "guildAdmin": "Você não tem permissão para usar este comando neste servidor."
+  },
+  "roleGate": {
+    "title": "Cargo necessário",
+    "poll": {
+      "fallback": "Esta enquete é exclusiva pra quem tem um cargo específico do servidor.",
+      "singular": "Esta enquete é exclusiva pra quem tem o cargo {role}.\nConsiga o cargo pra participar das próximas decisões!",
+      "plural": "Esta enquete é exclusiva pra quem tem um destes cargos: {roles}.\nConsiga um deles pra participar das próximas decisões!"
+    },
+    "suggestion": {
+      "fallback": "A votação de sugestões é exclusiva pra quem tem um cargo específico do servidor.",
+      "singular": "A votação de sugestões é exclusiva pra quem tem o cargo {role}.\nConsiga o cargo pra ajudar a decidir o futuro do servidor!",
+      "plural": "A votação de sugestões é exclusiva pra quem tem um destes cargos: {roles}.\nConsiga um deles pra ajudar a decidir o futuro do servidor!"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "header": {
+    "privacyPolicy": "Política de Privacidad"
+  },
+  "title": "Mis datos",
+  "intro": "Mira lo que tenemos sobre ti, descarga una copia o solicita la eliminación. No necesitas una cuenta en el panel: inicia sesión con el mismo Discord que usas en los servidores.",
+  "signIn": {
+    "scopePrefix": "Para ver tus datos, necesitamos confirmar que eres tú. Usamos solo el permiso",
+    "scopeSuffix": ", tu nombre de usuario y nada más.",
+    "button": "Iniciar sesión con Discord"
+  },
+  "errors": {
+    "request": "Falló la solicitud ({status})",
+    "export": "No se pudo exportar.",
+    "schedule": "No se pudo programar.",
+    "cancel": "No se pudo cancelar."
+  },
+  "summary": {
+    "title": "Lo que tenemos sobre ti",
+    "empty": "No se encontraron datos para este Discord."
+  },
+  "export": {
+    "button": "Descargar copia (JSON)",
+    "fileName": "mis-datos-mri-bot-{date}.json"
+  },
+  "ownedGuilds": {
+    "title": "Servidores que administras",
+    "bodyPrefix": "Los datos de estos servidores",
+    "bodyNot": "no",
+    "bodySuffix": "serán eliminados: en ellos el responsable del tratamiento es el servidor, y nosotros somos solo encargados del tratamiento. Para eliminarlos, quita el Bot del servidor; la eliminación ocurre 30 días después."
+  },
+  "erase": {
+    "title": "Eliminar mis datos",
+    "scheduledPrefix": "Eliminación programada para el",
+    "scheduledSuffix": ". Hasta entonces, puedes cancelarla.",
+    "cancel": "Cancelar eliminación",
+    "delayPrefix": "La eliminación se ejecuta",
+    "delayDays": "7 días",
+    "delaySuffix": "después de la solicitud. Esta espera existe para protegerte: si alguien toma tu cuenta y solicita la eliminación, hay tiempo para cancelarla.",
+    "retained": "Las compras, los casos de moderación y las apelaciones no se eliminan, se anonimizan. La ley permite conservar estos registros, y eliminarlos abriría la puerta para evadir baneos.",
+    "confirmWord": "eliminar",
+    "typePrefix": "Escribe",
+    "typeSuffix": "para confirmar:",
+    "schedule": "Programar eliminación"
+  },
+  "requests": {
+    "title": "Mis solicitudes",
+    "export": "Exportación",
+    "erasure": "Eliminación"
+  },
+  "cancel": {
+    "noToken": "Enlace sin token. Verifica que copiaste la dirección completa.",
+    "failed": "No se pudo cancelar.",
+    "unreachable": "No se pudo conectar con el servidor. Inténtalo de nuevo.",
+    "okTitle": "Eliminación cancelada",
+    "okBody": "Tus datos siguen donde estaban. No se eliminó nada.",
+    "okWarning": "Si no fuiste tú quien solicitó la eliminación, alguien podría tener acceso a tu cuenta de Discord. Cambia la contraseña y activa la verificación en dos pasos.",
+    "goToPortal": "Ir al portal de privacidad",
+    "invalidTitle": "Enlace inválido o ya usado",
+    "errorTitle": "Algo salió mal",
+    "portalHint": "También puedes cancelar iniciando sesión en el portal con tu Discord.",
+    "openPortal": "Abrir el portal"
+  }
+}

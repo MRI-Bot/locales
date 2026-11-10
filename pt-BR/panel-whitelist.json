@@ -1,0 +1,98 @@
+{
+  "header": {
+    "title": "Whitelist",
+    "description": "Inscrições em {guild}."
+  },
+  "tabs": {
+    "label": "Telas da Whitelist",
+    "list": "Inscrições",
+    "settings": "Configurações"
+  },
+  "filters": {
+    "label": "Filtrar inscrições",
+    "pending": "Pendentes",
+    "approved": "Aprovadas",
+    "rejected": "Rejeitadas",
+    "all": "Todas"
+  },
+  "answers": {
+    "yes": "Sim",
+    "no": "Não"
+  },
+  "errors": {
+    "load": "Não foi possível carregar as inscrições."
+  },
+  "approve": {
+    "action": "Aprovar",
+    "roleFailed": "Aprovada, mas o bot não conseguiu dar o cargo. No Discord, deixe o cargo do bot acima do cargo de aprovado.",
+    "success": "Inscrição aprovada",
+    "failed": "Não foi possível aprovar."
+  },
+  "reject": {
+    "action": "Rejeitar",
+    "success": "Inscrição rejeitada",
+    "failed": "Não foi possível rejeitar.",
+    "title": "Rejeitar inscrição",
+    "description": "Você está rejeitando a inscrição de {name}. A nota é opcional e será enviada ao usuário.",
+    "noteLabel": "Nota (opcional)",
+    "notePlaceholder": "Ex: Backstory muito curta, refaça com mais detalhes.",
+    "noteCount": "{count}/{max} caracteres"
+  },
+  "revoke": {
+    "action": "Remover aprovação",
+    "confirmTitle": "Remover aprovação?",
+    "confirmDescription": "{name} volta a poder se inscrever na whitelist, sem esperar. Se houver cargo de aprovado, o bot tira o cargo dela.",
+    "thePerson": "A pessoa",
+    "roleFailed": "Aprovação removida, mas o bot não conseguiu tirar o cargo. Tire à mão no Discord.",
+    "success": "Aprovação removida. A pessoa já pode se inscrever de novo.",
+    "failed": "Não foi possível remover a aprovação.",
+    "hint": "Libera a pessoa pra se inscrever de novo e tira o cargo de aprovado, se houver."
+  },
+  "search": {
+    "placeholder": "Buscar por nome ou ID do Discord"
+  },
+  "refreshList": "Atualizar lista",
+  "list": {
+    "count": "{count, plural, one {# inscrição} other {# inscrições}}",
+    "capped": ". Mostrando só as 200 mais recentes, use a busca para achar as antigas",
+    "loading": "Carregando inscrições..."
+  },
+  "nameOnly": {
+    "text": "Sem perguntas configuradas, quem clica em \"Aplicar\" preenche só o nome e a solicitação cai aqui pra você liberar. Pra perguntar mais, monte o formulário na aba {tab}."
+  },
+  "table": {
+    "member": "Membro",
+    "status": "Situação",
+    "source": "Origem",
+    "sent": "Enviada",
+    "decision": "Decisão"
+  },
+  "empty": {
+    "search": "Nenhuma inscrição bate com essa busca.",
+    "pending": "Nenhuma inscrição pendente no momento.",
+    "approved": "Nenhuma inscrição aprovada ainda.",
+    "rejected": "Nenhuma inscrição rejeitada.",
+    "all": "Nenhuma inscrição encontrada."
+  },
+  "source": {
+    "form": "Formulário",
+    "quiz": "Teste",
+    "release": "Liberação",
+    "code": "Código"
+  },
+  "status": {
+    "pending": "Pendente",
+    "approved": "Aprovada",
+    "rejected": "Rejeitada"
+  },
+  "row": {
+    "collapse": "Recolher respostas",
+    "expand": "Ver respostas",
+    "score": ", nota {score}%",
+    "noResponses": "Sem respostas registradas.",
+    "decidedBy": "Decidido por",
+    "decidedAutomatically": "Decidido automaticamente",
+    "decidedAt": "em {date}",
+    "noteSent": "Nota enviada:"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "inactive": "El Asistente IA no está activo en este servidor.",
+  "kb": {
+    "noPermission": "No tienes permiso para modificar la base de la IA.",
+    "titleLabel": "Pregunta o tema (opcional)",
+    "contentLabel": "Lo que la IA debe saber",
+    "modalUpdate": "Actualizar entrada de la base de la IA",
+    "modalAdd": "Añadir a la base de la IA",
+    "saveFailed": "No pude guardar ahora. Inténtalo de nuevo en un momento.",
+    "added": "✅ Añadido a la base de la IA ({used} de {max} caracteres usados). Puedes editarlo en el panel, en Asistente IA.",
+    "updated": "✅ Actualizado en la base de la IA ({used} de {max} caracteres usados). Puedes editarlo en el panel, en Asistente IA.",
+    "tooLong": "No cabe: la base ya tiene {used} de {max} caracteres. Acorta el texto o borra entradas en el panel.",
+    "notFound": "Este servidor aún no está registrado en el panel.",
+    "empty": "El contenido llegó vacío — no se añadió nada."
+  },
+  "respond": {
+    "disabled": "El Asistente IA está desactivado en este servidor. Actívalo en **Asistente IA** en el panel.",
+    "empty": "Este mensaje no tiene texto (ni imagen que la IA pueda leer) para responder.",
+    "noAnswer": "La IA no respondió: el mensaje no parece una duda, o el proveedor falló.",
+    "escalated": "La IA no encontró esto en la base de conocimiento, así que no publiqué nada. Conviene responder a mano y, si es frecuente, añadirlo a la base.",
+    "failed": "No pude responder ahora (backend caído o sin permiso para enviar en el canal). Inténtalo de nuevo en un momento.",
+    "noPermission": "No tienes permiso para pedir una respuesta a la IA.",
+    "pickMember": "Elige el mensaje de un miembro, no el de un bot.",
+    "answered": "✅ Respondido."
+  },
+  "feedback": {
+    "already": "Ya valoraste esta respuesta. 🙂",
+    "up": "¡Gracias! Esto ayuda a mejorar las respuestas. 👍",
+    "down": "Anotado — lo usaré para mejorar. 👎",
+    "failed": "No pude registrarlo ahora. Inténtalo de nuevo en un momento.",
+    "helped": "Me ayudó",
+    "notHelped": "No me ayudó"
+  },
+  "thinking": "🔎 Consultando la base…",
+  "threadName": "Ayuda • {user}",
+  "sources": "Fuentes",
+  "sourceFallback": "fuente"
+}

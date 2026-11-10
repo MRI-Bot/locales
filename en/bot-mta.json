@@ -1,0 +1,18 @@
+{
+  "guildOnly": "Use this command inside a server.",
+  "unknownFailure": "Unknown failure.",
+  "link": {
+    "guildOnly": "Use this command inside the server where MTA is set up.",
+    "doneTitle": "Account linked",
+    "done": "Your Discord account was linked to serial `{serial}`. Rejoin the MTA server if you're still waiting — you'll get in automatically.",
+    "failedTitle": "Couldn't link"
+  },
+  "unlink": {
+    "noPermission": "You don't have permission to unlink accounts.",
+    "nothingTitle": "Nothing to do",
+    "nothing": "{user} has no MTA link on this server.",
+    "doneTitle": "Link removed",
+    "done": "Removed {count, plural, one {# link} other {# links}} from {user}. They can run `{command}` again on their next connection.",
+    "failedTitle": "Failed to unlink"
+  }
+}

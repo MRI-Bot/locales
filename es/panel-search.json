@@ -1,0 +1,303 @@
+{
+  "targets": {
+    "discord_admin": {
+      "overview": {
+        "label": "Resumen de moderación",
+        "keywords": "resumen sanciones vigentes"
+      },
+      "moderation": {
+        "label": "Casos de moderación",
+        "keywords": "banear expulsar silenciar advertir sanción limpiar mensajes"
+      },
+      "cases": {
+        "label": "Historial por miembro",
+        "keywords": "expediente sanciones de un usuario"
+      },
+      "appeals": {
+        "label": "Apelaciones",
+        "keywords": "recurso revisar sanción"
+      },
+      "automod": {
+        "label": "Protección automática",
+        "keywords": "anti-invitación invitación enlaces adjuntos honeypot moderación con ia automoderación automod spam"
+      },
+      "logs": {
+        "label": "Registros del servidor",
+        "keywords": "logs canal de log mensaje borrado entró salió"
+      },
+      "welcome": {
+        "label": "Bienvenida",
+        "keywords": "salida despedida welcome mensaje de entrada"
+      },
+      "autorole": {
+        "label": "Rol automático",
+        "keywords": "autorole rol al entrar"
+      },
+      "selectors": {
+        "label": "Selectores de rol",
+        "keywords": "reaction role botón desplegable elegir rol"
+      },
+      "membercounter": {
+        "label": "Contador de miembros",
+        "keywords": "canal contador"
+      },
+      "settings": {
+        "label": "Ajustes de moderación",
+        "keywords": "modlog dm raid"
+      },
+      "health": {
+        "label": "Salud del bot",
+        "keywords": "permisos estado diagnóstico"
+      }
+    },
+    "forum": {
+      "topics": {
+        "label": "Temas del foro",
+        "keywords": "foro moderar ocultar fijar cerrar tema sitio público"
+      },
+      "settings": {
+        "label": "Ajustes del foro",
+        "keywords": "foro dirección categorías aviso discord en línea"
+      },
+      "blocks": {
+        "label": "Bloqueados del foro",
+        "keywords": "foro bloquear desbloquear autor"
+      }
+    },
+    "tickets": {
+      "overview": {
+        "label": "Resumen de tickets",
+        "keywords": "rendimiento tiempo medio notas hora pico agentes"
+      },
+      "queue": {
+        "label": "Atenciones",
+        "keywords": "cola tickets abiertos transferir cerrar prioridad"
+      },
+      "settings": {
+        "label": "Ajustes de tickets",
+        "keywords": "panel publicar tipos formulario blacklist"
+      }
+    },
+    "store": {
+      "finance": {
+        "label": "Finanzas",
+        "keywords": "dinero facturación ingresos recibido exportar planilla"
+      },
+      "products": {
+        "label": "Productos",
+        "keywords": "crear producto stock"
+      },
+      "sales": {
+        "label": "Ventas",
+        "keywords": "pedidos compras reembolso"
+      },
+      "plans": {
+        "label": "Planes de suscripción",
+        "keywords": "suscripciones recurrente paquetes"
+      },
+      "subscribers": {
+        "label": "Suscriptores",
+        "keywords": "suscripciones cancelar"
+      },
+      "coupons": {
+        "label": "Cupones",
+        "keywords": "descuento"
+      },
+      "categories": {
+        "label": "Categorías de la tienda"
+      },
+      "settings": {
+        "label": "Ajustes de la tienda",
+        "keywords": "mercado pago pago"
+      },
+      "reviews": {
+        "label": "Reseñas de la tienda",
+        "keywords": "estrellas comentario nota ocultar"
+      },
+      "customers": {
+        "label": "Clientes y visitas de la tienda",
+        "keywords": "compradores bloquear banear recurrentes visitas conversión origen"
+      },
+      "selling": {
+        "label": "Promociones, ofertas y cashback",
+        "keywords": "lleva 3 paga 2 progresiva upsell oferta cashback crédito carrito abandonado recordatorio"
+      },
+      "affiliates": {
+        "label": "Afiliados de la tienda",
+        "keywords": "referido comisión enlace ref retiro pix"
+      },
+      "integrations": {
+        "label": "Integraciones de la tienda",
+        "keywords": "pixel meta facebook tiktok google analytics gtm clarity crisp tawk webhook factura nfe fivem anuncio"
+      }
+    },
+    "whitelist": {
+      "list": {
+        "label": "Solicitudes de whitelist",
+        "keywords": "aprobar rechazar solicitud"
+      },
+      "settings": {
+        "label": "Ajustes de whitelist",
+        "keywords": "formulario preguntas rol de aprobado prueba código"
+      }
+    },
+    "messages": {
+      "compose": {
+        "label": "Escribir mensaje",
+        "keywords": "anuncio enviar programar recurrente aviso"
+      },
+      "history": {
+        "label": "Historial de mensajes",
+        "keywords": "anuncios enviados programados fallo"
+      },
+      "templates": {
+        "label": "Plantillas de mensaje",
+        "keywords": "template plantilla"
+      }
+    },
+    "giveaways": {
+      "list": {
+        "label": "Lista de sorteos",
+        "keywords": "premio ganadores participantes"
+      },
+      "overview": {
+        "label": "Resumen de sorteos",
+        "keywords": "mejor horario participaciones"
+      }
+    },
+    "polls": {
+      "list": {
+        "label": "Lista de encuestas",
+        "keywords": "votación votos quién votó cerrar"
+      },
+      "overview": {
+        "label": "Resumen de encuestas",
+        "keywords": "más votadas números"
+      }
+    },
+    "fivem": {
+      "dashboard": {
+        "label": "Resumen de FiveM",
+        "keywords": "jugadores en línea números"
+      },
+      "config": {
+        "label": "Ajustes de FiveM",
+        "keywords": "api key clave allowlist cola conectar servidor"
+      },
+      "links": {
+        "label": "Vínculos de FiveM",
+        "keywords": "vincular cuenta license discord jugador"
+      },
+      "moderation": {
+        "label": "Moderación en FiveM",
+        "keywords": "banear kick jugador en el juego"
+      },
+      "cards": {
+        "label": "Tarjeta de conexión de FiveM",
+        "keywords": "cards adaptive card pantalla al conectar"
+      },
+      "actions": {
+        "label": "Acciones en FiveM",
+        "keywords": "comando en el juego automatización"
+      },
+      "deliveries": {
+        "label": "Entregas en FiveM",
+        "keywords": "entregar ítem compra en el juego"
+      },
+      "statusPanel": {
+        "label": "Panel de estado de FiveM",
+        "keywords": "status panel en línea online"
+      },
+      "cdn": {
+        "label": "CDN de FiveM",
+        "keywords": "imágenes archivos"
+      },
+      "activity": {
+        "label": "Actividad de FiveM",
+        "keywords": "eventos"
+      },
+      "logs": {
+        "label": "Logs de FiveM",
+        "keywords": "consola registros"
+      }
+    },
+    "mta": {
+      "dashboard": {
+        "label": "Resumen de MTA"
+      },
+      "config": {
+        "label": "Ajustes de MTA",
+        "keywords": "api key clave"
+      },
+      "messages": {
+        "label": "Mensajes de MTA"
+      },
+      "actions": {
+        "label": "Acciones en MTA",
+        "keywords": "comando en el juego"
+      },
+      "deliveries": {
+        "label": "Entregas en MTA",
+        "keywords": "entregar ítem compra"
+      },
+      "statusPanel": {
+        "label": "Panel de estado de MTA",
+        "keywords": "status panel en línea online"
+      }
+    },
+    "voice": {
+      "hubs": {
+        "label": "Canales de voz temporales",
+        "keywords": "hubs crear canal"
+      },
+      "active": {
+        "label": "Canales de voz activos"
+      }
+    },
+    "boost": {
+      "overview": {
+        "label": "Resumen de Boost",
+        "keywords": "mejora nitro"
+      },
+      "rewards": {
+        "label": "Recompensas de Boost",
+        "keywords": "mejora nitro rol"
+      },
+      "boosters": {
+        "label": "Quién mejora",
+        "keywords": "boosters mejora nitro"
+      }
+    },
+    "gamification": {
+      "overview": {
+        "label": "Resumen de XP y niveles",
+        "keywords": "gamificación"
+      },
+      "rewards": {
+        "label": "Roles de recompensa por nivel",
+        "keywords": "xp gamificación"
+      },
+      "multipliers": {
+        "label": "Multiplicadores de XP",
+        "keywords": "gamificación"
+      },
+      "noxp": {
+        "label": "Bloqueos de XP",
+        "keywords": "canal sin xp gamificación"
+      },
+      "levelup": {
+        "label": "Mensaje de level-up",
+        "keywords": "subió de nivel xp"
+      },
+      "ranking": {
+        "label": "Ranking de XP",
+        "keywords": "tabla top miembros"
+      }
+    }
+  },
+  "footer": {
+    "navigate": "navegar",
+    "select": "seleccionar",
+    "close": "cerrar"
+  }
+}

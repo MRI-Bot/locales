@@ -1,0 +1,53 @@
+{
+  "moderation": {
+    "actionNoun": {
+      "BAN": "Banimento",
+      "SOFTBAN": "Softban",
+      "KICK": "Expulsão",
+      "MUTE": "Silenciamento",
+      "UNMUTE": "Dessilenciamento",
+      "WARN": "Advertência",
+      "NOTE": "Anotação",
+      "PRUNE": "Limpeza de mensagens",
+      "UNBAN": "Desbanimento"
+    },
+    "actionVerb": {
+      "BAN": "banido",
+      "SOFTBAN": "banido temporariamente",
+      "KICK": "expulso",
+      "MUTE": "silenciado",
+      "WARN": "advertido",
+      "UNBAN": "desbanido",
+      "UNMUTE": "dessilenciado"
+    },
+    "dm": {
+      "body": "Você foi **{action}** no servidor **{guild}**.\n\n**Motivo:** {reason}\n**Caso:** {case}",
+      "duration": "\n**Duração:** {duration}",
+      "appeal": "\n\nPara apelar, acesse: {appealUrl}",
+      "noReason": "sem motivo especificado",
+      "guildFallback": "o servidor"
+    },
+    "modlog": {
+      "title": "Caso #{caseNumber} — {action}",
+      "member": "Membro",
+      "appliedBy": "Aplicado por",
+      "reason": "Motivo",
+      "noReason": "_(sem motivo)_",
+      "duration": "Duração: {duration}"
+    },
+    "pruneReason": "{count, plural, =1 {# mensagem} other {# mensagens}} em <#{channelId}>",
+    "pruneReasonRegex": "{count, plural, =1 {# mensagem} other {# mensagens}} em <#{channelId}> (regex: {regex})",
+    "purgeReason": "{count, plural, =1 {# mensagem} other {# mensagens}} de <@{userId}> em todo o servidor",
+    "purgeReasonDays": "{count, plural, =1 {# mensagem} other {# mensagens}} de <@{userId}> em todo o servidor ({days, plural, =1 {último dia} other {últimos # dias}})"
+  },
+  "honeypot": {
+    "defaultWarning": "⚠️ **Não envie mensagens neste canal.** Qualquer mensagem aqui resulta em **banimento automático**. Este é um canal-armadilha contra contas comprometidas/invadidas que mandam spam em todos os canais abertos."
+  },
+  "appeal": {
+    "defaultQuestion": {
+      "reason": "Por que você acha que a punição deve ser revista?",
+      "context": "Algum contexto adicional?"
+    },
+    "guildFallback": "Servidor"
+  }
+}

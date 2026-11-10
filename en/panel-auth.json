@@ -1,0 +1,29 @@
+{
+  "login": {
+    "badge": "Dashboard for Discord communities",
+    "title": "Sign in with Discord and set up each server in its own dashboard.",
+    "description": "Access is granted per server: if the Bot is installed and you have permission, the dashboard is ready for you to set up modules, channels and automations.",
+    "validating": "Validating sign-in...",
+    "signIn": "Sign in with Discord",
+    "footnote": "You sign in with your Discord account. No server opens without manage permission.",
+    "preview": {
+      "server": "Server",
+      "activeModules": "active modules",
+      "permissions": "permissions",
+      "botInstalled": "Bot installed",
+      "dashboardUnlocked": "Dashboard unlocked for administrators."
+    }
+  },
+  "pending": {
+    "title": "Awaiting approval",
+    "introPrefix": "The server",
+    "introSuffix": "hasn't been approved yet. We're in closed beta and each server is approved manually. Until then, the dashboard stays locked and the Bot doesn't respond to commands in this server. It's still there, just paused.",
+    "meaningLabel": "What this means:",
+    "meaning": "the Bot is already in the server, but the dashboard, commands and webhooks stay locked until approval.",
+    "howLabel": "How to get access:",
+    "howPrefix": "contact the MRI team through the link below and include the server ID (",
+    "howSuffix": ").",
+    "requestAccess": "Request access",
+    "back": "Back to server list"
+  }
+}

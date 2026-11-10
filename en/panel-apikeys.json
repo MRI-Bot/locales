@@ -1,0 +1,375 @@
+{
+  "activity": {
+    "areas": {
+      "discordSetup": "Discord setup",
+      "discordAdmin": "Discord Admin",
+      "community": "Community",
+      "tickets": "Tickets",
+      "giveaways": "Giveaways",
+      "polls": "Polls",
+      "messages": "Messages",
+      "gamification": "Gamification",
+      "social": "Social alerts",
+      "boost": "Boost",
+      "whitelist": "Whitelist",
+      "aiHelper": "AI Assistant",
+      "planning": "Planning",
+      "voice": "Voice",
+      "store": "Store",
+      "subscriptionPlans": "Subscriptions",
+      "projects": "Projects",
+      "media": "Media"
+    },
+    "verbs": {
+      "post": "Created or ran",
+      "put": "Changed",
+      "delete": "Removed"
+    },
+    "verbIn": "{verb} in",
+    "outcome": {
+      "success": "Done",
+      "denied": "Denied",
+      "error": "Error"
+    },
+    "loadError": "Could not load the activity.",
+    "title": "Key activity",
+    "description": "What each key changed on the server in the last 6 months. Game server traffic (FiveM, MTA) is not included.",
+    "filter": "Filter by key",
+    "allKeys": "All keys",
+    "empty": "No changes made by a key yet.",
+    "deletedKey": "Deleted key",
+    "loading": "Loading...",
+    "loadMore": "Load more"
+  },
+  "header": {
+    "title": "API keys",
+    "description": "Keys for {guild}. Use keys for FiveM servers, integrations and for an AI to configure this server."
+  },
+  "supportAccess": "Support access",
+  "createNew": "Create new key",
+  "loadError": "Could not load the keys.",
+  "loadingKeys": "Loading keys...",
+  "empty": "No keys created yet. Click \"Create new key\" to get started.",
+  "supportDefaultName": "MRI support",
+  "errors": {
+    "nameLength": "Name must be between 2 and 50 characters.",
+    "noScope": "Select at least one scope for the key.",
+    "create": "Could not create the key.",
+    "copyManual": "Could not copy. Select it manually.",
+    "revoke": "Could not revoke.",
+    "saveScopes": "Could not save the permissions.",
+    "delete": "Could not delete.",
+    "reveal": "Could not reveal the key.",
+    "copy": "Could not copy."
+  },
+  "toast": {
+    "revoked": "Key revoked",
+    "scopesSaved": "Permissions saved",
+    "deleted": "Key deleted"
+  },
+  "created": {
+    "title": "Key created successfully",
+    "saveNow": "⚠️ Save this key now.",
+    "revealLater": "You can reveal it again later with the \"Reveal\" button on the key card.",
+    "prefixName": "Prefix: {prefix} · Name: {name}",
+    "aiHint": "Using it with an AI? Copy it now with this key: the connector address (ChatGPT or Claude) or the instructions (AI in the terminal).",
+    "connectorUrl": "Connector address",
+    "aiInstructions": "Instructions for the AI"
+  },
+  "copied": "Copied",
+  "copy": "Copy",
+  "create": {
+    "title": "Create new API key",
+    "supportDescription": "Comes with 7 days and the configuration permissions of the enabled modules, without sales, subscribers or publishing the store. Review, create and send the key to the team. Revoke it when the support is over.",
+    "description": "Give it a descriptive name to identify where the key will be used.",
+    "name": "Name",
+    "namePlaceholder": "Main FiveM server",
+    "nameHint": "Between 2 and 50 characters.",
+    "expiry": "Expiration",
+    "submit": "Create"
+  },
+  "expiry": {
+    "none": "No expiration",
+    "days": "{count, plural, one {# day} other {# days}}"
+  },
+  "editScopes": {
+    "title": "Key permissions",
+    "description": "What the key {name} can do. Applies on the next use of the key, without replacing it."
+  },
+  "deleteDialog": {
+    "title": "Delete key?",
+    "description": "Delete the key {name}? Applications using this key stop working immediately. This action cannot be undone."
+  },
+  "picker": {
+    "label": "Access scopes",
+    "count": "({selected} of {total})",
+    "selectAll": "Select all",
+    "clear": "Clear",
+    "groupOff": "Unselect group",
+    "groupOn": "Select group"
+  },
+  "status": {
+    "revoked": "Revoked",
+    "expired": "Expired",
+    "expiresIn": "{count, plural, one {Expires in # day} other {Expires in # days}}",
+    "active": "Active"
+  },
+  "card": {
+    "prefix": "Prefix: {prefix}",
+    "createdBy": "Created on {date} by {user}",
+    "lastUsed": "Last used: {date}",
+    "neverUsed": "Never used",
+    "expiresAt": "Expires on {date}",
+    "hide": "Hide",
+    "reveal": "Reveal",
+    "permissions": "Permissions",
+    "revoke": "Revoke",
+    "delete": "Delete"
+  },
+  "scopes": {
+    "fivem": {
+      "label": "FiveM",
+      "description": "Allows role verification on the FiveM server"
+    },
+    "fivem_config_read": {
+      "label": "FiveM: view settings",
+      "description": "Allows reading the module settings. Do not give this permission to the key that lives in server.cfg."
+    },
+    "fivem_config_write": {
+      "label": "FiveM: change settings",
+      "description": "Allows changing linking, entry, nickname, role actions, ACE permissions and status panels. Can grant admin power in game. Do not give it to the key that lives in server.cfg."
+    },
+    "mta": {
+      "label": "MTA",
+      "description": "Allows linking and role verification on the MTA server"
+    },
+    "mta_config_read": {
+      "label": "MTA: view settings",
+      "description": "Allows reading the module settings. The server password is never shown. Do not give it to the game server key."
+    },
+    "mta_config_write": {
+      "label": "MTA: change settings",
+      "description": "Allows changing linking, entry and status panels. The server address and password stay in the dashboard only. Do not give it to the game server key."
+    },
+    "media_write": {
+      "label": "Media: upload",
+      "description": "Allows uploading and deleting files. This is the scope for the game server resource."
+    },
+    "media_read": {
+      "label": "Media: list",
+      "description": "Allows listing the library and viewing usage. Do not give this to the game server key."
+    },
+    "projects": {
+      "label": "Projects",
+      "description": "Unlocks the boards and tasks API: read, create, edit, move and delete."
+    },
+    "storefront_read": {
+      "label": "Store: read",
+      "description": "Allows reading the store, the draft, the version history and which payment methods are active."
+    },
+    "storefront_write": {
+      "label": "Store: edit draft",
+      "description": "Allows editing and discarding the draft. Nothing goes live without publishing."
+    },
+    "storefront_publish": {
+      "label": "Store: publish",
+      "description": "Allows publishing the draft, restoring old versions and changing the visible page. The change goes live immediately."
+    },
+    "storefront_settings": {
+      "label": "Store: settings",
+      "description": "Allows changing the store address, turning the store on or off, the sales channel and the custom domain. Goes live immediately."
+    },
+    "products_read": {
+      "label": "Products: read",
+      "description": "Allows reading products and categories. Only the delivery type (role, file, command) shows, without details."
+    },
+    "products_write": {
+      "label": "Products: edit",
+      "description": "Allows creating, editing, reordering and archiving products and categories. Goes live immediately; delivery can only be copied from another product and is edited in the dashboard."
+    },
+    "coupons_read": {
+      "label": "Coupons: read",
+      "description": "Allows reading the discount coupons."
+    },
+    "coupons_write": {
+      "label": "Coupons: edit",
+      "description": "Allows creating, editing and deleting discount coupons. Applies immediately."
+    },
+    "sales_read": {
+      "label": "Sales: read",
+      "description": "Allows reading store sales, with buyer and transaction. Refunds and redelivery stay in the dashboard only."
+    },
+    "plans_read": {
+      "label": "Plans: read",
+      "description": "Allows reading the subscription plans as they appear in the store (without the plan actions)."
+    },
+    "plans_write": {
+      "label": "Plans: edit",
+      "description": "Allows changing the name, benefits, images, order, visibility, price, discount, packages and donation of the plans. Goes live immediately; plan actions (role, command) stay in the dashboard only."
+    },
+    "subscribers_read": {
+      "label": "Subscribers: read",
+      "description": "Allows reading subscribers, with email, charges and purchases. Cancelling and refunding stay in the dashboard only."
+    },
+    "selectors_read": {
+      "label": "Role selector: read",
+      "description": "Allows reading the role panels and the options of each one."
+    },
+    "selectors_write": {
+      "label": "Role selector: edit",
+      "description": "Allows creating, editing, deleting, publishing and removing role panels from the channel. Goes live immediately. The panel can offer any role below the bot, including an administrator one."
+    },
+    "admin_read": {
+      "label": "Discord Admin: read",
+      "description": "Allows reading welcome, auto roles, channel logs, synced nickname and moderation settings."
+    },
+    "admin_write": {
+      "label": "Discord Admin: edit",
+      "description": "Allows changing welcome, auto roles, channel logs, synced nickname and moderation settings. The auto role can be any role below the bot, including an administrator one. Ban, kick, mute and raid mode stay in the dashboard only."
+    },
+    "member_counter_read": {
+      "label": "Member counter: read",
+      "description": "Allows reading the member counter settings and numbers."
+    },
+    "member_counter_write": {
+      "label": "Member counter: edit",
+      "description": "Allows changing the counter and publishing its message in the channel."
+    },
+    "community_read": {
+      "label": "Community: read",
+      "description": "Allows reading the settings for suggestions, bugs, anonymous messages and the staff form, and the form openings."
+    },
+    "community_write": {
+      "label": "Community: edit",
+      "description": "Allows changing the settings for suggestions, bugs, anonymous messages and the staff form, creating and deleting openings and publishing the panels. Goes live immediately; deciding suggestions, triaging bugs and reading applications stay in the dashboard only."
+    },
+    "referrals_read": {
+      "label": "Referrals: read",
+      "description": "Allows reading the referral settings and milestones. Who invited whom stays in the dashboard only."
+    },
+    "referrals_write": {
+      "label": "Referrals: edit",
+      "description": "Allows changing the settings and milestones. Assigning invites, recalculating and resetting the season stay in the dashboard only."
+    },
+    "tickets_read": {
+      "label": "Tickets: read",
+      "description": "Allows reading the ticket settings (types, panels, hours, canned replies) and the numbers."
+    },
+    "tickets_write": {
+      "label": "Tickets: edit",
+      "description": "Allows changing the ticket settings and publishing the panel. Goes live immediately; conversations, closing tickets and the block list stay in the dashboard only."
+    },
+    "giveaways_read": {
+      "label": "Giveaways: read",
+      "description": "Allows reading the giveaways, settings, templates and the numbers of each giveaway."
+    },
+    "giveaways_write": {
+      "label": "Giveaways: edit",
+      "description": "Allows creating, editing, ending, cancelling and rerolling, and changing settings and templates. Goes live immediately; who entered and permanent deletion stay in the dashboard only."
+    },
+    "polls_read": {
+      "label": "Polls: read",
+      "description": "Allows reading the polls and results."
+    },
+    "polls_write": {
+      "label": "Polls: edit",
+      "description": "Allows creating, editing, ending and reposting polls. Goes live immediately; who voted and permanent deletion stay in the dashboard only."
+    },
+    "messages_read": {
+      "label": "Messages: read",
+      "description": "Allows reading the bot messages (sent, scheduled, recurring and drafts) and the templates."
+    },
+    "messages_write": {
+      "label": "Messages: edit",
+      "description": "Allows sending, scheduling, editing and cancelling bot messages and changing the templates. Goes live immediately; deleting messages stays in the dashboard only."
+    },
+    "gamification_read": {
+      "label": "Gamification: read",
+      "description": "Allows reading the XP settings, level roles and multipliers."
+    },
+    "gamification_write": {
+      "label": "Gamification: edit",
+      "description": "Allows changing the XP settings, level roles and multipliers. Changing a member XP and resetting XP stay in the dashboard only."
+    },
+    "social_read": {
+      "label": "Social alerts: read",
+      "description": "Allows reading which creators are announced and in which channel."
+    },
+    "social_write": {
+      "label": "Social alerts: edit",
+      "description": "Allows adding, changing and removing creators and sending a test alert to the channel."
+    },
+    "boost_read": {
+      "label": "Boost: read",
+      "description": "Allows reading the boost settings and rewards."
+    },
+    "boost_write": {
+      "label": "Boost: edit",
+      "description": "Allows changing the boost settings. Rewards have their own permission."
+    },
+    "boost_rewards_write": {
+      "label": "Boost: rewards",
+      "description": "Allows creating, changing and removing rewards. Removing a reward takes back what it gave, in game and in the store. Applying to existing boosters stays in the dashboard only."
+    },
+    "whitelist_read": {
+      "label": "Whitelist: read",
+      "description": "Allows reading the whitelist form, the answer key and the settings."
+    },
+    "whitelist_write": {
+      "label": "Whitelist: edit",
+      "description": "Allows changing the form, the answer key, the channels and the approved role, which can be any role below the bot, including an administrator one. Goes live immediately; viewing applications, approving and rejecting stay in the dashboard only. Access codes have their own permission."
+    },
+    "whitelist_codes_read": {
+      "label": "Whitelist: view codes",
+      "description": "Allows reading the access codes. Who redeemed each one stays in the dashboard only."
+    },
+    "whitelist_codes_write": {
+      "label": "Whitelist: create codes",
+      "description": "Allows creating, disabling and deleting access codes. Anyone with a code skips the form."
+    },
+    "ai_helper_read": {
+      "label": "AI assistant: read",
+      "description": "Allows reading the documentation sources, the knowledge base and the accuracy numbers."
+    },
+    "ai_helper_write": {
+      "label": "AI assistant: edit",
+      "description": "Allows adding, updating and removing documentation sources and changing the knowledge base. Settings and providers have their own permission."
+    },
+    "ai_helper_config_read": {
+      "label": "AI assistant: view settings and errors",
+      "description": "Allows reading the settings, providers and recent errors. Each provider key is never shown."
+    },
+    "ai_helper_config_write": {
+      "label": "AI assistant: change settings",
+      "description": "Allows changing the settings, testing providers and changing their order and model. Adding a provider, its key and URL stay in the dashboard only."
+    },
+    "planning_read": {
+      "label": "Planning: read",
+      "description": "Allows reading the planning documents and templates."
+    },
+    "planning_write": {
+      "label": "Planning: edit",
+      "description": "Allows creating, editing, archiving and unarchiving documents. Permanent deletion stays in the dashboard only."
+    },
+    "voice_read": {
+      "label": "Voice: read",
+      "description": "Allows reading the \"join to create\" channels and their settings."
+    },
+    "voice_write": {
+      "label": "Voice: edit",
+      "description": "Allows creating, changing and removing \"join to create\" channels."
+    },
+    "modules_write": {
+      "label": "Modules: turn on and off",
+      "description": "Allows turning server modules on and off, with the same plan limits. Turning one off takes the module down immediately."
+    },
+    "discord_read": {
+      "label": "Discord: view roles and channels",
+      "description": "Allows listing the roles, channels and the permissions the key can grant."
+    },
+    "discord_setup": {
+      "label": "Discord: set up the server",
+      "description": "Allows creating and editing roles and channels and changing channel permissions through MRI BOT, including those of @everyone, which affects the whole server, and opening private channels. Deleting, banning and granting administrator power stay with you on Discord."
+    }
+  }
+}

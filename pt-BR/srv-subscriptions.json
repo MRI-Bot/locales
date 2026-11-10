@@ -1,0 +1,19 @@
+{
+  "donation": {
+    "defaultNotice": "Doação voluntária. Não é a compra de um produto ou serviço e não é reembolsável, exceto cobrança em duplicidade ou fraude.",
+    "checkboxLabel": "Entendo que é uma doação voluntária e não reembolsável."
+  },
+  "purchase": {
+    "lifetime": "vitalício",
+    "months": "{count} {count, plural, =1 {mês} other {meses}}",
+    "giftPrefix": "Presente: "
+  },
+  "recheck": {
+    "synced": "Estado sincronizado com o Mercado Pago.",
+    "noMpPlan": "Plano sem plano MP configurado — nada a reverificar.",
+    "noActivePayment": "Nenhum pagamento ativo encontrado no Mercado Pago ainda.",
+    "allLinked": "As assinaturas ativas do MP já estão todas vinculadas — nada órfão pra este assinante.",
+    "ambiguous": "Há pagamento(s) ativo(s) não vinculado(s), mas não deu pra identificar com segurança qual é deste assinante. Confira manualmente.",
+    "activated": "Pagamento encontrado no Mercado Pago — assinatura ativada. O cargo é aplicado em instantes."
+  }
+}

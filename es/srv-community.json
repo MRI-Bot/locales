@@ -1,0 +1,75 @@
+{
+  "anon": {
+    "dmNotDelivered": "DM no entregado",
+    "staffPrefix": "**Equipo →** {content}",
+    "memberPrefix": "**Anónimo →** {content}",
+    "notDeliveredDmClosed": "⚠️ _No entregado: el miembro tiene los DM cerrados._",
+    "conversationClosed": "Esta conversación ya fue cerrada.",
+    "messageRejected": "Mensaje rechazado por la moderación.",
+    "closedDm": "El equipo cerró tu conversación anónima. Gracias por escribirnos.",
+    "unmaskDenied": "No tienes permiso para ver quién lo escribió. Moderar y desenmascarar son permisos distintos: pide `community.anon.audit` a un administrador.",
+    "threadName": "Anónimo {number}",
+    "publicTitle": "**Anónimo {number}**",
+    "audit": {
+      "identityPanelOnly": "_identidad solo en el panel_",
+      "moderation": "**Moderación:** {flags}",
+      "title": "🕵️ **Auditoría — Anónimo {number}**",
+      "author": "**Autor:** {author}"
+    },
+    "auditUnavailableNothingPublished": "Canal de auditoría no disponible: no se publicó nada.",
+    "systemUnavailable": "Los mensajes anónimos no están disponibles en este momento. Avisa al equipo del servidor.",
+    "staffThreadName": "Anónimo · {subject}",
+    "newMessage": "🕵️ **Nuevo mensaje anónimo**"
+  },
+  "panels": {
+    "suggestion": {
+      "text": "## 💡 Sugerencias\n\n¿Tienes una idea para el servidor? Haz clic en el botón de abajo, escribe tu propuesta y la comunidad vota.",
+      "button": "Enviar sugerencia"
+    },
+    "bug": {
+      "text": "## 🐛 Reportar un bug\n\n¿Encontraste un problema en el servidor? Haz clic en el botón de abajo y describe lo que pasó; el equipo sigue cada reporte en la revisión.",
+      "button": "Reportar bug"
+    },
+    "staff": {
+      "text": "## 📋 Postulación al equipo\n\n¿Quieres formar parte del equipo? Haz clic en la vacante de abajo y responde el formulario. El equipo lo revisa y te responde por privado."
+    },
+    "anon": {
+      "text": "## 🎭 Mensaje anónimo\n\nElige abajo cómo quieres hablar.",
+      "confessionButton": "Mensaje anónimo",
+      "staffButton": "Hablar con el equipo"
+    }
+  },
+  "referrals": {
+    "invitedBy": "Invitado por",
+    "invite": "Invitación",
+    "inviterTotal": "Total del invitador",
+    "unidentified": "No identificado: {reason, select, no_baseline {el bot se acababa de reiniciar} ambiguous {dos personas entraron al mismo tiempo} no_permission {el bot no tiene permiso para ver invitaciones} vanity_or_unknown {enlace personalizado u origen desconocido} fetch_failed {falló la consulta de invitaciones} other {origen desconocido}}.",
+    "newMemberTitle": "➡️ Nuevo miembro",
+    "rejoined": "{member} volvió al servidor.\n-# El regreso no cuenta de nuevo para el invitador.",
+    "joined": "{member} entró al servidor.",
+    "milestoneTitle": "🏆 Meta alcanzada",
+    "milestoneReached": "¡{member} alcanzó la meta de **{count}** {count, plural, one {invitación} other {invitaciones}}!",
+    "inviteUses": "{count, plural, one {# entrada con esta invitación} other {# entradas con esta invitación}}",
+    "validInvites": "{count, plural, one {# invitación válida} other {# invitaciones válidas}}",
+    "inQuarantine": "{count} en cuarentena",
+    "milestoneAuditReason": "Meta de {count} referidos",
+    "board": {
+      "bonus": "_(+{bonus} de bonificación)_",
+      "referrals": "**{count}** {count, plural, one {referido} other {referidos}}",
+      "empty": "Nadie ha invitado a nadie todavía. ¡Comparte tu invitación para aparecer aquí!",
+      "seasonSince": "temporada desde {date}",
+      "title": "🏆 Ranking de referidos",
+      "topOf": "Top {size} de {total} participantes",
+      "participants": "{count} {count, plural, one {participante} other {participantes}}"
+    }
+  },
+  "suggestions": {
+    "threadName": "Sugerencia #{number} · {title}",
+    "decisionDm": "Tu sugerencia **#{number} · {title}** quedó: **{status, select, PENDING {Reabierta para votación} UNDER_REVIEW {En análisis} APPROVED {Aprobada} REJECTED {Rechazada} IMPLEMENTED {Implementada} DUPLICATE {Marcada como duplicada} other {{status}}}**."
+  },
+  "staff": {
+    "autoRolePro": "El rol automático al aprobar es una función Pro: da el rol manualmente.",
+    "approvedAuditReason": "Postulación #{number} aprobada",
+    "roleNotApplied": "el bot no pudo aplicar el rol"
+  }
+}

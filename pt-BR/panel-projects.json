@@ -1,0 +1,97 @@
+{
+  "header": {
+    "title": "Projetos",
+    "description": "Boards Kanban pra organizar o trabalho da equipe, com espelho opcional num fórum do Discord.",
+    "newBoard": "Novo board"
+  },
+  "empty": {
+    "title": "Nenhum board ainda",
+    "description": "Crie seu primeiro board pra começar a organizar as tarefas da equipe.",
+    "create": "Criar board"
+  },
+  "board": {
+    "deleteConfirm": "Excluir board?",
+    "edit": "Editar board (nome, colunas, emojis)",
+    "delete": "Excluir board",
+    "dropHere": "Arraste cards pra cá"
+  },
+  "toasts": {
+    "boardCreated": "Board criado!",
+    "boardUpdated": "Board atualizado!",
+    "boardDeleted": "Board excluído.",
+    "cardCreated": "Card criado.",
+    "cardUpdated": "Card atualizado.",
+    "cardRemoved": "Card removido."
+  },
+  "errors": {
+    "loadBoards": "Falha ao carregar boards.",
+    "loadBoard": "Falha ao carregar o board.",
+    "deleteBoard": "Falha ao excluir o board.",
+    "moveCard": "Falha ao mover o card."
+  },
+  "fields": {
+    "title": "Título",
+    "description": "Descrição"
+  },
+  "card": {
+    "new": "Novo card",
+    "edit": "Editar card",
+    "mirrored": "Espelhado no Discord"
+  },
+  "boardDialog": {
+    "defaultColumns": {
+      "todo": "A fazer",
+      "doing": "Fazendo",
+      "done": "Feito"
+    },
+    "nameRequired": "Dá um nome pro board.",
+    "columnsRequired": "O board precisa de pelo menos uma coluna.",
+    "createError": "Falha ao criar o board.",
+    "editTitle": "Editar board",
+    "name": "Nome",
+    "namePlaceholder": "Ex: Desenvolvimento do servidor",
+    "optional": "Opcional",
+    "columns": "Colunas",
+    "columnsHint": "O emoji (inclusive custom do servidor) vira o emoji da tag no fórum do Discord.",
+    "columnEmoji": "Emoji da coluna",
+    "removeEmoji": "Remover emoji",
+    "columnName": "Nome da coluna",
+    "removeColumn": "Remover coluna",
+    "addColumn": "Adicionar coluna",
+    "mirror": {
+      "label": "Espelhar no Discord",
+      "description": "Cria um canal de fórum onde cada coluna vira uma tag e cada card vira um post."
+    }
+  },
+  "cardDialog": {
+    "fields": {
+      "title": "📋 Título",
+      "assignees": "👤 Responsáveis",
+      "dueAt": "⏰ Prazo",
+      "column": "📍 Coluna",
+      "status": "Status"
+    },
+    "samples": {
+      "title": "(título)",
+      "description": "(descrição)",
+      "people": "{count, plural, one {# pessoa} other {# pessoas}}",
+      "nobody": "(ninguém)",
+      "noDueAt": "(sem prazo)",
+      "column": "(coluna)",
+      "open": "aberto"
+    },
+    "titleRequired": "Dá um título pro card.",
+    "saveError": "Falha ao salvar o card.",
+    "removeError": "Falha ao remover.",
+    "titlePlaceholder": "Ex: Corrigir spawn do hospital",
+    "descriptionPlaceholder": "Detalhes da tarefa (opcional)",
+    "column": "Coluna",
+    "dueAt": "Prazo",
+    "labels": "Labels",
+    "assignees": "Responsáveis",
+    "post": {
+      "label": "Post no Discord",
+      "hint": "Como o card aparece no fórum. Arraste blocos, adicione imagens/galeria e use os campos dinâmicos (título, responsáveis, prazo…) que o bot preenche. Sem espelho no board, isso é ignorado."
+    }
+  }
+}

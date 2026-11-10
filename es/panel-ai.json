@@ -1,0 +1,312 @@
+{
+  "copy": {
+    "failed": "No se pudo copiar. Selecciónalo manualmente.",
+    "copied": "Copiado"
+  },
+  "access": {
+    "title": "Usar con IA",
+    "description": "Una IA puede configurar este servidor por ti: tickets, roles, canales, mensajes y el resto. Solo hace lo que la clave permite, y todo lo que cambie aparece en Actividad de las claves.",
+    "keyLabel": "Clave que usará la IA",
+    "noKey": "Crea una clave solo con los permisos de lo que la IA va a tocar. Una vez creada, los botones de abajo ya copian con la clave.",
+    "connector": {
+      "title": "ChatGPT o Claude (conector)",
+      "description": "En Conectores, añade un conector personalizado con esta dirección. Quien tenga la dirección usa la clave: guárdala como una contraseña.",
+      "copy": "Copiar dirección"
+    },
+    "terminal": {
+      "title": "IA en la terminal (Claude Code, Codex, Cursor)",
+      "description": "Copia las instrucciones y pégalas en la conversación. La IA lee la guía de la API y empieza por lo que la clave puede hacer.",
+      "copy": "Copiar instrucciones"
+    },
+    "guide": "Ver la guía de la API"
+  },
+  "common": {
+    "failed": "No se pudo completar.",
+    "add": "Agregar"
+  },
+  "errorLog": {
+    "title": "Errores recientes",
+    "description": "Lo que respondió el proveedor cuando falló, de los últimos 14 días. No guarda la pregunta ni quién preguntó, y la clave se borra del texto.",
+    "loadFailed": "No se pudieron cargar los errores.",
+    "clear": "Borrar errores",
+    "clearTitle": "¿Borrar los errores?",
+    "clearDescription": "Se borrará el historial de errores de este servidor.",
+    "clearFailed": "No se pudo borrar.",
+    "empty": "Ningún error registrado. 🎉",
+    "showAll": "Ver todos ({count})",
+    "kinds": {
+      "quota": {
+        "label": "cuota",
+        "hint": "La clave superó el límite (429). La cola pasó al siguiente."
+      },
+      "auth": {
+        "label": "clave rechazada",
+        "hint": "La clave no es válida, venció o no tiene acceso al modelo."
+      },
+      "down": {
+        "label": "caído",
+        "hint": "El proveedor no respondió a tiempo o dio un error 5xx."
+      },
+      "other": {
+        "label": "error",
+        "hint": "Modelo inexistente, formato rechazado u otra respuesta de error."
+      },
+      "chain": {
+        "label": "cola entera",
+        "hint": "Ningún proveedor respondió; el miembro se quedó sin la IA."
+      },
+      "docs": {
+        "label": "fuentes",
+        "hint": "El índice de las fuentes de documentación no se cargó."
+      }
+    }
+  },
+  "modelPicker": {
+    "placeholder": "Elige o escribe el modelo",
+    "search": "Buscar o escribir el id...",
+    "emptyNoOptions": "Usa \"Buscar modelos\" o escribe el id.",
+    "emptyNoMatch": "Ningún modelo con ese nombre.",
+    "typedGroup": "Escrito a mano",
+    "useTyped": "Usar “{id}”",
+    "count": "{count, plural, one {# modelo} other {# modelos}}",
+    "free": "gratis",
+    "fetch": "Buscar modelos",
+    "fetchHint": "Buscar los modelos que ve esta clave",
+    "fetchDisabledHint": "Rellena la API key (y la Base URL) primero",
+    "primary": "principal",
+    "fallback": "reserva {n}",
+    "remove": "Quitar {model}"
+  },
+  "docsSources": {
+    "title": "Fuentes de documentación",
+    "description": "URL de un índice JSON de tu documentación. Con una fuente, la IA busca solo los fragmentos relevantes (de la fuente y de la base de arriba) y cita los enlaces en la respuesta.",
+    "count": "{count, plural, one {# fuente} other {# fuentes}}",
+    "countOfMax": "{count} / {max} {count, plural, one {fuente} other {fuentes}}",
+    "never": "nunca",
+    "added": "Fuente añadida.",
+    "enabled": "Fuente activada.",
+    "disabled": "Fuente desactivada.",
+    "enable": "Activar fuente",
+    "disable": "Desactivar fuente",
+    "enabledHint": "Activada, entra en la búsqueda",
+    "disabledHint": "Desactivada, queda guardada pero fuera de la búsqueda",
+    "refreshed": "Fuente actualizada.",
+    "refreshNow": "Actualizar ahora",
+    "removed": "Fuente quitada.",
+    "stats": "{chunks} fragmentos · {size} · actualizada el {when}",
+    "keepsLastCopy": "La IA sigue usando la última copia que funcionó.",
+    "planLimit": "Tu plan permite {count, plural, one {# fuente} other {# fuentes}}. Mejora tu plan para añadir más.",
+    "namePlaceholder": "Nombre (opcional)",
+    "add": "Añadir",
+    "format": "Formato: {format}. El tamaño cuenta el JSON sin comprimir. Las fuentes se actualizan solas cada 12 h."
+  },
+  "kbEntries": {
+    "title": "Entradas añadidas desde Discord",
+    "description": "En Discord, haz clic derecho en un mensaje → {apps} → {command}. Usarlo de nuevo en el mismo mensaje (después de editarlo, por ejemplo) actualiza la entrada en lugar de duplicarla. Las entradas se suman al texto de arriba y comparten el mismo límite de caracteres; activar o desactivar el texto no desactiva las entradas.",
+    "appsMenu": "Aplicaciones",
+    "count": "{count, plural, one {# entrada} other {# entradas}}",
+    "chars": "{count} caracteres",
+    "titlePlaceholder": "Pregunta o tema (opcional)",
+    "contentPlaceholder": "Lo que la IA debe saber",
+    "created": "Entrada creada.",
+    "saved": "Entrada guardada.",
+    "deleted": "Entrada borrada.",
+    "untitled": "Sin título",
+    "edit": "Editar",
+    "delete": "Borrar",
+    "updatedAt": "Actualizada el {when}",
+    "sourceMessage": "mensaje de origen",
+    "new": "Nueva entrada",
+    "commandName": "Añadir a la base de la IA"
+  },
+  "chat": {
+    "title": "Probar {provider}",
+    "providerFallback": "proveedor",
+    "description": "Conversa directamente con el modelo, usando la clave y la URL del formulario (no hace falta guardar). No cuenta en el uso ni en las estadísticas, pero la llamada se hace de verdad con tu clave.",
+    "prompt": "Prompt",
+    "modeAssistant": "Igual que el asistente",
+    "modeCustom": "Libre (mi propio prompt)",
+    "model": "Modelo",
+    "primary": "(principal)",
+    "fallback": "(reserva)",
+    "opencodeDefault": "predeterminado de OpenCode",
+    "modelId": "id del modelo",
+    "saved": "guardadas",
+    "assistantHint": "Usa la base, las entradas, las fuentes y las instrucciones {saved} de este servidor. Con una fuente de documentación, cada mensaje busca los fragmentos como en Discord (sin la búsqueda inteligente). Los disparadores y el portero no se ejecutan aquí.",
+    "systemPlaceholder": "Prompt de sistema (opcional). Ej.: Eres el soporte de un servidor de FiveM…",
+    "empty": "Envía una pregunta como la enviaría un miembro.",
+    "tokens": "{count} tokens",
+    "escalated": "llamaría al staff",
+    "sources": "{count} fragmentos en el prompt",
+    "thinking": "pensando…",
+    "inputPlaceholder": "Escribe y pulsa Enter",
+    "send": "Enviar",
+    "clear": "Borrar conversación",
+    "remaining": "{count} mensajes de prueba restantes en los próximos minutos.",
+    "failed": "Falló.",
+    "sendFailed": "No se pudo enviar."
+  },
+  "section": {
+    "loadError": "No se pudo cargar la configuración del Asistente de IA.",
+    "saved": "Asistente de IA guardado.",
+    "saveError": "No se pudo guardar.",
+    "title": "Asistente de IA",
+    "description": "Responde automáticamente las dudas de tus miembros en los canales que elijas. Primero prueba con {triggers} (gratis); si activas la IA, ella cubre el resto con la base de conocimiento. Solo escucha los canales de la allowlist.",
+    "descriptionTriggers": "disparadores por palabra"
+  },
+  "general": {
+    "enabled": {
+      "label": "Activar Asistente de IA",
+      "description": "Activa o desactiva todo el módulo."
+    },
+    "channels": {
+      "label": "Canales que escucha la IA",
+      "placeholder": "Agregar canal...",
+      "empty": "Ningún canal, la IA no responde en ningún lado hasta que agregues uno.",
+      "forumHint": "En un canal de foro, la IA responde el mensaje que abre cada publicación y a quien le responda."
+    },
+    "cooldown": "Cooldown por miembro (segundos)",
+    "replyInThread": "Responder en hilo"
+  },
+  "gate": {
+    "label": "Responder solo cuando parezca una pregunta",
+    "description": "Sin esto el asistente responde todo lo que llega al canal, incluso “gracias”, “grax” y charla suelta, y cada uno de esos gasta tokens de tu clave. El filtro no exige signo de interrogación: {half}, así que busca intención (“alguien sabe”, “cómo”, “dónde”) y reportes de problemas (“me dio error”, “no funciona”).",
+    "descriptionHalf": "la mitad de las preguntas reales no tiene “?”",
+    "minChars": "Longitud mínima del mensaje",
+    "minCharsHint": "Se cuenta sin saludos, menciones ni enlaces."
+  },
+  "triggers": {
+    "title": "Disparadores por palabra (gratis)",
+    "description": "Cuando el mensaje del miembro contiene una de las palabras, la IA responde al instante con el texto listo. Costo cero, sin alucinaciones.",
+    "empty": "Todavía no hay disparadores.",
+    "keywordsPlaceholder": "Palabras clave (separadas por coma): vip, comprar vip, ser vip",
+    "match": {
+      "word": "Palabra completa",
+      "contains": "En cualquier lugar",
+      "starts": "Al principio"
+    },
+    "containsWarning": "En cualquier lugar coincide con partes de palabras: {part} se dispara con {word}, {part2} con {word2}. Si no es lo que quieres, usa {whole}.",
+    "responsePlaceholder": "Respuesta lista para estas palabras (acepta markdown)."
+  },
+  "ai": {
+    "title": "IA por intención",
+    "description": "Para lo que los disparadores no atrapan: la IA entiende la intención y responde con la base de conocimiento. Sin coincidencia, escala al staff."
+  },
+  "knowledge": {
+    "overOnSave": "La base de conocimiento superó el límite por {count} caracteres. Recorta el exceso antes de guardar.",
+    "label": "Base de conocimiento",
+    "inUse": "En uso",
+    "off": "Desactivada (queda guardada)",
+    "turnOff": "Desactivar base de conocimiento",
+    "turnOn": "Activar base de conocimiento",
+    "placeholder": "Reglas, FAQ, cómo comprar, cómo funciona X... La IA responde SOLO con base en esto.",
+    "tokensHint": "Sin fuente de documentación, va entera al modelo en cada pregunta, ~{tokens} tokens por respuesta. Las bases grandes consumen más rápido la cuota de tu clave.",
+    "sharedLimit": "El límite es {max} sumando las entradas de abajo, que ya usan {used}.",
+    "over": "{count} caracteres por encima del límite. Recorta el exceso para poder guardar, nada se descarta solo.",
+    "overShort": "Base de conocimiento por encima del límite."
+  },
+  "instructions": {
+    "label": "Instrucciones del asistente",
+    "placeholder": "Contexto y tono. Ej.: Tu nombre es Miria. Ayudas a quienes usan la base MRI Qbox (FiveM con Qbox y Ox). Habla de forma sencilla, para principiantes.",
+    "hint": "Entran en el prompt después de las reglas fijas: sirven para contexto, nombre y tono. Responder solo con la base, citar las fuentes y llamar al staff siguen valiendo."
+  },
+  "smartSearch": {
+    "label": "Búsqueda inteligente en las fuentes",
+    "description": "Antes de buscar en la documentación, la IA reescribe la pregunta en términos técnicos. Encuentra respuestas que no usan las mismas palabras de la pregunta (ej.: \"cómo me hago admin\" → \"setmaster\"), pero hace una llamada más al proveedor por pregunta. Solo tiene efecto con una fuente de documentación."
+  },
+  "images": {
+    "label": "Leer imágenes adjuntas (Pro)",
+    "description": "La IA mira las capturas que el miembro envía junto con la pregunta (hasta 3 por mensaje), y también responde a quien envía solo la imagen. Cada imagen se reduce y se convierte a WebP antes de ir al proveedor, pero igual gasta algunos cientos de tokens. El modelo debe leer imágenes (Gemini, GPT-4o y similares); si no, la IA responde solo por el texto. Con fuente de documentación, la imagen también entra en la búsqueda, con una llamada más.",
+    "lock": "La lectura de imágenes es parte del plan Pro."
+  },
+  "providers": {
+    "testOk": "Respondió: \"{sample}\"",
+    "testNoReply": "El proveedor no respondió.",
+    "testError": "No se pudo probar.",
+    "fetchError": "No se pudieron obtener los modelos.",
+    "fetchOk": "{count} modelos encontrados.",
+    "label": "Proveedores (orden = respaldo)",
+    "noneEnabled": "Ningún proveedor activado, sin la IA de verdad, solo responden los disparadores.",
+    "moveUp": "Subir en la cola",
+    "moveUpHint": "Subir en la cola (se intenta antes)",
+    "moveDown": "Bajar en la cola",
+    "moveDownHint": "Bajar en la cola (se intenta después)",
+    "position": "Posición en la cola",
+    "turnOff": "Desactivar proveedor",
+    "turnOn": "Activar proveedor",
+    "onHint": "Activado, entra en la cola",
+    "offHint": "Desactivado, queda guardado pero fuera de la cola",
+    "opencodeFree": "OpenCode (gratis)",
+    "namePlaceholder": "Nombre (ej.: Groq)",
+    "test": "Probar proveedor",
+    "testHint": "Probar conexión (ping)",
+    "chat": "Conversar con el modelo",
+    "chatHint": "Conversar con el modelo (chat de prueba)",
+    "remove": "Quitar proveedor",
+    "opencodePlaceholder": "Vacío = modelo por defecto (Buscar modelos lista los gratuitos)",
+    "opencodeHint": "La misma IA de Miria en el instalador, sin clave. Solo existe en el servidor DEV de la plataforma. Los modelos gratuitos de OpenCode cambian seguido: si el elegido deja de funcionar, se cambia solo por otro gratuito. La cuota puede ser rechazada en cualquier momento, deja un proveedor con clave en la cola como respaldo.",
+    "baseUrlPlaceholder": "Base URL (ej.: {url})",
+    "modelExample": "ej.: {model}",
+    "fallbackHint": "Si el principal falla, prueba los de respaldo en orden, con la misma clave."
+  },
+  "escalation": {
+    "staffRole": "Rol de staff (escalar)",
+    "none": "Ninguno",
+    "message": "Mensaje al escalar"
+  },
+  "statusReactions": {
+    "label": "Reacciones de estado (👀 / ✅)",
+    "description": "Reacciona con 👀 en el mensaje cuando la IA empieza a responder y lo cambia por ✅ cuando sale la respuesta. Muestra que el bot lo vio, ya que la respuesta puede tardar unos segundos. Necesita el permiso de añadir reacciones en el canal."
+  },
+  "thinking": {
+    "label": "Mensaje de espera",
+    "description": "Responde al instante con un aviso y luego cambia el aviso por la respuesta, en el mismo mensaje. Más visible que la reacción, que mucha gente no nota. Si la IA no responde, el aviso se borra; si llama al staff, el aviso desaparece y el llamado sale como mensaje nuevo, para que se notifique al rol. Funciona junto con las reacciones o en su lugar.",
+    "placeholder": "🔎 Consultando la base…",
+    "textLabel": "Texto del mensaje de espera"
+  },
+  "feedback": {
+    "label": "Pedir calificación de la respuesta (👍 / 👎)",
+    "description": "Pone dos botones debajo de cada respuesta de la IA. Es la única forma de saber si está acertando; sin esto, el panel de abajo solo muestra cuánto gastaste, nunca si valió la pena. Los botones no aparecen en respuestas de disparadores ni cuando llama al staff."
+  },
+  "fairUse": {
+    "label": "Uso justo por miembro",
+    "description": "Cuántas respuestas de la IA recibe cada miembro por ventana. Protege la cuota de tu clave de quien inunda con preguntas. Al superarlo, el bot solo reacciona con ⏳, sin contador en la conversación. Los disparadores no cuentan. 0 = sin límite.",
+    "limit": "Respuestas por miembro",
+    "window": "Ventana (horas)",
+    "bonusRoles": "Roles con límite mayor",
+    "addRole": "Agregar rol...",
+    "multiplier": "Multiplicador",
+    "bonusExample": "Ej.: los colaboradores o boosters reciben {bonus} respuestas por ventana en vez de {limit}.",
+    "removeRole": "Quitar rol"
+  },
+  "stats": {
+    "gateReasons": {
+      "ruido": "agradecimiento / charla",
+      "curto": "demasiado corta",
+      "semSinal": "no parece pregunta",
+      "vazio": "sin texto"
+    },
+    "title": "Cómo le fue en los últimos {days} días",
+    "description": "Solo de este servidor. Antes de esto el módulo contaba tokens en el balde de la plataforma, así que no había forma de saber cuánto gastó ESTE servidor.",
+    "answers": "respuestas de la IA",
+    "noRatings": "nadie ha calificado todavía",
+    "approval": "aprobación ({up}👍 / {down}👎)",
+    "escalations": "veces que llamó al staff",
+    "escalationsByFailure": "{count} por falla del proveedor",
+    "tokens": "tokens de tu clave",
+    "quotaTodayTitle": "Cuota agotada hoy:",
+    "quotaToday": "{title} {providers}. Mientras la cuota no vuelva, la cadena se salta este proveedor, y si es el único, toda pregunta va al staff. Agrega otro proveedor como respaldo o cambia la clave.",
+    "failuresTitle": "Fallas por proveedor:",
+    "failures": {
+      "ok": "{label}: {count} ok",
+      "quota": "{count} cuota",
+      "auth": "{count} clave rechazada",
+      "down": "{count} caído",
+      "other": "{count} otro error"
+    },
+    "providerErrors": "{count, plural, one {{n} vez el proveedor falló} other {{n} veces el proveedor falló}} y el asistente se quedó callado. Revisa la clave, el modelo y si la cuota diaria no se agotó.",
+    "gateBlocked": "El filtro bloqueó {n} mensajes antes de gastar tokens:",
+    "repeated": "Preguntas que más se repitieron. Cada una es candidata a convertirse en un disparador por palabra y salir gratis:",
+    "repeatedHint": "La pregunta en sí no se guarda, solo una huella de ella."
+  }
+}

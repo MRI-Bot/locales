@@ -1,0 +1,21 @@
+{
+  "guildPending": "⏳ Este servidor todavía está esperando la aprobación del equipo de MRI para usar el bot.",
+  "denied": {
+    "owner": "Este comando está restringido al dueño del bot.",
+    "admin": "Este comando está restringido al equipo de la plataforma.",
+    "guildAdmin": "No tienes permiso para usar este comando en este servidor."
+  },
+  "roleGate": {
+    "title": "Rol necesario",
+    "poll": {
+      "fallback": "Esta encuesta es exclusiva para quienes tienen un rol específico del servidor.",
+      "singular": "Esta encuesta es exclusiva para quienes tienen el rol {role}.\n¡Consigue el rol para participar en las próximas decisiones!",
+      "plural": "Esta encuesta es exclusiva para quienes tienen uno de estos roles: {roles}.\n¡Consigue uno de ellos para participar en las próximas decisiones!"
+    },
+    "suggestion": {
+      "fallback": "La votación de sugerencias es exclusiva para quienes tienen un rol específico del servidor.",
+      "singular": "La votación de sugerencias es exclusiva para quienes tienen el rol {role}.\n¡Consigue el rol para ayudar a decidir el futuro del servidor!",
+      "plural": "La votación de sugerencias es exclusiva para quienes tienen uno de estos roles: {roles}.\n¡Consigue uno de ellos para ayudar a decidir el futuro del servidor!"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "success": {
+    "existed": "Essa mensagem já está no fórum: {url}",
+    "reply": "Sua mensagem entrou como resposta no fórum: {url}",
+    "published": "Publicado no fórum: {url}"
+  },
+  "droppedFiles": "Imagens e arquivos não foram junto.",
+  "notAuthor": "Só quem escreveu a mensagem pode publicar no fórum. Assim ninguém leva o texto de outra pessoa para a web.",
+  "unreachable": "Não consegui falar com o fórum agora. Tente de novo em instantes.",
+  "publishFailed": "Não consegui publicar agora. Tente de novo em instantes.",
+  "modalTitle": "Publicar no fórum",
+  "titleLabel": "Título do tópico",
+  "failure": {
+    "moduleOff": "O fórum não está ligado neste servidor.",
+    "noSpace": "O fórum deste servidor ainda não foi configurado no painel.",
+    "blocked": "Você não pode publicar no fórum deste servidor.",
+    "empty": "Essa mensagem não tem texto para publicar. Imagens e arquivos não vão para o fórum.",
+    "titleRequired": "Falta o título do tópico.",
+    "closed": "Esse tópico está fechado no fórum."
+  }
+}

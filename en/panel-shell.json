@@ -1,0 +1,132 @@
+{
+  "guilds": {
+    "label": "Servers",
+    "all": "All servers"
+  },
+  "account": {
+    "subtitle": "My account",
+    "plan": "Plan and billing",
+    "admin": "Admin",
+    "home": "Home page",
+    "privacy": "My data and privacy",
+    "language": "Language",
+    "logout": "Log out"
+  },
+  "nav": {
+    "new": "New",
+    "modules": "Installed modules",
+    "noModules": "No modules active on this server.",
+    "less": "Less",
+    "more": "More",
+    "moreCount": "{count} more",
+    "system": "System",
+    "settings": "Settings",
+    "version": "MRI BOT v{version}",
+    "restoreOrder": "Reset order"
+  },
+  "header": {
+    "help": "Help for this screen"
+  },
+  "backend": {
+    "backLostWrite": "MRI BOT is back. What you tried to save was not sent: please do it again.",
+    "back": "MRI BOT is back.",
+    "updating": "MRI BOT is updating. It will be back in a few seconds.",
+    "unsaved": "What you just saved was not sent: try again once this bar disappears.",
+    "retryNow": "Try now"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "body": "The interface hit an unexpected error. The team has already been notified.",
+    "copyDetails": "Copy details",
+    "clipboardUnavailable": "Clipboard is not available in this browser.",
+    "copied": "Details copied.",
+    "copyFailed": "Could not copy."
+  },
+  "notifications": {
+    "title": "Notifications",
+    "markAllSeen": "Mark all as seen",
+    "empty": "All caught up. 🎉",
+    "ticketsUnclaimed": "{count, plural, one {# unattended ticket} other {# unattended tickets}}",
+    "ticketsUnclaimedHint": "No staff member has claimed it yet. Tap to open.",
+    "whitelistPending": "{count, plural, one {# pending whitelist application} other {# pending whitelist applications}}",
+    "whitelistPendingHint": "Waiting for review."
+  },
+  "sections": {
+    "overview": "Overview",
+    "modules": "Modules",
+    "modulesAndPlugins": "Modules and plugins",
+    "news": "What's new",
+    "permissions": "Permissions",
+    "apikeys": "API keys",
+    "auditlog": "Audit log",
+    "platformPlan": "My account",
+    "serverPlan": "Server plan",
+    "botIdentity": "Bot identity",
+    "botSettings": "Settings",
+    "botSettingsGeneral": "General",
+    "servers": "Servers",
+    "inDevelopment": "Section under development"
+  },
+  "auth": {
+    "discordUnavailable": "Discord is rate limiting requests right now. Try logging in again in a few seconds.",
+    "codeExpired": "This login link was already used or has expired. Log in again to continue.",
+    "loginFailed": "Could not complete the login. Please try again.",
+    "sessionExpired": "Your session has expired. Log in again to continue."
+  },
+  "session": {
+    "loading": "Loading your session",
+    "loadingHint": "Fetching your Discord account and available servers.",
+    "loadFailed": "Could not load",
+    "loadFailedDetail": "Could not load your session."
+  },
+  "invite": {
+    "botAdded": "Bot added to {guild}!",
+    "notManageable": "You don't manage this server, or the bot is no longer in it.",
+    "notConfigured": "Set DISCORD_CLIENT_ID on the backend to generate the bot invite.",
+    "popupBlocked": "Could not open the invite. Allow pop-ups for this site and try again."
+  },
+  "search": {
+    "hintModule": "Module",
+    "hintPanel": "Dashboard",
+    "hintSystem": "System",
+    "hintSwitchGuild": "Switch server",
+    "open": "Search",
+    "trigger": "Search screens and features...",
+    "placeholder": "E.g.: anti-invite, welcome, finance...",
+    "empty": "Nothing found."
+  },
+  "serverSelect": {
+    "subtitle": "Select a server",
+    "accountTitle": "My account: plan and billing",
+    "title": "Choose where to set up the bot",
+    "body": "The dashboard only opens for servers you can manage and where the bot is already installed.",
+    "searchPlaceholder": "Search server",
+    "refresh": "Refresh",
+    "statInstalled": "With dashboard",
+    "statAvailable": "Add bot",
+    "statLocked": "No permission",
+    "emptyTitle": "No servers found",
+    "emptyFiltered": "No server matches the selected filters.",
+    "emptyNone": "Try another name or refresh your Discord list.",
+    "permission": "Permission",
+    "manage": "Manage",
+    "blocked": "Locked",
+    "activeModules": "Active modules",
+    "openDashboard": "Open dashboard",
+    "addBot": "Add bot",
+    "configureClientId": "Set DISCORD_CLIENT_ID",
+    "noPermission": "No permission",
+    "badgePending": "Pending",
+    "badgeInstalled": "Installed",
+    "badgeInvite": "Invite"
+  },
+  "consent": {
+    "label": "Cookie consent",
+    "intro": "We use essential cookies to keep your session and the site working, and those can't be turned off. Besides them, we'd like to use",
+    "diagnostics": "error diagnostics",
+    "diagnosticsDetail": ", which sends failures and session recordings to Sentry so we can understand what broke.",
+    "policy": "Cookie Policy",
+    "essentialOnly": "Essential only",
+    "accept": "Accept diagnostics"
+  }
+}

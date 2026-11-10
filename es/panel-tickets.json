@@ -1,0 +1,194 @@
+{
+  "section": {
+    "title": "Tickets",
+    "description": "Atenciones en {guild}.",
+    "tabs": {
+      "overview": "Resumen",
+      "queue": "Atenciones",
+      "settings": "Configuración"
+    }
+  },
+  "thread": {
+    "formAnswers": "📋 Respuestas del formulario",
+    "empty": "No hay transcript capturado.",
+    "deleteMessage": "Borrar mensaje"
+  },
+  "dialog": {
+    "fallbackTitle": "Conversación del ticket",
+    "status": {
+      "open": "Abierto",
+      "closed": "Cerrado"
+    },
+    "createdBy": "Creado por",
+    "closedAt": "Cerrado el {date}",
+    "live": "en vivo",
+    "loading": "Cargando ticket...",
+    "loadingConversation": "Cargando conversación...",
+    "loadError": "No se pudo cargar el ticket.",
+    "linkCopied": "Enlace del transcript copiado",
+    "copyError": "No se pudo copiar el enlace.",
+    "deleteConfirm": {
+      "title": "¿Borrar mensaje?",
+      "description": "El mensaje se eliminará del canal del ticket en Discord.",
+      "confirm": "Borrar"
+    },
+    "messageDeleted": "Mensaje borrado",
+    "deleteError": "No se pudo borrar el mensaje.",
+    "replyError": "No se pudo enviar la respuesta.",
+    "replyPlaceholderAnonymous": "Responder como \"{name}\" (tu nombre no aparece en Discord)...",
+    "replyPlaceholder": "Responder como tú (aparece en Discord con tu nombre)...",
+    "anonymous": {
+      "label": "Responder de forma anónima",
+      "hint": "El mensaje sale como \"{name}\", sin tu nombre ni tu avatar. En este modo el ticket no se reclama: el reclamo aparecería en el canal y revelaría quién respondió.",
+      "upsell": "Disponible en el plan Pro Max: responder sin revelar qué miembro del equipo respondió."
+    },
+    "shortcut": "Ctrl+Enter para enviar · {length}/{max}",
+    "reply": "Responder",
+    "copied": "Copiado",
+    "copyPublicLink": "Copiar enlace público",
+    "autoRefresh": "se actualiza cada {seconds}s",
+    "close": "Cerrar"
+  },
+  "queue": {
+    "priority": {
+      "high": "Alta",
+      "medium": "Media",
+      "low": "Baja"
+    },
+    "agoNow": "ahora",
+    "ago": "hace {duration}",
+    "loadError": "No se pudieron cargar los tickets.",
+    "closed": "Ticket cerrado",
+    "reopened": "Ticket reabierto",
+    "closeError": "No se pudo cerrar el ticket.",
+    "reopenError": "No se pudo reabrir el ticket.",
+    "priorityError": "No se pudo cambiar la prioridad.",
+    "transferred": "Ticket transferido",
+    "transferError": "No se pudo transferir el ticket.",
+    "loading": "Cargando tickets...",
+    "empty": {
+      "title": "Todavía no hay tickets",
+      "description": "Publica el panel de atención en un canal de Discord. Los miembros abren tickets con sus botones y cada uno aparece en esta lista.",
+      "publish": "Publicar panel"
+    },
+    "filter": {
+      "label": "Filtrar tickets",
+      "open": "Abiertos",
+      "unclaimed": "Sin agente",
+      "closed": "Cerrados",
+      "all": "Todos"
+    },
+    "searchPlaceholder": "Buscar asunto, número o persona",
+    "refresh": "Actualizar lista",
+    "count": "{count, plural, one {# ticket} other {# tickets}}",
+    "oldestWaiting": ". El más antiguo sin agente espera desde {ago}",
+    "limited": ". Mostrando solo los {limit} más recientes",
+    "noResults": {
+      "title": "No se encontraron tickets",
+      "description": "Prueba otro término o limpia la búsqueda."
+    },
+    "noClosed": "Ningún ticket cerrado",
+    "allClear": {
+      "title": "Todo al día",
+      "description": "Ningún ticket esperando atención ahora."
+    },
+    "clearSearch": "Limpiar búsqueda",
+    "viewClosed": "Ver cerrados",
+    "columns": {
+      "number": "N.º",
+      "subject": "Asunto",
+      "member": "Miembro",
+      "agent": "Agente",
+      "priority": "Prioridad",
+      "status": "Estado",
+      "opened": "Abierto",
+      "conversation": "Conversación"
+    },
+    "transfer": {
+      "title": "Transferir ticket",
+      "description": "Busca por nombre a quien lo va a asumir. La persona necesita tener el rol de staff configurado en el servidor.",
+      "placeholder": "Elegir persona",
+      "submit": "Transferir"
+    },
+    "state": {
+      "closed": "Cerrado",
+      "handling": "En atención",
+      "waiting": "Esperando"
+    },
+    "viewConversation": "Ver conversación",
+    "openInDiscord": "Abrir en Discord",
+    "details": {
+      "formAnswers": "Respuestas del formulario",
+      "openedAt": "Abierto el",
+      "claimedAt": "Asumido el",
+      "closedAt": "Cerrado el",
+      "closedBy": "Cerrado por",
+      "rating": "Nota del miembro",
+      "ratingValue": "{rating} de 5"
+    },
+    "actions": {
+      "reopen": "Reabrir",
+      "close": "Cerrar"
+    },
+    "prioritySelect": {
+      "high": "Prioridad alta",
+      "medium": "Prioridad media",
+      "low": "Prioridad baja",
+      "none": "Sin prioridad"
+    }
+  },
+  "performance": {
+    "chart": {
+      "opened": "Tickets abiertos",
+      "tickets": "Tickets"
+    },
+    "loadError": "No se pudieron cargar los números.",
+    "emptyDescription": "Publica el panel de atención en un canal de Discord. El tiempo de atención, las horas pico y las notas aparecen aquí cuando lleguen los primeros tickets.",
+    "avgResolution": "Tiempo promedio hasta resolver",
+    "summary": {
+      "untilClaim": "Hasta que alguien lo asume",
+      "openNow": "Abiertos ahora",
+      "unclaimed": "Sin agente",
+      "closed": "Cerrados",
+      "avgRating": "Nota promedio"
+    },
+    "allTime": "Contando todos los tickets del servidor, desde el principio.",
+    "opened30d": "Tickets abiertos en 30 días",
+    "chartHint": "La línea suma los tickets día a día. Cuanto más inclinada, más movimiento.",
+    "peak": {
+      "title": "Hora pico",
+      "text": "El mayor movimiento es alrededor de las {hour}, en tu zona horaria.",
+      "notEnough": "Todavía no hay suficiente movimiento."
+    },
+    "agents": {
+      "title": "Quién más atendió",
+      "empty": "Nadie ha asumido un ticket todavía.",
+      "handled": "Atendidos",
+      "avgTime": "Tiempo promedio",
+      "leftMember": "Miembro que salió",
+      "hint": "Tiempo promedio de quienes ya cerraron 2 tickets o más, desde asumir hasta cerrar."
+    },
+    "share": "Parte",
+    "types": {
+      "title": "Por tipo",
+      "type": "Tipo",
+      "none": "Sin tipo"
+    },
+    "ratings": {
+      "label": "Notas",
+      "title": "Notas de los miembros",
+      "empty": "Ningún miembro ha calificado una atención todavía.",
+      "rating": "Nota",
+      "count": "Calificaciones",
+      "stars": "estrellas"
+    }
+  },
+  "transcriptPage": {
+    "notFound": "Transcript no encontrado.",
+    "unavailable": "Transcript no disponible.",
+    "header": "Transcript · {guild}",
+    "type": "Tipo: {type}",
+    "openedAt": "Abierto el {date}",
+    "footer": "Transcript generado por MRI BOT"
+  }
+}

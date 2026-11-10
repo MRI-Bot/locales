@@ -1,0 +1,99 @@
+{
+  "header": {
+    "title": "Mass DM",
+    "description": "Send a direct message from the bot to every member of a role in {guild}. Use it responsibly: mass DMs are intrusive and Discord may throttle excessive sends."
+  },
+  "lock": {
+    "title": "Mass DM",
+    "description": "Send a DM from the bot to every member of a role, with a delivery report."
+  },
+  "errors": {
+    "load": "Failed to load.",
+    "chooseRole": "Choose the target role.",
+    "writeMessage": "Write the message.",
+    "send": "Failed to start the send."
+  },
+  "confirm": {
+    "roleFallback": "role",
+    "title": "Send mass DM?",
+    "description": "The message goes by DM to ALL members with the \"{role}\" role. Anyone with DMs closed won't get it (that's normal). This can't be undone.",
+    "button": "Send now"
+  },
+  "send": {
+    "started": "Send started! Track the progress below."
+  },
+  "form": {
+    "role": "Target role",
+    "rolePlaceholder": "Choose a role…",
+    "roleHint": "The DM goes to every member with this role (bots are skipped).",
+    "message": "Message",
+    "messagePlaceholder": "E.g.: Hey! Your VIP expires tomorrow. Renew so you don't lose your perks 👇",
+    "lockedHint": "Feature not included in this server's plan.",
+    "needsBotHint": "Set up and invite your own bot to enable sending.",
+    "send": "Send mass DM"
+  },
+  "campaigns": {
+    "title": "Recent sends",
+    "empty": "No sends yet. Pick a role and send your first mass DM.",
+    "roleFallback": "Role",
+    "target": "Target",
+    "status": {
+      "done": "Done",
+      "sending": "Sending",
+      "queued": "Queued",
+      "cancelled": "Cancelled"
+    }
+  },
+  "status": {
+    "delivered": "Delivered",
+    "closed": "DMs closed",
+    "failed": "Failed"
+  },
+  "customBot": {
+    "missing": {
+      "title": "Mass DM requires your own bot",
+      "text": "Sends go out through your bot, not the platform's, so the send limits and responsibility for the volume stay with your application.",
+      "action": "Set it up in Bot identity"
+    },
+    "invalid": {
+      "title": "Discord rejected your bot's token",
+      "text": "It was probably regenerated. Sends are paused in the meantime. Paste a new token to resume.",
+      "action": "Update it in Bot identity"
+    },
+    "absent": {
+      "title": "Your bot isn't in this server",
+      "text": "Without it here, no direct message can go out; they would all come back as “DMs closed”. Sends stay paused until you invite it.",
+      "action": "Invite the bot"
+    }
+  },
+  "deliveries": {
+    "title": "Individual deliveries",
+    "optOut": "{count, plural, one {# member muted this server's announcements} other {# members muted this server's announcements}}",
+    "hint": "Individual automatic notices (moderation, store, subscription, ticket…). Mass DMs aren't listed here; their result is on the send's card. Records are deleted after 6 months.",
+    "allOrigins": "All sources",
+    "allResults": "All results",
+    "empty": "No deliveries recorded yet.",
+    "emptyFiltered": "No deliveries recorded with these filters.",
+    "customSenderTitle": "Sent by your own bot",
+    "customSender": "your bot",
+    "loadMore": "Load more"
+  },
+  "features": {
+    "adminPunishment": "Moderation: punishment notice",
+    "subscriptionCycle": "Subscription: cycle notice",
+    "automodNotice": "Automod: message removed",
+    "boostThanks": "Boost: thank-you",
+    "communityAnonymous": "Anonymous: staff reply",
+    "communityBugReport": "Bug report: update",
+    "communityStaff": "Community: staff message",
+    "communitySuggestion": "Suggestion: decision",
+    "gamificationLevelUp": "Gamification: level up",
+    "giveawayWinner": "Giveaway: winner notice",
+    "marketplaceDigitalDelivery": "Store: file delivery",
+    "marketplaceSaleLog": "Store: sale log",
+    "ticketRating": "Ticket: rating request",
+    "ticketLowRating": "Ticket: low rating alert",
+    "whitelistApproved": "Whitelist: approved",
+    "whitelistRejected": "Whitelist: rejected"
+  }
+}

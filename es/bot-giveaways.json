@@ -1,0 +1,61 @@
+{
+  "menu": {
+    "noGuild": "Usa este comando dentro de un servidor.",
+    "noPermission": "No tienes permiso para abrir el menú de sorteos.",
+    "title": "🎁 Sorteos",
+    "description": "Crea y gestiona sorteos desde el panel web — formulario completo con todos los requisitos opcionales.\n\n• **Modos de entrada**: botón o reacción (elegido por sorteo)\n• **Requisitos**: rol, tiempo en el servidor, antigüedad de la cuenta, otro servidor, lista negra\n• **Cierre automático** con sorteo uniforme\n• **Reroll** disponible después de terminar",
+    "openPanel": "Abrir panel"
+  },
+  "requirements": {
+    "role": "• Rol obligatorio: {role}",
+    "excludedRole": "• No tener el rol: {role}",
+    "minServerDays": "• Estar en el servidor desde hace al menos {count, plural, one {# día} other {# días}}",
+    "minAccountDays": "• Cuenta de Discord con al menos {count, plural, one {# día} other {# días}}",
+    "guildNameUrl": "• Estar en el servidor [**{name}**]({url})",
+    "guildName": "• Estar en el servidor **{name}**",
+    "guildUrl": "• [Unirse a este servidor]({url})",
+    "guildUnknown": "• Estar en otro servidor de Discord (consulta al admin)"
+  },
+  "message": {
+    "titleActive": "🎉 SORTEO: {prize}",
+    "titleCancelled": "❌ SORTEO CANCELADO: {prize}",
+    "titleEnded": "🎉 SORTEO TERMINADO: {prize}",
+    "endsAt": "**Termina {relative}** ({full})",
+    "winnerCount": "**Ganadores:** {count}",
+    "entryCount": "**Participantes:** {count}",
+    "requirements": "**Requisitos:**",
+    "reactToEnter": "¡Reacciona con {emoji} para participar!",
+    "clickToEnter": "¡Haz clic en el botón de abajo para participar!",
+    "webLink": "🔗 [Ver detalles / participar por la web]({url})",
+    "cancelled": "Este sorteo fue cancelado por el admin.",
+    "noEligible": "**Ningún participante elegible.**",
+    "winners": "**🏆 {count, plural, one {Ganador} other {Ganadores}}:** {mentions}",
+    "rerolled": "*Reroll hecho {count, plural, one {# vez} other {# veces}}*",
+    "footerId": "ID del sorteo: {id}",
+    "open": "Abrir",
+    "enter": "Participar",
+    "details": "Detalles"
+  },
+  "entry": {
+    "blacklisted": "No puedes participar en este sorteo.",
+    "requiredRole": "Necesitas el rol {role} para participar.",
+    "excludedRole": "No puedes participar teniendo el rol {role}.",
+    "minServerDays": "Necesitas estar en este servidor desde hace al menos {count, plural, one {# día} other {# días}}.",
+    "minAccountDays": "Tu cuenta de Discord debe tener al menos {count, plural, one {# día} other {# días}}.",
+    "botNotInGuild": "El bot necesita estar en el Discord requerido para validar — avisa a un admin.",
+    "joinGuild": "Necesitas unirte a este Discord para participar: {link}",
+    "otherGuild": "Necesitas estar en otro Discord específico para participar (pregunta al admin).",
+    "reactionDenied": "❌ **No pudiste participar en el sorteo de \"{prize}\".**\n\n{reason}",
+    "defaultReason": "Requisitos no cumplidos."
+  },
+  "dm": {
+    "title": "🎉 ¡Ganaste un sorteo!",
+    "oneOfMany": "Eres uno de los **{total}** ganadores. Posición: **{position}/{total}**.",
+    "single": "¡Fuiste sorteado(a)!",
+    "server": "Servidor",
+    "prize": "Premio",
+    "howToClaim": "Cómo reclamar",
+    "howToClaimValue": "Habla con el equipo del servidor para recibir el premio.",
+    "goTo": "Ir al sorteo"
+  }
+}

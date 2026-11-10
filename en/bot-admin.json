@@ -1,0 +1,181 @@
+{
+  "noPermission": "No permission for {command} ({reason}).",
+  "reason": "Reason",
+  "noReason": "_(no reason)_",
+  "common": {
+    "empty": "_(empty)_",
+    "previewTitle": "Preview (dry-run)",
+    "confirmTitle": "Confirm?",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "cancelledTitle": "Cancelled",
+    "nothingDeletedBody": "No messages were deleted.",
+    "deletingTitle": "Deleting…",
+    "timeoutTitle": "Timed out",
+    "notDeleted": "⚠️ {count, plural, one {# message} other {# messages}} could not be deleted — already removed, pinned or missing permission."
+  },
+  "kick": {
+    "done": "{user} kicked (case **#{case}**).",
+    "failed": "Failed to kick: {error}"
+  },
+  "ban": {
+    "done": "{user} banned (case **#{case}**).",
+    "failed": "Failed to ban: {error}",
+    "duration": "Duration",
+    "durationValue": "{minutes} min",
+    "deletedMessages": "Messages deleted",
+    "deletedDays": "{days, plural, one {# day} other {# days}}"
+  },
+  "mute": {
+    "done": "{user} muted for **{minutes}min** (case **#{case}**).",
+    "failed": "Failed to mute: {error}"
+  },
+  "note": {
+    "done": "Note recorded for {user} (case **#{case}**).",
+    "content": "Content",
+    "failed": "Failed to record note: {error}"
+  },
+  "ping": {
+    "title": "Pong",
+    "response": "Response",
+    "gateway": "Connection to Discord",
+    "measuring": "measuring…"
+  },
+  "softban": {
+    "done": "{user} softbanned (case **#{case}**, {days}d of messages deleted).",
+    "failed": "Softban failed: {error}",
+    "unbanAuditReason": "{reason} (kicked with messages deleted)"
+  },
+  "unban": {
+    "invalidId": "User ID must be a Discord snowflake (17-20 digits).",
+    "done": "{user} unbanned (case **#{case}**).",
+    "notBanned": "{user} is not banned in this server — check the User ID.",
+    "failed": "Failed to unban: {error}"
+  },
+  "unmute": {
+    "done": "{user} unmuted (case **#{case}**).",
+    "failed": "Failed to unmute: {error}"
+  },
+  "warn": {
+    "done": "{user} warned (case **#{case}**).",
+    "failed": "Failed to warn: {error}"
+  },
+  "cargo": {
+    "guildOnly": "Use this inside a server.",
+    "noAccessTitle": "No permission",
+    "noAccessBody": "You don't have access to this command. Who can use it is set in the dashboard, under **Permissions › Discord Admin**.",
+    "memberNotFound": "Member not found in the server.",
+    "botTooLowTitle": "I can't manage that role",
+    "botTooLowBody": "**{role}** is above my highest role. Move mine up in the role list.",
+    "authorTooLowTitle": "Role above yours",
+    "authorTooLowBody": "**{role}** is at the same level as or above your highest role.",
+    "managedTitle": "Managed role",
+    "managedBody": "**{role}** is controlled by an integration and can't be given or removed by hand.",
+    "noChangeTitle": "Nothing changed",
+    "alreadyHas": "**{member}** already has the **{role}** role.",
+    "doesNotHave": "**{member}** doesn't have the **{role}** role.",
+    "auditReason": "{command} by {user}",
+    "addedTitle": "Role added",
+    "removedTitle": "Role removed",
+    "addedBody": "**{role}** given to **{member}**.",
+    "removedBody": "**{role}** removed from **{member}**.",
+    "failedTitle": "Couldn't change it"
+  },
+  "membercount": {
+    "title": "Member count — {guild}",
+    "total": "👥 Total",
+    "humans": "🙂 Humans",
+    "bots": "🤖 Bots",
+    "boosts": "🚀 Boosts",
+    "tierField": "⭐ Boost level",
+    "tier0": "Level 0 (no boost)",
+    "tier": "Level {tier}"
+  },
+  "prune": {
+    "invalidRegex": "Invalid regex. Example: `^!command|spam`",
+    "botMissingPerms": "The bot is missing the required permissions in this channel (View Channel, Read Message History and Manage Messages). Adjust its role permissions here and try again.",
+    "previewNoMatch": "_(no messages would match the filters)_",
+    "previewOthers": "_+{count} more_",
+    "previewBody": "{count, plural, one {# message} other {# messages}} **would be** deleted — run again without `dry_run` to confirm.",
+    "reasonErrors": "Discord refused to delete {count, plural, one {# message} other {# messages}} — usually already deleted or pinned, or missing permission in the channel.",
+    "reasonScan": "nothing matched the filters in the {count} most recent messages — the scan hit its limit before finding anything.",
+    "reasonNoMatch": "no messages matched the filters.",
+    "nothingDeleted": "Nothing was deleted: {reason}",
+    "deleted": "**{count}** {count, plural, one {message} other {messages}} deleted from this channel.",
+    "oldDeleted": "({count} older than 14 days, deleted one by one)",
+    "stoppedTime": "⏱️ Stopped at the time limit — run it again to continue.",
+    "stoppedScan": "🔎 Scan limit reached — run it again to go deeper.",
+    "timeout": "⏱️ The cleanup took longer than expected and the response was lost. Some messages may already be deleted — run {command} again to continue.",
+    "failed": "Prune failed: {error}",
+    "confirmOnlyFrom": "• only from `{user}`",
+    "confirmOnlyMatching": "• only those matching `{regex}`",
+    "confirmBody": "I'll delete up to **{count}** {count, plural, one {message} other {messages}} from this channel.",
+    "confirmNoFilter": "• no filter — the most recent in the channel",
+    "confirmNoUndo": "This **can't be undone**. Use `dry_run: true` if you want to see first.",
+    "deletingBody": "This may take a few seconds."
+  },
+  "purge": {
+    "moreChannels": "_+{count} more channels_",
+    "progress": "Messages from `{user}`: **{count}** deleted so far.\nChannels scanned: {done}/{total}.",
+    "skipped": "⚠️ {count, plural, one {# channel} other {# channels}} skipped: the bot can't read or delete there (View Channel, Read Message History and Manage Messages).",
+    "archivedThreads": "_Archived threads are not scanned._",
+    "nothingTitle": "Nothing was deleted",
+    "nothingBody": "No messages from `{user}` were found in the channels the bot can reach.",
+    "doneTitle": "Cleanup complete",
+    "done": "**{count}** {count, plural, one {message} other {messages}} from `{user}` deleted.",
+    "doneWithCase": "**{count}** {count, plural, one {message} other {messages}} from `{user}` deleted — case #{case}.",
+    "alreadyDeleted": "{count, plural, one {# message had} other {# messages had}} already been deleted.",
+    "stepTimeout": "⏱️ A step took longer than expected and the response was lost.{done} Run {command} again to continue.",
+    "failedStep": "Purge failed: {error}.{done}",
+    "failed": "Purge failed: {error}",
+    "partialScan": "_Partial scan: {done}/{total} channels in one step — the real total is greater or equal._",
+    "noneFound": "_(no messages found)_",
+    "previewBody": "**{count}** {count, plural, one {message} other {messages}} from `{user}` **would be** deleted.",
+    "confirmDays": "I'll delete **all** messages from `{user}` in every channel the bot can reach, from the last **{days, plural, one {# day} other {# days}}**.",
+    "confirmAll": "I'll delete **all** messages from `{user}` in every channel the bot can reach — **entire history**.",
+    "confirmNote": "On a large server this takes minutes. This **can't be undone**. Use `dry_run: true` if you want to see first.",
+    "scanning": "Scanning the server's channels.",
+    "continue": "Continue",
+    "pausedTitle": "Paused",
+    "pausedBody": "**{count}** {count, plural, one {message} other {messages}} from `{user}` deleted so far ({done}/{total} channels). Click Continue to pick up where it stopped.",
+    "stoppedTitle": "Stopped",
+    "stoppedBody": "**{count}** {count, plural, one {message} other {messages}} from `{user}` deleted. Run {command} again to finish."
+  },
+  "shards": {
+    "status": {
+      "online": "✅ Online",
+      "connecting": "🔄 Connecting",
+      "reconnecting": "🔄 Reconnecting",
+      "idle": "💤 Idle",
+      "nearly": "⚠️ Nearly ready",
+      "disconnected": "❌ Disconnected",
+      "waitingGuilds": "⏳ Waiting for guilds",
+      "identifying": "🔑 Identifying",
+      "resuming": "▶️ Resuming"
+    },
+    "notAvailable": "N/A",
+    "listLine": "**Shard {id}** — {status} | {guilds} servers | {ping}ms",
+    "listTitle": "Shard status",
+    "listFooter": "Total: {guilds} servers | Average ping: {ping}ms | {count} shard(s)",
+    "statsTitle": "Shard statistics",
+    "statsServers": "Servers: **{count}**",
+    "statsUsers": "Cached users: **{count}**",
+    "statsPing": "Ping: **{ping}ms**",
+    "statsUptime": "Uptime: **{uptime}**",
+    "statsFooter": "Total: {guilds} servers | {users} cached users",
+    "notFound": "Shard **{id}** not found.",
+    "fieldStatus": "Status",
+    "fieldServers": "Servers",
+    "fieldCachedUsers": "Cached users",
+    "fieldPing": "Ping",
+    "fieldUptime": "Uptime",
+    "notSharded": "The bot is not running with sharding enabled.",
+    "restartingOne": "Restarting shard **{id}**...",
+    "restartingAll": "Restarting **all** shards..."
+  },
+  "selector": {
+    "added": "Added: {roles}",
+    "removed": "Removed: {roles}",
+    "noChange": "No change."
+  }
+}

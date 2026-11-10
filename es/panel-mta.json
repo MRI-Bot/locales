@@ -1,0 +1,240 @@
+{
+  "tabs": {
+    "dashboard": "Resumen",
+    "config": "Configuración",
+    "messages": "Mensajes",
+    "actions": "Acciones",
+    "deliveries": "Entregas",
+    "statusPanel": "Panel de estado"
+  },
+  "header": {
+    "description": "Integración del servidor MTA (Multi Theft Auto) con el Discord de {guild}."
+  },
+  "nav": {
+    "label": "Pantallas de MTA"
+  },
+  "config": {
+    "loadError": "No se pudo cargar la configuración.",
+    "ttlRange": "El TTL debe estar entre 1 y 60 minutos.",
+    "saved": "Configuración guardada",
+    "saveError": "No se pudo guardar.",
+    "title": "Configuración del módulo",
+    "subtitle": "Se aplica a todas las API keys de este servidor.",
+    "loading": "Cargando...",
+    "altAccounts": {
+      "label": "Permitir cuentas alternativas",
+      "description": "Si está activado, una misma cuenta de Discord puede vincular varios seriales de MTA en el servidor. Por defecto es 1 Discord ↔ 1 serial."
+    },
+    "ttl": {
+      "label": "Duración del código de vinculación",
+      "minutes": "minutos",
+      "hint": "Cuánto tiempo tiene el jugador entre entrar a MTA y ejecutar {command} en Discord. De 1 a 60.",
+      "invalid": "Valor no válido. Usa de 1 a 60."
+    },
+    "save": "Guardar"
+  },
+  "configTab": {
+    "loadKeysError": "No se pudieron cargar las claves de MTA.",
+    "keysHeading": "Claves de API / Servidores",
+    "activeCount": "{count, plural, one {# activa} other {# activas}}",
+    "newKey": "Nueva clave",
+    "emptyTitle": "Ninguna clave de API con el alcance MTA",
+    "emptyDescription": "Crea una clave de API con el alcance {mta} activado en la sección {apiKeys} para configurar la integración aquí.",
+    "apiKeysSection": "Claves de API"
+  },
+  "dashboard": {
+    "kpi": {
+      "connectionsToday": "Conexiones hoy",
+      "linked": "Vínculos",
+      "denied24h": "Rechazos 24h",
+      "queue": "En la cola"
+    },
+    "recentTitle": "Conexiones recientes",
+    "recentEmpty": "Aún no hay conexiones registradas. Los eventos aparecen aquí a medida que los jugadores entran al servidor MTA.",
+    "serial": "serial {serial}",
+    "serialUnknown": "serial ?",
+    "weight": "peso {weight}"
+  },
+  "cards": {
+    "fields": {
+      "linking_text": "Solicitud de vínculo",
+      "admitted": "Acceso concedido",
+      "denied_default": "Acceso denegado",
+      "no_role_waiting": "Esperando rol",
+      "no_role_timeout": "Tiempo de espera del rol",
+      "link_timeout": "Tiempo de espera del vínculo",
+      "queue_position": "Posición en la cola",
+      "service_unavailable": "Servicio no disponible",
+      "no_serial": "Sin serial"
+    },
+    "placeholders": "Variables: {list}",
+    "placeholder": "Variable: {list}",
+    "loadError": "No se pudo cargar.",
+    "saved": "Mensajes guardados, se aplican en el servidor en unos minutos.",
+    "title": "Mensajes del servidor",
+    "description": "Textos que se muestran en el chat de MTA. Déjalo vacío para usar el predeterminado. El resource los obtiene en tiempo real (sin volver a descargar).",
+    "save": "Guardar mensajes"
+  },
+  "actions": {
+    "mappingsSaved": "Asignaciones guardadas",
+    "invalidPayload": "El payload no es un JSON válido.",
+    "missingFields": "Indica la acción y el objetivo.",
+    "sent": "Comando enviado, sigue el progreso en la pestaña Entregas.",
+    "sendError": "No se pudo enviar.",
+    "sendTitle": "Enviar acción",
+    "sendDescription": "Dispara un evento/export de tu gamemode en el jugador objetivo. Función Pro.",
+    "action": "Acción",
+    "target": "Objetivo",
+    "variables": "Variables",
+    "placeholdersAvailable": "Variables disponibles en los valores:",
+    "send": "Enviar",
+    "mappingTitle": "Asignación de acciones",
+    "mappingDescription": "Cada acción apunta a un evento (triggerEvent) o export de tu gamemode.",
+    "empty": "Ninguna acción configurada.",
+    "kindEvent": "Evento",
+    "kindExport": "Export",
+    "saveMappings": "Guardar asignaciones"
+  },
+  "keyCard": {
+    "pushSaved": "Push configurado",
+    "downloadFailed": "No se pudo generar el resource.",
+    "downloadError": "No se pudo descargar el resource.",
+    "status": {
+      "revoked": "Revocada",
+      "expired": "Caducada",
+      "active": "Activa"
+    },
+    "prefix": "Prefijo: {prefix}",
+    "summary": {
+      "allowlist": "ALLOWLIST",
+      "apiFailure": "FALLO DE API",
+      "queue": "COLA",
+      "on": "On",
+      "off": "Off"
+    },
+    "mode": {
+      "permissive": "Permisivo",
+      "strict": "Estricto"
+    },
+    "allowlist": {
+      "title": "Allowlist por rol",
+      "tag": "control de entrada",
+      "toggleAria": "Activar o desactivar la allowlist por rol",
+      "offHint": "Allowlist desactivada, cualquier jugador {linked} entra, sin comprobar rol ni presencia en Discord.",
+      "linked": "vinculado",
+      "removeRole": "Quitar {role}",
+      "addRole": "+ Añadir rol",
+      "hint": "El jugador necesita {atLeastOne} de estos roles. Déjalo vacío para permitir a cualquier miembro de Discord.",
+      "atLeastOne": "al menos uno"
+    },
+    "on": "Activada",
+    "off": "Desactivada",
+    "queue": {
+      "title": "Cola por peso",
+      "tag": "prioridad cuando el servidor está lleno",
+      "toggleAria": "Activar o desactivar la cola prioritaria por rol",
+      "onHint": "Ordena la entrada por peso de rol cuando el servidor se llena.",
+      "offHint": "Cola desactivada, todos entran con la misma prioridad (orden de llegada). El servidor gestiona los cupos de forma nativa."
+    },
+    "apiFailure": {
+      "title": "Modo ante fallo de API",
+      "badgeDefault": "PREDETERMINADO",
+      "badgeSafe": "SEGURO",
+      "permissiveDescription": "Si el backend no responde, el jugador {strong}.",
+      "permissiveStrong": "entra sin verificación",
+      "strictDescription": "Un fallo de API {strong}.",
+      "strictStrong": "rechaza la conexión"
+    },
+    "push": {
+      "title": "Push en tiempo real (opcional)",
+      "tag": "acciones outbound entregadas al instante por HTTP de MTA; sin esto, se usa polling",
+      "endpointPlaceholder": "host:httpport (ej.: 1.2.3.4:22005)",
+      "userPlaceholder": "cuenta ACL",
+      "passwordSaved": "•••••• (guardada)",
+      "password": "contraseña",
+      "save": "Guardar push"
+    },
+    "saveConfig": "Guardar configuración",
+    "download": "Descargar resource"
+  },
+  "statusPanel": {
+    "layouts": {
+      "default": {
+        "label": "Predeterminado",
+        "hint": "Una sección con el estado y una barra de ocupación, más la dirección de conexión."
+      }
+    },
+    "renderModes": {
+      "embed": {
+        "label": "Embed clásico",
+        "hint": "Campos nombre/valor que configuras, con inline (lado a lado)."
+      },
+      "components_v2": {
+        "hint": "Contenedor con bloques y el editor de diseño. Sin inline, todo apilado."
+      }
+    },
+    "fields": {
+      "serverStatus": "Estado",
+      "playerCount": "Jugadores",
+      "maxPlayers": "Capacidad máxima",
+      "hostname": "Nombre del servidor",
+      "joinAddress": "Dirección",
+      "updatedAt": "Actualizado el"
+    },
+    "title": "Panel de estado",
+    "intro": "Panel persistente en Discord con el estado del servidor MTA (online/offline, jugadores, banner + botón de entrar). El resource envía el estado; configura {config}.",
+    "newPanel": "Nuevo panel",
+    "noKeys": "Crea una clave de API de MTA en \"Configuración\" antes de crear paneles; es la que identifica de qué servidor viene el estado.",
+    "empty": "Aún no hay paneles. Haz clic en \"Nuevo panel\" para crear el primero.",
+    "published": "Panel publicado/actualizado en el canal.",
+    "publishError": "No se pudo publicar.",
+    "fallbackTitle": "Panel MTA",
+    "meta": "canal {channel} · {state} · {seconds}s",
+    "isPublished": "publicado",
+    "notPublished": "no publicado",
+    "active": "Activo",
+    "paused": "Pausado",
+    "publish": "Publicar",
+    "edit": "Editar",
+    "selectKey": "Selecciona una clave de API.",
+    "selectChannel": "Selecciona un canal.",
+    "invalidColor": "Color no válido.",
+    "incompleteField": "Campo {index}: completa nombre y valor (o quita el campo).",
+    "created": "Panel creado.",
+    "saved": "Panel guardado.",
+    "saveError": "No se pudo guardar.",
+    "deleteTitle": "¿Eliminar este panel?",
+    "deleteDescription": "El mensaje en Discord también se elimina.",
+    "delete": "Eliminar",
+    "removed": "Panel eliminado.",
+    "removeError": "No se pudo eliminar.",
+    "editPanel": "Editar panel",
+    "apiKeyLabel": "Clave de API (servidor MTA)",
+    "chooseKey": "Elige la clave",
+    "apiKeyHint": "El resource reporta el estado con ella; el panel muestra el del servidor de esa clave.",
+    "channel": "Canal de Discord",
+    "titleLabel": "Título del panel (opcional)",
+    "titlePlaceholder": "Vacío usa el nombre que reporta el servidor",
+    "accent": "Color de acento",
+    "refresh": "Actualización (segundos)",
+    "refreshHint": "Entre 30 y 3600 s. Predeterminado 60 s.",
+    "banner": "URL del banner (imagen superior)",
+    "joinLabel": "Dirección de conexión (opcional)",
+    "joinPlaceholder": "mtasa://1.2.3.4:22003 o https://...",
+    "joinNone": "Sin dirección el panel no muestra botón ni bloque de conexión.",
+    "joinButton": "Se convierte en un botón \"Entrar al servidor\".",
+    "joinCode": "Discord solo acepta http(s) en botones, así que {scheme} aparece como bloque de código copiable en lugar de botón.",
+    "format": "Formato del mensaje",
+    "formatHint": "Los campos lado a lado (inline) solo existen en el embed clásico; Components V2 lo apila todo.",
+    "formatChanged": "Cambiar de formato republica el mensaje al guardar; Discord no permite convertir un mensaje ya publicado. El anterior se elimina y se envía uno nuevo en el mismo canal.",
+    "layoutLabel": "Plantilla del panel",
+    "layoutHint": "Elige una plantilla lista. Se aplica mientras no armes un diseño propio en el editor de abajo.",
+    "ownDesignWins": "Este panel tiene un diseño propio armado abajo, que prevalece sobre la plantilla. Usa \"Volver a la plantilla\" para soltar el editor.",
+    "ownLayout": "Diseño propio (opcional)",
+    "ownLayoutHint": "Arma el tuyo y usa \"+ Campo\" para los valores en vivo; el bot los completa en cada actualización.",
+    "backToModel": "Volver a la plantilla",
+    "joinAlwaysAdded": "El botón de entrar siempre se añade al final; es del panel, no del diseño.",
+    "enabledToggle": "Bot actualizando este panel",
+    "saving": "Guardando..."
+  }
+}

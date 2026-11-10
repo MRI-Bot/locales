@@ -1,0 +1,77 @@
+{
+  "guildOnly": "Use this command inside a server.",
+  "guildOnlyShort": "Use it inside a server.",
+  "textChannelOnly": "Use it in a text channel.",
+  "sub": {
+    "menu": {
+      "noPermission": "You don't have permission to open the subscriptions menu.",
+      "title": "⭐ Subscriptions",
+      "description": "Use the buttons below to manage the module.\n\n• **Post panel** publishes the active plans with \"Subscribe\" buttons.\n• Create or edit plans on the web dashboard.",
+      "postHere": "Post panel here"
+    },
+    "panel": {
+      "noPermission": "You don't have permission to post the panel in this server.",
+      "loadFailed": "Couldn't load the plans.",
+      "noPlansTitle": "No active plans",
+      "noPlans": "Create at least one plan on the web dashboard before posting.",
+      "title": "⭐ Server subscriptions",
+      "footer": "Click a button to subscribe. You'll be redirected to Mercado Pago.",
+      "subscribe": "Subscribe to {plan}",
+      "postFailed": "Couldn't post the panel. Check the bot's permissions.",
+      "postedTitle": "Panel posted",
+      "posted": "The subscriptions panel was posted in this channel."
+    },
+    "checkout": {
+      "title": "💳 Checkout",
+      "description": "Click **Open checkout** to complete your subscription on Mercado Pago.\nYour Discord ID will already be filled in.",
+      "open": "Open checkout"
+    },
+    "freq": {
+      "month": "month",
+      "quarter": "quarter",
+      "semester": "6 months",
+      "year": "year",
+      "months": "{count} months",
+      "week": "week",
+      "fortnight": "2 weeks",
+      "days": "{count} days"
+    }
+  },
+  "shop": {
+    "menu": {
+      "noPermission": "You don't have permission to open the store menu.",
+      "title": "🛍️ Store",
+      "description": "Use the buttons below to manage the module.\n\n• **Post store** publishes a panel with a \"See products\" button. The list always opens up to date, so there is no need to post again when a product changes.\n• Create or edit products in the web panel under **Store**.",
+      "postHere": "Post store here",
+      "offTitle": "Store is off",
+      "off": "Turn on the Store module in the web panel to use this command."
+    },
+    "panel": {
+      "loadFailed": "Couldn't load the products.",
+      "noProductsTitle": "No active products",
+      "noProducts": "Create at least one product on the web dashboard before posting.",
+      "title": "🛍️ Server store",
+      "posted": "The store panel was posted in this channel.",
+      "description": "Click **See products** to see the catalog with current prices and buy.\nOnce the payment is approved, delivery is automatic.",
+      "browse": "See products",
+      "openStore": "Open store"
+    },
+    "checkout": {
+      "title": "💳 Checkout ready",
+      "description": "Amount: **{amount}**\n\nClick **Open checkout** to finish the payment.\nOnce the payment is approved, the item is delivered automatically.",
+      "failed": "Failed to create the checkout."
+    },
+    "browse": {
+      "closedTitle": "Store closed",
+      "closed": "This server's store is not open right now.",
+      "emptyTitle": "Empty store",
+      "empty": "No products for sale right now.",
+      "title": "🛍️ Products",
+      "footer": "Page {page} of {pages} · {count} products",
+      "pick": "Choose the product to buy",
+      "prev": "Previous",
+      "next": "Next",
+      "more": "_The other products on this page are in the menu below._"
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "header": {
+    "title": "Mensagens & Anúncios",
+    "description": "Envie mensagens pelo bot em {guild}, agende, repita e edite depois."
+  },
+  "tabs": {
+    "label": "Telas de Mensagens",
+    "compose": "Escrever",
+    "editing": "Editando",
+    "history": "Histórico",
+    "templates": "Modelos"
+  },
+  "recurrence": {
+    "hourly": "A cada hora",
+    "daily": "Diário",
+    "weekly": "Semanal",
+    "monthly": "Mensal (30d)",
+    "everyHours": "A cada {hours} h"
+  },
+  "status": {
+    "draft": "Rascunho",
+    "scheduled": "Agendada",
+    "sent": "Enviada",
+    "failed": "Falhou",
+    "canceled": "Cancelada",
+    "recurring": "Recorrente"
+  },
+  "errors": {
+    "loadChannels": "Falha ao carregar canais.",
+    "empty": "Escreva algo ou adicione um bloco antes de enviar.",
+    "channel": "Escolha um canal.",
+    "scheduleDate": "Defina a data do agendamento.",
+    "send": "Falha ao enviar.",
+    "edit": "Falha ao editar.",
+    "cancel": "Falha ao cancelar.",
+    "delete": "Falha ao apagar.",
+    "emptyTemplate": "Nada pra salvar como template.",
+    "saveTemplate": "Falha ao salvar template.",
+    "removeTemplate": "Falha ao remover template."
+  },
+  "toast": {
+    "sent": "Mensagem enviada!",
+    "scheduled": "Mensagem agendada!",
+    "recurring": "Recorrência criada!",
+    "edited": "Mensagem editada!",
+    "duplicated": "Copiado pro compositor, ajuste e envie.",
+    "canceled": "Cancelada.",
+    "deleted": "Apagada.",
+    "templateSaved": "Template salvo!",
+    "templateLoaded": "Template \"{name}\" carregado.",
+    "templateRemoved": "Template removido."
+  },
+  "delete": {
+    "title": "Apagar mensagem?",
+    "description": "Se já foi enviada, será removida do canal do Discord também.",
+    "confirm": "Apagar"
+  },
+  "editing": {
+    "sent": "Editando uma mensagem já enviada (re-renderiza no Discord).",
+    "recurring": "Editando recorrência, os próximos disparos usam o que você salvar.",
+    "scheduled": "Editando agendamento, nada é enviado agora; o disparo usa o que você salvar.",
+    "cancel": "Cancelar edição"
+  },
+  "compose": {
+    "content": "Texto simples (opcional)",
+    "contentPlaceholder": "Texto da mensagem (ou use o design abaixo)...",
+    "design": "Design (Components V2)",
+    "channel": "Canal",
+    "channelPlaceholder": "Escolher canal",
+    "when": "Quando",
+    "modes": {
+      "now": "Enviar agora",
+      "schedule": "Agendar",
+      "recurring": "Recorrente"
+    },
+    "dateTime": "Data e hora",
+    "frequency": "Frequência",
+    "pingEveryone": "Pingar @everyone",
+    "pingUsers": "Pingar usuários mencionados",
+    "submit": {
+      "edit": "Salvar edição",
+      "now": "Enviar",
+      "recurring": "Criar recorrência"
+    },
+    "saveTemplate": "Salvar como modelo"
+  },
+  "designOnly": "Mensagem com design",
+  "history": {
+    "emptyTitle": "Nenhuma mensagem ainda",
+    "emptyDescription": "Mensagens enviadas, agendadas e recorrentes aparecem aqui.",
+    "writeFirst": "Escrever a primeira",
+    "filters": {
+      "label": "Filtrar mensagens",
+      "all": "Todas",
+      "sent": "Enviadas",
+      "waiting": "Programadas",
+      "failed": "Com falha"
+    },
+    "search": "Buscar texto ou canal",
+    "count": "{count, plural, one {# mensagem} other {# mensagens}}",
+    "noResults": "Nenhuma mensagem encontrada",
+    "noResultsHint": "Tente outro termo ou troque o filtro.",
+    "columns": {
+      "message": "Mensagem",
+      "channel": "Canal",
+      "status": "Situação",
+      "when": "Quando"
+    },
+    "noText": "Sem texto",
+    "channelRemoved": "Canal removido",
+    "failReason": "Motivo da falha: {reason}",
+    "actions": {
+      "edit": "Editar",
+      "duplicate": "Duplicar",
+      "cancel": "Cancelar envio"
+    }
+  },
+  "templates": {
+    "namePrompt": "Nome do template:",
+    "emptyTitle": "Nenhum modelo salvo",
+    "emptyDescription": "Guarde um texto que você repete e use de novo com um clique.",
+    "writeOne": "Escrever um modelo",
+    "columns": {
+      "name": "Modelo",
+      "content": "Conteúdo",
+      "actions": "Ações"
+    },
+    "use": "Usar",
+    "delete": "Apagar modelo"
+  }
+}

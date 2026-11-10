@@ -1,0 +1,375 @@
+{
+  "activity": {
+    "areas": {
+      "discordSetup": "Montar o Discord",
+      "discordAdmin": "Discord Admin",
+      "community": "Comunidade",
+      "tickets": "Tickets",
+      "giveaways": "Sorteios",
+      "polls": "Enquetes",
+      "messages": "Mensagens",
+      "gamification": "Gamificação",
+      "social": "Alertas de redes",
+      "boost": "Boost",
+      "whitelist": "Whitelist",
+      "aiHelper": "Assistente IA",
+      "planning": "Planejamento",
+      "voice": "Voz",
+      "store": "Loja",
+      "subscriptionPlans": "Assinaturas",
+      "projects": "Projetos",
+      "media": "Mídia"
+    },
+    "verbs": {
+      "post": "Criou ou executou",
+      "put": "Alterou",
+      "delete": "Removeu"
+    },
+    "verbIn": "{verb} em",
+    "outcome": {
+      "success": "Feito",
+      "denied": "Negado",
+      "error": "Erro"
+    },
+    "loadError": "Não foi possível carregar a atividade.",
+    "title": "Atividade das chaves",
+    "description": "O que cada chave mudou no servidor nos últimos 6 meses. O tráfego do servidor de jogo (FiveM, MTA) não entra aqui.",
+    "filter": "Filtrar por chave",
+    "allKeys": "Todas as chaves",
+    "empty": "Nenhuma mudança feita por chave ainda.",
+    "deletedKey": "Chave apagada",
+    "loading": "Carregando...",
+    "loadMore": "Carregar mais"
+  },
+  "header": {
+    "title": "API Keys",
+    "description": "Chaves de {guild}. Use chaves para servidores FiveM, integrações e para uma IA configurar este servidor."
+  },
+  "supportAccess": "Acesso para suporte",
+  "createNew": "Criar nova chave",
+  "loadError": "Não foi possível carregar as chaves.",
+  "loadingKeys": "Carregando chaves...",
+  "empty": "Nenhuma chave criada ainda. Clique em \"Criar nova chave\" para começar.",
+  "supportDefaultName": "Suporte MRI",
+  "errors": {
+    "nameLength": "Nome precisa ter entre 2 e 50 caracteres.",
+    "noScope": "Selecione ao menos um escopo para a chave.",
+    "create": "Não foi possível criar a chave.",
+    "copyManual": "Não foi possível copiar. Selecione manualmente.",
+    "revoke": "Não foi possível revogar.",
+    "saveScopes": "Não foi possível salvar as permissões.",
+    "delete": "Não foi possível deletar.",
+    "reveal": "Não foi possível revelar a chave.",
+    "copy": "Não foi possível copiar."
+  },
+  "toast": {
+    "revoked": "Chave revogada",
+    "scopesSaved": "Permissões salvas",
+    "deleted": "Chave deletada"
+  },
+  "created": {
+    "title": "Chave criada com sucesso",
+    "saveNow": "⚠️ Salve essa chave agora.",
+    "revealLater": "Você pode revelá-la novamente depois pelo botão \"Revelar\" no card da chave.",
+    "prefixName": "Prefixo: {prefix} · Nome: {name}",
+    "aiHint": "Vai usar com IA? Copie já com esta chave: o endereço do conector (ChatGPT ou Claude) ou as instruções (IA no terminal).",
+    "connectorUrl": "Endereço do conector",
+    "aiInstructions": "Instruções pra IA"
+  },
+  "copied": "Copiado",
+  "copy": "Copiar",
+  "create": {
+    "title": "Criar nova API Key",
+    "supportDescription": "Já vem com 7 dias e as permissões de configuração dos módulos ligados, sem vendas, assinantes nem publicar a loja. Confira, crie e mande a chave pra equipe. Revogue quando o atendimento acabar.",
+    "description": "Dê um nome descritivo para identificar onde a chave será usada.",
+    "name": "Nome",
+    "namePlaceholder": "Servidor FiveM Principal",
+    "nameHint": "Entre 2 e 50 caracteres.",
+    "expiry": "Validade",
+    "submit": "Criar"
+  },
+  "expiry": {
+    "none": "Sem expiração",
+    "days": "{count, plural, one {# dia} other {# dias}}"
+  },
+  "editScopes": {
+    "title": "Permissões da chave",
+    "description": "O que a chave {name} pode fazer. Vale no próximo uso da chave, sem trocar a chave."
+  },
+  "deleteDialog": {
+    "title": "Deletar chave?",
+    "description": "Deletar a chave {name}? Aplicações usando essa chave param de funcionar imediatamente. Esta ação não pode ser desfeita."
+  },
+  "picker": {
+    "label": "Escopos de acesso",
+    "count": "({selected} de {total})",
+    "selectAll": "Selecionar tudo",
+    "clear": "Limpar",
+    "groupOff": "Desmarcar grupo",
+    "groupOn": "Marcar grupo"
+  },
+  "status": {
+    "revoked": "Revogada",
+    "expired": "Expirada",
+    "expiresIn": "{count, plural, one {Expira em # dia} other {Expira em # dias}}",
+    "active": "Ativa"
+  },
+  "card": {
+    "prefix": "Prefixo: {prefix}",
+    "createdBy": "Criada em {date} por {user}",
+    "lastUsed": "Último uso: {date}",
+    "neverUsed": "Nunca usada",
+    "expiresAt": "Expira em {date}",
+    "hide": "Ocultar",
+    "reveal": "Revelar",
+    "permissions": "Permissões",
+    "revoke": "Revogar",
+    "delete": "Deletar"
+  },
+  "scopes": {
+    "fivem": {
+      "label": "FiveM",
+      "description": "Permite verificação de cargo no servidor FiveM"
+    },
+    "fivem_config_read": {
+      "label": "FiveM: ver configuração",
+      "description": "Permite ler a configuração do módulo. Não dê esta permissão à chave que fica no server.cfg."
+    },
+    "fivem_config_write": {
+      "label": "FiveM: mudar configuração",
+      "description": "Permite mudar vínculo, entrada, apelido, ações por cargo, permissões ACE e painéis de status. Pode dar poder de admin no jogo. Não dê à chave que fica no server.cfg."
+    },
+    "mta": {
+      "label": "MTA",
+      "description": "Permite vínculo e verificação de cargo no servidor MTA"
+    },
+    "mta_config_read": {
+      "label": "MTA: ver configuração",
+      "description": "Permite ler a configuração do módulo. A senha do servidor nunca é mostrada. Não dê à chave do servidor de jogo."
+    },
+    "mta_config_write": {
+      "label": "MTA: mudar configuração",
+      "description": "Permite mudar vínculo, entrada e painéis de status. O endereço e a senha do servidor ficam só no painel. Não dê à chave do servidor de jogo."
+    },
+    "media_write": {
+      "label": "Mídia: enviar",
+      "description": "Permite subir e apagar arquivos. É o escopo do resource do servidor de jogo."
+    },
+    "media_read": {
+      "label": "Mídia: listar",
+      "description": "Permite listar o acervo e ver o consumo. Não dê isto à chave do servidor de jogo."
+    },
+    "projects": {
+      "label": "Projetos",
+      "description": "Libera a API de boards e tarefas: ler, criar, editar, mover e excluir."
+    },
+    "storefront_read": {
+      "label": "Loja: ler",
+      "description": "Permite ler a loja, o rascunho, o histórico de versões e quais formas de pagamento estão ativas."
+    },
+    "storefront_write": {
+      "label": "Loja: editar rascunho",
+      "description": "Permite editar e descartar o rascunho. Nada vai pro ar sem publicar."
+    },
+    "storefront_publish": {
+      "label": "Loja: publicar",
+      "description": "Permite publicar o rascunho, restaurar versões antigas e mexer em página visível. A mudança vai pro ar na hora."
+    },
+    "storefront_settings": {
+      "label": "Loja: ajustes",
+      "description": "Permite mudar o endereço da loja, ligar ou desligar a loja, o canal de vendas e o domínio próprio. Vai pro ar na hora."
+    },
+    "products_read": {
+      "label": "Produtos: ler",
+      "description": "Permite ler produtos e categorias. Da entrega só aparece o tipo (cargo, arquivo, comando), sem os detalhes."
+    },
+    "products_write": {
+      "label": "Produtos: editar",
+      "description": "Permite criar, editar, reordenar e arquivar produtos e categorias. Vai pro ar na hora; a entrega só pode ser copiada de outro produto e é editada no painel."
+    },
+    "coupons_read": {
+      "label": "Cupons: ler",
+      "description": "Permite ler os cupons de desconto."
+    },
+    "coupons_write": {
+      "label": "Cupons: editar",
+      "description": "Permite criar, editar e apagar cupons de desconto. Vale na hora."
+    },
+    "sales_read": {
+      "label": "Vendas: ler",
+      "description": "Permite ler as vendas da loja, com comprador e transação. Reembolso e reentrega ficam só no painel."
+    },
+    "plans_read": {
+      "label": "Planos: ler",
+      "description": "Permite ler os planos de assinatura como aparecem na loja (sem as ações do plano)."
+    },
+    "plans_write": {
+      "label": "Planos: editar",
+      "description": "Permite mudar nome, benefícios, imagens, ordem, visibilidade, preço, desconto, pacotes e doação dos planos. Vai pro ar na hora; as ações do plano (cargo, comando) ficam só no painel."
+    },
+    "subscribers_read": {
+      "label": "Assinantes: ler",
+      "description": "Permite ler os assinantes, com email, cobranças e compras. Cancelar e reembolsar ficam só no painel."
+    },
+    "selectors_read": {
+      "label": "Seletor de cargos: ler",
+      "description": "Permite ler os painéis de cargos e as opções de cada um."
+    },
+    "selectors_write": {
+      "label": "Seletor de cargos: editar",
+      "description": "Permite criar, editar, apagar, publicar e tirar do canal os painéis de cargos. Vai pro ar na hora. O painel pode oferecer qualquer cargo abaixo do bot, inclusive um de administrador."
+    },
+    "admin_read": {
+      "label": "Discord Admin: ler",
+      "description": "Permite ler boas-vindas, cargos automáticos, logs de canal, apelido sincronizado e ajustes de moderação."
+    },
+    "admin_write": {
+      "label": "Discord Admin: editar",
+      "description": "Permite mudar boas-vindas, cargos automáticos, logs de canal, apelido sincronizado e ajustes de moderação. O cargo automático pode ser qualquer um abaixo do bot, inclusive de administrador. Banir, expulsar, silenciar e o modo raid ficam só no painel."
+    },
+    "member_counter_read": {
+      "label": "Contador de membros: ler",
+      "description": "Permite ler a configuração e os números do contador de membros."
+    },
+    "member_counter_write": {
+      "label": "Contador de membros: editar",
+      "description": "Permite mudar o contador e publicar a mensagem dele no canal."
+    },
+    "community_read": {
+      "label": "Comunidade: ler",
+      "description": "Permite ler a configuração de sugestões, bugs, mensagem anônima e formulário de staff, e as vagas do formulário."
+    },
+    "community_write": {
+      "label": "Comunidade: editar",
+      "description": "Permite mudar a configuração de sugestões, bugs, mensagem anônima e formulário de staff, criar e apagar vagas e publicar os painéis. Vai pro ar na hora; decidir sugestão, triar bug e ler candidatura ficam só no painel."
+    },
+    "referrals_read": {
+      "label": "Indicações: ler",
+      "description": "Permite ler os ajustes e os marcos das indicações. Quem convidou quem fica só no painel."
+    },
+    "referrals_write": {
+      "label": "Indicações: editar",
+      "description": "Permite mudar os ajustes e os marcos. Atribuir convite, recalcular e zerar a temporada ficam só no painel."
+    },
+    "tickets_read": {
+      "label": "Tickets: ler",
+      "description": "Permite ler a configuração de tickets (tipos, painéis, horário, respostas prontas) e os números."
+    },
+    "tickets_write": {
+      "label": "Tickets: editar",
+      "description": "Permite mudar a configuração de tickets e publicar o painel. Vai pro ar na hora; conversas, fechar ticket e a lista de bloqueados ficam só no painel."
+    },
+    "giveaways_read": {
+      "label": "Sorteios: ler",
+      "description": "Permite ler os sorteios, os ajustes, os modelos e os números de cada sorteio."
+    },
+    "giveaways_write": {
+      "label": "Sorteios: editar",
+      "description": "Permite criar, editar, encerrar, cancelar e sortear de novo, e mudar ajustes e modelos. Vai pro ar na hora; quem participou e apagar de vez ficam só no painel."
+    },
+    "polls_read": {
+      "label": "Enquetes: ler",
+      "description": "Permite ler as enquetes e os resultados."
+    },
+    "polls_write": {
+      "label": "Enquetes: editar",
+      "description": "Permite criar, editar, encerrar e repostar enquetes. Vai pro ar na hora; quem votou e apagar de vez ficam só no painel."
+    },
+    "messages_read": {
+      "label": "Mensagens: ler",
+      "description": "Permite ler as mensagens do bot (enviadas, agendadas, recorrentes e rascunhos) e os modelos."
+    },
+    "messages_write": {
+      "label": "Mensagens: editar",
+      "description": "Permite enviar, agendar, editar e cancelar mensagens do bot e mexer nos modelos. Vai pro ar na hora; apagar mensagem fica só no painel."
+    },
+    "gamification_read": {
+      "label": "Gamificação: ler",
+      "description": "Permite ler os ajustes de XP, os cargos por nível e os multiplicadores."
+    },
+    "gamification_write": {
+      "label": "Gamificação: editar",
+      "description": "Permite mudar os ajustes de XP, os cargos por nível e os multiplicadores. Mexer no XP de um membro e zerar o XP ficam só no painel."
+    },
+    "social_read": {
+      "label": "Alertas de redes: ler",
+      "description": "Permite ler quais criadores são avisados e em qual canal."
+    },
+    "social_write": {
+      "label": "Alertas de redes: editar",
+      "description": "Permite adicionar, mudar e tirar criadores e mandar um alerta de teste no canal."
+    },
+    "boost_read": {
+      "label": "Boost: ler",
+      "description": "Permite ler os ajustes do boost e as recompensas."
+    },
+    "boost_write": {
+      "label": "Boost: editar",
+      "description": "Permite mudar os ajustes do boost. Recompensas têm permissão própria."
+    },
+    "boost_rewards_write": {
+      "label": "Boost: recompensas",
+      "description": "Permite criar, mudar e tirar recompensas. Tirar uma recompensa toma de volta o que ela deu, no jogo e na loja. Aplicar a quem já boostava fica só no painel."
+    },
+    "whitelist_read": {
+      "label": "Whitelist: ler",
+      "description": "Permite ler o formulário da whitelist, o gabarito e os ajustes."
+    },
+    "whitelist_write": {
+      "label": "Whitelist: editar",
+      "description": "Permite mudar o formulário, o gabarito, os canais e o cargo de aprovado, que pode ser qualquer um abaixo do bot, inclusive de administrador. Vai pro ar na hora; ver inscrições, aprovar e reprovar ficam só no painel. Códigos de acesso têm permissão própria."
+    },
+    "whitelist_codes_read": {
+      "label": "Whitelist: ver códigos",
+      "description": "Permite ler os códigos de acesso. Quem resgatou cada um fica só no painel."
+    },
+    "whitelist_codes_write": {
+      "label": "Whitelist: criar códigos",
+      "description": "Permite criar, desligar e apagar códigos de acesso. Quem tem um código pula o formulário."
+    },
+    "ai_helper_read": {
+      "label": "Assistente IA: ler",
+      "description": "Permite ler as fontes de documentação, a base de conhecimento e os números de acerto."
+    },
+    "ai_helper_write": {
+      "label": "Assistente IA: editar",
+      "description": "Permite adicionar, atualizar e tirar fontes de documentação e mexer na base de conhecimento. Os ajustes e os provedores têm permissão própria."
+    },
+    "ai_helper_config_read": {
+      "label": "Assistente IA: ver ajustes e erros",
+      "description": "Permite ler os ajustes, os provedores e os erros recentes. A chave de cada provedor nunca é mostrada."
+    },
+    "ai_helper_config_write": {
+      "label": "Assistente IA: mudar ajustes",
+      "description": "Permite mudar os ajustes, testar provedores e trocar a ordem e o modelo deles. Adicionar provedor, a chave e a URL ficam só no painel."
+    },
+    "planning_read": {
+      "label": "Planejamento: ler",
+      "description": "Permite ler os documentos de planejamento e os modelos."
+    },
+    "planning_write": {
+      "label": "Planejamento: editar",
+      "description": "Permite criar, editar, arquivar e desarquivar documentos. Apagar de vez fica só no painel."
+    },
+    "voice_read": {
+      "label": "Voz: ler",
+      "description": "Permite ler os canais de \"entre para criar\" e seus ajustes."
+    },
+    "voice_write": {
+      "label": "Voz: editar",
+      "description": "Permite criar, mudar e tirar canais de \"entre para criar\"."
+    },
+    "modules_write": {
+      "label": "Módulos: ligar e desligar",
+      "description": "Permite ligar e desligar módulos do servidor, com os mesmos limites do plano. Desligar tira o módulo do ar na hora."
+    },
+    "discord_read": {
+      "label": "Discord: ver cargos e canais",
+      "description": "Permite listar os cargos, os canais e as permissões que a chave pode dar."
+    },
+    "discord_setup": {
+      "label": "Discord: montar o servidor",
+      "description": "Permite criar e editar cargos e canais e mudar permissões de canal pelo MRI BOT, inclusive as do @everyone, o que atinge o servidor inteiro, e abrir canal privado. Apagar, banir e dar poder de administração ficam só com você no Discord."
+    }
+  }
+}

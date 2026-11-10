@@ -1,0 +1,62 @@
+{
+  "guildOnly": "Use este comando dentro de um servidor.",
+  "failed": "Falha",
+  "board": {
+    "empty": {
+      "title": "Nenhum board",
+      "text": "Crie um board no painel web."
+    },
+    "title": "Boards de projetos",
+    "line": "• **{name}** — {count, plural, one {# tarefa} other {# tarefas}}{mirror}"
+  },
+  "task": {
+    "noBoard": {
+      "title": "Nenhum board",
+      "text": "Crie um board no painel primeiro."
+    },
+    "boardNotFound": {
+      "title": "Board não encontrado",
+      "text": "Não achei o board \"{name}\"."
+    },
+    "created": {
+      "title": "Tarefa criada",
+      "text": "**{title}** adicionada em **{board}**."
+    },
+    "createFailed": "Falha ao criar",
+    "none": {
+      "title": "Sem tarefas",
+      "text": "Você não tem tarefas atribuídas neste servidor."
+    },
+    "due": " · vence {time}",
+    "mineTitle": "Suas tarefas ({count})"
+  },
+  "thread": {
+    "manualPost": "⚠️ {user}, pra abrir uma tarefa use o botão **➕ Criar tarefa** no post fixado deste fórum — não crie posts direto. Este post será removido em instantes."
+  },
+  "card": {
+    "noDescription": "_Sem descrição._",
+    "column": "Coluna",
+    "assignees": "Responsáveis",
+    "due": "Prazo",
+    "status": "Status: {status}",
+    "open": "Abrir",
+    "movePlaceholder": "Mover para coluna…",
+    "join": "Participar",
+    "assigneesButton": "Responsáveis",
+    "edit": "Editar",
+    "openSite": "Abrir no site",
+    "reopen": "Reabrir",
+    "complete": "Concluir",
+    "delete": "Excluir"
+  },
+  "panel": {
+    "title": "➕ Nova tarefa",
+    "description": "Clique no botão abaixo pra abrir uma tarefa neste board — direto por aqui, sem precisar do site.",
+    "button": "Criar tarefa",
+    "threadName": "➕ Criar nova tarefa"
+  },
+  "forum": {
+    "defaultTag": "coluna"
+  },
+  "reminder": "⏰ Prazo chegando {time} — **{title}** {mentions}"
+}

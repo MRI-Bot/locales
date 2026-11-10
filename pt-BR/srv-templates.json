@@ -1,0 +1,129 @@
+{
+  "failed": "Não deu certo.",
+  "modules": {
+    "tickets": "Tickets",
+    "whitelist": "Whitelist",
+    "store": "Loja",
+    "fivem": "FiveM"
+  },
+  "roles": {
+    "staff": "Staff",
+    "support": "Suporte",
+    "citizen": "Cidadão",
+    "approved": "Aprovado"
+  },
+  "categories": {
+    "info": "📌 INFORMAÇÕES",
+    "whitelist": "📝 WHITELIST",
+    "city": "🏙️ CIDADE",
+    "support": "🎫 ATENDIMENTO",
+    "tickets": "🎫 TICKETS",
+    "staff": "🛡️ STAFF"
+  },
+  "channels": {
+    "rules": "📜│regras",
+    "rulesTopic": "Regras da cidade.",
+    "announcements": "📢│anúncios",
+    "news": "🆕│novidades",
+    "whitelistPanel": "📝│faça-sua-whitelist",
+    "chat": "💬│bate-papo",
+    "media": "📸│fotos-e-clips",
+    "voice": "🔊 Conversa",
+    "ticketPanel": "🎫│abrir-ticket",
+    "staffChat": "💬│chat-staff",
+    "whitelistReview": "📋│revisão-whitelist",
+    "ticketLog": "📁│histórico-tickets"
+  },
+  "ticketPanel": {
+    "name": "Atendimento",
+    "title": "Atendimento",
+    "description": "Escolha o assunto na lista abaixo para abrir um ticket. Só você e a equipe veem a conversa.",
+    "selectPlaceholder": "Escolha o assunto"
+  },
+  "highlights": {
+    "rules": "Escrever as regras",
+    "whitelistPanel": "Testar a whitelist",
+    "ticketPanel": "Abrir um ticket de teste"
+  },
+  "ticketTypes": {
+    "support": {
+      "label": "Suporte",
+      "descriptionCity": "Dúvidas e ajuda com a cidade",
+      "description": "Dúvidas e ajuda",
+      "question": "Em que podemos ajudar?",
+      "welcome": "Olá! Conte com detalhes o que precisa. A equipe já foi avisada e responde por aqui."
+    },
+    "report": {
+      "label": "Denúncia",
+      "descriptionCity": "Denunciar um jogador ou alguém da equipe",
+      "description": "Denunciar alguém do servidor",
+      "accused": "Quem você está denunciando?",
+      "accusedPlaceholderCity": "Nome ou ID no jogo",
+      "accusedPlaceholder": "Nome ou @ no Discord",
+      "what": "O que aconteceu?",
+      "proof": "Link do vídeo ou print",
+      "welcome": "Recebemos sua denúncia. Não apague as provas: a equipe pode pedir mais detalhes aqui."
+    },
+    "donations": {
+      "label": "Doações e VIP",
+      "description": "Dúvidas sobre doações e benefícios",
+      "question": "Qual é a sua dúvida?",
+      "welcome": "Olá! Se for sobre uma doação já feita, mande o comprovante aqui."
+    },
+    "bug": {
+      "label": "Reportar bug",
+      "description": "Algo quebrado na cidade",
+      "what": "O que aconteceu?",
+      "where": "Onde e quando?",
+      "welcome": "Valeu por avisar! Se tiver vídeo ou print, mande aqui."
+    },
+    "other": {
+      "label": "Outro assunto",
+      "description": "Parcerias, sugestões e o resto",
+      "question": "Sobre o que você quer falar?",
+      "welcome": "Olá! A equipe já foi avisada e responde por aqui."
+    }
+  },
+  "whitelistFields": {
+    "characterName": "Nome do personagem",
+    "age": "Sua idade",
+    "story": "Conte a história do personagem",
+    "experience": "Já jogou roleplay antes? Onde?",
+    "rulesCity": "Li e aceito as regras da cidade",
+    "name": "Como quer ser chamado?",
+    "reason": "Por que quer entrar?",
+    "origin": "Como conheceu o servidor?",
+    "rules": "Li e aceito as regras"
+  },
+  "fivemRp": {
+    "name": "Cidade de roleplay (FiveM)",
+    "description": "Regras e anúncios, whitelist pra entrar na cidade, atendimento por ticket, loja de doações e ligação com o servidor do jogo.",
+    "modules": {
+      "tickets": "Atendimento com suporte, denúncia, doações e bugs, num painel com lista.",
+      "whitelist": "Formulário pra entrar na cidade. Quem é aprovado ganha o cargo Cidadão e vê os canais da cidade.",
+      "store": "Página de doações e VIP. Falta só conectar o recebimento.",
+      "fivem": "Liga o bot ao servidor do jogo. Falta só colocar o endereço do servidor."
+    }
+  },
+  "ticketsBasic": {
+    "name": "Atendimento por ticket",
+    "description": "Canal pra abrir ticket, categoria privada pros atendimentos, histórico e três assuntos prontos.",
+    "modules": {
+      "tickets": "Suporte, denúncia e outro assunto, num painel com lista."
+    },
+    "todo": {
+      "supportRole": "Dê o cargo Suporte pra quem vai atender os tickets."
+    }
+  },
+  "whitelistBasic": {
+    "name": "Whitelist pronta",
+    "description": "Canal com o botão pra se inscrever, canal privado pra revisar e o cargo de quem é aprovado.",
+    "modules": {
+      "whitelist": "Formulário de entrada. Quem é aprovado ganha o cargo Aprovado."
+    },
+    "todo": {
+      "hideChannels": "Nos canais que só quem foi aprovado pode ver, tire a visão de @everyone e libere pro cargo Aprovado.",
+      "reviewChannel": "O canal de revisão começa visível só pra administradores. Libere pros cargos da equipe que avaliam."
+    }
+  }
+}

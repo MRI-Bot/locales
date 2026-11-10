@@ -1,0 +1,18 @@
+{
+  "guildOnly": "Use este comando dentro de um servidor.",
+  "unknownFailure": "Falha desconhecida.",
+  "link": {
+    "guildOnly": "Use este comando dentro do servidor onde o MTA está configurado.",
+    "doneTitle": "Conta vinculada",
+    "done": "Sua conta Discord foi vinculada ao serial `{serial}`. Reentre no servidor MTA se ainda estiver aguardando — você passa automaticamente.",
+    "failedTitle": "Não consegui vincular"
+  },
+  "unlink": {
+    "noPermission": "Você não tem permissão para desvincular contas.",
+    "nothingTitle": "Nada a fazer",
+    "nothing": "{user} não tem vínculo MTA neste servidor.",
+    "doneTitle": "Vínculo removido",
+    "done": "Removidos {count} vínculo(s) de {user}. Ele(a) pode rodar `{command}` de novo na próxima conexão.",
+    "failedTitle": "Falha ao desvincular"
+  }
+}

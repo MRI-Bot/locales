@@ -1,0 +1,69 @@
+{
+  "title": "Voice",
+  "description": "Temporary voice channels (join-to-create) in {guild}.",
+  "navLabel": "Voice screens",
+  "tabs": {
+    "hubs": "Hubs",
+    "active": "Active",
+    "howItWorks": "How it works"
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "hub": "Create a {hub} pointing to a trigger voice channel. Anyone who joins it gets their own temporary channel and is moved there.",
+    "hubWord": "hub",
+    "controls": "The channel is deleted automatically when it empties. The owner controls everything from the {panel} (buttons) or with {command}: lock, hide, limit, rename, permit, reject, transfer and claim.",
+    "panelWord": "control panel",
+    "placement": "The control panel can live in the channel's {chat} or in a {channel} (configurable per hub).",
+    "chatWord": "built-in chat",
+    "channelWord": "dedicated Interface channel",
+    "preferences": "Member preferences (name, limit, locked…) are {remembered} and restored on the next channel they create.",
+    "rememberedWord": "remembered"
+  },
+  "active": {
+    "loadFailed": "Failed to load active channels.",
+    "intro": "Temporary channels active right now on this server.",
+    "empty": "No temporary channels active at the moment.",
+    "owner": "Owner",
+    "limit": "limit {limit}"
+  },
+  "hubs": {
+    "loadFailed": "Failed to load hubs. Is the Voice module active on this server?",
+    "removed": "Hub removed.",
+    "removeFailed": "Failed to remove hub.",
+    "intro": "\"Join-to-create\" channels: when a member joins one, they get a temporary voice channel.",
+    "new": "New hub",
+    "empty": "No hubs yet. Create one pointing to a trigger voice channel.",
+    "disabled": "(disabled)",
+    "limit": "limit {limit}",
+    "panel": "panel {mode}",
+    "edit": "Edit"
+  },
+  "dialog": {
+    "errorChannel": "Select the \"join-to-create\" channel.",
+    "errorPanelChannel": "Select the Interface channel for the dedicated panel.",
+    "updated": "Hub updated.",
+    "created": "Hub created.",
+    "saveFailed": "Failed to save hub.",
+    "editTitle": "Edit hub",
+    "channel": "\"Join-to-create\" channel (voice)",
+    "channelPlaceholder": "Select a voice channel",
+    "category": "Category for created channels (optional)",
+    "categorySame": "Same as the hub",
+    "categorySearch": "Search category...",
+    "nameTemplate": "Name template ('{user}', '{username}')",
+    "userLimit": "Default limit (empty = ∞)",
+    "bitrate": "Default bitrate (kbps)",
+    "region": "Region (optional, e.g. brazil, us-east)",
+    "regionPlaceholder": "automatic",
+    "locked": "Locked by default",
+    "hidden": "Hidden by default",
+    "panelMode": "Control panel",
+    "panelIntegrated": "Channel's built-in chat",
+    "panelDedicated": "Dedicated \"Interface\" channel",
+    "panelNone": "No panel (/voice only)",
+    "panelChannel": "Interface channel (text)",
+    "panelChannelPlaceholder": "Select a text channel",
+    "enabled": "Hub active",
+    "saving": "Saving…"
+  }
+}

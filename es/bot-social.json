@@ -1,0 +1,24 @@
+{
+  "kind": {
+    "live": "transmisión en vivo",
+    "video": "video",
+    "short": "short",
+    "post": "publicación",
+    "reel": "reel",
+    "other": "contenido"
+  },
+  "defaultAuthor": "Creador",
+  "defaultBody": "¡**{author}** acaba de publicar: {kind}!",
+  "defaultBodyLive": "¡**{author}** inició una {kind}!",
+  "defaultBodyPost": "¡**{author}** acaba de publicar: {kind}!",
+  "liveField": "En vivo",
+  "watching": "{viewers} viendo",
+  "ended": {
+    "withDuration": "{author} estuvo **{duration}** en vivo.",
+    "noDuration": "{author} terminó la transmisión.",
+    "v2": "⚫ **Finalizado** — {text}",
+    "title": "⚫ Transmisión finalizada",
+    "content": "⚫ {author} terminó la transmisión."
+  },
+  "liveTitle": "{name} está en directo"
+}

@@ -1,0 +1,230 @@
+{
+  "guildOnly": "Use este botão dentro de um servidor.",
+  "invalidChannel": "Canal inválido.",
+  "notATicket": "Este canal não é um ticket.",
+  "wrongTicket": "Ticket inválido para este canal.",
+  "alreadyClosed": "Ticket já encerrado.",
+  "ticketNotFound": "Não encontrei o ticket deste canal.",
+  "invalidUser": "Usuário inválido.",
+  "invalidType": "Tipo de ticket inválido. Tente de novo.",
+  "cancel": "Cancelar",
+  "blacklisted": "Você está impedido de abrir tickets.",
+  "blacklistedReason": "Você está impedido de abrir tickets: {reason}",
+  "formAnswers": "📋 Respostas do formulário",
+  "outOfHours": "⏰ Fora do horário de atendimento",
+  "transcriptSaved": "📄 Transcript salvo: {url}",
+  "moduleInactive": {
+    "title": "Módulo Tickets inativo",
+    "body": "O módulo \"Tickets\" precisa estar ativo nesta guild."
+  },
+  "priority": {
+    "high": "Alta",
+    "medium": "Média",
+    "low": "Baixa",
+    "none": "Nenhuma",
+    "staffOnly": "Apenas staff pode definir a prioridade.",
+    "placeholder": "Escolha a prioridade",
+    "failed": "Não consegui alterar a prioridade. Tente de novo.",
+    "updatedTitle": "Prioridade atualizada",
+    "updatedBody": "Prioridade definida como **{label}**."
+  },
+  "panel": {
+    "title": "🎫 Ticket aberto",
+    "footer": "ID: {id}",
+    "type": "Tipo",
+    "openedBy": "Criado por",
+    "claimedBy": "Claimado por",
+    "priority": "Prioridade"
+  },
+  "buttons": {
+    "claim": "🙋 Claim",
+    "claimed": "🙋 Claimado",
+    "add": "👥 Adicionar",
+    "remove": "👥 Remover",
+    "rename": "✏️ Renomear",
+    "close": "🔒 Fechar",
+    "priority": "⚡ Prioridade",
+    "transfer": "🔄 Transferir",
+    "nudge": "👋 Chamar atenção",
+    "reopen": "🔓 Reabrir",
+    "deleteChannel": "🗑️ Excluir canal"
+  },
+  "audit": {
+    "registerFailed": "Falha ao registrar ticket no backend",
+    "closed": "Ticket {id} encerrado",
+    "reopened": "Ticket {id} reaberto",
+    "deletedByStaff": "Ticket excluído pelo staff"
+  },
+  "command": {
+    "guildOnly": "Use este comando dentro de um servidor.",
+    "textChannelOnly": "Use este comando em um canal de texto.",
+    "menuNoPermission": "Você não tem permissão para acessar o menu de tickets.",
+    "menuTitle": "🎫 Menu de Tickets",
+    "menuIntro": "Use os botões abaixo pra gerenciar o módulo.",
+    "menuPostMany": "• **Postar painel**: você tem {count} painel(éis) configurado(s). Escolha qual postar neste canal.",
+    "menuPostOne": "• **Postar painel** publica o painel de abertura neste canal.",
+    "menuOpenTickets": "• Tickets já abertos têm botões próprios pra **Claim**, **Adicionar**, **Fechar**, etc.",
+    "menuSettings": "• Configurações e tipos de ticket são gerenciados no painel web.",
+    "postHere": "Postar painel aqui",
+    "postNoPermission": "Você não tem permissão para postar o painel neste servidor.",
+    "postFailed": "Não consegui postar o painel. Verifique permissões do bot.",
+    "postedTitle": "Painel publicado",
+    "postedBody": "O painel de tickets foi postado neste canal."
+  },
+  "canned": {
+    "ticketChannelOnly": "Use dentro do canal do ticket.",
+    "staffOnly": "Apenas staff pode usar respostas prontas.",
+    "notFound": "Resposta pronta não encontrada.",
+    "sent": "Resposta enviada"
+  },
+  "open": {
+    "modalTitle": "Abrir ticket",
+    "subjectLabel": "Sobre o que é seu ticket?",
+    "subjectPlaceholder": "Ex: Não consegui entrar no servidor FiveM",
+    "cannotTitle": "Não foi possível abrir o ticket",
+    "cannotDefault": "Você não pode abrir um ticket agora.",
+    "failed": "Não consegui abrir o ticket. Verifique permissões do bot e tente novamente.",
+    "successTitle": "Ticket aberto",
+    "successBody": "Veja em {channel}."
+  },
+  "close": {
+    "confirmButton": "Fechar",
+    "confirmTitle": "Confirmar fechamento",
+    "confirmBody": "Tem certeza que quer fechar este ticket?",
+    "forbidden": "Apenas o criador do ticket ou membros com permissão de gerenciar canais podem encerrá-lo.",
+    "invalidChannel": "Canal inválido para encerrar o ticket.",
+    "failed": "Não consegui encerrar o ticket no servidor. Tente de novo.",
+    "doneTitle": "Ticket encerrado"
+  },
+  "closed": {
+    "title": "🔒 Ticket encerrado",
+    "by": "Encerrado por {user}",
+    "byAndClaimed": "Encerrado por {user}\nClaimado por {claimer}",
+    "generic": "Este ticket foi fechado."
+  },
+  "cancelled": {
+    "title": "Cancelado",
+    "body": "Você cancelou o fechamento."
+  },
+  "reopen": {
+    "forbidden": "Apenas membros com permissão de gerenciar canais podem reabrir tickets.",
+    "failed": "Não consegui reabrir o ticket no servidor. Tente de novo.",
+    "title": "🔓 Ticket reaberto",
+    "by": "Reaberto por {user}"
+  },
+  "deleteChannel": {
+    "forbidden": "Apenas membros com permissão de gerenciar canais podem excluir.",
+    "confirm": "Excluir canal",
+    "title": "Excluir canal do ticket?",
+    "body": "Vou apagar este canal do Discord. **O histórico (transcript) fica salvo** e continua acessível pela URL acima. Esta ação não pode ser desfeita.",
+    "noPermission": "Sem permissão pra excluir o canal.",
+    "deletingTitle": "Excluindo…",
+    "deletingBody": "O canal será removido em alguns segundos."
+  },
+  "transfer": {
+    "staffOnly": "Apenas staff pode transferir tickets.",
+    "placeholder": "Transferir o atendimento para…",
+    "memberNotFound": "Não encontrei esse usuário no servidor.",
+    "notStaffTitle": "Alvo não é staff",
+    "notStaffBody": "Só dá pra transferir o atendimento pra alguém com cargo de staff ou permissão de gerenciar canais.",
+    "failed": "Não consegui transferir o ticket. Tente de novo.",
+    "doneTitle": "Ticket transferido",
+    "doneBody": "Atendimento transferido para {user}.",
+    "announced": "🔄 {actor} transferiu este ticket para {user}."
+  },
+  "claim": {
+    "staffOnly": "Apenas staff pode claimar tickets.",
+    "already": "Você já claimou este ticket.",
+    "failed": "Não consegui claimar este ticket. Tente de novo.",
+    "claimedBy": "🙋 {user} claimou este ticket.",
+    "announced": "🙋 {user} assumiu o atendimento."
+  },
+  "nudge": {
+    "dmTitle": "👋 Estão te chamando",
+    "dmBody": "{user} chamou sua atenção no ticket **{ticket}** em **{guild}**.\n\n[Ir para o ticket]({url})",
+    "forbidden": "Só quem abriu o ticket e a equipe podem chamar a atenção aqui.",
+    "failed": "Não consegui enviar o toque agora. Tente de novo.",
+    "channelPing": "👋 {target}, {actor} está te chamando neste ticket.",
+    "channelTitle": "Toque enviado no canal",
+    "channelBody": "Não consegui mandar DM pra {user} (DM fechada), então chamei por menção aqui mesmo.",
+    "sentTitle": "Toque enviado",
+    "sentBody": "Avisei {user} por DM.",
+    "sentBodyCooldown": "Avisei {user} por DM. Próximo toque deste lado em {minutes} min.",
+    "deny": {
+      "cooldown": "Já chamaram a atenção há pouco neste ticket. Tente de novo em {wait}.",
+      "disabledMember": "Este servidor desativou o toque de quem abriu o ticket.",
+      "disabledStaff": "Este servidor desativou o toque da equipe.",
+      "noTargetMember": "Ninguém assumiu este ticket ainda — não há quem chamar.",
+      "noTargetStaff": "Não encontrei quem chamar neste ticket.",
+      "self": "Você é justamente quem receberia o toque.",
+      "default": "Não foi possível enviar o toque agora."
+    }
+  },
+  "wait": {
+    "minutes": "{count} min",
+    "seconds": "{count} s"
+  },
+  "addUser": {
+    "forbidden": "Apenas o criador do ticket ou staff podem adicionar usuários.",
+    "placeholder": "Escolha quem adicionar",
+    "failed": "Não consegui adicionar o usuário ao canal.",
+    "doneTitle": "Usuário adicionado",
+    "doneBody": "{user} agora tem acesso a este ticket.",
+    "announced": "➕ {user} foi adicionado por {actor}."
+  },
+  "removeUser": {
+    "staffOnly": "Apenas staff pode remover usuários do ticket.",
+    "placeholder": "Escolha quem remover",
+    "opener": "Não dá pra remover o criador do ticket.",
+    "doneTitle": "Usuário removido",
+    "doneBody": "{user} não tem mais acesso a este ticket.",
+    "announced": "➖ {user} foi removido por {actor}."
+  },
+  "rename": {
+    "staffOnly": "Apenas staff pode renomear o ticket.",
+    "modalTitle": "Renomear ticket",
+    "label": "Novo nome do canal",
+    "placeholder": "ex: ticket-priority-rafael",
+    "invalid": "Nome inválido após sanitização.",
+    "failed": "Não consegui renomear o canal. Verifique permissões.",
+    "doneTitle": "Canal renomeado",
+    "doneBody": "Novo nome: `{name}`.",
+    "announced": "✏️ Canal renomeado por {user} para `{name}`."
+  },
+  "rating": {
+    "title": "⭐ Como foi seu atendimento?",
+    "attendedBy": "Atendido por {user}",
+    "body": "Seu ticket **{ticket}** ({subject}){type} foi encerrado. Sua opinião ajuda a equipe a melhorar — escolha de 1 a 5 estrelas:",
+    "lastStaffMessages": "💬 Antes de encerrar, a equipe disse:",
+    "fullHistory": "📄 Ver histórico completo",
+    "invalid": "Avaliação inválida.",
+    "failed": "Não consegui registrar sua avaliação. Tente de novo.",
+    "placeholderRequired": "Conta o que poderia ter sido melhor (obrigatório pra nota baixa)",
+    "placeholderOptional": "Opcional: descreva o atendimento em algumas palavras",
+    "labelLow": "O que poderia ter melhorado?",
+    "labelOptional": "Comentário (opcional)",
+    "modalTitle": "Avaliação {rating}⭐",
+    "thanksTitle": "Obrigado pelo feedback!",
+    "thanksBody": "Sua avaliação de {rating}⭐ foi registrada.",
+    "thanksBodyComment": "Sua avaliação de {rating}⭐ foi registrada com seu comentário.",
+    "thanksShort": "Obrigado!"
+  },
+  "log": {
+    "title": "📄 Ticket #{number} encerrado",
+    "openedBy": "Aberto por",
+    "attendedBy": "Atendido por",
+    "nobodyClaimed": "Ninguém assumiu",
+    "closedBy": "Fechado por",
+    "autoClose": "Fechamento automático",
+    "type": "Tipo",
+    "noType": "Sem tipo",
+    "duration": "Duração",
+    "noRecord": "Sem registro",
+    "history": "Ver histórico"
+  },
+  "duration": {
+    "minutes": "{minutes} min",
+    "hoursMinutes": "{hours} h {minutes} min",
+    "days": "{days} dias"
+  }
+}

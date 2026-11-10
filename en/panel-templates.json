@@ -1,0 +1,68 @@
+{
+  "nextSteps": {
+    "store": "Connect the store's payment account",
+    "fivem": "Add the FiveM server address"
+  },
+  "undo": {
+    "action": "Undo",
+    "partial": "{removed, plural, one {Removed # item.} other {Removed # items.}} {kept, plural, one {# stayed because it's already in use.} other {# stayed because they're already in use.}}",
+    "failed": "Couldn't undo."
+  },
+  "done": {
+    "summary": "{created, plural, one {# item created.} other {# items created.}} Now test it on Discord.",
+    "summaryReused": "{created, plural, one {# item created} other {# items created}} and {reused} reused. Now test it on Discord.",
+    "nextSteps": "Only you can do these",
+    "problems": "What didn't work"
+  },
+  "dialog": {
+    "loadFailed": "Couldn't load the template.",
+    "applyFailed": "Couldn't set up the server.",
+    "undoTitle": "Undo the template?",
+    "undoDescription": "The bot deletes the channels and roles the template created, except those that already have messages or members, and turns off the modules the template turned on. Whatever was on the server before stays as it was.",
+    "undoDone": "Done, the server is back to how it was. {removed, plural, one {# item removed.} other {# items removed.}}",
+    "title": "Set up the server: {name}",
+    "loadingName": "loading",
+    "description": "The bot creates the channels and roles below and leaves everything configured. Nothing that already exists on your server is deleted or changed.",
+    "applying": "Setting up the server. It takes up to a minute, don't close this window.",
+    "loadingPreview": "Checking what already exists on your server...",
+    "modulesHeading": "What comes ready",
+    "alreadyConfigured": "You already configured this. It stays as it is.",
+    "include": "Include {module}",
+    "itemsHeading": "How Discord will look",
+    "undoApplied": "Undo the applied template",
+    "apply": "Set up my server",
+    "done": "Server set up",
+    "doneWithWarnings": "Server set up, with a few warnings",
+    "testNow": "Test it now",
+    "panelTicketsError": "Tickets panel: {error}",
+    "panelWhitelistError": "Whitelist panel: {error}",
+    "finish": "Finish"
+  },
+  "structure": {
+    "reused": "already exists, we'll use it",
+    "roles": "Roles"
+  },
+  "quick": {
+    "applyFailed": "Couldn't set it up.",
+    "undoTitle": "Undo what the bot set up?",
+    "undoDescription": "The bot deletes the channels and roles it created here, except those that already have messages or members, and clears the settings you didn't touch afterwards.",
+    "undoDone": "Done, undone. {removed, plural, one {# item removed.} other {# items removed.}}",
+    "appliedNote": "The bot set up the basics of this module for you.",
+    "title": "Want the bot to set it up for you?",
+    "description": "Nothing that already exists on your server is deleted. You can change everything later.",
+    "showItems": "What will be created",
+    "applying": "Setting up...",
+    "apply": "Set it up for me",
+    "dismiss": "I'd rather start from scratch",
+    "panelError": "Panel: {error}",
+    "done": "Set up",
+    "doneWithWarnings": "Set up, with a few warnings",
+    "gotIt": "Got it"
+  },
+  "picker": {
+    "title": "What kind of server is yours?",
+    "description": "Pick a template and the bot sets up the channels, roles and modules for you. You can change everything later.",
+    "scratch": "Start from scratch",
+    "scratchDescription": "Pick the modules one by one and configure each one."
+  }
+}

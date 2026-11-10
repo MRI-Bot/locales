@@ -1,0 +1,77 @@
+{
+  "guildOnly": "Use este comando dentro de um servidor.",
+  "guildOnlyShort": "Use dentro de um servidor.",
+  "textChannelOnly": "Use em um canal de texto.",
+  "sub": {
+    "menu": {
+      "noPermission": "Você não tem permissão para acessar o menu de assinaturas.",
+      "title": "⭐ Assinaturas",
+      "description": "Use os botões abaixo pra gerenciar o módulo.\n\n• **Postar painel** publica os planos ativos com botões \"Assinar\".\n• Crie ou edite planos pelo painel web.",
+      "postHere": "Postar painel aqui"
+    },
+    "panel": {
+      "noPermission": "Você não tem permissão para postar o painel neste servidor.",
+      "loadFailed": "Não consegui carregar os planos.",
+      "noPlansTitle": "Sem planos ativos",
+      "noPlans": "Crie ao menos um plano no painel web antes de postar.",
+      "title": "⭐ Assinaturas do servidor",
+      "footer": "Clica num botão pra assinar. Você é redirecionado pro Mercado Pago.",
+      "subscribe": "Assinar {plan}",
+      "postFailed": "Não consegui postar o painel. Verifique permissões do bot.",
+      "postedTitle": "Painel publicado",
+      "posted": "O painel de assinaturas foi postado neste canal."
+    },
+    "checkout": {
+      "title": "💳 Checkout",
+      "description": "Clique em **Abrir checkout** pra finalizar sua assinatura no Mercado Pago.\nSeu Discord ID já vai estar preenchido.",
+      "open": "Abrir checkout"
+    },
+    "freq": {
+      "month": "mês",
+      "quarter": "trimestre",
+      "semester": "semestre",
+      "year": "ano",
+      "months": "{count} meses",
+      "week": "semana",
+      "fortnight": "quinzena",
+      "days": "{count} dias"
+    }
+  },
+  "shop": {
+    "menu": {
+      "noPermission": "Você não tem permissão para acessar o menu da loja.",
+      "title": "🛍️ Loja",
+      "description": "Use os botões abaixo pra gerenciar o módulo.\n\n• **Postar loja** publica um painel com o botão \"Ver produtos\". A lista abre sempre atualizada, então não precisa postar de novo quando mudar um produto.\n• Crie ou edite produtos pelo painel web em **Loja**.",
+      "postHere": "Postar loja aqui",
+      "offTitle": "Loja desligada",
+      "off": "Ligue o módulo Loja no painel web para usar este comando."
+    },
+    "panel": {
+      "loadFailed": "Não consegui carregar os produtos.",
+      "noProductsTitle": "Sem produtos ativos",
+      "noProducts": "Crie ao menos um produto no painel web antes de postar.",
+      "title": "🛍️ Loja do servidor",
+      "posted": "O painel da loja foi postado neste canal.",
+      "description": "Clique em **Ver produtos** para ver o catálogo com os preços de agora e comprar.\nDepois do pagamento aprovado, a entrega é automática.",
+      "browse": "Ver produtos",
+      "openStore": "Abrir loja"
+    },
+    "checkout": {
+      "title": "💳 Checkout pronto",
+      "description": "Valor: **{amount}**\n\nClique em **Abrir checkout** pra finalizar o pagamento.\nApós o pagamento aprovado, o item é entregue automaticamente.",
+      "failed": "Falha ao criar checkout."
+    },
+    "browse": {
+      "closedTitle": "Loja fechada",
+      "closed": "A loja deste servidor não está aberta agora.",
+      "emptyTitle": "Loja vazia",
+      "empty": "Nenhum produto à venda agora.",
+      "title": "🛍️ Produtos",
+      "footer": "Página {page} de {pages} · {count} produtos",
+      "pick": "Escolha o produto para comprar",
+      "prev": "Anterior",
+      "next": "Próxima",
+      "more": "_Os outros produtos desta página estão no menu abaixo._"
+    }
+  }
+}

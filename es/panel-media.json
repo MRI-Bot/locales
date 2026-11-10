@@ -1,0 +1,89 @@
+{
+  "header": {
+    "title": "Multimedia",
+    "description": "Capturas, audio y vídeo que aloja tu servidor, con enlace directo.",
+    "upload": "Subir archivo"
+  },
+  "kinds": {
+    "image": "Imagen",
+    "audio": "Audio",
+    "video": "Vídeo"
+  },
+  "errors": {
+    "load": "No se pudo cargar la biblioteca.",
+    "save": "No se pudo guardar.",
+    "upload": "No se pudo subir el archivo.",
+    "replace": "No se pudo reemplazar el archivo.",
+    "copy": "No se pudo copiar. El enlace está en el nombre del archivo.",
+    "rename": "No se pudo cambiar el nombre.",
+    "keep": "No se pudo cambiar.",
+    "delete": "No se pudo eliminar el archivo."
+  },
+  "toasts": {
+    "uploaded": "Archivo subido.",
+    "replacedPurged": "Archivo reemplazado. Quien ya lo había abierto puede ver el antiguo durante unos minutos.",
+    "replacedSlow": "Archivo reemplazado. La versión nueva puede tardar hasta 1 día en aparecer en todas partes.",
+    "kept": "Archivo conservado: la retención ya no lo retira.",
+    "unkept": "Retención activada de nuevo: se retira el {date}.",
+    "deleted": "Archivo eliminado."
+  },
+  "replaceConfirm": {
+    "title": "¿Reemplazar este archivo?",
+    "description": "El enlace sigue siendo el mismo y pasa a mostrar el archivo nuevo donde ya se haya pegado. El archivo actual se sobrescribe y no se puede recuperar.",
+    "confirm": "Reemplazar"
+  },
+  "deleteConfirm": {
+    "title": "¿Eliminar este archivo?",
+    "description": "El archivo se retira de inmediato y el enlace deja de funcionar en cualquier lugar donde se haya pegado (Embed de Discord, expediente de moderación). No se puede deshacer.",
+    "confirm": "Eliminar"
+  },
+  "notConfigured": {
+    "title": "Almacenamiento aún no configurado",
+    "body": "El módulo está activo, pero las credenciales del almacenamiento no se han definido en la plataforma, así que ninguna subida funcionará hasta entonces. Si eres el responsable de la instalación, consulta {doc}."
+  },
+  "usage": {
+    "title": "Almacenamiento usado",
+    "ofQuota": "{used} de {quota}",
+    "unlimited": "{used} (sin límite)",
+    "files": "{count, plural, one {# archivo} other {# archivos}}",
+    "retention": "Los archivos se eliminan automáticamente después de {days, plural, one {# día} other {# días}}"
+  },
+  "optimization": {
+    "title": "Optimización",
+    "description": "Reduce el peso de los archivos para que quepan más en tu cuota.",
+    "disabledByPlatform": "Desactivado por la plataforma.",
+    "webp": {
+      "label": "Convertir imágenes a WebP",
+      "description": "Reduce cerca de un 30% del peso sin pérdida visible. Ocurre al subir."
+    },
+    "video": {
+      "label": "Comprimir vídeos",
+      "description": "Se ejecuta en segundo plano después de subir. El enlace no cambia."
+    }
+  },
+  "empty": {
+    "title": "Aún no hay archivos alojados",
+    "body": "Sube con el botón de arriba o desde tu integración, usando una API Key con el alcance {scope} (créala en API Keys)."
+  },
+  "list": {
+    "search": "Buscar por nombre o etiqueta",
+    "noMatch": "Ningún archivo con ese nombre.",
+    "previewFile": "Ver archivo",
+    "preview": "Ver",
+    "namePlaceholder": "Nombre del archivo (vacío quita el nombre)",
+    "saveName": "Guardar nombre",
+    "rename": "Cambiar nombre",
+    "renameHint": "Cambiar nombre (el enlace no cambia)",
+    "uploadedAt": "Subido el {date}",
+    "kept": "conservado, la retención no lo retira",
+    "expiresAt": "se retira el {date}",
+    "copyLink": "Copiar enlace",
+    "unkeepHint": "Volver a seguir la retención del plan",
+    "keepHint": "Conservar archivo: la retención no lo retira (una solicitud de eliminación LGPD aún lo borra)",
+    "unkeep": "Dejar de conservar",
+    "keep": "Conservar archivo",
+    "replaceHint": "Reemplazar manteniendo el enlace",
+    "replace": "Reemplazar archivo",
+    "delete": "Eliminar archivo"
+  }
+}

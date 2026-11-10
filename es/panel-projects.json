@@ -1,0 +1,97 @@
+{
+  "header": {
+    "title": "Proyectos",
+    "description": "Tableros Kanban para organizar el trabajo del equipo, con espejo opcional en un foro de Discord.",
+    "newBoard": "Nuevo tablero"
+  },
+  "empty": {
+    "title": "Aún no hay tableros",
+    "description": "Crea tu primer tablero para empezar a organizar las tareas del equipo.",
+    "create": "Crear tablero"
+  },
+  "board": {
+    "deleteConfirm": "¿Eliminar tablero?",
+    "edit": "Editar tablero (nombre, columnas, emojis)",
+    "delete": "Eliminar tablero",
+    "dropHere": "Arrastra tarjetas aquí"
+  },
+  "toasts": {
+    "boardCreated": "¡Tablero creado!",
+    "boardUpdated": "¡Tablero actualizado!",
+    "boardDeleted": "Tablero eliminado.",
+    "cardCreated": "Tarjeta creada.",
+    "cardUpdated": "Tarjeta actualizada.",
+    "cardRemoved": "Tarjeta eliminada."
+  },
+  "errors": {
+    "loadBoards": "Error al cargar los tableros.",
+    "loadBoard": "Error al cargar el tablero.",
+    "deleteBoard": "Error al eliminar el tablero.",
+    "moveCard": "Error al mover la tarjeta."
+  },
+  "fields": {
+    "title": "Título",
+    "description": "Descripción"
+  },
+  "card": {
+    "new": "Nueva tarjeta",
+    "edit": "Editar tarjeta",
+    "mirrored": "Reflejado en Discord"
+  },
+  "boardDialog": {
+    "defaultColumns": {
+      "todo": "Por hacer",
+      "doing": "En curso",
+      "done": "Hecho"
+    },
+    "nameRequired": "Ponle un nombre al tablero.",
+    "columnsRequired": "El tablero necesita al menos una columna.",
+    "createError": "Error al crear el tablero.",
+    "editTitle": "Editar tablero",
+    "name": "Nombre",
+    "namePlaceholder": "Ej.: Desarrollo del servidor",
+    "optional": "Opcional",
+    "columns": "Columnas",
+    "columnsHint": "El emoji (incluso los personalizados del servidor) se convierte en el emoji de la etiqueta en el foro de Discord.",
+    "columnEmoji": "Emoji de la columna",
+    "removeEmoji": "Quitar emoji",
+    "columnName": "Nombre de la columna",
+    "removeColumn": "Quitar columna",
+    "addColumn": "Añadir columna",
+    "mirror": {
+      "label": "Reflejar en Discord",
+      "description": "Crea un canal de foro donde cada columna se convierte en una etiqueta y cada tarjeta en una publicación."
+    }
+  },
+  "cardDialog": {
+    "fields": {
+      "title": "📋 Título",
+      "assignees": "👤 Responsables",
+      "dueAt": "⏰ Plazo",
+      "column": "📍 Columna",
+      "status": "Estado"
+    },
+    "samples": {
+      "title": "(título)",
+      "description": "(descripción)",
+      "people": "{count, plural, one {# persona} other {# personas}}",
+      "nobody": "(nadie)",
+      "noDueAt": "(sin plazo)",
+      "column": "(columna)",
+      "open": "abierto"
+    },
+    "titleRequired": "Ponle un título a la tarjeta.",
+    "saveError": "Error al guardar la tarjeta.",
+    "removeError": "Error al eliminar.",
+    "titlePlaceholder": "Ej.: Corregir el spawn del hospital",
+    "descriptionPlaceholder": "Detalles de la tarea (opcional)",
+    "column": "Columna",
+    "dueAt": "Plazo",
+    "labels": "Etiquetas",
+    "assignees": "Responsables",
+    "post": {
+      "label": "Publicación en Discord",
+      "hint": "Cómo aparece la tarjeta en el foro. Arrastra bloques, añade imágenes/galería y usa los campos dinámicos (título, responsables, plazo…) que rellena el bot. Sin espejo en el tablero, esto se ignora."
+    }
+  }
+}

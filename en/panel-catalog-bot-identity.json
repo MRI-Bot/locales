@@ -1,0 +1,39 @@
+{
+  "tokenErrors": {
+    "TOKEN_EMPTY": {
+      "message": "Paste the bot token."
+    },
+    "TOKEN_MALFORMED": {
+      "message": "This doesn't look like a Discord bot token.",
+      "hint": "The token has three parts separated by dots. Copy it from Developer Portal → your application → Bot → Reset Token."
+    },
+    "TOKEN_INVALID": {
+      "message": "Discord rejected this token.",
+      "hint": "It may have been regenerated or revoked. Generate a new one in Developer Portal → Bot → Reset Token and paste it here."
+    },
+    "TOKEN_NOT_BOT": {
+      "message": "This token isn't a bot token.",
+      "hint": "A user account token won't work — and using one breaks Discord's terms. Create an application and use the token from the Bot tab."
+    },
+    "APP_NOT_DEDICATED": {
+      "message": "This application already receives interactions at another address.",
+      "hint": "The bot must be dedicated to this dashboard. Use a new application, or clear the \"Interactions Endpoint URL\" field in the Developer Portal before continuing."
+    },
+    "APP_IN_USE_ELSEWHERE": {
+      "message": "This bot is already in many servers.",
+      "hint": "Setting the token here changes how the application receives interactions, and that affects every server it's in. Use a dedicated bot."
+    },
+    "BOT_NOT_IN_GUILD": {
+      "message": "Your bot isn't in this server yet.",
+      "hint": "Without it in the server, no direct message can go out. Use the invite button to add it."
+    },
+    "DISCORD_UNREACHABLE": {
+      "message": "I couldn't reach Discord right now.",
+      "hint": "This is usually temporary. Try again in a moment — nothing was saved."
+    },
+    "ENCRYPTION_UNAVAILABLE": {
+      "message": "The server isn't set up to store secrets safely.",
+      "hint": "This is our problem, not yours. The token wasn't saved. Let support know."
+    }
+  }
+}

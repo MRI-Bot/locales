@@ -1,0 +1,383 @@
+{
+  "tabs": {
+    "label": "Pantallas de Sorteos",
+    "list": "Sorteos",
+    "overview": "Resumen"
+  },
+  "errors": {
+    "load": "No se pudieron cargar los sorteos.",
+    "deleteTemplate": "No se pudo eliminar la plantilla."
+  },
+  "header": {
+    "title": "Sorteos",
+    "description": "Sorteos en {guild}."
+  },
+  "templates": {
+    "button": "Plantillas ({count})",
+    "hint": "Crear a partir de una plantilla guardada.",
+    "delete": "Eliminar plantilla"
+  },
+  "actions": {
+    "settings": "Configuración",
+    "create": "Crear sorteo",
+    "refreshList": "Actualizar lista"
+  },
+  "filters": {
+    "label": "Filtrar sorteos",
+    "all": "Todos",
+    "active": "Activos",
+    "scheduled": "Programados",
+    "ended": "Finalizados",
+    "cancelled": "Cancelados"
+  },
+  "list": {
+    "count": "{count, plural, one {# sorteo} other {# sorteos}}. Haz clic en uno para ver los detalles."
+  },
+  "table": {
+    "prize": "Premio",
+    "status": "Estado",
+    "entries": "Participantes",
+    "winners": "Ganadores",
+    "deadline": "Plazo"
+  },
+  "overview": {
+    "emptyTitle": "Todavía no hay números",
+    "emptyDescription": "Las participaciones y los mejores horarios aparecen aquí después del primer sorteo.",
+    "entries": "Participaciones",
+    "totalEntries": "Participaciones en total",
+    "avgEntries": "Promedio por sorteo",
+    "winners": "Ganadores",
+    "created": "Sorteos creados",
+    "activeNow": "Activos ahora",
+    "scheduled": "Programados",
+    "bestHour": "Mejor horario para sortear",
+    "peak": "Más gente entra alrededor de las {hour}, en tu zona horaria.",
+    "notEnough": "Todavía no hay suficiente movimiento.",
+    "chartHint": "Aparece después de 10 participaciones, para que el horario tenga sentido.",
+    "topLabel": "Más participación",
+    "topTitle": "Sorteos con más participación"
+  },
+  "status": {
+    "active": "Activo",
+    "scheduled": "Programado",
+    "cancelled": "Cancelado",
+    "ended": "Finalizado"
+  },
+  "deadline": {
+    "endsIn": "Termina en {time}",
+    "startsIn": "Empieza en {time}"
+  },
+  "remaining": {
+    "cancelled": "cancelado",
+    "ended": "finalizado",
+    "now": "ahora",
+    "minutes": "{count} min",
+    "hours": "{count} h",
+    "days": "{count} d"
+  },
+  "empty": {
+    "active": "No hay sorteos activos. ¡Crea uno ahora!",
+    "scheduled": "No hay sorteos programados.",
+    "ended": "Todavía no hay sorteos finalizados.",
+    "cancelled": "No hay sorteos cancelados.",
+    "all": "No hay sorteos por aquí.",
+    "createFirst": "Crear el primero"
+  },
+  "units": {
+    "minutes": "Minutos",
+    "hours": "Horas",
+    "days": "Días"
+  },
+  "settings": {
+    "loadError": "Error al cargar.",
+    "errors": {
+      "role": "Elige el rol del ping por defecto.",
+      "duration": "Duración por defecto no válida."
+    },
+    "saved": "Ajustes guardados.",
+    "saveError": "No se pudo guardar.",
+    "title": "Ajustes de sorteos",
+    "description": "Valores por defecto que se rellenan al crear un nuevo sorteo.",
+    "channel": "Canal por defecto",
+    "none": "Ninguno",
+    "mention": "Ping por defecto",
+    "specificRole": "Rol específico",
+    "rolePlaceholder": "Elige el rol",
+    "duration": "Duración por defecto",
+    "emptyHint": "Vacío = sin valor por defecto."
+  },
+  "report": {
+    "people": "Personas",
+    "notFound": "Informe no encontrado.",
+    "unavailable": "Informe no disponible.",
+    "header": "Informe · {guild}",
+    "funnel": {
+      "title": "Embudo",
+      "viewed": "Vieron la página",
+      "clicked": "Hicieron clic en el enlace",
+      "entered": "Participaron"
+    },
+    "kpi": {
+      "views": "Vistas",
+      "entries": "Participantes",
+      "winners": "Ganadores",
+      "conversion": "Conversión"
+    },
+    "partner": {
+      "title": "Conversión de la alianza",
+      "clicks": "Clics en el enlace",
+      "alreadyMembers": "Ya eran miembros",
+      "joined": "Entraron por el sorteo",
+      "left": "Salieron después"
+    },
+    "footer": "Datos agregados · generado por MRI BOT"
+  },
+  "public": {
+    "notFound": "Sorteo no encontrado.",
+    "ended": "Finalizado",
+    "entered": "¡Entraste en el sorteo! 🎉",
+    "enterError": "Error al participar.",
+    "loadError": "No se pudo cargar el sorteo",
+    "giveawayIn": "Sorteo en",
+    "endsIn": "Termina en",
+    "winners": "Ganadores",
+    "entries": "Participantes",
+    "requirements": "Requisitos",
+    "open": "Abrir",
+    "giveawayEnded": "Sorteo finalizado",
+    "login": "Inicia sesión con Discord para participar",
+    "participating": "Estás participando · ¡Buena suerte!",
+    "enter": "Participar en el sorteo",
+    "notMet": "Requisitos no cumplidos"
+  },
+  "detail": {
+    "roleNotFound": "Rol {id} no encontrado",
+    "errors": {
+      "loadEntries": "Error al cargar las participaciones.",
+      "action": "La operación falló.",
+      "share": "Error al generar el enlace.",
+      "revoke": "Error al revocar.",
+      "delete": "Error al eliminar.",
+      "copy": "No se pudo copiar."
+    },
+    "toast": {
+      "ended": "Sorteo finalizado.",
+      "cancelled": "Sorteo cancelado.",
+      "rerolled": "Reroll hecho.",
+      "revoked": "Enlace revocado.",
+      "deleted": "Sorteo eliminado.",
+      "linkCopied": "Enlace copiado."
+    },
+    "rerollCount": "{count}× reroll",
+    "actions": {
+      "edit": "Editar",
+      "reroll": "Reroll",
+      "viewPage": "Ver página",
+      "copyLink": "Copiar enlace",
+      "reuse": "Reutilizar",
+      "exportCsv": "Exportar CSV",
+      "label": "Acciones:",
+      "endNow": "Finalizar ahora"
+    },
+    "startsIn": "Empieza en",
+    "endsIn": "Termina en",
+    "tabs": {
+      "analytics": "Analíticas",
+      "activity": "Actividad"
+    },
+    "requirements": {
+      "hasRole": "Tener el rol {role}",
+      "notRole": "No tener el rol {role}",
+      "serverDays": "Estar {count} día(s) en el servidor",
+      "accountDays": "Cuenta de Discord con {count}+ días",
+      "guild": "Estar en el servidor {guild}",
+      "partner": "aliado",
+      "blacklist": "Lista negra: {count} usuario(s)",
+      "title": "Requisitos",
+      "none": "Sin requisitos."
+    },
+    "fields": {
+      "channel": "Canal",
+      "start": "Inicio",
+      "created": "Creado",
+      "ends": "Termina",
+      "entry": "Participación",
+      "reaction": "Reacción",
+      "button": "Botón",
+      "mention": "Ping al publicar"
+    },
+    "multipliers": "Multiplicadores",
+    "participants": {
+      "empty": "Nadie ha entrado todavía.",
+      "altWarning": "⚠️ {count} participación(es) de cuenta(s) creada(s) hace menos de {days} días, posible alt. Revisa antes de sortear.",
+      "freshHint": "Cuenta creada hace menos de {days} días",
+      "fresh": "cuenta nueva"
+    },
+    "activity": {
+      "created": "Sorteo creado",
+      "started": "Inicio (programado)",
+      "scheduledStart": "Inicio programado",
+      "entries": "{count} participante(s)",
+      "rerolled": "Reroll {count}×",
+      "endedManually": "finalizado manualmente",
+      "winners": "{count} ganador(es) sorteado(s)"
+    },
+    "analytics": {
+      "rejected": "Rechazados",
+      "conversionHint": "participaron ÷ vistas",
+      "chartHint": "El gráfico aparece con más volumen.",
+      "partner": "Alianza",
+      "joined": "Entraron por nosotros",
+      "joinedHint": "no eran miembros y entraron",
+      "left": "Salieron",
+      "leftHint": "entraron y salieron del aliado (se revisa al final)"
+    },
+    "timeline": {
+      "cumulative": "Total acumulado",
+      "count": "Nuevos en el período",
+      "empty": "La curva de participaciones aparece con al menos 2 períodos con participación.",
+      "title": "Participaciones en el tiempo",
+      "perHour": "por hora · pico {peak}",
+      "perDay": "por día · pico {peak}"
+    },
+    "share": {
+      "title": "Informe compartible",
+      "description": "Enlace público de solo lectura para el aliado, solo números, sin participantes.",
+      "generate": "Generar enlace",
+      "revoke": "Revocar",
+      "copy": "Copiar"
+    },
+    "remaining": {
+      "minutes": "{count}min",
+      "starting": "Iniciando...",
+      "ending": "Finalizando..."
+    }
+  },
+  "create": {
+    "defaults": {
+      "winnerText": "🎉 **¡Tenemos ganador(es)!**",
+      "button": "Participar"
+    },
+    "fields": {
+      "winners": "🏆 Ganador(es)",
+      "prize": "🎁 Premio",
+      "endsAt": "⏰ Termina",
+      "winnerCount": "🏆 Ganadores",
+      "entryCount": "👥 Participantes",
+      "requirements": "Requisitos",
+      "prizeSample": "(premio)",
+      "noRequirements": "(sin requisitos)",
+      "winnerQty": "🏆 Cant. de ganadores"
+    },
+    "errors": {
+      "loadChannels": "Error al cargar los canales."
+    },
+    "preview": {
+      "role": "• Rol obligatorio: @{role}",
+      "roleFallback": "rol",
+      "serverDays": "• Estar en el servidor hace {count} día(s)",
+      "accountDays": "• Cuenta de Discord con {count} día(s)",
+      "guild": "• Estar en el servidor {guild}",
+      "otherDiscord": "(otro Discord)"
+    },
+    "validation": {
+      "prize": "El premio debe tener al menos 2 caracteres.",
+      "channel": "Elige el canal.",
+      "winners": "Ganadores: de 1 a 20.",
+      "duration": "Duración no válida.",
+      "durationMin": "Duración mínima: 1 minuto.",
+      "durationMax": "Duración máxima: 30 días.",
+      "startRequired": "Define la fecha/hora de inicio.",
+      "startInvalid": "Fecha de inicio no válida.",
+      "startFuture": "El inicio debe ser en el futuro.",
+      "startTooFar": "El inicio no puede ser dentro de más de 30 días.",
+      "reminder": "Recordatorio: minutos no válidos.",
+      "reminderTooLong": "El recordatorio debe ser menor que la duración.",
+      "requiredRole": "Selecciona el rol obligatorio.",
+      "excludedRole": "Selecciona el rol a bloquear.",
+      "sameRole": "El mismo rol no puede ser obligatorio y bloqueado a la vez.",
+      "multiplierRole": "Elige el rol de cada multiplicador.",
+      "multiplierDuplicate": "Rol repetido en los multiplicadores.",
+      "multiplierRange": "El multiplicador debe ser un número entero entre 2 y 100.",
+      "serverDays": "Días en el servidor no válidos.",
+      "accountDays": "Días de cuenta no válidos.",
+      "guildRequired": "Indica el enlace de invitación o el Discord ID del servidor requerido.",
+      "guildInvalid": "Discord ID del servidor no válido.",
+      "mentionRole": "Elige el rol al que hacer ping."
+    },
+    "template": {
+      "prizeRequired": "Rellena el premio antes de guardar la plantilla.",
+      "nameRequired": "Ponle un nombre a la plantilla.",
+      "saved": "Plantilla guardada. Puedes reutilizarla al crear.",
+      "saveError": "No se pudo guardar la plantilla.",
+      "namePlaceholder": "Nombre de la plantilla",
+      "saveAs": "Guardar como plantilla"
+    },
+    "toast": {
+      "updated": "Sorteo actualizado. El mensaje en Discord se actualizará en segundos.",
+      "created": "Sorteo creado. El bot lo publicará en el canal."
+    },
+    "title": {
+      "edit": "Editar sorteo"
+    },
+    "subtitle": {
+      "edit": "Los cambios se reflejan en el mensaje ya publicado en segundos.",
+      "duplicate": "Basado en un sorteo existente, ajusta lo que quieras y publícalo.",
+      "create": "El bot publica el anuncio. El cierre y el sorteo son automáticos."
+    },
+    "message": "Mensaje del sorteo",
+    "footerNote": "Giveaway ID: (generado)",
+    "prizePlaceholder": "Ej.: Nitro Gaming (1 mes)",
+    "prizeHint": "Nombre del premio, aparece en el campo Premio y en el anuncio del ganador.",
+    "channelPlaceholder": "Elige el canal",
+    "channelLocked": "El canal no cambia después de publicar.",
+    "duration": "Duración",
+    "schedule": {
+      "label": "Programar inicio",
+      "on": "El bot publica a esta hora. La duración de arriba cuenta desde el inicio.",
+      "off": "Desactivado: publica en cuanto lo crees."
+    },
+    "reminder": {
+      "label": "Recordatorio antes de terminar",
+      "unit": "min antes del final",
+      "on": "El bot avisa en el canal para dar un último empujón a las participaciones.",
+      "off": "Desactivado: sin aviso antes de terminar."
+    },
+    "requirements": {
+      "title": "Requisitos (opcionales)",
+      "role": "Rol obligatorio",
+      "rolePlaceholder": "Elige un rol",
+      "excludedRole": "No tener un rol",
+      "excludedRolePlaceholder": "Rol que impide participar",
+      "serverDays": "Tiempo mínimo en el servidor (días)",
+      "accountDays": "Antigüedad mínima de la cuenta de Discord (días)",
+      "guild": "Estar en otro Discord",
+      "blacklist": "Lista negra (Discord IDs)",
+      "blacklistPlaceholder": "IDs separados por coma, espacio o línea"
+    },
+    "multipliers": {
+      "title": "Multiplicadores de participación (opcional)",
+      "hint": "Quien tiene el rol cuenta como N participaciones en el sorteo. Gana el mayor (no se suman).",
+      "role": "Rol",
+      "add": "Añadir multiplicador"
+    },
+    "winnerMessage": {
+      "title": "Mensaje del ganador",
+      "hint": "Personaliza el anuncio publicado en el canal cuando termina el sorteo. Desactivado: usa el mensaje por defecto del bot."
+    },
+    "saveChanges": "Guardar cambios",
+    "guildInput": {
+      "invalid": "Pega un enlace de invitación (https://discord.gg/...) o el Discord ID.",
+      "inviteInvalid": "Invitación no válida.",
+      "placeholder": "Enlace de invitación (https://discord.gg/...) o Discord ID",
+      "checking": "Verificando invitación...",
+      "directId": "Discord ID directo. La validación se hace al participar.",
+      "hint": "Se valida en la página pública con el inicio de sesión de Discord, el bot no necesita estar en ese servidor."
+    },
+    "endsAtSampleBy": {
+      "minutes": "en {value, plural, one {# minuto} other {# minutos}}",
+      "hours": "en {value, plural, one {# hora} other {# horas}}",
+      "days": "en {value, plural, one {# día} other {# días}}"
+    }
+  }
+}

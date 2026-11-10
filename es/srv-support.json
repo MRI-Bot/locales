@@ -1,0 +1,12 @@
+{
+  "ticketSubject": "Atención (chat)",
+  "memberFallbackName": "Miembro",
+  "escalation": "Una atención necesita ayuda del equipo.",
+  "ai": {
+    "intro": "Eres el asistente de soporte de MRI BOT. Responde en {language}, de forma breve, cordial y directa.",
+    "onlyKnowledge": "Usa SOLO la información del conocimiento de abajo. NUNCA inventes precios, políticas, plazos ni reembolsos.",
+    "escalate": "Si no lo sabes, si la pregunta se sale del alcance o si la persona pide un humano, responde EXACTAMENTE con \"{token}\" (nada más).",
+    "knowledgeHeader": "=== CONOCIMIENTO ===",
+    "noKnowledge": "(sin base de conocimiento configurada)"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "header": {
+    "title": "Mi cuenta",
+    "description": "Tu plan es de tu cuenta y vale en los servidores que elijas."
+  },
+  "errors": {
+    "load": "Error al cargar.",
+    "upgrade": "No se pudo iniciar la mejora."
+  },
+  "package": {
+    "lifetime": "Vitalicio",
+    "months": "{count, plural, one {# mes} other {# meses}}"
+  },
+  "change": {
+    "extend": "Los meses se suman al final del período que ya tienes.",
+    "startWithCredit": "El nuevo período empieza cuando se apruebe el Pix. El tiempo que no usaste ya está descontado.",
+    "startNoCredit": "El nuevo período empieza cuando se apruebe el Pix y reemplaza al actual, sin descuento.",
+    "cardCancelled": "La suscripción con tarjeta se cancela en ese momento."
+  },
+  "pix": {
+    "invalidEmail": "Indica un email válido (va en el comprobante del Pix).",
+    "generateFailed": "Error al generar el Pix.",
+    "paid": "¡Pago confirmado, {plan} ({package}) activado!",
+    "notCompleted": "El pago no se completó. Genera un nuevo Pix si quieres intentarlo de nuevo.",
+    "title": "Pagar {plan} por {package} vía Pix",
+    "subtitle": "En un solo pago, sin recurrencia y {emphasis}, desde la app de cualquier banco o PicPay.",
+    "subtitleEmphasis": "sin necesidad de cuenta de Mercado Pago",
+    "packagePrice": "Precio del paquete",
+    "currentCredit": "Crédito del plan actual",
+    "youPay": "Pagas",
+    "validUntil": "Válido hasta",
+    "emailLabel": "Tu email (solo para el comprobante)",
+    "emailPlaceholder": "tu@ejemplo.com",
+    "generate": "Generar Pix",
+    "qrAlt": "Código QR de Pix",
+    "waiting": "Esperando el pago…",
+    "scanHint": "Escanea el QR o copia el código de abajo. La confirmación es automática a los pocos segundos de pagar.",
+    "copied": "Código Pix copiado.",
+    "copyFailed": "No se pudo copiar.",
+    "copy": "Copiar"
+  },
+  "cancel": {
+    "title": "¿Cancelar la suscripción?",
+    "descriptionPrepaid": "Pierdes los beneficios ahora y el tiempo restante no se devuelve. Para seguir usándolo, tendrás que contratar de nuevo.",
+    "description": "Pierdes los beneficios Pro de inmediato. Para seguir usándolo, tendrás que contratar de nuevo.",
+    "confirm": "Cancelar plan",
+    "success": "Suscripción cancelada.",
+    "failed": "Error al cancelar."
+  },
+  "pastDue": "Tu último cobro falló. Renueva la suscripción en la tarjeta de tu plan, con otra tarjeta o por Pix (pasa a prepago), en un plazo de 3 días para no perder el acceso.",
+  "pending": {
+    "processing": "Esperando que Mercado Pago confirme el pago (hasta 5 min). Si ya pagaste, recarga en unos segundos.",
+    "started": "Iniciaste la mejora al plan {plan} pero el pago aún no se ha confirmado. Continúa o cancela.",
+    "processingHint": "Espera la confirmación de Mercado Pago antes de intentarlo de nuevo",
+    "continue": "Continuar el pago"
+  },
+  "grid": {
+    "changePlan": "Cambiar de plan",
+    "choosePlan": "Elige un plan",
+    "hideCompare": "Ocultar comparación",
+    "compare": "Comparar planes"
+  },
+  "card": {
+    "current": "Plan actual",
+    "free": "Gratis",
+    "month": "mes",
+    "saleFee": "+ R$ 1 por venta (máx. 10%)",
+    "showLess": "Ver menos",
+    "showAll": "Ver todos los recursos",
+    "processingHint": "Espera la confirmación de Mercado Pago",
+    "processing": "Procesando…",
+    "renewCard": "Renovar con tarjeta",
+    "subscribeCard": "Suscribirse con tarjeta",
+    "orPayPix": "o paga de una vez vía {pix} (sin cuenta de Mercado Pago):",
+    "payPix": "Paga de una vez vía {pix} (sin cuenta de Mercado Pago):",
+    "creditApplied": "{amount} del tiempo que no usaste ya están descontados.",
+    "youAreHere": "Estás en este plan.",
+    "cancelToFree": "Cancela el plan de pago para volver a Free."
+  },
+  "featureCopy": {
+    "subscriptions": "Suscripciones recurrentes (cobro mensual)",
+    "whiteLabel": "Personalizar el bot (nick + avatar)",
+    "apiKey": "API Keys (integración externa)",
+    "fivemWebhook": "Integración FiveM vía webhook"
+  },
+  "highlights": {
+    "unlimitedServers": "Servidores ilimitados",
+    "servers": "{count, plural, one {# servidor de Discord} other {# servidores de Discord}}",
+    "marketplaceNoFee": "Marketplace sin comisión por venta",
+    "marketplace": "Marketplace (Pix + tarjeta + Drive)",
+    "advancedLogs": "Logs avanzados de Discord Admin"
+  },
+  "breakdown": {
+    "unlimited": "Ilimitado"
+  },
+  "compare": {
+    "feature": "Recurso"
+  }
+}

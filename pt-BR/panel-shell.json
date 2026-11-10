@@ -1,0 +1,132 @@
+{
+  "guilds": {
+    "label": "Servidores",
+    "all": "Todos os servidores"
+  },
+  "account": {
+    "subtitle": "Minha conta",
+    "plan": "Plano e pagamentos",
+    "admin": "Admin",
+    "home": "Página inicial",
+    "privacy": "Meus dados e privacidade",
+    "language": "Idioma",
+    "logout": "Sair"
+  },
+  "nav": {
+    "new": "Novidade",
+    "modules": "Módulos instalados",
+    "noModules": "Nenhum módulo ativo neste servidor.",
+    "less": "Menos",
+    "more": "Mais",
+    "moreCount": "Mais {count}",
+    "system": "Sistema",
+    "settings": "Configurações",
+    "version": "MRI BOT v{version}",
+    "restoreOrder": "Restaurar ordem"
+  },
+  "header": {
+    "help": "Ajuda desta tela"
+  },
+  "backend": {
+    "backLostWrite": "O MRI BOT voltou. O que você tentou salvar não foi enviado: faça de novo.",
+    "back": "O MRI BOT voltou.",
+    "updating": "O MRI BOT está atualizando. Volta em alguns segundos.",
+    "unsaved": "O que você salvou agora não foi enviado: tente de novo quando a faixa sumir.",
+    "retryNow": "Tentar agora"
+  },
+  "error": {
+    "title": "Algo deu errado",
+    "body": "A interface encontrou um erro inesperado. O time já recebeu a notificação.",
+    "copyDetails": "Copiar detalhes",
+    "clipboardUnavailable": "Clipboard indisponível neste navegador.",
+    "copied": "Detalhes copiados.",
+    "copyFailed": "Falha ao copiar."
+  },
+  "notifications": {
+    "title": "Notificações",
+    "markAllSeen": "Marcar tudo como visto",
+    "empty": "Tudo em dia. 🎉",
+    "ticketsUnclaimed": "{count, plural, one {# ticket sem atendimento} other {# tickets sem atendimento}}",
+    "ticketsUnclaimedHint": "Nenhum staff assumiu ainda. Toque para abrir.",
+    "whitelistPending": "{count, plural, one {# inscrição de whitelist pendente} other {# inscrições de whitelist pendentes}}",
+    "whitelistPendingHint": "Aguardando revisão."
+  },
+  "sections": {
+    "overview": "Visão Geral",
+    "modules": "Módulos",
+    "modulesAndPlugins": "Módulos e Plugins",
+    "news": "Novidades",
+    "permissions": "Permissões",
+    "apikeys": "API Keys",
+    "auditlog": "Audit log",
+    "platformPlan": "Minha conta",
+    "serverPlan": "Plano do servidor",
+    "botIdentity": "Identidade do bot",
+    "botSettings": "Configurações",
+    "botSettingsGeneral": "Geral",
+    "servers": "Servidores",
+    "inDevelopment": "Seção em desenvolvimento"
+  },
+  "auth": {
+    "discordUnavailable": "O Discord está limitando as requisições agora. Tente entrar de novo em alguns segundos.",
+    "codeExpired": "Esse link de login já foi usado ou expirou. Entre de novo para continuar.",
+    "loginFailed": "Não foi possível concluir o login. Tente novamente.",
+    "sessionExpired": "Sua sessão expirou. Entre de novo pra continuar."
+  },
+  "session": {
+    "loading": "Carregando sua sessão",
+    "loadingHint": "Buscando seu Discord e os servidores disponíveis.",
+    "loadFailed": "Não foi possível carregar",
+    "loadFailedDetail": "Não foi possível carregar sua sessão."
+  },
+  "invite": {
+    "botAdded": "Bot adicionado em {guild}!",
+    "notManageable": "Você não administra esse servidor, ou o bot não está mais nele.",
+    "notConfigured": "Configure DISCORD_CLIENT_ID no backend para gerar o convite do bot.",
+    "popupBlocked": "Não foi possível abrir o convite. Permita popups deste site e tente novamente."
+  },
+  "search": {
+    "hintModule": "Módulo",
+    "hintPanel": "Painel",
+    "hintSystem": "Sistema",
+    "hintSwitchGuild": "Trocar servidor",
+    "open": "Pesquisar",
+    "trigger": "Pesquisar telas e recursos...",
+    "placeholder": "Ex.: anti-convite, boas-vindas, financeiro...",
+    "empty": "Nada encontrado."
+  },
+  "serverSelect": {
+    "subtitle": "Selecionar servidor",
+    "accountTitle": "Minha conta: plano e pagamentos",
+    "title": "Escolha onde configurar o bot",
+    "body": "O painel abre somente para servidores onde você pode gerenciar e onde o bot já está instalado.",
+    "searchPlaceholder": "Pesquisar servidor",
+    "refresh": "Atualizar",
+    "statInstalled": "Com painel",
+    "statAvailable": "Adicionar bot",
+    "statLocked": "Sem permissão",
+    "emptyTitle": "Nenhum servidor encontrado",
+    "emptyFiltered": "Nenhum servidor corresponde aos filtros selecionados.",
+    "emptyNone": "Tente outro nome ou atualize sua lista do Discord.",
+    "permission": "Permissão",
+    "manage": "Gerenciar",
+    "blocked": "Bloqueado",
+    "activeModules": "Módulos ativos",
+    "openDashboard": "Abrir painel",
+    "addBot": "Adicionar bot",
+    "configureClientId": "Configure DISCORD_CLIENT_ID",
+    "noPermission": "Sem permissão",
+    "badgePending": "Aguardando",
+    "badgeInstalled": "Instalado",
+    "badgeInvite": "Convidar"
+  },
+  "consent": {
+    "label": "Consentimento de cookies",
+    "intro": "Usamos cookies essenciais pra manter sua sessão e o funcionamento do site, e esses não dá pra desligar. Além deles, queremos usar",
+    "diagnostics": "diagnóstico de erros",
+    "diagnosticsDetail": ", que envia falhas e gravação de sessão pro Sentry pra gente entender o que quebrou.",
+    "policy": "Política de Cookies",
+    "essentialOnly": "Só essenciais",
+    "accept": "Aceitar diagnóstico"
+  }
+}

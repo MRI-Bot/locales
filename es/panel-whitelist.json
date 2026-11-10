@@ -1,0 +1,98 @@
+{
+  "header": {
+    "title": "Whitelist",
+    "description": "Solicitudes en {guild}."
+  },
+  "tabs": {
+    "label": "Pantallas de la Whitelist",
+    "list": "Solicitudes",
+    "settings": "Configuración"
+  },
+  "filters": {
+    "label": "Filtrar solicitudes",
+    "pending": "Pendientes",
+    "approved": "Aprobadas",
+    "rejected": "Rechazadas",
+    "all": "Todas"
+  },
+  "answers": {
+    "yes": "Sí",
+    "no": "No"
+  },
+  "errors": {
+    "load": "No se pudieron cargar las solicitudes."
+  },
+  "approve": {
+    "action": "Aprobar",
+    "roleFailed": "Aprobada, pero el bot no pudo dar el rol. En Discord, pon el rol del bot por encima del rol de aprobado.",
+    "success": "Solicitud aprobada",
+    "failed": "No se pudo aprobar."
+  },
+  "reject": {
+    "action": "Rechazar",
+    "success": "Solicitud rechazada",
+    "failed": "No se pudo rechazar.",
+    "title": "Rechazar solicitud",
+    "description": "Estás rechazando la solicitud de {name}. La nota es opcional y se enviará al usuario.",
+    "noteLabel": "Nota (opcional)",
+    "notePlaceholder": "Ej.: Historia del personaje muy corta, rehazla con más detalles.",
+    "noteCount": "{count}/{max} caracteres"
+  },
+  "revoke": {
+    "action": "Quitar aprobación",
+    "confirmTitle": "¿Quitar aprobación?",
+    "confirmDescription": "{name} vuelve a poder inscribirse en la whitelist, sin esperar. Si hay rol de aprobado, el bot se lo quita.",
+    "thePerson": "La persona",
+    "roleFailed": "Aprobación quitada, pero el bot no pudo quitar el rol. Quítalo a mano en Discord.",
+    "success": "Aprobación quitada. La persona ya puede inscribirse de nuevo.",
+    "failed": "No se pudo quitar la aprobación.",
+    "hint": "Permite que la persona se inscriba de nuevo y le quita el rol de aprobado, si lo hay."
+  },
+  "search": {
+    "placeholder": "Buscar por nombre o ID de Discord"
+  },
+  "refreshList": "Actualizar lista",
+  "list": {
+    "count": "{count, plural, one {# solicitud} other {# solicitudes}}",
+    "capped": ". Mostrando solo las 200 más recientes, usa la búsqueda para encontrar las antiguas",
+    "loading": "Cargando solicitudes..."
+  },
+  "nameOnly": {
+    "text": "Sin preguntas configuradas, quien hace clic en \"Aplicar\" solo completa el nombre y la solicitud llega aquí para que la apruebes. Para preguntar más, arma el formulario en la pestaña {tab}."
+  },
+  "table": {
+    "member": "Miembro",
+    "status": "Estado",
+    "source": "Origen",
+    "sent": "Enviada",
+    "decision": "Decisión"
+  },
+  "empty": {
+    "search": "Ninguna solicitud coincide con esta búsqueda.",
+    "pending": "No hay solicitudes pendientes por ahora.",
+    "approved": "Todavía no hay solicitudes aprobadas.",
+    "rejected": "No hay solicitudes rechazadas.",
+    "all": "No se encontraron solicitudes."
+  },
+  "source": {
+    "form": "Formulario",
+    "quiz": "Prueba",
+    "release": "Liberación",
+    "code": "Código"
+  },
+  "status": {
+    "pending": "Pendiente",
+    "approved": "Aprobada",
+    "rejected": "Rechazada"
+  },
+  "row": {
+    "collapse": "Ocultar respuestas",
+    "expand": "Ver respuestas",
+    "score": ", nota {score}%",
+    "noResponses": "Sin respuestas registradas.",
+    "decidedBy": "Decidido por",
+    "decidedAutomatically": "Decidido automáticamente",
+    "decidedAt": "el {date}",
+    "noteSent": "Nota enviada:"
+  }
+}

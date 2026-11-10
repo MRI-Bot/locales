@@ -1,0 +1,212 @@
+{
+  "title": "Polls",
+  "description": "Polls in {guild}.",
+  "create": "Create poll",
+  "navLabel": "Poll screens",
+  "loading": "Loading polls...",
+  "tabs": {
+    "list": "Polls",
+    "overview": "Overview"
+  },
+  "errors": {
+    "load": "Couldn't load the polls."
+  },
+  "close": {
+    "confirmTitle": "End poll?",
+    "confirmDescription": "Voting will close and the Discord message will show the final result.",
+    "confirmLabel": "End",
+    "success": "Poll ended.",
+    "failed": "Couldn't end the poll."
+  },
+  "repost": {
+    "success": "Poll posted on Discord!",
+    "uncertain": "Tried to repost, check that the bot is online.",
+    "failed": "Couldn't repost the poll."
+  },
+  "delete": {
+    "confirmTitle": "Delete poll?",
+    "confirmDescription": "The poll and its Discord message will be removed. This can't be undone.",
+    "success": "Poll deleted.",
+    "failed": "Couldn't delete the poll."
+  },
+  "empty": {
+    "title": "No polls here yet",
+    "description": "Create a poll from the dashboard or use {command} on Discord.",
+    "createFirst": "Create first poll"
+  },
+  "tags": {
+    "multi": "Multiple choice",
+    "multiUpTo": "Multiple, up to {count}",
+    "anonymous": "Anonymous",
+    "hiddenResults": "Hidden results",
+    "roles": "{count, plural, one {# role can vote} other {# roles can vote}}"
+  },
+  "dashboard": {
+    "votes": "Votes",
+    "loadError": "Couldn't load the numbers.",
+    "emptyTitle": "No numbers yet",
+    "emptyDescription": "Votes and the most voted polls show up here once you create the first one.",
+    "totalVotes": "Total votes",
+    "avgVotes": "Average per poll",
+    "activeNow": "Active now",
+    "closed": "Closed",
+    "created30": "Created in 30 days",
+    "votes30": "Votes in 30 days",
+    "top": "Most voted",
+    "poll": "Poll"
+  },
+  "table": {
+    "status": {
+      "closed": "Closed",
+      "scheduled": "Scheduled",
+      "active": "Active"
+    },
+    "filters": {
+      "label": "Filter polls",
+      "all": "All",
+      "active": "Active",
+      "scheduled": "Scheduled",
+      "closed": "Closed"
+    },
+    "search": "Search question or option",
+    "refreshList": "Refresh list",
+    "count": "{count, plural, one {# poll} other {# polls}}",
+    "noResults": {
+      "title": "No polls found",
+      "description": "Try another term or change the filter.",
+      "clear": "Clear filters"
+    },
+    "columns": {
+      "question": "Question",
+      "status": "Status",
+      "leader": "Leading option",
+      "votes": "Votes",
+      "created": "Created"
+    },
+    "noVotes": "No votes",
+    "openInDiscord": "Open in Discord",
+    "facts": {
+      "createdAt": "Created on",
+      "publishesAt": "Publishes on",
+      "endedAt": "Ended on",
+      "endsAt": "Ends on"
+    },
+    "actions": {
+      "repost": "Post again",
+      "edit": "Edit",
+      "duplicate": "Duplicate",
+      "duplicateHint": "Creates a new poll using this one as a template"
+    },
+    "voters": {
+      "loadError": "Couldn't load who voted.",
+      "hide": "Hide who voted",
+      "show": "See who voted"
+    }
+  },
+  "form": {
+    "composer": {
+      "endsAt": "⏰ Ends",
+      "sampleVotes": "60% · 3 votes",
+      "sampleOption": "Option",
+      "question": "Question",
+      "results": "Results",
+      "totalVotes": "Total votes",
+      "sampleTotal": "5 votes",
+      "sampleEndsAt": "in 2 hours"
+    },
+    "questionPlaceholderPreview": "(question)",
+    "errors": {
+      "channel": "Select a channel.",
+      "question": "Enter the question.",
+      "minOptions": "At least 2 options with text.",
+      "duration": "Invalid duration.",
+      "scheduleFuture": "The scheduled date must be in the future.",
+      "save": "Couldn't save the poll."
+    },
+    "toast": {
+      "updated": "Poll updated!",
+      "scheduled": "Poll scheduled! It will be posted at the set time.",
+      "posted": "Poll created and posted on Discord!",
+      "notPosted": "Poll created, but I couldn't post it on Discord. Check that the bot is online and has access to the channel."
+    },
+    "title": {
+      "edit": "Edit poll",
+      "duplicate": "Duplicate poll",
+      "create": "New poll"
+    },
+    "inGuild": "in {guild}",
+    "createAndPost": "Create and post",
+    "channel": "Channel",
+    "channelLocked": "(a poll that's already posted can't be moved)",
+    "refreshChannels": "Refresh channel list",
+    "channelPlaceholder": "Select channel",
+    "question": "Question",
+    "questionPlaceholder": "What's your favorite color?",
+    "options": "Options ({count}/{max})",
+    "pickEmoji": "Choose emoji",
+    "clearEmoji": "Clear emoji",
+    "optionPlaceholder": "Option {n}",
+    "addOption": "Add option",
+    "editOptionsHint": "Editing the text keeps the votes. Removing an option deletes its votes.",
+    "mention": {
+      "label": "Ping when posting",
+      "none": "None",
+      "role": "Specific role",
+      "rolePlaceholder": "Choose the role",
+      "editHint": "The mention stays visible in the message, but Discord only pings when it's sent (editing the poll doesn't notify again)."
+    },
+    "duration": {
+      "editLabel": "New deadline from now (optional)",
+      "label": "Duration (optional)",
+      "placeholder": "No limit",
+      "minutes": "minutes",
+      "emptyHint": "Empty = removes the deadline."
+    },
+    "schedule": {
+      "label": "Schedule post",
+      "description": "Posts automatically at the set time."
+    },
+    "voting": {
+      "title": "Voting settings",
+      "multiSelect": "Multiple choice",
+      "multiSelectHint": "Allows voting for more than one option.",
+      "maxChoices": "Max. choices",
+      "maxChoicesPlaceholder": "no limit",
+      "hideResults": "Hide results",
+      "hideResultsHint": "Hides the count until the poll ends (avoids the bandwagon effect).",
+      "anonymous": "Anonymous vote",
+      "anonymousHint": "Doesn't reveal who voted for what (disables the voter list).",
+      "showLabel": "Show option text on buttons",
+      "showLabelHint": "Default: emoji-only button (cleaner). Turn on if the options have no emoji or if you prefer visible text.",
+      "compact": "Compact layout",
+      "compactHint": "Hides the colored bar and the % in the message; votes show right on the buttons. The message looks cleaner.",
+      "allowedRoles": "Roles that can vote (optional)",
+      "allowedRolesPlaceholder": "Add role (empty = everyone)",
+      "weights": "Vote weight per role (optional)",
+      "weightsHint": "The vote takes the HIGHEST weight among the voter's roles. E.g.: VIP = 3 → their vote counts 3x.",
+      "weightsPlaceholder": "Add role with weight",
+      "weight": "weight"
+    },
+    "preview": {
+      "label": "Preview",
+      "customize": "Customize message",
+      "designHint": "Drag the blocks to build the message. The bot fills in the fields (question/results) when publishing.",
+      "classicHint": "Classic Embed, turn on \"Customize message\" for a visual editor with images and layout."
+    },
+    "classic": {
+      "endsIn": "⏰ Ends in {minutes} min",
+      "upTo": "☑️ Up to {count} choices",
+      "multi": "☑️ Multiple choice",
+      "single": "1️⃣ 1 choice allowed",
+      "anonymous": "🕶️ Anonymous vote",
+      "options": "Options",
+      "hidden": "🔒 Results hidden until the poll ends.",
+      "settings": "Settings",
+      "resultHidden": "result hidden",
+      "votes": "{count, plural, one {# vote} other {# votes}}",
+      "footerCompact": "preview · counts show on the buttons with the real votes",
+      "footerBar": "preview · numbers are examples, the bar grows with the real votes",
+      "footerEndsIn": " · ends in {minutes} min"
+    }
+  }
+}

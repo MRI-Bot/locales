@@ -1,0 +1,5 @@
+{
+  "failed": "No pude registrar eso ahora. Inténtalo de nuevo en unos instantes.",
+  "stopped": "🔕 Listo. Ya no recibirás los comunicados de este servidor.\n-# Los avisos de moderación, cobros, entregas de compras y valoraciones de atención siguen llegando — responden a algo que hiciste, no son comunicados.\n-# Para deshacerlo: `{command}`.",
+  "resumed": "🔔 Listo. Vuelves a recibir los comunicados de este servidor."
+}

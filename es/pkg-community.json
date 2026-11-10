@@ -1,0 +1,100 @@
+{
+  "anon": {
+    "disclosure": "Tu mensaje es anónimo para los demás miembros. El equipo del servidor puede ver quién lo envió, solo en caso de abuso."
+  },
+  "suggestions": {
+    "status": {
+      "PENDING": "En votación",
+      "UNDER_REVIEW": "En análisis",
+      "APPROVED": "Aprobada",
+      "REJECTED": "Rechazada",
+      "IMPLEMENTED": "Implementada",
+      "DUPLICATE": "Duplicada"
+    },
+    "field": {
+      "status": "Estado",
+      "author": "Autor",
+      "votes": "Votos",
+      "rejectReason": "Motivo del rechazo",
+      "teamNote": "Nota del equipo",
+      "duplicates": "Duplicadas"
+    },
+    "anonymousAuthor": "*Anónimo*",
+    "votesValue": "👍 {up} · 👎 {down} · saldo {score}",
+    "manage": "Gestionar",
+    "viewOriginal": "Ver original {number}",
+    "category": "Categoría: {category}",
+    "dm": {
+      "approved": "¡Hola '{membro}'! Tu sugerencia **#'{numero}' · '{titulo}'** fue **aprobada** — gracias por ayudar a mejorar el servidor. En cuanto esté activa te avisamos.",
+      "implemented": "¡Hola '{membro}'! Tu sugerencia **#'{numero}' · '{titulo}'** fue **implementada** y ya está activa. ¡Gracias por la idea!"
+    }
+  },
+  "bugs": {
+    "severity": {
+      "LOW": "Baja",
+      "MEDIUM": "Media",
+      "HIGH": "Alta",
+      "CRITICAL": "Crítica"
+    },
+    "state": {
+      "NEW": "Abierto",
+      "UNDER_REVIEW": "En análisis",
+      "NEEDS_INFO": "Falta información",
+      "CONFIRMED": "Confirmado",
+      "DUPLICATE": "Duplicado",
+      "FIXED": "Corregido",
+      "NOT_A_BUG": "Descartado"
+    },
+    "field": {
+      "state": "Estado",
+      "severity": "Gravedad",
+      "assignee": "Responsable",
+      "resolution": "Resolución",
+      "duplicateOf": "Duplicado de",
+      "gameContext": "Contexto in-game"
+    },
+    "triage": "Triaje",
+    "reportedBy": "Reportado por <@{userId}>",
+    "category": "Categoría: {category}",
+    "theTeam": "el equipo",
+    "dm": {
+      "state": "¡Hola '{membro}'! Tu reporte **#'{numero}' · '{titulo}'** ahora está: **'{estado}'**.'{nota}'",
+      "assignee": "¡Hola '{membro}'! Tu reporte **#'{numero}' · '{titulo}'** fue asignado a '{responsavel}' — a partir de ahora es quien se encarga de él.",
+      "unassigned": "¡Hola '{membro}'! Tu reporte **#'{numero}' · '{titulo}'** volvió a la cola del equipo, sin responsable por ahora."
+    },
+    "form": {
+      "descricao": {
+        "label": "¿Qué pasó?",
+        "placeholder": "Describe el problema que encontraste"
+      },
+      "reproducao": {
+        "label": "¿Cómo reproducirlo?",
+        "placeholder": "1) Fui a... 2) Hice clic en... 3) Pasó..."
+      },
+      "esperado": {
+        "label": "¿Qué debería pasar?",
+        "placeholder": "El comportamiento que esperabas"
+      }
+    }
+  },
+  "staff": {
+    "state": {
+      "SUBMITTED": "Recibida",
+      "UNDER_REVIEW": "En análisis",
+      "APPROVED": "Aprobada",
+      "REJECTED": "Rechazada",
+      "WITHDRAWN": "Desistió"
+    },
+    "applied": "{applicant} se postuló para **{posting}**.",
+    "readFull": "Leer respuestas completas",
+    "openPanel": "Abrir en el panel",
+    "title": "📋 Postulación #{number}",
+    "footerCut": "Respuestas recortadas por el límite de Discord — el panel tiene el texto completo.",
+    "footerDecide": "Decidir aquí avisa al postulante por mensaje privado.",
+    "dm": {
+      "UNDER_REVIEW": "¡Hola '{membro}'! Tu postulación para **'{vaga}'** está en análisis. Te respondemos por aquí en cuanto tengamos una respuesta.",
+      "APPROVED": "¡Hola '{membro}'! Buenas noticias: fuiste aprobado para **'{vaga}'**. Bienvenido al equipo — escríbenos para coordinar los próximos pasos.",
+      "REJECTED": "Hola '{membro}', gracias por postularte para **'{vaga}'**. Esta vez no seguimos adelante con tu postulación, pero las puertas no se cierran: mantente atento a las próximas vacantes."
+    }
+  }
+}

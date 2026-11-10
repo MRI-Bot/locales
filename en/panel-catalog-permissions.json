@@ -1,0 +1,320 @@
+{
+  "admin": {
+    "label": "Discord Admin",
+    "description": "Moderation: ban, kick, mute, warn, prune, purge and more.",
+    "commands": {
+      "ban": {
+        "label": "Ban"
+      },
+      "unban": {
+        "label": "Unban"
+      },
+      "softban": {
+        "label": "Softban"
+      },
+      "kick": {
+        "label": "Kick"
+      },
+      "mute": {
+        "label": "Mute"
+      },
+      "unmute": {
+        "label": "Remove timeout"
+      },
+      "warn": {
+        "label": "Warn"
+      },
+      "note": {
+        "label": "Internal note"
+      },
+      "prune": {
+        "label": "Clear messages"
+      },
+      "purge": {
+        "label": "Delete a user’s messages"
+      },
+      "cargo": {
+        "label": "Give/remove role"
+      },
+      "membercount": {
+        "label": "Member count"
+      },
+      "ping": {
+        "label": "Bot latency"
+      }
+    }
+  },
+  "ai_helper": {
+    "label": "AI assistant",
+    "description": "AI that answers members’ questions.",
+    "commands": {
+      "responder": {
+        "label": "Answer with AI"
+      },
+      "base": {
+        "label": "Add to the AI knowledge base"
+      }
+    }
+  },
+  "fivem": {
+    "label": "FiveM",
+    "description": "FiveM ↔ Discord integration.",
+    "commands": {
+      "vincular": {
+        "label": "Link account"
+      },
+      "desvincular": {
+        "label": "Unlink account"
+      },
+      "acao": {
+        "label": "Run action on the server"
+      },
+      "kick": {
+        "label": "Kick player"
+      },
+      "ban": {
+        "label": "Ban player"
+      },
+      "unban": {
+        "label": "Unban player"
+      },
+      "aviso": {
+        "label": "Private message"
+      },
+      "anuncio": {
+        "label": "Announcement"
+      },
+      "matar": {
+        "label": "Kill player"
+      },
+      "teleportar": {
+        "label": "Teleport player"
+      },
+      "teleportar-todos": {
+        "label": "Teleport everyone"
+      },
+      "identificadores": {
+        "label": "View identifiers"
+      },
+      "info": {
+        "label": "View characters"
+      },
+      "inspecionar": {
+        "label": "Inspect character"
+      },
+      "online": {
+        "label": "Check presence"
+      },
+      "jogadores": {
+        "label": "List players"
+      },
+      "status": {
+        "label": "Server status"
+      },
+      "print": {
+        "label": "Screenshot"
+      },
+      "kickall": {
+        "label": "Kick everyone"
+      },
+      "resource": {
+        "label": "Control resource"
+      },
+      "allowlist": {
+        "label": "Turn allowlist on/off"
+      },
+      "pd": {
+        "label": "Delete character"
+      },
+      "reviver": {
+        "label": "Revive player"
+      },
+      "reviver-todos": {
+        "label": "Revive everyone"
+      },
+      "cadeia": {
+        "label": "Jail/release"
+      },
+      "logout": {
+        "label": "Back to selection"
+      },
+      "roupas": {
+        "label": "Open clothing menu"
+      },
+      "veiculo": {
+        "label": "Give vehicle"
+      },
+      "permissao": {
+        "label": "Set permission"
+      },
+      "hora": {
+        "label": "Set time"
+      },
+      "clima": {
+        "label": "Set weather"
+      }
+    }
+  },
+  "gamification": {
+    "label": "Gamification",
+    "description": "XP, levels and leaderboard.",
+    "commands": {
+      "nivel": {
+        "label": "View level"
+      },
+      "ranking": {
+        "label": "Leaderboard"
+      },
+      "xp-dar": {
+        "label": "Give XP"
+      },
+      "xp-remover": {
+        "label": "Remove XP"
+      },
+      "xp-definir": {
+        "label": "Set XP"
+      },
+      "xp-resetar": {
+        "label": "Reset XP"
+      }
+    }
+  },
+  "mta": {
+    "label": "MTA",
+    "description": "MTA (Multi Theft Auto) ↔ Discord integration.",
+    "commands": {
+      "vincular": {
+        "label": "Link account"
+      },
+      "acao": {
+        "label": "Run action on the server"
+      },
+      "desvincular": {
+        "label": "Unlink account"
+      }
+    }
+  },
+  "tickets": {
+    "label": "Tickets",
+    "description": "Ticket-based support system.",
+    "commands": {
+      "ticket": {
+        "label": "Ticket panel"
+      },
+      "responder": {
+        "label": "Reply to ticket"
+      }
+    }
+  },
+  "giveaways": {
+    "label": "Giveaways",
+    "description": "Giveaways with weights and requirements.",
+    "commands": {
+      "giveaway": {
+        "label": "Manage giveaways"
+      }
+    }
+  },
+  "whitelist": {
+    "label": "Whitelist",
+    "description": "Server whitelist management.",
+    "commands": {
+      "whitelist": {
+        "label": "Whitelist panel"
+      }
+    }
+  },
+  "polls": {
+    "label": "Polls",
+    "description": "Interactive polls.",
+    "commands": {
+      "poll": {
+        "label": "Create poll"
+      }
+    }
+  },
+  "subscriptions": {
+    "label": "Subscriptions",
+    "description": "Recurring billing for members.",
+    "commands": {
+      "assinatura": {
+        "label": "Subscriptions panel"
+      }
+    }
+  },
+  "marketplace": {
+    "label": "Store",
+    "description": "Digital products store.",
+    "commands": {
+      "loja": {
+        "label": "Store panel"
+      }
+    }
+  },
+  "projects": {
+    "label": "Projects",
+    "description": "Task boards (kanban).",
+    "commands": {
+      "board": {
+        "label": "List boards"
+      },
+      "tarefa": {
+        "label": "Manage tasks"
+      }
+    }
+  },
+  "voice": {
+    "label": "Voice",
+    "description": "Temporary voice channels (join-to-create).",
+    "commands": {
+      "voice": {
+        "label": "Control voice channel"
+      }
+    }
+  },
+  "community": {
+    "label": "Community",
+    "description": "Suggestions, bugs, referrals and anonymous messages.",
+    "commands": {
+      "sugerir": {
+        "label": "Send suggestion"
+      },
+      "sugestoes": {
+        "label": "Suggestions panel"
+      },
+      "sugestao": {
+        "label": "Moderate suggestion"
+      },
+      "reportar": {
+        "label": "Report bug"
+      },
+      "bugs": {
+        "label": "Bugs panel"
+      },
+      "bug": {
+        "label": "Bug triage"
+      },
+      "convites": {
+        "label": "My invites"
+      },
+      "ranking-convites": {
+        "label": "Invite leaderboard"
+      },
+      "convites-ajustar": {
+        "label": "Adjust invites"
+      },
+      "dm": {
+        "label": "Direct message preference"
+      },
+      "anonimo": {
+        "label": "Anonymous message"
+      },
+      "anon-moderar": {
+        "label": "Moderate anonymous"
+      },
+      "anon-ver-autor": {
+        "label": "View anonymous message author"
+      }
+    }
+  }
+}
