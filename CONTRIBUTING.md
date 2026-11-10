@@ -1,3 +1,5 @@
+**Português** · [English](CONTRIBUTING.en.md) · [Español](CONTRIBUTING.es.md)
+
 # Como contribuir com traduções
 
 ## O que você pode editar

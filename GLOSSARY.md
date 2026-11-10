@@ -1,3 +1,5 @@
+**Português** · [English](GLOSSARY.en.md) · [Español](GLOSSARY.es.md)
+
 # Glossário
 
 ## Não traduzir

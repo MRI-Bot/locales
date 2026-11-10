@@ -1,12 +1,10 @@
-# MRI Bot — traduções / translations / traducciones
+**Português** · [English](README.en.md) · [Español](README.es.md)
+
+# MRI Bot — traduções
 
 Este repositório guarda **só os textos** do [MRI Bot](https://bot.mriqbox.com.br): painel, mensagens
 do bot no Discord, nomes dos comandos de barra e os resources de FiveM/MTA. Não tem código do bot.
 Qualquer pessoa pode corrigir ou completar uma tradução abrindo um pull request.
-
-This repository holds **only the texts** of MRI Bot. No bot code lives here. Anyone can fix or
-complete a translation by opening a pull request. / Este repositorio contiene **solo los textos**
-de MRI Bot; cualquiera puede corregir o completar una traducción con un pull request.
 
 ## Como está organizado
 
