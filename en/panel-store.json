@@ -692,7 +692,6 @@
     "notWav": "Upload a .wav file.",
     "tooBig": "File too large (max 200MB).",
     "uploadError": "Failed to upload the WAV.",
-    "driveNoFile": "Drive didn't return the file after the upload.",
     "waitUpload": "Wait for the WAV upload to finish.",
     "previewSaved": "Preview saved!",
     "previewError": "Failed to create the preview.",
@@ -835,8 +834,8 @@
       "ctaUrl": "Button URL",
       "sectionsTitle": "Section texts",
       "sectionsHint": "Customize the titles of the sections shown in your store. Empty = uses the default.",
-      "productsLabel": "Products section title (default \"Products\")",
-      "subscriptionsLabel": "Subscriptions section title (default \"VIP plans\")"
+      "productsLabel": "Products section title (default \"Produtos\")",
+      "subscriptionsLabel": "Subscriptions section title (default \"Planos VIP\")"
     },
     "look": {
       "theme": "Theme",
