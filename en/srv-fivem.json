@@ -11,16 +11,21 @@
     "model": "Model (spawn name)",
     "plate": "Plate (optional)",
     "garage": "Garage (optional)",
-    "tier": "Tier"
+    "tier": "Tier",
+    "group": "Group"
   },
   "packs": {
     "framework": {
-      "label": "Framework (QBCore, Qbox, ESX)",
+      "label": "Framework (QBCore, Qbox, ESX, vRP)",
       "description": "Money, item, job, gang and revive actions. They need an up-to-date mri-botcreator resource, which detects the framework and translates. Gang doesn't apply on ESX (the core has none)."
     },
     "mriQbox": {
       "label": "MRI Qbox (VIP)",
       "description": "Grants and removes a VIP tier through the mri_Qbox command. Only works on servers running mri_Qbox — with another VIP system, edit the action's command after importing."
+    },
+    "vrp": {
+      "label": "vRP and Creative",
+      "description": "Give and take a group (VIP, job, gang) on a vRP or Creative server. Money, item and vehicle use the Framework pack actions, which also work on vRP."
     }
   },
   "presets": {
@@ -54,7 +59,11 @@
     },
     "giveVehicle": {
       "label": "Give vehicle",
-      "description": "Puts a vehicle in the player's garage (QBCore/Qbox)."
+      "description": "Puts a vehicle in the player's garage (QBCore, Qbox, vRP and Creative)."
+    },
+    "removeVehicle": {
+      "label": "Remove vehicle",
+      "description": "Takes the newest vehicle of this model out of the player's garage (QBCore, Qbox, vRP and Creative). Use it On expiry."
     },
     "giveVip": {
       "label": "Give VIP",
@@ -63,6 +72,14 @@
     "removeVip": {
       "label": "Take VIP",
       "description": "Removes a VIP tier from the player. The natural pair of \"Give VIP\" in role→action: it's added when the role is gained and removed when it's lost."
+    },
+    "giveGroup": {
+      "label": "Give group",
+      "description": "Puts the player in the group (VIP, job). Level 0 uses the group's default level."
+    },
+    "removeGroup": {
+      "label": "Remove group",
+      "description": "Takes the player out of the group. Use it On expiry so the VIP ends on time."
     }
   }
 }

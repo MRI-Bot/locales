@@ -221,7 +221,8 @@
       "email": "Email inválido, é pra onde vai o link de download e o recibo.",
       "recipient": "Escolha pra quem é o presente.",
       "pix": "Falha ao gerar Pix.",
-      "checkout": "Falha ao iniciar checkout."
+      "checkout": "Falha ao iniciar checkout.",
+      "gameId": "Digite o ID do personagem como aparece no jogo (só letras, números, : _ e -)."
     },
     "paymentConfirmed": "Pagamento confirmado!",
     "title": "Finalizar compra",
@@ -261,7 +262,13 @@
     "perBuyerLimit": "Limite de {count} por pessoa.",
     "getFree": "Pegar grátis",
     "offerNow": "Oferta só agora",
-    "wantIt": "Quero"
+    "wantIt": "Quero",
+    "noDiscord": "Não usa Discord? Compre pelo ID do personagem",
+    "useDiscordInstead": "Prefiro usar o Discord",
+    "gameIdLabel": "ID do personagem no servidor",
+    "gameIdPlaceholder": "Ex.: 1234 ou ABC12345",
+    "gameIdHint": "É o passaporte ou o citizenid que aparece no jogo. A compra chega quando você entrar com esse personagem.",
+    "secureGame": "{provider, select, mp {Pagamento seguro via Mercado Pago} stripe {Pagamento seguro via Stripe} other {Pagamento seguro}} · entrega automática no jogo."
   },
   "summary": {
     "subtotal": "Subtotal",
