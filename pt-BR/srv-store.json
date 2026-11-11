@@ -17,5 +17,29 @@
   "og": {
     "storeTitle": "{name} — Loja",
     "storeDescription": "Loja oficial — produtos digitais entregues no Discord."
+  },
+  "delivery": {
+    "roleGrantReason": "MRI BOT: compra na loja de \"{product}\"",
+    "roleRevokeReason": "MRI BOT: loja, fim do acesso de \"{product}\""
+  },
+  "keyDelivery": {
+    "dmTitle": "🔑 Sua compra chegou",
+    "dmBody": "**{product}**\n\n{keys}\n\nGuarde em lugar seguro.",
+    "emailSubject": "Sua compra: {product}",
+    "emailTitle": "Obrigado pela compra!",
+    "emailLine": "Aqui está o que você comprou em {product}. Guarde em lugar seguro."
+  },
+  "orderChat": {
+    "buyerFallback": "Comprador",
+    "teamNotice": "💬 {who} mandou mensagem no pedido **{order}**:\n> {text}\nResponda no painel em Loja > Vendas > Pedidos.",
+    "buyerDmTitle": "💬 A loja respondeu sobre {order}"
+  },
+  "abandonedCart": {
+    "itemsMore": "{items} e mais {count}",
+    "message": "Seu pedido de {items} em {store} ficou esperando o pagamento. Quer terminar a compra?",
+    "dmTitle": "🛒 Sua compra ficou pela metade",
+    "emailSubject": "Seu pedido em {store} está esperando",
+    "emailTitle": "Sua compra ficou pela metade",
+    "button": "Terminar a compra"
   }
 }

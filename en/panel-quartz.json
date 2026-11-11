@@ -1,12 +1,12 @@
 {
   "intro": {
     "about": "Quartz is MRI's anticheat. It blocks anything abnormal on the server (explosions, spawns, given weapons, forged events) and punishes carefully, adding up evidence. The code comes signed from our service and updates itself: only a loader sits in the city's folder.",
-    "license": "One license per Discord server. During the beta the license is complimentary, free of charge."
+    "license": "Up to {max} cities per Discord server: the main one and test cities, each with its own license. During the beta they are all complimentary, with no charge."
   },
   "notConfigured": "The Quartz service is not enabled on the platform yet.",
   "noLicense": {
-    "title": "This server has no license yet",
-    "description": "Activate the free beta trial license to download Quartz and install it in your city. It lasts 1 year and can be renewed here.",
+    "title": "This server does not have Quartz yet",
+    "description": "Turn on the free beta test license to download Quartz and install it on the main city. It lasts 1 year and can be renewed here. After that you can add test cities.",
     "activate": "Activate license"
   },
   "status": {
@@ -30,8 +30,11 @@
     "courtesy": "Beta courtesy"
   },
   "actions": {
+    "openPanel": "Open the Quartz panel",
+    "openPanelOffline": "Connect the city first: the panel reads its data straight from the server.",
     "download": "Download the folder",
-    "renew": "Renew"
+    "renew": "Renew",
+    "remove": "Remove"
   },
   "install": {
     "title": "Install in the city",
@@ -41,7 +44,6 @@
     "inGame": "In game, {command} opens the panel. It starts in Observe mode: it only records, nobody is punished."
   },
   "move": {
-    "title": "Change machines",
     "description": "Download the folder again and install it on the new machine. It connects and the old one drops off by itself: the license covers one city at a time.",
     "disconnect": "Disconnect the city"
   },
@@ -51,12 +53,34 @@
     "confirm": "Disconnect"
   },
   "toasts": {
-    "created": "License created.",
+    "created": "City added.",
     "renewed": "License renewed.",
-    "disconnected": "City disconnected."
+    "disconnected": "City disconnected.",
+    "renamed": "Name saved.",
+    "removed": "City removed."
   },
   "errors": {
     "generic": "Could not complete.",
-    "download": "Could not download the folder."
+    "download": "Could not download the folder.",
+    "openPanel": "Could not open the panel."
+  },
+  "server": {
+    "main": "Main",
+    "test": "Test"
+  },
+  "rename": {
+    "action": "Rename",
+    "save": "Save"
+  },
+  "addServer": {
+    "title": "Add a test city",
+    "description": "To try Quartz on another server without disconnecting the main city. Each city has its own download and panel. {left, plural, =1 {# more city fits.} other {# more cities fit.}}",
+    "placeholder": "Test {n}",
+    "add": "Add"
+  },
+  "removeConfirm": {
+    "title": "Remove {name}?",
+    "description": "This city license is turned off and the city loses the anticheat on its next restart. The main city is not affected.",
+    "confirm": "Remove"
   }
 }
