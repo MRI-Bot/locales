@@ -120,8 +120,7 @@
     "tabs": {
       "purchases": "Mis compras ({count})",
       "gifts": "Regalos recibidos ({count})",
-      "subs": "Suscripciones ({count})",
-      "affiliate": "Afiliado"
+      "subs": "Suscripciones ({count})"
     },
     "empty": {
       "purchases": "Todavía no compraste nada.",
@@ -156,10 +155,6 @@
       "refunded": "Reembolsada",
       "rejected": "Rechazada",
       "cancelled": "Cancelada"
-    },
-    "chat": {
-      "open": "Hablar con la tienda",
-      "close": "Cerrar conversación"
     }
   },
   "cart": {
@@ -750,20 +745,5 @@
     "title": "Tu compra",
     "copy": "Copiar",
     "hint": "También lo enviamos por correo y MD. Guárdalo en un lugar seguro."
-  },
-  "game": {
-    "payTitle": "Paga en el celular",
-    "payText": "Apunta la cámara del celular al QR y paga allí. La entrega llega sola cuando se aprueba el pago.",
-    "tebexText": "Apunta la cámara del celular al QR, entra con tu cuenta FiveM y paga en Tebex. La entrega llega por el servidor.",
-    "linkTitle": "Abre en el celular",
-    "linkText": "Este enlace se abre fuera del juego. Apunta la cámara del celular al QR.",
-    "paidTitle": "¡Pago aprobado!",
-    "paidText": "Tu compra se está entregando.",
-    "qrAlt": "QR del enlace",
-    "waiting": "Esperando el pago...",
-    "scan": "Escanéalo con la cámara del celular",
-    "backToStore": "Volver a la tienda",
-    "player": "Jugador",
-    "noLogin": "Dentro del juego no se puede iniciar sesión. El servidor ya te identificó."
   }
 }

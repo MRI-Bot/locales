@@ -692,7 +692,6 @@
     "notWav": "Envie um arquivo .wav.",
     "tooBig": "Arquivo muito grande (máx 200MB).",
     "uploadError": "Falha ao subir o WAV.",
-    "driveNoFile": "O Drive não retornou o arquivo após o upload.",
     "waitUpload": "Espere o upload do WAV terminar.",
     "previewSaved": "Preview salvo!",
     "previewError": "Falha ao gerar o preview.",

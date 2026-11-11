@@ -1,12 +1,12 @@
 {
   "intro": {
     "about": "Quartz es el anticheat de MRI. Bloquea en el servidor lo que es anormal (explosiones, spawns, armas entregadas, eventos falsificados) y castiga con calma, sumando pruebas. El código viene firmado desde nuestro servicio y se actualiza solo: en la carpeta de la ciudad queda solo un cargador.",
-    "license": "Hasta {max} ciudades por servidor de Discord: la principal y ciudades de prueba, cada una con su licencia. Durante la beta todas son de cortesía, sin cobro."
+    "license": "Una licencia por servidor de Discord. Durante la beta la licencia es de cortesía, sin cargo."
   },
   "notConfigured": "El servicio de Quartz aún no está activado en la plataforma.",
   "noLicense": {
-    "title": "Este servidor todavía no tiene Quartz",
-    "description": "Activa la licencia de prueba de la beta, sin costo, para descargar Quartz e instalarlo en la ciudad principal. Dura 1 año y se puede renovar aquí. Después puedes agregar ciudades de prueba.",
+    "title": "Este servidor aún no tiene licencia",
+    "description": "Activa la licencia de prueba de la beta, sin costo, para descargar Quartz e instalarlo en la ciudad. Dura 1 año y se puede renovar aquí.",
     "activate": "Activar licencia"
   },
   "status": {
@@ -30,11 +30,8 @@
     "courtesy": "Cortesía de la beta"
   },
   "actions": {
-    "openPanel": "Abrir el panel de Quartz",
-    "openPanelOffline": "Conecta la ciudad primero: el panel lee los datos directo del servidor.",
     "download": "Descargar la carpeta",
-    "renew": "Renovar",
-    "remove": "Quitar"
+    "renew": "Renovar"
   },
   "install": {
     "title": "Instalar en la ciudad",
@@ -44,6 +41,7 @@
     "inGame": "En el juego, {command} abre el panel. Empieza en modo Observar: solo registra, nadie es castigado."
   },
   "move": {
+    "title": "Cambiar de máquina",
     "description": "Descarga la carpeta de nuevo e instálala en la máquina nueva. Se conecta y la antigua sale sola: la licencia vale para una ciudad a la vez.",
     "disconnect": "Desconectar la ciudad"
   },
@@ -53,34 +51,12 @@
     "confirm": "Desconectar"
   },
   "toasts": {
-    "created": "Ciudad agregada.",
+    "created": "Licencia creada.",
     "renewed": "Licencia renovada.",
-    "disconnected": "Ciudad desconectada.",
-    "renamed": "Nombre guardado.",
-    "removed": "Ciudad quitada."
+    "disconnected": "Ciudad desconectada."
   },
   "errors": {
     "generic": "No se pudo completar.",
-    "download": "No se pudo descargar la carpeta.",
-    "openPanel": "No se pudo abrir el panel."
-  },
-  "server": {
-    "main": "Principal",
-    "test": "Prueba"
-  },
-  "rename": {
-    "action": "Renombrar",
-    "save": "Guardar"
-  },
-  "addServer": {
-    "title": "Agregar ciudad de prueba",
-    "description": "Para probar Quartz en otro servidor sin desconectar la ciudad principal. Cada ciudad tiene su descarga y su panel. {left, plural, =1 {Cabe # ciudad más.} other {Caben # ciudades más.}}",
-    "placeholder": "Prueba {n}",
-    "add": "Agregar"
-  },
-  "removeConfirm": {
-    "title": "¿Quitar {name}?",
-    "description": "La licencia de esta ciudad se apaga y la ciudad pierde el anticheat en el próximo reinicio. La principal no se ve afectada.",
-    "confirm": "Quitar"
+    "download": "No se pudo descargar la carpeta."
   }
 }

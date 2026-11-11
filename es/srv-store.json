@@ -17,29 +17,5 @@
   "og": {
     "storeTitle": "{name} — Tienda",
     "storeDescription": "Tienda oficial: productos digitales entregados en Discord."
-  },
-  "delivery": {
-    "roleGrantReason": "MRI BOT: compra en la tienda de \"{product}\"",
-    "roleRevokeReason": "MRI BOT: tienda, fin del acceso a \"{product}\""
-  },
-  "keyDelivery": {
-    "dmTitle": "🔑 Tu compra llegó",
-    "dmBody": "**{product}**\n\n{keys}\n\nGuárdalo en un lugar seguro.",
-    "emailSubject": "Tu compra: {product}",
-    "emailTitle": "¡Gracias por tu compra!",
-    "emailLine": "Esto es lo que compraste: {product}. Guárdalo en un lugar seguro."
-  },
-  "orderChat": {
-    "buyerFallback": "Comprador",
-    "teamNotice": "💬 {who} envió un mensaje en el pedido **{order}**:\n> {text}\nResponde en el panel en Tienda > Ventas > Pedidos.",
-    "buyerDmTitle": "💬 La tienda respondió sobre {order}"
-  },
-  "abandonedCart": {
-    "itemsMore": "{items} y {count} más",
-    "message": "Tu pedido de {items} en {store} sigue esperando el pago. ¿Quieres terminar la compra?",
-    "dmTitle": "🛒 Tu compra quedó a medias",
-    "emailSubject": "Tu pedido en {store} está esperando",
-    "emailTitle": "Tu compra quedó a medias",
-    "button": "Terminar la compra"
   }
 }
