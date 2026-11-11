@@ -268,7 +268,8 @@
     "gameIdLabel": "ID do personagem no servidor",
     "gameIdPlaceholder": "Ex.: 1234 ou ABC12345",
     "gameIdHint": "É o passaporte ou o citizenid que aparece no jogo. A compra chega quando você entrar com esse personagem.",
-    "secureGame": "{provider, select, mp {Pagamento seguro via Mercado Pago} stripe {Pagamento seguro via Stripe} other {Pagamento seguro}} · entrega automática no jogo."
+    "secureGame": "{provider, select, mp {Pagamento seguro via Mercado Pago} stripe {Pagamento seguro via Stripe} other {Pagamento seguro}} · entrega automática no jogo.",
+    "viewDetails": "Ver detalhes do produto"
   },
   "summary": {
     "subtotal": "Subtotal",
@@ -677,7 +678,8 @@
     "verified": "Compra verificada",
     "sameCategory": "Da mesma categoria",
     "seeAlso": "Veja também",
-    "stars": "{value} de 5 estrelas"
+    "stars": "{value} de 5 estrelas",
+    "deliveryGame": "Entrega automática aqui no jogo"
   },
   "showcase": {
     "products": "Produtos",

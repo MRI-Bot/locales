@@ -268,7 +268,8 @@
     "gameIdLabel": "Character ID on the server",
     "gameIdPlaceholder": "E.g. 1234 or ABC12345",
     "gameIdHint": "It is the passport or citizen ID shown in the game. The purchase arrives when you join with this character.",
-    "secureGame": "{provider, select, mp {Secure payment via Mercado Pago} stripe {Secure payment via Stripe} other {Secure payment}} · automatic delivery in the game."
+    "secureGame": "{provider, select, mp {Secure payment via Mercado Pago} stripe {Secure payment via Stripe} other {Secure payment}} · automatic delivery in the game.",
+    "viewDetails": "See product details"
   },
   "summary": {
     "subtotal": "Subtotal",
@@ -677,7 +678,8 @@
     "verified": "Verified purchase",
     "sameCategory": "From the same category",
     "seeAlso": "See also",
-    "stars": "{value} of 5 stars"
+    "stars": "{value} of 5 stars",
+    "deliveryGame": "Automatic delivery here in the game"
   },
   "showcase": {
     "products": "Products",
