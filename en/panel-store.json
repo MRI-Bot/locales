@@ -143,7 +143,8 @@
     },
     "retryAt": "The bot tries again by itself at {date}.",
     "retriesOver": "The automatic retries are over. Fix the problem and use Try again.",
-    "orderChat": "Order chat and notes"
+    "orderChat": "Order chat and notes",
+    "gameCharacter": "Character {id}"
   },
   "thumbnail": {
     "open": "Open the store",

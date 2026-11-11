@@ -11,16 +11,21 @@
     "model": "Modelo (spawn name)",
     "plate": "Placa (opcional)",
     "garage": "Garaje (opcional)",
-    "tier": "Tier"
+    "tier": "Tier",
+    "group": "Grupo"
   },
   "packs": {
     "framework": {
-      "label": "Framework (QBCore, Qbox, ESX)",
+      "label": "Framework (QBCore, Qbox, ESX, vRP)",
       "description": "Acciones de dinero, ítem, empleo, pandilla y revivir. Requieren el resource mri-botcreator actualizado, que detecta el framework y traduce. Pandilla no aplica en ESX (el core no la tiene)."
     },
     "mriQbox": {
       "label": "MRI Qbox (VIP)",
       "description": "Otorga y quita un tier de VIP con el comando de mri_Qbox. Solo funciona en servidores que usan mri_Qbox — con otro sistema de VIP, edita el comando de la acción después de importar."
+    },
+    "vrp": {
+      "label": "vRP y Creative",
+      "description": "Dar y quitar grupo (VIP, empleo, pandilla) en un servidor vRP o Creative. Dinero, ítem y vehículo usan las acciones del paquete Framework, que también funcionan en vRP."
     }
   },
   "presets": {
@@ -54,7 +59,11 @@
     },
     "giveVehicle": {
       "label": "Dar vehículo",
-      "description": "Pone un vehículo en el garaje del jugador (QBCore/Qbox)."
+      "description": "Pone un vehículo en el garaje del jugador (QBCore, Qbox, vRP y Creative)."
+    },
+    "removeVehicle": {
+      "label": "Quitar vehículo",
+      "description": "Quita del garaje del jugador el vehículo más nuevo de este modelo (QBCore, Qbox, vRP y Creative). Úsalo en Al vencer."
     },
     "giveVip": {
       "label": "Dar VIP",
@@ -63,6 +72,14 @@
     "removeVip": {
       "label": "Quitar VIP",
       "description": "Quita un tier de VIP del jugador. Par natural de \"Dar VIP\" en rol→acción: entra cuando se gana el rol y sale cuando se pierde."
+    },
+    "giveGroup": {
+      "label": "Dar grupo",
+      "description": "Pone al jugador en el grupo (VIP, empleo). Nivel 0 usa el nivel por defecto del grupo."
+    },
+    "removeGroup": {
+      "label": "Quitar grupo",
+      "description": "Saca al jugador del grupo. Úsalo en Al vencer para que el VIP termine a tiempo."
     }
   }
 }

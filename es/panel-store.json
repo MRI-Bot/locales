@@ -143,7 +143,8 @@
     },
     "retryAt": "El bot vuelve a intentar solo el {date}.",
     "retriesOver": "Se acabaron los intentos automáticos. Corrige el problema y usa Intentar de nuevo.",
-    "orderChat": "Chat y notas del pedido"
+    "orderChat": "Chat y notas del pedido",
+    "gameCharacter": "Personaje {id}"
   },
   "thumbnail": {
     "open": "Abrir la tienda",

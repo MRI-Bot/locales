@@ -221,7 +221,8 @@
       "email": "Invalid email; it is where the download link and receipt go.",
       "recipient": "Choose who the gift is for.",
       "pix": "Could not generate the Pix.",
-      "checkout": "Could not start checkout."
+      "checkout": "Could not start checkout.",
+      "gameId": "Type the character ID as it shows in the game (letters, numbers, : _ and - only)."
     },
     "paymentConfirmed": "Payment confirmed!",
     "title": "Checkout",
@@ -261,7 +262,13 @@
     "perBuyerLimit": "Limit of {count} per person.",
     "getFree": "Get it free",
     "offerNow": "Offer just for now",
-    "wantIt": "I want it"
+    "wantIt": "I want it",
+    "noDiscord": "No Discord? Buy with your character ID",
+    "useDiscordInstead": "Use Discord instead",
+    "gameIdLabel": "Character ID on the server",
+    "gameIdPlaceholder": "E.g. 1234 or ABC12345",
+    "gameIdHint": "It is the passport or citizen ID shown in the game. The purchase arrives when you join with this character.",
+    "secureGame": "{provider, select, mp {Secure payment via Mercado Pago} stripe {Secure payment via Stripe} other {Secure payment}} · automatic delivery in the game."
   },
   "summary": {
     "subtotal": "Subtotal",

@@ -11,16 +11,21 @@
     "model": "Modelo (spawn name)",
     "plate": "Placa (opcional)",
     "garage": "Garagem (opcional)",
-    "tier": "Tier"
+    "tier": "Tier",
+    "group": "Grupo"
   },
   "packs": {
     "framework": {
-      "label": "Framework (QBCore, Qbox, ESX)",
+      "label": "Framework (QBCore, Qbox, ESX, vRP)",
       "description": "Ações de dinheiro, item, emprego, gangue e revive. Exigem o resource mri-botcreator atualizado, que detecta o framework e traduz. Gangue não vale no ESX (o core não tem)."
     },
     "mriQbox": {
       "label": "MRI Qbox (VIP)",
       "description": "Concede e remove tier de VIP pelo comando do mri_Qbox. Só funciona em servidor que roda o mri_Qbox — em outro sistema de VIP, edite o comando da ação depois de importar."
+    },
+    "vrp": {
+      "label": "vRP e Creative",
+      "description": "Dar e tirar grupo (VIP, emprego, gangue) em servidor vRP ou Creative. Dinheiro, item e veículo usam as ações do pacote Framework, que também funcionam no vRP."
     }
   },
   "presets": {
@@ -54,7 +59,11 @@
     },
     "giveVehicle": {
       "label": "Dar veículo",
-      "description": "Coloca um veículo na garagem do jogador (QBCore/Qbox)."
+      "description": "Coloca um veículo na garagem do jogador (QBCore, Qbox, vRP e Creative)."
+    },
+    "removeVehicle": {
+      "label": "Tirar veículo",
+      "description": "Tira da garagem do jogador o veículo desse modelo, o mais novo (QBCore, Qbox, vRP e Creative). Use em No vencimento."
     },
     "giveVip": {
       "label": "Dar VIP",
@@ -63,6 +72,14 @@
     "removeVip": {
       "label": "Tirar VIP",
       "description": "Remove um tier de VIP do jogador. Par natural do \"Dar VIP\" no cargo→ação: entra quando o cargo é ganho, sai quando é perdido."
+    },
+    "giveGroup": {
+      "label": "Dar grupo",
+      "description": "Coloca o jogador no grupo (VIP, emprego). Nível 0 usa o nível padrão do grupo."
+    },
+    "removeGroup": {
+      "label": "Tirar grupo",
+      "description": "Tira o jogador do grupo. Use em No vencimento pra o VIP acabar no prazo."
     }
   }
 }
