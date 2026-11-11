@@ -17,5 +17,29 @@
   "og": {
     "storeTitle": "{name} — Store",
     "storeDescription": "Official store — digital products delivered on Discord."
+  },
+  "delivery": {
+    "roleGrantReason": "MRI BOT: store purchase of \"{product}\"",
+    "roleRevokeReason": "MRI BOT: store, access to \"{product}\" ended"
+  },
+  "keyDelivery": {
+    "dmTitle": "🔑 Your purchase has arrived",
+    "dmBody": "**{product}**\n\n{keys}\n\nKeep it somewhere safe.",
+    "emailSubject": "Your purchase: {product}",
+    "emailTitle": "Thanks for your purchase!",
+    "emailLine": "Here is what you bought: {product}. Keep it somewhere safe."
+  },
+  "orderChat": {
+    "buyerFallback": "Buyer",
+    "teamNotice": "💬 {who} sent a message on order **{order}**:\n> {text}\nReply in the panel under Store > Sales > Orders.",
+    "buyerDmTitle": "💬 The store replied about {order}"
+  },
+  "abandonedCart": {
+    "itemsMore": "{items} and {count} more",
+    "message": "Your order for {items} at {store} is still waiting for payment. Want to finish your purchase?",
+    "dmTitle": "🛒 Your purchase is unfinished",
+    "emailSubject": "Your order at {store} is waiting",
+    "emailTitle": "Your purchase is unfinished",
+    "button": "Finish purchase"
   }
 }

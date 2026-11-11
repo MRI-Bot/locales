@@ -692,6 +692,7 @@
     "notWav": "Sube un archivo .wav.",
     "tooBig": "Archivo demasiado grande (máx. 200MB).",
     "uploadError": "No se pudo subir el WAV.",
+    "driveNoFile": "Drive no devolvió el archivo después de la subida.",
     "waitUpload": "Espera a que termine la subida del WAV.",
     "previewSaved": "¡Vista previa guardada!",
     "previewError": "No se pudo generar la vista previa.",
@@ -834,8 +835,8 @@
       "ctaUrl": "URL del botón",
       "sectionsTitle": "Textos de las secciones",
       "sectionsHint": "Personaliza el título de las secciones que aparecen en tu tienda. Vacío = usa el predeterminado.",
-      "productsLabel": "Título de la sección de productos (predeterminado \"Produtos\")",
-      "subscriptionsLabel": "Título de la sección de suscripciones (predeterminado \"Planos VIP\")"
+      "productsLabel": "Título de la sección de productos (predeterminado \"Productos\")",
+      "subscriptionsLabel": "Título de la sección de suscripciones (predeterminado \"Planes VIP\")"
     },
     "look": {
       "theme": "Tema",
