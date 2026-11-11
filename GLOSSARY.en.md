@@ -8,7 +8,7 @@
 |---|---|
 | MRI Bot, MRI, MRI Qbox | Product name. |
 | Discord, FiveM, MTA, Mercado Pago, Tebex, txAdmin | Third-party product names. |
-| Embed, Bot, Boost, Softban, modlog | Jargon the community uses in English anyway. |
+| Embed, Bot, Boost, Softban, modlog, case (moderation) | Jargon the community uses in English anyway. |
 | Gateway Intents | Literal label in the Discord Developer Portal; the owner needs to find it there. |
 | Honeypot | Kept as is; explained as "canal-armadilha" (trap channel) in pt-BR. |
 | Pro, Free (plans) | Plan names. |
@@ -28,7 +28,6 @@ Always use the same term for the same concept.
 | Expulsar | Kick | Expulsar |
 | Advertir / Advertência | Warn / Warning | Advertir / Advertencia |
 | Silenciar | Mute | Silenciar |
-| Caso (de moderação) | Case | Caso |
 | Registros | Logs | Registros |
 | Auto-moderação | Auto-moderation | Automoderación |
 | Cargo automático | Auto role | Rol automático |

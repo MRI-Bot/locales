@@ -8,7 +8,7 @@
 |---|---|
 | MRI Bot, MRI, MRI Qbox | Nombre del producto. |
 | Discord, FiveM, MTA, Mercado Pago, Tebex, txAdmin | Nombres de productos de terceros. |
-| Embed, Bot, Boost, Softban, modlog | Jerga que la comunidad usa en inglés de todos modos. |
+| Embed, Bot, Boost, Softban, modlog, case (de moderación) | Jerga que la comunidad usa en inglés de todos modos. |
 | Gateway Intents | Etiqueta literal del Discord Developer Portal; el dueño necesita encontrarla allí. |
 | Honeypot | Se mantiene; en pt-BR se explica como "canal-armadilha" (canal trampa). |
 | Pro, Free (planes) | Nombres de los planes. |
@@ -28,7 +28,6 @@ Usa siempre el mismo término para el mismo concepto.
 | Expulsar | Kick | Expulsar |
 | Advertir / Advertência | Warn / Warning | Advertir / Advertencia |
 | Silenciar | Mute | Silenciar |
-| Caso (de moderação) | Case | Caso |
 | Registros | Logs | Registros |
 | Auto-moderação | Auto-moderation | Automoderación |
 | Cargo automático | Auto role | Rol automático |
