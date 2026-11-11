@@ -25,7 +25,9 @@
     "restoreOrder": "Reset order"
   },
   "header": {
-    "help": "Help for this screen"
+    "help": "Help for this screen",
+    "hideValues": "Hide values",
+    "showValues": "Show values"
   },
   "backend": {
     "backLostWrite": "MRI BOT is back. What you tried to save was not sent: please do it again.",

@@ -25,7 +25,9 @@
     "restoreOrder": "Restaurar ordem"
   },
   "header": {
-    "help": "Ajuda desta tela"
+    "help": "Ajuda desta tela",
+    "hideValues": "Esconder valores",
+    "showValues": "Mostrar valores"
   },
   "backend": {
     "backLostWrite": "O MRI BOT voltou. O que você tentou salvar não foi enviado: faça de novo.",
