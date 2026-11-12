@@ -798,7 +798,8 @@
       "faviconHint": "Browser tab icon. Square (PNG/SVG), up to 256KB.",
       "metaTitle": "Tab title",
       "metaTitleHint": "Text shown in the browser tab and in search results. Empty = uses “Store name, Store”.",
-      "metaTitlePlaceholder": "Server X Store, Skins, VIP and more"
+      "metaTitlePlaceholder": "Server X Store, Skins, VIP and more",
+      "settingsElsewhere": "The store address, turning it on or off and the sales alert channel are in Store > Settings."
     },
     "tabs": {
       "page": {
@@ -820,6 +821,10 @@
       "legal": {
         "label": "Legal",
         "title": "Terms and policies"
+      },
+      "css": {
+        "label": "CSS",
+        "title": "Custom CSS"
       }
     },
     "areas": "Editor areas",
@@ -882,18 +887,6 @@
       "interestFree": "Interest-free",
       "interestFreeHint": "Turn on only if your Mercado Pago is set up for interest-free installments. When off, only the number of installments shows.",
       "mpOnly": "Only applies with Mercado Pago enabled in the store, since it handles card installments."
-    },
-    "url": {
-      "title": "URL and visibility",
-      "public": "Public URL",
-      "copied": "URL copied.",
-      "active": "Store active",
-      "activeHint": "When off, the public URL returns 404."
-    },
-    "sales": {
-      "title": "Sales notification",
-      "hint": "Channel where the Bot posts each approved sale. Empty = uses the Bot's logs or a DM to the owner.",
-      "placeholder": "No channel, uses the Bot's logs or DM"
     },
     "legal": {
       "title": "Legal pages",
@@ -1193,15 +1186,6 @@
       "titlePlaceholder": "About us",
       "slugPlaceholder": "about",
       "create": "Create page"
-    },
-    "slug": {
-      "confirmTitle": "Change the store's slug?",
-      "confirmDescription": "The public URL becomes {url}. Old links with {old} stop working.",
-      "confirm": "Change",
-      "label": "Slug",
-      "placeholder": "my-store",
-      "willBe": "It will become {url}.",
-      "hint": "3 to 32 chars, lowercase letters, numbers and hyphens. Changing it changes the public URL and breaks old links."
     },
     "blocksEmptyTemplates": "Pick a model to start. It already comes with colors, how-to-buy text and questions: just make it yours.",
     "productPage": "Product page"
@@ -1675,5 +1659,22 @@
     "messagePlaceholder": "Your order is waiting for payment. Want to finish the purchase?",
     "save": "Save reminder",
     "stats": "Last 30 days: {sent} reminder(s), {recovered} bought within 48 h."
+  },
+  "address": {
+    "title": "Store address",
+    "hint": "The link you share. Changes here apply right away, no publishing needed.",
+    "copied": "Link copied.",
+    "open": "Open the store",
+    "label": "End of the link",
+    "labelHint": "3 to 32 lowercase letters, numbers and hyphens.",
+    "willBe": "The link will become {url}",
+    "confirmTitle": "Change the store link?",
+    "confirmDescription": "The store will open at {url}. The old link stops working.",
+    "confirm": "Change",
+    "active": "Store open",
+    "activeHint": "When off, anyone opening the link sees that the store does not exist.",
+    "salesChannel": "Sales alert channel",
+    "salesChannelHint": "The bot posts every approved sale in this channel. Without one, it goes to the bot log channel or to your DMs.",
+    "salesChannelPlaceholder": "No channel: bot logs or DM"
   }
 }

@@ -108,7 +108,7 @@
       },
       "settings": {
         "label": "Store settings",
-        "keywords": "mercado pago payment"
+        "keywords": "mercado pago payment stripe tebex address link url slug store open turn off store sales channel sale alert domain"
       },
       "reviews": {
         "label": "Store reviews",

@@ -798,7 +798,8 @@
       "faviconHint": "Ícone da aba do navegador. Quadrado (PNG/SVG), até 256KB.",
       "metaTitle": "Título da aba",
       "metaTitleHint": "Texto que aparece na aba do navegador e nos resultados de busca. Vazio = usa “Nome da loja, Loja”.",
-      "metaTitlePlaceholder": "Loja do Servidor X, Skins, VIP e mais"
+      "metaTitlePlaceholder": "Loja do Servidor X, Skins, VIP e mais",
+      "settingsElsewhere": "Endereço da loja, ligar ou desligar e o canal de avisos de venda ficam em Loja > Configurações."
     },
     "tabs": {
       "page": {
@@ -820,6 +821,10 @@
       "legal": {
         "label": "Legal",
         "title": "Termos e políticas"
+      },
+      "css": {
+        "label": "CSS",
+        "title": "CSS próprio"
       }
     },
     "areas": "Áreas do editor",
@@ -882,18 +887,6 @@
       "interestFree": "Sem juros",
       "interestFreeHint": "Ligue só se o seu Mercado Pago está configurado pra parcelar sem juros. Desligado, aparece só o número de parcelas.",
       "mpOnly": "Vale só com Mercado Pago ligado na loja, que é quem parcela no cartão."
-    },
-    "url": {
-      "title": "URL e visibilidade",
-      "public": "URL pública",
-      "copied": "URL copiada.",
-      "active": "Loja ativa",
-      "activeHint": "Quando desativada, a URL pública retorna 404."
-    },
-    "sales": {
-      "title": "Notificação de vendas",
-      "hint": "Canal onde o bot posta cada venda aprovada. Vazio = usa logs do bot ou DM pro dono.",
-      "placeholder": "Sem canal, usa logs do bot ou DM"
     },
     "legal": {
       "title": "Páginas legais",
@@ -1193,15 +1186,6 @@
       "titlePlaceholder": "Sobre nós",
       "slugPlaceholder": "sobre",
       "create": "Criar página"
-    },
-    "slug": {
-      "confirmTitle": "Trocar o slug da loja?",
-      "confirmDescription": "A URL pública vira {url}. Links antigos com {old} param de funcionar.",
-      "confirm": "Trocar",
-      "label": "Slug",
-      "placeholder": "minha-loja",
-      "willBe": "Vai virar {url}.",
-      "hint": "3 a 32 chars, minúsculas, números e hífens. Trocar muda a URL pública e invalida links antigos."
     },
     "blocksEmptyTemplates": "Escolha um modelo pra começar. Ele já vem com cores, textos de como comprar e dúvidas: é só trocar pelo seu jeito.",
     "productPage": "Página do produto"
@@ -1675,5 +1659,22 @@
     "messagePlaceholder": "Seu pedido ficou esperando o pagamento. Quer terminar a compra?",
     "save": "Salvar lembrete",
     "stats": "Últimos 30 dias: {sent} lembrete(s), {recovered} compraram em até 48 h."
+  },
+  "address": {
+    "title": "Endereço da loja",
+    "hint": "O link que você divulga. Mudanças aqui valem na hora, sem publicar.",
+    "copied": "Link copiado.",
+    "open": "Abrir a loja",
+    "label": "Final do link",
+    "labelHint": "De 3 a 32 letras minúsculas, números e hífens.",
+    "willBe": "O link vai virar {url}",
+    "confirmTitle": "Trocar o link da loja?",
+    "confirmDescription": "A loja passa a abrir em {url}. O link antigo para de funcionar.",
+    "confirm": "Trocar",
+    "active": "Loja aberta",
+    "activeHint": "Desligada, quem abrir o link vê que a loja não existe.",
+    "salesChannel": "Canal dos avisos de venda",
+    "salesChannelHint": "O bot posta cada venda aprovada nesse canal. Sem canal, vai pro canal de logs do bot ou pra sua DM.",
+    "salesChannelPlaceholder": "Sem canal: logs do bot ou DM"
   }
 }

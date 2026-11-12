@@ -798,7 +798,8 @@
       "faviconHint": "Ícono de la pestaña del navegador. Cuadrado (PNG/SVG), hasta 256KB.",
       "metaTitle": "Título de la pestaña",
       "metaTitleHint": "Texto que aparece en la pestaña del navegador y en los resultados de búsqueda. Vacío = usa “Nombre de la tienda, Tienda”.",
-      "metaTitlePlaceholder": "Tienda del Servidor X, Skins, VIP y más"
+      "metaTitlePlaceholder": "Tienda del Servidor X, Skins, VIP y más",
+      "settingsElsewhere": "La dirección de la tienda, encenderla o apagarla y el canal de avisos de venta están en Tienda > Configuración."
     },
     "tabs": {
       "page": {
@@ -820,6 +821,10 @@
       "legal": {
         "label": "Legal",
         "title": "Términos y políticas"
+      },
+      "css": {
+        "label": "CSS",
+        "title": "CSS propio"
       }
     },
     "areas": "Áreas del editor",
@@ -882,18 +887,6 @@
       "interestFree": "Sin interés",
       "interestFreeHint": "Actívalo solo si tu Mercado Pago está configurado para cuotas sin interés. Desactivado, solo aparece el número de cuotas.",
       "mpOnly": "Solo vale con Mercado Pago activado en la tienda, que es quien da las cuotas con tarjeta."
-    },
-    "url": {
-      "title": "URL y visibilidad",
-      "public": "URL pública",
-      "copied": "URL copiada.",
-      "active": "Tienda activa",
-      "activeHint": "Cuando está desactivada, la URL pública devuelve 404."
-    },
-    "sales": {
-      "title": "Notificación de ventas",
-      "hint": "Canal donde el Bot publica cada venta aprobada. Vacío = usa los registros del Bot o un MD al dueño.",
-      "placeholder": "Sin canal, usa los registros del Bot o MD"
     },
     "legal": {
       "title": "Páginas legales",
@@ -1193,15 +1186,6 @@
       "titlePlaceholder": "Sobre nosotros",
       "slugPlaceholder": "sobre",
       "create": "Crear página"
-    },
-    "slug": {
-      "confirmTitle": "¿Cambiar el slug de la tienda?",
-      "confirmDescription": "La URL pública pasa a ser {url}. Los enlaces antiguos con {old} dejan de funcionar.",
-      "confirm": "Cambiar",
-      "label": "Slug",
-      "placeholder": "mi-tienda",
-      "willBe": "Pasará a ser {url}.",
-      "hint": "3 a 32 caracteres, minúsculas, números y guiones. Cambiarlo cambia la URL pública e invalida los enlaces antiguos."
     },
     "blocksEmptyTemplates": "Elige un modelo para empezar. Ya viene con colores, textos de cómo comprar y dudas: solo cámbialo a tu manera.",
     "productPage": "Página del producto"
@@ -1675,5 +1659,22 @@
     "messagePlaceholder": "Tu pedido quedó esperando el pago. ¿Quieres terminar la compra?",
     "save": "Guardar recordatorio",
     "stats": "Últimos 30 días: {sent} recordatorio(s), {recovered} compraron en hasta 48 h."
+  },
+  "address": {
+    "title": "Dirección de la tienda",
+    "hint": "El enlace que compartes. Los cambios aquí valen al instante, sin publicar.",
+    "copied": "Enlace copiado.",
+    "open": "Abrir la tienda",
+    "label": "Final del enlace",
+    "labelHint": "De 3 a 32 letras minúsculas, números y guiones.",
+    "willBe": "El enlace pasará a ser {url}",
+    "confirmTitle": "¿Cambiar el enlace de la tienda?",
+    "confirmDescription": "La tienda pasará a abrir en {url}. El enlace antiguo deja de funcionar.",
+    "confirm": "Cambiar",
+    "active": "Tienda abierta",
+    "activeHint": "Apagada, quien abra el enlace verá que la tienda no existe.",
+    "salesChannel": "Canal de avisos de venta",
+    "salesChannelHint": "El bot publica cada venta aprobada en este canal. Sin canal, va al canal de logs del bot o a tus MD.",
+    "salesChannelPlaceholder": "Sin canal: logs del bot o MD"
   }
 }
