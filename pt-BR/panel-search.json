@@ -108,7 +108,7 @@
       },
       "settings": {
         "label": "Configurações da loja",
-        "keywords": "mercado pago pagamento"
+        "keywords": "mercado pago pagamento stripe tebex endereço link url slug loja aberta desligar loja canal de vendas aviso de venda domínio"
       },
       "reviews": {
         "label": "Avaliações da loja",
