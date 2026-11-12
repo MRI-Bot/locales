@@ -1382,6 +1382,19 @@
     "pollProvidersRequirePro": "Provedores Kick/TikTok/Instagram exigem o plano Pro.",
     "subscriptionNotFound": "Acompanhamento não encontrado."
   },
+  "statusPanel": {
+    "extrasMustBeObject": "extras precisa ser um objeto.",
+    "linkLabelInvalid": "O botão {index} precisa de um texto de até {max} caracteres.",
+    "linkUrlInvalid": "O link do botão {index} não é válido. Use um endereço completo, começando com https://.",
+    "linksMustBeList": "Os botões precisam ser uma lista.",
+    "offlineBannerInvalid": "O banner de fora do ar não é um link válido. Use um endereço completo, começando com https://.",
+    "offlineColorInvalid": "Cor de fora do ar inválida.",
+    "offlineNoticeTooLong": "O aviso de fora do ar passa de {max} caracteres.",
+    "restartTimeInvalid": "Horário de reinício inválido: {time}. Use HH:MM, como 06:00.",
+    "timezoneInvalid": "Fuso horário inválido: {timezone}.",
+    "tooManyLinks": "Máximo de {max} botões além do Entrar.",
+    "tooManyRestarts": "Até {max} horários de reinício."
+  },
   "storefront": {
     "announcementTooLong": "announcementText excede {max} caracteres.",
     "blockIdRequired": "{where}.id obrigatório.",

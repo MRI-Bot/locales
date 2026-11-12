@@ -8,7 +8,8 @@
     "connectHint": "Utilize os botões abaixo para se conectar no servidor.",
     "line": {
       "status": "**Status:** {value}",
-      "players": "**Jogadores:** {value}"
+      "players": "**Jogadores:** {value}",
+      "restart": "**Próximo reinício:** {value}"
     },
     "updatedAt": "Atualizado {when}",
     "joinButton": "Entrar no servidor",

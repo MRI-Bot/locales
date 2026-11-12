@@ -44,7 +44,41 @@
     "removeField": "Quitar campo",
     "preview": "Vista previa",
     "saveToPreview": "Guarda el panel para ver la vista previa en vivo.",
-    "noData": "Aún no hay datos."
+    "noData": "Aún no hay datos.",
+    "previewOffline": "Ver fuera de línea",
+    "extras": {
+      "links": "Botones ({count}/{max})",
+      "linksHint": "Enlaces que aparecen junto a Entrar, en la misma fila: Discord, tienda, reglas, sitio. Sirven en los dos formatos.",
+      "addLink": "Botón",
+      "linkEmoji": "Emoji del botón",
+      "linkLabelPlaceholder": "Texto (ej.: Discord)",
+      "removeLink": "Quitar botón",
+      "offline": "Cuando el servidor se caiga",
+      "offlineHint": "El panel cambia solo mientras el servidor está fuera de línea y vuelve a la normalidad cuando regresa. Todo opcional.",
+      "offlineColor": "Color",
+      "offlineBanner": "Banner en lugar del normal (opcional)",
+      "offlineNotice": "Aviso arriba (opcional)",
+      "offlineNoticePlaceholder": "⚠️ Ciudad en mantenimiento, ¡volvemos pronto!",
+      "restarts": "Horarios de reinicio",
+      "restartsHint": "El panel muestra cuánto falta para el próximo. En el diseño propio y en el embed, usa {placeholders}.",
+      "removeRestart": "Quitar {time}",
+      "addRestart": "Horario",
+      "timezone": "Zona horaria",
+      "timezoneHint": "Se usa para los horarios de reinicio y para el cambio de día del pico de jugadores."
+    },
+    "templates": {
+      "pick": "Empezar desde una plantilla (reemplaza el diseño actual):",
+      "compact": "Compacto",
+      "compactHint": "Nombre, estado y jugadores en una línea, con el banner al lado.",
+      "banner": "Banner grande",
+      "bannerHint": "Banner destacado, estado y el connect para copiar.",
+      "complete": "Completo",
+      "completeHint": "Todo: ocupación, próximo reinicio, pico del día y actualización.",
+      "statusLine": "**Estado:** {status} · **Jugadores:** {players}",
+      "connectHint": "Usa los botones de abajo para entrar.",
+      "completeLines": "**Estado:** {status}\n**Jugadores:** {players}  {bar}\n**Próximo reinicio:** {restart}\n**Pico de hoy:** {peak}",
+      "updated": "Actualizado {when}"
+    }
   },
   "composer": {
     "accentColor": "Color de la barra lateral",
@@ -54,7 +88,8 @@
       "gallery": "Galería",
       "section": "Sección",
       "separator": "Separador",
-      "field": "Campo"
+      "field": "Campo",
+      "joinButton": "Entrar"
     },
     "fieldHint": "Campo dinámico; el bot rellena el valor.",
     "inChannel": "en",
