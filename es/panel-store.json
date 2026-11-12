@@ -197,15 +197,14 @@
     },
     "radius": {
       "squared": "Rectas",
-      "rounded": "Redondeadas",
-      "pill": "Muy redondas"
+      "rounded": "Suaves",
+      "pill": "Redondos"
     },
     "fonts": {
       "system": "Del sistema"
     },
     "themesLabel": "Temas",
     "themeChoice": "Tema {label}: {mood}",
-    "sampleTitle": "Tu tienda",
     "paletteLabel": "Color de fondo",
     "paletteChoice": "Fondo {label}",
     "radiusLabel": "Esquinas",
@@ -741,7 +740,10 @@
       "title": "Historial de versiones",
       "description": "Cada publicación se vuelve una instantánea. Restaurar devuelve la tienda a como estaba en esa fecha.",
       "empty": "Todavía no hay versiones archivadas. Publica un cambio para empezar el historial.",
-      "by": "por {user}"
+      "by": "por {user}",
+      "back": "Volver",
+      "view": "Ver",
+      "viewing": "Viendo la versión del {date}"
     },
     "loading": "Cargando editor…",
     "removeBlock": {
@@ -799,16 +801,20 @@
       "metaTitle": "Título de la pestaña",
       "metaTitleHint": "Texto que aparece en la pestaña del navegador y en los resultados de búsqueda. Vacío = usa “Nombre de la tienda, Tienda”.",
       "metaTitlePlaceholder": "Tienda del Servidor X, Skins, VIP y más",
-      "settingsElsewhere": "La dirección de la tienda, encenderla o apagarla y el canal de avisos de venta están en Tienda > Configuración."
+      "settingsElsewhere": "Dirección, encender o apagar la tienda y el canal de avisos de venta.",
+      "descriptionHint": "Aparece en la vista previa del enlace en Discord y WhatsApp.",
+      "images": "Imágenes",
+      "sharing": "Pestaña del navegador y búsqueda",
+      "openSettings": "Configuración de la tienda"
     },
     "tabs": {
       "page": {
         "label": "Secciones",
-        "title": "Secciones de la página"
+        "title": "Secciones de la página de inicio"
       },
       "appearance": {
         "label": "Estilo",
-        "title": "Estilo de la tienda"
+        "title": "Estilo"
       },
       "store": {
         "label": "Tienda",
@@ -816,15 +822,15 @@
       },
       "pages": {
         "label": "Páginas",
-        "title": "Páginas extra"
-      },
-      "legal": {
-        "label": "Legal",
-        "title": "Términos y políticas"
+        "title": "Páginas"
       },
       "css": {
         "label": "CSS",
         "title": "CSS propio"
+      },
+      "theme": {
+        "label": "Tema",
+        "title": "Temas listos"
       }
     },
     "areas": "Áreas del editor",
@@ -845,19 +851,18 @@
       "subscriptionsLabel": "Título de la sección de suscripciones (predeterminado \"Planes VIP\")"
     },
     "look": {
-      "theme": "Tema",
-      "themeHint": "Tus bloques y textos quedan como están.",
+      "themeHint": "Cambia colores y fuentes. Tus secciones y textos quedan como están.",
       "colors": "Colores",
       "accent": "Color principal",
       "accentHint": "Botones, precios y destacados.",
       "secondary": "Color secundario",
       "secondaryHint": "Sellos y botones menos destacados.",
-      "background": "Fondo de la tienda",
+      "background": "Fondo",
       "customBg": "Tu color de fondo",
       "customBgHint": "Usa un tono oscuro para que el texto siga legible.",
-      "cornersFonts": "Esquinas y fuentes",
-      "layoutHint": "El diseño de cada parte de la tienda está en la pestaña {tab}.",
-      "homeTab": "Secciones"
+      "combos": "Combinaciones de color",
+      "fonts": "Fuentes",
+      "lowContrast": "Este color se pierde en el fondo de la tienda: precios y botones cuestan leerse. Elige un tono más claro u oscuro."
     },
     "css": {
       "title": "CSS propio",
@@ -877,7 +882,9 @@
     "social": {
       "title": "Redes sociales",
       "website": "Sitio web",
-      "whatsappHint": "Aparece como botón flotante en la esquina de la tienda."
+      "whatsappHint": "Aparece como botón flotante en la esquina de la tienda.",
+      "hint": "Aparecen en el pie de la tienda.",
+      "discordHint": "También muestra la tarjeta del servidor con quién está en línea."
     },
     "installments": {
       "title": "Cuotas en el precio",
@@ -889,14 +896,20 @@
       "mpOnly": "Solo vale con Mercado Pago activado en la tienda, que es quien da las cuotas con tarjeta."
     },
     "legal": {
-      "title": "Páginas legales",
-      "hint": "Markdown sin formato (negrita, listas, enlaces). Cada página se vuelve pública en {path} y aparece en el pie. Mercado Pago y la ley brasileña exigen una Política de Reembolso visible para vender.",
+      "title": "Términos y políticas",
+      "hint": "Escribe en Markdown: negrita, listas y enlaces. Para vender, Mercado Pago pide la política de reembolso visible.",
       "terms": "Términos de Uso",
       "refund": "Política de Reembolso",
       "privacy": "Política de Privacidad",
       "cookies": "Política de Cookies",
       "placeholder": "Markdown de la {doc}…",
-      "fill": "Completar con el modelo brasileño predeterminado"
+      "fill": "Completar con el modelo estándar",
+      "listHint": "Quedan con enlace en el pie de la tienda.",
+      "filled": "Completado",
+      "empty": "Vacío",
+      "where": "Va a {path}, con enlace en el pie.",
+      "write": "Escribir",
+      "preview": "Ver con formato"
     },
     "variants": {
       "classic": "Clásico",
@@ -928,7 +941,8 @@
       "logos": "Logos",
       "sidebar": "Menú lateral",
       "bar": "Barra",
-      "podium": "Podio"
+      "podium": "Podio",
+      "cinematic": "Cine (foto completa, título grande)"
     },
     "blocks": {
       "hero": {
@@ -1014,6 +1028,22 @@
       "top_buyers": {
         "label": "Mayores compradores",
         "description": "Ranking del mes con el nombre de Discord"
+      },
+      "form": {
+        "label": "Formulario de contacto",
+        "description": "El visitante manda un mensaje que llega a un canal de Discord"
+      },
+      "countdown": {
+        "label": "Cuenta regresiva",
+        "description": "Días, horas y minutos hasta el lanzamiento o el fin de la promoción"
+      },
+      "embed": {
+        "label": "Insertar",
+        "description": "Mapa, widget, formulario externo o cualquier página"
+      },
+      "tabs": {
+        "label": "Pestañas",
+        "description": "Contenido en pestañas o en una lista que se abre de a uno"
       }
     },
     "summary": {
@@ -1042,7 +1072,13 @@
       "shop": "categorías en el lateral",
       "goal": "meta de R$ {amount}",
       "goalEmpty": "sin valor de meta",
-      "topBuyers": "top {count}"
+      "topBuyers": "top {count}",
+      "formReady": "Envía al canal elegido",
+      "formNoChannel": "Elige el canal que recibe los mensajes",
+      "countdownEmpty": "Elige la fecha",
+      "embedReady": "Contenido insertado",
+      "embedEmpty": "Pega el enlace o el código",
+      "tabs": "{count, plural, one {# pestaña} other {# pestañas}}"
     },
     "picker": {
       "top": "Arriba",
@@ -1050,7 +1086,10 @@
       "server": "Servidor",
       "content": "Contenido",
       "description": "Elige una sección para la página.",
-      "community": "Comunidad"
+      "community": "Comunidad",
+      "none": "Ningún bloque con ese nombre.",
+      "search": "Buscar bloque: precio, video, preguntas...",
+      "engage": "Contacto y campañas"
     },
     "addBlock": "Agregar bloque",
     "field": {
@@ -1095,11 +1134,30 @@
       "visibility": "Visibilidad",
       "always": "Siempre visible",
       "hideMobile": "Ocultar en móvil",
-      "hideDesktop": "Ocultar en escritorio"
+      "hideDesktop": "Ocultar en escritorio",
+      "bgGradient": "Degradado",
+      "bgVideo": "Video",
+      "compact": "Compacto",
+      "gradFrom": "Color inicial",
+      "gradTo": "Color final",
+      "gradAngle": "Dirección",
+      "bgVideoUrl": "Enlace del video (.mp4 o .webm)",
+      "bgVideoHint": "Se reproduce sin sonido, en bucle. Usa un video corto y liviano, de hasta unos 5 MB.",
+      "heading": "Tamaño de los títulos",
+      "sizeSm": "Pequeño",
+      "sizeMd": "Mediano",
+      "sizeLg": "Grande",
+      "sizeXl": "Enorme",
+      "button": "Botones",
+      "buttonOutline": "Contorno",
+      "buttonPill": "Redondo",
+      "buttonSquare": "Recto",
+      "buttonLarge": "Grande",
+      "frame": "Marco",
+      "frameNone": "Sin marco",
+      "frameCard": "Caja con sombra"
     },
     "models": {
-      "title": "Cambiar modelo",
-      "description": "Pasa el mouse para verlo en la página. Se puede deshacer.",
       "classic": "Volver al modelo antiguo, sin bloques",
       "useTitle": "¿Usar el diseño {name}?",
       "useDescription": "Reemplaza los bloques actuales de esta página.",
@@ -1107,11 +1165,9 @@
       "applied": "Diseño {name} aplicado.",
       "classicTitle": "¿Volver al modelo antiguo de la tienda?",
       "classicUndo": "La tienda deja de usar bloques y vuelve al modelo antiguo. Se puede deshacer con Ctrl+Z.",
-      "classicPage": "La página pierde sus bloques actuales.",
       "classicConfirm": "Volver al modelo antiguo",
       "blank": "Empezar de cero (vacío)",
       "undo": "Deshacer",
-      "readyStores": "Tienda lista, con colores y fuentes",
       "structureOnly": "Solo la estructura, sin cambiar los colores"
     },
     "list": {
@@ -1167,28 +1223,85 @@
       "removeError": "No se pudo eliminar la página.",
       "visibilityError": "No se pudo cambiar la visibilidad.",
       "blocksError": "No se pudieron guardar los bloques.",
-      "editing": "Editando: {title}",
-      "url": "URL: {path}",
-      "backToList": "Volver a la lista",
-      "title": "Páginas personalizadas",
-      "hint": "Crea páginas extra como {examples} usando el constructor de páginas. Accesibles en {path}.",
-      "empty": "Todavía no hay páginas. Crea una abajo.",
+      "backToList": "Volver",
+      "title": "Tus páginas",
+      "hint": "Reglas, contacto, sobre el servidor: cada página tiene su propia dirección.",
       "blockCount": "{count, plural, one {# bloque} other {# bloques}}",
       "hide": "Ocultar página",
       "show": "Mostrar página",
-      "editBlocks": "Editar bloques",
       "remove": "Eliminar página",
       "new": "Nueva página",
-      "followStore": "Seguir la tienda",
-      "followStoreSub": "navbar + pie",
-      "blank": "En blanco",
-      "blankSub": "empezar de cero",
       "titlePlaceholder": "Sobre nosotros",
       "slugPlaceholder": "sobre",
-      "create": "Crear página"
+      "create": "Crear página",
+      "productHint": "La vista previa muestra el primer producto. Haz clic en Abrir en cualquier producto de la tienda para ver su página aquí. El nombre, las fotos, el precio y la descripción de cada producto se editan en Productos.",
+      "linkMissing": "Este enlace lleva a una página que no existe: {path}",
+      "hiddenBadge": "oculta",
+      "storeGroup": "Páginas de la tienda",
+      "home": "Página de inicio",
+      "homeClassic": "Modelo antiguo, sin secciones",
+      "perkCount": "{count, plural, one {# garantía} other {# garantías}}",
+      "productMeta": "Garantías, reseñas y cuotas",
+      "titleLabel": "Nombre de la página",
+      "slugLabel": "Dirección",
+      "startWith": "Empezar con",
+      "copyOf": "Copia de {title}",
+      "dragHint": "Arrastra para cambiar el orden",
+      "duplicate": "Duplicar",
+      "duplicated": "Copia creada, oculta hasta que la muestres.",
+      "moveConfirm": "Cambiar dirección",
+      "moveDescription": "La página sale de {from} y va a {to}. Los enlaces antiguos dejan de funcionar.",
+      "moveTitle": "¿Cambiar la dirección de la página?",
+      "settings": "Nombre, dirección y más",
+      "visible": "Visible",
+      "draftNote": "Los cambios en esta página quedan en el borrador y se publican cuando publicas la tienda.",
+      "draftBadge": "borrador",
+      "kindSite": "Página del sitio",
+      "kindSiteSub": "con el menú y el pie de la tienda",
+      "kindLanding": "Landing page",
+      "kindLandingSub": "sin menú, para campañas y anuncios",
+      "landingNote": "Landing page: sin el anuncio, el menú y el pie de la tienda. Actívalos en \"Nombre, dirección y más\".",
+      "sharedChromeNote": "El anuncio, el menú y el pie vienen de la página de inicio: si cambian allí, cambian en todas las páginas.",
+      "showChrome": "Mostrar menú y pie de la tienda",
+      "showChromeHint": "Apagado, la página se vuelve landing page, sin salida al resto del sitio.",
+      "seoTitle": "Google y vista previa del enlace",
+      "metaTitle": "Título",
+      "metaTitleHint": "{count}/70. Vacío usa el nombre de la página y de la tienda.",
+      "metaDescription": "Descripción",
+      "metaDescriptionHint": "{count}/200. Vacío usa la descripción de la tienda.",
+      "ogImage": "Imagen de la vista previa",
+      "ogImageHint": "Aparece cuando el enlace se pega en Discord o WhatsApp. Vacío usa el banner de la tienda.",
+      "sharePreview": "Vista previa del enlace en Discord",
+      "onPublishBadge": "aparece al publicar"
     },
     "blocksEmptyTemplates": "Elige un modelo para empezar. Ya viene con colores, textos de cómo comprar y dudas: solo cámbialo a tu manera.",
-    "productPage": "Página del producto"
+    "productPage": "Página del producto",
+    "theme": {
+      "all": "Todos",
+      "dark": "Oscuros",
+      "light": "Claros",
+      "filter": "Filtrar temas",
+      "ready": "Tiendas listas",
+      "readyHint": "Secciones, colores y fuentes juntos. Pasa el mouse para verlo en la página y haz clic para usarlo. Se puede deshacer.",
+      "structureHint": "Cambia solo las secciones y mantiene tus colores.",
+      "inUse": "En uso",
+      "previewing": "Viendo {name} en la página",
+      "use": "Usar",
+      "sites": "Sitios",
+      "choose": "Elegir un tema listo",
+      "pageCount": "{count} pág.",
+      "siteTitle": "¿Usar el sitio {name}?",
+      "siteDescription": "Cambia la página de inicio y crea las páginas {pages}. Aparecen cuando publiques la tienda. Las páginas con la misma dirección quedan como están.",
+      "siteConfirm": "Usar el sitio",
+      "pagesCreated": "{count, plural, one {# página creada} other {# páginas creadas}}: aparecen cuando publiques."
+    },
+    "clipboard": {
+      "copied": "{name} copiado. Abre otra página y haz clic en Pegar.",
+      "copy": "Copiar a otra página",
+      "paste": "Pegar",
+      "pasteHint": "Pegar {name} aquí"
+    },
+    "channelPlaceholder": "Elige el canal"
   },
   "payments": {
     "notCharging": "La tienda todavía no cobra: conecta Mercado Pago, Stripe o Tebex.",
@@ -1197,45 +1310,45 @@
     "description": "El dinero de las ventas y suscripciones va directo a la cuenta que conectes."
   },
   "templates": {
+    "metropolis": {
+      "label": "Metrópolis",
+      "description": "Ciudad nocturna de FiveM: foto de portada, galería, VIP, reglas, cómo entrar, reclutamiento y contacto."
+    },
+    "sol": {
+      "label": "Soleada",
+      "description": "Roleplay ligero y claro: portada con foto de playa, tienda en cuadrícula, VIP y pasos."
+    },
+    "guild": {
+      "label": "Clan",
+      "description": "Clan o equipo: portada oscura, historia con foto, logros, testimonios y postulación."
+    },
+    "tournament": {
+      "label": "Arena",
+      "description": "Campeonatos: portada de escenario, cuenta regresiva a la próxima ronda, formato y ranking."
+    },
+    "launchpad": {
+      "label": "Estreno",
+      "description": "Lanzamiento o nueva temporada: gran cuenta regresiva y paquetes de estreno."
+    },
+    "studio": {
+      "label": "Estudio",
+      "description": "Para quien vende scripts y mapas: claro, catálogo en lista, ventajas y preguntas."
+    },
+    "haven": {
+      "label": "Refugio",
+      "description": "Comunidad acogedora: foto de naturaleza, agenda semanal, apoyo y contacto."
+    },
+    "vip": {
+      "label": "Club",
+      "description": "Suscripción de miembros: planes al frente, beneficios y cómo funciona."
+    },
     "hub": {
       "label": "Central",
-      "description": "Categorías, destacado y Discord en el lateral, meta del mes y ranking de colaboradores."
-    },
-    "daylight": {
-      "label": "Día",
-      "description": "Tema claro, aire de tienda grande: destacados, cuadrícula de productos y reseñas."
-    },
-    "community": {
-      "label": "Comunidad",
-      "description": "Menú lateral con el Discord, meta del mes y ranking, en verde."
-    },
-    "sunrise": {
-      "label": "Aurora",
-      "description": "Tema claro y cálido para productos digitales."
-    },
-    "city": {
-      "label": "Ciudad",
-      "description": "Servidor FiveM: VIP, autos e ítems, con cómo recibirlos en el juego."
+      "description": "Tienda con menú lateral de categorías y la tarjeta de Discord."
     },
     "showcase": {
-      "label": "Escaparate",
-      "description": "Productos digitales arriba de todo, limpia y directa."
-    },
-    "pulse": {
-      "label": "Pulso",
-      "description": "Drops en carrusel y catálogo con imágenes anchas."
-    },
-    "crown": {
-      "label": "Corona",
-      "description": "Planes y suscripciones destacados, con cómo cancelar."
-    },
-    "breeze": {
-      "label": "Brisa",
-      "description": "Destacados, productos y planes, sin texto listo."
-    },
-    "grove": {
-      "label": "Bosque",
-      "description": "Sobre nosotros, lista de productos, tabla de planes y dudas."
+      "label": "Vitrina",
+      "description": "Tienda simple, productos destacados arriba."
     }
   },
   "productPage": {

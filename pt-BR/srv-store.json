@@ -41,5 +41,11 @@
     "emailSubject": "Seu pedido em {store} está esperando",
     "emailTitle": "Sua compra ficou pela metade",
     "button": "Terminar a compra"
+  },
+  "contactForm": {
+    "notice": "📨 Nova mensagem pelo formulário **{form}** da loja\n**Nome:** {name}\n**Contato:** {contact}\n> {message}",
+    "defaultName": "Contato",
+    "anonymous": "não informado",
+    "noContact": "não informado"
   }
 }

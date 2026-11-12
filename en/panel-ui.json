@@ -70,7 +70,8 @@
     "button": "Upload",
     "done": "Image uploaded.",
     "failed": "Upload failed.",
-    "urlPlaceholder": "https://... (or upload a file)"
+    "urlPlaceholder": "https://... (or upload a file)",
+    "library": "From store"
   },
   "gallery": {
     "label": "Gallery (optional, up to {max})",
