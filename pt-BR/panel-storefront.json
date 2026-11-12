@@ -470,7 +470,11 @@
     "reviews": "Avaliações",
     "shop": "Loja com menu lateral",
     "goal": "Meta do mês",
-    "top_buyers": "Maiores compradores"
+    "top_buyers": "Maiores compradores",
+    "form": "Formulário",
+    "countdown": "Contagem",
+    "embed": "Incorporar",
+    "tabs": "Abas"
   },
   "canvas": {
     "drag": "Arrastar para mudar de lugar",
@@ -483,7 +487,8 @@
     "delete": "Apagar",
     "addFirst": "Adicionar bloco no início",
     "add": "Adicionar bloco",
-    "addAfter": "Adicionar bloco depois de {block}"
+    "addAfter": "Adicionar bloco depois de {block}",
+    "openLink": "Abrir"
   },
   "schema": {
     "aspect": {
@@ -569,7 +574,17 @@
       "showDiscordSide": "Mostrar card do Discord na lateral",
       "goalValue": "Valor da meta (R$)",
       "showGoalValue": "Mostrar o valor vendido (desligado mostra só a porcentagem)",
-      "peopleCount": "Quantas pessoas"
+      "peopleCount": "Quantas pessoas",
+      "formChannel": "Canal que recebe as mensagens",
+      "formContactLabel": "Texto do campo de contato",
+      "formMessageLabel": "Texto do campo de mensagem",
+      "formSuccess": "Texto depois de enviar",
+      "countdownEnds": "Termina em",
+      "countdownEnded": "Texto quando acabar",
+      "embedUrl": "Link ou código pra incorporar",
+      "embedHeight": "Altura (px)",
+      "tabItems": "Abas",
+      "overlay": "Escurecer a foto (%)"
     },
     "placeholders": {
       "eyebrow": "Bem-vindo ao servidor",
@@ -614,14 +629,17 @@
       "accent": "Palavra entre *asteriscos* sai na cor principal.",
       "link": "Aceita fivem://connect/… pra abrir o jogo direto.",
       "discordFromSocial": "Usa o link do Discord das redes sociais da loja.",
-      "namesOnly": "Mostra só o nome do Discord, nunca o valor gasto."
+      "namesOnly": "Mostra só o nome do Discord, nunca o valor gasto.",
+      "formChannel": "A mensagem não fica guardada: vai só pra esse canal.",
+      "embedUrl": "Cole o link https ou o código <iframe> que o site te dá (Google Maps, YouTube, formulário)."
     },
     "nouns": {
       "number": "número",
       "card": "cartão",
       "step": "passo",
       "logo": "logo",
-      "image": "imagem"
+      "image": "imagem",
+      "tab": "aba"
     },
     "align": {
       "left": "Esquerda",
@@ -774,5 +792,32 @@
     "backToStore": "Voltar pra loja",
     "player": "Jogador",
     "noLogin": "Dentro do jogo não dá pra entrar com a conta. Você já está identificado pelo servidor."
+  },
+  "siteBlocks": {
+    "form": {
+      "name": "Seu nome",
+      "contact": "Discord, e-mail ou WhatsApp",
+      "message": "Sua mensagem",
+      "send": "Enviar mensagem",
+      "sent": "Mensagem enviada. Logo a equipe responde.",
+      "error": "Não deu pra enviar. Tente de novo.",
+      "privacy": "Sua mensagem vai direto pra equipe no Discord e não fica guardada no site.",
+      "noChannel": "Escolha o canal que recebe as mensagens nos ajustes deste bloco."
+    },
+    "countdown": {
+      "days": "dias",
+      "hours": "horas",
+      "minutes": "min",
+      "seconds": "seg",
+      "ended": "Já começou!",
+      "empty": "Escolha a data e a hora nos ajustes deste bloco."
+    },
+    "embed": {
+      "title": "Conteúdo incorporado",
+      "empty": "Cole um link https ou o código de incorporar nos ajustes deste bloco."
+    },
+    "tabs": {
+      "empty": "Adicione as abas nos ajustes deste bloco."
+    }
   }
 }

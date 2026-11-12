@@ -41,5 +41,11 @@
     "emailSubject": "Your order at {store} is waiting",
     "emailTitle": "Your purchase is unfinished",
     "button": "Finish purchase"
+  },
+  "contactForm": {
+    "notice": "📨 New message from the store form **{form}**\n**Name:** {name}\n**Contact:** {contact}\n> {message}",
+    "defaultName": "Contact",
+    "anonymous": "not given",
+    "noContact": "not given"
   }
 }

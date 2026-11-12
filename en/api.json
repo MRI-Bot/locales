@@ -1453,7 +1453,12 @@
     "titleRequired": "Title is required.",
     "titleTooLong": "Title exceeds 80 characters.",
     "tooManyBlocks": "Limit of 50 blocks per store.",
-    "versionNotFound": "Version not found."
+    "versionNotFound": "Version not found.",
+    "pageMetaTooLong": "{field} is longer than {max} characters.",
+    "pageImageHttps": "The preview image must be an https link.",
+    "contactMessageRequired": "Write the message.",
+    "contactNotReady": "This form is not linked to a channel yet.",
+    "contactSendFailed": "Could not send right now. Try again in a moment."
   },
   "subscriptions": {
     "actionIdRequired": "Each action needs an id.",

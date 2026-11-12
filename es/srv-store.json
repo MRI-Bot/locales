@@ -41,5 +41,11 @@
     "emailSubject": "Tu pedido en {store} está esperando",
     "emailTitle": "Tu compra quedó a medias",
     "button": "Terminar la compra"
+  },
+  "contactForm": {
+    "notice": "📨 Nuevo mensaje del formulario **{form}** de la tienda\n**Nombre:** {name}\n**Contacto:** {contact}\n> {message}",
+    "defaultName": "Contacto",
+    "anonymous": "no informado",
+    "noContact": "no informado"
   }
 }

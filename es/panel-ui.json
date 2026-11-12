@@ -70,7 +70,8 @@
     "button": "Subir archivo",
     "done": "Imagen subida.",
     "failed": "Error al subir.",
-    "urlPlaceholder": "https://... (o sube un archivo)"
+    "urlPlaceholder": "https://... (o sube un archivo)",
+    "library": "De la tienda"
   },
   "gallery": {
     "label": "Galería (opcional, hasta {max})",

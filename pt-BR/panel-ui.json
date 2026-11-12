@@ -70,7 +70,8 @@
     "button": "Fazer upload",
     "done": "Imagem carregada.",
     "failed": "Falha no upload.",
-    "urlPlaceholder": "https://... (ou faça upload)"
+    "urlPlaceholder": "https://... (ou faça upload)",
+    "library": "Da loja"
   },
   "gallery": {
     "label": "Galeria (opcional, até {max})",

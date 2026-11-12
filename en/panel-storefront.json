@@ -470,7 +470,11 @@
     "reviews": "Reviews",
     "shop": "Store with side menu",
     "goal": "Monthly goal",
-    "top_buyers": "Top buyers"
+    "top_buyers": "Top buyers",
+    "form": "Form",
+    "countdown": "Countdown",
+    "embed": "Embed",
+    "tabs": "Tabs"
   },
   "canvas": {
     "drag": "Drag to move",
@@ -483,7 +487,8 @@
     "delete": "Delete",
     "addFirst": "Add block at the start",
     "add": "Add block",
-    "addAfter": "Add block after {block}"
+    "addAfter": "Add block after {block}",
+    "openLink": "Open"
   },
   "schema": {
     "aspect": {
@@ -569,7 +574,17 @@
       "showDiscordSide": "Show the Discord card on the side",
       "goalValue": "Goal amount (R$)",
       "showGoalValue": "Show the amount sold (off shows only the percentage)",
-      "peopleCount": "How many people"
+      "peopleCount": "How many people",
+      "formChannel": "Channel that gets the messages",
+      "formContactLabel": "Contact field text",
+      "formMessageLabel": "Message field text",
+      "formSuccess": "Text after sending",
+      "countdownEnds": "Ends at",
+      "countdownEnded": "Text when it ends",
+      "embedUrl": "Link or code to embed",
+      "embedHeight": "Height (px)",
+      "tabItems": "Tabs",
+      "overlay": "Darken the photo (%)"
     },
     "placeholders": {
       "eyebrow": "Welcome to the server",
@@ -614,14 +629,17 @@
       "accent": "A word between *asterisks* shows in the main color.",
       "link": "Accepts fivem://connect/… to open the game directly.",
       "discordFromSocial": "Uses the Discord link from the store social links.",
-      "namesOnly": "Shows only the Discord name, never the amount spent."
+      "namesOnly": "Shows only the Discord name, never the amount spent.",
+      "formChannel": "The message is not stored: it only goes to this channel.",
+      "embedUrl": "Paste the https link or the <iframe> code the site gives you (Google Maps, YouTube, a form)."
     },
     "nouns": {
       "number": "number",
       "card": "card",
       "step": "step",
       "logo": "logo",
-      "image": "image"
+      "image": "image",
+      "tab": "tab"
     },
     "align": {
       "left": "Left",
@@ -774,5 +792,32 @@
     "backToStore": "Back to the store",
     "player": "Player",
     "noLogin": "You cannot sign in inside the game. The server already identified you."
+  },
+  "siteBlocks": {
+    "form": {
+      "name": "Your name",
+      "contact": "Discord, email or WhatsApp",
+      "message": "Your message",
+      "send": "Send message",
+      "sent": "Message sent. The team will reply soon.",
+      "error": "Could not send. Try again.",
+      "privacy": "Your message goes straight to the team on Discord and is not stored on the site.",
+      "noChannel": "Pick the channel that gets the messages in this block's settings."
+    },
+    "countdown": {
+      "days": "days",
+      "hours": "hours",
+      "minutes": "min",
+      "seconds": "sec",
+      "ended": "It has started!",
+      "empty": "Pick the date and time in this block's settings."
+    },
+    "embed": {
+      "title": "Embedded content",
+      "empty": "Paste an https link or embed code in this block's settings."
+    },
+    "tabs": {
+      "empty": "Add the tabs in this block's settings."
+    }
   }
 }

@@ -1453,7 +1453,12 @@
     "titleRequired": "El título es obligatorio.",
     "titleTooLong": "El título supera 80 caracteres.",
     "tooManyBlocks": "Límite de 50 bloques por tienda.",
-    "versionNotFound": "Versión no encontrada."
+    "versionNotFound": "Versión no encontrada.",
+    "pageMetaTooLong": "{field} supera los {max} caracteres.",
+    "pageImageHttps": "La imagen de la vista previa debe ser un enlace https.",
+    "contactMessageRequired": "Escribe el mensaje.",
+    "contactNotReady": "Este formulario todavía no está vinculado a un canal.",
+    "contactSendFailed": "No se pudo enviar ahora. Inténtalo de nuevo en un momento."
   },
   "subscriptions": {
     "actionIdRequired": "Cada acción necesita un id.",

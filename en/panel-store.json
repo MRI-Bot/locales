@@ -197,15 +197,14 @@
     },
     "radius": {
       "squared": "Square",
-      "rounded": "Rounded",
-      "pill": "Very round"
+      "rounded": "Soft",
+      "pill": "Round"
     },
     "fonts": {
       "system": "System"
     },
     "themesLabel": "Themes",
     "themeChoice": "{label} theme: {mood}",
-    "sampleTitle": "Your store",
     "paletteLabel": "Background color",
     "paletteChoice": "{label} background",
     "radiusLabel": "Corners",
@@ -741,7 +740,10 @@
       "title": "Version history",
       "description": "Each publish becomes a snapshot. Restoring takes the store back to how it was on that date.",
       "empty": "No archived versions yet. Publish a change to start the history.",
-      "by": "by {user}"
+      "by": "by {user}",
+      "back": "Back",
+      "view": "View",
+      "viewing": "Viewing the version from {date}"
     },
     "loading": "Loading editor…",
     "removeBlock": {
@@ -799,16 +801,20 @@
       "metaTitle": "Tab title",
       "metaTitleHint": "Text shown in the browser tab and in search results. Empty = uses “Store name, Store”.",
       "metaTitlePlaceholder": "Server X Store, Skins, VIP and more",
-      "settingsElsewhere": "The store address, turning it on or off and the sales alert channel are in Store > Settings."
+      "settingsElsewhere": "Address, turning the store on or off and the sales announcement channel.",
+      "descriptionHint": "Shows in the link preview on Discord and WhatsApp.",
+      "images": "Images",
+      "sharing": "Browser tab and search",
+      "openSettings": "Store settings"
     },
     "tabs": {
       "page": {
         "label": "Sections",
-        "title": "Page sections"
+        "title": "Home page sections"
       },
       "appearance": {
-        "label": "Look",
-        "title": "Store look"
+        "label": "Style",
+        "title": "Style"
       },
       "store": {
         "label": "Store",
@@ -816,15 +822,15 @@
       },
       "pages": {
         "label": "Pages",
-        "title": "Extra pages"
-      },
-      "legal": {
-        "label": "Legal",
-        "title": "Terms and policies"
+        "title": "Pages"
       },
       "css": {
         "label": "CSS",
         "title": "Custom CSS"
+      },
+      "theme": {
+        "label": "Theme",
+        "title": "Ready themes"
       }
     },
     "areas": "Editor areas",
@@ -845,19 +851,18 @@
       "subscriptionsLabel": "Subscriptions section title (default \"VIP plans\")"
     },
     "look": {
-      "theme": "Theme",
-      "themeHint": "Your blocks and texts stay as they are.",
+      "themeHint": "Changes colors and fonts. Your sections and texts stay as they are.",
       "colors": "Colors",
       "accent": "Main color",
       "accentHint": "Buttons, prices and highlights.",
       "secondary": "Secondary color",
       "secondaryHint": "Badges and less prominent buttons.",
-      "background": "Store background",
+      "background": "Background",
       "customBg": "Your background color",
       "customBgHint": "Use a dark shade so the text stays readable.",
-      "cornersFonts": "Corners and fonts",
-      "layoutHint": "The layout of each part of the store is on the {tab} tab.",
-      "homeTab": "Sections"
+      "combos": "Color combinations",
+      "fonts": "Fonts",
+      "lowContrast": "This color fades into the store background: prices and buttons get hard to read. Pick a lighter or darker shade."
     },
     "css": {
       "title": "Custom CSS",
@@ -877,7 +882,9 @@
     "social": {
       "title": "Social media",
       "website": "Website",
-      "whatsappHint": "Shows up as a floating button in the corner of the store."
+      "whatsappHint": "Shows up as a floating button in the corner of the store.",
+      "hint": "They show in the store footer.",
+      "discordHint": "Also shows the server card with who is online."
     },
     "installments": {
       "title": "Installments on the price",
@@ -889,14 +896,20 @@
       "mpOnly": "Only applies with Mercado Pago enabled in the store, since it handles card installments."
     },
     "legal": {
-      "title": "Legal pages",
-      "hint": "Raw Markdown (bold, lists, links). Each page becomes public at {path} and shows up in the footer. Mercado Pago and Brazilian law require a visible Refund Policy to sell.",
+      "title": "Terms and policies",
+      "hint": "Write in Markdown: bold, lists and links. To sell, Mercado Pago asks for a visible refund policy.",
       "terms": "Terms of Use",
       "refund": "Refund Policy",
       "privacy": "Privacy Policy",
       "cookies": "Cookie Policy",
       "placeholder": "Markdown for the {doc}…",
-      "fill": "Fill with the default Brazilian template"
+      "fill": "Fill with the default template",
+      "listHint": "They get a link in the store footer.",
+      "filled": "Filled in",
+      "empty": "Empty",
+      "where": "Goes to {path}, with a link in the footer.",
+      "write": "Write",
+      "preview": "Formatted"
     },
     "variants": {
       "classic": "Classic",
@@ -928,7 +941,8 @@
       "logos": "Logos",
       "sidebar": "Side menu",
       "bar": "Bar",
-      "podium": "Podium"
+      "podium": "Podium",
+      "cinematic": "Cinematic (full photo, big headline)"
     },
     "blocks": {
       "hero": {
@@ -1014,6 +1028,22 @@
       "top_buyers": {
         "label": "Top buyers",
         "description": "Monthly ranking with the Discord name"
+      },
+      "form": {
+        "label": "Contact form",
+        "description": "Visitors send a message that lands in a Discord channel"
+      },
+      "countdown": {
+        "label": "Countdown",
+        "description": "Days, hours and minutes until the launch or the end of a sale"
+      },
+      "embed": {
+        "label": "Embed",
+        "description": "Map, widget, external form or any page"
+      },
+      "tabs": {
+        "label": "Tabs",
+        "description": "Content in tabs or in a list that opens one at a time"
       }
     },
     "summary": {
@@ -1042,7 +1072,13 @@
       "shop": "categories on the side",
       "goal": "goal of R$ {amount}",
       "goalEmpty": "no goal amount",
-      "topBuyers": "top {count}"
+      "topBuyers": "top {count}",
+      "formReady": "Sends to the chosen channel",
+      "formNoChannel": "Pick the channel that gets the messages",
+      "countdownEmpty": "Pick the date",
+      "embedReady": "Embedded content",
+      "embedEmpty": "Paste the link or code",
+      "tabs": "{count, plural, one {# tab} other {# tabs}}"
     },
     "picker": {
       "top": "Top",
@@ -1050,7 +1086,10 @@
       "server": "Server",
       "content": "Content",
       "description": "Pick a section for the page.",
-      "community": "Community"
+      "community": "Community",
+      "none": "No block with that name.",
+      "search": "Search blocks: price, video, questions...",
+      "engage": "Contact and campaigns"
     },
     "addBlock": "Add block",
     "field": {
@@ -1095,11 +1134,30 @@
       "visibility": "Visibility",
       "always": "Always visible",
       "hideMobile": "Hide on mobile",
-      "hideDesktop": "Hide on desktop"
+      "hideDesktop": "Hide on desktop",
+      "bgGradient": "Gradient",
+      "bgVideo": "Video",
+      "compact": "Compact",
+      "gradFrom": "Start color",
+      "gradTo": "End color",
+      "gradAngle": "Direction",
+      "bgVideoUrl": "Video link (.mp4 or .webm)",
+      "bgVideoHint": "Plays muted in a loop. Use a short, light video, up to about 5 MB.",
+      "heading": "Heading size",
+      "sizeSm": "Small",
+      "sizeMd": "Medium",
+      "sizeLg": "Large",
+      "sizeXl": "Huge",
+      "button": "Buttons",
+      "buttonOutline": "Outline",
+      "buttonPill": "Round",
+      "buttonSquare": "Square",
+      "buttonLarge": "Large",
+      "frame": "Frame",
+      "frameNone": "No frame",
+      "frameCard": "Box with shadow"
     },
     "models": {
-      "title": "Change model",
-      "description": "Hover to see it on the page. You can undo it.",
       "classic": "Go back to the old model, without blocks",
       "useTitle": "Use the {name} layout?",
       "useDescription": "Replaces this page's current blocks.",
@@ -1107,11 +1165,9 @@
       "applied": "{name} layout applied.",
       "classicTitle": "Go back to the store's old model?",
       "classicUndo": "The store stops using blocks and goes back to the old model. You can undo with Ctrl+Z.",
-      "classicPage": "The page loses its current blocks.",
       "classicConfirm": "Go back to the old model",
       "blank": "Start from scratch (empty)",
       "undo": "Undo",
-      "readyStores": "Ready store, with colors and fonts",
       "structureOnly": "Structure only, keeping your colors"
     },
     "list": {
@@ -1167,28 +1223,85 @@
       "removeError": "Failed to delete page.",
       "visibilityError": "Failed to change visibility.",
       "blocksError": "Failed to save blocks.",
-      "editing": "Editing: {title}",
-      "url": "URL: {path}",
-      "backToList": "Back to list",
-      "title": "Custom pages",
-      "hint": "Create extra pages like {examples} using the page builder. Available at {path}.",
-      "empty": "No pages created yet. Create one below.",
+      "backToList": "Back",
+      "title": "Your pages",
+      "hint": "Rules, contact, about the server: each page gets its own address.",
       "blockCount": "{count, plural, one {# block} other {# blocks}}",
       "hide": "Hide page",
       "show": "Show page",
-      "editBlocks": "Edit blocks",
       "remove": "Delete page",
       "new": "New page",
-      "followStore": "Match the store",
-      "followStoreSub": "navbar + footer",
-      "blank": "Blank",
-      "blankSub": "start from scratch",
       "titlePlaceholder": "About us",
       "slugPlaceholder": "about",
-      "create": "Create page"
+      "create": "Create page",
+      "productHint": "The preview shows the first product. Click Open on any product in the store to see its page here. Each product's name, photos, price and description are edited in Products.",
+      "linkMissing": "This link leads to a page that does not exist: {path}",
+      "hiddenBadge": "hidden",
+      "storeGroup": "Store pages",
+      "home": "Home page",
+      "homeClassic": "Old layout, no sections",
+      "perkCount": "{count, plural, one {# guarantee} other {# guarantees}}",
+      "productMeta": "Guarantees, reviews and installments",
+      "titleLabel": "Page name",
+      "slugLabel": "Address",
+      "startWith": "Start with",
+      "copyOf": "Copy of {title}",
+      "dragHint": "Drag to change the order",
+      "duplicate": "Duplicate",
+      "duplicated": "Copy created, hidden until you show it.",
+      "moveConfirm": "Change address",
+      "moveDescription": "The page leaves {from} and goes to {to}. Old links stop working.",
+      "moveTitle": "Change the page's address?",
+      "settings": "Name, address and more",
+      "visible": "Visible",
+      "draftNote": "Changes to this page stay in the draft and go live when you publish the store.",
+      "draftBadge": "draft",
+      "kindSite": "Site page",
+      "kindSiteSub": "with the store's menu and footer",
+      "kindLanding": "Landing page",
+      "kindLandingSub": "no menu, for campaigns and ads",
+      "landingNote": "Landing page: without the store announcement, menu and footer. Turn them on in \"Name, address and more\".",
+      "sharedChromeNote": "The announcement, menu and footer come from the home page: change them there and every page follows.",
+      "showChrome": "Show the store's menu and footer",
+      "showChromeHint": "Off, the page becomes a landing page with no way out to the rest of the site.",
+      "seoTitle": "Google and link preview",
+      "metaTitle": "Title",
+      "metaTitleHint": "{count}/70. Empty uses the page and store name.",
+      "metaDescription": "Description",
+      "metaDescriptionHint": "{count}/200. Empty uses the store description.",
+      "ogImage": "Preview image",
+      "ogImageHint": "Shows when the link is pasted on Discord or WhatsApp. Empty uses the store banner.",
+      "sharePreview": "Link preview on Discord",
+      "onPublishBadge": "shows on publish"
     },
     "blocksEmptyTemplates": "Pick a model to start. It already comes with colors, how-to-buy text and questions: just make it yours.",
-    "productPage": "Product page"
+    "productPage": "Product page",
+    "theme": {
+      "all": "All",
+      "dark": "Dark",
+      "light": "Light",
+      "filter": "Filter themes",
+      "ready": "Ready stores",
+      "readyHint": "Sections, colors and fonts together. Hover to see it on the page and click to use it. You can undo.",
+      "structureHint": "Swaps only the sections and keeps your colors.",
+      "inUse": "In use",
+      "previewing": "Previewing {name} on the page",
+      "use": "Use",
+      "sites": "Sites",
+      "choose": "Pick a ready theme",
+      "pageCount": "{count} pg.",
+      "siteTitle": "Use the {name} site?",
+      "siteDescription": "Replaces the home page and creates the pages {pages}. They show up when you publish the store. Pages with the same address stay as they are.",
+      "siteConfirm": "Use the site",
+      "pagesCreated": "{count, plural, one {# page created} other {# pages created}}: they show up when you publish."
+    },
+    "clipboard": {
+      "copied": "{name} copied. Open another page and click Paste.",
+      "copy": "Copy to another page",
+      "paste": "Paste",
+      "pasteHint": "Paste {name} here"
+    },
+    "channelPlaceholder": "Pick the channel"
   },
   "payments": {
     "notCharging": "The store cannot charge yet: connect Mercado Pago, Stripe or Tebex.",
@@ -1197,45 +1310,45 @@
     "description": "Money from sales and subscriptions goes straight to the account you connect."
   },
   "templates": {
+    "metropolis": {
+      "label": "Metropolis",
+      "description": "Night FiveM city: photo cover, gallery, VIP, rules, how to join, staff hiring and contact."
+    },
+    "sol": {
+      "label": "Sunny",
+      "description": "Light, laid-back roleplay: beach photo cover, grid store, VIP and steps."
+    },
+    "guild": {
+      "label": "Guild",
+      "description": "Clan or team: dark cover, story with a photo, achievements, testimonials and applications."
+    },
+    "tournament": {
+      "label": "Arena",
+      "description": "Championships: stage cover, countdown to the next round, format and ranking."
+    },
+    "launchpad": {
+      "label": "Premiere",
+      "description": "Launch or new season: big countdown and launch packs."
+    },
+    "studio": {
+      "label": "Studio",
+      "description": "For those selling scripts and maps: light, list catalog, perks and FAQ."
+    },
+    "haven": {
+      "label": "Haven",
+      "description": "Welcoming community: nature photo, weekly schedule, support and contact."
+    },
+    "vip": {
+      "label": "Club",
+      "description": "Member subscription: plans up front, perks and how it works."
+    },
     "hub": {
       "label": "Hub",
-      "description": "Categories, featured item and Discord on the side, monthly goal and supporter ranking."
-    },
-    "daylight": {
-      "label": "Daylight",
-      "description": "Light theme, big store look: featured items, product grid and reviews."
-    },
-    "community": {
-      "label": "Community",
-      "description": "Side menu with the Discord, monthly goal and ranking, in green."
-    },
-    "sunrise": {
-      "label": "Sunrise",
-      "description": "Light and warm theme for digital products."
-    },
-    "city": {
-      "label": "City",
-      "description": "FiveM server: VIP, cars and items, with how to receive them in game."
+      "description": "Store with a category side menu and the Discord card."
     },
     "showcase": {
       "label": "Showcase",
-      "description": "Digital products right at the top, clean and direct."
-    },
-    "pulse": {
-      "label": "Pulse",
-      "description": "Drops in a carousel and a catalog with wide images."
-    },
-    "crown": {
-      "label": "Crown",
-      "description": "Plans and subscriptions up front, with how to cancel."
-    },
-    "breeze": {
-      "label": "Breeze",
-      "description": "Featured items, products and plans, no ready text."
-    },
-    "grove": {
-      "label": "Grove",
-      "description": "About, product list, plans table and questions."
+      "description": "Simple store with featured products right at the top."
     }
   },
   "productPage": {
