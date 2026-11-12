@@ -140,7 +140,10 @@
       "cfxConnect": "Connect",
       "mapName": "Map",
       "gameType": "Game mode",
-      "updatedAt": "Updated at"
+      "updatedAt": "Updated at",
+      "playerBar": "Capacity bar",
+      "nextRestart": "Next restart",
+      "peakToday": "Peak today"
     },
     "title": "Status Panel",
     "intro": "Persistent Discord panel showing the FiveM server status in real time (online/offline, players, banner + Join button). The bot updates it automatically.",
@@ -194,9 +197,10 @@
     "ownLayout": "Custom layout (optional)",
     "ownLayoutHint": "Build your own and use \"+ Field\" for live values; the bot fills them on every update.",
     "backToModel": "Back to template",
-    "joinAlwaysAdded": "The \"Join server\" button is always added at the end; it belongs to the panel, not the layout.",
+    "joinAlwaysAdded": "Without a button block in the layout, Join goes at the end. Use \"+ Join\" to choose its text, emoji and position.",
     "enabledToggle": "Bot updating this panel",
-    "saving": "Saving..."
+    "saving": "Saving...",
+    "joinButtonDefault": "Join server"
   },
   "keyCard": {
     "status": {

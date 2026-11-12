@@ -44,7 +44,41 @@
     "removeField": "Remove field",
     "preview": "Preview",
     "saveToPreview": "Save the panel to see the live preview.",
-    "noData": "No data yet."
+    "noData": "No data yet.",
+    "previewOffline": "Show offline",
+    "extras": {
+      "links": "Buttons ({count}/{max})",
+      "linksHint": "Links shown next to Join, on the same row: Discord, store, rules, website. Work in both formats.",
+      "addLink": "Button",
+      "linkEmoji": "Button emoji",
+      "linkLabelPlaceholder": "Text (e.g. Discord)",
+      "removeLink": "Remove button",
+      "offline": "When the server goes down",
+      "offlineHint": "The panel changes on its own while the server is offline and goes back to normal when it returns. All optional.",
+      "offlineColor": "Color",
+      "offlineBanner": "Banner instead of the normal one (optional)",
+      "offlineNotice": "Notice at the top (optional)",
+      "offlineNoticePlaceholder": "⚠️ Server under maintenance, back soon!",
+      "restarts": "Restart times",
+      "restartsHint": "The panel shows how long until the next one. In your own layout and in the embed, use {placeholders}.",
+      "removeRestart": "Remove {time}",
+      "addRestart": "Time",
+      "timezone": "Time zone",
+      "timezoneHint": "Used for restart times and for when the daily player peak resets."
+    },
+    "templates": {
+      "pick": "Start from a template (replaces the current layout):",
+      "compact": "Compact",
+      "compactHint": "Name, status and players in one line, with the banner beside them.",
+      "banner": "Large banner",
+      "bannerHint": "Featured banner, status and the connect address to copy.",
+      "complete": "Complete",
+      "completeHint": "Everything: capacity, next restart, daily peak and last update.",
+      "statusLine": "**Status:** {status} · **Players:** {players}",
+      "connectHint": "Use the buttons below to join.",
+      "completeLines": "**Status:** {status}\n**Players:** {players}  {bar}\n**Next restart:** {restart}\n**Peak today:** {peak}",
+      "updated": "Updated {when}"
+    }
   },
   "composer": {
     "accentColor": "Side bar color",
@@ -54,7 +88,8 @@
       "gallery": "Gallery",
       "section": "Section",
       "separator": "Separator",
-      "field": "Field"
+      "field": "Field",
+      "joinButton": "Join"
     },
     "fieldHint": "Dynamic field; the bot fills in the value.",
     "inChannel": "in",

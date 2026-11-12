@@ -1382,6 +1382,19 @@
     "pollProvidersRequirePro": "The Kick/TikTok/Instagram providers require the Pro plan.",
     "subscriptionNotFound": "Follow not found."
   },
+  "statusPanel": {
+    "extrasMustBeObject": "extras must be an object.",
+    "linkLabelInvalid": "Button {index} needs a text of up to {max} characters.",
+    "linkUrlInvalid": "The link of button {index} is not valid. Use a full address starting with https://.",
+    "linksMustBeList": "Buttons must be a list.",
+    "offlineBannerInvalid": "The offline banner is not a valid link. Use a full address starting with https://.",
+    "offlineColorInvalid": "Invalid offline color.",
+    "offlineNoticeTooLong": "The offline notice is longer than {max} characters.",
+    "restartTimeInvalid": "Invalid restart time: {time}. Use HH:MM, like 06:00.",
+    "timezoneInvalid": "Invalid time zone: {timezone}.",
+    "tooManyLinks": "At most {max} buttons besides Join.",
+    "tooManyRestarts": "Up to {max} restart times."
+  },
   "storefront": {
     "announcementTooLong": "announcementText exceeds {max} characters.",
     "blockIdRequired": "{where}.id is required.",

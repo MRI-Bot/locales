@@ -1382,6 +1382,19 @@
     "pollProvidersRequirePro": "Los proveedores Kick/TikTok/Instagram requieren el plan Pro.",
     "subscriptionNotFound": "Seguimiento no encontrado."
   },
+  "statusPanel": {
+    "extrasMustBeObject": "extras debe ser un objeto.",
+    "linkLabelInvalid": "El botón {index} necesita un texto de hasta {max} caracteres.",
+    "linkUrlInvalid": "El enlace del botón {index} no es válido. Usa una dirección completa que empiece con https://.",
+    "linksMustBeList": "Los botones deben ser una lista.",
+    "offlineBannerInvalid": "El banner de fuera de línea no es un enlace válido. Usa una dirección completa que empiece con https://.",
+    "offlineColorInvalid": "Color de fuera de línea inválido.",
+    "offlineNoticeTooLong": "El aviso de fuera de línea supera los {max} caracteres.",
+    "restartTimeInvalid": "Horario de reinicio inválido: {time}. Usa HH:MM, como 06:00.",
+    "timezoneInvalid": "Zona horaria inválida: {timezone}.",
+    "tooManyLinks": "Máximo de {max} botones además de Entrar.",
+    "tooManyRestarts": "Hasta {max} horarios de reinicio."
+  },
   "storefront": {
     "announcementTooLong": "announcementText supera {max} caracteres.",
     "blockIdRequired": "{where}.id es obligatorio.",

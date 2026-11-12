@@ -179,7 +179,10 @@
       "maxPlayers": "Capacidad máxima",
       "hostname": "Nombre del servidor",
       "joinAddress": "Dirección",
-      "updatedAt": "Actualizado el"
+      "updatedAt": "Actualizado el",
+      "playerBar": "Barra de ocupación",
+      "nextRestart": "Próximo reinicio",
+      "peakToday": "Pico de hoy"
     },
     "title": "Panel de estado",
     "intro": "Panel persistente en Discord con el estado del servidor MTA (online/offline, jugadores, banner + botón de entrar). El resource envía el estado; configura {config}.",
@@ -233,8 +236,9 @@
     "ownLayout": "Diseño propio (opcional)",
     "ownLayoutHint": "Arma el tuyo y usa \"+ Campo\" para los valores en vivo; el bot los completa en cada actualización.",
     "backToModel": "Volver a la plantilla",
-    "joinAlwaysAdded": "El botón de entrar siempre se añade al final; es del panel, no del diseño.",
+    "joinAlwaysAdded": "Sin bloque de botón en el diseño, Entrar va al final. Usa \"+ Entrar\" para elegir el texto, el emoji y dónde queda.",
     "enabledToggle": "Bot actualizando este panel",
-    "saving": "Guardando..."
+    "saving": "Guardando...",
+    "joinButtonDefault": "Entrar al servidor"
   }
 }

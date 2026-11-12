@@ -44,7 +44,41 @@
     "removeField": "Remover campo",
     "preview": "Preview",
     "saveToPreview": "Salve o painel pra ver o preview live.",
-    "noData": "Sem dados ainda."
+    "noData": "Sem dados ainda.",
+    "previewOffline": "Ver fora do ar",
+    "extras": {
+      "links": "Botões ({count}/{max})",
+      "linksHint": "Links que aparecem ao lado do Entrar, na mesma linha: Discord, loja, regras, site. Valem nos dois formatos.",
+      "addLink": "Botão",
+      "linkEmoji": "Emoji do botão",
+      "linkLabelPlaceholder": "Texto (ex: Discord)",
+      "removeLink": "Remover botão",
+      "offline": "Quando o servidor cair",
+      "offlineHint": "O painel muda sozinho enquanto o servidor está fora do ar e volta ao normal quando ele volta. Tudo opcional.",
+      "offlineColor": "Cor",
+      "offlineBanner": "Banner no lugar do normal (opcional)",
+      "offlineNotice": "Aviso no topo (opcional)",
+      "offlineNoticePlaceholder": "⚠️ Cidade em manutenção, voltamos em breve!",
+      "restarts": "Horários de reinício",
+      "restartsHint": "O painel mostra quanto falta pro próximo. No layout próprio e no embed, use {placeholders}.",
+      "removeRestart": "Remover {time}",
+      "addRestart": "Horário",
+      "timezone": "Fuso horário",
+      "timezoneHint": "Vale pros horários de reinício e pra virada do dia do pico de jogadores."
+    },
+    "templates": {
+      "pick": "Começar de um modelo (substitui o layout atual):",
+      "compact": "Compacto",
+      "compactHint": "Nome, status e jogadores numa linha, com o banner ao lado.",
+      "banner": "Banner grande",
+      "bannerHint": "Banner em destaque, status e o connect pra copiar.",
+      "complete": "Completo",
+      "completeHint": "Tudo: lotação, próximo reinício, pico do dia e atualização.",
+      "statusLine": "**Status:** {status} · **Jogadores:** {players}",
+      "connectHint": "Use os botões abaixo para entrar.",
+      "completeLines": "**Status:** {status}\n**Jogadores:** {players}  {bar}\n**Próximo reinício:** {restart}\n**Pico hoje:** {peak}",
+      "updated": "Atualizado {when}"
+    }
   },
   "composer": {
     "accentColor": "Cor da barra lateral",
@@ -54,7 +88,8 @@
       "gallery": "Galeria",
       "section": "Seção",
       "separator": "Separador",
-      "field": "Campo"
+      "field": "Campo",
+      "joinButton": "Entrar"
     },
     "fieldHint": "Campo dinâmico, o bot preenche o valor.",
     "inChannel": "em",

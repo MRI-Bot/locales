@@ -9,7 +9,8 @@
     "status": "**Status:** {value}",
     "players": "**Jogadores:** {value}",
     "map": "**Mapa:** {value}",
-    "mode": "**Modo:** {value}"
+    "mode": "**Modo:** {value}",
+    "restart": "**Próximo reinício:** {value}"
   },
   "updatedAt": "Atualizado {when}",
   "joinButton": "Entrar no servidor",
