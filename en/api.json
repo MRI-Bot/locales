@@ -1530,6 +1530,7 @@
   "support": {
     "emptyMessage": "Empty message.",
     "messageTooLong": "Message exceeds 2000 characters.",
+    "noIdentity": "Log in with Discord to use support.",
     "notMember": "You need to be a member of the support server to open a request.",
     "openFailed": "Couldn't open the support request (bot offline?).",
     "sendFailed": "Couldn't send the message.",
