@@ -1530,6 +1530,7 @@
   "support": {
     "emptyMessage": "Mensaje vacío.",
     "messageTooLong": "El mensaje supera 2000 caracteres.",
+    "noIdentity": "Inicia sesión con Discord para usar el soporte.",
     "notMember": "Necesitas ser miembro del servidor de soporte para abrir una solicitud.",
     "openFailed": "No fue posible abrir la solicitud de soporte (¿bot sin conexión?).",
     "sendFailed": "No fue posible enviar el mensaje.",
