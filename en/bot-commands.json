@@ -22,6 +22,10 @@
       }
     }
   },
+  "apoiar": {
+    "name": "donate",
+    "description": "Shows your support in this server and how to support or renew."
+  },
   "assinatura": {
     "name": "subscription",
     "description": "Opens the subscriptions menu (admin)."

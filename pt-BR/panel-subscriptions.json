@@ -324,5 +324,45 @@
     "noPayments": "Sem cobranças registradas ainda. Elas aparecem quando o Mercado Pago cobrar a recorrência.",
     "gameActions": "Ações no jogo",
     "noGameActions": "Nenhuma ação no jogo disparada por este plano."
+  },
+  "notificationTest": {
+    "title": "Testar avisos",
+    "openNamed": "Testar avisos de {plan}",
+    "description": "Manda pra sua DM o aviso do plano {plan} exatamente como o membro recebe, com datas de exemplo. Nada é gravado.",
+    "typeLabel": "Aviso",
+    "hint": "O bot precisa conseguir te mandar DM: se as mensagens diretas do servidor estiverem fechadas, o teste não chega.",
+    "send": "Enviar pra minha DM",
+    "close": "Fechar",
+    "sent": "Aviso enviado. Confira sua DM no Discord.",
+    "notSent": "O bot não conseguiu te mandar DM. Confira se as mensagens diretas do servidor estão abertas.",
+    "types": {
+      "activated": "Assinatura ativada",
+      "renewed": "Cobrança renovada",
+      "prepaidActivated": "Compra avulsa (pré-pago)",
+      "giftReceived": "Presente recebido",
+      "expiringSoon": "Acesso acaba em breve (3 dias antes)",
+      "expired": "Acesso acabou",
+      "paymentFailed": "Pagamento falhou",
+      "cancelled": "Assinatura cancelada"
+    }
+  },
+  "donateCommand": {
+    "title": "Comando /apoiar no Discord",
+    "on": "Ligado",
+    "off": "Desligado",
+    "description": "Qualquer membro usa /apoiar (/donate em inglês) e vê só pra si o próprio apoio: plano, até quando vale e os botões de apoiar, renovar e cancelar. Os links já vêm com a conta do Discord do membro, então no celular não pedem login.",
+    "enabled": "Comando ligado",
+    "titleLabel": "Título da resposta",
+    "titlePlaceholder": "Seu apoio",
+    "plansLabel": "Planos que aparecem",
+    "allPlans": "Todos os planos ativos aparecem.",
+    "somePlans": "Só os planos marcados aparecem.",
+    "showRenew": "Botão de renovar",
+    "showRenewHint": "Aparece pra quem já apoia, no plano que ele tem.",
+    "showCancel": "Botão de cancelar",
+    "showCancelHint": "Só na assinatura recorrente. Pré-pago não tem o que cancelar.",
+    "save": "Salvar",
+    "saved": "Comando /apoiar salvo.",
+    "saveFailed": "Não foi possível salvar."
   }
 }

@@ -22,6 +22,10 @@
       }
     }
   },
+  "apoiar": {
+    "name": "apoiar",
+    "description": "Mostra o seu apoio neste servidor e como apoiar ou renovar."
+  },
   "assinatura": {
     "name": "assinatura",
     "description": "Abre o menu de assinaturas (admin)."

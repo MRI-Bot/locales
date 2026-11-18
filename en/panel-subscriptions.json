@@ -324,5 +324,45 @@
     "noPayments": "No charges recorded yet. They show up when Mercado Pago bills the recurrence.",
     "gameActions": "In-game actions",
     "noGameActions": "No in-game actions triggered by this plan."
+  },
+  "notificationTest": {
+    "title": "Test notices",
+    "openNamed": "Test notices of {plan}",
+    "description": "Sends the {plan} plan notice to your DM exactly as members get it, with sample dates. Nothing is recorded.",
+    "typeLabel": "Notice",
+    "hint": "The bot must be able to DM you: if direct messages from the server are off, the test does not arrive.",
+    "send": "Send to my DM",
+    "close": "Close",
+    "sent": "Notice sent. Check your Discord DM.",
+    "notSent": "The bot could not DM you. Check that direct messages from the server are on.",
+    "types": {
+      "activated": "Subscription activated",
+      "renewed": "Charge renewed",
+      "prepaidActivated": "One-time purchase (prepaid)",
+      "giftReceived": "Gift received",
+      "expiringSoon": "Access ends soon (3 days before)",
+      "expired": "Access ended",
+      "paymentFailed": "Payment failed",
+      "cancelled": "Subscription cancelled"
+    }
+  },
+  "donateCommand": {
+    "title": "/donate command on Discord",
+    "on": "On",
+    "off": "Off",
+    "description": "Any member uses /donate (/apoiar in Portuguese) and sees, only to themselves, their own support: plan, how long it lasts and the buttons to support, renew and cancel. Links already carry the member Discord account, so on a phone they do not ask for a login.",
+    "enabled": "Command on",
+    "titleLabel": "Reply title",
+    "titlePlaceholder": "Your support",
+    "plansLabel": "Plans shown",
+    "allPlans": "Every active plan is shown.",
+    "somePlans": "Only the checked plans are shown.",
+    "showRenew": "Renew button",
+    "showRenewHint": "Shown to current supporters, on the plan they have.",
+    "showCancel": "Cancel button",
+    "showCancelHint": "Recurring subscriptions only. Prepaid has nothing to cancel.",
+    "save": "Save",
+    "saved": "/donate command saved.",
+    "saveFailed": "Could not save."
   }
 }
