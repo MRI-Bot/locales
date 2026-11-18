@@ -73,5 +73,25 @@
       "next": "Siguiente",
       "more": "_Los demás productos de esta página están en el menú de abajo._"
     }
+  },
+  "donate": {
+    "title": "Tu apoyo",
+    "youSupport": "¡Gracias por apoyar este servidor!",
+    "notSupporting": "Todavía no apoyas este servidor. Elige un plan abajo: el enlace ya trae tu cuenta de Discord.",
+    "plans": "Planes",
+    "otherPlans": "Otros planes",
+    "renew": "Renovar {plan}",
+    "cancel": "Cancelar {plan}",
+    "subscribe": "Apoyar con {plan}",
+    "loadFailed": "No pude cargar tu apoyo ahora. Inténtalo de nuevo en unos segundos.",
+    "notConfiguredTitle": "Apoyo no configurado",
+    "notConfigured": "Este servidor no tiene apoyo configurado.",
+    "status": {
+      "recurring": "Activo, se cobra cada mes. Próximo cobro el {date}.",
+      "prepaid": "Activo hasta el {date} ({days, plural, one {falta # día} other {faltan # días}}). Renueva antes: el tiempo nuevo se suma al que falta.",
+      "lifetime": "Vitalicio.",
+      "pending": "Pago en revisión. Tu apoyo se activa en cuanto se apruebe.",
+      "pastDue": "El último pago falló. Paga de nuevo con el botón para mantenerlo."
+    }
   }
 }

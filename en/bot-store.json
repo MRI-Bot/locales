@@ -73,5 +73,25 @@
       "next": "Next",
       "more": "_The other products on this page are in the menu below._"
     }
+  },
+  "donate": {
+    "title": "Your support",
+    "youSupport": "Thanks for supporting this server!",
+    "notSupporting": "You do not support this server yet. Pick a plan below: the link already carries your Discord account.",
+    "plans": "Plans",
+    "otherPlans": "Other plans",
+    "renew": "Renew {plan}",
+    "cancel": "Cancel {plan}",
+    "subscribe": "Support with {plan}",
+    "loadFailed": "Could not load your support right now. Try again in a few seconds.",
+    "notConfiguredTitle": "Support not set up",
+    "notConfigured": "This server has no support set up.",
+    "status": {
+      "recurring": "Active, charged every month. Next charge on {date}.",
+      "prepaid": "Active until {date} ({days, plural, one {# day left} other {# days left}}). Renew before then: the new time is added to what is left.",
+      "lifetime": "Lifetime.",
+      "pending": "Payment under review. Your support starts as soon as it is approved.",
+      "pastDue": "The last payment failed. Pay again with the button to keep it."
+    }
   }
 }

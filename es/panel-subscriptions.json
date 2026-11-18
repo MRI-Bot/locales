@@ -324,5 +324,45 @@
     "noPayments": "Aún no hay cobros registrados. Aparecen cuando Mercado Pago cobre la recurrencia.",
     "gameActions": "Acciones en el juego",
     "noGameActions": "Ninguna acción en el juego disparada por este plan."
+  },
+  "notificationTest": {
+    "title": "Probar avisos",
+    "openNamed": "Probar avisos de {plan}",
+    "description": "Envía a tu DM el aviso del plan {plan} tal como lo recibe el miembro, con fechas de ejemplo. No se guarda nada.",
+    "typeLabel": "Aviso",
+    "hint": "El bot tiene que poder enviarte DM: si los mensajes directos del servidor están cerrados, la prueba no llega.",
+    "send": "Enviar a mi DM",
+    "close": "Cerrar",
+    "sent": "Aviso enviado. Revisa tu DM en Discord.",
+    "notSent": "El bot no pudo enviarte DM. Revisa que los mensajes directos del servidor estén abiertos.",
+    "types": {
+      "activated": "Suscripción activada",
+      "renewed": "Cobro renovado",
+      "prepaidActivated": "Compra única (prepago)",
+      "giftReceived": "Regalo recibido",
+      "expiringSoon": "El acceso termina pronto (3 días antes)",
+      "expired": "El acceso terminó",
+      "paymentFailed": "El pago falló",
+      "cancelled": "Suscripción cancelada"
+    }
+  },
+  "donateCommand": {
+    "title": "Comando /donar en Discord",
+    "on": "Activado",
+    "off": "Desactivado",
+    "description": "Cualquier miembro usa /donar (/donate en inglés) y ve, solo para sí, su propio apoyo: plan, hasta cuándo vale y los botones para apoyar, renovar y cancelar. Los enlaces ya traen la cuenta de Discord del miembro, así que en el celular no piden inicio de sesión.",
+    "enabled": "Comando activado",
+    "titleLabel": "Título de la respuesta",
+    "titlePlaceholder": "Tu apoyo",
+    "plansLabel": "Planes que aparecen",
+    "allPlans": "Aparecen todos los planes activos.",
+    "somePlans": "Solo aparecen los planes marcados.",
+    "showRenew": "Botón de renovar",
+    "showRenewHint": "Aparece a quien ya apoya, en el plan que tiene.",
+    "showCancel": "Botón de cancelar",
+    "showCancelHint": "Solo en la suscripción recurrente. El prepago no tiene nada que cancelar.",
+    "save": "Guardar",
+    "saved": "Comando /donar guardado.",
+    "saveFailed": "No se pudo guardar."
   }
 }
