@@ -95,5 +95,24 @@
   },
   "compare": {
     "feature": "Feature"
+  },
+  "selfTrial": {
+    "title": "Try {plan} free for {days, plural, one {# day} other {# days}}",
+    "description": "No card and no charge at the end. The trial is available once per account and once per server. When it ends, the server goes back to Free and paid modules are turned off.",
+    "guildLabel": "Server that will get the trial",
+    "guildPlaceholder": "Choose a server",
+    "guildBlocked": {
+      "guildTrialUsed": "{guild} (trial already used)",
+      "guildAlreadyPro": "{guild} (already PRO)"
+    },
+    "noGuilds": "Add the bot to one of your servers to start the trial.",
+    "noEligibleGuilds": "None of your servers can get the trial right now.",
+    "start": "Start free trial",
+    "confirmTitle": "Start the {plan} trial?",
+    "confirmDescription": "The trial lasts {days, plural, one {# day} other {# days}} and will cover {guild}. It can only be used once per account, and this server will not be able to get another trial.",
+    "confirm": "Start now",
+    "started": "{plan} trial active on {guild} until {date}.",
+    "failed": "Couldn't start the trial.",
+    "tooNew": "The free {plan} trial becomes available for your account on {date}."
   }
 }
