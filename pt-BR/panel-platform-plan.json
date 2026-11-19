@@ -95,5 +95,24 @@
   },
   "compare": {
     "feature": "Recurso"
+  },
+  "selfTrial": {
+    "title": "Teste o {plan} grátis por {days, plural, one {# dia} other {# dias}}",
+    "description": "Sem cartão e sem cobrança no fim. O teste vale uma vez por conta e uma vez por servidor. Quando acabar, o servidor volta ao Free e os módulos pagos são desligados.",
+    "guildLabel": "Servidor que vai receber o teste",
+    "guildPlaceholder": "Escolha um servidor",
+    "guildBlocked": {
+      "guildTrialUsed": "{guild} (já usou o teste)",
+      "guildAlreadyPro": "{guild} (já é PRO)"
+    },
+    "noGuilds": "Adicione o bot a um servidor seu para poder começar o teste.",
+    "noEligibleGuilds": "Nenhum dos seus servidores pode receber o teste agora.",
+    "start": "Começar teste grátis",
+    "confirmTitle": "Começar o teste do {plan}?",
+    "confirmDescription": "O teste dura {days, plural, one {# dia} other {# dias}} e vai cobrir {guild}. Ele só pode ser usado uma vez por conta, e esse servidor não poderá receber outro teste.",
+    "confirm": "Começar agora",
+    "started": "Teste do {plan} ativo em {guild} até {date}.",
+    "failed": "Não foi possível começar o teste.",
+    "tooNew": "O teste grátis do {plan} fica disponível para a sua conta em {date}."
   }
 }
