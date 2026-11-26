@@ -210,17 +210,13 @@
       "label": "Tamaño total de las fuentes",
       "unit": "KB"
     },
-    "mediaStorageMb": {
-      "label": "Almacenamiento multimedia",
+    "storageMb": {
+      "label": "Almacenamiento (multimedia + CDN)",
       "unit": "MB"
     },
     "mediaRetentionDays": {
       "label": "Retención multimedia",
       "unit": "{count, plural, one {día} other {días}}"
-    },
-    "fivemCdnStorageMb": {
-      "label": "Almacenamiento del CDN FiveM",
-      "unit": "MB"
     }
   },
   "planChange": {

@@ -343,6 +343,7 @@
   },
   "cdn": {
     "status": {
+      "quotaFull": "The license quota is full. What is already cached keeps being served; new files are not stored.",
       "off": "Off, players download directly from the server.",
       "unverified": "Address not confirmed: {error}",
       "verifying": "Waiting for the server to confirm the address (up to 1 minute with the server running).",
@@ -364,7 +365,7 @@
     "purge": "Clear cache",
     "purged": "Cache cleared ({count, plural, one {# file} other {# files}}).",
     "purgeError": "Could not clear.",
-    "inCache": "{size} cached",
+    "inCache": "{size} cached · license: {total}",
     "toggle": "Turn on the CDN for this server",
     "host": "Public server address",
     "hostPlaceholder": "myserver.com or 200.1.2.3",

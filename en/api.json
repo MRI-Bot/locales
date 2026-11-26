@@ -676,6 +676,7 @@
     "versionRequired": "`?version=X` missing and the server has no pinned GuildModuleVersion. Use /download for the default version."
   },
   "fivemCdn": {
+    "invalidFiles": "Select 1 to 100 of this server's files.",
     "apiKeyNotFound": "API key not found on this server.",
     "invalidPort": "Invalid port.",
     "notConfigured": "CDN not set up on this server.",
@@ -1096,6 +1097,7 @@
     "gameQrUrlInvalid": "Invalid link."
   },
   "media": {
+    "guildNotFound": "Server not found.",
     "base64Required": "Base64 content is required (`file`, `image` or `data` field).",
     "bulkDeleteMax": "Maximum of {max} files per call.",
     "fileNotFound": "File not found.",
@@ -1113,7 +1115,7 @@
     "nameTooLong": "The name can have up to {max} characters.",
     "providerDeleteFailed": "Couldn't remove the file from the provider. Logged for manual cleanup.",
     "publicUrlMissing": "BACKEND_PUBLIC_URL isn't configured — can't build the upload URL.",
-    "quotaReached": "The plan's storage quota has been reached ({used} of {quota} in use). Delete files or upgrade.",
+    "quotaReached": "The license storage quota has been reached ({used} of {quota} in use, counting media and CDN on all servers). Delete files, clear the CDN cache or upgrade.",
     "r2CopyFailed": "R2 COPY {status}: {body}",
     "r2DeleteFailed": "R2 DELETE {status}: {body}",
     "replaceImgbb": "This file is on ImgBB (legacy path) and can't be replaced. Upload a new one.",

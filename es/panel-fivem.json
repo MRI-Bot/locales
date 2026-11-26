@@ -343,6 +343,7 @@
   },
   "cdn": {
     "status": {
+      "quotaFull": "La cuota de la licencia está llena. Lo que ya está en caché se sigue entregando; los archivos nuevos no se guardan.",
       "off": "Desactivado, los jugadores descargan directamente del servidor.",
       "unverified": "Dirección no confirmada: {error}",
       "verifying": "Esperando que el servidor confirme la dirección (hasta 1 minuto con el servidor encendido).",
@@ -364,7 +365,7 @@
     "purge": "Limpiar caché",
     "purged": "Caché limpiada ({count, plural, one {# archivo} other {# archivos}}).",
     "purgeError": "No se pudo limpiar.",
-    "inCache": "{size} en caché",
+    "inCache": "{size} en caché · licencia: {total}",
     "toggle": "Activar el CDN en este servidor",
     "host": "Dirección pública del servidor",
     "hostPlaceholder": "miservidor.com o 200.1.2.3",

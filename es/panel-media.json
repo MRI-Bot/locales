@@ -42,6 +42,8 @@
     "body": "El módulo está activo, pero las credenciales del almacenamiento no se han definido en la plataforma, así que ninguna subida funcionará hasta entonces. Si eres el responsable de la instalación, consulta {doc}."
   },
   "usage": {
+    "shared": "Cuota de la licencia, compartida entre multimedia y CDN en {count, plural, one {# servidor} other {# servidores}}.",
+    "breakdown": "Multimedia de este servidor: {media} · CDN de resources: {cdn}",
     "title": "Almacenamiento usado",
     "ofQuota": "{used} de {quota}",
     "unlimited": "{used} (sin límite)",
