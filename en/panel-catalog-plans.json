@@ -210,17 +210,13 @@
       "label": "Total size of sources",
       "unit": "KB"
     },
-    "mediaStorageMb": {
-      "label": "Media storage",
+    "storageMb": {
+      "label": "Storage (media + CDN)",
       "unit": "MB"
     },
     "mediaRetentionDays": {
       "label": "Media retention",
       "unit": "{count, plural, one {day} other {days}}"
-    },
-    "fivemCdnStorageMb": {
-      "label": "FiveM CDN storage",
-      "unit": "MB"
     }
   },
   "planChange": {

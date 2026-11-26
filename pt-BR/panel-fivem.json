@@ -343,6 +343,7 @@
   },
   "cdn": {
     "status": {
+      "quotaFull": "A cota da licença está cheia. O que já está em cache continua sendo entregue; arquivos novos não são guardados.",
       "off": "Desligado, os jogadores baixam direto do servidor.",
       "unverified": "Endereço não confirmado: {error}",
       "verifying": "Aguardando o servidor confirmar o endereço (até 1 minuto com o servidor ligado).",
@@ -364,7 +365,7 @@
     "purge": "Limpar cache",
     "purged": "Cache limpo ({count, plural, one {# arquivo} other {# arquivos}}).",
     "purgeError": "Não foi possível limpar.",
-    "inCache": "{size} em cache",
+    "inCache": "{size} em cache · licença: {total}",
     "toggle": "Ligar o CDN neste servidor",
     "host": "Endereço público do servidor",
     "hostPlaceholder": "meuservidor.com ou 200.1.2.3",

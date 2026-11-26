@@ -42,6 +42,8 @@
     "body": "The module is active, but the storage credentials haven't been set on the platform, so no upload will work until then. If you're responsible for the installation, see {doc}."
   },
   "usage": {
+    "shared": "License quota, shared by media and CDN across {count, plural, one {# server} other {# servers}}.",
+    "breakdown": "This server's media: {media} · Resource CDN: {cdn}",
     "title": "Storage used",
     "ofQuota": "{used} of {quota}",
     "unlimited": "{used} (no limit)",
